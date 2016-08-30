@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema targetNamespace="http://xml.house.gov/schemas/uslm/1.0"
    xmlns="http://xml.house.gov/schemas/uslm/1.0"
    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
@@ -6,7 +6,7 @@
    xmlns:dcterms="http://purl.org/dc/terms/"
    elementFormDefault="qualified"
    attributeFormDefault="unqualified"
-   version="1.0.1">
+   version="1.0.18">
 
    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"
       schemaLocation="http://www.w3.org/2001/xml.xsd"/>
@@ -1369,7 +1369,8 @@
             <xsd:attributeGroup ref="ClassificationGroup"/>
             <xsd:attributeGroup ref="AnnotationGroup"/>
             <xsd:attributeGroup ref="DescriptionGroup"/>
-            <xsd:attributeGroup ref="VersioningGroup"/>            
+            <xsd:attributeGroup ref="VersioningGroup"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>            
          </xsd:extension>
       </xsd:simpleContent>
    </xsd:complexType>
@@ -1390,6 +1391,7 @@
       <xsd:attributeGroup ref="AnnotationGroup"/>
       <xsd:attributeGroup ref="DescriptionGroup"/>
       <xsd:attributeGroup ref="VersioningGroup"/>
+      <xsd:anyAttribute namespace="##other" processContents="lax"/>
    </xsd:complexType>
 
    <!-- ==================================================================== -->
@@ -1407,6 +1409,7 @@
       <xsd:attributeGroup ref="AnnotationGroup"/>
       <xsd:attributeGroup ref="DescriptionGroup"/>      
       <xsd:attributeGroup ref="VersioningGroup"/>
+      <xsd:anyAttribute namespace="##other" processContents="lax"/>
    </xsd:complexType>
 
    <!-- ==================================================================== -->
@@ -1636,6 +1639,7 @@
                   </xsd:element>
                </xsd:choice>
                </xsd:sequence>
+            <xsd:attribute name="schemaVersion" type="xsd:string" use="optional" />
          </xsd:extension>
       </xsd:complexContent>
    </xsd:complexType>
@@ -2584,28 +2588,10 @@
       <xsd:complexContent>
          <xsd:restriction base="BlockType">
             <xsd:sequence>
-               <xsd:element name="name">
-                  <xsd:complexType>
-                     <xsd:complexContent mixed="true">
-                        <xsd:restriction base="PropertyType"/>
-                     </xsd:complexContent>
-                  </xsd:complexType>
-               </xsd:element>
-               <xsd:element name="role" minOccurs="0">
-                  <xsd:complexType>
-                     <xsd:complexContent mixed="true">
-                        <xsd:restriction base="PropertyType"/>
-                     </xsd:complexContent>
-                  </xsd:complexType>
-               </xsd:element>
-               <xsd:element name="affiliation" minOccurs="0">
-                  <xsd:complexType>
-                     <xsd:complexContent mixed="true">
-                        <xsd:restriction base="PropertyType"/>
-                     </xsd:complexContent>
-                  </xsd:complexType>
-               </xsd:element>
-            <xsd:element ref="date" minOccurs="0">
+               <xsd:element name="name" type="PropertyType" minOccurs="0"/>
+               <xsd:element name="role" type="PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+               <xsd:element name="affiliation" type="PropertyType" minOccurs="0"/>
+               <xsd:element ref="date" minOccurs="0">
                   <xsd:annotation>
                      <xsd:documentation><![CDATA[
                         A date can be associated with a group of signatures,
@@ -2738,7 +2724,7 @@
          </xsd:extension>
       </xsd:complexContent>
    </xsd:complexType>
-
+   
    <!-- ==================================================================== -->
    <!-- Structural Building Blocks                                           -->
    <!-- ==================================================================== -->
