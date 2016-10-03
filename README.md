@@ -6,7 +6,7 @@ In support of the United States Legislative Branch XML Working Group and in acco
 
 
 ## Versions ##
-The current version of the schema is in the master branch, and proposed changes to the schema are in the proposed branch. A major.minor.point structure is used to identify the version, and the version is recorded as an attribute at the root level. The point number is incremented to indicate a non-breaking change while the minor number is incremented to indicate a breaking change. Breaking changes will only be implemented after all other options have been exhausted. Please refer to [CHANGELOG.md](CHANGELOG.md) for a summary of proposed and approved changes.  
+The current version of the schema is in the master branch. If there are any proposed changes to the schema, the changes will be in a proposed branch. A major.minor.point structure is used to identify the version, and the version is recorded as an attribute at the root level. The point number is incremented to indicate a non-breaking change while the minor number is incremented to indicate a breaking change. Breaking changes will only be implemented after all other options have been exhausted. Please refer to [CHANGELOG.md](CHANGELOG.md) for a summary of proposed and approved changes.  
 
 
 
