@@ -170,7 +170,7 @@
             aspect of the element that is subject to change, such as an 
             assigned number. The preferred algorithm for generating the @id attribute 
             value is to use a GUID (Globally Unique IDentifier) 
-            generator that guarantees uniques in all space and time. The @id 
+            generator that guarantees uniqueness in all space and time. The @id 
             should be given a simple "id" prefix. 
             
           * The @name attribute is assigned a simple, short name that identifies
