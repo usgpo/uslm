@@ -11,5 +11,5 @@ The current version of the schema is in the master branch. If there are any prop
 
 
 ## User Guide ##
-Please refer to the User Guide in [PDF](USLM-User-Guide.pdf) or [Markdown] (USLM-User-Guide.md) for additional information about the schema. 
+Please refer to the User Guide in [PDF](USLM-User-Guide.pdf) or [Markdown](USLM-User-Guide.md) for additional information about the schema. 
 
