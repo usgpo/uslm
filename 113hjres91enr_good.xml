@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm/2.0 https://www.govinfo.gov/schemas/xml/uslm/2.0/uslm-2.0.0.xsd" xml:lang="en" class="mimicGPOPrint">
+<meta><dc:title>113 HJRES 91 ENR: Making continuing appropriations for death gratuities and related survivor benefits for survivors of deceased military service members of the Department of Defense for fiscal year 2014, and for other purposes.</dc:title><dc:type>House Joint Resolution</dc:type><docNumber>91</docNumber><dc:creator>United States House of Representatives</dc:creator><processedBy>GPO Locator to USLM Converter 3.0.2, compiled on  2018/06/20 02:20:00;Stage2.20180611</processedBy><dc:publisher>United States Government Publishing Office</dc:publisher><dc:format>text/xml</dc:format><dc:language>EN</dc:language><dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights><docStage>ENR</docStage><congress>113</congress><session>1</session><publicPrivate>public</publicPrivate></meta><preface><dc:type>H. J. RES.</dc:type><docNumber>91</docNumber><congress style="-uslm-lc:I665502" value="113">One Hundred Thirteenth Congress of the United States of America</congress><session style="-uslm-lc:I665503" value="1">AT THE FIRST SESSION</session><enrolledDateline style="-uslm-lc:I665504">Begun and held at the City of Washington on Thursday, the third day of January, two thousand and thirteen</enrolledDateline></preface>
+<main>
+<longTitle>
+<docTitle style="-uslm-lc:I665505" class="centered fontsize18">Joint Resolution</docTitle>
+<officialTitle style="-uslm-lc:I665511" class="centered fontsize8">Making continuing appropriations for death gratuities and related survivor benefits for survivors of deceased military service members of the Department of Defense for fiscal year 2014, and for other purposes.<br verticalSpace="08pt"/></officialTitle>
+</longTitle>
+<resolvingClause class="inline" style="-uslm-lc:I650120">  Resolved by the Senate and House of Representatives of the United States of America in Congress assembled,</resolvingClause>
+<section class="inline">
+<content class="inline"> That the following sums are hereby appropriated, out of any money in the Treasury not otherwise appropriated, for death gratuities and related benefits for survivors of deceased military service members of the Department of Defense for fiscal year 2014, and for other purposes, namely:</content>
+</section>
+<section style="-uslm-lc:I650120"><num value="101">Sec. 101. </num><subsection class="inline"><num value="a">(a)</num><chapeau> Such amounts as may be necessary, at a rate for operations as provided for fiscal year 2013 in the Department of Defense Appropriations Act, 2013 (<ref href="/us/pl/113/6/dC">division C of Public Law 113–6</ref>) and under the authority and conditions provided in such Act, for “Operation and Maintenance” and “Military Personnel” accounts for continuing the following projects and activities that are not otherwise specifically provided for in this joint resolution or the Pay Our Military Act (<ref href="/us/pl/113/39">Public Law 113–39</ref>), and for which appropriations, funds, or other authority were made available by the Department of Defense Appropriations Act, 2013:</chapeau><paragraph style="-uslm-lc:I650122" class="indent1 fontsize10"><num value="1" class="firstlineindent2">(1)</num><content> The payment of a death gratuity under sections 1475–1477 and 1489 of <ref href="/us/usc/t10">title 10, United States Code</ref>.</content>
+</paragraph>
+<paragraph style="-uslm-lc:I650122" class="indent1 fontsize10"><num value="2" class="firstlineindent2">(2)</num><content> The payment or reimbursement for funeral and burial expenses authorized under sections 1481 and 1482 of <ref href="/us/usc/t10">title 10, United States Code</ref>.</content>
+</paragraph>
+<paragraph style="-uslm-lc:I650122" class="indent1 fontsize10"><num value="3" class="firstlineindent2">(3)</num><content> The payment or reimbursement of authorized funeral travel and travel related to the dignified transfer of remains and unit memorial services under section 481f of <ref href="/us/usc/t37">title 37, United States Code</ref>.</content>
+</paragraph>
+<paragraph style="-uslm-lc:I650122" class="indent1 fontsize10"><num value="4" class="firstlineindent2">(4)</num><content> The temporary continuation of a basic allowance of housing for dependents of members dying on active duty, as authorized by <ref href="/us/usc/t37/s403/l">section 403(l) of title 37, United States Code</ref>.</content>
+</paragraph>
+</subsection>
+<subsection style="-uslm-lc:I650120" class="indent0 fontsize10"><num value="b" class="firstlineindent2">(b)</num><chapeau> The rate for operations provided by subsection (a) for each program or activity shall be calculated to reflect the full amount of any reduction required in fiscal year 2013 pursuant to—</chapeau><paragraph style="-uslm-lc:I650122" class="indent1 fontsize10"><num value="1" class="firstlineindent2">(1)</num><content> any provision of division G of the Consolidated and Further Continuing Appropriations Act, 2013 (<ref href="/us/pl/113/6">Public Law 113–6</ref>), including section 3004; and</content>
+</paragraph>
+<paragraph style="-uslm-lc:I650122" class="indent1 fontsize10"><num value="2" class="firstlineindent2">(2)</num><content> the Presidential sequestration order dated March 1, 2013, except as attributable to budget authority made available by the Disaster Relief Appropriations Act, 2013 (<ref href="/us/pl/113/2">Public Law 113–2</ref>).</content>
+</paragraph>
+</subsection>
+</section>
+<section style="-uslm-lc:I650120"><num value="102">Sec. 102.  </num><content class="inline">Appropriations made by section 101 shall be available to the extent and in the manner that would be provided by the pertinent appropriations Act.</content>
+</section>
+<section style="-uslm-lc:I650120"><num value="103">Sec. 103.  </num><content class="inline">Unless otherwise provided for in this joint resolution or in the applicable appropriations Act for fiscal year 2014, appropriations and funds made available and authority granted pursuant to this joint resolution shall be available until whichever of the following first occurs: (1) the enactment into law of an appropriation for any project or activity provided for in this joint resolution; (2) the enactment into law of the applicable appropriations Act for fiscal year 2014 without any provision for such project or activity; or (3) December 15, 2013.</content>
+</section>
+<section style="-uslm-lc:I650120"><num value="104">Sec. 104.  </num><content class="inline">Expenditures made pursuant to this joint resolution shall be charged to the applicable appropriation, fund, or authorization whenever a bill in which such applicable appropriation, fund, or authorization is contained is enacted into law.</content>
+</section>
+<section style="-uslm-lc:I650120"><num value="105">Sec. 105.  </num><content class="inline">This joint resolution shall be implemented so that only the most limited funding action of that permitted in the joint resolution shall be taken in order to provide for continuation of projects and activities.</content>
+</section>
+<section style="-uslm-lc:I650120"><num value="106">Sec. 106.  </num><content><p class="inline">It is the sense of Congress that this joint resolution may also be referred to as the “Honoring the Families of Fallen Soldiers Act”.</p></content>
+</section><level><p style="-uslm-lc:I650120" class="indent0 fontsize10">   This joint resolution may be cited as 
+        the <shortTitle>“Department of Defense Survivor Benefits Continuing Appropriations Resolution, 2014”</shortTitle>.</p></level>
+</main>
+<signatures>
+<signature><role style="-uslm-lc:I650114">Speaker of the House of Representatives.</role></signature>
+<signature><role style="-uslm-lc:I650114">Vice President of the United States and  President of the Senate.</role></signature>
+</signatures>
+</resolution>

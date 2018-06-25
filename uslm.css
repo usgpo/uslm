@@ -1,0 +1,2789 @@
+@charset "UTF-8";
+@namespace uslm "http://xml.house.gov/schemas/uslm/1.0";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+@namespace dc "http://purl.org/dc/elements/1.1/";
+@namespace dcterms "http://purl.org/dc/terms/";
+@namespace xhtml "http://www.w3.org/1999/xhtml";
+
+/* Version 2.00 */
+
+/* Web font definitions */
+@font-face {
+  font-family: 'UnifrakturMaguntia';
+  font-style: normal;
+  font-weight: 400;
+  src: local('UnifrakturMaguntia'), url(https://fonts.gstatic.com/s/unifrakturmaguntia/v7/7KWy3ymCVR_xfAvvcIXm3wh3zWhftzIdHBsuU0JwdCQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* USLM root elements*/
+
+/* Set margin to be 1em, to push the text away from the frame/print border */
+/* Set the font-size to be 10pts, and make all other measurements in em's */
+/* Not using rem units becuase sometime the USLM lives within a 'div' of a surrounding application */
+/* Use serifed font to match printed bills and U.S. Code */
+
+/* For bills and resolutions, set the max-width to match prints from GPO */
+bill, resolution, pLaw {
+    display:            block;
+    margin:             1em;
+    max-width:          46.8em;
+    font-size:          10pt;
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+}
+
+/* For U.S. Code, set compatability with usctitle.css that is used publically */
+uscDoc  {
+    width:              426pt;
+    margin-left:        24pt;
+    margin-right:       24pt;
+    font-size:          11pt;
+    font-family:        sans-serif;
+}
+
+cfrDoc {
+    display:            block;
+    margin:             1em;
+    max-width:          35em;  /* 350 points */
+    font-size:          10pt;
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+}
+
+frDoc {
+    display:            block;
+    margin:             1em;
+    max-width:          58em;  /* 522 points */
+    font-size:          9pt;
+    font-family:        "Times New Roman", serif;
+}
+
+uscDoc>meta, frDoc>meta  {
+    display:            block;
+    border-style:       solid;
+    border-width:       1pt;
+    border-color:       gray;
+    margin-left:	    3pt;
+    margin-top:         3pt;
+    margin-bottom:	    3pt;
+    text-align:         left;
+    text-indent:        1em;
+}
+
+uscDoc>meta:before, frDoc>meta:before  {
+    display:            inline;
+    color:              gray;
+    font-size:          1.2em;
+    font-weight:        bold;
+    content:            "[Metadata]";
+}
+
+
+/* USLM First-level elements */
+meta, preface, main, signatures, appendix {
+    display:            block;
+}
+
+/* For bills and resolutions, set the margins and max-width to match prints from GPO */
+/* Allow the width to be narrower than print display to support narrower viewing windows */
+/* Support an override stylesheet, to set fixed width to mimic the PDF width without scaling narrower when the window is not wide enough */
+bill>main,
+bill>preface,
+bill>signatures,
+bill>appendix,
+resolution>main,
+resolution>preface,
+resolution>signatures,
+resolution>appendix,
+pLaw>main,
+pLaw>preface,
+pLaw>signatures,
+pLaw>appendix  {
+    max-width:          32.4em;
+    margin-left:        7.2em;
+    margin-right:       7.2em;
+}
+
+/* The print that OLRC delivers to GPO is approx. 25% smaller and has wider margins */
+bill[class="OLRCPrint"] {
+    width:              450pt;
+    max-width:          450pt;
+    margin-left:        72pt;
+    margin-right:       72pt;
+    font-size:          8pt;
+}
+
+bill[class="OLRCPrint"]>meta,
+bill[class="OLRCPrint"]>preface,
+bill[class="OLRCPrint"]>main,
+bill[class="OLRCPrint"]>appendix {
+    margin-left:        108pt;
+    margin-right:       108pt;
+}
+
+resolution>signatures>signature>notation[type="attestation"]  {
+    display:            block;
+    text-align:         left;
+    font-style:         normal;
+    margin-left:        -8em;
+}
+
+resolution resolvingClause  {
+    display:            inline;
+}
+
+/* Preface Elements */
+/* Bill and Resolution Preface */
+bill>preface>dc|type,
+resolution>preface>dc|type  {
+    display:            inline-block;
+    margin-top:         1em;
+    margin-left:        -4em;  /* this is shown in the left margin */
+    text-align:         left;
+    font-size:          1.3em;
+    text-transform:     uppercase;
+}
+
+bill>preface>docNumber,
+resolution>preface>docNumber  {
+    display:            inline-block;
+    margin-left:        0em;  /* this shows on the same line as the dc|type */
+    font-size:          1.3em;
+    text-transform:     uppercase;
+}
+
+bill>preface>action,
+resolution>preface>action  {
+    display:            inline-block;
+    float:              right;
+    margin-top:         1em;
+    margin-right:        -4em;  /* this is shown in the right margin */
+    font-size:          1.3em;
+}
+
+bill>preface>congress,
+resolution>preface>congress  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      .5em;
+    margin-left:        1em;
+    margin-right:       1em;
+    text-align:         center;
+    font-size:          2em;
+    font-family:        "Old English Text MT", UnifrakturMaguntia, serif;
+}
+
+bill>preface>session,
+resolution>preface>session  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    text-align:         center;
+    font-weight:        bold;
+    text-transform:     uppercase;
+}
+
+enrolledDateline   {
+    display:            block;
+    margin-top:         1em;
+    margin-left:        3em;
+    margin-right:       3em;
+    text-align:         center;
+    font-size:          1em;
+    font-weight:        bold;
+    font-style:         italic;
+    font-family:        "Bodoni MT", serif;
+}
+
+
+/* Public & Private Law Preface */
+pLaw>preface>dc|type,
+pLaw >preface>docNumber,
+pLaw>preface>congress  {
+    display:            inline-block;
+    margin-top:         1em;
+    text-align:         left;
+    font-size:          1.2em;
+}
+
+/* Federal Register Preface */
+frDoc>preface  {
+    display:            block;
+    border-bottom-style:   solid;
+    border-width:       1pt;  
+    border-color:       gray;
+    text-align:         left;
+}
+
+frDoc>preface>startingPage  {
+    display:            block;
+    margin-top:         1em;
+    text-align:         right;
+    font-size:          1.2em;
+    font-weight:        bold;
+}
+
+frDoc>preface>docPublicationName[role="unitName"]  {
+    display:            block;
+    border-top-style:   double;
+    border-width:       3pt;
+    text-align:         left;
+    font-size:          2em;
+    font-weight:        bold;
+    font-family:        sans-serif;
+}
+
+frDoc>preface>docPublicationName[role="documentName"]  {
+    display:            block;
+    margin-top:         .7em;
+    margin-left:        0em;
+    text-align:         left;
+    font-size:          0.9em;
+    font-weight:        bold;
+}
+
+frDoc>preface>volume  {
+    display:            inline-block;
+    margin-top:         .7em;
+    margin-left:        0em;
+    text-align:         left;
+    font-size:          .9em;
+    font-family:        serif;
+}
+
+frDoc>preface>volume::before {
+    content:            "Vol. ";
+}
+
+frDoc>preface>issue  {
+    display:            inline-block;
+    margin-left:        .2em;
+    text-align:         left;
+    font-size:          .9em;
+}
+
+frDoc>preface>issue::before {
+    content:            "No. ";
+}
+
+frDoc>preface>date  {
+    display:            block;
+    margin-top:         .7em;
+    margin-bottom:      1.2em;
+    margin-left:        0em;
+    text-align:         left;
+    font-size:          .9em;
+}
+
+presidentialDocs p[class="titleGroupNum"]
+{
+    margin-top:         .7em;
+    text-indent:        0em;
+    font-size:          1em;
+    font-weight:        bold;
+}
+
+presidentialDocs p[class="titleGroupSubject"]
+{
+    margin-top:         .7em;
+    text-indent:        0em;
+    font-size:          1.2em;
+    font-weight:        bold;
+}
+
+presidentialDoc>preface>dc|title  {
+    display:            block;
+    margin-top:         .7em;
+    margin-left:        0em;
+    text-align:         left;
+    font-size:          1em;
+    font-weight:        bold;
+}
+
+presidentialDoc>preface>dc|subject  {
+    display:            block;
+    margin-top:         .7em;
+    margin-left:        0em;
+    text-align:         left;
+    font-size:          1.2em;
+    font-weight:        bold;
+    font-family:        serif;
+}
+
+/* Federal Register Main elements */
+frDoc part  {
+    display:            block;
+    margin-left:        0em;
+    text-align:         justify; /*left align in print due to narrow column */
+}
+
+frDoc level,
+frDoc section,
+frDoc paragraph,
+frDoc subparagraph,
+frDoc level>heading  {
+    display:            block;
+    margin-left:        0em;
+    margin-bottom:      0.25em;
+    text-align:         justify; /*left align in print due to narrow column */
+}
+
+frDoc level>num,
+frDoc level>heading,
+frDoc part>num,
+frDoc part>heading,
+frDoc section>heading,  
+frDoc section>num  {
+    text-indent:        0em;
+    font-weight:        bold;
+    font-size:          1em;
+    font-weight:        bold;
+    font-family:        sans-serif;
+}
+
+/* Override the normal inline style.  Not sure if this is the best way. */
+frDoc content>p:first-of-type  {
+    display:            block;
+}
+
+frDoc section>content  {
+    display:            inline;
+}
+
+frDoc signature, frDoc signature *  {
+    display:            block;
+    text-align:         left;
+    font-style:         normal;
+    margin-left:        0em;
+}
+
+frDoc signature>date  {
+    text-indent:         1em;
+}
+
+frDoc signature>name  {
+    font-weight:         bold;
+}
+
+frDoc signature>role  {
+    font-style:         italic;
+}
+
+frDoc note[topic="frDocID"]  {
+    font-size:          0.8em;
+    margin-top:         1em;
+}
+
+frDoc note[topic="billingCode"]  {
+    font-size:          0.7em;
+    font-family:        sans-serif;
+    font-weight:        bold;
+    margin-bottom:      2em;
+}
+
+/* Collections */
+rules, proposedRules, notices, presidentialDocs  {
+    display:            block;
+    width:              100%;  /* 522 points */
+    margin-top:         1.2em;
+    text-align:         justify; /*left align in print due to narrow column */
+    font-family:        sans-serif;
+}
+
+rules>p, proposedRules>p, notices>p  {
+    display:            block;
+    margin-bottom:	    0.7em;
+    text-indent:        0em;
+}
+
+agencyGroup  {
+    display:            block;
+    border-top-style:   solid;
+    border-width:       2pt;
+}
+
+
+/*  Supress display of metadata in components */
+component>*>meta,
+component>*>meta *  {
+    display:none;
+}
+
+/* rule, notice, and presidentialDoc elements */
+rule, presidentialDoc, notice  {
+    display:            block;
+    font-size:          1em;
+    font-family:        serif;
+}
+
+/* Presidential Documents */
+presidentialDoc  {
+   margin-left:         2em;
+}
+
+presidentialDoc section {
+   margin-top:          0.3em;
+   text-indent:         1em;
+}
+
+presidentialDoc statement  {
+    display:            block;
+    margin-top:         1.5em;
+}
+
+presidentialDoc section>num {
+   font-family:         serif;
+}
+
+presidentialDoc section>heading {
+   font-family:         serif;
+   font-style:          italic;
+   font-weight:         normal;
+}
+
+presidentialDoc signature>date {
+   text-indent:         0em;
+   font-style:          italic;
+}
+
+notice>preface>startingPage  {
+   display:             none;
+}
+
+/* Rule Documents, including proposed rules */
+rule>preface, notice>preface  {
+    display:            block;
+    margin-top:         2pt;
+    border-top-style:   solid;
+    border-top-width:   1pt;
+}
+
+rule level>heading, notice level>heading {
+   font-family:         serif;
+}
+
+rule statement,
+notice statement  {
+    display:            block;
+    margin-top:         0.3em;
+}
+
+rule statement>p:first-of-type,
+notice statement>p:first-of-type {
+    display:            inline;
+}
+
+rule p>heading {
+   font-style:          italic;
+}
+
+rule *[class="T02"]  {
+    font-weight:        bold;
+    font-family:        sans-serif;
+    font-size:          0.8em;
+}
+
+frDoc preface>organization,
+frDoc preface>property,
+rule>preface>affected,
+frDoc preface>dc|subject,
+frDoc preface>subject,
+notice>preface>dc|identifier  {
+    display:            block;
+    margin-top:         0.7em;
+    font-family:        sans-serif; 
+    font-weight:        bold;
+}
+
+frDoc appendix  {
+    text-align:         left;
+}
+
+frDoc preface>organization[role="agency"]  {
+    display:            block;
+    margin-top:         0.3em;
+    font-family:        serif; 
+    font-weight:        normal;
+}
+
+/* remove -uslm style attribute, replace with role attribute */
+frDoc preface docNumber[style="-uslm-sgm-DEPDOC"]  {
+    display:            block;
+    margin-top:         1em;
+    font-size:          0.8em;
+    font-weight:        bold;
+    font-family:        sans-serif;
+}
+
+frDoc preface>subject  {
+    margin-bottom:      0.7em;
+}
+
+notice subject,
+notice organization  {
+    display:            block;
+    margin-top:         0.7em;
+    font-family:        sans-serif; 
+    font-weight:        bold;
+}
+
+notice>main>date  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+}
+
+frDoc preface>action  {
+    display:            block;
+    margin-top:         0.1em;
+    margin-bottom:      0.5em;
+    padding-bottom:     0.5em;
+    font-family:        serif;
+    border-bottom-style:    solid;
+    border-width:       1pt;
+}
+
+frDoc preface inline[role="heading"],
+frDoc statement>heading  {
+    display:            inline;
+    font-size:          0.8em;
+    font-weight:        bold;
+    font-family:        sans-serif;
+}
+
+frDoc *[class~="hd1"]  {
+    display:            block;
+    font-family:        serif;
+    font-weight:        bold;
+    font-size:          1em;
+    margin-top:         0.3em;
+    margin-bottom:      0.3em;
+    text-indent:        0em;
+}
+
+frDoc *[class~="hd2"]  {
+    display:            block;
+    font-family:        serif;
+    font-weight:        normal;
+    font-style:         italic;
+    font-size:          1em;
+    margin-top:         0.3em;
+    margin-bottom:      0.3em;
+    text-indent:        0em;
+}
+
+wordsOfIssuance  {
+    display:            block;
+    margin-top:         0.3em;
+    text-indent:        1em;
+}
+
+/* cfrDoc preface */
+cfrDoc>preface  {
+    display:            block;
+    margin-left:        4em;
+    font-size:          1em;
+    font-weight:        normal;
+}
+
+cfrDoc>preface>dcterms|title  {
+    display:            block;
+    margin-left:        1.8em;
+    font-size:          1.6em;
+    font-family:        sans-serif;
+    font-weight:        normal;
+    text-align:         left;
+}
+
+cfrDoc>preface>docNumber  {
+    display:            block;
+    margin-left:        1em;
+    margin-top:         1em;
+    font-size:          3em;
+    font-family:        sans-serif;
+    font-weight:        bold;
+}
+
+cfrDoc>preface>subject  {
+    display:            block;
+    margin-left:        1.8em;
+    width:              16em;
+    font-size:          1.6em;
+    font-family:        sans-serif;
+    font-weight:        normal;
+    border-bottom:      solid;
+    border-width:       1pt;
+}
+
+cfrDoc>preface>provisionRange  {
+    display:            block;
+    margin-top:         1em;
+    margin-left:        2.1em;
+    font-size:          1.4em;
+    font-family:        sans-serif;
+    font-weight:        normal;
+}
+
+cfrDoc>preface>created  {
+    display:            block;
+    margin-top:         2em;
+    margin-left:        2.5em;
+    font-size:          1.2em;
+    font-family:        sans-serif;
+    font-weight:        normal;
+}
+
+cfrDoc>preface>note[topic="contains"],
+cfrDoc>preface>dc|date,
+cfrDoc>preface>dc|publisher  {
+    display:            block;
+    margin-top:         2em;
+    margin-left:        3em;
+    width:              21em;
+    text-indent:        0em;
+    font-size:          1em;
+    font-family:        sans-serif;
+    font-weight:        normal;
+}
+
+cfrDoc>preface>content,
+cfrDoc>preface editionNote,
+cfrDoc>preface citationNote,
+cfrDoc>preface explanationNote  {
+    display:            block;
+    margin-top:         5em;
+}
+
+cfrDoc>preface heading  {
+    display:            block;
+    margin-top:         1em;
+    font-size:          1em;
+    font-family:        sans-serif;
+    font-weight:        bold;
+}
+
+cfrDoc>preface citationNote  {
+    margin-left:        3em;
+    width:              15em;
+    border-top:         solid;
+    border-bottom:      solid;
+    border-width:       1pt;
+    font-style:         italic;
+}
+
+cfrDoc>preface citationNote > p  {
+    margin-top:         0.5em;
+    margin-bottom:         0.5em;
+    margin-left:        1em;
+    text-indent:        -1em;
+    font-style:         italic;
+}
+
+cfrDoc>preface>explanationNote  {
+    font-size:          0.8em;
+    text-align:         justify;
+}
+
+cfrDoc>preface>explanationNote heading  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    font-size:          1em;
+    font-family:        "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-weight:        normal;
+}
+
+cfrDoc>preface>explanationNote>heading:first-of-type {
+    display:            block;
+    margin-bottom:      1em;
+    font-size:          1.2em;
+    font-family:        sans-serif;
+    text-align:         center;
+    font-weight:        normal;
+}
+
+/* cfrDoc main */
+cfrDoc>main  {
+    margin-top:         5em;
+}
+
+cfrDoc title>num, cfrDoc title>heading  {
+    font-size:          3em;
+    font-family:        sans-serif;
+    font-weight:        normal;
+}
+
+cfrDoc title>note[topic="volumeNote"]  {
+    text-align:         center;
+    margin-top:         1em;
+    padding-bottom:     3em;
+    margin-bottom:      0.5em;
+    border-bottom:      solid;
+    border-width:       1pt;
+}
+
+cfrDoc chapter,
+cfrDoc subchapter  {
+    margin-top:         6em;
+}
+
+cfrDoc chapter>num,
+cfrDoc chapter>heading  {
+    font-family:        sans-serif;
+    font-size:          1.6em;
+    font-weight:        normal;
+}
+
+cfrDoc chapter>heading+*  {
+    border-top:        solid;
+    border-width:      1pt;
+    margin-top:        2em;
+    padding-top:       1em;
+}
+
+cfrDoc subchapter>num,
+cfrDoc subchapter>heading  {
+    font-family:        sans-serif;
+    font-size:          1.2em;
+    font-weight:        bold;
+}
+
+cfrDoc part  {
+    margin-bottom:      1.5em;
+}
+
+cfrDoc part>num,
+cfrDoc part>heading,
+cfrDoc subpart>num,
+cfrDoc subpart>heading  {
+    font-family:        sans-serif;
+    font-size:          1.1em;
+    font-weight:        bold;
+}
+
+cfrDoc section>chapeau,
+cfrDoc paragraph  {
+    text-indent:        1em;
+    margin-left:        0em;
+}
+
+cfrDoc section  {
+    text-indent:        -2em;
+    margin-left:        2em;
+}
+
+cfrDoc section>:not(heading):not(num)  {
+    margin-left:        -2em; /* sets margin back to normal */
+}
+
+cfrDoc section heading::before  {
+    content:            " ";
+}
+
+cfrDoc section>heading::before  {
+    content:            " \00a0";
+}
+
+cfrDoc paragraph>heading  {
+    font-variant:       none;
+    font-style:         italic;
+}
+
+cfrDoc level  {
+    margin-left:        0em;
+    text-indent:        0em;
+}
+
+cfrDoc level>heading  {
+    display:            block;
+    text-align:         center;
+    margin-top:         1em;
+    font-variant:       small-caps;
+}
+
+cfrDoc level>section  {
+    margin-top:         0.3em;
+}
+
+cfrDoc heading+notes  {
+    margin-top:         1.5em;
+    /* add space above when notes comes directly after heading */
+}
+
+cfrDoc note, cfrDoc editorialNote  {
+    display:            block;
+    font-size:          0.9em;
+    text-indent:        1em;
+    text-align:         left;
+}
+
+cfrDoc note[topic="citation"]  {
+    margin-top:         1em;
+    text-indent:        0em;
+}
+
+cfrDoc authority, cfrDoc source  {
+    display:            block;
+    text-indent:        1em;
+    text-align:         left;
+    font-size:          0.85em;
+    margin-top:         0.3em;
+}
+
+cfrDoc section>source  {
+    margin-top:         0.7em;
+    border-width:       1pt;
+    text-indent:        0em;
+}
+
+cfrDoc appendix>num, cfrDoc appendix>heading  {
+    display:            inline;
+    font-variant:       small-caps;    
+    font-size:          1.1em;
+}
+
+cfrDoc appendix>p  {
+    text-align:         left;
+}
+
+cfrDoc appendix>heading+p  {
+    /* Adds space above a paragraph right after a heading */
+    margin-top:         1em;
+}
+
+/* Main elements */
+
+/* Bills and Resolutions */
+longTitle>docTitle   {
+    display:            block;
+    margin-top:         1.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+    font-size:          1.6em;
+    font-weight:        normal;
+    font-family:        "Old English Text MT", UnifrakturMaguntia, serif;
+}
+
+pLaw>main>longTitle>docTitle   {
+    font-size:          1.2em;
+    font-family:        serif;
+}
+
+longTitle>officialTitle   {
+    display:            block;
+    margin-bottom:      0.5em;
+    margin-left:        2em;
+    margin-right:       2em;
+    text-indent:        -1em;
+    text-align:         justify;
+    font-size:          0.8em;
+}
+
+resolution longTitle>officialTitle   {
+    margin-left:        1em;  /* Resolution official titles are full-width */
+    margin-right:       0em;  /* Resolution official titles are full-width */
+}
+
+recital {
+    display:            block;
+    margin-bottom:         0.5em;
+    margin-left:        1em;
+    text-indent:        -1em;
+    font-size:          1em;
+    text-align:         justify;
+}
+
+enactingFormula, resolvingClause {
+    display:            block;
+    text-indent:        1em;
+    font-size:          1em;
+    font-style:         italic;
+    text-align:         justify;
+}
+
+bill>main>section  {
+    margin-top:         1em;
+    margin-bottom:      1em;
+}
+
+bill>main>title>num, bill>main>title>a>num, bill>main>title>heading  {
+    margin-top:         1em;
+    margin-bottom:      1em;
+    text-align:         center;
+    font-size:          1.5em;
+    font-weight:        bold;
+}
+
+resolution section  {
+    text-align:         center;
+}
+
+resolution subsection  {
+    text-indent:        1em;
+}
+
+resolution>main>section,
+bill>main>title>section {
+    text-align:         justify;
+    text-indent:        1em;
+}
+
+resolution>main>section *,
+bill>main>title>section *:not(table*)  {
+    display:            inline;
+}
+
+resolution>main>section>num,
+bill>main>title>section>num {
+    font-weight:        normal;
+    font-variant:       small-caps;
+}
+
+/* Section is displayed differently if it has a heading */
+resolution>main>section>heading ~ content:first-of-type  {
+    display:            block;
+}
+
+resolution main level,
+bill main level  {
+    margin-left:        0em;
+}
+
+/* Section nums and headings are bold in both bills and the USC. */
+section>num, section>a>num, section>heading  {
+    font-size:          1em;
+    font-weight:        bold;
+    text-transform:     none;
+}
+
+/* USC Section nums and headings are larger than body text */
+section[identifier*="/us/usc"]>num,
+section[identifier*="/us/usc"]>a>num,
+section[identifier*="/us/usc"]>heading  {
+    font-size:          1.15em;
+}
+
+/* Bill Section nums and headings are all caps and smaller font size*/
+bill>main>section>num, bill>main>section>a>num, bill>main>section>heading  {
+    font-size:          0.8em;
+    text-transform:     uppercase;
+}
+
+bill>main>title>num, bill>main>title>a>num, bill>main>title>heading,
+division>title>num, division>title>a>num, division>title>div>a>num, division>title>heading, division>title>div>heading  {
+    text-transform:     uppercase;
+}
+
+/* Bill Sections with a heading that preceeds the num have the heading centered on a separate line */
+bill>main section > heading:first-child  {
+    display:            block;
+    text-align:         center;
+    margin-bottom:      0.5em;
+}
+
+/* Bill Section with a num and no heading have the content on the same line as the num  */
+bill>main section > num + content,
+bill>main section > num + chapeau,
+resolution>main section > num + content,
+resolution>main section > num + chapeau,
+plaw>main section > num + content,
+plaw>main section > num + chapeau  {
+    display:            inline;
+}
+
+/* Bill Section with heading that preceed the num have the the num indented */
+bill>main section > heading + num,
+bill>main section > num:first-child,
+bill>main section > content:first-child,
+bill>main section > chapeau:first-child
+{
+    text-indent:        2em;
+}
+
+subsection>heading,
+paragraph>heading,
+subparagraph>heading,
+clause>heading,
+subclause>heading,
+item>heading,
+subitem>heading,
+subsubitem>heading {
+    font-variant:       small-caps;
+}
+
+rule subsection>heading  {
+    font-variant:       normal;
+    font-style:         italic;
+}
+
+subheading  {
+    display:            block;
+}
+
+content>p:first-of-type,
+paragraph>p:first-of-type  {
+    display:            inline;
+}
+
+/* Signatures */
+signatures  {
+    margin-right:       2em;
+}
+
+rulePreamble>signatures>signature  {
+    margin-top:         0.4em;
+}
+
+signature  {
+     display:           block;
+     margin-top:        2em;
+     margin-left:       10em;
+     text-align:        right;
+     font-style:        italic;
+}
+
+/* U.S. Code */
+/* Big-levels */
+title, 
+subtitle, 
+chapter, 
+subchapter, 
+part, 
+subpart, 
+division, 
+subdivision, 
+level,
+appendix, 
+compiledAct, 
+courtRule, 
+reorganizationPlan {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      0.3em;
+    text-align:         center;
+}
+
+title>num, title>a>num, title>heading  {
+    font-size:          2em;
+    font-weight:        bold;
+}
+
+subtitle>num, subtitle>heading  {
+    font-size:          1.5em;
+    font-weight:        bold;
+}
+
+chapter>num, chapter>heading  {
+    font-size:          1.2em;
+    font-weight:        bold;
+}
+
+division>num, division>a>num, division>heading  {
+    text-transform:     uppercase;
+    font-weight:        bold;
+}
+
+part>num, part>heading,
+subpart>num, subpart>heading  {
+    font-size:          1.2em;
+}
+
+heading {
+    font-weight:        normal;
+    display:            inline;
+}
+
+
+/* USLM 1.0 ToC rules (deprecated)*/
+toc {   
+ /*   display:            table; */
+    display : block;
+    width:              100%;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    text-align:         left;
+    text-indent:        0em;
+    font-weight:        normal;
+}
+
+uscDoc toc {
+    border-style:       solid;
+    border-color:       gray;
+    border-width:       1pt;    
+    margin-left:        0pt;
+    margin-top:         24pt;
+    margin-bottom:      3pt;
+    margin-right:       0pt;
+    text-align:         left;
+    display:            table;
+    font-size:          11pt;
+}
+
+toc > layout header {
+    display:            block;
+}
+
+toc > layout header[role="tocColumnHeader"] {
+    display:            table-row;
+    font-size:          0.9em;
+    font-weight:        normal;
+}
+
+toc > layout header[role="tocSubtitleHeader"] > column  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+    font-weight:        bold;
+}
+
+title toc > layout header[role="tocSubtitleHeader"] > column  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+    font-size:          1.5em;
+    font-weight:        bold;
+}
+
+toc > layout header[role="tocTitleHeader"] > column,
+toc > layout header[role="tocDivisionHeader"] > column,
+toc > layout header[role="tocSubdivisionHeader"] > column,
+toc > layout header[role="tocChapterHeader"] > column,
+toc > layout header[role="tocSubchapterHeader"] > column,
+toc > layout header[role="tocPartHeader"] > column,
+toc > layout header[role="tocSubpartHeader"] > column {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+    text-transform:     uppercase;
+    font-weight:        bold;
+}
+
+toc > layout header[role="tocSubpartHeader"] {
+    display:            block;
+}
+
+tocItem {
+/*    display:            table-row; */ 
+}
+
+column {
+    display:            table-cell;
+}
+
+column[class~="threeColumnLeft"] {
+    width:              10%;
+}
+
+column[class~="threeColumnMiddle"] {
+    width:              100%;
+}
+
+column[class~="threeColumnRight"] {
+    width:              15%;
+    text-align:         right;
+}
+
+column[class~="tocHeaderLeft"] {
+    width:              5em;
+    text-align:         left;
+}
+
+column[class~="tocHeaderRight"] {
+    width:              15%;
+    text-align:         right;
+}
+
+column[class~="twoColumnLeft"] {
+    width:              5em;
+}
+
+column[class~="twoColumnRight"] {
+    width:              50em;
+}
+
+toc[role="twoColumnPageWidthTOC"] {
+    width:             426pt;
+}
+
+toc[role="twoColumnPageWidthTOC"] column[class~="twoColumnLeft"] {
+    width:             380pt;
+    margin-right:      10pt;
+    font-weight:       bold;
+}
+
+toc[role="twoColumnPageWidthTOC"] column[class~="twoColumnRight"],
+toc[role="twoColumnPageWidthTOC"] column[class~="headerRight"] {
+    width:             40pt;
+    text-align:        right;
+}
+
+toc[role="twoColumnPageWidthTOC"] column[class~="twoColumnRight"] {
+    font-weight:       bold;
+}
+
+*[class~="indentTo65ptsHang"] {
+   text-indent:        -24pt;
+   padding-left:       36pt;
+}
+
+/* USLM 2.0 ToC rules */
+/* ToC's are blocks */
+bill toc, resolution toc, pLaw toc  {
+    display:            block;
+    font-size:          0.8em;
+}
+
+referenceItem, groupItem, headingItem  {
+    display:            table-row;
+    width:              100%;
+}
+
+/* By default, designators, labels and targets are flex block */
+designator, label, target  {
+    display:            table-cell;
+    text-align:         left;
+    vertical-align:     top;
+}
+
+/* targets are right aligned */
+target  {
+    text-align:         right;
+}
+
+/* Some Big level ToC entries are centered, with designator and label inline */
+bill toc referenceItem[role="division"],
+bill toc > referenceItem[role="title"],
+bill toc > referenceItem[role="subtitle"],
+resolution toc referenceItem[role="division"],
+resolution toc > referenceItem[role="title"],
+resolution toc > referenceItem[role="subtitle"],
+pLaw toc referenceItem[role="division"],
+pLaw toc > referenceItem[role="title"],
+pLaw toc > referenceItem[role="subtitle"]  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+}
+
+bill toc referenceItem[role="division"] > designator,
+bill toc referenceItem[role="division"] > label,
+bill toc referenceItem[role="title"] > designator,
+bill toc referenceItem[role="title"] > label,
+bill toc referenceItem[role="subtitle"] > designator,
+bill toc referenceItem[role="subtitle"] > label,
+resolution toc referenceItem[role="division"] > designator,
+resolution toc referenceItem[role="division"] > label,
+resolution toc referenceItem[role="title"] > designator,
+resolution toc referenceItem[role="title"] > label,
+resolution toc referenceItem[role="subtitle"] > designator,
+resolution toc referenceItem[role="subtitle"] > label,
+plaw toc referenceItem[role="division"] > designator,
+plaw toc referenceItem[role="division"] > label,
+plaw toc referenceItem[role="title"] > designator,
+plaw toc referenceItem[role="title"] > label,
+plaw toc referenceItem[role="subtitle"] > designator,
+plaw toc referenceItem[role="subtitle"] > label  {
+    display:            inline;
+}
+
+/* Nested entries are set back to left align */
+bill toc referenceItem[role="division"] referenceItem,
+resolution toc referenceItem[role="division"] referenceItem,
+pLaw toc referenceItem[role="division"] referenceItem  {
+    text-align:         left;
+}
+
+resolution toc referenceItem[role="section"]:first-of-type *,
+bill toc referenceItem[role="section"]:first-of-type *,
+pLaw toc referenceItem[role="section"]:first-of-type *  {
+    padding-top:         1em;    
+}
+
+bill toc referenceItem[role="section"]>designator,
+resolution toc referenceItem[role="section"]>designator,
+pLaw toc referenceItem[role="section"]>designator  {
+    width:              6em;
+}
+
+bill toc referenceItem[role="section"]>label,
+resolution toc referenceItem[role="section"]>label,
+pLaw toc referenceItem[role="section"]>label  {
+    text-indent:        -1em;
+    padding-left:        1em;
+}
+
+cfrDoc toc, fr toc  {
+    display:            block;
+}
+
+cfrDoc toc > heading, fr toc > heading  {
+    display:            block;
+    text-align:         center;
+    font-size:          2em;
+}
+
+cfrDoc toc referenceItem  {
+    display:            flex;
+    width:              100%;
+    flex-direction:     row;
+    justify-content:    space-between;
+}
+
+cfrDoc toc groupItem > designator, cfrDoc toc groupItem > label {
+    display:            inline;
+    text-align:         center;
+}
+
+cfrDoc toc groupItem, cfrDoc toc headingItem  {
+    display:            block;
+    width:              100%;
+    text-align:         center;
+}
+
+cfrDoc toc designator  {
+    display:            block;
+}
+
+cfrDoc toc label  {
+    display:            block;
+}
+
+cfrDoc toc target  {
+    display:            block;
+    margin-right:       0em;
+}
+
+cfrDoc > preface toc  {
+    font-size:         0.8em;
+}
+
+cfrDoc > preface toc > headingItem > designator {
+    font-style:         italic;
+}
+
+cfrDoc > preface toc > groupItem > headingItem {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    text-align:         left;
+}
+
+cfrDoc > preface toc > groupItem > referenceItem {
+    text-indent:        2em;
+}
+
+cfrDoc toc[class="cfrTitleTOC"] headingItem,
+cfrDoc > preface toc > headingItem  {
+    display:            flex;
+    width:              100%;
+    flex-direction:     row;
+    justify-content:    flex-end;
+    font-style:         italic;
+}
+
+cfrDoc toc headingItem[class="columnHeader"]  {
+    display:            flex;
+    width:              100%;
+    flex-direction:     row;
+    justify-content:    space-between;
+    font-style:         italic;
+}
+
+cfrDoc toc headingItem > designator,
+cfrDoc toc headingItem > label {
+    display:            inline;
+    font-variant:       small-caps;
+}
+
+cfrDoc toc[class="cfrChapterTOC"] referenceItem > designator  {
+    width:              6em;
+}
+
+cfrDoc part > toc headingItem  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+    width:              100%;
+}
+
+/* the first level group heading is bold */
+cfrDoc part > toc > groupItem > headingItem  {
+    font-family:        sans-serif;
+    font-weight:        bold;
+    font-variant:       normal;
+}
+
+cfrDoc part > toc referenceItem  {
+    display:            block;
+    text-align:         left;
+    margin-left:        2em;
+    text-indent:        -2em;
+    width:              100%;
+}
+
+cfrDoc part > toc referenceItem > designator,
+cfrDoc part > toc referenceItem > label  {
+    display:            inline;
+}
+
+/* Interim rules. Obsolete, but contains rules not yet implemented above
+toc  {
+    display:           block;
+}
+
+tocItem  {
+    display:           block;
+    position:          relative;
+    min-height:        1.2em;
+}
+
+toc numRef  {
+    text-align:        left;
+    vertical-align:    top;
+}
+
+toc headingRef  {
+    text-align:        left;
+    vertical-align:    top;
+}
+
+toc target  {
+    text-align:        right;
+    vertical-align:    top;
+}
+
+tocItem[class="columnHeader"]  {
+    font-style:        italic;
+    font-size:         0.9em;
+}
+
+toc[class="cfrTitleTOC"] numRef  {
+    display:           inline-block;
+    max-width:         20%;
+}
+
+toc[class="cfrTitleTOC"] headingRef  {
+    display:           inline-block;
+    max-width:         69%;
+    / numRef and headingRef max-widths sum to 89% instead of 90%
+       to accommodate blank space inserted between inline-blocks  /
+    font-size:         1.1em;
+}
+
+toc[class="cfrTitleTOC"] target  {
+    display:           block;
+    position:          absolute;
+    top:               0%;
+    left:              90%;
+    width:             10%;
+    font-size:         1.1em;
+}
+
+tocItem[class="headerEntry"]  {
+    text-align:        center;
+    margin-top:        0.8em;
+    margin-bottom:     0.8em;
+}
+
+toc[class="cfrChapterTOC"]>tocItem[class="headerEntry"] *  {
+    display:           inline;
+    font-size:         1em;
+}
+
+toc[class="cfrChapterTOC"] numRef  {
+    display:           inline-block;
+    width:             14%;
+    font-size:         1.1em;
+}
+
+toc[class="cfrChapterTOC"] headingRef  {
+    display:           inline-block;
+    width:             74.5%;
+    font-size:         1.1em;
+}
+
+toc[class="cfrChapterTOC"] headingRef+target  {
+    left:              90%;
+    width:             10%;  / width when preceding headingRef exists /
+}
+
+toc[class="cfrChapterTOC"] target  {
+    display:           block;
+    position:          absolute;
+    top:               0%;
+    left:              15%;
+    width:             85%;
+    / widths sum to less than 100% to accommodate
+       blank space inserted between inline-blocks  /
+    font-size:         1.1em;
+}
+
+toc[class="cfrPartTOC"]  {
+    text-indent:       -1.8em;
+    margin-left:       1.8em;
+}
+
+toc[class="cfrPartTOC"] tocItem *  {
+    display:           inline;
+    font-size:         0.9em;
+}
+
+toc[class="cfrPartTOC"] tocItem[class="columnHeader"]  {
+    font-size:         1em;
+    font-style:        normal;
+}
+
+toc[class="cfrPartTOC"]>tocItem[class="headerEntry"] *  {
+    display:           inline;
+    font-size:         1em;
+    font-family:       sans-serif;
+    font-weight:       bold;
+}
+
+toc[class="cfrPartTOC"] tocItem:not([class="headerEntry"])>headingRef::before  {
+    content:           " \00a0\00a0";
+}
+
+toc[class="cfrPartTOC"] tocItem[class="undesignatedHeader"]  {
+    text-align:        center;
+    margin-top:        0.2em;
+    margin-bottom:     0.2em;
+    font-variant:      small-caps;
+}
+
+toc[class="cfrPartAppendixTOC"]  {
+    text-indent:       -1.8em;
+    margin-left:       1.8em;
+}
+
+toc[class="cfrPartAppendixTOC"] tocItem *  {
+    display:           inline;
+    font-size:         1em;
+    font-variant:      small-caps;
+}
+
+toc[class="cfrPartAppendixTOC"] tocItem[class="columnHeader"] * {
+    font-size:         1em;
+    font-style:        normal;
+    font-variant:      normal;
+}
+*/
+
+/* Section element rules */
+section {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      0.3em;
+    text-align:         justify;
+    font-size:          1em;
+    font-weight:        normal;
+}
+
+section > content, section > amendingFormula {
+    display:            block;
+    margin-top:         0em;
+    margin-bottom:      0em;
+    text-indent:        1em;
+}
+
+
+/* Below section element rules */
+
+content {
+    display:            inline;
+}
+
+/* 
+num, heading, content, chapeau, inline, span,
+section > content, subsection > content,
+paragraph > content, subparagraph > content,
+clause > content, subclause > content,
+item > content, subitem > content  {
+    white-space:        pre-wrap;
+}
+*/
+ 
+/* Subsections are flush with sections */
+subsection  {
+    display:            block;
+    margin-top:         0.3em;
+    margin-left:        0em;
+    margin-bottom:      0.3em;
+    text-align:         justify;
+    text-indent:        2em;
+}
+
+/* As a workaround, !important is set for USC small levels to override the indent and first-indent styles */
+/* Current USC USLM data has indents that are absolute from the left margin, not relative to their container. */
+/* But, this CSS works on relative margins. */
+
+/* In USC, subsection headings are not small-caps
+ * This was incorrectly set because it followed the html printing the printed pdf does have small caps for subsections.
+subsection[identifier*="/us/usc"] heading,
+section[identifier*="/us/usc"] subsection heading {
+    font-variant:       normal;
+}
+*/
+
+/* In USC, small levels that have headings put a new line after the heading */
+subsection[identifier*="/us/usc"] heading+content,
+subsection[identifier*="/us/usc"] heading+chapeau,
+paragraph[identifier*="/us/usc"] heading+content,
+paragraph[identifier*="/us/usc"] heading+chapeau,
+subparagraph[identifier*="/us/usc"] heading+content,
+subparagraph[identifier*="/us/usc"] heading+chapeau,
+clause[identifier*="/us/usc"] heading+content,
+clause[identifier*="/us/usc"] heading+chapeau,
+subclause[identifier*="/us/usc"] heading+content,
+subclause[identifier*="/us/usc"] heading+chapeau,
+item[identifier*="/us/usc"] heading+content,
+item[identifier*="/us/usc"] heading+chapeau,
+subitem[identifier*="/us/usc"] heading+content,
+subitem[identifier*="/us/usc"] heading+chapeau,
+/* In case the small level does not have a USC identifier */
+section[identifier*="/us/usc"] subsection heading+content,
+section[identifier*="/us/usc"] subsection heading+chapeau,
+section[identifier*="/us/usc"] paragraph heading+content,
+section[identifier*="/us/usc"] paragraph heading+chapeau,
+section[identifier*="/us/usc"] subparagraph heading+content,
+section[identifier*="/us/usc"] subparagraph heading+chapeau,
+section[identifier*="/us/usc"] clause heading+content,
+section[identifier*="/us/usc"] clause heading+chapeau,
+section[identifier*="/us/usc"] subclause heading+content,
+section[identifier*="/us/usc"] subclause heading+chapeau,
+section[identifier*="/us/usc"] item heading+content,
+section[identifier*="/us/usc"] item heading+chapeau,
+section[identifier*="/us/usc"] subitem heading+content,
+section[identifier*="/us/usc"] subitem heading+chapeau  {
+    display:            block;
+    margin-left:        0em !important;
+    text-indent:        1em !important;
+}
+
+/* Levels below subsection are indented */
+paragraph, 
+subparagraph, 
+clause, 
+subclause, 
+item,
+subitem, 
+subsubitem, 
+level {
+    display:            block;
+    margin-top:         0.3em;
+    margin-left:        2em;
+    margin-bottom:      0.3em;
+    text-align:         justify;
+    text-indent:        2em;
+}
+
+/* In USC, levels below subsection are indented 1em instead of 2em */
+/* In USC, small levels that have headings have no first line indent, so make that the default */
+subsection[identifier*="/us/usc"],
+paragraph[identifier*="/us/usc"], 
+subparagraph[identifier*="/us/usc"], 
+clause[identifier*="/us/usc"], 
+subclause[identifier*="/us/usc"], 
+item[identifier*="/us/usc"],
+subitem[identifier*="/us/usc"], 
+subsubitem[identifier*="/us/usc"], 
+level[identifier*="/us/usc"],
+/* In case the small level does not have a USC identifier */
+section[identifier*="/us/usc"] subsection,
+section[identifier*="/us/usc"] paragraph, 
+section[identifier*="/us/usc"] subparagraph, 
+section[identifier*="/us/usc"] clause, 
+section[identifier*="/us/usc"] subclause, 
+section[identifier*="/us/usc"] item,
+section[identifier*="/us/usc"] subitem, 
+section[identifier*="/us/usc"] subsubitem, 
+section[identifier*="/us/usc"] level  {
+    display:            block;
+    margin-top:         0.3em;
+    margin-left:        1em !important;
+    margin-bottom:      0.3em;
+    text-align:         justify;
+    text-indent:        0em !important;
+}
+
+subsection[identifier*="/us/usc"],
+section[identifier*="/us/usc"] subsection  {
+    margin-left:        0em !important;
+}
+
+paragraph[class~="indent-up1"] {
+    margin-left:        0em;
+}
+
+chapeau {
+    display:            inline;
+}
+
+section>chapeau {
+    display:            block;
+    text-indent:        2em;
+}
+
+chapeau[class~="blockIndent0"] {
+    display:            block;
+    margin-left:        0em;
+    text-indent:        1em;
+}
+
+chapeau[class~="blockIndent1"] {
+    display:            block;
+    margin-left:        1em;
+    text-indent:        1em;
+}
+
+chapeau[class~="blockIndent2"] {
+    display:            block;
+    margin-left:        2em;
+    text-indent:        1em;
+}
+
+continuation {
+    display:            block;
+}
+
+
+/* Appropriations */
+title[role~="appropriations"]>num,
+title[role~="appropriations"]>heading  {
+    text-align:         center;
+    font-size:       1em;
+    font-weight:        normal;
+}
+
+appropriations,
+level[role~="appropriations"]  {
+    display:            block;
+    margin-top:         1em;
+    margin-left:        0em;
+    text-align:         justify;
+}
+
+
+appropriations > heading,
+title[role~="appropriations"] > heading,
+level[role~="appropriations"] > heading,
+appropriations-intermediate > heading,
+appropriations > subheading,
+title[role~="appropriations"] > subheading,
+level[role~="appropriations"] > subheading,
+appropriations-intermediate > subheading  {
+    display:            block;
+    margin-bottom:      0.5em;
+    text-align:         center;
+    text-transform:     capitalize;
+    font-variant:       small-caps;
+}
+
+appropriations > content  {
+    display:            block;
+    margin-left:        0em;
+    text-align:         justify;
+    text-indent:        2em;
+}
+
+appropriations > section > num,
+*[role=appropriations] > section > num  {
+    margin-left:        2em;
+    font-weight:        normal;
+    font-variant:       small-caps;
+}
+
+appropriations > section > content,
+appropriations > section > chapeau,
+*[role=appropriations] > section > content,
+*[role=appropriations] > section > chapeau  {
+    display:            inline;
+}
+
+/* Appendix Content */
+reorganizationPlan > content {
+    display:            block;
+    margin-top:         0.3em;
+    margin-bottom:      0.3em;
+    margin-right:       1em;
+    text-align:         left;
+    text-indent:        1em;
+    font-weight:        normal;
+}
+
+
+/* Notes and References */
+notes {
+    display:            block;
+    margin-top:         0.3em;
+    margin-bottom:      0.3em;
+    margin-left:        0em;
+    font-size:          0.9em;
+    font-weight:        normal;
+}
+
+sourceCredit {
+    display:            block;
+    margin-left:        0em;
+    margin-top:         0.3em;
+    margin-bottom:      0.3em;
+    text-align:         left;
+    text-indent:        0em;
+    font-size:          1em;
+    font-weight:        normal;
+}
+
+sourceCredit > p {
+    text-indent:        0em;
+}
+
+note {
+    display:            block;
+    margin-bottom:      0.3em;
+    text-align:         left;
+    text-indent:        0em;
+    font-weight:        normal;
+}
+
+notes[type="uscNote"] > note > heading {
+    margin-top:         2em;
+    font-size:          0.9em;
+    text-align:         center;
+    display:            block;
+    font-weight:        bold;
+    text-transform:     uppercase;
+}
+
+note[type="footnote"],
+footnote  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0em;
+    text-align:         left;
+    text-indent:        0em;
+    font-size:          1em;
+}
+
+note[type="footnote"] > num,
+footnote > num,
+ref[class~="footnoteRef"] {
+    font-weight:        bold;
+    vertical-align:     super;
+    font-size:          0.8em;
+}
+
+/* Footnote superscript number */
+/* These selectors should be replaced with non-SGML specific selectors */
+note[style="-uslm-sgm-FTNT/P/SU"],
+footnote[style="-uslm-sgm-FTNT/P/SU"],
+ref[style="-uslm-sgm-p/su"]
+{
+    display:            inline;
+    font-size:          0.8em;
+    vertical-align:     top;
+}
+
+/* Sidenotes */
+sidenote  {
+  display:              block;
+  float:                right;  /* Default to right side */
+  margin-right:         -12em;  /* Default to right side */
+  width:                10em;
+  text-align:           left;
+  margin-top:           0em;
+  margin-bottom:        -1.2em;
+  font-family:          arial, sans-serif;
+  text-indent:          0em;
+  text-transform:       none;
+  font-size:            1em;
+  font-weight:          normal;
+  font-variant:         normal;
+}
+
+sidenote[renderingPosition="leftMargin"] {
+  float:                left;
+  margin-left:         -12em;
+}
+
+/* Hack to push the a second sidenote below the first one.  There should be a better way to do this. */
+sidenote:not(:first-of-type) {
+  margin-top:         3em;
+}
+
+sidenote[topic~="enactment"]  {
+  float:                right;
+  margin-right:         -12em;
+  margin-bottom:        -1.2em;
+  font-size:            1em;
+  text-align:           center;
+}
+
+sidenote[topic~="enactment"] date {
+  text-decoration:      underline; /* To simulate the line between date and the bill number */
+}
+
+sidenote[topic~="shortTitle"],
+sidenote[topic~="classification"],
+sidenote[topic~="pLawNote"]  {
+  font-size:            0.8em;
+}
+
+sidenote > p {
+  text-indent:          0em;
+}
+
+/* OLRC Classification Notes */
+sidenote[topic*="olrc"] {
+  float: left;
+  text-align: right;
+  margin-left: -15em;
+  font-size: 1.2em;
+}
+
+/* Hack to force a single line of text to be right justified within the float block.  Without this, a single line is left justified. */
+sidenote[topic="olrcClassification"]:after {
+  white-space: pre;
+    content: "\A              ";
+}
+
+sidenote[topic="olrcClassification"][renderingPosition="rightMargin"] {
+  float: right;
+  text-align: left;
+  margin-top: .2em;
+  margin-left: -15em;
+  margin-right: -12em;
+  font-size: 1.2em;
+}
+
+sidenote[topic="olrcStamp"]  {
+  display:  block;
+  float: right;
+  width: 2em;
+  text-align: center;
+  text-indent: 0em;
+  margin-top: 0em;
+  margin-right: -6em;
+  font-family: cursive;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: blue;
+  border: 2pt solid blue;
+  border-radius: 10pt;
+
+}
+
+sidenote[topic="olrcClassification"][class="out"] {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: green;
+}
+
+span[role="classifiedText"]:before,
+ref[role="classifiedText"]:before  {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: red;
+    content: "["
+}
+
+span[role="classifiedText"]:after,
+ref[role="classifiedText"]:after  {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: red;
+    content: "]"
+}
+
+/* In-flow Notes */
+legislativeHistory  {
+    display:            block;
+    max-width:          32.4em;
+    margin-left:        7.2em;
+    margin-right:       7.2em;
+    margin-top:         4em;
+    border-top:         1px solid;
+    font-size:          0.8em;
+}
+
+note[topic="enacting"] > p {
+    display:            block;
+    margin-left:        2em;
+    margin-right:       2em;
+    margin-top:         0em;
+    margin-bottom:      0em;
+    text-align:         center;
+    font-style:         italic;
+}
+
+note[topic="explanation"]::before {
+    font-style:         normal;
+}
+
+note[topic="explanation"] {
+    font-style:         italic;
+}
+
+/* For U.S. Code note at the top */
+title>note[topic="miscellaneous"], appendix>note[topic="miscellaneous"] {
+    display:            block;
+    text-align:         center;
+    font-style:         normal;
+}
+
+title>note[topic="miscellaneous"]>p:before, appendix>note[topic="miscellaneous"]>p:before {
+    display:            inline;
+    content:            "[";
+}
+
+title>note[topic="miscellaneous"]>p:after, appendix>note[topic="miscellaneous"]>p:after {
+    display:            inline;
+    content:            "]";
+}
+
+/* Elided */
+elided[role="fiveStar"] {
+    display:            block;
+    margin-bottom:      0em;
+    text-align:         left;
+    text-indent:        0em;
+    font-weight:        normal;
+}
+
+elided[role="threeStar"] {
+    display:            inline;
+    font-weight:        normal;
+}
+
+/* General Content Item Rules */
+*[class~="normal"]  {
+    font-weight:        normal;
+    font-style:         normal;
+    font-variant:       normal;
+}
+
+*[class~="centered"] {
+    display:            block;
+    margin-left:        0em;
+    margin-right:       0em;
+    text-indent:        0em;
+    text-align:         center;
+}
+
+*[class~="bold"] {
+    font-weight:        bold !important;
+}
+
+*[class~="italic"] {
+    font-style:         italic !important;
+}
+
+*[class~="smallCaps"] {
+    font-variant:       small-caps !important;
+}
+
+*[class~="noSmallCaps"]  {
+    font-variant:       normal !important;
+}
+
+*[class~="block"] {
+   display:             block;
+}
+
+*[class~="inline"] {
+   display:             inline !important;
+   margin-left:         0em;
+}
+
+*[class~="firstIndent-4"] {
+    text-indent:        -4em !important;
+}
+
+*[class~="firstIndent-3"] {
+    text-indent:        -3em !important;
+}
+
+*[class~="firstIndent-2"] {
+    text-indent:        -2em !important;
+}
+
+*[class~="firstIndent-1"] {
+    text-indent:        -1em !important;
+}
+
+*[class~="firstIndent0"] {
+    text-indent:        0em !important;
+}
+
+*[class~="firstIndent1"] {
+    text-indent:        1em !important;
+}
+
+*[class~="firstIndent2"] {
+    text-indent:        2em !important;
+}
+
+
+*[class~="rightIndent1"] {
+    display:            block;
+    margin-right:       1em;
+    text-align:         right;
+}
+
+*[class~="rightIndent3"] {
+    display:            block;
+    margin-right:       3em;
+    text-align:         right;
+}
+
+*[class~="indent-6"] {
+    display:            block;
+    margin-left:        -6em;
+    text-align:         justify;
+}
+
+*[class~="indent-5"] {
+    display:            block;
+    margin-left:        -5em;
+    text-align:         justify;
+}
+
+*[class~="indent-4"] {
+    display:            block;
+    margin-left:        -4em;
+    text-align:         justify;
+}
+
+*[class~="indent-3"] {
+    display:            block;
+    margin-left:        -3em;
+    text-align:         justify;
+}
+
+*[class~="indent-2"] {
+    display:            block;
+    margin-left:        -2em;
+    text-align:         justify;
+}
+
+*[class~="indent0"], *[class~="indent-1"] {
+    display:            block;
+    margin-left:        0em;
+    text-align:         justify;
+}
+
+*[class~="indent1"] {
+    display:            block;
+    margin-left:        1em;
+    text-align:         justify;
+    text-indent:        1em;
+}
+
+*[class~="indent2"] {
+    display:            block;
+    margin-left:        2em;
+    text-align:         justify;
+    text-indent:        1em;
+}
+
+*[class~="indent3"] {
+    display:            block;
+    margin-left:        3em;
+    text-align:         justify;
+    text-indent:        1em;
+}
+
+*[class~="indent4"] {
+    display:            block;
+    margin-left:        4em;
+    text-align:         justify;
+    text-indent:        1em;
+}
+
+*[class~="indent5"] {
+    display:            block;
+    margin-left:        5em;
+    text-align:         justify;
+    text-indent:        1em;
+}
+
+*[class~="indent6"] {
+    display:            block;
+    margin-left:        6em;
+    text-align:         justify;
+    text-indent:        1em;
+}
+
+*[class~="indent7"] {
+    display:            block;
+    margin-left:        7em;
+    text-align:         justify;
+    text-indent:        1em;
+}
+
+*[class~="fontsize6"] {
+    font-size:          0.6em;
+}
+
+*[class~="fontsize7"] {
+    font-size:          0.7em;
+}
+
+*[class~="fontsize8"] {
+    font-size:          0.8em;
+}
+
+/* cfr classes */
+*[class~="heading2"]  {
+    text-align:         center;
+    font-style:         italic;
+    margin-top:         1em;
+}
+
+*[class~="heading1"]  {
+    text-align:         center;
+    font-variant:       small-caps;
+    margin-top:         1em;
+}
+
+*[class~="heading1"]+p:not([class]),
+*[class~="heading2"]+p:not([class])  {
+    /* Add space above regular paragraphs after headings */
+    margin-top:         1em;
+}
+
+xhtml|p, p {
+    display:            block;
+    margin-left:        0em;
+    text-indent:        1em;
+}
+
+text {
+    display:            block;
+    text-indent:        1em;
+}
+
+continuation {
+    display:            block;
+    text-indent:        0em;
+}
+
+content > heading  {
+    display:            block;
+    margin-top:         0.5em;
+}
+
+quotedContent {
+    display:            inline;
+/*  text-indent:        0em; */
+}
+
+quotedText {
+    display:            inline;
+}
+
+quotedContent > section {
+    display:            block;
+    margin-top:         0.3em;
+}
+
+xhtml|ul {
+    display:            block;
+    margin-top:         0em;
+    margin-bottom:      0em;
+    list-style-position: inside;
+    text-indent:        1em;
+    margin-left:        -3em;
+}
+
+xhtml|li {
+    display:            list-item;
+    text-align:         left;
+    list-style-type:    disc;
+}
+
+xhtml|ul[class="outsideBullet"]  {
+   list-style-position: outside;
+   text-indent:         0em;
+   margin-left:         -2em;
+}
+
+sup {
+    vertical-align:     super;
+    font-size:          0.6em;
+}
+
+sub {
+    vertical-align:     sub;
+    font-size:          0.6em;
+}
+
+xhtml|italic,
+xhtml|i,
+i {
+    font-style:         italic;
+}
+
+xhtml|bold,
+xhtml|b,
+b {
+    font-weight:        bold;
+}
+
+inline {
+    display:            inline;
+}
+
+*[class~="small-caps"] {
+    font-variant:       small-caps;
+}
+
+def {
+    display:            inline;
+}
+
+term {
+    display: inline;
+}
+
+cfrDoc term {
+    display: inline;
+    font-style:         italic;
+    font-variant:       normal;
+}
+
+xhtml|br,
+br {
+    display:            block;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+figCaption { 
+    display: block;
+}
+
+/* ------------------------------------------------------------------------- */
+/* HTML                                                                      */
+/* ------------------------------------------------------------------------- */
+
+/* Tables */
+xhtml|table {
+    display:            table;
+    border-style:       none;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    margin-left:        2em;
+    margin-right:       2em;
+    text-align:         center;
+    border-collapse:    collapse;
+}
+
+xhtml|colgroup {
+    display:            table-column-group
+}
+
+xhtml|col {
+    display:            table-column
+}
+
+xhtml|thead {
+    display:            table-header-group;
+   text-align:          center;
+   margin:              0.3em;
+}
+
+xhtml|tbody {
+   display:             table-row-group;
+   font-size:           0.7em;
+   text-align:          justify;
+}
+
+xhtml|tr {
+   display:             table-row;    
+}
+
+xhtml|td,
+xhtml|th {
+   display:             table-cell;    
+   font-weight :        normal;
+   padding:             0em;
+}
+
+/* XHTML Tables formatting */
+xhtml|table body {
+   font-size:           0.7em;
+   text-align:          justify;
+}
+
+*[class~="thinsp"] {
+   width:               0.16em;
+   display:             inline-block;
+}
+
+*[class~="sectionNumber"] {
+   font-weight:         bold;
+}
+
+*[class~="title"] {
+   font-size:           1em;
+   font-weight:         bold;
+   margin-bottom:       0.6em;
+   text-align:          center; 
+}
+
+xhtml|tr[class~="headers"] {
+   vertical-align:      middle; 
+   text-align:          center;
+}
+
+xhtml|td > xhtml|p {
+   margin:              0em;
+}
+
+xhtml|th > xhtml|p {
+   margin:              0em; 
+   margin-left:         0.4em; 
+   margin-right:        0.4em;
+}
+
+xhtml|p[class~="leaders"] {
+    max-width:          40em;
+    padding:            0em;
+    baseline-shift:     baseline;
+    overflow-x:         hidden;
+    list-style:         none;
+}
+
+xhtml|p[class~="leaders"] xhtml|span:after {
+    float:              left;
+    width:              0em;
+    baseline-shift:     baseline;
+    white-space:        nowrap;
+    content:
+       "\0000a0\0000a0\0000a0\0000a0. . . . . . . . . . . . . . . . . . . . "
+       ". . . . . . . . . . . . . . . . . . . . "
+       ". . . . . . . . . . . . . . . . . . . . "
+       ". . . . . . . . . . . . . . . . . . . . "
+}
+
+xhtml|p[class~="leaders"] xhtml|span:first-child {
+    padding-right:      0.33em;
+    background:         white;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* Schedule of Laws Repealed */
+.SOLR {
+	width: 100%;
+	margin: 1em 0 1em 0;
+	text-indent: 0;
+	border-bottom: 1px solid black;
+}
+.SOLR colgroup > col:nth-child(1) { width: 39%; }
+.SOLR colgroup > col:nth-child(2) { width: 31%; }
+.SOLR colgroup > col:nth-child(3) { width: 30%; }
+.SOLR caption { padding-bottom: 0.8em; }
+.SOLR th:not(:last-of-type), .SOLR td:not(:last-of-type) {
+	border-right: 1px solid black;
+}
+.SOLR thead th {
+	font-size: 0.7em;
+	text-align: center; 
+	padding: 0.5em 0 0.5em 0;
+	vertical-align: middle;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.SOLR tbody {
+	font-size: 1em;
+	vertical-align: top;
+}
+.SOLR td  {
+	padding-right: 0.2em;
+}
+.SOLR tr.firstOfAct > td  {
+	padding-top: 1em;
+}
+.SOLR td:nth-of-type(2), .SOLR td:nth-of-type(3) {
+    text-align: left;
+}
+.SOLR td p {
+	padding-left: 1em;
+	text-indent: -0.8em;
+}
+
+
+/* Metadata block */
+uscDoc>meta, bill>meta, resolution>meta, pLaw>meta,
+frDoc>meta, cfrDoc>meta  {
+    display:            block;
+    border-style:       solid;
+    border-width:       1pt;  
+    border-color:       gray;
+    margin-left:	    3pt;
+    margin-top:         3pt;
+    margin-bottom:	    3pt;
+    text-align:         left;
+    text-indent:        0em;
+    padding-left:       1em;
+    color:              gray;
+}
+
+uscDoc>meta:before, bill>meta:before, resolution>meta:before, pLaw>meta:before,
+frDoc>meta:before, cfrDoc>meta:before  {
+    display:            inline;
+    color:              gray;
+    font-size:          1.2em;
+    font-weight:        bold;
+    content:            "[Metadata]";
+}
+
+/* By default, all metadata items are block */
+meta>* {
+    display:            block;
+    margin-left:        2em;
+    text-indent:        -2em;
+}
+
+/* Metadata display */
+/* Dublin Core elements */
+meta>dc|creator:before {
+    display:            inline;
+    color:              gray;
+    content:            "Created By: ";
+}
+
+meta>dc|format:before {
+    display:            inline;
+    color:              gray;
+    content:            "Format: ";
+}
+
+meta>dc|identifier:before {
+    display:            inline;
+    color:              gray;
+    content:            "Identifier: ";
+}
+
+meta>dc|language:before {
+    display:            inline;
+    color:              gray;
+    content:            "Language: ";
+}
+
+meta>dc|publisher:before  {
+    display:            inline;
+    color:              gray;
+    content:            "Publisher: ";
+}
+
+meta>dc|rights:before {
+    display:            inline;
+    color:              gray;
+    content:            "Rights: ";
+}
+
+meta>dc|title:before  {
+    display:            inline;
+    color:              gray;
+    content:            "Title: ";
+}
+
+meta>dc|type:before  {
+    display:            inline;
+    color:              gray;
+    content:            "Type: ";
+}
+
+meta>dcterms|created:before {
+    display:            inline;
+    color:              gray;
+    content:            "Created On: ";
+}
+
+/* USLM-defined metadata elements */
+meta>congress:before  {
+    display:            inline;
+    color:              gray;
+    content:            "Congress: ";
+}
+
+meta>docNumber:before {
+    display:            inline;
+    color:              gray;
+    content:            "Doc Number: ";
+}
+
+meta>docPublicationName:before {
+    display:            inline;
+    color:              gray;
+    content:            "Publication Name: ";
+}
+
+meta>docReleasePoint:before {
+    display:            inline;
+    color:              gray;
+    content:            "Doc Release Point: ";
+}
+
+meta>docStage:before  {
+    display:            inline;
+    color:              gray;
+    content:            "Doc Stage: ";
+}
+
+meta>session:before  {
+    display:            inline;
+    color:              gray;
+    content:            "Session: ";
+}
+
+meta>startingPage:before {
+    display:            inline;
+    color:              gray;
+    content:            "Starting Page: ";
+}
+
+meta>dc|title:before {
+    display:            inline;
+    color:              gray;
+    content:            "Title: ";
+}
+
+meta>docPublicationName:before {
+    display:            inline;
+    color:              gray;
+    content:            "Publication Name: ";
+}
+
+meta>volume:before {
+    display:            inline;
+    color:              gray;
+    content:            "Volume: ";
+}
+
+meta>issue:before {
+    display:            inline;
+    color:              gray;
+    content:            "Issue: ";
+}
+
+meta>date:before {
+    display:            inline;
+    color:              gray;
+    content:            "Date: ";
+}
+
+/*  Whitespace Management */
+/* Force space between the num and the heading or chapeau or content in case there is no space character in the content */ 
+num + heading:before,
+num + content:before,
+num + chapeau:before  {
+    content: " ";
+}
+
+/*  For big levels, do not put the space between the num and heading
+ because the emdash is the separator. */ 
+title>num + heading:before,
+subtitle>num + heading:before,
+chapter>num + heading:before,
+subchapter>num + heading:before,
+part>num + heading:before,
+subpart>num + heading:before,
+division>num + heading:before,
+subdivision>num + heading:before,
+level>num + heading:before  {
+    content: "";
+}
+
+/* Page Formatting */
+/* Page Break Markers */
+page, preface>startingPage  {
+  display: block;
+  margin-top: 24pt;
+  margin-bottom: 12pt;
+  text-align: center;
+  text-indent: 0pt;
+  font-weight: normal;
+  font-style: normal;
+  font-family: arial, sans-serif;
+  font-size: 1.2em;
+  color: blue;
+  /*background-color: #c0c0c0; */
+}
+
+page:before, preface>startingPage:before {
+  content: "--- PAGE ";
+}
+
+page[class="raw"]:before, preface>startingPage[class="raw"]:before {
+  content: "--- ";
+}
+
+page:after, preface>startingPage:after {
+  content: " ---";
+}
+
+cfrDoc leftRunningHead,
+cfrDoc rightRunningHead,
+cfrDoc ear  {
+    font-family:        sans-serif;
+    font-weight:        bold;
+    font-size:          1.2em;
+}
+
+cfrDoc leftRunningHead  {
+    display:            inline-block;
+    width:              50%;
+    text-align:         left;
+}
+
+cfrDoc rightRunningHead  {
+    display:            inline-block;
+    width:              49%;
+    text-align:         right;
+}
+
+cfrDoc ear  {
+    display:            block;
+    text-align:         left;
+}
+
+
+/* Special Items */
+/* Override dc:title at the end of the CSS so that dc:title does not get rendered like a USLM:title element */
+dc|title {
+    display:            block;
+    margin-top:         0em;
+    margin-bottom:      0em;
+    text-align:         left;
+    font-size:          1em;
+}
+
+/* Placeholder Hack, xmleditor stylesheets do not seem to work */
+/* see https://github.com/Xcential-Corporation/XmlEditor/issues/264 */
+xhtml|placeholder {
+  display: inline-block;
+  background-color: grey !important;
+  color: white !important;
+  text-indent: 0;
+  /* font-weight: normal !important;
+     font-style: normal !important;
+     text-decoration: none !important; */
+  cursor: pointer;
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+

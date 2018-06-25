@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><bill xmlns="http://schemas.gpo.gov/xml/uslm/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm/2.0 https://www.govinfo.gov/schemas/xml/uslm/2.0/uslm-2.0.0.xsd" xml:lang="en" class="mimicGPOPrint">
+<meta><dc:title>115 HR 1362 ENR: To name the Department of Veterans Affairs community-based outpatient clinic in Pago Pago, American Samoa, the Faleomavaega Eni Fa’aua’a Hunkin VA Clinic.</dc:title><dc:type>House Bill</dc:type><docNumber>1362</docNumber><dc:creator>United States House of Representatives</dc:creator><processedBy>GPO Locator to USLM Converter 3.0.2, compiled on  2018/06/20 02:20:00;Stage2.20180611</processedBy><dc:publisher>United States Government Publishing Office</dc:publisher><dc:format>text/xml</dc:format><dc:language>EN</dc:language><dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights><docStage>ENR</docStage><congress>115</congress><session>1</session><publicPrivate>public</publicPrivate></meta><preface><dc:type>H. R.</dc:type><docNumber>1362</docNumber><congress style="-uslm-lc:I665502" value="115">One Hundred Fifteenth Congress of the United States of America</congress><session style="-uslm-lc:I665503" value="1">AT THE FIRST SESSION</session><enrolledDateline style="-uslm-lc:I665504">Begun and held at the City of Washington on Tuesday, the third day of January, two thousand and seventeen</enrolledDateline></preface>
+<main>
+<longTitle>
+<docTitle style="-uslm-lc:I665505" class="centered fontsize18">An Act</docTitle>
+<officialTitle style="-uslm-lc:I665511" class="centered fontsize8">To name the Department of Veterans Affairs community-based outpatient clinic in Pago Pago, American Samoa, the Faleomavaega Eni Fa’aua’a Hunkin VA Clinic.<br verticalSpace="08pt"/></officialTitle>
+</longTitle>
+<enactingFormula style="-uslm-lc:I650120">  Be it enacted by the Senate and House of Representa­tives of the United States of America in Congress assembled,</enactingFormula>
+<section style="-uslm-lc:I650146"><num value="1">SECTION 1. </num><heading>NAME OF DEPARTMENT OF VETERANS AFFAIRS COMMUNITY-BASED OUTPATIENT CLINIC, PAGO PAGO, AMERICAN SAMOA.</heading><content style="-uslm-lc:I650120">  The Department of Veterans Affairs community-based outpatient clinic in Pago Pago, American Samoa, shall after the date of the enactment of this Act be known and designated as the “Faleomavaega Eni Fa’aua’a Hunkin VA Clinic”. Any reference to such community-based outpatient clinic in any law, regulation, map, document, record, or other paper of the United States shall be considered to be a reference to the Faleomavaega Eni Fa’aua’a Hunkin VA Clinic.</content>
+</section>
+</main>
+<signatures>
+<signature><role style="-uslm-lc:I650114">Speaker of the House of Representatives.</role></signature>
+<signature><role style="-uslm-lc:I650114">Vice President of the United States and  President of the Senate.</role></signature>
+</signatures>
+</bill>
