@@ -135,7 +135,7 @@ Each item may consist of one or more of the following elements:
 
 Below are two examples of this ToC model.
 
-![Table of Contents Model 1](\images\toc_model1.png)
+![Table of Contents Model 1](/images/toc_model1.png)
 
 This same model, using items, designators, labels and targets, is also used for indexes that are found in legislative publications, such as the Popular Name Index. Below is an illustration of how the model can be used for an index.
 
