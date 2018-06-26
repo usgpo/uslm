@@ -5,7 +5,7 @@
 
 ## Proposed Changes ##
 
-2.0.0 - Draft version - uslm-2.0.0.xsd with updates for enrolled bills, public laws, Statutes at Large, Federal Register, and Code of Federal Regulations (coming soon)
+2.0.0 - Draft version - uslm-2.0.0.xsd with updates for enrolled bills, public laws, Statutes at Large, Federal Register, and Code of Federal Regulations
 
 
 
