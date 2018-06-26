@@ -139,7 +139,7 @@ Below are two examples of this ToC model.
 
 This same model, using items, designators, labels and targets, is also used for indexes that are found in legislative publications, such as the Popular Name Index. Below is an illustration of how the model can be used for an index.
 
-![Table of Contents Model 2](\images\toc_model2.png)
+![Table of Contents Model 2](/images/toc_model2.png)
 
 Elements of this type are:
 
@@ -216,7 +216,7 @@ The following elements are instances of CollectionType:
 
 Below is an example of a collection used to group multiple document-specific units in an issue of the Federal Register:
 
-![FR Document components](\images\FR_document_components.png)
+![FR Document components](/images/FR_document_components.png)
 
 #### Lists
 
@@ -430,11 +430,11 @@ To submit feedback, questions, or comments about the USLM 2.0 schema and this Re
 
 ## Appendix - Guide
 
-![Bill Preface](\images\billPreface.png)
+![Bill Preface](/images/billPreface.png)
 
 Figure 1 Bill Preface
 
-![cfrPreface](\images\cfrPreface.png)
+![cfrPreface](/images/cfrPreface.png)
 
 Figure 2 CFR Preface:  Content displayed at the beginning of each CFR title in the preface is shown, including the cover page, official edition note, GPO and superintendent of socuments notes, title contents, citing note, explanation note, and this title note.
 
