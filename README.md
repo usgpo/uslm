@@ -10,7 +10,7 @@ The current version of the schema is in the master branch. If there are any prop
 
 
 ## Draft USLM 2.0 Schema ##
-The [proposed branch](https://github.com/usgpo/uslm/tree/proposed) contains the [draft USLM 2.0 schema](https://github.com/usgpo/uslm/blob/proposed/uslm-2.0.0.xsd), a [schema review guide](https://github.com/usgpo/uslm/blob/proposed/USLM-2_0-Review-Guide.md), sample USLM enrolled bill files, CSS files, and additional schema required to validate the sample files. Additional sample files for public laws, the Statutes at Large, the Federal Regiser, and the Code of Federal Regulations will be added in the coming weeks. 
+The [proposed branch](https://github.com/usgpo/uslm/tree/proposed) contains the [draft USLM 2.0 schema](https://github.com/usgpo/uslm/blob/proposed/uslm-2.0.0.xsd), a [schema review guide](https://github.com/usgpo/uslm/blob/proposed/USLM-2_0-Review-Guide.md), sample USLM enrolled bill files, CSS files, and additional schema required to validate the sample files. Additional sample files for public laws, the Statutes at Large, the Federal Register, and the Code of Federal Regulations will be added in the coming weeks. 
 
 
 To submit feedback, questions, or comments, please open a [GitHub issue](https://github.com/usgpo/uslm/issues/new).
