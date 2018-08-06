@@ -2499,7 +2499,7 @@
                      </xsd:annotation>
                   </xsd:group>
                </xsd:choice>
-               <xsd:element ref="br" minOccurs="0"/>
+               <xsd:element ref="marker" minOccurs="0"/>
                <xsd:group ref="TocStructure" minOccurs="0" maxOccurs="unbounded">
                   <xsd:annotation>
                      <xsd:documentation><![CDATA[
@@ -2509,6 +2509,7 @@
                      ]]></xsd:documentation>
                   </xsd:annotation>
                </xsd:group>
+               <xsd:element ref="statement" minOccurs="0"/> <!-- for long titles within divisions or other big levels. Used in Consolidated Appropriations bills -->
                <xsd:group ref="LevelStructure" minOccurs="0">
                   <xsd:annotation>
                      <xsd:documentation><![CDATA[
