@@ -236,8 +236,7 @@ The generic set defines a set of general-purpose tags used to markup basic struc
 | 3 | `<row>`  | A normal row in a `<layout>` structure. In general, this level can be omitted. |
 | 4 | `<column>`  | A column cell in a `<layout>` structure. |
 | 5 | `<p>`  | A normal (unnumbered) paragraph. The semantics for a paragraph should be preserved. Do not use the `<p>` element as a general block like element. |
-| 6 | `<br>`  | A line break. This element should only be used to force a line break when other more semantic elements are not sufficient to achieve the desired formatting.
- |
+| 6 | `<br>`  | A line break. This element should only be used to force a line break when other more semantic elements are not sufficient to achieve the desired formatting. |
 | 7 | `<img>`  | An embedded image. This is a marker element which points, via a URL, to the image to be embedded.|
 | 8 | `<center>`  | Centered text. While this tag is deprecated in HTML 4.01, it is provided here for convenience as centering text is common.|
 | 9 | `<fillIn>`  | A region of text intended to be filled in on a form. |
