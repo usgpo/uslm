@@ -147,7 +147,7 @@ If a tag is defined in the abstract model, and it is sufficient for direct use, 
 
 2. For anomalous situations occurring so infrequently that modification of the schema is unwarranted, inheritance can be implemented in USLM with an approach inspired by XHTML, using the `@role` attribute to create subclasses. The element name represents the base class, and the `@role` attribute value represents the subclass. This approach makes it easy to create subclasses without changing the schema. Although this method provides welcome flexibility for special cases, it should be used sparingly to avoid the creation of many poorly defined and poorly supported subclasses.
 
->**Note:** _There is a rough equivalence between the two approaches. For instance, `<level role="chapter">`_ _is roughly analogous to `<chapter>. However, there is no formal mechanism within XML to establish this equivalence._
+>**Note:** _There is a rough equivalence between the two approaches. For instance, `<level role="chapter">`_ _is roughly analogous to `<chapter>`. However, there is no formal mechanism within XML to establish this equivalence._
 
 ## 3.1 Polymorphism
 In a programming language, **_polymorphism_** is the ability to use an instance of a subclass wherever an instance of the base class is expected. XML schemas support polymorphism. However, in XML schemas, unlike programming languages, polymorphism is not an implicit capability that comes along with inheritance. In XML schemas, polymorphism is achieved by defining a base level element and then defining subclassed elements to be part of the base element's **substitution group**.
@@ -233,15 +233,11 @@ The generic set defines a set of general-purpose tags used to markup basic struc
 | --- | --- | --- |
 | 1 | `<layout>` | A region to be presented in a column-oriented layout – similar to a table.  |
 | 2 | `<header>`  | A heading row in a `<layout>` structure. |
-| 3 | `<row>`  | A normal row in a `<layout>` structure. In general, this level can be omitted.
- |
+| 3 | `<row>`  | A normal row in a `<layout>` structure. In general, this level can be omitted. |
 | 4 | `<column>`  | A column cell in a `<layout>` structure. |
-| 5 | `<p>`  | A normal (unnumbered) paragraph. The semantics for a paragraph should be preserved. Do not use the `<p>` element as a general block like element.
- |
-| 6 | `<br>`  | A line break. This element should only be used to force a line break when other more semantic elements are not sufficient to achieve the desired formatting.
- |
-| 7 | `<img>`  | An embedded image. This is a marker element which points, via a URL, to the image to be embedded.
- |
+| 5 | `<p>`  | A normal (unnumbered) paragraph. The semantics for a paragraph should be preserved. Do not use the `<p>` element as a general block like element. |
+| 6 | `<br>`  | A line break. This element should only be used to force a line break when other more semantic elements are not sufficient to achieve the desired formatting. |
+| 7 | `<img>`  | An embedded image. This is a marker element which points, via a URL, to the image to be embedded.|
 | 8 | `<center>`  | Centered text. While this tag is deprecated in HTML 4.01, it is provided here for convenience as centering text is common.|
 | 9 | `<fillIn>`  | A region of text intended to be filled in on a form. |
 | 10 | `<checkBox>` | A check box intended to be checked on a form. |
