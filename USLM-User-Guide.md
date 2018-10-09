@@ -508,34 +508,29 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 
 |   | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
-| 1 | `<def>` | `<text>` | One or more `<term>` elements, as well as their respective definitions
- |
-| 2 | `<term>` | `<inline>` | A term in the document that is being defined
- |
-| 3 | `<chapeau>` | `<text>` | Introductory text that comes before lower levels in a level hierarchy
- |
-| 4 | `<continuation>` | `<text>` | Final or interstitial text that comes after or between lower levels in a level hierarchy
- |
+| 1 | `<def>` | `<text>` | One or more `<term>` elements, as well as their respective definitions |
+| 2 | `<term>` | `<inline>` | A term in the document that is being defined |
+| 3 | `<chapeau>` | `<text>` | Introductory text that comes before lower levels in a level hierarchy |
+| 4 | `<continuation>` | `<text>` | Final or interstitial text that comes after or between lower levels in a level hierarchy |
 | 5 | `<proviso>` | `<text>` | A paragraph of text, usually beginning with &quot;Provided that&quot; or &quot;Provided&quot;, that states conditions on the law to which it is related |
 
 
 ## 6.7 Notes
 |   | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
-| 1 | `<sourceCredit>` | `<note>` | Text containing the source of a provision, usually surrounded by parentheses
- |
-| 2 | `<statutoryNote>` | `<note>` | A note that becomes part of the law
- |
-| 3 | `<editorialNote>` | `<note>` | A note included for editorial purposes only
- |
+| 1 | `<sourceCredit>` | `<note>` | Text containing the source of a provision, usually surrounded by parentheses |
+| 2 | `<statutoryNote>` | `<note>` | A note that becomes part of the law |
+| 3 | `<editorialNote>` | `<note>` | A note included for editorial purposes only |
 | 4 | `<changeNote>` | `<note>` | A note that records a non-substantive change that has been made to the document, usually surrounded by square brackets |
+
 
 ## 6.8 Signatures
 |   | **Example** | **Derived From** |   |
 | --- | --- | --- | --- |
-| 1 | `<made>` | `<signature>` | The signatures of the people making the legislation
- |
+| 1 | `<made>` | `<signature>` | The signatures of the people making the legislation |
 | 2 | `<approved>` | `<signature>` | The signatures of the people approving the document |
+
+
 
 ## 6.9 Appendices
 |   | **Example** | **Derived From** |   |
