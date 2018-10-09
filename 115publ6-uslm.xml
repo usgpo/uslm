@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><pLaw xmlns="http://schemas.gpo.gov/xml/uslm/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm/2.0 https://www.govinfo.gov/schemas/xml/uslm/2.0/uslm-2.0.0.xsd" xml:lang="en" class="mimicGPOPrint">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><pLaw xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.0.3.xsd" xml:lang="en" class="mimicGPOPrint">
 
 <?I97 131 STAT. ?>
 <?I98 131 STAT. ?>
@@ -7,16 +7,19 @@
 <?I51 PUBLIC LAW 115–6—FEB. 28, 2017?>
 <?I52 PUBLIC LAW 115–6—FEB. 28, 2017?>
 
-<meta><dc:title>Public Law 115–6: To authorize the National Science Foundation to support entrepreneurial programs for women.</dc:title><dc:type>Public Law</dc:type><docNumber>6</docNumber><citableAs>Public Law 115–6</citableAs><citableAs>131 Stat. 11</citableAs><dc:publisher>United States Government Publishing Office</dc:publisher><processedBy>GPO Locator to USLM Converter 3.1.0, compiled on  2018/07/31 02:23:35;Stage2.20180730</processedBy><dc:creator>National Archives and Records Administration</dc:creator><dc:creator>Office of the Federal Register</dc:creator><dc:format>text/xml</dc:format><dc:language>EN</dc:language><dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights><congress>115</congress><publicPrivate>public</publicPrivate></meta><preface><page>131 STAT. 11</page><dc:type>Public Law</dc:type><docNumber>115–6</docNumber><congress value="115">115th Congress</congress></preface>
+<meta><dc:title>Public Law 115–6: To authorize the National Science Foundation to support entrepreneurial programs for women.</dc:title><dc:type>Public Law</dc:type><docNumber>6</docNumber><citableAs>Public Law 115–6</citableAs><citableAs>131 Stat. 11</citableAs><dc:publisher>United States Government Publishing Office</dc:publisher><dc:creator>National Archives and Records Administration</dc:creator><dc:creator>Office of the Federal Register</dc:creator><dc:format>text/xml</dc:format><dc:language>EN</dc:language><dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<processedBy>GPO Locator to USLM Converter 3.2.6;Stage2.20181004</processedBy><processedDate>2018-10-04</processedDate>
+<congress>115</congress><publicPrivate>public</publicPrivate></meta>
+<preface><page>131 STAT. 11</page><dc:type>Public Law</dc:type><docNumber>115–6</docNumber><congress value="115">115th Congress</congress></preface>
 <main>
 <longTitle>
 <docTitle>An Act</docTitle>
-<officialTitle>To authorize the National Science Foundation to support entrepreneurial programs for women.<br verticalSpace="08pt"/></officialTitle><sidenote><p style="-uslm-lc:I658076">Feb. 28, 2017</p><p style="-uslm-lc:I658076">[<ref href="/us/bill/115/hr/255">H.R. 255</ref>]</p></sidenote>
+<officialTitle>To authorize the National Science Foundation to support entrepreneurial programs for women.</officialTitle><sidenote><p style="-uslm-lc:I658076" class="centered">Feb. 28, 2017</p><p style="-uslm-lc:I658076" class="centered">[<ref href="/us/bill/115/hr/255">H.R. 255</ref>]<?GPOvSpace 08?></p></sidenote>
 </longTitle>
-<enactingFormula style="-uslm-lc:I658120">  Be it enacted by the Senate and House of Representa­tives of the United States of America in Congress assembled,</enactingFormula><sidenote><p style="-uslm-lc:I658180">Promoting Women in Entre­pre­neur­ship Act.</p><p style="-uslm-lc:I658180"><ref href="/us/usc/t42/s1861">42 USC 1861 note</ref>.</p></sidenote>
-<section style="-uslm-lc:I658146"><num value="1">SECTION 1. </num><heading>SHORT TITLE.</heading><content style="-uslm-lc:I658120">  This Act may be cited as the <shortTitle>“Promoting Women in Entrepreneurship Act”</shortTitle>.</content>
+<enactingFormula style="-uslm-lc:I658120">  Be it enacted by the Senate and House of Representa­tives of the United States of America in Congress assembled,</enactingFormula><sidenote><p style="-uslm-lc:I658180" class="centered fontsize12">Promoting Women in Entre­pre­neur­ship Act.</p><p style="-uslm-lc:I658180" class="centered fontsize12"><ref href="/us/usc/t42/s1861">42 USC 1861 note</ref>.</p></sidenote>
+<section style="-uslm-lc:I658146"><num value="1">SECTION 1. </num><heading>SHORT TITLE.</heading><content style="-uslm-lc:I658120">  This Act may be cited as the <shortTitle role="act">“Promoting Women in Entrepreneurship Act”</shortTitle>.</content>
 </section>
-<section style="-uslm-lc:I658141"><num value="2">SEC. 2. </num><sidenote><p style="-uslm-lc:I658180"><ref href="/us/usc/t42/s1885a">42 USC 1885a note</ref>.</p></sidenote><heading>FINDINGS.</heading>
+<section style="-uslm-lc:I658141"><num value="2">SEC. 2. </num><sidenote><p style="-uslm-lc:I658180" class="centered fontsize12"><ref href="/us/usc/t42/s1885a">42 USC 1885a note</ref>.</p></sidenote><heading>FINDINGS.</heading>
 <chapeau style="-uslm-lc:I658120" class="indent0 firstIndent0 fontsize10">  The Congress finds that—</chapeau><paragraph style="-uslm-lc:I658122" class="indent1 fontsize10"><num value="1">  (1) </num><content>women make up almost 50 percent of the workforce, but less than 25 percent of the workforce in science, technology, engineering, and mathematics (STEM) professions;</content>
 </paragraph>
 <paragraph style="-uslm-lc:I658122" class="indent1 fontsize10"><num value="2">  (2) </num><content>women are less likely to focus on the STEM disciplines in undergraduate and graduate study;</content>
@@ -44,7 +47,7 @@
 <actionDescription style="-uslm-lc:I658030">Approved February 28, 2017.</actionDescription></action>
 </main>
 <legislativeHistory>
-<heading style="-uslm-lc:I658031">LEGISLATIVE HISTORY—<ref href="/us/bill/115/hr/255">H.R. 255</ref>:</heading>
+<heading style="-uslm-lc:I658031"><inline class="underline">LEGISLATIVE HISTORY</inline>—<ref href="/us/bill/115/hr/255">H.R. 255</ref>:</heading>
 <note>
 <heading style="-uslm-lc:I658032">CONGRESSIONAL RECORD, Vol. 163 (2017):</heading>
 <p style="-uslm-lc:I658035" class="indent4 firstIndent-1">Jan. 10, considered and passed House.</p><p style="-uslm-lc:I658035" class="indent4 firstIndent-1">Feb. 14, considered and passed Senate.</p></note>

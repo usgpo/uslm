@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema 
-    xmlns:u="http://schemas.gpo.gov/xml/uslm/2.0"
+    xmlns:uslm="http://schemas.gpo.gov/xml/uslm"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     targetNamespace="http://www.w3.org/1999/xhtml"
     xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/"
@@ -22,8 +22,8 @@
             </xsd:documentation>
         </xsd:annotation>
     </xsd:import>
-    <xsd:import namespace="http://schemas.gpo.gov/xml/uslm/2.0"
-        schemaLocation="uslm-2.0.0.xsd">
+    <xsd:import namespace="http://schemas.gpo.gov/xml/uslm"
+        schemaLocation="uslm-2.0.3.xsd">
         <xsd:annotation>
             <xsd:documentation>
                 This import brings in the USLM schema so it can be referenced.
@@ -32,7 +32,7 @@
     </xsd:import>
     
     <xsd:attributeGroup name="Common.attrib">
-        <xsd:attributeGroup ref="u:ClassificationGroup"/>
+        <xsd:attributeGroup ref="uslm:ClassificationGroup"/>
     </xsd:attributeGroup>
     
     <xsd:attributeGroup name="xhtml.Common.attrib">
@@ -50,7 +50,7 @@
             </xsd:documentation>
         </xsd:annotation>
         <xsd:choice>
-            <xsd:element ref="u:br"/>
+            <xsd:element ref="uslm:br"/>
             <xsd:element ref="xhtml:table"/>
             <xsd:group ref="xhtml:uslm.Inline.mix"/>
         </xsd:choice>
@@ -62,8 +62,8 @@
             </xsd:documentation>
         </xsd:annotation>
         <xsd:choice>
-            <xsd:element ref="u:inline"/>
-            <xsd:element ref="u:note"/>
+            <xsd:element ref="uslm:inline"/>
+            <xsd:element ref="uslm:note"/>
         </xsd:choice>
     </xsd:group>
     
@@ -177,7 +177,7 @@
             <xsd:attribute name="colspan" type="xh11d:Number" default="1"/>
             <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
             <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
-            <xsd:attributeGroup ref="u:HtmlTdGroup"/>
+            <xsd:attributeGroup ref="uslm:HtmlTdGroup"/>
         </xsd:attributeGroup>
         <xsd:group name="xhtml.td.content">
             <xsd:sequence>
@@ -263,7 +263,7 @@
         <xsd:group name="xhtml.tbody.content">
             <xsd:choice>
                 <xsd:element name="tr" type="xhtml:xhtml.tr.type"/>
-                <xsd:element ref="u:page"/>
+                <xsd:element ref="uslm:page"/>
             </xsd:choice>
         </xsd:group>
         <xsd:complexType name="xhtml.tbody.type">
@@ -276,12 +276,13 @@
             <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
         </xsd:attributeGroup>
         <xsd:group name="xhtml.tfoot.content">
-            <xsd:sequence>
-                <xsd:element name="tr" type="xhtml:xhtml.tr.type" maxOccurs="unbounded"/>
-            </xsd:sequence>
+            <xsd:choice>
+                <xsd:element name="tr" type="xhtml:xhtml.tr.type"/>
+                <xsd:element ref="uslm:page"/>
+            </xsd:choice>
         </xsd:group>
         <xsd:complexType name="xhtml.tfoot.type">
-            <xsd:group ref="xhtml:xhtml.tfoot.content"/>
+            <xsd:group ref="xhtml:xhtml.tfoot.content" maxOccurs="unbounded"/>
             <xsd:attributeGroup ref="xhtml:xhtml.tfoot.attlist"/>
         </xsd:complexType>
         <xsd:attributeGroup name="xhtml.thead.attlist">
@@ -304,7 +305,7 @@
         <xsd:group name="xhtml.caption.content">
             <xsd:choice>
                 <xsd:group ref="xhtml:uslm.Inline.mix" minOccurs="0" maxOccurs="unbounded"/>
-                <xsd:element ref="u:p" minOccurs="0" maxOccurs="unbounded"/>
+                <xsd:element ref="uslm:p" minOccurs="0" maxOccurs="unbounded"/>
             </xsd:choice>
         </xsd:group>
         <xsd:complexType name="xhtml.caption.type" mixed="true">
@@ -320,7 +321,7 @@
             <xsd:attributeGroup ref="xhtml:xhtml.rules.attrib"/>
             <xsd:attribute name="cellspacing" type="xh11d:Length"/>
             <xsd:attribute name="cellpadding" type="xh11d:Length"/>
-            <xsd:attributeGroup ref="u:HtmlTableGroup"/>
+            <xsd:attributeGroup ref="uslm:HtmlTableGroup"/>
         </xsd:attributeGroup>
         <xsd:group name="xhtml.table.content">
             <xsd:sequence>

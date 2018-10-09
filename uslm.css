@@ -5,13 +5,13 @@
 @namespace dcterms "http://purl.org/dc/terms/";
 @namespace xhtml "http://www.w3.org/1999/xhtml";
 
-/* Version 2.00 */
+/* Version 2.02 */
 
 /* USLM root elements*/
 
 /* Set margin to be 1em, to push the text away from the frame/print border */
 /* Set the font-size to be 10pts, and make all other measurements in em's */
-/* Not using rem units becuase sometime the USLM lives within a 'div' of a surrounding application */
+/* Not using rem units because sometime the USLM lives within a 'div' of a surrounding application */
 /* Use serifed font to match printed bills and U.S. Code */
 
 /* For bills and resolutions, set the max-width to match prints from GPO */
@@ -206,9 +206,12 @@ pLaw>preface>congress  {
 }
 
 /* StatutesAtLarge Preface */
-statutesAtLarge>preface,
+statutesAtLarge>preface,  /* In case there is only one part and no collection and component elements*/
 statutesAtLarge>preface>note,
-statutesAtLarge>preface>note>p  {
+statutesAtLarge>preface>note>p,
+statutesAtLarge component>preface,  /* For the repeated preface at the start of each part of the volume */
+statutesAtLarge component>preface>note,
+statutesAtLarge component>preface>note>p  {
     margin-left:        0em;
     margin-right:       0em;
     text-align:         center;
@@ -216,25 +219,27 @@ statutesAtLarge>preface>note>p  {
     font-size:          1.2em;
 }
 
+statutesAtLarge preface>coverTitle,
+statutesAtLarge preface>organizationNote,
+statutesAtLarge preface>authority,
+statutesAtLarge preface>explanationNote,
 statutesAtLarge>preface>note,
-statutesAtLarge>preface>coverTitle,
-statutesAtLarge>preface>organizationNote,
-statutesAtLarge>preface>authority,
-statutesAtLarge>preface>explanationNote {
+statutesAtLarge component>preface>note  {
     display:            block;
     margin-top:         1em;
     margin-bottom:      1em;
 }
 
-statutesAtLarge>preface>coverTitle  {
+statutesAtLarge preface>coverTitle  {
+    text-align:         center;
     font-size:          2.3em;  /* 23 point font in the PDF */
 }
 
-statutesAtLarge>preface>authority  {
-    text-align:          justify;
+statutesAtLarge preface>authority  {
+    text-align:         justify;
 }
 
-statutesAtLarge>preface>explanationNote  {
+statutesAtLarge preface>explanationNote  {
     margin-right:       2em;
     margin-left:        2em;
     padding-top:        2em;
@@ -246,7 +251,7 @@ statutesAtLarge>preface>explanationNote  {
     text-align:         justify;
 }
 
-statutesAtLarge>preface>toc  {
+statutesAtLarge preface>toc  {
     display:            table;
     margin-top:         2em;
     margin-left:        6em;
@@ -254,58 +259,58 @@ statutesAtLarge>preface>toc  {
     text-align:         center;
 }
 
-statutesAtLarge>preface>toc>heading  {
+statutesAtLarge preface>toc>heading  {
     display:            block;
     font-size:          1.2em;
     text-align:         center;
 }
 
-statutesAtLarge>preface>toc headingItem  {
+statutesAtLarge preface>toc headingItem  {
     font-style:      italic;
 }
 
-statutesAtLarge>preface>toc>groupItem>label  {
+statutesAtLarge preface>toc>groupItem>label  {
     display:            table-row;
     text-align:         center;
 }
 
-statutesAtLarge>preface>toc>groupItem>referenceItem>designator  {
+statutesAtLarge preface>toc>groupItem>referenceItem>designator  {
     display:            table-cell;
     width:              30em;
     text-align:         left;
     font-variant:       small-caps;
 }
 
-statutesAtLarge>preface>listOfBillsEnacted  {
+statutesAtLarge preface>listOfBillsEnacted  {
     display:            block;
     margin-left:        6em;
     width:              30em;
 }
 
-statutesAtLarge>preface>listOfBillsEnacted>referenceItem,
-statutesAtLarge>preface>listOfBillsEnacted>headingItem  {
+statutesAtLarge preface>listOfBillsEnacted>referenceItem,
+statutesAtLarge preface>listOfBillsEnacted>headingItem  {
     margin-left:        10em;
     width:              20em;
 }
 
-statutesAtLarge>preface>listOfBillsEnacted>headingItem  {
+statutesAtLarge preface>listOfBillsEnacted>headingItem  {
     font-style:         italic;
 }
 
-statutesAtLarge>preface>listOfBillsEnacted>heading,
-statutesAtLarge>preface>listOfPublicLaws>heading,
-statutesAtLarge>preface>listOfConcurrentResolutions>heading,
-statutesAtLarge>preface>listOfProclamations>heading  {
+statutesAtLarge preface>listOfBillsEnacted>heading,
+statutesAtLarge preface>listOfPublicLaws>heading,
+statutesAtLarge preface>listOfConcurrentResolutions>heading,
+statutesAtLarge preface>listOfProclamations>heading  {
     display:            block;
     margin-top:         2em;
     text-align:         center;
     font-size:          1.6em
 }
 
-statutesAtLarge>preface>listOfBillsEnacted>subheading,
-statutesAtLarge>preface>listOfPublicLaws>subheading,
-statutesAtLarge>preface>listOfConcurrentResolutions>subheading,
-statutesAtLarge>preface>listOfProclamations>subheading  {
+statutesAtLarge preface>listOfBillsEnacted>subheading,
+statutesAtLarge preface>listOfPublicLaws>subheading,
+statutesAtLarge preface>listOfConcurrentResolutions>subheading,
+statutesAtLarge preface>listOfProclamations>subheading  {
     display:            block;
     margin-top:         1em;
     margin-bottom:      1em;
@@ -313,64 +318,86 @@ statutesAtLarge>preface>listOfProclamations>subheading  {
     font-size:          0.9em;
 }
 
-statutesAtLarge>preface>listOfBillsEnacted>headingItem,
-statutesAtLarge>preface>listOfPublicLaws>headingItem,
-statutesAtLarge>preface>listOfConcurrentResolutions>headingItem,
-statutesAtLarge>preface>listOfProclamations>headingItem  {
+statutesAtLarge preface>listOfBillsEnacted>headingItem,
+statutesAtLarge preface>listOfPublicLaws>headingItem,
+statutesAtLarge preface>listOfConcurrentResolutions>headingItem,
+statutesAtLarge preface>listOfProclamations>headingItem  {
     font-style:         italic;
     font-size:          0.6em;
 }
 
-statutesAtLarge>preface>listOfBillsEnacted>referenceItem,
-statutesAtLarge>preface>listOfPublicLaws>referenceItem,
-statutesAtLarge>preface>listOfConcurrentResolutions>referenceItem,
-statutesAtLarge>preface>listOfProclamations>referenceItem  {
+statutesAtLarge preface>listOfBillsEnacted>referenceItem,
+statutesAtLarge preface>listOfPublicLaws>referenceItem,
+statutesAtLarge preface>listOfConcurrentResolutions>referenceItem,
+statutesAtLarge preface>listOfProclamations>referenceItem  {
     font-size:          0.8em;
 }
 
-statutesAtLarge>preface>listOfBillsEnacted>referenceItem>designator  {
+statutesAtLarge preface>listOfBillsEnacted>referenceItem>designator,
+statutesAtLarge preface>listOfPublicLaws>referenceItem>designator {
     width:              7em;
 }
 
-statutesAtLarge>preface>listOfBillsEnacted>referenceItem>target  {
+statutesAtLarge preface>listOfBillsEnacted>referenceItem>target  {
     width:              5em;
 }
 
-statutesAtLarge>preface>listOfPublicLaws>referenceItem>designator  {
-    width:              7em;
-}
-
-statutesAtLarge>preface>listOfPublicLaws>referenceItem>label:nth-of-type(1)  {
+statutesAtLarge preface>listOfPublicLaws>referenceItem>label:nth-of-type(1)  {
     width:              25em;
     text-indent:        -1em;
 }
 
-statutesAtLarge>preface>listOfPublicLaws>referenceItem>label:nth-of-type(2)  {
+statutesAtLarge preface>listOfPublicLaws>referenceItem>label:nth-of-type(2),
+statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>label:nth-of-type(2),
+statutesAtLarge preface>listOfProclamations>referenceItem>label:nth-of-type(2)  {
     width:              8em;
 }
 
-statutesAtLarge>preface>listOfConcurrentResolutions>referenceItem>designator,
-statutesAtLarge>preface>listOfProclamations>referenceItem>designator  {
+statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>designator,
+statutesAtLarge preface>listOfProclamations>referenceItem>designator  {
     width:              10em;
 }
 
-statutesAtLarge>preface>listOfConcurrentResolutions>referenceItem>label:nth-of-type(1),
-statutesAtLarge>preface>listOfProclamations>referenceItem>label:nth-of-type(1)  {
+statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>label:nth-of-type(1),
+statutesAtLarge preface>listOfProclamations>referenceItem>label:nth-of-type(1)  {
     width:              20em;
     text-indent:        -1em;
 }
 
-statutesAtLarge>preface>listOfConcurrentResolutions>referenceItem>label:nth-of-type(2),
-statutesAtLarge>preface>listOfProclamations>referenceItem>label:nth-of-type(2)  {
-    width:              8em;
-}
-
-statutesAtLarge publicLaws>preface>coverText  {
+statutesAtLarge publicLaws>preface>coverText,
+statutesAtLarge concurrentResolutions>preface>coverText  {
     display:            block;
     margin-top:         2em;
     margin-bottom:      2em;
     text-align:         center;
     font-size:          1.2em;
+}
+
+statutesAtLarge presidentialDoc {
+   font-size:           0.9em;
+}
+
+statutesAtLarge presidentialDoc>preface>docNumber {
+   font-weight:         bold;
+}
+
+statutesAtLarge presidentialDoc>preface>dc|title  {
+    display:            block;
+    margin-bottom:      0.7em;
+    font-size:          1.2em;
+    font-weight:        bold;
+}
+
+statutesAtLarge presidentialDoc>preface>dc|creator,
+statutesAtLarge presidentialDoc>preface>dc|type  {
+    display:            block;
+    font-style:         italic;
+}
+
+statutesAtLarge presidentialDoc p  {
+    display:            block;
+    margin-bottom:      0.5em;
+    text-align:         justify;
 }
 
 /* Federal Register Preface */
@@ -542,7 +569,7 @@ frDoc note[topic="billingCode"]  {
 }
 
 /* Collections */
-rules, proposedRules, notices, presidentialDocs  {
+frDoc rules, frDoc proposedRules, frDoc notices, frDoc presidentialDocs  {
     display:            block;
     width:              100%;  /* 522 points */
     margin-top:         1.2em;
@@ -565,7 +592,8 @@ agencyGroup  {
 /*  Supress display of metadata in components */
 component>*>meta,
 component>*>meta *,
-component>pLaw>meta:before  {
+component>pLaw>meta:before,
+component>resolution>meta:before  {
     display:none;
 }
 
@@ -1221,6 +1249,15 @@ signature  {
      font-style:        italic;
 }
 
+/* Statutes At Large */
+statutesAtLarge resolution officialTitle  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    text-align:         center;
+    font-weight:        bold;
+}
+
 /* U.S. Code */
 /* Big-levels */
 title, 
@@ -1753,6 +1790,80 @@ toc[class="cfrPartAppendixTOC"] tocItem[class="columnHeader"] * {
 }
 */
 
+/* Rules for Indexes */
+statutesAtLarge popularNameIndex,
+statutesAtLarge subjectIndex  {
+    display:            block;
+    font-size:          0.9em;
+}
+
+statutesAtLarge popularNameIndex>heading,
+statutesAtLarge subjectIndex>heading  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    font-size:          1.2em;
+    text-align:         center;
+}
+
+statutesAtLarge popularNameIndex groupItem,
+statutesAtLarge subjectIndex groupItem  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    font-size:          1.2em;
+}
+
+statutesAtLarge popularNameIndex groupItem>label,
+statutesAtLarge subjectIndex groupItem>label  {
+    display:            block;
+    width:              26em;
+    font-weight:        bold;
+    text-align:         center;
+}
+
+statutesAtLarge subjectIndex groupItem>groupItem>label  {
+    width:              26em;
+    text-align:         left;
+    font-size:          0.8em;
+}
+
+statutesAtLarge subjectIndex referenceItem  {
+    display:            block;
+    margin-left:        1em;
+}
+
+statutesAtLarge popularNameIndex referenceItem>designator  {
+    display:            table-cell;
+    padding-left:       2em;
+    text-indent:        -2em;
+    width:              20em;
+    text-align:         left;
+    font-weight:        bold;
+}
+
+statutesAtLarge popularNameIndex referenceItem>target  {
+    width:              6em;
+    text-align:         right;
+    vertical-align:     bottom;
+}
+
+statutesAtLarge subjectIndex referenceItem>designator  {
+    display:            table-cell;
+    padding-left:       2em;
+    text-indent:        -2em;
+    width:              20em;
+    font-size:          0.8em;
+    text-align:         left;
+}
+
+statutesAtLarge subjectIndex referenceItem>target  {
+    width:              6em;
+    text-align:         right;
+    vertical-align:     bottom;
+    font-size:          0.8em;
+}
+
 /* Section element rules */
 section {
     display:            block;
@@ -2084,13 +2195,15 @@ sidenote:not(:first-of-type) {
 }
 
 sidenote[topic~="enactment"],
-pLaw longTitle > sidenote  {
+pLaw longTitle > sidenote,
+resolution sidenote:first-of-type  {
   margin-top:           -3em;
   text-align:           center;
 }
 
 sidenote[topic~="enactment"] date,
-pLaw longTitle > sidenote > p:first-of-type  {
+pLaw longTitle > sidenote > p:first-of-type,
+resolution sidenote:first-of-type > p:first-of-type  {
   text-decoration:      underline; /* To simulate the line between date and the bill number */
 }
 
@@ -2187,10 +2300,6 @@ legislativeHistory  {
     margin-top:         4em;
     border-top:         1px solid;
     font-size:          0.8em;
-}
-
-legislativeHistory > heading {
-    text-decoration:     underline;
 }
 
 legislativeHistory p {
@@ -2507,6 +2616,10 @@ inline {
     font-variant:       small-caps;
 }
 
+*[class~="underline"] {
+    text-decoration:       underline;
+}
+
 def {
     display:            inline;
 }
@@ -2692,7 +2805,7 @@ xhtml|p[class~="leaders"] xhtml|span:first-child {
 
 /* Metadata block */
 uscDoc>meta, bill>meta, resolution>meta, pLaw>meta, statutesAtLarge>meta,
-frDoc>meta, cfrDoc>meta  {
+frDoc>meta, cfrDoc>meta, statutesAtLarge component>meta  {
     display:            block;
     border-style:       solid;
     border-width:       1pt;  
@@ -2707,7 +2820,7 @@ frDoc>meta, cfrDoc>meta  {
 }
 
 uscDoc>meta:before, bill>meta:before, resolution>meta:before, pLaw>meta:before, statutesAtLarge>meta:before,
-frDoc>meta:before, cfrDoc>meta:before  {
+frDoc>meta:before, cfrDoc>meta:before, statutesAtLarge component>meta:before  {
     display:            inline;
     color:              gray;
     font-size:          1.2em;
@@ -2863,10 +2976,23 @@ meta>processedBy:before {
     content:            "Processed By: ";
 }
 
+meta>processedDate:before {
+    display:            inline;
+    color:              gray;
+    content:            "Processed Date: ";
+}
+
 meta>publicPrivate:before {
     display:            inline;
     color:              gray;
     content:            "Public/Private: ";
+}
+
+
+meta>docPart:before {
+    display:            inline;
+    color:              gray;
+    content:            "Document Part: ";
 }
 
 /*  Whitespace Management */
