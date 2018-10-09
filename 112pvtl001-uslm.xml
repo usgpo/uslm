@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><pLaw xmlns="http://schemas.gpo.gov/xml/uslm/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm/2.0 https://www.govinfo.gov/schemas/xml/uslm/2.0/uslm-2.0.0.xsd" xml:lang="en" class="mimicGPOPrint">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><pLaw xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.0.3.xsd" xml:lang="en" class="mimicGPOPrint">
 
 <?I97 ??>
 <?I98 ??>
@@ -7,11 +7,14 @@
 <?I51 PRIVATE LAW 112–1—DEC. 28, 2012?>
 <?I52 PRIVATE LAW 112–1—DEC. 28, 2012?>
 
-<meta><dc:title>Private Law 112–1: For the relief of Sopuruchi Chukwueke.</dc:title><dc:type>Private Law</dc:type><docNumber>1</docNumber><citableAs>Private Law 112–1</citableAs><dc:publisher>United States Government Publishing Office</dc:publisher><processedBy>GPO Locator to USLM Converter 3.1.0, compiled on  2018/07/31 02:23:35;Stage2.20180730</processedBy><dc:creator>National Archives and Records Administration</dc:creator><dc:creator>Office of the Federal Register</dc:creator><dc:format>text/xml</dc:format><dc:language>EN</dc:language><dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights><congress>112</congress><publicPrivate>private</publicPrivate></meta><preface><page>?1</page><dc:type>Private Law</dc:type><docNumber>112–1</docNumber><congress value="112">112th Congress</congress></preface>
+<meta><dc:title>Private Law 112–1: For the relief of Sopuruchi Chukwueke.</dc:title><dc:type>Private Law</dc:type><docNumber>1</docNumber><citableAs>Private Law 112–1</citableAs><dc:publisher>United States Government Publishing Office</dc:publisher><dc:creator>National Archives and Records Administration</dc:creator><dc:creator>Office of the Federal Register</dc:creator><dc:format>text/xml</dc:format><dc:language>EN</dc:language><dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<processedBy>GPO Locator to USLM Converter 3.2.6;Stage2.20181004</processedBy><processedDate>2018-10-04</processedDate>
+<congress>112</congress><publicPrivate>private</publicPrivate></meta>
+<preface><page>?1</page><dc:type>Private Law</dc:type><docNumber>112–1</docNumber><congress value="112">112th Congress</congress></preface>
 <main>
 <longTitle>
 <docTitle>An Act</docTitle>
-<officialTitle>For the relief of Sopuruchi Chukwueke.<br verticalSpace="08pt"/></officialTitle><sidenote><p style="-uslm-lc:I658076">Dec. 28, 2012</p><p style="-uslm-lc:I658076">[<ref href="/us/bill/112/s/285">S. 285</ref>]</p></sidenote>
+<officialTitle>For the relief of Sopuruchi Chukwueke.</officialTitle><sidenote><p style="-uslm-lc:I658076" class="centered">Dec. 28, 2012</p><p style="-uslm-lc:I658076" class="centered">[<ref href="/us/bill/112/s/285">S. 285</ref>]<?GPOvSpace 08?></p></sidenote>
 </longTitle>
 <enactingFormula style="-uslm-lc:I658120">  Be it enacted by the Senate and House of Representa­tives of the United States of America in Congress assembled,</enactingFormula>
 <section style="-uslm-lc:I658146"><num value="1">SECTION 1. </num><heading>ADJUSTMENT OF STATUS.</heading><subsection style="-uslm-lc:I658120" class="indent0 firstIndent0 fontsize10"><num value="a">  (a) </num><heading><inline class="small-caps">In General</inline>.—</heading><content>Notwithstanding any other provision of law, for the purposes of the Immigration and Nationality Act (<ref href="/us/usc/t8/s1101/etseq">8 U.S.C. 1101 et seq.</ref>), Sopuruchi Chukwueke shall be deemed to have been lawfully admitted to, and remained in, the United States, and shall be eligible for adjustment of status to that of an alien lawfully admitted for permanent residence under section 245 of the Immigration and Nationality Act (<ref href="/us/usc/t8/s1255">8 U.S.C. 1255</ref>) upon filing an application for such adjustment of status.</content>
