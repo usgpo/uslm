@@ -1,12 +1,5 @@
->In the coming weeks, GPO is planning to release Beta USLM XML in the draft 2.0 schema on the govinfo Bulk Data Repository for enrolled bills from the 113th Congress forward, public laws from the 113th Congress forward, and the Statutes at Large from the 108th Congress forward. For enrolled bills, the Beta USLM XML will be made available in addition to the existing Bill DTD XML. The Beta USLM XML will use the same file naming convention as the Bill DTD XML but the Beta USLM XML will be in a /bulkdata/BILLS/uslm/ folder. We are also planning to make the Beta USLM XML available on the govinfo website through "USLM" buttons and in the ZIP files. Beta USLM XML will be added to the govinfo API and Link Service in an upcoming release.  
-
->In December 2018, the FDsys website including the FDsys Bulk Data Repository, FDsys Sitemaps, and the FDsys Link Service will be retired. Please migrate tools and processes to [govinfo](https://www.govinfo.gov/developers).
-
 # USLM Schema #
-
-
 In support of the United States Legislative Branch XML Working Group and in accordance with [2 U.S.C. 181](https://api.fdsys.gov/link?collection=uscode&title=2&year=mostrecent&section=181), the Government Publishing Office (GPO) is making the United States Legislative Markup (USLM) XML schema available as an authoritative source on GitHub. 
-
 
 
 ## Versions ##
