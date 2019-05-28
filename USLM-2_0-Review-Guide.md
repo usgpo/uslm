@@ -361,7 +361,7 @@ HeadingStructure now allows a more flexible arrangement of headings, subheadings
 
 In order to allow the use of the element `<action>` in the context of bill actions, the existing use of `<action>` within amendments has been changed to `<amendingAction>`.
 
-The existing action "renumber" was renamed "redesignate" to better match the terminology used in Congress. Additional action of "conform" and "unknown" were added.
+The existing action "renumber" was renamed "redesignate" to better match the terminology used in Congress. Additional actions of "conform", "repealAndReserve" and "unknown" were added.
 
 #### Appendix
 
@@ -369,7 +369,7 @@ The model for `<appendix>` was modified to better match actual appendix instance
 
 #### Signature
 
-The model for `<signatures>` was modified to better match actual signature instances (previously unused). Elements were added for **`<notation>`** and **`<autograph>`**.
+The model for `<signatures>` was modified to better match actual signature instances (previously unused). Elements were added for **`<notation>`** and **`<autograph>`**. In addition, **`<signatures>`** are now allowed at the end of levels to support the Federal Register.
 
 ### Tables
 
