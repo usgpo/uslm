@@ -18,4 +18,4 @@ To submit feedback, questions, or comments, please open a [GitHub issue](https:/
 
 
 ## User Guide and Review Guide ##
-Please refer to the User Guide in [PDF](USLM-User-Guide.pdf) or [Markdown](USLM-User-Guide.md) and Review Guide in [PDF](https://github.com/usgpo/uslm/blob/proposed/USLM-2_0-Review-Guide.pdf) or [Markdown](https://github.com/usgpo/uslm/blob/proposed/USLM-2_0-Review-Guide.md) for additional information about the schema. 
+Please refer to the User Guide in [PDF](USLM-User-Guide.pdf) or [Markdown](USLM-User-Guide.md) and Review Guide in [Markdown](https://github.com/usgpo/uslm/blob/proposed/USLM-2_0-Review-Guide.md) for additional information about the schema. 
