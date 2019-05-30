@@ -5,7 +5,7 @@
 @namespace dcterms "http://purl.org/dc/terms/";
 @namespace xhtml "http://www.w3.org/1999/xhtml";
 
-/* Version 2.02 */
+/* Version 2.03 */
 
 /* USLM root elements*/
 
@@ -226,6 +226,7 @@ statutesAtLarge preface>explanationNote,
 statutesAtLarge>preface>note,
 statutesAtLarge component>preface>note  {
     display:            block;
+    background-color:   inherit;
     margin-top:         1em;
     margin-bottom:      1em;
 }
@@ -404,8 +405,8 @@ statutesAtLarge presidentialDoc p  {
 frDoc preface  {
     display:            block;
     border-bottom-style:   solid;
-    border-width:       1pt;  
-    border-color:       gray;
+    border-width:       1pt;
+    margin-top:         4em;
     text-align:         left;
 }
 
@@ -511,6 +512,7 @@ frDoc subparagraph,
 frDoc level>heading  {
     display:            block;
     margin-left:        0em;
+    text-indent:        0em;
     margin-bottom:      0.25em;
     text-align:         justify; /*left align in print due to narrow column */
 }
@@ -539,13 +541,18 @@ frDoc section>content  {
 
 frDoc signature, frDoc signature *  {
     display:            block;
+    margin-top:         0.5em;
     text-align:         left;
     font-style:         normal;
     margin-left:        0em;
 }
 
-frDoc signature>date  {
-    text-indent:         1em;
+frDoc signature>signatureDate  {
+    text-indent:        1em;
+}
+
+frDoc signature>signatureDate>date  {
+    display:            inline;
 }
 
 frDoc signature>name  {
@@ -556,13 +563,22 @@ frDoc signature>role  {
     font-style:         italic;
 }
 
-frDoc note[topic="frDocID"]  {
+frDocId  {
+    display:            block;
     font-size:          0.8em;
     margin-top:         1em;
 }
 
-frDoc note[topic="billingCode"]  {
+billingCode  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      2em;
     font-size:          0.7em;
+    font-family:        sans-serif;
+    font-weight:        bold;
+}
+
+frDoc findingAidsNote > heading  {
     font-family:        sans-serif;
     font-weight:        bold;
     margin-bottom:      2em;
@@ -646,6 +662,12 @@ rule>preface, notice>preface  {
     border-top-width:   1pt;
 }
 
+rule>main>rulePreamble>statement>content>heading  {
+    display:            inline;
+    font-family:        sans-serif;
+    font-weight:        bold;
+}
+
 rule level>heading, notice level>heading {
    font-family:         serif;
 }
@@ -727,8 +749,11 @@ frDoc preface>action  {
     margin-bottom:      0.5em;
     padding-bottom:     0.5em;
     font-family:        serif;
-    border-bottom-style:    solid;
-    border-width:       1pt;
+}
+
+frDoc preface>action>actionDescription>headingText  {
+    font-weight:        bold;
+    font-family:        sans-serif;
 }
 
 frDoc preface inline[role="heading"],
@@ -764,6 +789,12 @@ wordsOfIssuance  {
     display:            block;
     margin-top:         0.3em;
     text-indent:        1em;
+}
+
+wordsOfIssuance>heading  {
+    display:            block;
+    text-indent:        0em;
+    font-weight:        bold;
 }
 
 /* cfrDoc preface */
@@ -1010,7 +1041,8 @@ cfrDoc note[topic="citation"]  {
     text-indent:        0em;
 }
 
-cfrDoc authority, cfrDoc source  {
+cfrDoc authority, cfrDoc source,
+frDoc section authority  {
     display:            block;
     text-indent:        1em;
     text-align:         left;
@@ -1314,6 +1346,7 @@ heading {
 toc {   
  /*   display:            table; */
     display : block;
+    background-color:   inherit;
     width:              100%;
     margin-top:         1em;
     margin-bottom:      1em;
@@ -1337,6 +1370,7 @@ uscDoc toc {
 
 toc > layout header {
     display:            block;
+    background-color:   inherit;
 }
 
 toc > layout header[role="tocColumnHeader"] {
@@ -1347,6 +1381,7 @@ toc > layout header[role="tocColumnHeader"] {
 
 toc > layout header[role="tocSubtitleHeader"] > column  {
     display:            block;
+    background-color:   inherit;
     margin-top:         0.5em;
     margin-bottom:      0.5em;
     text-align:         center;
@@ -1355,6 +1390,7 @@ toc > layout header[role="tocSubtitleHeader"] > column  {
 
 title toc > layout header[role="tocSubtitleHeader"] > column  {
     display:            block;
+    background-color:   inherit;
     margin-top:         0.5em;
     margin-bottom:      0.5em;
     text-align:         center;
@@ -1370,6 +1406,7 @@ toc > layout header[role="tocSubchapterHeader"] > column,
 toc > layout header[role="tocPartHeader"] > column,
 toc > layout header[role="tocSubpartHeader"] > column {
     display:            block;
+    background-color:   inherit;
     margin-top:         0.5em;
     margin-bottom:      0.5em;
     text-align:         center;
@@ -1379,10 +1416,12 @@ toc > layout header[role="tocSubpartHeader"] > column {
 
 toc > layout header[role="tocSubpartHeader"] {
     display:            block;
+    background-color:   inherit;
 }
 
 tocItem {
-/*    display:            table-row; */ 
+    display:            block;
+    background-color:   inherit;
 }
 
 column {
@@ -1449,6 +1488,7 @@ toc[role="twoColumnPageWidthTOC"] column[class~="twoColumnRight"] {
 /* ToC's are blocks */
 bill toc, resolution toc, pLaw toc  {
     display:            block;
+    background-color:   inherit;
     font-size:          0.8em;
 }
 
@@ -1480,6 +1520,7 @@ pLaw toc referenceItem[role="division"],
 pLaw toc > referenceItem[role="title"],
 pLaw toc > referenceItem[role="subtitle"]  {
     display:            block;
+    background-color:   inherit;
     margin-top:         0.5em;
     margin-bottom:      0.5em;
     text-align:         center;
@@ -1532,7 +1573,7 @@ pLaw toc referenceItem[role="section"]>label  {
     padding-left:        1em;
 }
 
-cfrDoc toc, fr toc  {
+cfrDoc toc, frDoc toc  {
     display:            block;
 }
 
@@ -1645,6 +1686,65 @@ cfrDoc part > toc referenceItem  {
 cfrDoc part > toc referenceItem > designator,
 cfrDoc part > toc referenceItem > label  {
     display:            inline;
+}
+
+frDoc toc[role="fr-contents"],
+frDoc toc[role="fr-contents"] groupItem,
+frDoc toc[role="fr-contents"] referenceItem,
+frDoc toc[role="fr-issue-parts"],
+frDoc toc[role="fr-issue-parts"] groupItem,
+frDoc toc[role="fr-issue-parts"] referenceItem  {
+    display:            block;
+}
+
+frDoc toc[role="fr-contents"] referenceItem,
+frDoc toc[role="fr-issue-parts"] referenceItem  {
+    margin-left:        2em;
+    text-indent:        -2em;
+}
+
+frDoc toc[role="fr-contents"] groupItem[role="agency"] > label,
+frDoc toc[role="fr-issue-parts"] groupItem > label  {
+    display:            block;
+    margin-top:         1em;
+    font-weight:        bold;
+    font-family:        sans-serif;
+}
+
+frDoc toc[role="fr-contents"] groupItem[role="agency"] groupItem[role="category"]>label {
+    display:            block;
+    font-size:          0.8em;
+    font-weight:        bold;
+    font-family:        sans-serif;
+}
+
+frDoc toc[role="fr-contents"] groupItem[role="category"]>groupItem>referenceItem {
+    display:            block;
+    margin-left:        3em;
+    font-weight:        normal;
+}
+
+frDoc toc[role="fr-contents"] referenceItem[role="xref"]>label {
+    font-style:         italic;
+}
+
+frDoc toc[role="fr-contents"] referenceItem>label,
+frDoc toc[role="fr-contents"] referenceItem>target,
+frDoc toc[role="fr-issue-parts"] referenceItem>label,
+frDoc toc[role="fr-issue-parts"] referenceItem>target  {
+    display:            inline;
+}
+
+frDoc toc[role="fr-contents"] referenceItem>target[role="fr-doc-id"] {
+    display:            none;
+}
+
+frDoc toc[role="fr-issue-parts"]  {
+    display:            block;
+    
+    border-top-style:   solid;
+    border-bottom-style:   solid;
+    border-width:       1pt;
 }
 
 /* Interim rules. Obsolete, but contains rules not yet implemented above
@@ -1943,6 +2043,7 @@ section[identifier*="/us/usc"] subitem heading+chapeau  {
     display:            block;
     margin-left:        0em !important;
     text-indent:        1em !important;
+    background-color: inherit;
 }
 
 /* Levels below subsection are indented */
@@ -1960,6 +2061,7 @@ level {
     margin-bottom:      0.3em;
     text-align:         justify;
     text-indent:        2em;
+    background-color: inherit;
 }
 
 /* In USC, levels below subsection are indented 1em instead of 2em */
@@ -1989,15 +2091,18 @@ section[identifier*="/us/usc"] level  {
     margin-bottom:      0.3em;
     text-align:         justify;
     text-indent:        0em !important;
+    background-color: inherit;
 }
 
 subsection[identifier*="/us/usc"],
 section[identifier*="/us/usc"] subsection  {
     margin-left:        0em !important;
+    background-color: inherit;
 }
 
 paragraph[class~="indent-up1"] {
     margin-left:        0em;
+    background-color: inherit;
 }
 
 chapeau {
@@ -2007,28 +2112,33 @@ chapeau {
 section>chapeau {
     display:            block;
     text-indent:        2em;
+    background-color: inherit;
 }
 
 chapeau[class~="blockIndent0"] {
     display:            block;
     margin-left:        0em;
     text-indent:        1em;
+    background-color: inherit;
 }
 
 chapeau[class~="blockIndent1"] {
     display:            block;
     margin-left:        1em;
     text-indent:        1em;
+    background-color: inherit;
 }
 
 chapeau[class~="blockIndent2"] {
     display:            block;
     margin-left:        2em;
     text-indent:        1em;
+    background-color: inherit;
 }
 
 continuation {
     display:            block;
+    background-color: inherit;
 }
 
 
@@ -2100,6 +2210,7 @@ reorganizationPlan > content {
 /* Notes and References */
 notes {
     display:            block;
+    background-color:   inherit;
     margin-top:         0.3em;
     margin-bottom:      0.3em;
     margin-left:        0em;
@@ -2109,6 +2220,7 @@ notes {
 
 sourceCredit {
     display:            block;
+    background-color:   inherit;
     margin-left:        0em;
     margin-top:         0.3em;
     margin-bottom:      0.3em;
@@ -2124,6 +2236,7 @@ sourceCredit > p {
 
 note {
     display:            block;
+    background-color:   inherit;
     margin-bottom:      0.3em;
     text-align:         left;
     text-indent:        0em;
@@ -2142,6 +2255,7 @@ notes[type="uscNote"] > note > heading {
 note[type="footnote"],
 footnote  {
     display:            block;
+    background-color:   inherit;
     margin-top:         0.5em;
     margin-bottom:      0em;
     text-align:         left;
@@ -2171,6 +2285,7 @@ ref[style="-uslm-sgm-p/su"]
 /* Sidenotes */
 sidenote  {
   display:              block;
+  background-color:   inherit;
   float:                right;  /* Default to right side */
   margin-right:         -12em;  /* Default to right side */
   width:                10em;
@@ -2223,52 +2338,6 @@ sidenote > p {
   text-indent:          0em;
 }
 
-/* OLRC Classification Notes */
-sidenote[topic*="olrc"] {
-  float: left;
-  text-align: right;
-  margin-left: -15em;
-  font-size: 1.2em;
-}
-
-/* Hack to force a single line of text to be right justified within the float block.  Without this, a single line is left justified. */
-sidenote[topic="olrcClassification"]:after {
-  white-space: pre;
-    content: "\A              ";
-}
-
-sidenote[topic="olrcClassification"][renderingPosition="rightMargin"] {
-  float: right;
-  text-align: left;
-  margin-top: .2em;
-  margin-left: -15em;
-  margin-right: -12em;
-  font-size: 1.2em;
-}
-
-sidenote[topic="olrcStamp"]  {
-  display:  block;
-  float: right;
-  width: 2em;
-  text-align: center;
-  text-indent: 0em;
-  margin-top: 0em;
-  margin-right: -6em;
-  font-family: cursive;
-  font-size: 1.4em;
-  font-weight: bold;
-  color: blue;
-  border: 2pt solid blue;
-  border-radius: 10pt;
-
-}
-
-sidenote[topic="olrcClassification"][class="out"] {
-    font-weight: bold;
-    font-size: 1.4em;
-    color: green;
-}
-
 span[role="classifiedText"]:before,
 ref[role="classifiedText"]:before  {
     font-weight: bold;
@@ -2308,6 +2377,7 @@ legislativeHistory p {
 
 note[topic="enacting"] > p {
     display:            block;
+    background-color:   inherit;
     margin-left:        2em;
     margin-right:       2em;
     margin-top:         0em;
@@ -2327,6 +2397,7 @@ note[topic="explanation"] {
 /* For U.S. Code note at the top */
 title>note[topic="miscellaneous"], appendix>note[topic="miscellaneous"] {
     display:            block;
+    background-color:   inherit;
     text-align:         center;
     font-style:         normal;
 }
@@ -2364,6 +2435,7 @@ elided[role="threeStar"] {
 
 *[class~="centered"] {
     display:            block;
+    background-color:   inherit;
     margin-left:        0em;
     margin-right:       0em;
     text-indent:        0em;
@@ -2532,6 +2604,7 @@ elided[role="threeStar"] {
 
 xhtml|p, p {
     display:            block;
+    background-color:   inherit;
     margin-left:        0em;
     text-indent:        1em;
 }
@@ -2738,7 +2811,7 @@ xhtml|th > xhtml|p {
 xhtml|p[class~="leaders"] {
     max-width:          40em;
     padding:            0em;
-    baseline-shift:     baseline;
+    baseline-shift:     0;
     overflow-x:         hidden;
     list-style:         none;
 }
@@ -2746,7 +2819,7 @@ xhtml|p[class~="leaders"] {
 xhtml|p[class~="leaders"] xhtml|span:after {
     float:              left;
     width:              0em;
-    baseline-shift:     baseline;
+    baseline-shift:     0;
     white-space:        nowrap;
     content:
        "\0000a0\0000a0\0000a0\0000a0. . . . . . . . . . . . . . . . . . . . "
@@ -2833,6 +2906,10 @@ meta>* {
     display:            block;
     margin-left:        2em;
     text-indent:        -2em;
+}
+
+frDoc component>meta>* {
+    display:            none;
 }
 
 /* Metadata display */
@@ -3020,29 +3097,33 @@ level>num + heading:before  {
 /* Page Formatting */
 /* Page Break Markers */
 page, preface>startingPage  {
-  display: block;
-  margin-top: 24pt;
-  margin-bottom: 12pt;
-  text-align: center;
-  text-indent: 0pt;
-  font-weight: normal;
-  font-style: normal;
-  font-family: arial, sans-serif;
-  font-size: 1.2em;
-  color: blue;
-  /*background-color: #c0c0c0; */
+    display: block;
+    margin-top: 24pt;
+    margin-bottom: 12pt;
+    text-align: center;
+    text-indent: 0pt;
+    font-weight: normal;
+    font-style: normal;
+    font-family: arial, sans-serif;
+    font-size: 1.2em;
+    color: blue;
+    /*background-color: #c0c0c0; */
 }
 
 page:before, preface>startingPage:before {
-  content: "--- PAGE ";
+    content: "--- PAGE ";
 }
 
 page[class="raw"]:before, preface>startingPage[class="raw"]:before {
-  content: "--- ";
+    content: "--- ";
 }
 
 page:after, preface>startingPage:after {
-  content: " ---";
+    content: " ---";
+}
+
+frDoc preface>startingPage  {
+    display:none;
 }
 
 cfrDoc leftRunningHead,
@@ -3070,6 +3151,9 @@ cfrDoc ear  {
     text-align:         left;
 }
 
+frDoc ear  {
+    display:            none;
+}
 
 /* Special Items */
 /* Override dc:title at the end of the CSS so that dc:title does not get rendered like a USLM:title element */
