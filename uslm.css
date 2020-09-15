@@ -1,44 +1,48 @@
 @charset "UTF-8";
-@namespace uslm "http://xml.house.gov/schemas/uslm/1.0";
+@namespace uslm "http://schemas.gpo.gov/xml/uslm";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 @namespace dc "http://purl.org/dc/elements/1.1/";
 @namespace dcterms "http://purl.org/dc/terms/";
 @namespace xhtml "http://www.w3.org/1999/xhtml";
 
-/* Version 2.03 */
+/* Version 2.10 */ 
 
 /* USLM root elements*/
+:root {
+    --serif-font-family: "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+}
+
 
 /* Set margin to be 1em, to push the text away from the frame/print border */
 /* Set the font-size to be 10pts, and make all other measurements in em's */
 /* Not using rem units because sometime the USLM lives within a 'div' of a surrounding application */
 /* Use serifed font to match printed bills and U.S. Code */
 
-/* For bills and resolutions, set the max-width to match prints from GPO */
 bill, resolution, pLaw,
 statutesAtLarge  {
     display:            block;
     margin:             1em;
-    max-width:          46.8em;
     font-size:          10pt;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+	font-family: 		var(--serif-font-family);
 }
 
-/* For U.S. Code, set compatability with usctitle.css that is used publically */
+/* For U.S. Code, set compatability with printed version */
 uscDoc  {
-    width:              426pt;
+    max-width:          426pt;
     margin-left:        24pt;
     margin-right:       24pt;
     font-size:          11pt;
-    font-family:        sans-serif;
+	font-family: 		var(--serif-font-family);
 }
 
-cfrDoc {
+cfrDoc,
+part[identifier*="/us/cfr"],
+chapter[identifier*="/us/cfr"]  {
     display:            block;
     margin:             1em;
     max-width:          35em;  /* 350 points */
     font-size:          10pt;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+	font-family: 		var(--serif-font-family);
 }
 
 frDoc {
@@ -46,11 +50,11 @@ frDoc {
     margin:             1em;
     max-width:          58em;  /* 522 points */
     font-size:          9pt;
-    font-family:        "Times New Roman", serif;
+	font-family: 		var(--serif-font-family);
 }
 
 uscDoc>meta, frDoc>meta  {
-    display:            block;
+    display:            none;
     border-style:       solid;
     border-width:       1pt;
     border-color:       gray;
@@ -62,41 +66,53 @@ uscDoc>meta, frDoc>meta  {
 }
 
 uscDoc>meta:before, frDoc>meta:before  {
-    display:            inline;
+    display:            none;
     color:              gray;
     font-size:          1.2em;
     font-weight:        bold;
     content:            "[Metadata]";
 }
 
-
 /* USLM First-level elements */
 meta, preface, main, signatures, appendix {
     display:            block;
 }
 
-/* For bills and resolutions, set the margins and max-width to match prints from GPO */
-/* Allow the width to be narrower than print display to support narrower viewing windows */
-/* Support an override stylesheet, to set fixed width to mimic the PDF width without scaling narrower when the window is not wide enough */
-bill>main,
-bill>preface,
-bill>signatures,
-bill>appendix,
-resolution>main,
-resolution>preface,
-resolution>signatures,
-resolution>appendix,
+/* Supress display of the Meta block */
+meta {
+    display:            none;
+}
+
+/* To render similar to GPO-printed bills and resolutions, set the max-width to match prints */
+/* Use max-width to allow the width to be narrower than print display to support narrower viewing windows */
+/* An override stylesheet may be used to set fixed width without scaling narrower when the window is not wide enough */
+bill[class~="mimicGPOPrint"],
+resolution[class~="mimicGPOPrint"],
+pLaw[class~="mimicGPOPrint"],
+statutesAtLarge[class~="mimicGPOPrint"] pLaw,
+statutesAtLarge[class~="mimicGPOPrint"] resolution {
+    max-width:          46.8em;  /* 468 points including side note space */
+}
+
+/* Set margin space on the right for sidenotes on Public Laws and Statutes at Large */
 pLaw>main,
 pLaw>preface,
 pLaw>signatures,
-pLaw>appendix  {
-    max-width:          32.4em;
-    margin-left:        7.2em;
-    margin-right:       7.2em;
+pLaw>appendix,
+statutesAtLarge resolution>main,
+statutesAtLarge resolution>preface,
+statutesAtLarge resolution>signatures,
+statutesAtLarge resolution>appendix,
+statutesAtLarge pLaw>main,
+statutesAtLarge pLaw>preface,
+statutesAtLarge pLaw>signatures,
+statutesAtLarge pLaw>appendix  {
+    margin-left:        0em; /*  None, since side notes are put on the right */
+    margin-right:       9em;
 }
 
 /* The print that OLRC delivers to GPO is approx. 25% smaller and has wider margins */
-bill[class="OLRCPrint"] {
+bill[class~="OLRCPrint"] {
     width:              450pt;
     max-width:          450pt;
     margin-left:        72pt;
@@ -104,10 +120,10 @@ bill[class="OLRCPrint"] {
     font-size:          8pt;
 }
 
-bill[class="OLRCPrint"]>meta,
-bill[class="OLRCPrint"]>preface,
-bill[class="OLRCPrint"]>main,
-bill[class="OLRCPrint"]>appendix {
+bill[class~="OLRCPrint"]>meta,
+bill[class~="OLRCPrint"]>preface,
+bill[class~="OLRCPrint"]>main,
+bill[class~="OLRCPrint"]>appendix {
     margin-left:        108pt;
     margin-right:       108pt;
 }
@@ -129,7 +145,7 @@ bill>preface>dc|type,
 resolution>preface>dc|type  {
     display:            inline-block;
     margin-top:         1em;
-    margin-left:        -4em;  /* this is shown in the left margin */
+    margin-left:        0em;  /* this is printed in the left margin */
     text-align:         left;
     font-size:          1.3em;
     text-transform:     uppercase;
@@ -148,7 +164,7 @@ resolution>preface>action  {
     display:            inline-block;
     float:              right;
     margin-top:         1em;
-    margin-right:        -4em;  /* this is shown in the right margin */
+    margin-right:       0em;  /* this is printed in the right margin */
     font-size:          1.3em;
 }
 
@@ -187,6 +203,14 @@ enrolledDateline   {
 }
 
 /* Public & Private Law Preface */
+pLaw preface>coverTitle  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    text-align:         center;
+    font-size:          1.4em;  /* 14 point font in the PDF */
+}
+
 pLaw>preface>dc|type,
 pLaw>preface>docNumber,
 pLaw>preface>congress  {
@@ -208,66 +232,85 @@ pLaw>preface>congress  {
 /* StatutesAtLarge Preface */
 statutesAtLarge>preface,  /* In case there is only one part and no collection and component elements*/
 statutesAtLarge>preface>note,
-statutesAtLarge>preface>note>p,
 statutesAtLarge component>preface,  /* For the repeated preface at the start of each part of the volume */
-statutesAtLarge component>preface>note,
-statutesAtLarge component>preface>note>p  {
+statutesAtLarge component>preface>note  {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
     margin-left:        0em;
     margin-right:       0em;
     text-align:         center;
     text-indent:        0em;
-    font-size:          1.2em;
-}
-
-statutesAtLarge preface>coverTitle,
-statutesAtLarge preface>organizationNote,
-statutesAtLarge preface>authority,
-statutesAtLarge preface>explanationNote,
-statutesAtLarge>preface>note,
-statutesAtLarge component>preface>note  {
-    display:            block;
-    background-color:   inherit;
-    margin-top:         1em;
-    margin-bottom:      1em;
 }
 
 statutesAtLarge preface>coverTitle  {
-    text-align:         center;
     font-size:          2.3em;  /* 23 point font in the PDF */
 }
 
+statutesAtLarge preface>note
+{
+    text-indent:        0em;
+    font-size:          1.2em;  /* mostly 12 point font in the PDF */
+}
+
+statutesAtLarge preface p   {
+    text-indent:        0em;
+}
+statutesAtLarge preface>organizationNote  {
+    font-size:          0.8em;  /* 8 point font in the PDF */
+}
+
 statutesAtLarge preface>authority  {
+    display:            block;
+    margin-top:         3em;
+    margin-bottom:      3em;
+    margin-left:        18em;
+    margin-right:       18em;
     text-align:         justify;
+    text-indent:        0em;
+    font-size:          0.8em;  /* 8 point font in the PDF */
 }
 
 statutesAtLarge preface>explanationNote  {
-    margin-right:       2em;
-    margin-left:        2em;
-    padding-top:        2em;
-    padding-bottom:     2em;
-    padding-left:       2em;
-    padding-right :     2em;
+    display:            block;
+    margin-right:       20em;
+    margin-left:        20em;
+    padding-top:        1.5em;
+    padding-bottom:     1.5em;
+    padding-left:       1.5em;
+    padding-right :     1.5em;
     border-style:       solid;
     border-color:       black;
+    border-width:       1pt;
     text-align:         justify;
+    font-size:          0.8em;  /* 8 point font in the PDF */
+}
+
+/*  Suppress property note */
+statutesAtLarge component>preface>note[role="propertyStatement"]  {
+   display:none;
 }
 
 statutesAtLarge preface>toc  {
     display:            table;
-    margin-top:         2em;
-    margin-left:        6em;
-    width:              75%;
+    margin-top:         4em;
+    margin-bottom:      4em;
+    margin-left:        14em;
     text-align:         center;
+    max-width:          32em;
 }
 
 statutesAtLarge preface>toc>heading  {
     display:            block;
+    padding-bottom:     1em;       
     font-size:          1.2em;
     text-align:         center;
 }
 
 statutesAtLarge preface>toc headingItem  {
-    font-style:      italic;
+    font-style:         italic;
+    font-size:          0.8em;
+    text-align:         right;
 }
 
 statutesAtLarge preface>toc>groupItem>label  {
@@ -276,36 +319,114 @@ statutesAtLarge preface>toc>groupItem>label  {
 }
 
 statutesAtLarge preface>toc>groupItem>referenceItem>designator  {
-    display:            table-cell;
-    width:              30em;
-    text-align:         left;
+    width:              40em;
     font-variant:       small-caps;
 }
 
+/*  put space between lists tables and set font size */
 statutesAtLarge preface>listOfBillsEnacted  {
-    display:            block;
-    margin-left:        6em;
-    width:              30em;
+    margin-top:         6em;
+    margin-bottom:      4em;
+    margin-left:        12em;
+    width:              40em;
+    font-size:          .9em;  /* 9 point font in the PDF */
 }
 
-statutesAtLarge preface>listOfBillsEnacted>referenceItem,
-statutesAtLarge preface>listOfBillsEnacted>headingItem  {
-    margin-left:        10em;
-    width:              20em;
+statutesAtLarge preface>listOfPublicLaws,
+statutesAtLarge preface>listOfPrivateLaws,
+statutesAtLarge preface>listOfConcurrentResolutions,
+statutesAtLarge preface>listOfProclamations  {
+    margin-top:         6em;
+    margin-bottom:      6em;
+    font-size:          .8em;  /* 8 point font in the PDF */
 }
 
-statutesAtLarge preface>listOfBillsEnacted>headingItem  {
+/* Force some vertical space before these lists */
+/* Setting these to block or table and using margin-top creates other problems */
+statutesAtLarge preface>listOfBillsEnacted:before,
+statutesAtLarge preface>listOfPublicLaws:before,
+statutesAtLarge preface>listOfPrivateLaws:before,
+statutesAtLarge preface>listOfConcurrentResolutions:before,
+statutesAtLarge preface>listOfProclamations:before  {
+  content:              "\A\A\A\A";
+  white-space:          pre;
+}
+
+statutesAtLarge preface>listOfBillsEnacted>groupItem  {
+    display:            table-row-group;
+}
+
+/* Override default properties designator*/
+statutesAtLarge preface>listOfBillsEnacted designator,
+statutesAtLarge preface>listOfPublicLaws designator,
+statutesAtLarge preface>listOfPrivateLaws designator  {
+    width:              8em;   
+}
+
+/* Override default properties for label */
+statutesAtLarge preface>listOfPrivateLaws>headingItem>label  {
+    text-align:         right; 
+    width:              30em;  
     font-style:         italic;
+}
+
+/* Override default properties for label */
+statutesAtLarge preface>listOfPrivateLaws>headingItem>target  {
+    width:              12em;  
+    font-style:         italic;
+}
+
+/* Override default properties for target */
+statutesAtLarge preface>listOfBillsEnacted>referenceItem>target,
+statutesAtLarge preface>listOfPrivateLaws designator  {
+    text-align:         left; 
+    width:              6em;  
+}
+/* Override default properties for target */
+statutesAtLarge preface>listOfPrivateLaws  target  {
+    width:              6em;  
 }
 
 statutesAtLarge preface>listOfBillsEnacted>heading,
 statutesAtLarge preface>listOfPublicLaws>heading,
 statutesAtLarge preface>listOfConcurrentResolutions>heading,
-statutesAtLarge preface>listOfProclamations>heading  {
+statutesAtLarge preface>listOfProclamations>heading,
+statutesAtLarge preface>listOfPrivateLaws>heading  {
     display:            block;
-    margin-top:         2em;
-    text-align:         center;
     font-size:          1.6em
+}
+
+statutesAtLarge preface>listOfBillsEnacted>heading:nth-of-type(3)  {
+    display:            none;  /* supress the third heading, which is a page heading */
+}
+
+/* Add rule below last subheading */
+statutesAtLarge preface>listOfBillsEnacted>subheading:last-of-type:after,
+statutesAtLarge preface>listOfPublicLaws>subheading:last-of-type:after,
+statutesAtLarge preface>listOfConcurrentResolutions>subheading:last-of-type:after,
+statutesAtLarge preface>listOfProclamations>subheading:last-of-type:after,
+statutesAtLarge preface>listOfPrivateLaws>subheading:last-of-type:after  {
+  content:              "\A\___________";
+  text-align:           center;  
+  white-space:          pre;
+}
+
+/* Override default properties for headingItem>label */
+statutesAtLarge preface>listOfPublicLaws>headingItem>label {
+     margin-right:       1em;
+     text-align:         right; 
+     width:              24em;  
+}
+
+/* Override default properties for referenceItem>label */
+statutesAtLarge preface>listOfPublicLaws label  {
+     padding-left:       .5em;
+     width:              10em;  
+}
+
+/* Override default properties for target */
+statutesAtLarge preface>listOfPublicLaws target  {
+     width:              4em;  
 }
 
 statutesAtLarge preface>listOfBillsEnacted>subheading,
@@ -322,25 +443,10 @@ statutesAtLarge preface>listOfProclamations>subheading  {
 statutesAtLarge preface>listOfBillsEnacted>headingItem,
 statutesAtLarge preface>listOfPublicLaws>headingItem,
 statutesAtLarge preface>listOfConcurrentResolutions>headingItem,
-statutesAtLarge preface>listOfProclamations>headingItem  {
+statutesAtLarge preface>listOfProclamations>headingItem,
+statutesAtLarge preface>listOfPrivateLaws>headingItem  {
     font-style:         italic;
-    font-size:          0.6em;
-}
-
-statutesAtLarge preface>listOfBillsEnacted>referenceItem,
-statutesAtLarge preface>listOfPublicLaws>referenceItem,
-statutesAtLarge preface>listOfConcurrentResolutions>referenceItem,
-statutesAtLarge preface>listOfProclamations>referenceItem  {
     font-size:          0.8em;
-}
-
-statutesAtLarge preface>listOfBillsEnacted>referenceItem>designator,
-statutesAtLarge preface>listOfPublicLaws>referenceItem>designator {
-    width:              7em;
-}
-
-statutesAtLarge preface>listOfBillsEnacted>referenceItem>target  {
-    width:              5em;
 }
 
 statutesAtLarge preface>listOfPublicLaws>referenceItem>label:nth-of-type(1)  {
@@ -356,22 +462,44 @@ statutesAtLarge preface>listOfProclamations>referenceItem>label:nth-of-type(2)  
 
 statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>designator,
 statutesAtLarge preface>listOfProclamations>referenceItem>designator  {
-    width:              10em;
+    width:              10em; 
 }
 
 statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>label:nth-of-type(1),
 statutesAtLarge preface>listOfProclamations>referenceItem>label:nth-of-type(1)  {
-    width:              20em;
-    text-indent:        -1em;
+    width:              28em;
+    padding-right:      .5em;
+    padding-left:       .5em;
+
+}
+
+/* Override default settings for this list  */
+statutesAtLarge preface>listOfConcurrentResolutions>headingItem>target,
+statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>target  {
+    width:              3em;
+    padding-right:      .5em;
+    padding-left:       .5em;
 }
 
 statutesAtLarge publicLaws>preface>coverText,
 statutesAtLarge concurrentResolutions>preface>coverText  {
     display:            block;
     margin-top:         2em;
-    margin-bottom:      2em;
+    margin-bottom:      1em;
     text-align:         center;
-    font-size:          1.2em;
+    font-size:          1.5em;
+}
+
+statutesAtLarge publicLaws enrolledDateline   {
+    display:            block;
+    margin-top:         1em;
+    margin-left:        10em;
+    margin-right:       10em;
+    text-align:         center;
+    font-size:          1em;
+    font-weight:        normal;
+    font-style:         italic;
+    font-family:        var(--serif-font-family);
 }
 
 statutesAtLarge presidentialDoc {
@@ -443,7 +571,7 @@ frDoc preface>volume  {
     margin-left:        0em;
     text-align:         left;
     font-size:          .9em;
-    font-family:        serif;
+	font-family: 		var(--serif-font-family);
 }
 
 
@@ -463,7 +591,7 @@ frDoc preface>date  {
     font-size:          .9em;
 }
 
-presidentialDocs p[class="titleGroupNum"]
+presidentialDocs p[class~="titleGroupNum"]
 {
     margin-top:         .7em;
     text-indent:        0em;
@@ -471,7 +599,7 @@ presidentialDocs p[class="titleGroupNum"]
     font-weight:        bold;
 }
 
-presidentialDocs p[class="titleGroupSubject"]
+presidentialDocs p[class~="titleGroupSubject"]
 {
     margin-top:         .7em;
     text-indent:        0em;
@@ -495,7 +623,7 @@ presidentialDoc>preface>dc|subject  {
     text-align:         left;
     font-size:          1.2em;
     font-weight:        bold;
-    font-family:        serif;
+	font-family: 		var(--serif-font-family);
 }
 
 /* Federal Register Main elements */
@@ -617,7 +745,7 @@ component>resolution>meta:before  {
 rule, presidentialDoc, notice  {
     display:            block;
     font-size:          1em;
-    font-family:        serif;
+	font-family: 		var(--serif-font-family);
 }
 
 /* Presidential Documents */
@@ -636,11 +764,11 @@ presidentialDoc statement  {
 }
 
 presidentialDoc section>num {
-   font-family:         serif;
+	font-family: 		var(--serif-font-family);
 }
 
 presidentialDoc section>heading {
-   font-family:         serif;
+	font-family: 		var(--serif-font-family);
    font-style:          italic;
    font-weight:         normal;
 }
@@ -669,7 +797,7 @@ rule>main>rulePreamble>statement>content>heading  {
 }
 
 rule level>heading, notice level>heading {
-   font-family:         serif;
+	font-family: 		var(--serif-font-family);
 }
 
 rule statement,
@@ -687,7 +815,7 @@ rule p>heading {
    font-style:          italic;
 }
 
-rule *[class="T02"]  {
+rule *[class~="T02"]  {
     font-weight:        bold;
     font-family:        sans-serif;
     font-size:          0.8em;
@@ -712,7 +840,7 @@ frDoc appendix  {
 frDoc preface>organization[role="agency"]  {
     display:            block;
     margin-top:         0.3em;
-    font-family:        serif; 
+	font-family: 		var(--serif-font-family);
     font-weight:        normal;
 }
 
@@ -748,7 +876,7 @@ frDoc preface>action  {
     margin-top:         0.1em;
     margin-bottom:      0.5em;
     padding-bottom:     0.5em;
-    font-family:        serif;
+	font-family: 		var(--serif-font-family);
 }
 
 frDoc preface>action>actionDescription>headingText  {
@@ -766,7 +894,7 @@ frDoc statement>heading  {
 
 frDoc *[class~="hd1"]  {
     display:            block;
-    font-family:        serif;
+	font-family: 		var(--serif-font-family);
     font-weight:        bold;
     font-size:          1em;
     margin-top:         0.3em;
@@ -776,7 +904,7 @@ frDoc *[class~="hd1"]  {
 
 frDoc *[class~="hd2"]  {
     display:            block;
-    font-family:        serif;
+	font-family: 		var(--serif-font-family);
     font-weight:        normal;
     font-style:         italic;
     font-size:          1em;
@@ -908,7 +1036,7 @@ cfrDoc>preface>explanationNote heading  {
     margin-top:         1em;
     margin-bottom:      1em;
     font-size:          1em;
-    font-family:        "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+	font-family: 		var(--serif-font-family);
     font-weight:        normal;
 }
 
@@ -1074,37 +1202,32 @@ cfrDoc appendix>heading+p  {
 /* Main elements */
 
 /* Bills and Resolutions */
-longTitle>docTitle   {
+longTitle  {
+    display:            block;
+    text-align:         center;
+}
+
+longTitle>docTitle  {
     display:            block;
     margin-top:         1.5em;
     margin-bottom:      0.5em;
-    text-align:         center;
     font-size:          1.6em;
     font-weight:        normal;
     font-family:        "Old English Text MT", serif;
 }
 
-pLaw>main>longTitle>docTitle   {
-    font-size:          1.2em;
-    font-family:        serif;
+pLaw>main>longTitle>docTitle  {
+    font-size:          1.2em;  /* 12 point font in the pdf */
+	font-family: 		var(--serif-font-family);
 }
 
 /* In print, the official title is centered if 2 lines or less
  * and is justified with 1em hanging indent of 3 or more lines.
- * Here, we go with the 3 or more line style. */
-longTitle>officialTitle   {
+ * Here, we go with the 2 or less line style. */
+longTitle>officialTitle  {
     display:            block;
-    margin-bottom:      0.5em;
-    margin-left:        1em;
-    margin-right:       0em;
-    text-indent:        -1em;
-    text-align:         justify;
-    font-size:          0.8em;
-}
-
-resolution longTitle>officialTitle   {
-    margin-left:        1em;  /* Resolution official titles are full-width */
-    margin-right:       0em;  /* Resolution official titles are full-width */
+    margin-bottom:      0.8em;
+    font-size:          0.8em;  /* 8 point font in the pdf */
 }
 
 recital {
@@ -1116,9 +1239,9 @@ recital {
     text-align:         justify;
 }
 
-enactingFormula, resolvingClause {
+enactingFormula, resolvingClause  {
     display:            block;
-    text-indent:        1em;
+    text-indent:        2em;
     font-size:          1em;
     font-style:         italic;
     text-align:         justify;
@@ -1129,16 +1252,15 @@ bill>main>section  {
     margin-bottom:      1em;
 }
 
-bill>main>title>num, bill>main>title>a>num, bill>main>title>heading  {
+bill>main title>num, bill>main title>a>num, bill>main title>heading, 
+pLaw>main title>num, pLaw>main title>a>num, pLaw>main title>heading
+{   
+    display:            block;
     margin-top:         1em;
     margin-bottom:      1em;
     text-align:         center;
-    font-size:          1.5em;
+    font-size:          1em;
     font-weight:        bold;
-}
-
-resolution section  {
-    text-align:         center;
 }
 
 resolution subsection  {
@@ -1174,7 +1296,8 @@ bill main level  {
 }
 
 /* Section nums and headings are bold in both bills and the USC. */
-section>num, section>a>num, section>heading  {
+section>num, section>a>num, section>heading,
+courtRule>num, courtRule>heading  {
     font-size:          1em;
     font-weight:        bold;
     text-transform:     none;
@@ -1188,7 +1311,9 @@ section[identifier*="/us/usc"]>heading  {
 }
 
 /* Bill Section nums and headings are all caps and smaller font size*/
-bill>main>section>num, bill>main>section>a>num, bill>main>section>heading  {
+bill section>num, bill section>a>num, bill section>heading,
+resolution section>num, resolution section>a>num, resolution section>heading,
+pLaw section>num, pLaw section>a>num, pLaw section>heading  {
     font-size:          0.8em;
     text-transform:     uppercase;
 }
@@ -1300,10 +1425,12 @@ part,
 subpart, 
 division, 
 subdivision, 
+article,
+subArticle,
 level,
 appendix, 
 compiledAct, 
-courtRule, 
+courtRules, 
 reorganizationPlan {
     display:            block;
     margin-top:         1em;
@@ -1336,6 +1463,15 @@ subpart>num, subpart>heading  {
     font-size:          1.2em;
 }
 
+courtRules title>num, courtRules title>heading  {
+    font-size:          1em;
+}
+
+compiledAct title>num, compiledAct title>heading  {
+    font-size:          1.2em;
+    font-weight:        bold;
+}
+
 heading {
     font-weight:        normal;
     display:            inline;
@@ -1365,7 +1501,7 @@ uscDoc toc {
     margin-right:       0pt;
     text-align:         left;
     display:            table;
-    font-size:          11pt;
+    font-size:          1em;  /* For web, set TOC font the same size as body text. In print, the TOC uses a smaller font */
 }
 
 toc > layout header {
@@ -1633,7 +1769,7 @@ cfrDoc > preface toc > groupItem > referenceItem {
     text-indent:        2em;
 }
 
-cfrDoc toc[class="cfrTitleTOC"] headingItem,
+cfrDoc toc[class~="cfrTitleTOC"] headingItem,
 cfrDoc > preface toc > headingItem  {
     display:            flex;
     width:              100%;
@@ -1642,7 +1778,7 @@ cfrDoc > preface toc > headingItem  {
     font-style:         italic;
 }
 
-cfrDoc toc headingItem[class="columnHeader"]  {
+cfrDoc toc headingItem[class~="columnHeader"]  {
     display:            flex;
     width:              100%;
     flex-direction:     row;
@@ -1656,7 +1792,7 @@ cfrDoc toc headingItem > label {
     font-variant:       small-caps;
 }
 
-cfrDoc toc[class="cfrChapterTOC"] referenceItem > designator  {
+cfrDoc toc[class~="cfrChapterTOC"] referenceItem > designator  {
     width:              6em;
 }
 
@@ -1965,7 +2101,7 @@ statutesAtLarge subjectIndex referenceItem>target  {
 }
 
 /* Section element rules */
-section {
+section, courtRule {
     display:            block;
     margin-top:         1em;
     margin-bottom:      0.3em;
@@ -1974,7 +2110,8 @@ section {
     font-weight:        normal;
 }
 
-section > content, section > amendingFormula {
+section > content, section > amendingFormula,
+courtRule > content, courtRule > chapeau  {
     display:            block;
     margin-top:         0em;
     margin-bottom:      0em;
@@ -1987,7 +2124,47 @@ section > content, section > amendingFormula {
 content {
     display:            inline;
 }
- 
+
+/* For most docs, levels below subsection are indented 2em from their parent,
+ * with a first-line indent of an additional 2em. */
+paragraph, 
+subparagraph, 
+clause, 
+subclause, 
+item,
+subitem, 
+subsubitem, 
+section level {
+    display:            block;
+    margin-top:         0.3em;
+    margin-left:        2em;
+    margin-bottom:      0.3em;
+    text-align:         justify;
+    text-indent:        2em;
+    background-color: inherit;
+}
+
+/* USC levels below subsection are indented 1em from their parent by default,
+ * with a first-line indent of an additional 1em. */
+paragraph[identifier*="/us/usc"],
+subparagraph[identifier*="/us/usc"],
+clause[identifier*="/us/usc"],
+subclause[identifier*="/us/usc"],
+item[identifier*="/us/usc"],
+subitem[identifier*="/us/usc"],
+level[identifier*="/us/usc"],
+/* In case the small level does not have a USC identifier */
+section[identifier*="/us/usc"] paragraph,
+section[identifier*="/us/usc"] subparagraph,
+section[identifier*="/us/usc"] clause,
+section[identifier*="/us/usc"] subclause,
+section[identifier*="/us/usc"] item,
+section[identifier*="/us/usc"] subitem,
+section[identifier*="/us/usc"] level  {
+    margin-left:        1em !important;
+    text-indent:        1em !important;
+} 
+
 /* Subsections are flush with sections */
 subsection  {
     display:            block;
@@ -1996,6 +2173,20 @@ subsection  {
     margin-bottom:      0.3em;
     text-align:         justify;
     text-indent:        2em;
+}
+
+/* USC subsections have a 1em first-line indent */
+subsection[identifier*="/us/usc"],
+section[identifier*="/us/usc"] subsection  {
+    text-indent:        1em;
+}
+
+/* CFR paragraphs are not indented and have a 1em first-line indent */
+paragraph[identifier*="/us/cfr"],
+section[identifier*="/us/cfr"] paragraph  {
+    display:            block;
+    margin-left:        0em;
+    text-indent:        1em;
 }
 
 /* As a workaround, !important is set for USC small levels to override the indent and first-indent styles */
@@ -2046,60 +2237,6 @@ section[identifier*="/us/usc"] subitem heading+chapeau  {
     background-color: inherit;
 }
 
-/* Levels below subsection are indented */
-paragraph, 
-subparagraph, 
-clause, 
-subclause, 
-item,
-subitem, 
-subsubitem, 
-level {
-    display:            block;
-    margin-top:         0.3em;
-    margin-left:        2em;
-    margin-bottom:      0.3em;
-    text-align:         justify;
-    text-indent:        2em;
-    background-color: inherit;
-}
-
-/* In USC, levels below subsection are indented 1em instead of 2em */
-/* In USC, small levels that have headings have no first line indent, so make that the default */
-subsection[identifier*="/us/usc"],
-paragraph[identifier*="/us/usc"], 
-subparagraph[identifier*="/us/usc"], 
-clause[identifier*="/us/usc"], 
-subclause[identifier*="/us/usc"], 
-item[identifier*="/us/usc"],
-subitem[identifier*="/us/usc"], 
-subsubitem[identifier*="/us/usc"], 
-level[identifier*="/us/usc"],
-/* In case the small level does not have a USC identifier */
-section[identifier*="/us/usc"] subsection,
-section[identifier*="/us/usc"] paragraph, 
-section[identifier*="/us/usc"] subparagraph, 
-section[identifier*="/us/usc"] clause, 
-section[identifier*="/us/usc"] subclause, 
-section[identifier*="/us/usc"] item,
-section[identifier*="/us/usc"] subitem, 
-section[identifier*="/us/usc"] subsubitem, 
-section[identifier*="/us/usc"] level  {
-    display:            block;
-    margin-top:         0.3em;
-    margin-left:        1em !important;
-    margin-bottom:      0.3em;
-    text-align:         justify;
-    text-indent:        0em !important;
-    background-color: inherit;
-}
-
-subsection[identifier*="/us/usc"],
-section[identifier*="/us/usc"] subsection  {
-    margin-left:        0em !important;
-    background-color: inherit;
-}
-
 paragraph[class~="indent-up1"] {
     margin-left:        0em;
     background-color: inherit;
@@ -2141,10 +2278,11 @@ continuation {
     background-color: inherit;
 }
 
-
 /* Appropriations */
 title[role~="appropriations"]>num,
-title[role~="appropriations"]>heading  {
+title[role~="appropriations"]>heading,
+title[class~="bill-dtd-appropriations"]>num,
+title[class~="bill-dtd-appropriations"]>heading  {
     text-align:         center;
     font-size:       1em;
     font-weight:        normal;
@@ -2157,7 +2295,6 @@ level[role~="appropriations"]  {
     margin-left:        0em;
     text-align:         justify;
 }
-
 
 appropriations > heading,
 title[role~="appropriations"] > heading,
@@ -2249,7 +2386,6 @@ notes[type="uscNote"] > note > heading {
     text-align:         center;
     display:            block;
     font-weight:        bold;
-    text-transform:     uppercase;
 }
 
 note[type="footnote"],
@@ -2287,8 +2423,8 @@ sidenote  {
   display:              block;
   background-color:   inherit;
   float:                right;  /* Default to right side */
-  margin-right:         -12em;  /* Default to right side */
-  width:                10em;
+  margin-right:         -12em;
+  width:                11em;
   text-align:           left;
   margin-top:           0.3em;
   margin-bottom:        -1.2em;
@@ -2299,9 +2435,10 @@ sidenote  {
   font-variant:         normal;
 }
 
-sidenote[renderingPosition="leftMargin"] {
+sidenote[renderingPosition="leftMargin"]  {
   float:                left;
   margin-left:         -12em;
+  width:                10em;
 }
 
 /* Push the a second sidenote below the first one.  There should be a better way to do this. */
@@ -2309,6 +2446,7 @@ sidenote:not(:first-of-type) {
   margin-top:         3em;
 }
 
+/* Enactment Date sidenote */
 sidenote[topic~="enactment"],
 pLaw longTitle > sidenote,
 resolution sidenote:first-of-type  {
@@ -2316,10 +2454,11 @@ resolution sidenote:first-of-type  {
   text-align:           center;
 }
 
+/* To simulate the line between date and the bill number */
 sidenote[topic~="enactment"] date,
 pLaw longTitle > sidenote > p:first-of-type,
 resolution sidenote:first-of-type > p:first-of-type  {
-  text-decoration:      underline; /* To simulate the line between date and the bill number */
+  text-decoration:      underline; 
 }
 
 sidenote[topic~="shortTitle"],
@@ -2328,10 +2467,10 @@ sidenote[topic~="pLawNote"]  {
   font-size:            0.8em;
 }
 
-/* Special case for sidenote in official title */
-officialTitle > sidenote  {
-  margin-top:           -1.75em;  /* move it up by one line */ 
-  font-size:            1em;   /* same size as the official title */
+/* Special case for sidenote after enacting formula or resolving clause */
+pLaw enactingFormula + sidenote,
+pLaw resolvingClause + sidenote  {
+  margin-top:           -2em;  /* move it up by two lines */
 }
 
 sidenote > p {
@@ -2458,6 +2597,10 @@ elided[role="threeStar"] {
     font-variant:       normal !important;
 }
 
+*[class~="noTextTransform"]  {
+    text-transform:       none !important;
+}
+
 *[class~="block"] {
    display:             block;
 }
@@ -2496,6 +2639,28 @@ elided[role="threeStar"] {
     text-indent:        4em !important;
 }
 
+/* These are a workarounds to handle hanging indents in USC titles that are converted from locators */
+/* These occur for subsection headings and paragraph headings in non-positive titles */
+*[class~="indent2"][class~="firstIndent-2"] {
+    text-indent:        0em !important;
+}
+
+*[class~="indent3"][class~="firstIndent-2"] {
+    text-indent:        0em !important;
+}
+
+*[class~="indent4"][class~="firstIndent-2"] {
+    text-indent:        0em !important;
+}
+
+*[class~="indent5"][class~="firstIndent-2"] {
+    text-indent:        0em !important;
+}
+
+*[class~="indent6"][class~="firstIndent-2"] {
+    text-indent:        0em !important;
+}
+
 /* Set right margin indentation. Each logical indent level is 2em */
 *[class~="rightIndent1"] {
     display:            block;
@@ -2505,7 +2670,7 @@ elided[role="threeStar"] {
 
 *[class~="rightIndent2"] {
     display:            block;
-    margin-right:       3em;
+    margin-right:       4em;
     text-align:         right;
 }
 
@@ -2513,6 +2678,68 @@ elided[role="threeStar"] {
     display:            block;
     margin-right:       6em;
     text-align:         right;
+}
+
+/*  Left indents, relative to the parent container. Each logical indent level is 2em */
+*[class~="indentDown7"] {
+    margin-left:        -14em;
+}
+
+*[class~="indentDown6"] {
+    margin-left:        -12em;
+}
+
+*[class~="indentDown5"] {
+    margin-left:        -10em;
+}
+
+*[class~="indentDown4"] {
+    margin-left:        -8em;
+}
+
+*[class~="indentDown3"] {
+    margin-left:        -6em;
+}
+
+*[class~="indentDown2"] {
+    margin-left:        -4em;
+}
+
+*[class~="indentDown1"] {
+    margin-left:        -2em;
+}
+*[class~="indent0"]    {
+    margin-left:        0em;
+}
+
+/* For bills, the normal indent for descendent levels is 2em. */
+/* 2em default is set elsewhere, without this "indentUp1" class. */
+*[class~="indentUp1"] {
+    margin-left:        2em;
+}
+
+*[class~="indentUp2"] {
+    margin-left:        4em;
+}
+
+*[class~="indentUp3"] {
+    margin-left:        6em;
+}
+
+*[class~="indentUp4"] {
+    margin-left:        8em;
+}
+
+*[class~="indentUp5"] {
+    margin-left:        10em;
+}
+
+*[class~="indentUp6"] {
+    margin-left:        12em;
+}
+
+*[class~="indentUp7"] {
+    margin-left:        14em;
 }
 
 /* Comment this out becuase the converter sets these as absolute indents,
@@ -2653,7 +2880,7 @@ xhtml|li {
     list-style-type:    disc;
 }
 
-xhtml|ul[class="outsideBullet"]  {
+xhtml|ul[class~="outsideBullet"]  {
    list-style-position: outside;
    text-indent:         0em;
    margin-left:         -2em;
@@ -2736,7 +2963,6 @@ xhtml|table {
     margin-bottom:      1em;
     margin-left:        2em;
     margin-right:       2em;
-    text-align:         center;
     border-collapse:    collapse;
 }
 
@@ -2768,7 +2994,7 @@ xhtml|td,
 xhtml|th {
    display:             table-cell;    
    font-weight :        normal;
-   padding:             0em;
+   padding-left:        .2em;
 }
 
 /* XHTML Tables formatting */
@@ -2799,7 +3025,8 @@ xhtml|tr[class~="headers"] {
 }
 
 xhtml|td > xhtml|p {
-   margin:              0em;
+   margin:              .3em;
+   padding-left:        .2em;
 }
 
 xhtml|th > xhtml|p {
@@ -2817,6 +3044,7 @@ xhtml|p[class~="leaders"] {
 }
 
 xhtml|p[class~="leaders"] xhtml|span:after {
+    display:            inline-flex;
     float:              left;
     width:              0em;
     baseline-shift:     0;
@@ -2879,7 +3107,7 @@ xhtml|p[class~="leaders"] xhtml|span:first-child {
 /* Metadata block */
 uscDoc>meta, bill>meta, resolution>meta, pLaw>meta, statutesAtLarge>meta,
 frDoc>meta, cfrDoc>meta, statutesAtLarge component>meta  {
-    display:            block;
+    display:            none;
     border-style:       solid;
     border-width:       1pt;  
     border-color:       gray;
@@ -3104,12 +3332,21 @@ page, preface>startingPage  {
     text-indent: 0pt;
     font-weight: normal;
     font-style: normal;
-    font-family: arial, sans-serif;
-    font-size: 1.2em;
-    color: blue;
-    /*background-color: #c0c0c0; */
+	font-family: 		var(--serif-font-family);
+	font-size: 11pt;  /* fixed size, indepedent of context. 11pt in the pdf */
 }
 
+/* Supress page numbers in Statutes At Large cover pages */
+statutesAtLarge > preface page,
+statutesAtLarge component > preface page,
+publicLaws > preface page,
+privateLaws > preface page,
+resolutions > preface page,
+presidentialDocs > preface page  {
+    display:            none;
+}
+
+/*
 page:before, preface>startingPage:before {
     content: "--- PAGE ";
 }
@@ -3121,6 +3358,7 @@ page[class="raw"]:before, preface>startingPage[class="raw"]:before {
 page:after, preface>startingPage:after {
     content: " ---";
 }
+  */
 
 frDoc preface>startingPage  {
     display:none;
