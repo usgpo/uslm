@@ -5,13 +5,14 @@
 @namespace dcterms "http://purl.org/dc/terms/";
 @namespace xhtml "http://www.w3.org/1999/xhtml";
 
-/* Version 2.12 */
+/* Version 2.16 2021-06-14 */
 
 /* USLM root elements*/
-:root {
-    --serif-font-family: "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+bill, resolution, pLaw,
+statutesAtLarge, statuteCompilation,
+cfrDoc, frDoc, uscDoc {
+    font-family: "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
-
 
 /* Set margin to be 1em, to push the text away from the frame/print border */
 /* Set the font-size to be 10pts, and make all other measurements in em's */
@@ -23,16 +24,14 @@ statutesAtLarge, statuteCompilation  {
     display:            block;
     margin:             1em;
     font-size:          10pt;
-	font-family: 		var(--serif-font-family);
 }
 
-/* For U.S. Code, set rendering compatability with OLRC web version */
+/* For U.S. Code, set rendering compatibility with OLRC web version */
 uscDoc  {
     max-width:          426pt;  /* Printed column width is ~206 pt. Both columns plus gutter is ~426pt*/
     margin-left:        24pt;
     margin-right:       24pt;
     font-size:          11pt;  /* Web font size is 11pt. Printed font size is 8pt */
-	font-family: 		var(--serif-font-family);
 }
 
 cfrDoc,
@@ -42,7 +41,7 @@ chapter[identifier*="/us/cfr"]  {
     margin:             1em;
     max-width:          35em;  /* 350 points */
     font-size:          10pt;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 frDoc {
@@ -50,7 +49,7 @@ frDoc {
     margin:             1em;
     max-width:          58em;  /* 522 points */
     font-size:          9pt;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 uscDoc>meta, frDoc>meta  {
@@ -148,7 +147,6 @@ resolution>preface>dc|type  {
     margin-left:        0em;  /* this is printed in the left margin */
     text-align:         left;
     font-size:          1.3em;
-    text-transform:     uppercase;
 }
 
 bill>preface>docNumber,
@@ -156,7 +154,6 @@ resolution>preface>docNumber  {
     display:            inline-block;
     margin-left:        0em;  /* this shows on the same line as the dc|type */
     font-size:          1.3em;
-    text-transform:     uppercase;
 }
 
 bill>preface>action,
@@ -187,7 +184,6 @@ resolution>preface>session  {
     margin-bottom:      1em;
     text-align:         center;
     font-weight:        bold;
-    text-transform:     uppercase;
 }
 
 enrolledDateline   {
@@ -499,7 +495,7 @@ statutesAtLarge publicLaws enrolledDateline   {
     font-size:          1em;
     font-weight:        normal;
     font-style:         italic;
-    font-family:        var(--serif-font-family);
+    font-family:        "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 statutesAtLarge presidentialDoc {
@@ -571,7 +567,7 @@ frDoc preface>volume  {
     margin-left:        0em;
     text-align:         left;
     font-size:          .9em;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 
@@ -623,7 +619,7 @@ presidentialDoc>preface>dc|subject  {
     text-align:         left;
     font-size:          1.2em;
     font-weight:        bold;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 /* Federal Register Main elements */
@@ -745,7 +741,7 @@ component>resolution>meta:before  {
 rule, presidentialDoc, notice  {
     display:            block;
     font-size:          1em;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 /* Presidential Documents */
@@ -764,11 +760,11 @@ presidentialDoc statement  {
 }
 
 presidentialDoc section>num {
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 presidentialDoc section>heading {
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
    font-style:          italic;
    font-weight:         normal;
 }
@@ -797,7 +793,7 @@ rule>main>rulePreamble>statement>content>heading  {
 }
 
 rule level>heading, notice level>heading {
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 rule statement,
@@ -840,7 +836,7 @@ frDoc appendix  {
 frDoc preface>organization[role="agency"]  {
     display:            block;
     margin-top:         0.3em;
-	font-family: 		var(--serif-font-family);
+    font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
     font-weight:        normal;
 }
 
@@ -876,7 +872,7 @@ frDoc preface>action  {
     margin-top:         0.1em;
     margin-bottom:      0.5em;
     padding-bottom:     0.5em;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 frDoc preface>action>actionDescription>headingText  {
@@ -894,7 +890,7 @@ frDoc statement>heading  {
 
 frDoc *[class~="hd1"]  {
     display:            block;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
     font-weight:        bold;
     font-size:          1em;
     margin-top:         0.3em;
@@ -904,7 +900,7 @@ frDoc *[class~="hd1"]  {
 
 frDoc *[class~="hd2"]  {
     display:            block;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
     font-weight:        normal;
     font-style:         italic;
     font-size:          1em;
@@ -1036,7 +1032,7 @@ cfrDoc>preface>explanationNote heading  {
     margin-top:         1em;
     margin-bottom:      1em;
     font-size:          1em;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
     font-weight:        normal;
 }
 
@@ -1205,12 +1201,13 @@ statuteCompilation  {
     margin-left:        24pt;
     margin-right:       24pt;
     font-size:          10pt;
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 
 statuteCompilation>preface>dc|title,
-statuteCompilation>preface>citableAs,
+property[role='compShortTitle'],
+statuteCompilation>preface>citationNote,
 statuteCompilation>preface>editionNote  {
     display:            block;
     margin-top:         .7em;
@@ -1219,19 +1216,12 @@ statuteCompilation>preface>editionNote  {
     font-size:          1em;
 }
 
-statuteCompilation>preface>dc|title  {
+statuteCompilation>preface>dc|title,
+property[role='compShortTitle']  {
     font-weight:        bold;
 }
 
-statuteCompilation>preface>citableAs:before,
-statuteCompilation>preface>editionNote:before  {
-    content:            "[";
-}
 
-statuteCompilation>preface>citableAs:after,
-statuteCompilation>preface>editionNote:after  {
-    content:            "]";
-}
 
 statuteCompilation>preface>explanationNote  {
     display:            block;
@@ -1244,18 +1234,13 @@ statuteCompilation>preface>explanationNote  {
 
 statuteCompilation editorialNote  {
     display:            inline;
+    font-weight:        normal;
+    font-style:         normal
 }
 
-statuteCompilation editorialNote:before,
-statuteCompilation>preface>explanationNote:before  {
-    font-weight:        bold;
-    content:            " [";
-}
-
-statuteCompilation editorialNote:after,
-statuteCompilation>preface>explanationNote:after  {
-    font-weight:        bold;
-    content:            "] ";
+/* section-level USC reference notes are on a separate line */
+statuteCompilation section > editorialNote[role="uscRef"]  {
+    display:            block;
 }
 
 statuteCompilation elided  {
@@ -1267,19 +1252,60 @@ statuteCompilation elided  {
     font-weight:        normal;
 }
 
+statuteCompilation toc > heading,
 statuteCompilation toc > headingItem > designator,
-statuteCompilation toc > headingItem > label,  {
+statuteCompilation toc > headingItem > label  {
+    display:            block;
     text-align:         center;
 }
 
+section[styleType='traditional'] > heading  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+    font-size:          1em;
+    font-weight:        normal;
+    font-variant:       small-caps;
+}
+
+section[styleType='traditional'] > num,
+section[styleType='traditional-inline'] > num  {
+    font-size:          1em;
+    font-weight:        normal;
+    font-variant:       small-caps;
+}
+
+section[styleType='traditional'] > content,
+section[styleType='traditional'] > chapeau,
+section[styleType='traditional-inline'] > content,
+section[styleType='traditional-inline'] > chapeau {
+    display:            inline;
+}
 statuteCompilation section > content  {
     text-indent:        2em;  /*  override the 1em setting above */
 }
 
 statuteCompilation section>num,
-statuteCompilation section>editorialNote,
 statuteCompilation section>heading  {
     font-size:          0.8em;  /*  8 point in the PDF */
+    font-weight:        bold;
+}
+
+
+statuteCompilation section>editorialNote  {
+    font-size:          1em;
+    font-weight:        normal;
+}
+
+statuteCompilation section>editorialNote[role="uscRef"]  {
+    font-size:          0.8em;  /*  8 point in the PDF */
+}
+
+statuteCompilation section > num + editorialNote[role="uscRef"]  {
+    display:            inline;
+    font-size:          0.8em;
+    font-weight:        bold;
 }
 
 statuteCompilation title>num,
@@ -1287,27 +1313,10 @@ statuteCompilation title>heading  {
     font-size:          1.4em;  /*  14 point in the PDF */
 }
 
-statuteCompilation toc referenceItem[role="section"]>designator  {
-    width:              20em;
-}
-
-statuteCompilation toc referenceItem[role="section"]>label  {
-    width:              50em;
-}
-
-statuteCompilation toc referenceItem[role="title"]  {
-    display:            block;
-}
-
-statuteCompilation toc referenceItem[role="title"]>designator,
-statuteCompilation toc referenceItem[role="title"]>label  {
-    display:            inline;
-}
-
 statuteCompilation longTitle  {
     display:            block;
     margin-top:         1em;
-    margin-bottom:         1em;
+    margin-bottom:      1em;
     margin-left:        1em;
     text-indent:        -1em;
     text-align:         justify;
@@ -1316,7 +1325,7 @@ statuteCompilation longTitle>docTitle,
 statuteCompilation longTitle>officialTitle  {
     display:            inline;
     font-size:          1em;
-    font-family:        var(--serif-font-family);
+    font-family:       "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 statuteCompilation longTitle>officialTitle:before  {
@@ -1342,7 +1351,7 @@ longTitle>docTitle  {
 
 pLaw>main>longTitle>docTitle  {
     font-size:          1.2em;  /* 12 point font in the pdf */
-	font-family: 		var(--serif-font-family);
+	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 /* In print, the official title is centered if 2 lines or less
@@ -1424,7 +1433,6 @@ section>num, section>a>num, section>heading,
 courtRule>num, courtRule>heading  {
     font-size:          1em;
     font-weight:        bold;
-    text-transform:     none;
 }
 
 /* USC Section nums and headings are larger than body text */
@@ -1439,11 +1447,6 @@ bill section>num, bill section>a>num, bill section>heading,
 resolution section>num, resolution section>a>num, resolution section>heading,
 pLaw section>num, pLaw section>a>num, pLaw section>heading  {
     font-size:          0.8em;
-}
-
-bill>main>title>num, bill>main>title>a>num, bill>main>title>heading,
-division>title>num, division>title>a>num, division>title>div>a>num, division>title>heading, division>title>div>heading  {
-    text-transform:     uppercase;
 }
 
 /* Bill Sections with a heading that preceeds the num have the heading centered on a separate line */
@@ -1587,7 +1590,6 @@ chapter>num, chapter>heading  {
 }
 
 division>num, division>a>num, division>heading  {
-    text-transform:     uppercase;
     font-weight:        bold;
 }
 
@@ -1679,7 +1681,6 @@ toc > layout header[role="tocSubpartHeader"] > column {
     margin-top:         0.5em;
     margin-bottom:      0.5em;
     text-align:         center;
-    text-transform:     uppercase;
     font-weight:        bold;
 }
 
@@ -1769,9 +1770,20 @@ bill toc, resolution toc, pLaw toc  {
     font-size:          0.8em;
 }
 
-referenceItem, groupItem, headingItem  {
-    display:            table-row;
+referenceItem, headingItem  {
+    display:            block;
     width:              100%;
+}
+
+/*
+Old user agents don't support @supports() so will ignore the use of table-row
+but (recent) browsers will load it and override the properties set above.
+*/
+@supports (display: table-row) {
+    referenceItem, headingItem  {
+        display:            table-row;
+        width:              100%;
+    }
 }
 
 /* By default, designators, labels and targets are flex block */
@@ -2024,6 +2036,29 @@ frDoc toc[role="fr-issue-parts"]  {
     border-width:       1pt;
 }
 
+statuteCompilation toc referenceItem[role="section"]>designator  {
+    width:              20em;
+}
+
+statuteCompilation toc referenceItem[role="section"]>label  {
+    width:              50em;
+}
+
+statuteCompilation toc referenceItem[role="title"],
+statuteCompilation toc referenceItem[role="subtitle"]  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+}
+
+statuteCompilation toc referenceItem[role="title"]>designator,
+statuteCompilation toc referenceItem[role="title"]>label,
+statuteCompilation toc referenceItem[role="subtitle"]>designator,
+statuteCompilation toc referenceItem[role="subtitle"]>label  {
+    display:            inline;
+}
+
 /* Rules for Indexes */
 statutesAtLarge popularNameIndex,
 statutesAtLarge subjectIndex  {
@@ -2145,15 +2180,15 @@ section level {
 /* USC levels below subsection are indented 1em from their parent by default,
  * with a first-line indent of an additional 1em. */
  paragraph[identifier*="/us/usc"]:not([class~="indent0"]),
- subparagraph[identifier*="/us/usc"]:not([class~="indent0"]), 
- clause[identifier*="/us/usc"]:not([class~="indent0"]), 
- subclause[identifier*="/us/usc"]:not([class~="indent0"]), 
+ subparagraph[identifier*="/us/usc"]:not([class~="indent0"]),
+ clause[identifier*="/us/usc"]:not([class~="indent0"]),
+ subclause[identifier*="/us/usc"]:not([class~="indent0"]),
  item[identifier*="/us/usc"]:not([class~="indent0"]),
  subitem[identifier*="/us/usc"]:not([class~="indent0"]),
- level[identifier*="/us/usc"]:not([class~="indent0"]), 
- section[identifier*="/us/usc"] paragraph:not([class~="indent0"]), 
+ level[identifier*="/us/usc"]:not([class~="indent0"]),
+ section[identifier*="/us/usc"] paragraph:not([class~="indent0"]),
  section[identifier*="/us/usc"] subparagraph:not([class~="indent0"]),
- section[identifier*="/us/usc"] clause:not([class~="indent0"]), 
+ section[identifier*="/us/usc"] clause:not([class~="indent0"]),
  section[identifier*="/us/usc"] subclause:not([class~="indent0"]),
  section[identifier*="/us/usc"] item:not([class~="indent0"]),
  section[identifier*="/us/usc"] subitem:not([class~="indent0"]),
@@ -2167,7 +2202,7 @@ section level {
      margin-left:        1em !important;
      text-indent:        1em !important;
  }
- 
+
 
 /* Subsections are flush with sections */
 subsection  {
@@ -2275,18 +2310,17 @@ level[role~="appropriations"]  {
     text-align:         justify;
 }
 
-appropriations > heading,
 title[role~="appropriations"] > heading,
 level[role~="appropriations"] > heading,
 appropriations-intermediate > heading,
-appropriations > subheading,
 title[role~="appropriations"] > subheading,
 level[role~="appropriations"] > subheading,
-appropriations-intermediate > subheading  {
+appropriations-intermediate > subheading,
+appropriations > heading,
+appropriations > subheading {
     display:            block;
     margin-bottom:      0.5em;
     text-align:         center;
-    text-transform:     capitalize;
     font-variant:       small-caps;
 }
 
@@ -2376,6 +2410,7 @@ footnote  {
     text-align:         left;
     text-indent:        0em;
     font-size:          1em;
+    font-weight:        normal;
 }
 
 note[type="footnote"] > num,
@@ -2386,12 +2421,23 @@ ref[class~="footnoteRef"] {
     font-size:          0.8em;
 }
 
+note[type="footnote"] > p:first-of-type,
+footnote > p:first-of-type {
+    display:            inline;
+}
+
+note[type="footnote"] > p:first-of-type:before,
+footnote > p:first-of-type:before {
+    content:            ' ';
+}
+
 /* Footnote superscript number */
 /* These selectors should be replaced with non-SGML specific selectors */
 note[style="-uslm-sgm-FTNT/P/SU"],
 footnote[style="-uslm-sgm-FTNT/P/SU"],
-ref[style="-uslm-sgm-p/su"]
-{
+ref[style="-uslm-sgm-p/su"],
+ref[style="-uslm-dtd:footnote-ref"],
+ref[style="-uslm-dtd:dangling-footnote-ref"] {
     display:            inline;
     font-size:          0.8em;
     vertical-align:     top;
@@ -2408,7 +2454,6 @@ sidenote  {
   margin-top:           0.3em;
   margin-bottom:        -1.2em;
   text-indent:          0em;
-  text-transform:       none;
   font-size:            0.8em;
   font-weight:          normal;
   font-variant:         normal;
@@ -2853,7 +2898,7 @@ xhtml|ul {
     margin-left:        -3em;
 }
 
-xhtml|li {
+xhtml|li  {
     display:            list-item;
     text-align:         left;
     list-style-type:    disc;
@@ -2930,6 +2975,24 @@ figCaption {
     display: block;
 }
 
+/*  Lists */
+listHeading  {
+    display:            block;
+    margin-top:         0.5em;
+    margin-bottom:      0.5em;
+    text-align:         center;
+}
+
+listItem  {
+    display:            block;
+    margin-left:        2em;
+    text-indent:        0em;
+}
+
+listContent  {
+    display:            inline;
+}
+
 /* ------------------------------------------------------------------------- */
 /* HTML                                                                      */
 /* ------------------------------------------------------------------------- */
@@ -2943,42 +3006,45 @@ xhtml|table {
     border-collapse:    collapse;
 }
 
-xhtml|colgroup {
+xhtml|colgroup, colgroup {
     display:            table-column-group
 }
 
-xhtml|col {
+xhtml|col, col {
     display:            table-column
 }
 
-xhtml|thead {
-    display:            table-header-group;
+xhtml|thead, thead {
+   display:             table-header-group;
    text-align:          center;
    margin:              0.3em;
 }
 
-xhtml|tbody {
+
+xhtml|tfoot, tfoot {
+   display:             table-footer-group;
+   text-align:          center;
+   margin:              0.3em;
+}
+
+xhtml|tbody, tbody {
    display:             table-row-group;
    font-size:           0.7em;
    text-align:          justify;
 }
 
-xhtml|tr {
+xhtml|tr, tr {
    display:             table-row;
 }
 
-xhtml|td,
-xhtml|th {
+xhtml|td, td,
+xhtml|th, th {
    display:             table-cell;
    font-weight :        normal;
    padding-left:        .2em;
 }
 
-/* XHTML Tables formatting */
-xhtml|table body {
-   font-size:           0.7em;
-   text-align:          justify;
-}
+/* End table CSS */
 
 *[class~="thinsp"] {
    width:               0.16em;
@@ -3041,20 +3107,20 @@ xhtml|p[class~="leaders"] xhtml|span:first-child {
 
 /* ------------------------------------------------------------------------- */
 /* Schedule of Laws Repealed */
-.SOLR {
+*[class~="SOLR"] {
 	width: 100%;
 	margin: 1em 0 1em 0;
 	text-indent: 0;
 	border-bottom: 1px solid black;
 }
-.SOLR colgroup > col:nth-child(1) { width: 39%; }
-.SOLR colgroup > col:nth-child(2) { width: 31%; }
-.SOLR colgroup > col:nth-child(3) { width: 30%; }
-.SOLR caption { padding-bottom: 0.8em; }
-.SOLR th:not(:last-of-type), .SOLR td:not(:last-of-type) {
+*[class~="SOLR"] colgroup > col:nth-child(1) { width: 39%; }
+*[class~="SOLR"] colgroup > col:nth-child(2) { width: 31%; }
+*[class~="SOLR"] colgroup > col:nth-child(3) { width: 30%; }
+*[class~="SOLR"] caption { padding-bottom: 0.8em; }
+*[class~="SOLR"] th:not(:last-of-type), *[class~="SOLR"] td:not(:last-of-type) {
 	border-right: 1px solid black;
 }
-.SOLR thead th {
+*[class~="SOLR"] thead th {
 	font-size: 0.7em;
 	text-align: center;
 	padding: 0.5em 0 0.5em 0;
@@ -3062,20 +3128,20 @@ xhtml|p[class~="leaders"] xhtml|span:first-child {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
-.SOLR tbody {
+*[class~="SOLR"] tbody {
 	font-size: 1em;
 	vertical-align: top;
 }
-.SOLR td  {
+*[class~="SOLR"] td  {
 	padding-right: 0.2em;
 }
-.SOLR tr.firstOfAct > td  {
+*[class~="SOLR"] tr.firstOfAct > td  {
 	padding-top: 1em;
 }
-.SOLR td:nth-of-type(2), .SOLR td:nth-of-type(3) {
+*[class~="SOLR"] td:nth-of-type(2), *[class~="SOLR"] td:nth-of-type(3) {
     text-align: left;
 }
-.SOLR td p {
+*[class~="SOLR"] td p {
 	padding-left: 1em;
 	text-indent: -0.8em;
 }
@@ -3277,28 +3343,6 @@ meta>docPart:before {
     content:            "Document Part: ";
 }
 
-/*  Whitespace Management */
-/* Force space between the num and the heading or chapeau or content in case there is no space character in the content */
-num + heading:before,
-num + content:before,
-num + chapeau:before  {
-    content: " ";
-}
-
-/*  For big levels, do not put the space between the num and heading
- because the emdash is the separator. */
-title>num + heading:before,
-subtitle>num + heading:before,
-chapter>num + heading:before,
-subchapter>num + heading:before,
-part>num + heading:before,
-subpart>num + heading:before,
-division>num + heading:before,
-subdivision>num + heading:before,
-level>num + heading:before  {
-    content: "";
-}
-
 /* Page Formatting */
 /* Page Break Markers */
 page, preface>startingPage  {
@@ -3309,8 +3353,8 @@ page, preface>startingPage  {
     text-indent: 0pt;
     font-weight: normal;
     font-style: normal;
-	font-family: 		var(--serif-font-family);
-	font-size: 11pt;  /* fixed size, indepedent of context. 11pt in the pdf */
+    font-family: "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+	font-size: 11pt;  /* fixed size, independent of context. 11pt in the pdf */
 }
 
 /* Suppress page numbers in Statutes At Large cover pages */
@@ -3446,4 +3490,3 @@ note > p[class~="indent5"] {
 note > p[class~="indent6"] {
     margin-left:        6em;
 }
-
