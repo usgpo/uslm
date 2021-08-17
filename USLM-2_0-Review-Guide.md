@@ -78,6 +78,7 @@ Building on the "flexible foundation" in goal number four above, the Government 
 - Enrolled Bills
 - Public Laws
 - Statutes at Large
+- Statute Compilations
 - Federal Register (FR)
 - Code of Federal Regulations (CFR)
 
@@ -223,6 +224,7 @@ Below is an example of a collection used to group multiple document-specific uni
 USLM 1.0 does not have a model for lists. It depends on an external namespace (XHTML) for them. Lists are common, and the requirements are subtly different from XHTML. Thus it was determined that USLM 2.0 needs to have a simple model for them. The relevant elements are:
 
 - **list**
+- **listHeading**
 - **listItem**
 - **listContent**
 
@@ -290,18 +292,23 @@ USLM 2.0 defines many more PropertyType elements. These elements are typically f
 - **subject**
 - **coverTitle**
 - **coverText**
+- **currentThroughPublicLaw**
+- **containsShortTitle**
+- **createdDate**
 
 ### New Attributes
 
 A number of new attributes are introduced in USLM 2.0, including:
 
-@styleType _The @styleType attribute is used to set the overall semantic type of the block. This has rendering implications. Only a small set of values is allowed, which were carried over from Bill DTD styles, such as "OLC" and "USC"._
+@styleType _The @styleType attribute is used to set the overall semantic type of the block. This has rendering implications. Only a predefined set of values is allowed, which were carried over from Bill DTD and Comp DTD styles, such as "OLC" and "USC"._
 
 @scope _Use the @scope attribute to specify the scope within which the @identifier attribute is valid. Typically, @scope is formatted as a URL, referring to a specific context. @scope is used for terms within in definitions to specify the scope of the definition._
 
 @legisDate _The @legisDate attribute is used for a logical legislative date, which may be different from the calendar date._
 
 @verticalSpace  _The @verticalSpace attribute the amount of vertical space move down. If the attribute is not present, single line (i.e. the next line) is the default. If the attribute is present, the value is amount of space to allow, in addition to the normal position of the next line.  The value may specify units, using CSS syntax (e.g. "4em" or "12pt"). If no units are given, the units are assumed to be points. The values "nextPage" and "nextColumn" are used to force a page break or column break._
+
+@inEffect _@inEffect is a Boolean attribute that is used for provisions that are not in effect in the law at the time of the document publication. This attribute  is typically used in statute compilations. The default is “true”._  
 
 ### Model Extensions
 
@@ -337,17 +344,18 @@ The U.S. Code titles have very little prefatory material before the main body of
 
 An optional `<preface>` element (discussed above) may come before `<main>`, `<notes>`, `<backmatter>`, and `<endMarker>` may follow `<main>` before an `<appendix>`. This extension allows modelling of the following documents:
 
-- lawDoc,
-- bill,
-- resolution,
-- uscDoc,
-- **pLaw**,
-- **statutesAtLarge**,
-- **amendment**,
-- **frDoc**,
-- **rule**,
-- **presidentialDoc**,
-- **cfrDoc**
+- lawDoc  
+- bill  
+- resolution  
+- uscDoc  
+- **pLaw**  
+- **statutesAtLarge**  
+- **amendment**  
+- **frDoc**  
+- **rule**  
+- **presidentialDoc**  
+- **cfrDoc**  
+- **statuteCompilation**
 
 #### Level
 
@@ -380,6 +388,8 @@ In USLM 1.0, the table model was not defined, and the use of XHTML tables was en
 - **`@blockStyle`**
 - **`@leaders`**
 - **`@leaderAlign`**
+- **`@id`**
+- **`@identifier`**
 
 ### Document Actions
 
@@ -436,7 +446,7 @@ Figure 1 Bill Preface
 
 ![cfrPreface](/images/cfrPreface.png)
 
-Figure 2 CFR Preface:  Content displayed at the beginning of each CFR title in the preface is shown, including the cover page, official edition note, GPO and superintendent of socuments notes, title contents, citing note, explanation note, and this title note.
+Figure 2 CFR Preface:  Content displayed at the beginning of each CFR title in the preface is shown, including the cover page, official edition note, GPO and superintendent of documents notes, title contents, citing note, explanation note, and this title note.
 
 ## Footnotes
 
