@@ -1,8 +1,8 @@
 >Statute Compilations (COMPS) in USLM XML format are now available on govinfo. Access via [Search](https://www.govinfo.gov/app/search/%7B%22query%22%3A%22collection%3Acomps%22%2C%22offset%22%3A0%7D), [Browse](https://www.govinfo.gov/app/collection/comps), [Bulk Data](https://www.govinfo.gov/bulkdata/COMPS), and [API](https://api.govinfo.gov/docs/). 
 >
->Version 2.0.9 of the schema is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
+>Version 2.0.10 of the schema is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >
->Version 2.16 of the CSS is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
+>Version 2.17 of the CSS is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >
 >An updated version of the Review Guide is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >
