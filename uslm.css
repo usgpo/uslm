@@ -5,7 +5,7 @@
 @namespace dcterms "http://purl.org/dc/terms/";
 @namespace xhtml "http://www.w3.org/1999/xhtml";
 
-/* Version 2.16 2021-06-14 */
+/* Version 2.17 2021-09-09 */
 
 /* USLM root elements*/
 bill, resolution, pLaw,
@@ -2413,6 +2413,22 @@ footnote  {
     font-weight:        normal;
 }
 
+/* Footnote rendering for statute compilations*/
+statuteCompilation footnote  {
+    display:            block;
+    background-color:   inherit;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    padding-top:        0.2em;
+    padding-bottom:     0.2em;
+    text-align:         left;
+    text-indent:        0em;
+    font-size:          0.8em;
+    font-weight:        normal;
+    border-top:         1pt solid;
+    border-bottom:      1pt solid;
+}
+
 note[type="footnote"] > num,
 footnote > num,
 ref[class~="footnoteRef"] {
@@ -2587,6 +2603,11 @@ elided[role="fiveStar"] {
 elided[role="threeStar"] {
     display:            inline;
     font-weight:        normal;
+}
+
+/* Provisions not in effect within statute compilations are rendered in italic */
+*[inEffect="false"]  {
+    font-style:         italic;
 }
 
 /* General Content Item Rules */

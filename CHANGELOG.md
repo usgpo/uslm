@@ -5,7 +5,11 @@
 
 ## Proposed Changes ##
 
-2.0.9 - Draft version of uslm-2.0.9.xsd with support for Statute Compilations (COMPS). Changes between 2.0.4 and 2.0.9 (and soon to be 2.0.10).  
+2.0.10 - Draft version of uslm-2.0.10.xsd along with corresponding update to table module and CSS.
+- Updated uslm.xsd to 2.0.10 for backward-compatibility support for U.S. Code Appendices in USLM 1 format.   
+- Updated uslm.css to 2.17 for improved footnote rendering, inEffect support, and to stay in sync with OLRC updates.   
+   
+2.0.9 - Draft version of uslm-2.0.9.xsd with support for Statute Compilations (COMPS). Changes between 2.0.4 and 2.0.9.  
 - Removed use of dcterms namespace (for XMetal support)    
 - Added "inEffect" value to StatusEnum as the default  
 - Added new values to StyleTypeEnum from the @other-style DTD attribute  
