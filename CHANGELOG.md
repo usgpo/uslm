@@ -5,6 +5,32 @@
 
 ## Proposed Changes ##
 
+2.0.11 - Draft version of uslm-2.0.11.xsd along with corresponding update to table module. 
+
+Documentation Changes:
+- Fixed numerous typos in the documentation in the schema.
+- Clarified the documentation on identifiers used for specified versions of a document.
+- Added the documentation that items are planned to be removed or changed in the upcoming 2.1 version of this schema:
+  - the definition of the amendment element (which was defined for USLM1) will change.
+  - the attributes occurrence, actionDate, pos, posText, posCount from the amendingAction element, since as far as we know, they are unused, will be removed.
+  - the leaders attribute on the column element was marked as deprecated and may be removed in 2.1.
+
+Attribute Changes:
+- Added the leaders attribute to the th element, as it is for the td element.
+- Added the orientation attribute to tables and block elements to allow portrait or landscape orientation.
+- Added the default value to the leaderAlign attribute.
+- Added a display attribute to block elements with values yes or no.
+- Added the attribute committeeId to the committee element.
+
+Element Changes:
+- Added a new element  attestation to the list of allowed elements after the main element.
+- Added relatedDocuments to the meta and preface elements to hold a set of relatedDocument elements that are related to each other, e.g., a report that consists of multiple parts.
+- Added currentChamber, distributionCode to the meta and preface elements.
+- Added notes to the list of allowed elements where note is allowed (preface, referenceItem, and inline elements).
+- Allow mixed content in the signature element.
+- Added elements sponsor, cosponsor, and nonsponsor to the actionDescription element.
+
+
 2.0.10 - Draft version of uslm-2.0.10.xsd along with corresponding update to table module and CSS.
 - Updated uslm.xsd to 2.0.10 for backward-compatibility support for U.S. Code Appendices in USLM 1 format.   
 - Updated uslm.css to 2.17 for improved footnote rendering, inEffect support, and to stay in sync with OLRC updates.   

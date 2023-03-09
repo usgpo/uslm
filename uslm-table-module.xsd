@@ -11,7 +11,7 @@
             This is the module definition for XHTML tables within USLM. It includes the XHTML1.1 Table module,
             defining the groups, elements, and attributes that are needed.
             
-            Version: 2021-09-20
+            Version: 2023-01-03.
         </xsd:documentation>
         <xsd:documentation source="xhtml-copyright-1.xsd"/>
     </xsd:annotation>
@@ -25,7 +25,7 @@
         </xsd:annotation>
     </xsd:import>
     <xsd:import namespace="http://schemas.gpo.gov/xml/uslm"
-        schemaLocation="uslm-2.0.10.xsd">
+        schemaLocation="uslm-2.0.11.xsd">
         <xsd:annotation>
             <xsd:documentation>
                 This import brings in the USLM schema so it can be referenced.
@@ -200,6 +200,14 @@
             <xsd:attribute name="colspan" type="xh11d:Number" default="1"/>
             <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
             <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+        <xsd:attribute name="leaders" type="uslm:YesOrNoEnum" use="optional" default="no">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 
+                     The @leaders attribute sets the presence or absence of the leader dots in the 
+                     table cell. The value 'false' indicates no leaders, while 'true' indicates leaders.
+                  ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
         </xsd:attributeGroup>
         <xsd:group name="xhtml.th.content">
             <xsd:sequence>
