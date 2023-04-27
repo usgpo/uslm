@@ -5,6 +5,26 @@
 
 ## Proposed Changes ##
 
+2.0.12 - Draft version of uslm-2.0.12.xsd along with corresponding update to table module. 
+
+Summary:  
+2.0.12 includes necessary change in tables for production, fixes to 2.0.11 to ensure validity of changes approved by stakeholders for additional bill stages, documentation updates, including notification of potential content model changes in the next minor
+(2.1) release.  
+
+Documentation Changes:  
+- Fixed various typos in the documentation in the schema.  
+
+Attribute Changes:  
+- Allow attributes in other namespaces on several elements (`<date>`, table elements `<td>`, `<th>`, `<tr>`, `<tbody>`, `<tfoot>`, `<thead>`, `<caption>`, `<table>`).    
+- Allow XmlSpecialAttrs, IdentificationGroup, and ClassificationGroup attributes on SignatureType.  
+
+Element Changes:  
+- Removed child elements from `<sponsor>` that were not intended to be allowed.  
+- Allow the `<committee>` element in `<actionDescription>` as was intended.   
+- Allow the USLM `<p>` element in table cells.   
+- Fix problem with `<signature>` element not using SignatureType.  
+
+
 2.0.11 - Draft version of uslm-2.0.11.xsd along with corresponding update to table module. 
 
 Documentation Changes:

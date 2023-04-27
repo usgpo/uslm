@@ -11,7 +11,7 @@
             This is the module definition for XHTML tables within USLM. It includes the XHTML1.1 Table module,
             defining the groups, elements, and attributes that are needed.
             
-            Version: 2023-01-03.
+            Version: 2023-03-29.
         </xsd:documentation>
         <xsd:documentation source="xhtml-copyright-1.xsd"/>
     </xsd:annotation>
@@ -24,8 +24,7 @@
             </xsd:documentation>
         </xsd:annotation>
     </xsd:import>
-    <xsd:import namespace="http://schemas.gpo.gov/xml/uslm"
-        schemaLocation="uslm-2.0.11.xsd">
+    <xsd:import namespace="http://schemas.gpo.gov/xml/uslm">
         <xsd:annotation>
             <xsd:documentation>
                 This import brings in the USLM schema so it can be referenced.
@@ -53,6 +52,7 @@
         </xsd:annotation>
         <xsd:choice>
             <xsd:element ref="uslm:br"/>
+            <xsd:element ref="uslm:p"/>
             <xsd:element ref="xhtml:table"/>
             <xsd:group ref="xhtml:uslm.Inline.mix"/>
         </xsd:choice>
@@ -180,6 +180,7 @@
             <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
             <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
             <xsd:attributeGroup ref="uslm:HtmlTdGroup"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
         </xsd:attributeGroup>
         <xsd:group name="xhtml.td.content">
             <xsd:sequence>
@@ -208,6 +209,7 @@
                   ]]></xsd:documentation>
                 </xsd:annotation>
             </xsd:attribute>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
         </xsd:attributeGroup>
         <xsd:group name="xhtml.th.content">
             <xsd:sequence>
@@ -234,6 +236,7 @@
     <xsd:complexType name="xhtml.tr.type">
         <xsd:group ref="xhtml:xhtml.tr.content"/>
         <xsd:attributeGroup ref="xhtml:xhtml.tr.attlist"/>
+        <xsd:anyAttribute namespace="##other" processContents="lax"/>
         </xsd:complexType>
         <xsd:attributeGroup name="xhtml.col.attlist">
             <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
@@ -279,6 +282,7 @@
         <xsd:complexType name="xhtml.tbody.type">
             <xsd:group ref="xhtml:xhtml.tbody.content" maxOccurs="unbounded"/>
             <xsd:attributeGroup ref="xhtml:xhtml.tbody.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
         </xsd:complexType>
         <xsd:attributeGroup name="xhtml.tfoot.attlist">
             <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
@@ -294,6 +298,7 @@
         <xsd:complexType name="xhtml.tfoot.type">
             <xsd:group ref="xhtml:xhtml.tfoot.content" maxOccurs="unbounded"/>
             <xsd:attributeGroup ref="xhtml:xhtml.tfoot.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
         </xsd:complexType>
         <xsd:attributeGroup name="xhtml.thead.attlist">
             <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
@@ -308,6 +313,7 @@
         <xsd:complexType name="xhtml.thead.type">
             <xsd:group ref="xhtml:xhtml.thead.content"/>
             <xsd:attributeGroup ref="xhtml:xhtml.thead.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
         </xsd:complexType>
         <xsd:attributeGroup name="xhtml.caption.attlist">
             <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
@@ -321,6 +327,7 @@
         <xsd:complexType name="xhtml.caption.type" mixed="true">
             <xsd:group ref="xhtml:xhtml.caption.content"/>
             <xsd:attributeGroup ref="xhtml:xhtml.caption.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
         </xsd:complexType>
         <xsd:attributeGroup name="xhtml.table.attlist">
             <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
@@ -355,5 +362,6 @@
         <xsd:complexType name="xhtml.table.type">
             <xsd:group ref="xhtml:xhtml.table.content"/>
             <xsd:attributeGroup ref="xhtml:xhtml.table.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
         </xsd:complexType>
 </xsd:schema>

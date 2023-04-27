@@ -1,6 +1,6 @@
 >Statute Compilations (COMPS) in USLM XML format are now available on GovInfo. Access via [Search](https://www.govinfo.gov/app/search/%7B%22query%22%3A%22collection%3Acomps%22%2C%22offset%22%3A0%7D), [Browse](https://www.govinfo.gov/app/collection/comps), [Bulk Data](https://www.govinfo.gov/bulkdata/COMPS), and [API](https://api.govinfo.gov/docs/). 
 >
->Version 2.0.11 of the schema is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
+>Version 2.0.12 of the schema is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >
 >Version 2.17 of the CSS is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >
@@ -18,7 +18,7 @@ The current version of the schema is in the master branch. If there are any prop
 
 
 ## Draft USLM 2.0 Schema ##
-The proposed branch contains the draft USLM 2.0 schema; a schema review guide; sample USLM enrolled bill, public law, and Statutes at Large  files; CSS files; and additional schema required to validate the sample files. Sample files for the Federal Register and the Code of Federal Regulations are now available. 
+The proposed branch contains the draft USLM 2.0 schema; a schema review guide; sample USLM enrolled bill, public law, and Statutes at Large files; CSS files; and additional schema required to validate the sample files. Sample files for the Federal Register and the Code of Federal Regulations are now available. 
 
 
 To submit feedback, questions, or comments, please open a [GitHub issue](https://github.com/usgpo/uslm/issues).
