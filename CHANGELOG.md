@@ -14,14 +14,14 @@ Documentation Changes:
 - Fixed various typos in the documentation in the schema.  
 
 Attribute Changes:  
-- Allow attributes in other namespaces on several elements (`<date>`, table elements `<td>`, `<th>`, `<tr>`, `<tbody>`, `<tfoot>`, `<thead>`, `<caption>`, `<table>`).    
-- Allow XmlSpecialAttrs, IdentificationGroup, and ClassificationGroup attributes on SignatureType.  
+- Allowed attributes in other namespaces on several elements (`<date>`, table elements `<td>`, `<th>`, `<tr>`, `<tbody>`, `<tfoot>`, `<thead>`, `<caption>`, `<table>`).    
+- Allowed XmlSpecialAttrs, IdentificationGroup, and ClassificationGroup attributes on SignatureType.  
 
 Element Changes:  
 - Removed child elements from `<sponsor>` that were not intended to be allowed.  
-- Allow the `<committee>` element in `<actionDescription>` as was intended.   
-- Allow the USLM `<p>` element in table cells.   
-- Fix problem with `<signature>` element not using SignatureType.  
+- Allowed the `<committee>` element in `<actionDescription>` as was intended.   
+- Allowed the USLM `<p>` element in table cells.   
+- Fixed problem with `<signature>` element not using SignatureType.  
 
 
 2.0.11 - Draft version of uslm-2.0.11.xsd along with corresponding update to table module.  
