@@ -269,7 +269,7 @@
       <xsd:annotation>
          <xsd:documentation><![CDATA[
             The occurrence simple type specifies which occurrence is affected
-            by an action when amending. An occurence can be either a positive integer
+            by an action when amending. An ocurrence can be either a positive integer
             or a value from the choice enumeration such as "all" for
             all occurrences or "last" for the last occurrence.
          ]]></xsd:documentation>
