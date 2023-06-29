@@ -1,0 +1,423 @@
+@charset "UTF-8";
+@import "uslm.css";
+@namespace uslm "http://xml.house.gov/schemas/uslm/1.0";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+@namespace dc "http://purl.org/dc/elements/1.1/";
+@namespace dcterms "http://purl.org/dc/terms/";
+@namespace xhtml "http://www.w3.org/1999/xhtml";
+
+
+/* Reset the width to be wider  */
+:root {
+   max-width:              100em;
+}
+
+:root[class~="fullWidth"] { 
+    max-width: 100%; 
+}
+
+/* Reset the width to be wider  */
+bill>main,
+bill>preface,
+bill>signatures,
+bill>appendix,
+resolution>main,
+resolution>preface,
+resolution>signatures,
+resolution>appendix,
+pLaw>main,
+pLaw>preface,
+pLaw>signatures,
+pLaw>appendix  {
+    max-width:          85em;
+    margin-left:        2em;
+    margin-right:       2em;
+}
+
+bill>preface>dc|type,
+resolution>preface>dc|type  {
+    margin-left:        0em;  /* cancel the negative indent */
+}
+
+/* ToC rules */
+
+toc {
+   color:              teal;
+   border-style:       solid;
+   border-color:       gray;
+   border-width:       1pt; 
+   margin-left:        12pt;
+   margin-right:       12pt;
+}
+
+toc::before {
+   display:            block;
+   color:              orange;
+   content:            "[TOC]";
+}
+
+/* Section and below element rules */
+
+section, subsection, paragraph, subparagraph, clause, subclause, item, subitem, subsubitem, level, appropriations {
+   border-style:       solid;
+   border-width:       1pt;
+   border-color:       blue;
+   margin-left:        12pt !important;
+   margin-right:       12pt;
+   text-indent:        12pt !important;
+   padding:            0pt 2pt 0pt 2pt;
+}
+
+/* Section-specific element rules */
+
+section > num {
+   margin-left:        -12pt;
+}
+
+cfrDoc section>content,
+cfrDoc section>chapeau,
+cfrDoc section>continuation,
+cfrDoc section>source {
+   margin-left:        0pt !important;
+}
+
+/* Below section element rules */
+
+subsection::before {
+   color:              orange;
+   content:            "[SS]";
+}
+
+paragraph::before {
+   color:              orange;
+   content:            "[P]";
+}
+
+subparagraph::before {
+   color:              orange;
+   content:            "[SP]";
+}
+
+clause::before {
+   color:              orange;
+   content:            "[C]";
+}
+
+subclause::before {
+   color:              orange;
+   content:            "[SC]";
+   text-indent:        12pt;
+}
+item::before {
+   color:              orange;
+   content:            "[I]";
+}
+subitem::before {
+   color:              orange;
+   content:            "[SI]";
+}
+
+subsubitem::before {
+   color:              orange;
+   content:            "[SSI]";
+}
+
+level::before {
+   color:              orange;
+   content:            "[Level]";
+}
+
+appropriations::before {
+   color:              blue;
+   content:            "[Appr] (level=" attr(level) ")";
+}
+
+text::before {
+   color:              orange;
+   content:            "[txt]";
+}
+
+paragraph[style="indent-up1"]::before {
+   color:              orange;
+   font-weight:        bold;
+   content:            "←";
+}
+
+paragraph[style="display-inline"]::before {
+   color:              orange;
+   font-weight:        bold;
+   content:            "↑";
+}
+
+/* USC notes and below rules */
+
+notes {
+   border-style:       solid;
+   border-width:       1pt;
+   border-color:       gray;
+   margin-left:        12pt !important;
+   margin-right:       12pt;
+   padding:            0pt 2pt 0pt 2pt;
+}
+
+notes::before {
+   display:            block;
+   content:            "[Notes]";
+   color:              orange;
+   font-size:          12pt;
+   text-indent:        0pt;
+   text-align:         left;
+}
+sourceCredit {
+   border-style:       solid;
+   border-width:       1pt;
+   border-color:       gray;
+   margin-left:        12pt !important;
+   margin-right:       12pt;
+   padding:            0pt 2pt 0pt 2pt;
+}
+
+sourceCredit::before {
+   display:            block;
+   content:            "[Source Credit]  ";
+   color:              orange;
+   font-size:          12pt;
+}
+
+note {
+   border-style:       solid;
+   border-width:       1pt;
+   border-color:       gray;
+   margin-left:        12pt !important;
+   margin-right:       12pt;
+   padding:            0pt 2pt 0pt 2pt;
+}
+
+note::before {
+   display:            block;
+   content:            "[" attr(topic) "]";
+   color:              orange;
+   text-align:         left;
+   font-size:          12pt;
+}
+
+note[type="footnote"], footnote {
+   display:            block;
+   border-style:       none;
+   margin-left:        24pt;
+   margin-top:         0pt;
+   margin-right:       12pt;
+}
+
+note[type="footnote"]::before, footnote::before {
+   display:            inline;
+   content:            "[footnote]";
+   color:              orange;
+   text-align:         left;
+   font-size:          12pt;
+}
+
+ref[class="footnoteRef"] {
+   font-weight:        bold;
+   font-size:          x-small;
+   vertical-align:     super;
+   color:              green;
+}
+
+notes > p::before {
+   display:            block;
+   text-indent:        0pt;
+   content:            "[No Note Wrapper]  ";
+   color:              red;
+   font-size:          12pt;
+}
+
+num {
+   color:              green;
+   font-weight:        bold;
+}
+
+heading {
+   font-weight:        bold;
+   margin-left:        2pt;
+}
+
+content {
+   margin-left:        2pt;
+}
+
+text[display-inline="no-display-inline"] {
+   display:            block;
+   margin-top:         4pt;
+}
+
+instruction, graphic {
+   display:            block;
+}
+
+graphic::before {
+   color:              gray;
+   content:            "[graphic: " attr(graphic-dec) "]";
+}
+
+image-data{
+   display:            none;
+}
+
+quotedContent::before {
+   color:              orange;
+   display:            inline;
+   font-size:          10pt;
+   content:            "[Quoted Content]";
+}
+
+quotedContent::after {
+   color:              orange;
+   display:            inline;
+   font-size:          10pt;
+   content:            "[/Quoted Content]";
+}
+
+proviso::before {
+   color:              red;
+   content:            "[Proviso]";
+}
+longTitle::before {
+   color:              orange;
+   content:            "[LT]";
+}
+
+enactingFormula::before {
+   color:              orange;
+   content:            "[EF]";
+}
+
+/* Override the special indenting */
+
+*[class~="firstIndent-4"] , *[class~="firstIndent-3"], *[class~="firstIndent-2"] , *[class~="firstIndent-1"] , *[class~="firstIndent0"], *[class~="firstIndent2"] {
+   text-indent:        1em !important;
+}
+
+/* Tables */
+
+table::before {
+   text-align:         left;
+   color:              orange;
+   font-size:          12pt;
+   display:            block;
+   /* content:           "[Table " attr(table-type) "]";  */
+}
+
+chapeau::before {
+   color:              orange;
+   content:            "[Chapeau]"
+}
+
+continuation::before {
+   color:              orange;
+   content:            "[Continuation]"
+}
+
+/* Print-related items */
+leftRunningHead::before {
+   color:              orange;
+   content:            "LRH: ";
+}
+
+rightRunningHead::before {
+   color:              orange;
+   content:            "RRH: ";
+}
+
+page::before {
+   color:              orange;
+   content:            "Page: ";
+}
+
+line::before {
+   color:              orange;
+   content:            "Line: ";
+}
+
+ear::before {
+   color:              orange;
+   content:            "EAR: ";
+}
+
+/* Identify role attributes */
+*[role]::after  {
+    content:                "(role=" attr(role) ")";
+    color:                  red;  
+}
+
+*[role]  {
+    border-style:           solid;    
+    border-width:           1pt;
+    border-color:           red; 
+}
+
+referenceItem[role], headingItem[role]  {
+    border-style:           none;    
+}
+
+/* Identify type attributes */
+*[type]::after  {
+    content:                "(type=" attr(type) ")";
+    color:                  blue;  
+}
+*[type]  {
+    border-style:           solid;
+    border-width:           1pt;
+    border-color:           blue; 
+}
+
+/* Identify inline tagging, such as date, term, amendingAction, and ref elements */
+date, ref, entity, term, amendingAction,
+property[role="NAICS"], property[role="SEC"] /* temporary */ {
+    border-style:           solid;
+    border-width:           1pt;
+    border-color:           magenta; 
+}
+
+date::after  {
+    content:                "(date)";
+    color:                  magenta; 
+}
+date[role="amended"]::after  {
+    content:                "(amended date)";
+    color:                  magenta; 
+}
+
+term::after  {
+    content:                "(term)";
+    color:                  magenta; 
+}
+
+ref::after  {
+    content:                "(ref)";
+    color:                  magenta; 
+}
+
+entity::after  {
+    content:                "(entity)";
+    color:                  magenta; 
+}
+
+entity[role="NAICS"]::after,
+property[role="NAICS"]::after /* temporary */  {
+    content:                "(NAICS)";
+    color:                  magenta; 
+}
+
+entity[role="SEC"]::after,
+property[role="SEC"]::after /* temporary */   {
+    content:                "(SEC)";
+    color:                  magenta; 
+}
+
+amendingAction::after  {
+    /* Set to !important to override role attribute formatting */
+    content:                "(amendingAction)" !important;
+    color:                  blue !important; 
+}
+

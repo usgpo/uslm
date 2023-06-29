@@ -1,31 +1,31 @@
->Statute Compilations (COMPS) in USLM XML format are now available on GovInfo. Access via [Search](https://www.govinfo.gov/app/search/%7B%22query%22%3A%22collection%3Acomps%22%2C%22offset%22%3A0%7D), [Browse](https://www.govinfo.gov/app/collection/comps), [Bulk Data](https://www.govinfo.gov/bulkdata/COMPS), and [API](https://api.govinfo.gov/docs/). 
->
->Version 2.0.12 of the schema is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
->
->Version 2.17 of the CSS is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
->
->An updated version of the Review Guide is now available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
->
->GPO released Beta USLM XML in the draft 2.0 schema on the GovInfo Bulk Data Repository for enrolled bills from the 113th Congress forward, public laws from the 113th Congress forward, and the Statutes at Large from the 108th Congress forward. For enrolled bills, the Beta USLM XML is available in addition to the existing Bill DTD XML. The Beta USLM XML uses the same file naming convention as the Bill DTD XML but the Beta USLM XML is in a /bulkdata/BILLS/uslm/ folder. We also made the Beta USLM XML available on the GovInfo website through "USLM" buttons and in the ZIP files. Beta USLM XML is also now available from the GovInfo API and Link Service. See the [proposed branch](https://github.com/usgpo/uslm/tree/proposed) for more information. 
+>The USLM 2.x schema has moved out of draft status. Please see the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>  
+>Version 2.0.12 of the schema including an updated table module is now available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>  
+>Version 2.17 of the CSS is now available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>  
+>An updated version of the USLM 2.x Review Guide is now available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
 
 
-# USLM Schema #
+# USLM Schema #  
+In support of the United States Legislative Branch XML Working Group and in accordance with [2 U.S.C. 181](https://www.govinfo.gov/link/uscode/2/181), the Government Publishing Office (GPO) is making the United States Legislative Markup (USLM) XML schema available as an authoritative source on GitHub. 
 
 
-In support of the United States Legislative Branch XML Working Group and in accordance with [2 U.S.C. 181](https://api.fdsys.gov/link?collection=uscode&title=2&year=mostrecent&section=181), the Government Publishing Office (GPO) is making the United States Legislative Markup (USLM) XML schema available as an authoritative source on GitHub. 
+## Schema Versions ##  
+Approved versions of the schema are in the main branch. If there are proposed changes to the schema, the changes will be in a proposed branch as a new draft version of the schema. A major.minor.point structure is used to identify the schema version, and the schema version is recorded as an attribute at the root level. The point number is incremented to indicate a non-breaking change while the minor number is incremented to indicate a breaking change. Breaking changes will only be implemented after all other options have been exhausted. Please refer to [CHANGELOG.md](CHANGELOG.md) for a summary of changes.  
+
+
+## Proposed Branch ##  
+As needed, a proposed branch will be created from the main branch. In addition to the files from the main branch, the proposed branch may also contain draft versions of the USLM 2.x schema, draft sample files, and draft CSS files.   
+
+ 
+## User Guide and Review Guide ##  
+Please refer to the USLM User Guide in [PDF](USLM-User-Guide.pdf) or [Markdown](USLM-User-Guide.md) and the USLM 2.x Review Guide in [PDF](USLM-2_0-Review-Guide-v2_0_12.pdf) or [Markdown](USLM-2_0-Review-Guide-v2_0_12.md) for additional information about the schema.  
+
+
+## Feedback ## 
+To submit feedback, questions, or comments, please open a [GitHub issue](https://github.com/usgpo/uslm/issues).  
 
 
 
-## Versions ##
-The current version of the schema is in the master branch. If there are any proposed changes to the schema, the changes will be in a proposed branch. A major.minor.point structure is used to identify the version, and the version is recorded as an attribute at the root level. The point number is incremented to indicate a non-breaking change while the minor number is incremented to indicate a breaking change. Breaking changes will only be implemented after all other options have been exhausted. Please refer to [CHANGELOG.md](CHANGELOG.md) for a summary of proposed and approved changes.  
 
-
-## Draft USLM 2.0 Schema ##
-The [proposed branch](https://github.com/usgpo/uslm/tree/proposed) contains the [draft USLM 2.0 schema](https://github.com/usgpo/uslm/blob/proposed/uslm-2.0.12.xsd), a [schema review guide](https://github.com/usgpo/uslm/blob/proposed/USLM-2_0-Review-Guide.md), sample USLM enrolled bill files, CSS files, and additional schema required to validate the sample files. 
-
-
-To submit feedback, questions, or comments, please open a [GitHub issue](https://github.com/usgpo/uslm/issues/new).
-
-
-## User Guide and Review Guide ##
-Please refer to the User Guide in [PDF](USLM-User-Guide.pdf) or [Markdown](USLM-User-Guide.md) and Review Guide in [Markdown](https://github.com/usgpo/uslm/blob/proposed/USLM-2_0-Review-Guide.md) for additional information about the schema. 

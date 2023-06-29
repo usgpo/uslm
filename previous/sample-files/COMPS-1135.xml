@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="uslm.css"?><statuteCompilation xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpo="http://www.gpo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.0.9.xsd" xml:lang="en" style="-uslm-dtd:statute">
+    <meta style="-uslm-dtd:compilation-act-form">
+        <dc:title>Secure Rural Schools and Community Self-Determination Act of 2000</dc:title>
+        <citableAs>Public Law 106–393, as amended</citableAs>
+        <citableAs>116 Stat. 1607, as amended</citableAs>
+        <citableAsShortTitle>Secure Rural Schools and Community Self-Determination Act of 2000</citableAsShortTitle>
+        <docNumber>393</docNumber>
+        <currentThroughPublicLaw>116–94</currentThroughPublicLaw>
+        <dc:type>Statute Compilation</dc:type>
+        <dc:creator>United States House of Representatives</dc:creator>
+        <dc:creator>Office of the Legislative Counsel</dc:creator>
+        <dc:format>text/xml</dc:format>
+        <dc:language>EN</dc:language>
+        <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+        <processedBy>GPO Statute Compilations USLM converter, version 20210520.1</processedBy>
+        <processedDate>2021-05-25</processedDate>
+        <containsShortTitle>Secure Rural Schools and Community Self-Determination Act of 2000</containsShortTitle>
+        <containsShortTitle>Mineral Revenue Payments Clarification Act of 2000</containsShortTitle>
+        <containsShortTitle>Community Forest Restoration Act</containsShortTitle>
+        <property role="fileId">1135</property>
+        <congress>106</congress>
+        <approvedDate>2000-10-30</approvedDate>
+    </meta>
+    <preface style="-uslm-dtd:compilation-act-form">
+        <property style="-uslm-dtd:comp-short-title" role="compShortTitle">Secure Rural Schools and Community Self-Determination Act of 2000</property>
+        <citationNote style="-uslm-dtd:public-law">[<citableAs>Public Law 106–393</citableAs>; <date date="2000-10-30">October 30, 2000</date>, <citableAs>116 Stat. 1607</citableAs>
+]</citationNote>
+        <editionNote style="-uslm-dtd:updated-through-note">[As Amended Through <currentThroughPublicLaw>P.L. 116–94</currentThroughPublicLaw>, Enacted <date date="2019-12-20">December 20, 2019</date>]</editionNote>
+        <explanationNote style="-uslm-dtd:explanatory-note"><b>[</b>Currency: This publication is a compilation of the text of Public Law 106–393. It was last amended by the public law listed in the As Amended Through note above and below at the bottom of each page of the pdf version and reflects current law through the date of the enactment of the public law listed at https://www.govinfo.gov/app/collection/comps/<b>]</b></explanationNote>
+        <explanationNote style="-uslm-dtd:explanatory-note"><b>[</b>Note: While this publication does  not represent an official version of any Federal statute, substantial efforts have been made to ensure the accuracy of its contents. The official version of Federal law is found in the United States Statutes at Large and in the United States Code. The legal effect to be given to the Statutes at Large and the United States Code is established by statute (1 U.S.C. 112, 204).<b>]</b></explanationNote>
+    </preface>
+    <main style="-uslm-dtd:legis-body">
+        <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/s1" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="1">SEC. 1. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7101">16 U.S.C. 7101 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">SHORT TITLE.<ref style="-uslm-dtd:footnote-ref" idref="IDF2DFA6B9B90A497BBE2F970FDB00F5BA" class="footnoteRef">1</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">This Act may be cited as the “<shortTitle style="-uslm-dtd:quote"><inline style="-uslm-dtd:short-title">Secure Rural Schools and Community Self-Determination Act of 2000</inline></shortTitle>”.</content><footnote id="IDF2DFA6B9B90A497BBE2F970FDB00F5BA" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">1</sup><p style="-uslm-dtd:para; margin-left:1em">The Secure Rural Schools and Community Self-Determination Act of 2000 also included titles V (Mineral Revenue Payments Clarification) and VI (Community Forest Restoration), which are not included in this compilation.</p></footnote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/s2" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="2">SEC. 2. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7101">16 U.S.C. 7101</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">PURPOSES. </heading>
+            <subsection style="-uslm-dtd:subsection" styleType="OLC" role="undesignated-level"><chapeau style="-uslm-dtd:text">The purposes of this Act are—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s2/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">to stabilize and transition payments to counties to provide funding for schools and roads that supplements other available funds;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s2/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><chapeau style="-uslm-dtd:text">to make additional investments in, and create additional employment opportunities through, projects that—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s2/2/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A)</num><clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/A/i" styleType="OLC" class="inline"><num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">improve the maintenance of existing infrastructure;</content></clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/A/ii" styleType="OLC" class="leftIndentDecrease1">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">implement stewardship objectives that enhance forest ecosystems; and</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/A/iii" styleType="OLC" class="leftIndentDecrease1">
+                            <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">restore and improve land health and water quality;</content>
+                        </clause>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s2/2/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">enjoy broad-based support; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s2/2/C" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="C">(C) </num><chapeau style="-uslm-dtd:text">have objectives that may include—</chapeau>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/C/i" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">road, trail, and infrastructure maintenance or obliteration;</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/C/ii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">soil productivity improvement;</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/C/iii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">improvements in forest ecosystem health;</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/C/iv" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="iv">(iv) </num><content style="-uslm-dtd:text">watershed restoration and maintenance;</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/C/v" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="v">(v) </num><content style="-uslm-dtd:text">the restoration, maintenance, and improvement of wildlife and fish habitat;</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/C/vi" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="vi">(vi) </num><content style="-uslm-dtd:text">the control of noxious and exotic weeds; and</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s2/2/C/vii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="vii">(vii) </num><content style="-uslm-dtd:text">the reestablishment of native species; and</content>
+                        </clause>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s2/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><chapeau style="-uslm-dtd:text">to improve cooperative relationships among—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s2/3/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">the people that use and care for Federal land; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s2/3/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the agencies that manage the Federal land.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/s3" styleType="OLC" role="definitions">
+            <num style="-uslm-dtd:enum" value="3">SEC. 3. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7102">16 U.S.C. 7102</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">DEFINITIONS. </heading>
+            <subsection style="-uslm-dtd:subsection" styleType="OLC" role="undesignated-level"><chapeau style="-uslm-dtd:text">In this Act:</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Adjusted share.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">adjusted share</term>” means the number equal to the quotient obtained by dividing—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/1/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><chapeau style="-uslm-dtd:text">the number equal to the quotient obtained by dividing—</chapeau>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/1/A/i" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the base share for the eligible county; by</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/1/A/ii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the income adjustment for the eligible county; by</content>
+                        </clause>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/1/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the number equal to the sum of the quotients obtained under subparagraph (A) and paragraph (8)(A) for all eligible counties.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Base share.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">base share</term>” means the number equal to the average of—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/2/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><chapeau style="-uslm-dtd:text">the quotient obtained by dividing—</chapeau>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/2/A/i" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the number of acres of Federal land described in paragraph (7)(A) in each eligible county; by</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/2/A/ii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the total number acres of Federal land in all eligible counties in all eligible States; and</content>
+                        </clause>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/2/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><chapeau style="-uslm-dtd:text">the quotient obtained by dividing—</chapeau>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/2/B/i" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the amount equal to the average of the 3 highest 25-percent payments and safety net payments made to each eligible State for each eligible county during the eligibility period; by</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/2/B/ii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the amount equal to the sum of the amounts calculated under clause (i) and paragraph (9)(B)(i) for all eligible counties in all eligible States during the eligibility period.</content>
+                        </clause>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">County payment.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">county payment</term>” means the payment for an eligible county calculated under section 101(b).</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/4" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Eligible county.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">eligible county</term>” means any county that—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/4/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">contains Federal land (as defined in paragraph (7)); and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/4/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">elects to receive a share of the State payment or the county payment under section 102(b).</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/5" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="5">(5) </num><heading style="-uslm-dtd:header">Eligibility period.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">eligibility period</term>” means fiscal year 1986 through fiscal year 1999.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/6" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="6">(6) </num><heading style="-uslm-dtd:header">Eligible state.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">eligible State</term>” means a State or territory of the United States that received a 25-percent payment for 1 or more fiscal years of the eligibility period.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/7" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="7">(7) </num><heading style="-uslm-dtd:header">Federal land.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">Federal land</term>” means—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/7/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">land within the National Forest System, as defined in section 11(a) of the Forest and Rangeland Renewable Resources Planning Act of 1974 (16 U.S.C. 1609(a)) exclusive of the National Grasslands and land utilization projects designated as National Grasslands administered pursuant to the Act of July 22, 1937 (7 U.S.C. 1010–1012); and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/7/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">such portions of the revested Oregon and California Railroad and reconveyed Coos Bay Wagon Road grant land as are or may hereafter come under the jurisdiction of the Department of the Interior, which have heretofore or may hereafter be classified as timberlands, and power-site land valuable for timber, that shall be managed, except as provided in the former section 3 of the Act of August 28, 1937 (50 Stat. 875; 43 U.S.C. 1181c), for permanent forest production.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/8" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="8">(8) </num><heading style="-uslm-dtd:header">50-percent adjusted share.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">50-percent adjusted share</term>” means the number equal to the quotient obtained by dividing—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/8/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><chapeau style="-uslm-dtd:text">the number equal to the quotient obtained by dividing—</chapeau>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/8/A/i" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the 50-percent base share for the eligible county; by</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/8/A/ii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the income adjustment for the eligible county; by</content>
+                        </clause>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/8/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the number equal to the sum of the quotients obtained under subparagraph (A) and paragraph (1)(A) for all eligible counties.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/9" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="9">(9) </num><heading style="-uslm-dtd:header">50-percent base share.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">50-percent base share</term>” means the number equal to the average of—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/9/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><chapeau style="-uslm-dtd:text">the quotient obtained by dividing—</chapeau>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/9/A/i" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the number of acres of Federal land described in paragraph (7)(B) in each eligible county; by</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/9/A/ii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the total number acres of Federal land in all eligible counties in all eligible States; and</content>
+                        </clause>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/9/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><chapeau style="-uslm-dtd:text">the quotient obtained by dividing—</chapeau>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/9/B/i" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the amount equal to the average of the 3 highest 50-percent payments made to each eligible county during the eligibility period; by</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/s3/9/B/ii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the amount equal to the sum of the amounts calculated under clause (i) and paragraph (2)(B)(i) for all eligible counties in all eligible States during the eligibility period.</content>
+                        </clause>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/10" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="10">(10) </num><heading style="-uslm-dtd:header">50-percent payment.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">50-percent payment</term>” means the payment that is the sum of the 50-percent share otherwise paid to a county pursuant to title II of the Act of August 28, 1937 (chapter 876; 50 Stat. 875; 43 U.S.C. 1181f), and the payment made to a county pursuant to the Act of May 24, 1939 (chapter 144; 53 Stat. 753; 43 U.S.C. 1181f–1 et seq.).</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/11" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="11">(11) </num><heading style="-uslm-dtd:header">Full funding amount.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">full funding amount</term>” means—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/11/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">$500,000,000 for fiscal year 2008;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/11/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">for each of fiscal years 2009 through 2011, the amount that is equal to 90 percent of the full funding amount for the preceding fiscal year;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/11/C" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">for fiscal year 2012 through fiscal year 2015, the amount that is equal to 95 percent of the full funding amount for the preceding fiscal year;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/11/D" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">for fiscal year 2017, the amount that is equal to 95 percent of the full funding amount for fiscal year 2015; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/11/E" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="E">(E) </num><content style="-uslm-dtd:text">for fiscal year 2018 and each fiscal year thereafter, the amount that is equal to 95 percent of the full funding amount for the preceding fiscal year.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/12" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="12">(12) </num><heading style="-uslm-dtd:header">Income adjustment.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">income adjustment</term>” means the square of the quotient obtained by dividing—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/12/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">the per capita personal income for each eligible county; by</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/12/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the median per capita personal income of all eligible counties.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/13" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="13">(13) </num><heading style="-uslm-dtd:header">Per capita personal income.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">per capita personal income</term>” means the most recent per capita personal income data, as determined by the Bureau of Economic Analysis.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/14" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="14">(14) </num><heading style="-uslm-dtd:header">Safety net payments.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">safety net payments</term>” means the special payment amounts paid to States and counties required by section 13982 or 13983 of the Omnibus Budget Reconciliation Act of 1993 (Public Law 103–66; 16 U.S.C. 500 note; 43 U.S.C. 1181f note).</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/15" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="15">(15) </num><heading style="-uslm-dtd:header">Secretary concerned.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">Secretary concerned</term>” means—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/15/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">the Secretary of Agriculture or the designee of the Secretary of Agriculture with respect to the Federal land described in paragraph (7)(A); and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/s3/15/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the Secretary of the Interior or the designee of the Secretary of the Interior with respect to the Federal land described in paragraph (7)(B).</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/16" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="16">(16) </num><heading style="-uslm-dtd:header">State payment.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">State payment</term>” means the payment for an eligible State calculated under section 101(a).</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/s3/17" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="17">(17) </num><heading style="-uslm-dtd:header">25-percent payment.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">25-percent payment</term>” means the payment to States required by the sixth paragraph under the heading of “<term style="-uslm-dtd:quote">FOREST SERVICE</term>” in the Act of May 23, 1908 (35 Stat. 260; 16 U.S.C. 500), and section 13 of the Act of March 1, 1911 (36 Stat. 963; 16 U.S.C. 500).</content>
+                </paragraph>
+            </subsection>
+        </section>
+        <title style="-uslm-dtd:title" identifier="/us/sComp/106/393/tI" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="I">TITLE I—</num><heading style="-uslm-dtd:header">SECURE PAYMENTS FOR STATES AND COUNTIES CONTAINING FEDERAL LAND<ref style="-uslm-dtd:footnote-ref" idref="IDD933DB7C1D9946E0B9983D1F9EDA8D35" class="footnoteRef">2</ref> </heading><footnote id="IDD933DB7C1D9946E0B9983D1F9EDA8D35" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">2</sup><content><p style="-uslm-dtd:para; margin-left:1em">Section 751 of the Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2002 (Public Law 107–76; 115 Stat. 739) provides as follows:</p>
+            <p style="-uslm-dtd:para; margin-left:1em">
+<headingText style="-uslm-dtd:header-in-text">Sec. </headingText>751. (a) <headingText style="-uslm-dtd:header-in-text">Temporary Use of Existing Payments to States Table</headingText>.—Notwithstanding section 101(a)(1) of the Secure Rural Schools and Community Self-Determination Act of 2000 (Public Law 106–393; 16 U.S.C. 500 note), for the purpose of making the fiscal year 2001 payments under section 102 of such Act to eligible States and eligible counties, the full payment amount for each eligible State and eligible county shall be deemed to be equal to the full payment amount calculated for that eligible State or eligible county in the Forest Service document entitled “<quotedText style="-uslm-dtd:quote">P.L. 106–393, Secure Rural Schools and Community Self-Determination Act</quotedText>” and dated July 31, 2001, subject to the adjustment required by section 101(b) of such Act.</p>
+            <p style="-uslm-dtd:para; margin-left:1em">(b) <headingText style="-uslm-dtd:header-in-text">Revision of Table</headingText>.—For the purpose of making payments under section 102 of such Act to eligible States and eligible counties for fiscal years 2002 through 2006, as required by section 101(a)(1) of such Act, the Secretary of Agriculture shall revise the table referred to in subsection (a) to accurately reflect, to the maximum extent practicable, each eligible State's and eligible county's historic share of the 25-percent payments and safety net payments made for the fiscal years of the eligibility period.</p>
+            <p style="-uslm-dtd:para; margin-left:1em">(c) <headingText style="-uslm-dtd:header-in-text">Reporting Requirement</headingText>.—Not later than March 1, 2002, the Secretary of Agriculture shall submit to the Committee on Energy and Natural Resources of the Senate and the Committee on Agriculture of the House of Representatives a report containing the revisions made to the table referred to in subsection (a), as required by subsection (b).</p>
+            <p style="-uslm-dtd:para; margin-left:1em">(d) <headingText style="-uslm-dtd:header-in-text">Additional Eligible County Election</headingText>.—Notwithstanding section 102(b)(2) of such Act, if the revision pursuant to subsection (b) of the table referred to in subsection (a) results in a reduced full payment amount for an eligible county that elected under section 102(b) of such Act to receive the full payment amount, the eligible county shall have a 90-day period, beginning on the date the revised table is first available to the public, during which to reconsider and change its election. The eligible county shall notify the Secretary of Agriculture of any change in its election before the end of such period. If an eligible county elects under this subsection to receive the 25-percent payment in place of the full payment amount, the election shall be effective for 1 year.</p>
+            <p style="-uslm-dtd:para; margin-left:1em">(e) <headingText style="-uslm-dtd:header-in-text">Treatment of Certain Mineral Leasing Receipts</headingText>.—(1) An eligible county that elects under section 102(b) of such Act to receive its share of an eligible State's full payment amount shall continue to receive its share of any payments made to that State from a lease for mineral resources issued by the Secretary of the Interior under the last paragraph under the heading “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">forest service.</headingText></quotedText>” in the Act of March 4, 1917 (Chapter 179; 16 U.S.C. 520).</p>
+            <p style="-uslm-dtd:para; margin-left:1em">(2) Section 6(b) of the Mineral Leasing Act for Acquired Lands (30 U.S.C. 355(b)) is amended by inserting after the first sentence the following new sentence: “<quotedText style="-uslm-dtd:quote">The preceding sentence shall also apply to any payment to a State derived from a lease for mineral resources issued by the Secretary of the Interior under the last paragraph under the heading‘<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">forest service.</headingText></quotedText>’in the Act of March 4, 1917 (Chapter 179; 16 U.S.C. 520).</quotedText>”.</p>
+            <p style="-uslm-dtd:para; margin-left:1em">(f) <headingText style="-uslm-dtd:header-in-text">Definitions</headingText>.—In this section, the terms “<term style="-uslm-dtd:term">eligible State</term>”, “<quotedText style="-uslm-dtd:quote">eligible county</quotedText>”, “<quotedText style="-uslm-dtd:quote">eligibility period</quotedText>”, “<quotedText style="-uslm-dtd:quote">full payment amount</quotedText>”, “<quotedText style="-uslm-dtd:quote">25-percent payment</quotedText>”, and “<quotedText style="-uslm-dtd:quote">safety net payments</quotedText>” have the meanings given such terms in section 3 of such Act, and the term “<term style="-uslm-dtd:term">such Act</term>” means the Secure Rural Schools and Community Self-Determination Act of 2000 (Public Law 106–393; 16 U.S.C. 500 note).</p></content></footnote>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tI/s101" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="101">SEC. 101. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7111">16 U.S.C. 7111</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">SECURE PAYMENTS FOR STATES CONTAINING FEDERAL LAND. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s101/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">State Payment.—</heading><chapeau style="-uslm-dtd:text">For each of fiscal years 2008 through 2015, 2017, 2018, 2019, and 2020, the Secretary of Agriculture shall calculate for each eligible State an amount equal to the sum of the products obtained by multiplying—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">the adjusted share for each eligible county within the eligible State; by</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">the full funding amount for the fiscal year.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s101/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">County Payment.—</heading><chapeau style="-uslm-dtd:text">For each of fiscal years 2008 through 2015, 2017, 2018, 2019, and 2020, the Secretary of the Interior shall calculate for each eligible county that received a 50-percent payment during the eligibility period an amount equal to the product obtained by multiplying—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">the 50-percent adjusted share for the eligible county; by</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">the full funding amount for the fiscal year.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s101/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Special Rule for Fiscal Year 2014 Payments.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/c/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">State payment.—</heading><content style="-uslm-dtd:text">If an eligible county in a State that will receive a share of the State payment for fiscal year 2014 has already received, or will receive, a share of the 25-percent payment for fiscal year 2014 distributed to the State before the date of the enactment of this subsection, the amount of the State payment shall be reduced by the amount of that eligible county’s share of the 25-percent payment.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/c/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">County payment.—</heading><content style="-uslm-dtd:text">If an eligible county that will receive a county payment for fiscal year 2014 has already received a 50-percent payment for that fiscal year, the amount of the county payment shall be reduced by the amount of the 50-percent payment.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s101/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Special Rule for Fiscal Year 2017 Payments.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">State payment.—</heading><content style="-uslm-dtd:text">If an eligible county in a State that will receive a share of the State payment for fiscal year 2017 has already received, or will receive, a share of the 25-percent payment for fiscal year 2017 distributed to the State before the date of enactment of this subsection, the amount of the State payment shall be reduced by the amount of the share of the eligible county of the 25-percent payment.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">County payment.—</heading><content style="-uslm-dtd:text">If an eligible county that will receive a county payment for fiscal year 2017 has already received a 50-percent payment for fiscal year 2017, the amount of the county payment shall be reduced by the amount of the 50-percent payment.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s101/d/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Prompt payment.—</heading><content style="-uslm-dtd:text">Not later than 45 days after the date of enactment of this subsection, the Secretary of the Treasury shall make all payments under this title for fiscal year 2017.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tI/s102" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="102">SEC. 102. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7112">16 U.S.C. 7112</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">PAYMENTS TO STATES AND COUNTIES. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s102/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Payment Amounts.—</heading><chapeau style="-uslm-dtd:text">Except as provided in section 103, the Secretary of the Treasury shall pay to—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><chapeau style="-uslm-dtd:text">a State or territory of the United States an amount equal to the sum of the amounts elected under subsection (b) by each county within the State or territory for—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/a/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">if the county is eligible for the 25-percent payment, the share of the 25-percent payment; or</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/a/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the share of the State payment of the eligible county; and</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><chapeau style="-uslm-dtd:text">a county an amount equal to the amount elected under subsection (b) by each county for—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/a/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">if the county is eligible for the 50-percent payment, the 50-percent payment; or</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/a/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the county payment for the eligible county.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s102/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Election To Receive Payment Amount.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Election; submission of results.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The election to receive a share of the State payment, the county payment, a share of the State payment and the county payment, a share of the 25-percent payment, the 50-percent payment, or a share of the 25-percent payment and the 50-percent payment, as applicable, shall be made at the discretion of each affected county by August 1, 2013 (or as soon thereafter as the Secretary concerned determines is practicable), and August 1 of each second fiscal year thereafter, in accordance with paragraph (2), and transmitted to the Secretary concerned by the Governor of each eligible State.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Failure to transmit.—</heading><content style="-uslm-dtd:text">If an election for an affected county is not transmitted to the Secretary concerned by the date specified under subparagraph (A), the affected county shall be considered to have elected to receive a share of the State payment, the county payment, or a share of the State payment and the county payment, as applicable.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Effect of late payment for fiscal years 2014 and 2015.—</heading><content style="-uslm-dtd:text">The election otherwise required by subparagraph (A) shall not apply for fiscal year 2014 or 2015.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/1/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><heading style="-uslm-dtd:header">Payments for each of fiscal years 2017 through 2020.—</heading><content style="-uslm-dtd:text">The election otherwise required by subparagraph (A) shall not apply for each of fiscal years 2017 through 2020.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Duration of election.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">A county election to receive a share of the 25-percent payment or 50-percent payment, as applicable, shall be effective for 2 fiscal years. If such two-fiscal year period included fiscal year 2013, the county election to receive a share of the 25-percent payment or 50-percent payment, as applicable, also shall be effective for fiscal years 2014 and 2015 and for each of fiscal years 2017 through 2020.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Full funding amount.—</heading><content style="-uslm-dtd:text">If a county elects to receive a share of the State payment or the county payment in 2013, the election shall be effective for all subsequent fiscal years through fiscal year 2015 and for each of fiscal years 2017 through 2020.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Source of payment amounts.—</heading><chapeau style="-uslm-dtd:text">The payment to an eligible State or eligible county under this section for a fiscal year shall be derived from—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/3/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">any amounts that are appropriated to carry out this Act;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/3/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">any revenues, fees, penalties, or miscellaneous receipts, exclusive of deposits to any relevant trust fund, special account, or permanent operating funds, received by the Federal Government from activities by the Bureau of Land Management or the Forest Service on the applicable Federal land; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/b/3/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">to the extent of any shortfall, out of any amounts in the Treasury of the United States not otherwise appropriated.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s102/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Distribution and Expenditure of Payments.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/c/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Distribution method.—</heading><chapeau style="-uslm-dtd:text">A State that receives a payment under subsection (a) for Federal land described in section 3(7)(A) shall distribute the appropriate payment amount among the appropriate counties in the State in accordance with—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/c/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">the Act of May 23, 1908 (16 U.S.C. 500); and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/c/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">section 13 of the Act of March 1, 1911 (36 Stat. 963; 16 U.S.C. 500).</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/c/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Expenditure purposes.—</heading><content style="-uslm-dtd:text">Subject to subsection (d), payments received by a State under subsection (a) and distributed to counties in accordance with paragraph (1) shall be expended as required by the laws referred to in paragraph (1).</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s102/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Expenditure Rules for Eligible Counties.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Allocations.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">Use of portion in same manner as 25-percent payment or 50-percent payment, as applicable.—</heading><content style="-uslm-dtd:text">Except as provided in subparagraph (D), if an eligible county elects to receive its share of the State payment or the county payment, not less than 80 percent, but not more than 85 percent, of the funds shall be expended in the same manner in which the 25-percent payments or 50-percent payment, as applicable, are required to be expended.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Election as to use of balance.—</heading><chapeau style="-uslm-dtd:text">Except as provided in subparagraph (C), an eligible county shall elect to do 1 or more of the following with the balance of any funds not expended pursuant to subparagraph (A):</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/1/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">Reserve any portion of the balance for projects in accordance with title II.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/1/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">Reserve any portion of the balance for projects in accordance with title III.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/1/B/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">Return the portion of the balance not reserved under clauses (i) and (ii) to the Treasury of the United States.</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Counties with major distributions.—</heading><chapeau style="-uslm-dtd:text">In the case of each eligible county to which $350,000 or more is distributed for any fiscal year pursuant to paragraph (1)(B) or (2)(B) of subsection (a), the eligible county shall elect to do 1 or more of the following with the balance of any funds not expended pursuant to subparagraph (A):</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/1/C/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">Reserve any portion of the balance for projects in accordance with title II.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/1/C/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">Reserve not more than 7 percent of the total share for the eligible county of the State payment or the county payment for projects in accordance with title III.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/1/C/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">Return the portion of the balance not reserved under clauses (i) and (ii) to the Treasury of the United States.</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/1/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><heading style="-uslm-dtd:header">Counties with minor distributions.—</heading><content style="-uslm-dtd:text">In the case of each eligible county to which less than $100,000 is distributed for any fiscal year pursuant to either or both of paragraphs (1)(B) and (2)(B) of subsection (a), the eligible county may elect to expend all the funds in the same manner in which the 25-percent payments or 50-percent payments, as applicable, are required to be expended.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/1/E" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="E">(E) </num><heading style="-uslm-dtd:header">Effect of late payment for fiscal year 2014.—</heading><content style="-uslm-dtd:text">The election made by an eligible county under subparagraph (B), (C), or (D) for fiscal year 2013, or deemed to be made by the county under paragraph (3)(B) for that fiscal year, shall be effective for fiscal years 2014 and 2015.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/1/F" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="F">(F) </num><heading style="-uslm-dtd:header">Payments for each of fiscal years 2017 through 2020.—</heading><content style="-uslm-dtd:text">The election made by an eligible county under subparagraph (B), (C), or (D) for fiscal year 2013, or deemed to be made by the county under paragraph (3)(B) for that fiscal year, shall be effective for each of fiscal years 2017 through 2020.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Distribution of funds.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Funds reserved by an eligible county under subparagraph (B)(i) or (C)(i) of paragraph (1) for carrying out projects under title II shall be deposited in a special account in the Treasury of the United States.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Availability.—</heading><chapeau style="-uslm-dtd:text">Amounts deposited under subparagraph (A) shall—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/2/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">be available for expenditure by the Secretary concerned, without further appropriation; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/2/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">remain available until expended in accordance with title II.</content>
+                            </clause>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/d/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Election.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/3/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">Notification.—</heading><content style="-uslm-dtd:text">The Governor of each eligible State shall notify the Secretary concerned of an election by an eligible county under this subsection not later than September 30, 2012, and each September 30 thereafter for each succeeding fiscal year.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/3/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Failure to elect.—</heading><chapeau style="-uslm-dtd:text">If the Governor of an eligible State fails to notify the Secretary concerned of the election for an eligible county by the date specified in subparagraph (A)—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/3/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the eligible county shall be considered to have elected to expend 80 percent of the funds in accordance with paragraph (1)(A); and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s102/d/3/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the remainder shall be available to the Secretary concerned to carry out projects in the eligible county to further the purposes described in section 202(b), section 203(c), or section 204(a)(5).</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/3/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Effect of late payment for fiscal year 2014.—</heading><content style="-uslm-dtd:text">This paragraph does not apply for fiscal years 2014 and 2015.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s102/d/3/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><heading style="-uslm-dtd:header">Payments for each of fiscal years 2017 through 2020.—</heading><content style="-uslm-dtd:text">This paragraph does not apply for each of fiscal years 2017 through 2020.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s102/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Time for Payment.—</heading><content style="-uslm-dtd:text">The payments required under this section for a fiscal year shall be made as soon as practicable after the end of that fiscal year.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s102/f" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Treatment as Supplemental Funding.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/f/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">None of the funds made available to an eligible county under this Act may be used in lieu of, or to otherwise offset, a State funding source for a local school, facility, or educational purpose.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s102/f/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Continuation of direct payments.—</heading><content style="-uslm-dtd:text">Payments to States made under the Secure Rural Schools and Community Self-Determination Act of 2000 (16 U.S.C. 7101 et seq.) and 25-percent payments made to States and Territories under the Acts of May 23, 1908, and March 1, 1911 (16 U.S.C. 500), shall continue to be made as direct payments and not as Federal financial assistance.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tI/s103" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="103">SEC. 103. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7113">16 U.S.C. 7113</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">TRANSITION PAYMENTS TO STATES. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s103/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Definitions.—</heading><chapeau style="-uslm-dtd:text">In this section:</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s103/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Adjusted amount.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">adjusted amount</term>” means, with respect to a covered State—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s103/a/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><chapeau style="-uslm-dtd:text">for fiscal year 2008, 90 percent of—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s103/a/1/A/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the sum of the amounts paid for fiscal year 2006 under section 102(a)(2) (as in effect on September 29, 2006) for the eligible counties in the covered State that have elected under section 102(b) to receive a share of the State payment for fiscal year 2008; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s103/a/1/A/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the sum of the amounts paid for fiscal year 2006 under section 103(a)(2) (as in effect on September 29, 2006) for the eligible counties in the State of Oregon that have elected under section 102(b) to receive the county payment for fiscal year 2008;</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s103/a/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><chapeau style="-uslm-dtd:text">for fiscal year 2009, 81 percent of—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s103/a/1/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the sum of the amounts paid for fiscal year 2006 under section 102(a)(2) (as in effect on September 29, 2006) for the eligible counties in the covered State that have elected under section 102(b) to receive a share of the State payment for fiscal year 2009; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s103/a/1/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the sum of the amounts paid for fiscal year 2006 under section 103(a)(2) (as in effect on September 29, 2006) for the eligible counties in the State of Oregon that have elected under section 102(b) to receive the county payment for fiscal year 2009; and</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tI/s103/a/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><chapeau style="-uslm-dtd:text">for fiscal year 2010, 73 percent of—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s103/a/1/C/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the sum of the amounts paid for fiscal year 2006 under section 102(a)(2) (as in effect on September 29, 2006) for the eligible counties in the covered State that have elected under section 102(b) to receive a share of the State payment for fiscal year 2010; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tI/s103/a/1/C/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the sum of the amounts paid for fiscal year 2006 under section 103(a)(2) (as in effect on September 29, 2006) for the eligible counties in the State of Oregon that have elected under section 102(b) to receive the county payment for fiscal year 2010.</content>
+                            </clause>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s103/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Covered state.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">covered State</term>” means each of the States of California, Louisiana, Oregon, Pennsylvania, South Carolina, South Dakota, Texas, and Washington.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s103/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Transition Payments.—</heading><content style="-uslm-dtd:text">For each of fiscal years 2008 through 2010, in lieu of the payment amounts that otherwise would have been made under paragraphs (1)(B) and (2)(B) of section 102(a), the Secretary of the Treasury shall pay the adjusted amount to each covered State and the eligible counties within the covered State, as applicable.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s103/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Distribution of Adjusted Amount.—</heading><content style="-uslm-dtd:text">Except as provided in subsection (d), it is the intent of Congress that the method of distributing the payments under subsection (b) among the counties in the covered States for each of fiscal years 2008 through 2010 be in the same proportion that the payments were distributed to the eligible counties in fiscal year 2006.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s103/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Distribution of Payments in California.—</heading><chapeau style="-uslm-dtd:text">The following payments shall be distributed among the eligible counties in the State of California in the same proportion that payments under section 102(a)(2) (as in effect on September 29, 2006) were distributed to the eligible counties for fiscal year 2006:</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s103/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">Payments to the State of California under subsection (b).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tI/s103/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">The shares of the eligible counties of the State payment for California under section 102 for each of fiscal years 2011 through 2015 and for each of fiscal years 2017 through 2020.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tI/s103/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Treatment of Payments.—</heading><content style="-uslm-dtd:text">For purposes of this Act, any payment made under subsection (b) shall be considered to be a payment made under section 102(a).</content>
+                </subsection>
+            </section>
+        </title>
+        <title style="-uslm-dtd:title" identifier="/us/sComp/106/393/tII" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="II">TITLE II—</num><heading style="-uslm-dtd:header">SPECIAL PROJECTS ON FEDERAL LAND </heading>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tII/s201" styleType="OLC" role="definitions">
+                <num style="-uslm-dtd:enum" value="201">SEC. 201. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7121">16 U.S.C. 7121</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">DEFINITIONS. </heading>
+                <subsection style="-uslm-dtd:subsection" styleType="OLC" role="undesignated-level"><chapeau style="-uslm-dtd:text">In this title:</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s201/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Participating county.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">participating county</term>” means an eligible county that elects under section 102(d) to expend a portion of the Federal funds received under section 102 in accordance with this title.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s201/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Project funds.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">project funds</term>” means all funds an eligible county elects under section 102(d) to reserve for expenditure in accordance with this title.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s201/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Resource advisory committee.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">resource advisory committee</term>” means—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s201/3/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">an advisory committee established by the Secretary concerned under section 205; or</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s201/3/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">an advisory committee determined by the Secretary concerned to meet the requirements of section 205.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s201/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Resource management plan.—</heading><chapeau style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">resource management plan</term>” means—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s201/4/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">a land use plan prepared by the Bureau of Land Management for units of the Federal land described in section 3(7)(B) pursuant to section 202 of the Federal Land Policy and Management Act of 1976 (43 U.S.C. 1712); or</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s201/4/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">a land and resource management plan prepared by the Forest Service for units of the National Forest System pursuant to section 6 of the Forest and Rangeland Renewable Resources Planning Act of 1974 (16 U.S.C. 1604).</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tII/s202" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="202">SEC. 202. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7122">16 U.S.C. 7122</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">GENERAL LIMITATION ON USE OF PROJECT FUNDS. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s202/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Limitation.—</heading><content style="-uslm-dtd:text">Project funds shall be expended solely on projects that meet the requirements of this title.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s202/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Authorized Uses.—</heading><content style="-uslm-dtd:text">Project funds may be used by the Secretary concerned for the purpose of entering into and implementing cooperative agreements with willing Federal agencies, State and local governments, private and nonprofit entities, and landowners for protection, restoration, and enhancement of fish and wildlife habitat, and other resource objectives consistent with the purposes of this Act on Federal land and on non-Federal land where projects would benefit the resources on Federal land.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s202/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Administrative Expenses.—</heading><content style="-uslm-dtd:text">A resource advisory committee may, in accordance with section 203, propose to use not more than 10 percent of the project funds of an eligible county for any fiscal year for administrative expenses associated with operating the resource advisory committee under this title.</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tII/s203" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="203">SEC. 203. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7123">16 U.S.C. 7123</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">SUBMISSION OF PROJECT PROPOSALS. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s203/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Submission of Project Proposals to Secretary Concerned.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Projects funded using project funds.—</heading><content style="-uslm-dtd:text">Not later than September 30 of each fiscal year (or a later date specified by the Secretary concerned for the fiscal year), each resource advisory committee shall submit to the Secretary concerned a description of any projects that the resource advisory committee proposes the Secretary undertake using any project funds reserved by eligible counties in the area in which the resource advisory committee has geographic jurisdiction.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Projects funded using other funds.—</heading><content style="-uslm-dtd:text">A resource advisory committee may submit to the Secretary concerned a description of any projects that the committee proposes the Secretary undertake using funds from State or local governments, or from the private sector, other than project funds and funds appropriated and otherwise available to do similar work.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/a/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Joint projects.—</heading><content style="-uslm-dtd:text">Participating counties or other persons may propose to pool project funds or other funds, described in paragraph (2), and jointly propose a project or group of projects to a resource advisory committee established under section 205.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s203/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Required Description of Projects.—</heading><chapeau style="-uslm-dtd:text">In submitting proposed projects to the Secretary concerned under subsection (a), a resource advisory committee shall include in the description of each proposed project the following information:</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">The purpose of the project and a description of how the project will meet the purposes of this title.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">The anticipated duration of the project.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">The anticipated cost of the project.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/b/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">The proposed source of funding for the project, whether project funds or other funds.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/b/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5)</num><subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s203/b/5/A" styleType="OLC" class="inline"><num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">Expected outcomes, including how the project will meet or exceed desired ecological conditions, maintenance objectives, or stewardship objectives.</content></subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s203/b/5/B" styleType="OLC" class="leftIndentDecrease1">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">An estimate of the amount of any timber, forage, and other commodities and other economic activity, including jobs generated, if any, anticipated as part of the project.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/b/6" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="6">(6) </num><chapeau style="-uslm-dtd:text">A detailed monitoring plan, including funding needs and sources, that—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s203/b/6/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">tracks and identifies the positive or negative impacts of the project, implementation, and provides for validation monitoring; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s203/b/6/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><chapeau style="-uslm-dtd:text">includes an assessment of the following:</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s203/b/6/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">Whether or not the project met or exceeded desired ecological conditions; created local employment or training opportunities, including summer youth jobs programs such as the Youth Conservation Corps where appropriate.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s203/b/6/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">Whether the project improved the use of, or added value to, any products removed from land consistent with the purposes of this title.</content>
+                            </clause>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s203/b/7" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="7">(7) </num><content style="-uslm-dtd:text">An assessment that the project is to be in the public interest.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s203/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Authorized Projects.—</heading><content style="-uslm-dtd:text">Projects proposed under subsection (a) shall be consistent with section 2.</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tII/s204" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="204">SEC. 204. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7124">16 U.S.C. 7124</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">EVALUATION AND APPROVAL OF PROJECTS BY SECRETARY CONCERNED. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s204/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Conditions for Approval of Proposed Project.—</heading><chapeau style="-uslm-dtd:text">The Secretary concerned may make a decision to approve a project submitted by a resource advisory committee under section 203 only if the proposed project satisfies each of the following conditions:</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">The project complies with all applicable Federal laws (including regulations).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">The project is consistent with the applicable resource management plan and with any watershed or subsequent plan developed pursuant to the resource management plan and approved by the Secretary concerned.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/a/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">The project has been approved by the resource advisory committee in accordance with section 205, including the procedures issued under subsection (e) of that section.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/a/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">A project description has been submitted by the resource advisory committee to the Secretary concerned in accordance with section 203.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/a/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5) </num><content style="-uslm-dtd:text">The project will improve the maintenance of existing infrastructure, implement stewardship objectives that enhance forest ecosystems, and restore and improve land health and water quality.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s204/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Environmental Reviews.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Request for payment by county.—</heading><content style="-uslm-dtd:text">The Secretary concerned may request the resource advisory committee submitting a proposed project to agree to the use of project funds to pay for any environmental review, consultation, or compliance with applicable environmental laws required in connection with the project.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Conduct of environmental review.—</heading><content style="-uslm-dtd:text">If a payment is requested under paragraph (1) and the resource advisory committee agrees to the expenditure of funds for this purpose, the Secretary concerned shall conduct environmental review, consultation, or other compliance responsibilities in accordance with Federal laws (including regulations).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Effect of refusal to pay.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s204/b/3/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">If a resource advisory committee does not agree to the expenditure of funds under paragraph (1), the project shall be deemed withdrawn from further consideration by the Secretary concerned pursuant to this title.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s204/b/3/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Effect of withdrawal.—</heading><content style="-uslm-dtd:text">A withdrawal under subparagraph (A) shall be deemed to be a rejection of the project for purposes of section 207(c).</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s204/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Decisions of Secretary Concerned.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/c/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Rejection of projects.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s204/c/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">A decision by the Secretary concerned to reject a proposed project shall be at the sole discretion of the Secretary concerned.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s204/c/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">No administrative appeal or judicial review.—</heading><content style="-uslm-dtd:text">Notwithstanding any other provision of law, a decision by the Secretary concerned to reject a proposed project shall not be subject to administrative appeal or judicial review.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s204/c/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Notice of rejection.—</heading><content style="-uslm-dtd:text">Not later than 30 days after the date on which the Secretary concerned makes the rejection decision, the Secretary concerned shall notify in writing the resource advisory committee that submitted the proposed project of the rejection and the reasons for rejection.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/c/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Notice of project approval.—</heading><content style="-uslm-dtd:text">The Secretary concerned shall publish in the Federal Register notice of each project approved under subsection (a) if the notice would be required had the project originated with the Secretary.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s204/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Source and Conduct of Project.—</heading><content style="-uslm-dtd:text">Once the Secretary concerned accepts a project for review under section 203, the acceptance shall be deemed a Federal action for all purposes.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s204/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Implementation of Approved Projects.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/e/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Cooperation.—</heading><content style="-uslm-dtd:text">Notwithstanding chapter 63 of title 31, United States Code, using project funds the Secretary concerned may enter into contracts, grants, and cooperative agreements with States and local governments, private and nonprofit entities, and landowners and other persons to assist the Secretary in carrying out an approved project.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/e/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Best value contracting.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s204/e/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">For any project involving a contract authorized by paragraph (1) the Secretary concerned may elect a source for performance of the contract on a best value basis.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s204/e/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Factors.—</heading><chapeau style="-uslm-dtd:text">The Secretary concerned shall determine best value based on such factors as—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s204/e/2/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the technical demands and complexity of the work to be done;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s204/e/2/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii)</num><subclause style="-uslm-dtd:subclause" identifier="/us/sComp/106/393/tII/s204/e/2/B/ii/I" styleType="OLC" class="inline"><num style="-uslm-dtd:enum" value="I">(I) </num><content style="-uslm-dtd:text">the ecological objectives of the project; and</content></subclause>
+                                <subclause style="-uslm-dtd:subclause" identifier="/us/sComp/106/393/tII/s204/e/2/B/ii/II" styleType="OLC" class="leftIndentDecrease1">
+                                    <num style="-uslm-dtd:enum" value="II">(II) </num><content style="-uslm-dtd:text">the sensitivity of the resources being treated;</content>
+                                </subclause>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s204/e/2/B/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">the past experience by the contractor with the type of work being done, using the type of equipment proposed for the project, and meeting or exceeding desired ecological conditions; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s204/e/2/B/iv" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iv">(iv) </num><content style="-uslm-dtd:text">the commitment of the contractor to hiring highly qualified workers and local residents.</content>
+                            </clause>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s204/f" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Requirements for Project Funds.—</heading><chapeau style="-uslm-dtd:text">The Secretary shall ensure that at least 50 percent of all project funds be used for projects that are primarily dedicated—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/f/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">to road maintenance, decommissioning, or obliteration; or</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s204/f/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">to restoration of streams and watersheds.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tII/s205" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="205">SEC. 205. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7125">16 U.S.C. 7125</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">RESOURCE ADVISORY COMMITTEES. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s205/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Establishment and Purpose of Resource Advisory Committees.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Establishment.—</heading><content style="-uslm-dtd:text">The Secretary concerned shall establish and maintain resource advisory committees to perform the duties in subsection (b), except as provided in paragraph (4).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Purpose.—</heading><chapeau style="-uslm-dtd:text">The purpose of a resource advisory committee shall be—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/a/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">to improve collaborative relationships; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/a/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">to provide advice and recommendations to the land management agencies consistent with the purposes of this title.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/a/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Access to resource advisory committees.—</heading><content style="-uslm-dtd:text">To ensure that each unit of Federal land has access to a resource advisory committee, and that there is sufficient interest in participation on a committee to ensure that membership can be balanced in terms of the points of view represented and the functions to be performed, the Secretary concerned may, establish resource advisory committees for part of, or 1 or more, units of Federal land.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/a/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Existing advisory committees.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/a/4/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">An advisory committee that meets the requirements of this section, a resource advisory committee established before December 20, 2021, or an advisory committee determined by the Secretary concerned before December 20, 2021, to meet the requirements of this section may be deemed by the Secretary concerned to be a resource advisory committee for the purposes of this title.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/a/4/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Charter.—</heading><content style="-uslm-dtd:text">A charter for a committee described in subparagraph (A) that was filed on or before December 20, 2021, shall be considered to be filed for purposes of this Act.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/a/4/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Bureau of land management advisory committees.—</heading><content style="-uslm-dtd:text">The Secretary of the Interior may deem a resource advisory committee meeting the requirements of subpart 1784 of part 1780 of title 43, Code of Federal Regulations, as a resource advisory committee for the purposes of this title.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s205/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Duties.—</heading><chapeau style="-uslm-dtd:text">A resource advisory committee shall—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">review projects proposed under this title by participating counties and other persons;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">propose projects and funding to the Secretary concerned under section 203;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">provide early and continuous coordination with appropriate land management agency officials in recommending projects consistent with purposes of this Act under this title;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/b/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">provide frequent opportunities for citizens, organizations, tribes, land management agencies, and other interested parties to participate openly and meaningfully, beginning at the early stages of the project development process under this title;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/b/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5)</num><subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/b/5/A" styleType="OLC" class="inline"><num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">monitor projects that have been approved under section 204; and</content></subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/b/5/B" styleType="OLC" class="leftIndentDecrease1">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">advise the designated Federal official on the progress of the monitoring efforts under subparagraph (A); and</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/b/6" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="6">(6) </num><content style="-uslm-dtd:text">make recommendations to the Secretary concerned for any appropriate changes or adjustments to the projects being monitored by the resource advisory committee.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s205/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Appointment by the Secretary.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/c/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Appointment and term.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/c/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The Secretary concerned, shall appoint the members of resource advisory committees for a term of 4 years beginning on the date of appointment.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/c/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Reappointment.—</heading><content style="-uslm-dtd:text">The Secretary concerned may reappoint members to subsequent 4-year terms.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/c/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Basic requirements.—</heading><content style="-uslm-dtd:text">The Secretary concerned shall ensure that each resource advisory committee established meets the requirements of subsection (d).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/c/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Initial appointment.—</heading><content style="-uslm-dtd:text">Not later than 180 days after the date of the enactment of this Act, the Secretary concerned shall make initial appointments to the resource advisory committees.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/c/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Vacancies.—</heading><content style="-uslm-dtd:text">The Secretary concerned shall make appointments to fill vacancies on any resource advisory committee as soon as practicable after the vacancy has occurred.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/c/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5) </num><heading style="-uslm-dtd:header">Compensation.—</heading><content style="-uslm-dtd:text">Members of the resource advisory committees shall not receive any compensation.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s205/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Composition of Advisory Committee.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Number.—</heading><content style="-uslm-dtd:text">Except as provided in paragraph (6), each resource advisory committee shall be comprised of 15 members.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Community interests represented.—</heading><chapeau style="-uslm-dtd:text">Except as provided in paragraph (6), committee members shall be representative of the interests of the following 3 categories:</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/d/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><chapeau style="-uslm-dtd:text">5 persons that—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/A/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">represent organized labor or non-timber forest product harvester groups;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/A/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">represent developed outdoor recreation, off highway vehicle users, or commercial recreation activities;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/A/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><chapeau style="-uslm-dtd:text">represent—</chapeau>
+                                <subclause style="-uslm-dtd:subclause" identifier="/us/sComp/106/393/tII/s205/d/2/A/iii/I" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="I">(I) </num><content style="-uslm-dtd:text">energy and mineral development interests; or</content>
+                                </subclause>
+                                <subclause style="-uslm-dtd:subclause" identifier="/us/sComp/106/393/tII/s205/d/2/A/iii/II" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="II">(II) </num><content style="-uslm-dtd:text">commercial or recreational fishing interests;</content>
+                                </subclause>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/A/iv" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iv">(iv) </num><content style="-uslm-dtd:text">represent the commercial timber industry; or</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/A/v" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="v">(v) </num><content style="-uslm-dtd:text">hold Federal grazing or other land use permits, or represent nonindustrial private forest land owners, within the area for which the committee is organized.</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/d/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><chapeau style="-uslm-dtd:text">5 persons that represent—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">nationally recognized environmental organizations;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">regionally or locally recognized environmental organizations;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/B/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">dispersed recreational activities;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/B/iv" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iv">(iv) </num><content style="-uslm-dtd:text">archaeological and historical interests; or</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/B/v" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="v">(v) </num><content style="-uslm-dtd:text">nationally or regionally recognized wild horse and burro interest groups, wildlife or hunting organizations, or watershed associations.</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/d/2/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><chapeau style="-uslm-dtd:text">5 persons that—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/C/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">hold State elected office (or a designee);</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/C/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">hold county or local elected office;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/C/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">represent American Indian tribes within or adjacent to the area for which the committee is organized;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/C/iv" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iv">(iv) </num><content style="-uslm-dtd:text">are school officials or teachers; or</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/2/C/v" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="v">(v) </num><content style="-uslm-dtd:text">represent the affected public at large.</content>
+                            </clause>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/d/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Balanced representation.—</heading><content style="-uslm-dtd:text">In appointing committee members from the 3 categories in paragraph (2), the Secretary concerned shall provide for balanced and broad representation from within each category.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/d/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Geographic distribution.—</heading><content style="-uslm-dtd:text">The members of a resource advisory committee shall reside within the State in which the committee has jurisdiction and, to extent practicable, the Secretary concerned shall ensure local representation in each category in paragraph (2).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/d/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5) </num><heading style="-uslm-dtd:header">Chairperson.—</heading><content style="-uslm-dtd:text">A majority on each resource advisory committee shall select the chairperson of the committee.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/d/6" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="6">(6) </num><heading style="-uslm-dtd:header">Committee composition waiver authority.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/d/6/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">Notice.—</heading><content style="-uslm-dtd:text">On notice from the applicable regional forester that an adequate number of qualified candidates are not interested or available to serve on a resource advisory committee, the Secretary concerned shall publish a notice in the Federal Register seeking candidates for the resource advisory committee.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/d/6/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Modification of membership requirements.—</heading><chapeau style="-uslm-dtd:text">If, by the date that is 30 days after the date of publication of notice under subparagraph (A), an inadequate number of qualified candidates have applied to serve on a resource advisory committee, the Secretary concerned may reduce—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/6/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the membership requirement under paragraph (1) to not fewer than 9; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/d/6/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the membership requirements under subparagraphs (A), (B), and (C) of paragraph (2) to 3 in each category described in that paragraph, except that where a vacancy exists on a resource advisory committee, the Secretary concerned may not reject a qualified applicant from any category.</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/d/6/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Termination of authority.—</heading><content style="-uslm-dtd:text">The authority provided under this paragraph terminates on October 1, 2023.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s205/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Approval Procedures.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/e/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Subject to paragraph (3), each resource advisory committee shall establish procedures for proposing projects to the Secretary concerned under this title.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/e/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Quorum.—</heading><content style="-uslm-dtd:text">A quorum must be present to constitute an official meeting of the committee.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/e/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Approval by majority of members.—</heading><content style="-uslm-dtd:text">A project may be proposed by a resource advisory committee to the Secretary concerned under section 203(a), if the project has been approved by a majority of members of the committee from each of the 3 categories in subsection (d)(2).</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s205/f" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Other Committee Authorities and Requirements.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/f/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Staff assistance.—</heading><content style="-uslm-dtd:text">A resource advisory committee may submit to the Secretary concerned a request for periodic staff assistance from Federal employees under the jurisdiction of the Secretary.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/f/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Meetings.—</heading><content style="-uslm-dtd:text">All meetings of a resource advisory committee shall be announced at least 1 week in advance in a local newspaper of record and shall be open to the public.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/f/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Records.—</heading><content style="-uslm-dtd:text">A resource advisory committee shall maintain records of the meetings of the committee and make the records available for public inspection.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s205/g" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="g">(g) </num><heading style="-uslm-dtd:header">Regional Appointment Pilot Program.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/g/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Definition of applicable designee.—</heading><content style="-uslm-dtd:text">In this subsection, the term “<quotedText style="-uslm-dtd:quote">applicable designee</quotedText>” means the applicable regional forester.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/g/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Pilot program.—</heading><content style="-uslm-dtd:text">The Secretary concerned shall carry out a pilot program (referred to in this subsection as the “<quotedText style="-uslm-dtd:quote">pilot program</quotedText>”) to allow an applicable designee to appoint members of resource advisory committees.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/g/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Geographic limitation.—</heading><chapeau style="-uslm-dtd:text">The pilot program shall only apply to resource advisory committees chartered in—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/g/3/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">the State of Montana; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/g/3/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the State of Arizona.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/g/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Responsibilities of applicable designee.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/g/4/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">Review.—</heading><content style="-uslm-dtd:text">Before appointing a member of a resource advisory committee under the pilot program, an applicable designee shall conduct the review and analysis that would otherwise be conducted for an appointment to a resource advisory committee if the pilot program was not in effect, including any review and analysis with respect to civil rights and budgetary requirements.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/g/4/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Savings clause.—</heading><content style="-uslm-dtd:text">Nothing in this subsection relieves an applicable designee from any requirement developed by the Secretary concerned for making an appointment to a resource advisory committee that is in effect on the date of enactment of this subsection, including any requirement for advertising a vacancy.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/g/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5) </num><heading style="-uslm-dtd:header">Termination of effectiveness.—</heading><content style="-uslm-dtd:text">The authority provided under this subsection terminates on October 1, 2023.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s205/g/6" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="6">(6) </num><heading style="-uslm-dtd:header">Report to congress.—</heading><chapeau style="-uslm-dtd:text">Not later than the date that is 180 days after the date described in paragraph (5), the Secretary concerned shall submit to Congress a report that includes—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/g/6/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><chapeau style="-uslm-dtd:text">with respect to appointments made under the pilot program compared to appointments to resource advisory committees not made under the pilot program, a description of the extent to which—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/g/6/A/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">appointments were faster or slower; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/106/393/tII/s205/g/6/A/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the requirements described in paragraph (4) differ; and</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s205/g/6/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">a recommendation with respect to whether Congress should terminate, continue, modify, or expand the pilot program.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tII/s206" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="206">SEC. 206. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7126">16 U.S.C. 7126</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">USE OF PROJECT FUNDS. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s206/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Agreement Regarding Schedule and Cost of Project.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s206/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Agreement between parties.—</heading><chapeau style="-uslm-dtd:text">The Secretary concerned may carry out a project submitted by a resource advisory committee under section 203(a) using project funds or other funds described in section 203(a)(2), if, as soon as practicable after the issuance of a decision document for the project and the exhaustion of all administrative appeals and judicial review of the project decision, the Secretary concerned and the resource advisory committee enter into an agreement addressing, at a minimum, the following:</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s206/a/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">The schedule for completing the project.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s206/a/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">The total cost of the project, including the level of agency overhead to be assessed against the project.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s206/a/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">For a multiyear project, the estimated cost of the project for each of the fiscal years in which it will be carried out.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s206/a/1/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">The remedies for failure of the Secretary concerned to comply with the terms of the agreement consistent with current Federal law.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s206/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Limited use of federal funds.—</heading><content style="-uslm-dtd:text">The Secretary concerned may decide, at the sole discretion of the Secretary concerned, to cover the costs of a portion of an approved project using Federal funds appropriated or otherwise available to the Secretary for the same purposes as the project.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s206/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Transfer of Project Funds.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s206/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Initial transfer required.—</heading><chapeau style="-uslm-dtd:text">As soon as practicable after the agreement is reached under subsection (a) with regard to a project to be funded in whole or in part using project funds, or other funds described in section 203(a)(2), the Secretary concerned shall transfer to the applicable unit of National Forest System land or Bureau of Land Management District an amount of project funds equal to—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s206/b/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">in the case of a project to be completed in a single fiscal year, the total amount specified in the agreement to be paid using project funds, or other funds described in section 203(a)(2); or</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s206/b/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">in the case of a multiyear project, the amount specified in the agreement to be paid using project funds, or other funds described in section 203(a)(2) for the first fiscal year.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s206/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Condition on project commencement.—</heading><content style="-uslm-dtd:text">The unit of National Forest System land or Bureau of Land Management District concerned, shall not commence a project until the project funds, or other funds described in section 203(a)(2) required to be transferred under paragraph (1) for the project, have been made available by the Secretary concerned.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s206/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Subsequent transfers for multiyear projects.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s206/b/3/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">For the second and subsequent fiscal years of a multiyear project to be funded in whole or in part using project funds, the unit of National Forest System land or Bureau of Land Management District concerned shall use the amount of project funds required to continue the project in that fiscal year according to the agreement entered into under subsection (a).</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tII/s206/b/3/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Suspension of work.—</heading><content style="-uslm-dtd:text">The Secretary concerned shall suspend work on the project if the project funds required by the agreement in the second and subsequent fiscal years are not available.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tII/s207" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="207">SEC. 207. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7127">16 U.S.C. 7127</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">AVAILABILITY OF PROJECT FUNDS. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s207/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Submission of Proposed Projects To Obligate Funds.—</heading><content style="-uslm-dtd:text">By September 30 of each fiscal year (or a later date specified by the Secretary concerned for the fiscal year), a resource advisory committee shall submit to the Secretary concerned pursuant to section 203(a)(1) a sufficient number of project proposals that, if approved, would result in the obligation of at least the full amount of the project funds reserved by the participating county in the preceding fiscal year.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s207/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Use or Transfer of Unobligated Funds.—</heading><content style="-uslm-dtd:text">Subject to section 208, if a resource advisory committee fails to comply with subsection (a) for a fiscal year, any project funds reserved by the participating county in the preceding fiscal year and remaining unobligated shall be available for use as part of the project submissions in the next fiscal year.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s207/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Effect of Rejection of Projects.—</heading><content style="-uslm-dtd:text">Subject to section 208, any project funds reserved by a participating county in the preceding fiscal year that are unobligated at the end of a fiscal year because the Secretary concerned has rejected one or more proposed projects shall be available for use as part of the project submissions in the next fiscal year.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s207/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Effect of Court Orders.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s207/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">If an approved project under this Act is enjoined or prohibited by a Federal court, the Secretary concerned shall return the unobligated project funds related to the project to the participating county or counties that reserved the funds.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tII/s207/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Expenditure of funds.—</heading><content style="-uslm-dtd:text">The returned funds shall be available for the county to expend in the same manner as the funds reserved by the county under subparagraph (B)(i), (B)(ii), or (C)(i) of section 102(d)(1).</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tII/s208" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="208">SEC. 208. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7128">16 U.S.C. 7128</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">TERMINATION OF AUTHORITY. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s208/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">The authority to initiate projects under this title shall terminate on September 30, 2022.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tII/s208/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Deposits in Treasury.—</heading><content style="-uslm-dtd:text">Any project funds not obligated by September 30, 2023, shall be deposited in the Treasury of the United States.</content>
+                </subsection>
+            </section>
+        </title>
+        <title style="-uslm-dtd:title" identifier="/us/sComp/106/393/tIII" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="III">TITLE III—</num><heading style="-uslm-dtd:header">COUNTY FUNDS </heading>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tIII/s301" styleType="OLC" role="definitions">
+                <num style="-uslm-dtd:enum" value="301">SEC. 301. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7141">16 U.S.C. 7141</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">DEFINITIONS. </heading>
+                <subsection style="-uslm-dtd:subsection" styleType="OLC" role="undesignated-level"><chapeau style="-uslm-dtd:text">In this title:</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tIII/s301/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">County funds.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">county funds</term>” means all funds an eligible county elects under section 102(d) to reserve for expenditure in accordance with this title.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tIII/s301/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Participating county.—</heading><content style="-uslm-dtd:text">The term “<term style="-uslm-dtd:term">participating county</term>” means an eligible county that elects under section 102(d) to expend a portion of the Federal funds received under section 102 in accordance with this title.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tIII/s302" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="302">SEC. 302. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7142">16 U.S.C. 7142</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">USE. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tIII/s302/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Authorized Uses.—</heading><chapeau style="-uslm-dtd:text">A participating county, including any applicable agencies of the participating county, shall use county funds, in accordance with this title, only—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tIII/s302/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">to carry out activities under the Firewise Communities program to provide to homeowners in fire-sensitive ecosystems education on, and assistance with implementing, techniques in home siting, home construction, and home landscaping that can increase the protection of people and property from wildfires;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tIII/s302/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><chapeau style="-uslm-dtd:text">to reimburse the participating county for search and rescue and other emergency services, including firefighting and law enforcement patrols, that are—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tIII/s302/a/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">performed on Federal land after the date on which the use was approved under subsection (b); and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/393/tIII/s302/a/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">paid for by the participating county; </content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tIII/s302/a/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">to cover training costs and equipment purchases directly related to the emergency services described in paragraph (2); and</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tIII/s302/a/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">to develop and carry out community wildfire protection plans in coordination with the appropriate Secretary concerned.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tIII/s302/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Proposals.—</heading><chapeau style="-uslm-dtd:text">A participating county shall use county funds for a use described in subsection (a) only after a 45-day public comment period, at the beginning of which the participating county shall—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tIII/s302/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">publish in any publications of local record a proposal that describes the proposed use of the county funds; and</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/393/tIII/s302/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">submit the proposal to any resource advisory committee established under section 205 for the participating county.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tIII/s303" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="303">SEC. 303. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7143">16 U.S.C. 7143</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">CERTIFICATION. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tIII/s303/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Not later than February 1 of the year after the year in which any county funds were expended by a participating county, the appropriate official of the participating county shall submit to the Secretary concerned a certification that the county funds expended in the applicable year have been used for the uses authorized under section 302(a), including a description of the amounts expended and the uses for which the amounts were expended.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tIII/s303/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Review.—</heading><content style="-uslm-dtd:text">The Secretary concerned shall review the certifications submitted under subsection (a) as the Secretary concerned determines to be appropriate.</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tIII/s304" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="304">SEC. 304. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7144">16 U.S.C. 7144</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">TERMINATION OF AUTHORITY. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tIII/s304/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">The authority to initiate projects under this title terminates on September 30, 2022.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tIII/s304/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Availability.—</heading><content style="-uslm-dtd:text">Any county funds not obligated by September 30, 2023, shall be returned to the Treasury of the United States.</content>
+                </subsection>
+            </section>
+        </title>
+        <title style="-uslm-dtd:title" identifier="/us/sComp/106/393/tIV" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="IV">TITLE IV—</num><heading style="-uslm-dtd:header">MISCELLANEOUS PROVISIONS </heading>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tIV/s401" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="401">SEC. 401. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7151">16 U.S.C. 7151</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">REGULATIONS. </heading>
+                <content style="-uslm-dtd:text" class="block">The Secretary of Agriculture and the Secretary of the Interior shall issue regulations to carry out the purposes of this Act.</content>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tIV/s402" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="402">SEC. 402. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7152">16 U.S.C. 7152</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">AUTHORIZATION OF APPROPRIATIONS. </heading>
+                <content style="-uslm-dtd:text" class="block">There are authorized to be appropriated such sums as are necessary to carry out this Act.</content>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tIV/s403" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="403">SEC. 403. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t16/s7153">16 U.S.C. 7153</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">TREATMENT OF FUNDS AND REVENUES. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tIV/s403/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Relation to Other Appropriations.—</heading><content style="-uslm-dtd:text">Funds made available under section 402 and funds made available to a Secretary concerned under section 206 shall be in addition to any other annual appropriations for the Forest Service and the Bureau of Land Management.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/393/tIV/s403/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Deposit of Revenues and Other Funds.—</heading><content style="-uslm-dtd:text">All revenues generated from projects pursuant to title II, including any interest accrued from the revenues, shall be deposited in the Treasury of the United States.</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/393/tIV/s404" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="404">SEC. 404. </num><heading style="-uslm-dtd:header">CONFORMING AMENDMENTS. </heading>
+                <content style="-uslm-dtd:text" class="block">
+<editorialNote style="-uslm-dtd:legis-comment"><b>[</b>Omitted—Amendments<b>]</b></editorialNote>
+</content>
+            </section>
+        </title>
+    </main>
+</statuteCompilation>

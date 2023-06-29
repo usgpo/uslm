@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="uslm.css"?><statuteCompilation xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpo="http://www.gpo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.0.9.xsd" xml:lang="en" style="-uslm-dtd:statute">
+    <meta style="-uslm-dtd:compilation-act-form">
+        <dc:title>GEOTHERMAL STEAM ACT OF 1970</dc:title>
+        <citableAs>Public Law 91–581, as amended</citableAs>
+        <citableAsShortTitle>GEOTHERMAL STEAM ACT OF 1970</citableAsShortTitle>
+        <docNumber>581</docNumber>
+        <currentThroughPublicLaw>116–260</currentThroughPublicLaw>
+        <dc:type>Statute Compilation</dc:type>
+        <dc:creator>United States House of Representatives</dc:creator>
+        <dc:creator>Office of the Legislative Counsel</dc:creator>
+        <dc:format>text/xml</dc:format>
+        <dc:language>EN</dc:language>
+        <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+        <processedBy>GPO Statute Compilations USLM converter, version 20210520.1</processedBy>
+        <processedDate>2021-05-25</processedDate>
+        <containsShortTitle>Geothermal Steam Act of 1970</containsShortTitle>
+        <property role="fileId">1565</property>
+        <congress>91</congress>
+        <approvedDate>1970-12-24</approvedDate>
+    </meta>
+    <preface style="-uslm-dtd:compilation-act-form">
+        <property style="-uslm-dtd:comp-short-title" role="compShortTitle">GEOTHERMAL STEAM ACT OF 1970</property>
+        <citationNote style="-uslm-dtd:public-law">[<citableAs>Public Law 91–581</citableAs>]</citationNote>
+        <editionNote style="-uslm-dtd:updated-through-note">[As Amended Through <currentThroughPublicLaw>P.L. 116–260</currentThroughPublicLaw>, Enacted <date date="2020-12-27">December 27, 2020</date>]</editionNote>
+        <explanationNote style="-uslm-dtd:explanatory-note"><b>[</b>Currency: This publication is a compilation of the text of Public Law 91–581. It was last amended by the public law listed in the As Amended Through note above and below at the bottom of each page of the pdf version and reflects current law through the date of the enactment of the public law listed at https://www.govinfo.gov/app/collection/comps/<b>]</b></explanationNote>
+        <explanationNote style="-uslm-dtd:explanatory-note"><b>[</b>Note: While this publication does  not represent an official version of any Federal statute, substantial efforts have been made to ensure the accuracy of its contents. The official version of Federal law is found in the United States Statutes at Large and in the United States Code. The legal effect to be given to the Statutes at Large and the United States Code is established by statute (1 U.S.C. 112, 204).<b>]</b></explanationNote>
+    </preface>
+    <main style="-uslm-dtd:legis-body"><longTitle><docTitle style="-uslm-dtd:legis-type">AN ACT</docTitle><officialTitle style="-uslm-dtd:official-title">To authorize the Secretary of the Interior to make disposition of geothermal steam and associated geothermal resources, and for other purposes.<ref style="-uslm-dtd:footnote-ref" idref="IDD5E8C5A8FC0D4FCD9786A7891E8117BB" class="footnoteRef">1</ref></officialTitle></longTitle><enactingFormula style="-uslm-dtd:enacting-clause">
+Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,
+</enactingFormula>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s1" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="1">SEC. 1. </num><heading style="-uslm-dtd:header">SHORT TITLE. </heading>
+            <content style="-uslm-dtd:text" class="block">This Act may be cited as the “<shortTitle style="-uslm-dtd:quote"><inline style="-uslm-dtd:short-title">Geothermal Steam Act of 1970</inline></shortTitle>”.</content><footnote id="IDD5E8C5A8FC0D4FCD9786A7891E8117BB" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">1</sup><p style="-uslm-dtd:para; margin-left:1em">The Geothermal Steam Act of 1970 (84 Stat. 1566) consists of the Act of December 24, 1970, (Public Law 91–581) and subsequent amendments thereto (30 U.S.C. 1001 and following).</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1001">30 U.S.C. 1001 note</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s2" styleType="OLC" role="definitions">
+            <num style="-uslm-dtd:enum" value="2">SEC. 2. </num><heading style="-uslm-dtd:header">DEFINITIONS.<ref style="-uslm-dtd:footnote-ref" idref="IDA1A88EA098FC40A6AE7C8A91FF42C300" class="footnoteRef">2</ref> </heading>
+            <chapeau style="-uslm-dtd:text" class="block">As used in this Act, the term—</chapeau><footnote id="IDA1A88EA098FC40A6AE7C8A91FF42C300" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">2</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(5) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<term style="-uslm-dtd:quote">SEC. 2. As</term>” probably should have been to strike “<term style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 2. As</term>”.</p></footnote>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s2/a" styleType="OLC" class="leftIndentIncrease1">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><content style="-uslm-dtd:text">
+“<term style="-uslm-dtd:term">Secretary</term>” means the Secretary of the Interior;</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s2/b" styleType="OLC" class="leftIndentIncrease1">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><content style="-uslm-dtd:text">
+“<term style="-uslm-dtd:term">geothermal lease</term>” means a lease issued under authority of this Act;</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s2/c" styleType="OLC" class="leftIndentIncrease1">
+                <num style="-uslm-dtd:enum" value="c">(c) </num><content style="-uslm-dtd:text">
+“<term style="-uslm-dtd:term">geothermal resources</term>” means (i) all products of geothermal processes, embracing indigenous steam, hot water and hot brines; (ii) steam and other gases, hot water and hot brines resulting from water, gas, or other fluids artificially introduced into geothermal formations; (iii) heat or other associated energy found in geothermal formations; and (iv) any byproduct derived from them;</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s2/d" styleType="OLC" class="leftIndentIncrease1">
+                <num style="-uslm-dtd:enum" value="d">(d) </num><content style="-uslm-dtd:text">
+“<term style="-uslm-dtd:term">byproduct</term>” means any mineral or minerals (exclusive of oil, hydrocarbon gas, and helium) which are found in solution or in association with geothermal steam and which have a value of less than 75 per centum of the value of the geothermal steam or are not, because of quantity, quality, or technical difficulties in extraction and production, of sufficient value to warrant extraction and production by themselves;</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s2/e" styleType="OLC" class="leftIndentIncrease1">
+                <num style="-uslm-dtd:enum" value="e">(e) </num><content style="-uslm-dtd:text">
+“<term style="-uslm-dtd:term">known geothermal resources area</term>” means an area in which the geology, nearby discoveries, competitive interests, or other indicia would, in the opinion of the Secretary, engender a belief in men who are experienced in the subject matter that the prospects for extraction of geothermal steam or associated geothermal resources<ref style="-uslm-dtd:footnote-ref" idref="ID446D087596FE477CBF621DC355631B5A" class="footnoteRef">3</ref> are good enough to warrant expenditures of money for that purpose.</content><footnote id="ID446D087596FE477CBF621DC355631B5A" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">3</sup><p style="-uslm-dtd:para; margin-left:1em">Probably should read “<term style="-uslm-dtd:quote">geothermal resources</term>”. Section 236(1) of Public Law 109–58 amended the Geothermal Steam Act of 1970 by striking `geothermal steam and associated geothermal resources'' each place it appears and inserting “<term style="-uslm-dtd:quote">geothermal resources</term>”. The amendment could not be executed because the word “<term style="-uslm-dtd:quote">or</term>” appears in paragraph (e) instead of “<term style="-uslm-dtd:quote">and</term>” in the matter purported to be struck.</p></footnote>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s2/f" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="f">(f) </num><chapeau style="-uslm-dtd:text">
+“<term style="-uslm-dtd:term">Significant thermal features within units of the National Park System</term>” shall include, but not be limited to, the following:</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s2/f/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">Thermal features within units of the National Park System listed in Section 28(a)(1) and designated as significant in the Federal Register notice of August 3, 1987 (Vol. 52. No. 148 Fed. Reg. 28790).</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s2/f/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">Crater Lake National Park.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s2/f/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">Thermal features within Big Bend National Park and Lake Mead National Recreation Area proposed as significant in the Federal Register notice of February 13, 1987 (Vol. 52, No. 30 Fed. Reg. 4700).</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s2/f/4" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">Thermal features within units of the National Park System added to the significant thermal features list pursuant to section 28(a)(2) of this Act.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s2/g" styleType="OLC" class="leftIndentIncrease1">
+                <num style="-uslm-dtd:enum" value="g">(g) </num><content style="-uslm-dtd:text">
+“<term style="-uslm-dtd:term">direct use</term>” means utilization of geothermal resources for commercial, residential, agricultural, public facilities, or other energy needs other than the commercial production of electricity; and<ref style="-uslm-dtd:footnote-ref" idref="ID0E1A0E5E375E4796AEFE2C876D16B54E" class="footnoteRef">4</ref></content><footnote id="ID0E1A0E5E375E4796AEFE2C876D16B54E" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">4</sup><p style="-uslm-dtd:para; margin-left:1em">Punctuation in paragraph (g) so in law. See amendment made by section 236(2) of Public Law 109–58.</p></footnote>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1001">30 U.S.C. 1001</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s3" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="3">SEC. 3. </num><heading style="-uslm-dtd:header">LANDS SUBJECT TO GEOTHERMAL LEASING.<ref style="-uslm-dtd:footnote-ref" idref="ID653FA89F3B2F445AA63AD7BE48987C68" class="footnoteRef">5</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">Subject to the provisions of section 15 of this Act, the Secretary of the Interior may issue leases for the development and utilization of geothermal resources (1) in lands administered by him, including public, withdrawn, and acquired lands, (2) in any national forest or other lands administered by the Department of Agriculture through the Forest Service, including Public, withdrawn, and acquired lands, and (3) in lands which have been conveyed by the United States subject to a reservation to the United States of the geothermal resources therein.</content><footnote id="ID653FA89F3B2F445AA63AD7BE48987C68" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">5</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(6) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 3. Subject</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 3. Subject</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1002">30 U.S.C. 1002</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s4" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="4">SEC. 4. </num><heading style="-uslm-dtd:header">LEASING PROCEDURES. </heading>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s4/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Nominations.—</heading><content style="-uslm-dtd:text">The Secretary shall accept nominations of land to be leased at any time from qualified companies and individuals under this Act.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s4/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Competitive Lease Sale Required.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/b/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Except as otherwise specifically provided by this Act, all land to be leased that is not subject to leasing under subsection (c) shall be leased as provided in this subsection to the highest responsible qualified bidder, as determined by the Secretary.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/b/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Competitive lease sales.—</heading><content style="-uslm-dtd:text">The Secretary shall hold a competitive lease sale at least once every 2 years for land in a State that has nominations pending under subsection (a) if the land is otherwise available for leasing.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/b/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Lands subject to mining claims.—</heading><content style="-uslm-dtd:text">Lands that are subject to a mining claim for which a plan of operations has been approved by the relevant Federal land management agency may be available for noncompetitive leasing under this section to the mining claim holder.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/b/4" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Land subject to oil and gas lease.—</heading><chapeau style="-uslm-dtd:text">Land under an oil and gas lease issued pursuant to the Mineral Leasing Act (30 U.S.C. 181 et seq.) or the Mineral Leasing Act for Acquired Lands (30 U.S.C. 351 et seq.) that is subject to an approved application for permit to drill and from which oil and gas production is occurring may be available for noncompetitive leasing under subsection (c) by the holder of the oil and gas lease—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s4/b/4/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">on a determination that geothermal energy will be produced from a well producing or capable of producing oil and gas; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s4/b/4/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">to provide for the coproduction of geothermal energy with oil and gas.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s4/c" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Noncompetitive Leasing.—</heading><content style="-uslm-dtd:text">The Secretary shall make available for a period of 2 years for noncompetitive leasing any tract for which a competitive lease sale is held, but for which the Secretary does not receive any bids in a competitive lease sale.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s4/d" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Pending Lease Applications.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/d/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">It shall be a priority for the Secretary, and for the Secretary of Agriculture with respect to National Forest Systems land, to ensure timely completion of administrative actions, including amendments to applicable forest plans and resource management plans, necessary to process applications for geothermal leasing pending on the date of enactment of this subsection. All future forest plans and resource management plans for areas with high geothermal resource potential shall consider geothermal leasing and development.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/d/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Administration.—</heading><chapeau style="-uslm-dtd:text">An application described in paragraph (1) and any lease issued pursuant to the application—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s4/d/2/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">except as provided in subparagraph (B), shall be subject to this section as in effect on the day before the date of enactment of this paragraph; or</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s4/d/2/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">at the election of the applicant, shall be subject to this section as in effect on the effective date of this paragraph.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s4/e" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Leases Sold as a Block.—</heading><content style="-uslm-dtd:text">If information is available to the Secretary indicating a geothermal resource that could be produced as 1 unit can reasonably be expected to underlie more than 1 parcel to be offered in a competitive lease sale, the parcels for such a resource may be offered for bidding as a block in the competitive lease sale.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s4/f" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Leasing for Direct Use of Geothermal Resources.—</heading><chapeau style="-uslm-dtd:text">Notwithstanding subsection (b), the Secretary may identify areas in which the land to be leased under this Act exclusively for direct use of geothermal resources, without sale for purposes other than commercial generation of electricity, may be leased to any qualified applicant that first applies for such a lease under regulations issued by the Secretary, if the Secretary—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/f/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">publishes a notice of the land proposed for leasing not later than 90 days before the date of the issuance of the lease;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/f/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">does not receive during the 90-day period beginning on the date of the publication any nomination to include the land concerned in the next competitive lease sale; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/f/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">determines there is no competitive interest in the geothermal resources in the land to be leased.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s4/g" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="g">(g) </num><heading style="-uslm-dtd:header">Area Subject to Lease for Direct Use.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/g/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Subject to paragraph (2), a geothermal lease for the direct use of geothermal resources shall cover not more than the quantity of acreage determined by the Secretary to be reasonably necessary for the proposed use.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s4/g/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Limitations.—</heading><content style="-uslm-dtd:text">The quantity of acreage covered by the lease shall not exceed the limitations established under section 7.</content>
+                </paragraph>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1003">30 U.S.C. 1003</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s5" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="5">SEC. 5. </num><heading style="-uslm-dtd:header">RENTS AND ROYALTIES.<ref style="-uslm-dtd:footnote-ref" idref="ID2702E2B4420E4C7BA4921795AD76384F" class="footnoteRef">6</ref> </heading><footnote id="ID2702E2B4420E4C7BA4921795AD76384F" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">6</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(7) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 5.</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 5.</quotedText>”.</p></footnote>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s5/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><chapeau style="-uslm-dtd:text">Geothermal leases shall provide for—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/a/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><chapeau style="-uslm-dtd:text">a royalty on electricity produced using geothermal resources, other than direct use of geothermal resources, that shall be—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/a/1/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">not less than 1 percent and not more than 2.5 percent of the gross proceeds from the sale of electricity produced from such resources during the first 10 years of production under the lease; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/a/1/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">not less than 2 and not more than 5 percent of the gross proceeds from the sale of electricity produced from such resources during each year after such 10-year period;</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/a/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">a royalty on any byproduct that is a mineral specified in the first section of the Mineral Leasing Act (30 U.S.C. 181), and that is derived from production under the lease, at the rate of the royalty that applies under that Act to production of the mineral under a lease under that Act; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/a/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><chapeau style="-uslm-dtd:text">payment in advance of an annual rental of not less than—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/a/3/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><chapeau style="-uslm-dtd:text">for each of the 1st through 10th years of the lease—</chapeau>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/91/581/s5/a/3/A/i" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">in the case of a lease awarded in a noncompetitive lease sale, $1 per acre or fraction thereof; or</content>
+                        </clause>
+                        <clause style="-uslm-dtd:clause" identifier="/us/sComp/91/581/s5/a/3/A/ii" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">in the case of a lease awarded in a competitive lease sale, $2 per acre or fraction thereof for the 1st year and $3 per acre or fraction thereof for each of the 2nd through 10th years; and</content>
+                        </clause>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/a/3/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">for each year after the 10th year of the lease, $5 per acre or fraction thereof.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s5/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Direct Use.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/b/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><chapeau style="-uslm-dtd:text">Notwithstanding subsection (a)(1), the Secretary shall establish a schedule of fees, in lieu of royalties for geothermal resources, that a lessee or its affiliate—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/b/1/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">uses for a purpose other than the commercial generation of electricity; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/b/1/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">does not sell.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/b/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Schedule of fees.—</heading><chapeau style="-uslm-dtd:text">The schedule of fees—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/b/2/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">may be based on the quantity or thermal content, or both, of geothermal resources used;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/b/2/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">shall ensure a fair return to the United States for use of the resource; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/b/2/C" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">shall encourage development of the resource.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/b/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">State, tribal, or local governments.—</heading><content style="-uslm-dtd:text">If a State, tribal, or local government is the lessee and uses geothermal resources without sale and for public purposes other than commercial generation of electricity, the Secretary shall charge only a nominal fee for use of the resource.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/b/4" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Final regulation.—</heading><chapeau style="-uslm-dtd:text">In issuing any final regulation establishing a schedule of fees under this subsection, the Secretary shall seek—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/b/4/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">to provide lessees with a simplified administrative system;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/b/4/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">to facilitate development of direct use of geothermal resources; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/b/4/C" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">to contribute to sustainable economic development opportunities in the area.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s5/c" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Final Regulation Establishing Royalty Rates.—</heading><chapeau style="-uslm-dtd:text">In issuing any final regulation establishing royalty rates under this section, the Secretary shall seek—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/c/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">to provide lessees a simplified administrative system;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/c/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">to encourage new development; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/c/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">to achieve the same level of royalty revenues over a 10-year period as the regulation in effect on the date of enactment of this subsection.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s5/d" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Credits for In-Kind Payments of Electricity.—</heading><chapeau style="-uslm-dtd:text">The Secretary may provide to a lessee a credit against royalties owed under this Act, in an amount equal to the value of electricity provided under contract to a State or county government that is entitled to a portion of such royalties under section 20 of this Act, section 35 of the Mineral Leasing Act (30 U.S.C. 191), except as otherwise provided by this section, or section 6 of the Mineral Leasing Act for Acquired Lands (30 U.S.C. 355), if—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/d/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">the Secretary has approved in advance the contract between the lessee and the State or county government for such in-kind payments;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/d/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">the contract establishes a specific methodology to determine the value of such credits; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/d/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">the maximum credit will be equal to the royalty value owed to the State or county that is a party to the contract and the electricity received will serve as the royalty payment from the Federal Government to that entity.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s5/e" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Crediting of Rental Toward Royalty.—</heading><content style="-uslm-dtd:text">Any annual rental under this section that is paid with respect to a lease before the first day of the year for which the annual rental is owed shall be credited to the amount of royalty that is required to be paid under the lease for that year.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s5/f" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Advanced Royalties Required for Cessation of Production.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/f/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Subject to paragraphs (2) and (3), if, at any time after commercial production under a lease is achieved, production ceases for any reason, the lease shall remain in full force and effect for a period of not more than an aggregate number of 10 years beginning on the date production ceases, if, during the period in which production is ceased, the lessee pays royalties in advance at the monthly average rate at which the royalty was paid during the period of production.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/f/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Reduction.—</heading><content style="-uslm-dtd:text">The amount of any production royalty paid for any year shall be reduced (but not below 0) by the amount of any advanced royalties paid under the lease to the extent that the advance royalties have not been used to reduce production royalties for a prior year.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/f/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Exceptions.—</heading><chapeau style="-uslm-dtd:text">Paragraph (1) shall not apply if the cessation in production is required or otherwise caused by—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/f/3/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">the Secretary;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/f/3/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the Secretary of the Air Force;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/f/3/C" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">the Secretary of the Army;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/f/3/D" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">the Secretary of the Navy;</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/f/3/E" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="E">(E) </num><content style="-uslm-dtd:text">a State or a political subdivision of a State; or</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s5/f/3/F" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="F">(F) </num><content style="-uslm-dtd:text">a force majeure.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s5/g" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="g">(g) </num><heading style="-uslm-dtd:header">Termination of Lease for Failure to Pay Rental.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/g/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The Secretary shall terminate any lease with respect to which rental is not paid in accordance with this Act and the terms of the lease under which the rental is required, on the expiration of the 45-day period beginning on the date of the failure to pay the rental.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/g/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Notification.—</heading><content style="-uslm-dtd:text">The Secretary shall promptly notify a lessee that has not paid rental required under the lease that the lease will be terminated at the end of the period referred to in paragraph (1).</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s5/g/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Reinstatement.—</heading><content style="-uslm-dtd:text">A lease that would otherwise terminate under paragraph (1) shall not terminate under that paragraph if the lessee pays to the Secretary, before the end of the period referred to in paragraph (1), the amount of rental due plus a late fee equal to 10 percent of the amount.</content>
+                </paragraph>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1004">30 U.S.C. 1004</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s6" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="6">SEC. 6. </num><heading style="-uslm-dtd:header">LEASE TERM AND WORK COMMITMENT REQUIREMENTS. </heading>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/a/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Primary term.—</heading><content style="-uslm-dtd:text">A geothermal lease shall be for a primary term of 10 years.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/a/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Initial extension.—</heading><chapeau style="-uslm-dtd:text">The Secretary shall extend the primary term of a geothermal lease for 5 years if, for each year after the 10th year of the lease—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s6/a/2/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">the Secretary determined under subsection (b) that the lessee satisfied the work commitment requirements that applied to the lease for that year; or</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s6/a/2/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">the lessee paid in annual payments accordance with subsection (c).</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/a/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Additional extension.—</heading><content style="-uslm-dtd:text">The Secretary shall extend the primary term of a geothermal lease (after an initial extension under paragraph (2)) for an additional 5 years if, for each year of the initial extension under paragraph (2), the Secretary determined under subsection (b) that the lessee satisfied the minimum work requirements that applied to the lease for that year.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Requirement to Satisfy Annual Minimum Work Requirement.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/b/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The lessee for a geothermal lease shall, for each year after the 10th year of the lease, satisfy minimum work requirements prescribed by the Secretary that apply to the lease for that year.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/b/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Prescription of minimum work requirements.—</heading><chapeau style="-uslm-dtd:text">The Secretary shall issue regulations prescribing minimum work requirements for geothermal leases, that—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s6/b/2/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">establish a geothermal potential; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s6/b/2/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">if a geothermal potential has been established, confirm the existence of producible geothermal resources.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/c" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Payments in Lieu of Minimum Work Requirements.—</heading><content style="-uslm-dtd:text">In lieu of the minimum work requirements set forth in subsection (b)(2), the Secretary shall by regulation establish minimum annual payments which may be made by the lessee for a limited number of years that the Secretary determines will not impair achieving diligent development of the geothermal resource, but in no event shall the number of years exceed the duration of the extension period provided in subsection (a).</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/d" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Transition Rules for Leases Issued Prior to Enactment of Energy Policy Act of 2005.—</heading><chapeau style="-uslm-dtd:text">The Secretary shall by regulation establish transition rules for leases issued before the date of the enactment of this subsection, including terms under which a lease that is near the end of its term on the date of enactment of this subsection may be extended for up to 2 years—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/d/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">to allow achievement of production under the lease; or</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/d/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">to allow the lease to be included in a producing unit.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/e" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Geothermal Lease Overlying Mining Claim.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/e/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Exemption.—</heading><content style="-uslm-dtd:text">The lessee for a geothermal lease of an area overlying an area subject to a mining claim for which a plan of operations has been approved by the relevant Federal land management agency is exempt from annual work requirements established under this Act, if development of the geothermal resource subject to the lease would interfere with the mining operations under such claim.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s6/e/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Termination of exemption.—</heading><content style="-uslm-dtd:text">An exemption under this paragraph expires upon the termination of the mining operations.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/f" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Termination of Application of Requirements.—</heading><content style="-uslm-dtd:text">Minimum work requirements prescribed under this section shall not apply to a geothermal lease after the date on which the geothermal resource is utilized under the lease in commercial quantities.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/g" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="g">(g) </num><content style="-uslm-dtd:text">Any lease for land on which, or for which under an approved cooperative or unit plan of development or operation, actual drilling operations were commenced prior to the end of its primary term and are being diligently prosecuted at that time shall be extended for five years and so long thereafter, but not more than thirty-five years, as geothermal steam is produced or utilized in commercial quantities. If,  at the end of such extended term, steam is being produced or utilized in commercial quantities and the lands are not needed for other purposes, the lessee shall have a preferential right to a renewal of such lease for a second term in accordance with such terms and conditions as the Secretary deems appropriate.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/h" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="h">(h) </num><content style="-uslm-dtd:text">Except as otherwise provided for in this section, for purposes of this section the term “<term style="-uslm-dtd:term">produced or utilized in commercial quantities</term>” means the completion of a well producing geothermal steam in commercial quantities. Such term shall also include the completion of a well capable of producing geothermal steam in commercial quantities so long as the Secretary determines that diligent efforts are being made toward the utilization of the geothermal steam.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s6/i" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">Minerals locatable under the mining laws of the United States in lands subject to a geothermal lease issued under the provisions of this Act which are not associated with the geothermal resources of such lands as defined in section 2(c) herein shall be locatable under said mining laws in accordance with the principles of the Multiple Mineral Development Act (68 Stat. 708; found in 30 U.S.C. 521 et seq.).</content>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1005">30 U.S.C. 1005</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s7" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="7">SEC. 7. </num><heading style="-uslm-dtd:header">ACREAGE LIMITATIONS.<ref style="-uslm-dtd:footnote-ref" idref="ID4C737F403D2344E4B3A396C6C8B58B03" class="footnoteRef">7</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">A geothermal lease shall embrace a reasonably compact area of not more than 5,120 acres, except where a departure therefrom is occasioned by an irregular subdivision or subdivisions. No person, association, or corporation, except as otherwise provided in this Act, shall take, hold, own, or control at one time, whether acquired directly from the Secretary under this Act or otherwise, any direct or indirect interest in Federal geothermal leases in any one State exceeding 51,200 acres, including leases acquired under the provisions of section 4 of this Act.</content><footnote id="ID4C737F403D2344E4B3A396C6C8B58B03" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">7</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 235(1) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 7.</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 7.</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1006">30 U.S.C. 1006</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s8" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="8">SEC. 8. </num><heading style="-uslm-dtd:header">READJUSTMENT OF LEASE TERMS AND CONDITIONS.<ref style="-uslm-dtd:footnote-ref" idref="IDF1CB5A894CFE49B4B9B0E87026A2D91E" class="footnoteRef">8</ref> </heading><footnote id="IDF1CB5A894CFE49B4B9B0E87026A2D91E" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">8</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(8) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 8. (a) The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 8. (a) The</quotedText>”.</p></footnote>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s8/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><content style="-uslm-dtd:text">The Secretary may readjust the terms and conditions, except as otherwise provided herein, of any geothermal lease issued under this Act at not less than ten-year intervals beginning ten years after the date the geothermal steam is produced, as determined by the Secretary. Each geothermal lease issued under this Act shall provide for such readjustment. The Secretary shall give notice of any proposed readjustment of terms and conditions, and, unless the lessee files with the Secretary objection to the proposed terms or relinquishes the lease within thirty days after receipts of such notice, the lessee shall conclusively be deemed to have agreed with such terms and conditions. If the lessee files objections, and no agreement can be reached between the Secretary and the lessee within a period of not less than sixty days, the lease may be terminated by either party.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s8/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><content style="-uslm-dtd:text">The Secretary may readjust the rentals and royalties of any geothermal lease issued under this Act at not less than twenty-year intervals beginning thirty-five years after the date geothermal steam is produced, as determined by the Secretary. In the event of any such readjustment neither the rental nor royalty may be increased by more than 50 per centum over the rental or royalty paid during the preceding period<ref style="-uslm-dtd:footnote-ref" idref="ID96816DAED25841B2B5C88385FBA636DB" class="footnoteRef">9</ref> Each geothermal lease issued under this Act shall provide for such readjustment. The Secretary shall give notice of any proposed readjustment of rentals and royalties, and, unless the lessee files with the Secretary objection to the proposed rentals and royalties or relinquishes the lease within thirty days after receipt of such notice, the lessee shall conclusively be deemed to have agreed with such terms and conditions. If the lessee files objections, and no agreement can be reached between the Secretary and the lessee within a period of not less than sixty days, the lease may be terminated by either party.</content><footnote id="ID96816DAED25841B2B5C88385FBA636DB" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">9</sup><p style="-uslm-dtd:para; margin-left:1em">So in law. There is no punctuation at the end of the second sentence in subsection (b). See amendment made by section 229 of Public Law 109–58.</p></footnote>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s8/c" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="c">(c) </num><content style="-uslm-dtd:text">Any readjustment of the terms and conditions as to use, protection, or restoration of the surface of any lease of lands withdrawn or acquired in aid of a function of a Federal department or agency other than the Department of the Interior may be made only upon notice to, and with the approval of, such department or agency.</content>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1007">30 U.S.C. 1007</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s9" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="9">SEC. 9. </num><heading style="-uslm-dtd:header">BYPRODUCTS.<ref style="-uslm-dtd:footnote-ref" idref="ID81281995BD6E48F3A35528C59BF9D5E2" class="footnoteRef">10</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">If the production, use, or conversion of geothermal steam is susceptible of producing a valuable byproduct or byproducts, including commercially demineralized water for beneficial uses in accordance with applicable State water laws, the Secretary shall require substantial beneficial production or use thereof unless, in individual circumstances he modifies or waives this requirement in the interest of conservation of natural resources or for other reasons satisfactory to him. However, the production or use of such byproducts shall be subject to the rights of the holders of preexisting leases, claims, or permits covering the same land or the same minerals, if any.</content><footnote id="ID81281995BD6E48F3A35528C59BF9D5E2" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">10</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(9) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 9. If</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 9. If</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1008">30 U.S.C. 1008</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s10" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="10">SEC. 10. </num><heading style="-uslm-dtd:header">RELINQUISHMENT OF GEOTHERMAL RIGHTS.<ref style="-uslm-dtd:footnote-ref" idref="ID841C359B7F694755AA5ECECAA56F4AD3" class="footnoteRef">11</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">The holder of any geothermal lease at any time may make and file in the appropriate land office a written relinquishment of all rights under such lease or of any legal subdivision of the area covered by such lease. Such relinquishment shall be effective as of the date of its filing. Thereupon the lessee shall be released of all obligations thereafter accruing under said lease with respect to the lands relinquished, but no such relinquishment shall release such lessee, or his surety or bond, from any liability for breach of any obligation of the lease, other than an obligation to drill, accrued at the date of the relinquishment, or from the continued obligation, in accordance with the applicable lease terms and regulations, (1) to make payment of all accrued rentals any royalties, (2) to place all wells on the relinquished lands in condition for suspension or abandonment, and (3) to protect or restore substantially the surface and surface resources.</content><footnote id="ID841C359B7F694755AA5ECECAA56F4AD3" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">11</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(10) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 10. The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 10. The</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1009">30 U.S.C. 1009</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s11" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="11">SEC. 11. </num><heading style="-uslm-dtd:header">SUSPENSION OF OPERATIONS AND PRODUCTION.<ref style="-uslm-dtd:footnote-ref" idref="ID9F8D065A46F747BB9A5AED3C82C75C8A" class="footnoteRef">12</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">The Secretary, upon application by the lessee, may authorize the lessee to suspend operations and production on a producing lease and he may, on his own motion, in the interest of conservation suspend operations on any lease but in either case he may extend the lease term for the period of any suspension, and he may waive, suspend, or reduce the rental or royalty required in such lease.</content><footnote id="ID9F8D065A46F747BB9A5AED3C82C75C8A" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">12</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(11) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 11. The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 11. The</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1010">30 U.S.C. 1010</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s12" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="12">SEC. 12. </num><heading style="-uslm-dtd:header">TERMINATION OF LEASES.<ref style="-uslm-dtd:footnote-ref" idref="ID830ABC33C9084C47AC478A1CB012134F" class="footnoteRef">13</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">Leases may be terminated by the Secretary for any violation of the regulations or lease terms after thirty days notice provided that such violation is not corrected within the notice period, or in the event the violation is such that it cannot be corrected within the notice period then provided that lessee has not commenced in good faith within said notice period to correct such violation and thereafter to proceed diligently to correct such violation. Lessee shall be entitled to a hearing on the matter of such claimed violation or proposed termination of lease if request for a hearing is made to the Secretary within the thirty-day period after notice. The period for correction of violation or commencement to correct such violation of regulations or of lease terms, as aforesaid, shall be extended to thirty days after the Secretary's decision after such hearing if the Secretary shall find that a violation exists.</content><footnote id="ID830ABC33C9084C47AC478A1CB012134F" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">13</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(12) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 12. Leases</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 12. Leases</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1011">30 U.S.C. 1011</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s13" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="13">SEC. 13. </num><heading style="-uslm-dtd:header">WAIVER, SUSPENSION, OR REDUCTION OF RENTAL OR ROYALTY.<ref style="-uslm-dtd:footnote-ref" idref="IDA5E803B6E4DC47E5B45F81C3FE697927" class="footnoteRef">14</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">The Secretary may waive, suspend, or reduce the rental or royalty for any lease or portion thereof in the interests of conservation and to encourage the greatest ultimate recovery of geothermal resources, if he determines that this is necessary to promote development or that the lease cannot be successfully operated under the lease terms.</content><footnote id="IDA5E803B6E4DC47E5B45F81C3FE697927" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">14</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(13) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 13. The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 13. The</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1012">30 U.S.C. 1012</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s14" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="14">SEC. 14. </num><heading style="-uslm-dtd:header">SURFACE LAND USE.<ref style="-uslm-dtd:footnote-ref" idref="IDE40BBE1131744455B1650A432906941B" class="footnoteRef">15</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">Subject to the other provisions of this Act, a lessee shall be entitled to use so much of the surface of the land covered by his geothermal lease as may be found by the Secretary to be necessary for the production, utilization, and conservation of geothermal resources.</content><footnote id="IDE40BBE1131744455B1650A432906941B" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">15</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(14) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 14. Subject</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 14. Subject</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1013">30 U.S.C. 1013</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s15" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="15">SEC. 15. </num><heading style="-uslm-dtd:header">LANDS SUBJECT TO GEOTHERMAL LEASING.<ref style="-uslm-dtd:footnote-ref" idref="IDBEB0BE34CFD644A1A05F3757FA2EB9C3" class="footnoteRef">16</ref> </heading><footnote id="IDBEB0BE34CFD644A1A05F3757FA2EB9C3" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">16</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(15) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 15. (a) Geothermal</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 15. (a) Geothermal</quotedText>”.</p></footnote>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s15/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><content style="-uslm-dtd:text">Geothermal leases for lands withdrawn or acquired in aid of functions of the Department of the Interior may be issued only under such terms and conditions as the Secretary may prescribe to insure adequate utilization of the lands for the purposes for which they were withdrawn or acquired.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s15/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><content style="-uslm-dtd:text">Geothermal leases for lands withdrawn or acquired in aid of functions of the Department of Agriculture may be issued only with the consent of, and subject to such terms and conditions as may be prescribed by, the head of that Department to insure adequate utilization of the lands for the purposes for which they were withdrawn or acquired. Geothermal leases for lands to which section 24 of the Federal Power Act, as amended (16 U.S.C. 818), is applicable, may be issued only with the consent of, and subject to, such terms and conditions as the Federal Power Commission may prescribe to insure adequate utilization of such lands for power and related purposes.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s15/c" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="c">(c) </num><content style="-uslm-dtd:text">Geothermal leases under this Act shall not be issued for lands administered in accordance with (1) the Act of August 25, 1916 (39 Stat. 535), as amended or supplemented, (2) for lands within a national recreation area, (3) for lands in a fish hatchery administered by the Secretary, wildlife refuge, wildlife range, game range, wildlife management area, waterfowl production area, or for lands acquired or reserved for the protection and conservation of fish and wildlife that are threatened with extinction, (4) for tribally or individually owned Indian trust or restricted lands, within or without the boundaries of Indian reservations.</content>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1014">30 U.S.C. 1014</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s16" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="16">SEC. 16. </num><heading style="-uslm-dtd:header">REQUIREMENT FOR LESSEES.<ref style="-uslm-dtd:footnote-ref" idref="ID390756CB0B024B99882316228476B0D0" class="footnoteRef">17</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">Leases under this Act may be issued only to citizens of the United States, associations of such citizens, corporations organized under the laws of the United States or of any State or the District of Columbia, or governmental units, including, without limitation, municipalities.</content><footnote id="ID390756CB0B024B99882316228476B0D0" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">17</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(16) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 16. Leases</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 16. Leases</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1015">30 U.S.C. 1015</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s17" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="17">SEC. 17. </num><heading style="-uslm-dtd:header">ADMINISTRATION.<ref style="-uslm-dtd:footnote-ref" idref="ID22B0B955A840471B91266E82F63B9704" class="footnoteRef">18</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">Administration of this Act shall be under the principles of multiple use of lands and resources, and geothermal leases shall, insofar as feasible, allow for coexistence of other leases of the same lands for deposits of minerals under the laws applicable to them, for the location and production of claims under the mining laws, and for other uses of the areas covered by them. Operations under such other leases or for such other uses, however, shall not unreasonably interfere with or endanger operations under any lease issued pursuant to this Act, nor shall operations under leases so issued unreasonably interfere with or endanger operations under any lease, license, claim, or permit issued pursuant to the provisions of any other Act.</content><footnote id="ID22B0B955A840471B91266E82F63B9704" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">18</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(17) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 17. Administration</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 17. Administration</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1016">30 U.S.C. 1016</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s18" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="18">SEC. 18. </num><heading style="-uslm-dtd:header">UNIT AND COMMUNITIZATION AGREEMENTS. </heading>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s18/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Adoption of Units by Lessees.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/a/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">For the purpose of more properly conserving the natural resources of any geothermal reservoir, field, or like area, or any part thereof (whether or not any part of the geothermal reservoir, field, or like area, is subject to any cooperative plan of development or operation (referred to in this section as a “<quotedText style="-uslm-dtd:quote">unit agreement</quotedText>”)), lessees thereof and their representatives may unite with each other, or jointly or separately with others, in collectively adopting and operating under a unit agreement for the reservoir, field, or like area, or any part thereof, including direct use resources, if determined and certified by the Secretary to be necessary or advisable in the public interest.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/a/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Majority interest of single leases.—</heading><content style="-uslm-dtd:text">A majority interest of owners of any single lease shall have the authority to commit the lease to a unit agreement.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/a/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Initiative of secretary.—</heading><content style="-uslm-dtd:text">The Secretary may also initiate the formation of a unit agreement, or require an existing Federal lease to commit to a unit agreement, if in the public interest.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/a/4" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Modification of lease requirements by secretary.—</heading>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s18/a/4/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The Secretary may, in the discretion of the Secretary and with the consent of the holders of leases involved, establish, alter, change, or revoke rates of operations (including drilling, operations, production, and other requirements) of the leases and make conditions with respect to the leases, with the consent of the lessees, in connection with the creation and operation of any such unit agreement as the Secretary may consider necessary or advisable to secure the protection of the public interest.</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s18/a/4/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Unlike terms or rates.—</heading><content style="-uslm-dtd:text">Leases with unlike lease terms or royalty rates shall not be required to be modified to be in the same unit.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s18/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Requirement of Plans Under New Leases.—</heading><chapeau style="-uslm-dtd:text">The Secretary may—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/b/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">provide that geothermal leases issued under this Act shall contain a provision requiring the lessee to operate under a unit agreement; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/b/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">prescribe the unit agreement under which the lessee shall operate, which shall adequately protect the rights of all parties in interest, including the United States.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s18/c" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Modification of Rate of Prospecting, Development, and Production.—</heading><content style="-uslm-dtd:text">The Secretary may require that any unit agreement authorized by this section that applies to land owned by the United States contain a provision under which authority is vested in the Secretary, or any person, committee, or State or Federal officer or agency as may be designated in the unit agreement to alter or modify, from time to time, the rate of prospecting and development and the quantity and rate of production under the unit agreement.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s18/d" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Exclusion From Determination of Holding or Control.—</heading><content style="-uslm-dtd:text">Any land that is subject to a unit agreement approved or prescribed by the Secretary under this section shall not be considered in determining holdings or control under section 7.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s18/e" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Pooling of Certain Land.—</heading><chapeau style="-uslm-dtd:text">If separate tracts of land cannot be independently developed and operated to use geothermal resources pursuant to any section of this Act—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/e/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">the land, or a portion of the land, may be pooled with other land, whether or not owned by the United States, for purposes of development and operation under a communitization agreement providing for an apportionment of production or royalties among the separate tracts of land comprising the production unit, if the pooling is determined by the Secretary to be in the public interest; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/e/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">operation or production pursuant to the communitization agreement shall be treated as operation or production with respect to each tract of land that is subject to the communitization agreement.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s18/f" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Unit Agreement Review.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/f/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><chapeau style="-uslm-dtd:text">Not later than 5 years after the date of approval of any unit agreement and at least every 5 years thereafter, the Secretary shall—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s18/f/1/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">review each unit agreement; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s18/f/1/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">after notice and opportunity for comment, eliminate from inclusion in the unit agreement any land that the Secretary determines is not reasonably necessary for unit operations under the unit agreement.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/f/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Basis for elimination.—</heading><chapeau style="-uslm-dtd:text">The elimination shall—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s18/f/2/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">be based on scientific evidence; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s18/f/2/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">occur only if the elimination is determined by the Secretary to be for the purpose of conserving and properly managing the geothermal resource.</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/f/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Extension.—</heading><content style="-uslm-dtd:text">Any land eliminated under this subsection shall be eligible for an extension under section 6(g) if the land meets the requirements for the extension.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s18/g" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="g">(g) </num><heading style="-uslm-dtd:header">Drilling or Development Contracts.—</heading>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/g/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The Secretary may, on such conditions as the Secretary may prescribe, approve drilling or development contracts made by one or more lessees of geothermal leases, with one or more persons, associations, or corporations if, in the discretion of the Secretary, the conservation of natural resources or the public convenience or necessity may require or the interests of the United States may be best served by the approval.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s18/g/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Holdings or control.—</heading><content style="-uslm-dtd:text">Each lease operated under an approved drilling or development contract, and interest under the contract, shall be excepted in determining holdings or control under section 7.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s18/h" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="h">(h) </num><heading style="-uslm-dtd:header">Coordination With State Governments.—</heading><content style="-uslm-dtd:text">The Secretary shall coordinate unitization and pooling activities with appropriate State agencies.</content>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1017">30 U.S.C. 1017</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s19" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="19">SEC. 19. </num><heading style="-uslm-dtd:header">DATA FROM FEDERAL AGENCIES.<ref style="-uslm-dtd:footnote-ref" idref="ID5779EE63EF2C41A586CB1A97455C9885" class="footnoteRef">19</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">Upon request of the Secretary, other Federal departments and agencies shall furnish him with any relevant data then in their possession or knowledge concerning or having bearing upon fair and adequate charges to be made for geothermal steam produced or to be produced for conversion to electric power or other purposes. Data given to any department or agency as confidential under law shall not be furnished in any fashion which identifies or tends to identify the business entity whose activities are the subject of such data or the person or persons who furnished such in information.</content><footnote id="ID5779EE63EF2C41A586CB1A97455C9885" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">19</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(18) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 19. Upon</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 19. Upon</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1018">30 U.S.C. 1018</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s20" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="20">SEC. 20. </num><heading style="-uslm-dtd:header">DISPOSAL OF MONEYS FROM SALES, BONUSES, RENTALS, AND ROYALTIES. </heading>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s20/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><chapeau style="-uslm-dtd:text">Except with respect to lands in the State of Alaska, all monies received by the United States from sales, bonuses, rentals, and royalties under this Act shall be paid into the Treasury of the United States. Of amounts deposited under this subsection, subject to the provisions of subsection (b) of section 35 of the Mineral Leasing Act (30 U.S.C. 191(b)) and section 5(a)(2) of this Act—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s20/a/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">50 percent shall be paid to the State within the boundaries of which the leased lands or geothermal resources are or were located; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s20/a/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">25 percent shall be paid to the county within the boundaries of which the leased lands or geothermal resources are or were located.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s20/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Use of Payments.—</heading><content style="-uslm-dtd:text">Amounts paid to a State or county under subsection (a) shall be used consistent with the terms of section 35 of the Mineral Leasing Act (30 U.S.C. 191).</content>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1019">30 U.S.C. 1019</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s21" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="21">SEC. 21. </num><heading style="-uslm-dtd:header">PUBLICATION IN FEDERAL REGISTER; RESERVATION OF MINERAL RIGHTS.<ref style="-uslm-dtd:footnote-ref" idref="IDA38B86E645A24E02A61DB38882E0815F" class="footnoteRef">20</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">Geothermal resources in lands the surface of which has passed from Federal ownership but in which the minerals have been reserved to the United States shall not be developed or produced except under geothermal leases made pursuant to this Act. If the Secretary of the Interior finds that such development is imminent, or that production from a well heretofore drilled on such lands in imminent, he shall so report to the Attorney General, and the Attorney General is authorized and directed to institute an appropriate proceeding in the United States district court of the district in which such lands are located, to quiet the title of the United States in such resources, and if the court determines that the reservation of minerals to the United States in the lands involved included the geothermal resources, to enjoin their production otherwise than under the terms of this Act: <i style="-uslm-dtd:italic"> Provided,</i> That upon an authoritative judicial determination that Federal mineral reservation does not include geothermal resources the duties of the Secretary of the Interior to report and of the Attorney General to institute proceedings, as hereinbefore set forth, shall cease.</content><footnote id="IDA38B86E645A24E02A61DB38882E0815F" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">20</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(19) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 21.</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 21.</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1020">30 U.S.C. 1020</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s22" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="22">SEC. 22. </num><heading style="-uslm-dtd:header">FEDERAL EXEMPTION FROM STATE WATER LAWS.<ref style="-uslm-dtd:footnote-ref" idref="ID41C7F17424AD4A54B8310BC5700B9B85" class="footnoteRef">21</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">Nothing in this Act shall constitute an express or implied claim or denial on the part of the Federal Government as to its exemption from State water laws.</content><footnote id="ID41C7F17424AD4A54B8310BC5700B9B85" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">21</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(20) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 22. Nothing</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 22. Nothing</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1021">30 U.S.C. 1021</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s23" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="23">SEC. 23. </num><heading style="-uslm-dtd:header">PREVENTION OF WASTE; EXCLUSIVITY.<ref style="-uslm-dtd:footnote-ref" idref="ID71E2545FFD1B42B9BBA07A948830AAD5" class="footnoteRef">22</ref> </heading><footnote id="ID71E2545FFD1B42B9BBA07A948830AAD5" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">22</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(21) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 23. (a) all</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 23.  (a) all</quotedText>”.</p></footnote>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s23/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><content style="-uslm-dtd:text">All leases under this Act shall be subject to the condition that the lessee will, in conducting his exploration, development and producing operations, use all reasonable precautions to prevent waste of geothermal resources developed in this lands leased.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s23/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><content style="-uslm-dtd:text">Rights to develop and utilize geothermal resources underlying lands owned by the United States may be acquired solely in accordance with the provisions of this Act.</content>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1022">30 U.S.C. 1022</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s24" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="24">SEC. 24. </num><heading style="-uslm-dtd:header">RULES AND REGULATIONS.<ref style="-uslm-dtd:footnote-ref" idref="IDCE0A13FA0E8E47D192CF231E835C611E" class="footnoteRef">23</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">The Secretary shall prescribe such rules and regulations as he may deem appropriate to carry out the provisions of this Act. Such regulations may include, without limitation, provisions for (a) the prevention of waste, (b) development and conservation of geothermal and other natural resources, (c) the protection of the public interest, (d) assignment, segregation, extension of terms, relinquishment of leases, development contracts, unitization, pooling, and drilling agreements, (e) compensatory royalty agreements, suspension of operations or production, and suspension or reduction of rentals or royalties, (f) the filing of surety bonds to assure compliance with the terms of the lease and to protect surface use and resources, (g) use of the surface by a lessee of the lands embraced in his lease, (h) the maintenance by the lessee of an active development program, and (i) protection of water quality and other environmental qualities.</content><footnote id="IDCE0A13FA0E8E47D192CF231E835C611E" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">23</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(22) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 24. The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 24. The</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1023">30 U.S.C. 1023</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s25" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="25">SEC. 25. </num><heading style="-uslm-dtd:header">INCLUSION OF GEOTHERMAL LEASING UNDER CERTAIN OTHER LAWS.<ref style="-uslm-dtd:footnote-ref" idref="ID9F8A53C04DA64B9891821CEB5F891B3A" class="footnoteRef">24</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">As to any land subject to geothermal leasing under section 3 of this Act, all laws which either (a) provide for the disposal of land by patent or other form of conveyance or by grant or by operation of law subject to a reservation of any mineral or (b) prevent or restrict the disposal of such land because of the mineral character of the land, shall hereafter be deemed to embrace geothermal resources as a substance which either must be reserved or must prevent or restrict the disposal of such land, as the case may be. This section shall not be construed to affect grants, patents, or other forms of conveyances made prior to the date of enactment of this Act.</content><footnote id="ID9F8A53C04DA64B9891821CEB5F891B3A" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">24</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(23) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 25. As</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 25. As</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1024">30 U.S.C. 1024</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s26" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="26">SEC. 26. </num><heading style="-uslm-dtd:header">AMENDMENT.<ref style="-uslm-dtd:footnote-ref" idref="ID70827B4F70FC4D5F8F51AB27C6A0DAD9" class="footnoteRef">25</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">The first two clauses in section 11 of the Act of August 13, 1954 (68 Stat. 708, 716), are amended to read as follows:<footnote id="ID70827B4F70FC4D5F8F51AB27C6A0DAD9" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">25</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(24) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 26. The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 26. The</quotedText>”.</p></footnote><quotedContent style="-uslm-dtd:quoted-block">
+            <section style="-uslm-dtd:section" styleType="traditional-inline" role="undesignated-level"><content style="-uslm-dtd:text">“As used in this Act, ‘<quotedText style="-uslm-dtd:quote">mineral leasing laws</quotedText>’ shall mean the Act of February 25, 1920 (41 Stat. 437); the Act of April 17, 1926 (44 Stat. 301); the Act of February 7, 1927 (44 Stat. 1057); Geothermal Steam Act of 1970, and all Acts heretofore or hereafter enacted which are amendatory of or supplementary to any of the foregoing Acts; ‘<quotedText style="-uslm-dtd:quote">Leasing Act minerals</quotedText>’ shall mean all minerals which, upon the effective date of this Act, are provided in the mineral leasing laws to be disposed of thereunder and all geothermal resources which, upon the effective date of the Geothermal Steam Act of 1970, are provided in that Act to be disposed of thereunder;”</content>
+            </section></quotedContent>.</content>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s27" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="27">SEC. 27. </num><heading style="-uslm-dtd:header">FEDERAL RESERVATION OF CERTAIN MINERAL RIGHTS.<ref style="-uslm-dtd:footnote-ref" idref="ID7BB85DDB9340465184C92FD3078F5B23" class="footnoteRef">26</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">The United States reserves the ownership of and the right to extract under such rules and regulations as the Secretary may prescribe oil, hydrocarbon gas, and helium from all geothermal resources produced from lands leased under this Act in accordance with presently applicable laws: <i style="-uslm-dtd:italic">Provided,</i> That whenever the right to extract oil, hydrocarbon gas, and helium from geothermal resources produced from such lands is exercised pursuant to this section, it shall be exercised so as to cause no substantial interference with the production of geothermal resources from such lands.</content><footnote id="ID7BB85DDB9340465184C92FD3078F5B23" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">26</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(25) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 27. The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 27. The</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1025">30 U.S.C. 1025</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s28" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="28">SEC. 28. </num><heading style="-uslm-dtd:header">SIGNIFICANT THERMAL FEATURES.<ref style="-uslm-dtd:footnote-ref" idref="ID99677B074299406B8F49418CC9EC4333" class="footnoteRef">27</ref> </heading><footnote id="ID99677B074299406B8F49418CC9EC4333" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">27</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(26) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 28. (a)(1) The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 28. (a)(1) The</quotedText>”.</p></footnote>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s28/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a)</num><paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/a/1" styleType="OLC" class="inline"><num style="-uslm-dtd:enum" value="1">(1) </num><chapeau style="-uslm-dtd:text">The Secretary shall maintain a list of significant thermal features, as defined in section 2(f), within units of the National Park System, including but not limited to the following units:</chapeau>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/A" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">Mount Rainier National Park.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/B" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">Crater Lake National Park.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/C" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">Yellowstone National Park.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/D" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">John D. Rockfeller, Jr. Memorial Parkway.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/E" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="E">(E) </num><content style="-uslm-dtd:text">Bering Land Bridge National Preserve.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/F" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="F">(F) </num><content style="-uslm-dtd:text">Gates of the Arctic National Park and Preserve.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/G" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="G">(G) </num><content style="-uslm-dtd:text">Katmai National Park.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/H" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="H">(H) </num><content style="-uslm-dtd:text">Aniakchak National Monument and Preserve.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/I" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="I">(I) </num><content style="-uslm-dtd:text">Wrangell-St. Elias National Park and Preserve.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/J" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="J">(J) </num><content style="-uslm-dtd:text">Lake Clark National Park and Preserve.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/K" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="K">(K) </num><content style="-uslm-dtd:text">Hot Springs National Park.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/L" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="L">(L) </num><content style="-uslm-dtd:text">Big Bend National Park (including that portion of the Rio Grande National Wild Scenic River within the boundaries of Big Bend National Park).</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/M" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="M">(M) </num><content style="-uslm-dtd:text">Lassen Volcanic National Park.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/N" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="N">(N) </num><content style="-uslm-dtd:text">Hawaii Volcanoes National Park.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/O" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="O">(O) </num><content style="-uslm-dtd:text">Haleakala National Park.</content>
+                </subparagraph>
+                <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/1/P" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="P">(P) </num><content style="-uslm-dtd:text">Lake Mead National Recreation Area.</content>
+                </subparagraph></paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/a/2" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">The Secretary may, after notice and public comment, add significant thermal features within units of the National Park System to the significant thermal features list.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/a/3" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><chapeau style="-uslm-dtd:text">The Secretary shall consider the following criteria in determining the significance of thermal features:</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/3/A" styleType="OLC" class="leftIndentDecrease1">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">Size, extent and uniqueness.</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/3/B" styleType="OLC" class="leftIndentDecrease1">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">Scientific and geologic significance.</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/3/C" styleType="OLC" class="leftIndentDecrease1">
+                        <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">The extent to which such features remain in a natural, undisturbed condition.</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/91/581/s28/a/3/D" styleType="OLC" class="leftIndentDecrease1">
+                        <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">Significance of thermal features to the authorized purposes for which the National Park System unit was established.</content>
+                    </subparagraph>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s28/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b)</num><paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/b/1" styleType="OLC" class="inline"><num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">The Secretary shall maintain a monitoring program for significant thermal features within units of the National Park System.</content></paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/b/2" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">As part of the monitoring program required by paragraph (1), the Secretary shall establish a research program to collect and assess data on the geothermal resources within units of the National Park System with significant thermal features. Such program shall be carried out by the National Park Service in cooperation with the U.S. Geological Survey and shall begin with the collection and assessment of data for significant thermal features near current or proposed geothermal development and shall also include such features near areas of potential geothermal development.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s28/c" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="c">(c)</num><paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/c/1" styleType="OLC" class="inline"><num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">Upon receipt of an application for a lease under this Act, the Secretary shall determine on the basis of scientific evidence if exploration, development or utilization of the lands subject to the lease application is reasonably likely to result in a significant adverse effect on a significant thermal feature within a unit of the National Park System. Such determination shall be subject to notice and public comment.</content></paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/c/2" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">If the Secretary determines that the exploration, development or utilization of the land subject to the lease application is reasonably likely to result in a significant adverse effect on a significant thermal feature within a unit of the National Park System, the Secretary shall not issue such lease.</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/c/3" styleType="OLC" class="leftIndentDecrease1">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">The Secretary shall not issue any lease under this Act for those lands, or portions thereof, which are the subject of a determination made pursuant to subparagraph (2).</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s28/d" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="d">(d) </num><chapeau style="-uslm-dtd:text">With respect to all leases or drilling permits issued, extended, renewed or modified under this Act, the Secretary shall include stipulations in such leases and permits necessary to protect significant thermal features within units of the National Park System where the Secretary determines that, based on scientific evidence, the exploration, development or utilization of the land subject to the lease or drilling permit is reasonably likely to adversely affect any such significant thermal feature. Stipulations shall include, but not be limited to—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/d/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">requiring the lessee to reinject geothermal fluids into the rock formations from which they originate;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/d/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">requiring the lessee to report annually to the Secretary on activities taken on the lease;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/d/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">requiring the lessee to continuously monitor geothermal resources production and injection wells; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/91/581/s28/d/4" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">requiring the lessee to suspend activity on the lease if the Secretary determines that ongoing exploration, development or utilization activities are having a significant adverse effect on a significant thermal feature within a unit of the National Park System until such time as the significant adverse effect is eliminated. The stipulation shall provide for the termination of the lease by the Secretary if the significant adverse effect cannot be eliminated within a reasonable period of time.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s28/e" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="e">(e) </num><content style="-uslm-dtd:text">The Secretary of Agriculture shall consider the effects on significant thermal features within units of the National Park System in determining whether to consent to leasing under this Act on national forest lands or other lands administered by the Department of Agriculture available for leasing under this Act, including public, withdrawn, and acquired lands.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/91/581/s28/f" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="f">(f) </num><content style="-uslm-dtd:text">Nothing in this Act shall affect the ban on leasing under this Act with respect to the Island Park Geothermal Area, as designated by the map in the “<quotedText style="-uslm-dtd:quote">Final Environmental Impact Statement of the Island Park Geothermal Area</quotedText>” (January 15, 1980, p. XI), and provided for in Public Law 98–473.</content>
+            </subsection><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1026">30 U.S.C. 1026</ref><b>]</b> </editorialNote>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/91/581/s29" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="29">SEC. 29. </num><heading style="-uslm-dtd:header">LAND SUBJECT TO PROHIBITION ON LEASING.<ref style="-uslm-dtd:footnote-ref" idref="ID9F7971512FD34484B983E9BCEA937685" class="footnoteRef">28</ref> </heading>
+            <content style="-uslm-dtd:text" class="block">The Secretary shall not issue any lease under this Act on those lands subject to the prohibition provided under section 43 of the Mineral Leasing Act.</content><footnote id="ID9F7971512FD34484B983E9BCEA937685" style="-uslm-dtd:footnote"><sup style="-uslm-dtd:superscript">28</sup><p style="-uslm-dtd:para; margin-left:1em">The amendment made by section 236(27) of Public Law 109–58 was carried out to reflect the probable intent of Congress. The instruction to strike “<quotedText style="-uslm-dtd:quote">SEC. 29. The</quotedText>” probably should have been to strike “<quotedText style="-uslm-dtd:quote"><headingText style="-uslm-dtd:header-in-text">Sec</headingText>. 29. The</quotedText>”.</p></footnote><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t30/s1027">30 U.S.C. 1027</ref><b>]</b> </editorialNote>
+        </section>
+    </main>
+</statuteCompilation>
