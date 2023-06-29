@@ -4,77 +4,71 @@ Revised: April 11, 2023
 
 # Contents
 
-[1 Introduction [3](#introduction)](#introduction)
+[1 Introduction](#introduction)
 
-[2 Conventions Used in the User Guide
-[3](#conventions-used-in-the-user-guide)](#conventions-used-in-the-user-guide)
+[2 Conventions Used in the User Guide](#conventions-used-in-the-user-guide)
 
-[3 Brief USLM Background
-[3](#brief-uslm-background)](#brief-uslm-background)
+[3 Brief USLM Background](#brief-uslm-background)
 
-[4 Existing Documentation
-[4](#existing-documentation)](#existing-documentation)
+[4 Existing Documentation](#existing-documentation)
 
-[5 What Has Not Changed
-[4](#what-has-not-changed)](#what-has-not-changed)
+[5 What Has Not Changed](#what-has-not-changed)
 
-[6 Schema Changes [5](#schema-changes)](#schema-changes)
+[6 Schema Changes](#schema-changes)
 
-[6.1 Changed Models [5](#changed-models)](#changed-models)
+[6.1 Changed Models](#changed-models)
 
-[6.1.1 Table of Contents and Indexes
-[5](#table-of-contents-and-indexes)](#table-of-contents-and-indexes)
+[6.1.1 Table of Contents and Indexes](#table-of-contents-and-indexes)
 
-[6.1.2 Notes [7](#notes)](#notes)
+[6.1.2 Notes](#notes)
 
-[6.2 New Models [7](#new-models)](#new-models)
+[6.2 New Models](#new-models)
 
-[6.2.1 Collections [7](#collections)](#collections)
+[6.2.1 Collections](#collections)
 
-[6.2.2 Lists [9](#lists)](#lists)
+[6.2.2 Lists](#lists)
 
-[6.2.3 Preface [9](#preface)](#preface)
+[6.2.3 Preface](#preface)
 
-[6.2.4 Back Matter [9](#back-matter)](#back-matter)
+[6.2.4 Back Matter](#back-matter)
 
-[6.2.5 Rule Preamble [9](#rule-preamble)](#rule-preamble)
+[6.2.5 Rule Preamble](#rule-preamble)
 
-[6.2.6 Appropriations [9](#appropriations)](#appropriations)
+[6.2.6 Appropriations](#appropriations)
 
-[6.3 New PropertyTypes [10](#new-propertytypes)](#new-propertytypes)
+[6.3 New PropertyTypes](#new-propertytypes)
 
-[6.4 New Attributes [11](#new-attributes)](#new-attributes)
+[6.4 New Attributes](#new-attributes)
 
-[6.5 Model Extensions [11](#model-extensions)](#model-extensions)
+[6.5 Model Extensions](#model-extensions)
 
-[6.5.1 LawDoc [11](#lawdoc)](#lawdoc)
+[6.5.1 LawDoc](#lawdoc)
 
-[6.5.2 Level [13](#level)](#level)
+[6.5.2 Level](#level)
 
-[6.5.3 HeadingStructure [13](#headingstructure)](#headingstructure)
+[6.5.3 HeadingStructure](#headingstructure)
 
-[6.5.4 Amendments [13](#amendments)](#amendments)
+[6.5.4 Amendments](#amendments)
 
-[6.5.5 Appendix [13](#appendix)](#appendix)
+[6.5.5 Appendix](#appendix)
 
-[6.5.6 Signature [13](#signature)](#signature)
+[6.5.6 Signature](#signature)
 
-[6.6 Tables [13](#tables)](#tables)
+[6.6 Tables](#tables)
 
-[6.7 Document Actions [13](#document-actions)](#document-actions)
+[6.7 Document Actions](#document-actions)
 
-[6.8 Document Titles [14](#document-titles)](#document-titles)
+[6.8 Document Titles](#document-titles)
 
-[6.9 Content Tagging [14](#content-tagging)](#content-tagging)
+[6.9 Content Tagging](#content-tagging)
 
-[6.10 Page and Line Numbering
-[14](#page-and-line-numbering)](#page-and-line-numbering)
+[6.10 Page and Line Numbering](#page-and-line-numbering)
 
-[6.11 Other New Elements [14](#other-new-elements)](#other-new-elements)
+[6.11 Other New Elements](#other-new-elements)
 
-[7 Feedback [15](#feedback)](#feedback)
+[7 Feedback](#feedback)
 
-[8 Appendix [16](#appendix-1)](#appendix-1)
+[8 Appendix](#appendix-1)
 
 # Introduction
 
@@ -240,10 +234,10 @@ attributes as for references.</span>*
 
 Below are two examples of this ToC model.
 
-<img src="images/image1.png"
+<img src="images-for-review-guide/image1.png"
 style="width:6.5in;height:2.29931in" />
 
-<img src="images/image2.png"
+<img src="images-for-review-guide/image2.png"
 style="width:6.21953in;height:2.58815in" />
 
 This same model, using items, designators, labels and targets, is also
@@ -251,7 +245,7 @@ used for indexes that are found in legislative publications, such as the
 Popular Name Index. Below is an illustration of how the model can be
 used for an index.
 
-<img src="images/image3.png"
+<img src="images-for-review-guide/image3.png"
 style="width:6.04833in;height:1.93017in" />
 
 Elements of this type are:
@@ -315,7 +309,7 @@ The following elements are instances of CollectionType:
 Below is an example of a collection used to group multiple
 document-specific units in an issue of the Federal Register:
 
-<img src="images/image4.png"
+<img src="images-for-review-guide/image4.png"
 style="width:6.5in;height:4.14444in" />
 
 **  
@@ -461,7 +455,7 @@ before and after the main text. To support this, the model for
 LawDocType has been extended with optional elements as illustrated
 below.
 
-<img src="images/image5.png"
+<img src="images-for-review-guide/image5.png"
 style="width:4.15057in;height:2.18304in" />
 
 An optional \<preface\> element (discussed above) may come before
@@ -600,12 +594,12 @@ this Review Guide, please open a GitHub issue at
 
 # Appendix
 
-> <img src="images/image6.png"
+> <img src="images-for-review-guide/image6.png"
 > style="width:6.07773in;height:7.14329in" />
 
 Figure 1 Bill Preface
 
-> <img src="images/image7.png" style="width:6.5in;height:3.7125in" />
+> <img src="images-for-review-guide/image7.png" style="width:6.5in;height:3.7125in" />
 
 Figure 2 CFR Preface: Content displayed at the beginning of each CFR
 title in the preface is shown, including the cover page, official
