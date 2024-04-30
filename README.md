@@ -1,10 +1,10 @@
 >The USLM 2.x schema has moved out of draft status. Please see the [main branch](https://github.com/usgpo/uslm/tree/main). 
 >  
->Version 2.0.12 of the schema including an updated table module is now available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>Version 2.0.13 of the schema is available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >  
->Version 2.17 of the CSS is now available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>Version 2.18 of the CSS is available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >  
->An updated version of the USLM 2.x Review Guide is now available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>An updated version of the USLM 2.x Review Guide is available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
 
 
 # USLM Schema #  

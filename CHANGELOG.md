@@ -1,8 +1,25 @@
 ﻿## Proposed Changes ##    
 
-N/A    
+2.0.13 - Proposed version of uslm-2.0.13.xsd and uslm.css.   
+
+Documentation Changes:  
+- Clarified that the temporalId attribute is not currently used.  
+- Refined the discussion of language identifiers to match current practice, including compatibility with AKN.  
+- Improvements to the Basic Model description.  
+- Clarified that related documents in USLM2 are those added by the clerk or drafter, not every possible related document.  
+- Clarified that the `quotedContent` and `quotedText` elements are used in USC notes and bills amending law (not amendment documents).  
+- Defined `dc:date` usage in USLM2 more precisely.  
   
-  
+Display:  
+- Added display style attributes indicating added or deleted content for use in bills, resolutions, and amendment documents prior to enrollment.  
+
+Content:  
+- Added the `endorsement` element for use in bills and resolutions prior to enrollment. The content model is similar to the preface content model.  
+- Loosened the content model to allow `resolvingClause` elements in more locations to match current usage.  
+- Allow a looser order of child elements in `signature` elements to match current usage.  
+- Added `constitutionalAmendment` document type.  
+- Allow `p` elements in action descriptions.  
+- Add a `centerRunningHead` element analogous to the `leftRunningHead` and `rightRunningHead` elements.  
  
 ## Approved Changes ##  
   
