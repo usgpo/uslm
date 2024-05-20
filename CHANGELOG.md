@@ -1,6 +1,10 @@
 ﻿## Proposed Changes ##    
-
-2.0.13 - Proposed version of uslm-2.0.13.xsd and uslm.css.   
+  
+N/A  
+ 
+## Approved Changes ##  
+  
+2.0.13 - Approved version of uslm-2.0.13.xsd and uslm.css.   
 
 Documentation Changes:  
 - Clarified that the temporalId attribute is not currently used.  
@@ -20,8 +24,6 @@ Content:
 - Added `constitutionalAmendment` document type.  
 - Allow `p` elements in action descriptions.  
 - Add a `centerRunningHead` element analogous to the `leftRunningHead` and `rightRunningHead` elements.  
- 
-## Approved Changes ##  
   
 2.0.12 - Approved version of uslm-2.0.12.xsd along with corresponding update to table module. 
 
