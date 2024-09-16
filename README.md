@@ -1,10 +1,8 @@
->The USLM 2.x schema has moved out of draft status. Please see the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>Versions 2.0.14, 2.0.15, 2.0.16, 2.0.17, and 2.1.0 of the schema are available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >  
->Version 2.0.13 of the schema is available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>Version 2.33 of the CSS is available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 >  
->Version 2.29 of the CSS is available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
->  
->An updated version of the USLM 2.x Review Guide is available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>New sample Bill files are available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
 
 
 # USLM Schema #  
