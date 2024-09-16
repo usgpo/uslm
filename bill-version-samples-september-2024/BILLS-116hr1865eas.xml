@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?>
+<engrossedAmendment xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" styleType="OLC" 
+  xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en">
+<!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.-->
+<amendMeta>
+  <dc:title>AMENDMENTS to 116 HR 1865</dc:title>
+  <dc:type>Engrossed Amendment Senate</dc:type>
+  <docStage>Engrossed Amendment Senate</docStage>
+<docNumber>1865</docNumber>
+  <citableAs>116 HR 1865 EAS</citableAs>
+<citableAs>116hr1865eas</citableAs>
+<citableAs>116 H. R. 1865 EAS</citableAs>
+<amendDegree>first</amendDegree>
+<currentChamber>SENATE</currentChamber>
+<dc:creator>United States Senate</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>1</session>
+<publicPrivate>public</publicPrivate></amendMeta> 
+  <amendPreface>
+<slugLine>† HR 1865 EAS</slugLine>
+    <currentChamber value="SENATE">In the Senate of the United States,</currentChamber>
+    <action><date>November 12, 2019.</date></action>
+    </amendPreface>
+<amendMain amendmentInstructionLineNumbering="off">
+  <resolvingClause class="inline">Resolved, </resolvingClause>
+<section><content class="inline">That the bill from the House of Representatives (H.R. 1865) entitled “An Act to require the Secretary of the Treasury to mint a coin in commemoration of the opening of the National Law Enforcement Museum in the District of Columbia, and for other purposes.”, do pass with the following</content></section>
+  <docTitle>AMENDMENT:</docTitle>
+    <amendmentInstruction><content>At the end, add the following:
+      <amendmentContent class="indent0" changed="added" styleType="OLC">
+        <section><num value="9">SEC. 9. </num><heading>FINANCIAL ASSURANCES.</heading><chapeau>The Secretary shall take such actions as may be necessary to ensure that—</chapeau>
+        <paragraph class="indent1">
+          <num value="1">(1) </num><content>minting and issuing coins under this Act will not result in any net cost to the United States Government; and</content></paragraph>
+        <paragraph class="indent1">
+          <num value="2">(2) </num>
+          <content>no funds, including applicable surcharges, are disbursed to any recipient designated in section 7 until the total cost of designing and issuing all of the coins authorized by this Act (including labor, materials, dies, use of machinery, overhead expenses, marketing, and shipping) is recovered by the United States Treasury, consistent with sections 5112(m) and 5134(f) of title 31, United States Code.</content></paragraph></section></amendmentContent>
+    </content>
+    </amendmentInstruction>
+  </amendMain>
+  <signatures><signature><notation type="attestation">Attest: </notation><role>Secretary</role>.</signature></signatures>
+<endorsement orientation="landscape"><congress value="116">116th CONGRESS</congress><session value="1">1st Session</session>
+  <dc:type>H.R. </dc:type><docNumber>1865</docNumber>
+  <docTitle>AMENDMENT</docTitle>
+</endorsement></engrossedAmendment>

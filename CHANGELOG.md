@@ -1,6 +1,72 @@
 ﻿## Proposed Changes ##    
+
+2.1.0 - Proposed version of uslm-2.1.0.xsd along with uslm-components-2.1.0.xsd, uslm-table-module-2.1.0.xsd, and uslm.css for the Remaining Bill Versions project.   
+    
+The 2.1 schema series changes from the 2.0 schema series support the following three primary goals:   
+1. Add support for amendment document types.   
+2. Add and modify the schema to support the historical Statutes at Large project.  
+3. Constrain the allowed tagging to better support the original design intent of the schema and disallow unintended constructs.  
   
-N/A  
+Schema: 
+- Change the amendment document type.  
+  - Add amendPreface, amendMeta, amendMain, and officialTitleAmendment elements.   
+  - The amendMeta element extends the meta element to add the amendDegree and amendStage elements.  
+  - The amendPreface element extends the preface element to add the draftingOffice element.   
+  - The amendMain element model adds new elements amendmentInstruction and amendmentContent and defines the new attribute amendmentInstructionLineNumbering. - Add the engrossedAmendment document type employing the content model of the amendment document type.  
+- The preface element content model has been expanded to match existing documents.   
+- Disallow the content element in the preface element content model in favor of a specific definition matching existing documents.    
+- Add PositionedNoteType as the type for the positioned notes, disallowing the content element in favor of elements that match existing documents.    
+- Change the ColumnType element definition to no longer be based on the ContentType element while ensuring it matches existing documents.  
+- Restrict the figure element content model to match existing documents while allowing for xhtml:img and MathML content.  
+- Change the ContentType type definition to remove the ability to add any element from a foreign namespace without using the foreign element as a wrapper with exceptions for xhtml:table, xhtml:img, and mathml:math.  
+- Replace the p element content model with a specific list of elements found in existing documents.  
+- Change the recital element definition to have a more complex content model to match existing documents.  
+- Restructure the XSD schema documents to facilitate schema processing.  
+  - A single top-level XSD file imports component schema files (USLM, tables, MathML, and Senate metadata).  
+  - References to other components internal to the component schemas are made by namespace only.  
+  - Namespace references avoid potential circular reference issues during schema processing.  
+ 
+CSS: 
+Version: 2.33 2024-08-23  
+Previous version: Version 2.29 2024-03-18  
+  
+- Adds styling for new engrossedAmendment and amendment document types.  
+- Adds styling for new amendMeta, amendPreface, amendMain elements.  
+- Adds styling for elements and attributes used in bills and resolutions in document stages prior to enrolled, particular those used in the preface.   
+- Adds styling for various layouts, such as side by side, for use in the statutes at large digitisation project.    
+- Resets docTitle styling to use the standard font instead of Old English.   
+- Handle multiple resolving clauses better.  
+- Add support for the hierarchical level placement of num and heading in appropriations style.  
+- Add support for sidenotes in tables.  
+- Add classes for reported bill styling.  
+- Use current syntax for `::before` pseudo-element.  
+- Add default styling for addedText and deletedText elements.  
+
+  
+2.0.17 - Proposed version of uslm-2.0.17.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project. 
+  
+Schema:    
+- Allow `<referenceMarker>` element to appear even when there is no hierarchical level designator (`<num>`element).  
+  
+2.0.16 - Proposed version of uslm-2.0.16.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project. 
+  
+Schema:    
+- Add `<firstPageHeading>` and `<firstPageSubheading>` to preface elements.  
+- Fix `numType` description to include alphanumeric num element values.  
+- Add `<role>` element to `<signatures>` element for groups of signatories.  
+- Add a `<referenceMarker>` element for the case that a level requires both a hierarchical level alphanumeric designation and a separate additional designation.  
+
+
+2.0.15 - Proposed version of uslm-2.0.15.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project.   
+  
+Schema:  
+- Allow table in recital elements.  
+
+2.0.14 - Proposed version of uslm-2.0.14.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project. 
+
+Schema:  
+- Add MathML 3 schema.  
+- Number the table module for more precision.  
  
 ## Approved Changes ##  
   

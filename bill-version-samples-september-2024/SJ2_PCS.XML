@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 SJRES 2 PCS: Disapproving the President’s proposal to take an action relating to the application of certain sanctions with respect to the Russian Federation.</dc:title>
+<dc:type>Senate Joint Resolution</dc:type>
+<docNumber>2</docNumber>
+<citableAs>116 SJRES 2 PCS</citableAs>
+<citableAs>116sjres2pcs</citableAs>
+<citableAs>116 S. J. Res. 2 PCS</citableAs>
+<docStage>Placed on Calendar Senate</docStage>
+<currentChamber>SENATE</currentChamber>
+<dc:creator>United States Senate</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<relatedDocument role="calendar" href="/us/116/scal/13">Calendar No. 13</relatedDocument>
+<congress>116</congress>
+<session>1</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine> SJ 2 PCS</slugLine>
+<distributionCode display="yes">IIA</distributionCode>
+<relatedDocument role="calendar" href="/us/116/scal/13">Calendar No. 13</relatedDocument>
+<congress value="116">116th CONGRESS</congress>
+<session value="1">1st Session</session>
+<dc:type>S. J. RES. </dc:type>
+<docNumber>2</docNumber>
+<dc:title>Disapproving the President’s proposal to take an action relating to the application of certain sanctions with respect to the Russian Federation.</dc:title>
+<currentChamber value="SENATE">IN THE SENATE OF THE UNITED STATES</currentChamber>
+<action><date date="2019-01-05"><inline class="smallCaps">January </inline>4, 2019</date><actionDescription><sponsor senateId="S270">Mr. <inline class="smallCaps">Schumer</inline></sponsor> introduced the following joint resolution; which was read twice and referred to the <committee committeeId="SSBK00">Committee on Banking, Housing, and Urban Affairs</committee></actionDescription></action>
+<action><date><inline class="smallCaps">January </inline>15, 2019</date><actionDescription>Committee discharged pursuant to section 216(c)(5)(B) of Public Law 115–44 and placed on the calendar</actionDescription></action></preface>
+<main styleType="OLC"><longTitle><docTitle>JOINT RESOLUTION</docTitle><officialTitle>Disapproving the President’s proposal to take an action relating to the application of certain sanctions with respect to the Russian Federation.</officialTitle></longTitle><resolvingClause class="inline"><i>Resolved by the Senate and House of Representatives of the United States of America in Congress assembled, </i></resolvingClause><section id="S1" class="inline"><content class="inline">That Congress disapproves of the action relating to the application of sanctions imposed with respect to the Russian Federation proposed by the President in the report submitted to Congress under section 216(a)(1) of the Russia Sanctions Review Act of 2017 on December 19, 2018, relating to terminating sanctions imposed on En+ Group plc (“En+”), UC Rusal plc (“Rusal”), and JSC EuroSibEnergo (“ESE”).</content></section></main>
+<endorsement orientation="landscape"><relatedDocument role="calendar" href="/us/116/scal/13">Calendar No. 13</relatedDocument><congress value="116">116th CONGRESS</congress><session value="1">1st Session</session><dc:type>S. J. RES. </dc:type><docNumber>2</docNumber><longTitle><docTitle>JOINT RESOLUTION</docTitle><officialTitle>Disapproving the President’s proposal to take an action relating to the application of certain sanctions with respect to the Russian Federation.</officialTitle></longTitle><action><date date="2019-01-15"><inline class="smallCaps">January </inline>15, 2019</date><actionDescription>Committee discharged pursuant to section 216(c)(5)(B) of Public Law 115–44 and placed on the calendar</actionDescription></action></endorsement></resolution>

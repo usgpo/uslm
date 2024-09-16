@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://schemas.gpo.gov/xml/uslm"
+   xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns="http://schemas.gpo.gov/xml/uslm"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+   xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+   xmlns:msenate="https://www.senate.gov/schemas"
+   elementFormDefault="qualified"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+   attributeFormDefault="unqualified" version="2.1.0">
+   <!-- Date of release. 2024-08-22 -->
+
+   <xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+   <xsd:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="dc.xsd"/>
+   <xsd:import schemaLocation="uslm-table-module-2.1.0.xsd" namespace="http://www.w3.org/1999/xhtml">
+      <xsd:annotation>
+         <xsd:documentation> Schema that includes the redefinitions for USLM/XHTML tables.
+         </xsd:documentation>
+      </xsd:annotation>
+   </xsd:import>
+   <xsd:import schemaLocation="mathml3.xsd" namespace="http://www.w3.org/1998/Math/MathML">
+      <xsd:annotation>
+         <xsd:documentation> MathML3 Schema without modifications.
+         </xsd:documentation>
+      </xsd:annotation>
+   </xsd:import>
+   <xsd:import namespace="https://www.senate.gov/schemas" schemaLocation="https://www.senate.gov/schemas/uslm-meta-senate.xsd">
+      <xsd:annotation>
+         <xsd:documentation> Schema for the Senate-specific metadata. For the latest version of this schema, 
+            please see https://www.senate.gov/schemas/uslm-meta-senate.xsd.
+         </xsd:documentation>
+      </xsd:annotation>
+   </xsd:import>
+   <xsd:include schemaLocation="uslm-components-2.1.0.xsd">
+      <xsd:annotation>
+         <xsd:documentation> The USLM elements and attributes.
+         </xsd:documentation>
+      </xsd:annotation>
+   </xsd:include>
+   </xsd:schema>

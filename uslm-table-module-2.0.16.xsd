@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema 
+    xmlns:uslm="http://schemas.gpo.gov/xml/uslm"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    targetNamespace="http://www.w3.org/1999/xhtml"
+    xmlns:xh11d="http://www.w3.org/1999/xhtml/datatypes/"
+    xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    attributeFormDefault="unqualified" >
+    <xsd:annotation>
+        <xsd:documentation>
+            This is the module definition for XHTML tables within USLM. It includes the XHTML1.1 Table module,
+            defining the groups, elements, and attributes that are needed.
+            
+            Version: 2024-07-23.
+        </xsd:documentation>
+        <xsd:documentation source="xhtml-copyright-1.xsd"/>
+    </xsd:annotation>
+    
+    <xsd:import namespace="http://www.w3.org/1999/xhtml/datatypes/"
+        schemaLocation="xhtml-datatypes-1.xsd">
+        <xsd:annotation>
+            <xsd:documentation>
+                This import brings in the datatypes used in XHTML
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:import namespace="http://schemas.gpo.gov/xml/uslm"
+        schemaLocation="uslm-2.0.16.xsd">
+        <xsd:annotation>
+            <xsd:documentation>
+                This import brings in the USLM schema so it can be referenced.
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    <xsd:import schemaLocation="mathml3.xsd" namespace="http://www.w3.org/1998/Math/MathML">
+        <xsd:annotation>
+            <xsd:documentation> MathML3 Schema without modifications.
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:import>
+    
+    <xsd:attributeGroup name="Common.attrib">
+        <xsd:attributeGroup ref="uslm:ClassificationGroup"/>
+    </xsd:attributeGroup>
+    
+    <xsd:attributeGroup name="xhtml.Common.attrib">
+        <xsd:annotation>
+            <xsd:documentation>
+                Define the common attributes.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:attributeGroup ref="xhtml:Common.attrib"/>
+    </xsd:attributeGroup>
+    <xsd:group name="xhtml.Flow.mix">
+        <xsd:annotation>
+            <xsd:documentation>
+                Define the flow model (block or inline elements) for tables. This includes USLM elements.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:choice>
+            <xsd:element ref="uslm:br"/>
+            <xsd:element ref="uslm:p"/>
+            <xsd:element ref="xhtml:table"/>
+            <xsd:element ref="mathml:math"/>
+            <xsd:group ref="xhtml:uslm.Inline.mix"/>
+        </xsd:choice>
+    </xsd:group>
+    <xsd:group name="uslm.Inline.mix">
+        <xsd:annotation>
+            <xsd:documentation>
+                Define the inline model (character-level elements) for tables. This includes USLM elements.
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:choice>
+            <xsd:element ref="uslm:inline"/>
+            <xsd:element ref="uslm:note"/>
+        </xsd:choice>
+    </xsd:group>
+    
+    <xsd:element name="table" type="xhtml:xhtml.table.type">
+        <xsd:annotation>
+            <xsd:documentation>
+                The HTML table element.
+            </xsd:documentation>
+        </xsd:annotation>
+    </xsd:element>
+    
+    <!-- Include the xhtml-table-1.xsd module directly, with changes as listed below -->
+    <!-- Change the xs prefix to xsd, add namespaces as appropriate -->
+    <!-- Add the appropriate attributes to xhtml.table.attlist and xhtml.td.attlist -->
+        
+        <xsd:annotation>
+            <xsd:documentation>
+                This is based on the XML Schema Tables module for XHTML
+            </xsd:documentation>
+            <xsd:documentation source="xhtml-copyright-1.xsd"/>
+        </xsd:annotation>
+        <xsd:annotation>
+            <xsd:documentation>
+                Tables
+                
+                * table, caption, thead, tfoot, tbody, colgroup, col, tr, th, td
+                
+                This module declares element types and attributes used to provide
+                table markup similar to HTML 4.0, including features that enable
+                better accessibility for non-visual user agents.
+
+            </xsd:documentation>
+            <xsd:documentation source="http://www.w3.org/TR/2001/REC-xhtml-modularization-20010410/abstract_modules.html#s_tablemodule"/>
+        </xsd:annotation>
+        <xsd:attributeGroup name="xhtml.frame.attrib">
+            <xsd:attribute name="frame">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:NMTOKEN">
+                        <xsd:enumeration value="void"/>
+                        <xsd:enumeration value="above"/>
+                        <xsd:enumeration value="below"/>
+                        <xsd:enumeration value="hsides"/>
+                        <xsd:enumeration value="lhs"/>
+                        <xsd:enumeration value="rhs"/>
+                        <xsd:enumeration value="vsides"/>
+                        <xsd:enumeration value="box"/>
+                        <xsd:enumeration value="border"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+        </xsd:attributeGroup>
+        <xsd:attributeGroup name="xhtml.rules.attrib">
+            <xsd:attribute name="rules">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:NMTOKEN">
+                        <xsd:enumeration value="none"/>
+                        <xsd:enumeration value="groups"/>
+                        <xsd:enumeration value="rows"/>
+                        <xsd:enumeration value="cols"/>
+                        <xsd:enumeration value="all"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+        </xsd:attributeGroup>
+        <xsd:attributeGroup name="xhtml.CellVAlign.attrib">
+            <xsd:attribute name="valign">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:NMTOKEN">
+                        <xsd:enumeration value="top"/>
+                        <xsd:enumeration value="middle"/>
+                        <xsd:enumeration value="bottom"/>
+                        <xsd:enumeration value="baseline"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+        </xsd:attributeGroup>
+        <xsd:attributeGroup name="xhtml.CellHAlign.attrib">
+            <xsd:attribute name="align">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:NMTOKEN">
+                        <xsd:enumeration value="left"/>
+                        <xsd:enumeration value="center"/>
+                        <xsd:enumeration value="right"/>
+                        <xsd:enumeration value="justify"/>
+                        <xsd:enumeration value="char"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+            <xsd:attribute name="char" type="xh11d:Character"/>
+            <xsd:attribute name="charoff" type="xh11d:Length"/>
+        </xsd:attributeGroup>
+        <xsd:attributeGroup name="xhtml.scope.attrib">
+            <xsd:attribute name="scope">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:NMTOKEN">
+                        <xsd:enumeration value="row"/>
+                        <xsd:enumeration value="col"/>
+                        <xsd:enumeration value="rowgroup"/>
+                        <xsd:enumeration value="colgroup"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+        </xsd:attributeGroup>
+        <xsd:attributeGroup name="xhtml.td.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attribute name="abbr" type="xh11d:Text"/>
+            <xsd:attribute name="axis" type="xh11d:CDATA"/>
+            <xsd:attribute name="headers" type="xsd:IDREFS"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.scope.attrib"/>
+            <xsd:attribute name="rowspan" type="xh11d:Number" default="1"/>
+            <xsd:attribute name="colspan" type="xh11d:Number" default="1"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+            <xsd:attributeGroup ref="uslm:HtmlTdGroup"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.td.content">
+            <xsd:sequence>
+                <xsd:group ref="xhtml:xhtml.Flow.mix" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:group>
+        <xsd:complexType name="xhtml.td.type" mixed="true">
+            <xsd:group ref="xhtml:xhtml.td.content"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.td.attlist"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.th.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attribute name="abbr" type="xh11d:Text"/>
+            <xsd:attribute name="axis" type="xh11d:CDATA"/>
+            <xsd:attribute name="headers" type="xsd:IDREFS"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.scope.attrib"/>
+            <xsd:attribute name="rowspan" type="xh11d:Number" default="1"/>
+            <xsd:attribute name="colspan" type="xh11d:Number" default="1"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+        <xsd:attribute name="leaders" type="uslm:YesOrNoEnum" use="optional" default="no">
+                <xsd:annotation>
+                    <xsd:documentation><![CDATA[ 
+                     The @leaders attribute sets the presence or absence of the leader dots in the 
+                     table cell. The value 'false' indicates no leaders, while 'true' indicates leaders.
+                  ]]></xsd:documentation>
+                </xsd:annotation>
+            </xsd:attribute>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.th.content">
+            <xsd:sequence>
+                <xsd:group ref="xhtml:xhtml.Flow.mix" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:group>
+        <xsd:complexType name="xhtml.th.type" mixed="true">
+            <xsd:group ref="xhtml:xhtml.th.content"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.th.attlist"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.tr.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.tr.content">
+            <xsd:sequence>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="th" type="xhtml:xhtml.th.type"/>
+                    <xsd:element name="td" type="xhtml:xhtml.td.type"/>
+                </xsd:choice>
+            </xsd:sequence>
+        </xsd:group>
+    <xsd:complexType name="xhtml.tr.type">
+        <xsd:group ref="xhtml:xhtml.tr.content"/>
+        <xsd:attributeGroup ref="xhtml:xhtml.tr.attlist"/>
+        <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.col.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attribute name="span" type="xh11d:Number" default="1"/>
+            <xsd:attribute name="width" type="xh11d:MultiLength"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.col.content">
+            <xsd:sequence/>
+        </xsd:group>
+        <xsd:complexType name="xhtml.col.type">
+            <xsd:group ref="xhtml:xhtml.col.content"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.col.attlist"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.colgroup.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attribute name="span" type="xh11d:Number" default="1"/>
+            <xsd:attribute name="width" type="xh11d:MultiLength"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.colgroup.content">
+            <xsd:sequence>
+                <xsd:element name="col" type="xhtml:xhtml.col.type" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:group>
+        <xsd:complexType name="xhtml.colgroup.type">
+            <xsd:group ref="xhtml:xhtml.colgroup.content"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.colgroup.attlist"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.tbody.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.tbody.content">
+            <xsd:choice>
+                <xsd:element name="tr" type="xhtml:xhtml.tr.type"/>
+                <xsd:element ref="uslm:page"/>
+            </xsd:choice>
+        </xsd:group>
+        <xsd:complexType name="xhtml.tbody.type">
+            <xsd:group ref="xhtml:xhtml.tbody.content" maxOccurs="unbounded"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.tbody.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.tfoot.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.tfoot.content">
+            <xsd:choice>
+                <xsd:element name="tr" type="xhtml:xhtml.tr.type"/>
+                <xsd:element ref="uslm:page"/>
+            </xsd:choice>
+        </xsd:group>
+        <xsd:complexType name="xhtml.tfoot.type">
+            <xsd:group ref="xhtml:xhtml.tfoot.content" maxOccurs="unbounded"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.tfoot.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.thead.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellHAlign.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.CellVAlign.attrib"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.thead.content">
+            <xsd:sequence>
+                <xsd:element name="tr" type="xhtml:xhtml.tr.type" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:group>
+        <xsd:complexType name="xhtml.thead.type">
+            <xsd:group ref="xhtml:xhtml.thead.content"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.thead.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.caption.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.caption.content">
+            <xsd:choice>
+                <xsd:group ref="xhtml:uslm.Inline.mix" minOccurs="0" maxOccurs="unbounded"/>
+                <xsd:element ref="uslm:p" minOccurs="0" maxOccurs="unbounded"/>
+            </xsd:choice>
+        </xsd:group>
+        <xsd:complexType name="xhtml.caption.type" mixed="true">
+            <xsd:group ref="xhtml:xhtml.caption.content"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.caption.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        </xsd:complexType>
+        <xsd:attributeGroup name="xhtml.table.attlist">
+            <xsd:attributeGroup ref="xhtml:xhtml.Common.attrib"/>
+            <xsd:attribute name="summary" type="xh11d:Text"/>
+            <xsd:attribute name="width" type="xh11d:Length"/>
+            <xsd:attribute name="border" type="xh11d:Pixels"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.frame.attrib"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.rules.attrib"/>
+            <xsd:attribute name="cellspacing" type="xh11d:Length"/>
+            <xsd:attribute name="cellpadding" type="xh11d:Length"/>
+            <xsd:attributeGroup ref="uslm:HtmlTableGroup"/>
+        </xsd:attributeGroup>
+        <xsd:group name="xhtml.table.content">
+            <xsd:sequence>
+                <xsd:element name="caption" type="xhtml:xhtml.caption.type" minOccurs="0"/>
+                <xsd:choice>
+                    <xsd:element name="col" type="xhtml:xhtml.col.type" minOccurs="0" maxOccurs="unbounded"/>
+                    <xsd:element name="colgroup" type="xhtml:xhtml.colgroup.type" minOccurs="0" maxOccurs="unbounded"/>
+                </xsd:choice>
+                <xsd:choice>
+                    <xsd:sequence>
+                        <xsd:element name="thead" type="xhtml:xhtml.thead.type" minOccurs="0"/>
+                        <xsd:element name="tfoot" type="xhtml:xhtml.tfoot.type" minOccurs="0"/>
+                        <xsd:element name="tbody" type="xhtml:xhtml.tbody.type" maxOccurs="unbounded"/>
+                    </xsd:sequence>
+                    <xsd:choice>
+                        <xsd:element name="tr" type="xhtml:xhtml.tr.type" maxOccurs="unbounded"/>
+                    </xsd:choice>
+                </xsd:choice>
+            </xsd:sequence>
+        </xsd:group>
+        <xsd:complexType name="xhtml.table.type">
+            <xsd:group ref="xhtml:xhtml.table.content"/>
+            <xsd:attributeGroup ref="xhtml:xhtml.table.attlist"/>
+            <xsd:anyAttribute namespace="##other" processContents="lax"/>
+        </xsd:complexType>
+</xsd:schema>
