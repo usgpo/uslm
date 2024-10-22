@@ -98,8 +98,8 @@ User documentation for the 2.0 version of the schema, to version 2.0.12, can be 
 
 User documentation for the 2.0 version of the schema after 2.0.12, to version 2.0.17, 
 can be found at 
-<https://github.com/usgpo/uslm/blob/main/USLM-2_0-Review-Guide-v2_0_17.md> and 
-<https://github.com/usgpo/uslm/blob/main/USLM-2_0-Review-Guide-v2_0_17.pdf>.
+<https://github.com/usgpo/uslm/blob/main/USLM-2_0-Review-Guide-2_0_17.md> and 
+<https://github.com/usgpo/uslm/blob/main/USLM-2_0-Review-Guide-2_0_17.pdf>.
 
 The XSD schema and CSS stylesheets for online viewing can be downloaded
 at: <http://uscode.house.gov/download/resources/schemaandcss.zip> and
