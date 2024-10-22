@@ -1,8 +1,8 @@
->Versions 2.0.14, 2.0.15, 2.0.16, 2.0.17, and 2.1.0 of the schema are available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
+>Versions 2.0.14, 2.0.15, 2.0.16, 2.0.17, and 2.1.0 of the schema are available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
 >  
->Version 2.33 of the CSS is available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
+>Version 2.33 of the CSS is available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
 >  
->New sample Bill files are available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed). 
+>Sample Bill files are available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
 
 
 # USLM Schema #  
@@ -18,7 +18,7 @@ As needed, a proposed branch will be created from the main branch. In addition t
 
  
 ## User Guide and Review Guide ##  
-Please refer to the USLM User Guide in [PDF](USLM-User-Guide.pdf) or [Markdown](USLM-User-Guide.md) and the USLM 2.x Review Guide in [PDF](USLM-2_0-Review-Guide-v2_0_12.pdf) or [Markdown](USLM-2_0-Review-Guide-v2_0_12.md) for additional information about the schema.  
+Please refer to the USLM User Guide in [PDF](USLM-User-Guide.pdf) or [Markdown](USLM-User-Guide.md), the USLM 2.x Review Guide in [PDF](USLM-2_0-Review-Guide-v2_0_12.pdf) or [Markdown](USLM-2_0-Review-Guide-v2_0_12.md), the USLM 2.0.17 Review Guide in [PDF](USLM-2_0-Review-Guide-2_0_17.pdf) or [Markdown](USLM-2_0-Review-Guide-2_0_17.md), and the USLM 2.1 Review Guide in [PDF](USLM-2_1-ReviewGuide.pdf) or [Markdown](USLM-2_1-ReviewGuide.md) for additional information about the schema.  
 
 
 ## XML Working Group Schema Management Guidelines ##  

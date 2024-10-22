@@ -1,6 +1,10 @@
 ﻿## Proposed Changes ##    
+  
+N/A  
+ 
+## Approved Changes ##  
 
-2.1.0 - Proposed version of uslm-2.1.0.xsd along with uslm-components-2.1.0.xsd, uslm-table-module-2.1.0.xsd, and uslm.css for the Remaining Bill Versions project.   
+2.1.0 - Approved version of uslm-2.1.0.xsd along with uslm-components-2.1.0.xsd, uslm-table-module-2.1.0.xsd, and uslm.css for the Remaining Bill Versions project.   
     
 The 2.1 schema series changes from the 2.0 schema series support the following three primary goals:   
 1. Add support for amendment document types.   
@@ -12,7 +16,8 @@ Schema:
   - Add amendPreface, amendMeta, amendMain, and officialTitleAmendment elements.   
   - The amendMeta element extends the meta element to add the amendDegree and amendStage elements.  
   - The amendPreface element extends the preface element to add the draftingOffice element.   
-  - The amendMain element model adds new elements amendmentInstruction and amendmentContent and defines the new attribute amendmentInstructionLineNumbering. - Add the engrossedAmendment document type employing the content model of the amendment document type.  
+  - The amendMain element model adds new elements amendmentInstruction and amendmentContent and defines the new attribute amendmentInstructionLineNumbering. 
+- Add the engrossedAmendment document type employing the content model of the amendment document type.  
 - The preface element content model has been expanded to match existing documents.   
 - Disallow the content element in the preface element content model in favor of a specific definition matching existing documents.    
 - Add PositionedNoteType as the type for the positioned notes, disallowing the content element in favor of elements that match existing documents.    
@@ -26,7 +31,7 @@ Schema:
   - References to other components internal to the component schemas are made by namespace only.  
   - Namespace references avoid potential circular reference issues during schema processing.  
  
-CSS: 
+CSS:  
 Version: 2.33 2024-08-23  
 Previous version: Version 2.29 2024-03-18  
   
@@ -41,14 +46,14 @@ Previous version: Version 2.29 2024-03-18
 - Add classes for reported bill styling.  
 - Use current syntax for `::before` pseudo-element.  
 - Add default styling for addedText and deletedText elements.  
-
   
-2.0.17 - Proposed version of uslm-2.0.17.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project. 
+  
+2.0.17 - Approved version of uslm-2.0.17.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project.  
   
 Schema:    
 - Allow `<referenceMarker>` element to appear even when there is no hierarchical level designator (`<num>`element).  
   
-2.0.16 - Proposed version of uslm-2.0.16.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project. 
+2.0.16 - Approved version of uslm-2.0.16.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project. 
   
 Schema:    
 - Add `<firstPageHeading>` and `<firstPageSubheading>` to preface elements.  
@@ -57,18 +62,16 @@ Schema:
 - Add a `<referenceMarker>` element for the case that a level requires both a hierarchical level alphanumeric designation and a separate additional designation.  
 
 
-2.0.15 - Proposed version of uslm-2.0.15.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project.   
+2.0.15 - Approved version of uslm-2.0.15.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project.   
   
 Schema:  
 - Allow table in recital elements.  
 
-2.0.14 - Proposed version of uslm-2.0.14.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project. 
+2.0.14 - Approved version of uslm-2.0.14.xsd along with corresponding update to table module for the Digitized Statutes at Large in USLM XML project. 
 
 Schema:  
 - Add MathML 3 schema.  
 - Number the table module for more precision.  
- 
-## Approved Changes ##  
   
 2.0.13 - Approved version of uslm-2.0.13.xsd and uslm.css.   
 
