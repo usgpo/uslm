@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="H17C11B61C12842C08DD5E189D70BF5BE"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 HCONRES 105 ENR: Permitting the remains of the Honorable John Lewis, late a Representative from the State of Georgia, to lie in state in the rotunda of the Capitol.</dc:title>
+<dc:type>House Concurrent Resolution</dc:type>
+<docNumber>105</docNumber>
+<citableAs>116 HCONRES 105 ENR</citableAs>
+<citableAs>116hconres105enr</citableAs>
+<citableAs>116 H. Con. Res. 105 ENR</citableAs>
+<docStage>Enrolled Bill</docStage>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>2</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<distributionCode display="no">IV</distributionCode>
+<dc:type>H. Con. Res. </dc:type>
+<docNumber>105</docNumber>
+<action><actionDescription>Agreed to</actionDescription> <date date="2020-07-27"><inline class="smallCaps">July </inline>27, 2020</date></action>
+<congress value="116">One Hundred Sixteenth Congress of the United States of America</congress>
+<session value="2">AT THE SECOND SESSION</session>
+<enrolledDateline>Begun and held at the City of Washington on Friday, the third day of January, two thousand and twenty</enrolledDateline></preface>
+<main styleType="traditional" id="HF9A30ED42E694333942AE2C1279659E4"><longTitle><docTitle>Concurrent Resolution</docTitle></longTitle><resolvingClause class="inline"><i>Resolved by the House of Representatives (the Senate concurring), </i></resolvingClause><section id="H32CFEE98EE9346ABAA9DBAA59838B462" class="inline"><content class="inline">That in recognition of the long and distinguished service rendered to the Nation by the Honorable John Lewis, late a Representative from the State of Georgia, his remains shall be permitted to lie in state in the Rotunda of the Capitol from July 27, 2020, through July 29, 2020, and the Architect of the Capitol, under the direction of the President pro tempore of the Senate and the Speaker of the House of Representatives, shall take all necessary steps for the accomplishment of that purpose.</content></section></main>
+<signatures>
+<signature><notation type="attestation">Attest: </notation><role>Clerk of the House of Representatives.</role></signature></signatures>
+<signatures>
+<signature><notation type="attestation">Attest: </notation><role>Secretary of the Senate.</role></signature></signatures></resolution>

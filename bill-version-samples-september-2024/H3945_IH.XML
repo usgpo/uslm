@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><bill xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="H0FC9F981A1D54DEC8B8FE12AE4F2DB25"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 HR 3945 IH: Making supplemental appropriations for the Army Corps of Engineers for flood control projects and storm damage reduction projects in areas affected by flooding in the city of Jacksonville, Florida, and for other purposes.</dc:title>
+<dc:type>House Bill</dc:type>
+<docNumber>3945</docNumber>
+<citableAs>116 HR 3945 IH</citableAs>
+<citableAs>116hr3945ih</citableAs>
+<citableAs>116 H. R. 3945 IH</citableAs>
+<docStage>Introduced in House</docStage>
+<currentChamber>HOUSE</currentChamber>
+<dc:creator>United States House of Representatives</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>1</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine>•HR 3945 IH</slugLine>
+<distributionCode display="yes">I</distributionCode>
+<congress value="116">116th CONGRESS</congress>
+<session value="1">1st Session</session>
+<dc:type>H. R. </dc:type>
+<docNumber>3945</docNumber>
+<dc:title>Making supplemental appropriations for the Army Corps of Engineers for flood control projects and storm damage reduction projects in areas affected by flooding in the city of Jacksonville, Florida, and for other purposes.</dc:title>
+<currentChamber value="HOUSE">IN THE HOUSE OF REPRESENTATIVES</currentChamber>
+<action><date date="2019-07-24"><inline class="smallCaps">July </inline>24, 2019</date><actionDescription> <sponsor bioGuideId="L000586">Mr. <inline class="smallCaps">Lawson</inline> of Florida</sponsor> introduced the following bill; which was referred to the <committee committeeId="HAP00">Committee on Appropriations</committee>, and in addition to the Committee on <committee committeeId="HBU00">the Budget</committee>, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned</actionDescription></action></preface>
+<main id="H353D6A9BCC6A406BADB781B03383D9B3" styleType="traditional"><longTitle><docTitle>A BILL</docTitle><officialTitle>Making supplemental appropriations for the Army Corps of Engineers for flood control projects and storm damage reduction projects in areas affected by flooding in the city of Jacksonville, Florida, and for other purposes.</officialTitle></longTitle><enactingFormula><i>Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, </i></enactingFormula><section id="HEAC278679DF04FF6A8C88A7BF669059B" class="inline"><chapeau class="inline"> That the following sums are appropriated, out of any money in the Treasury not otherwise appropriated, for the fiscal year ending September 30, 2019:</chapeau>
+<appropriations level="major" id="H3067040CD902493EA205AB8224F8677C"><heading>DEPARTMENT OF THE ARMY</heading></appropriations>
+<appropriations level="intermediate" id="H5372DAA5CDE440F99D1C928230556C46"><heading>Corps of Engineers—Civil</heading></appropriations>
+<appropriations level="small" id="H846A07BF48534E97943E8EA58B022801"><heading><inline class="smallCaps">construction</inline></heading><content>
+For an additional amount for “Construction” for flood control projects and storm damage reduction projects in areas affected by flooding in the city of Jacksonville, Florida, that have received a major disaster declaration pursuant to the Robert T. Stafford Disaster Relief and Emergency Assistance Act, $116,968,000, to remain available through fiscal year 2028: <proviso><i>Provided</i>, That upon approval of the Committees on Appropriations of the House of Representatives and the Senate these funds may be used to construct any project by the Corps for reducing flooding and storm damage risks in the city of Jacksonville, Florida, that the Secretary determines is technically feasible, economically justified, and environmentally acceptable: </proviso><proviso><i>Provided further</i>, That projects using these funds shall be at full Federal expense with respect to such funds: </proviso><proviso><i>Provided further</i>, That such amount is designated by the Congress as being for disaster relief pursuant to section 251(b)(2)(D) of the Balanced Budget and Emergency Deficit Control Act of 1985.</proviso></content></appropriations></section><level>
+<p>This Act may be cited as the “<shortTitle role="act">Flood Water Relief Act of 2019</shortTitle>”. </p></level></main><endMarker>○</endMarker></bill>

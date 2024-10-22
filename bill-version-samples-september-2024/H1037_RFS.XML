@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><bill xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="H8983A22FACC54E83B3666D602B0D6DC7"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 HR 1037 RFS: To increase transparency with respect to financial services benefitting state sponsors of terrorism, human rights abusers, and corrupt officials, and for other purposes.</dc:title>
+<dc:type>House Bill</dc:type>
+<docNumber>1037</docNumber>
+<citableAs>116 HR 1037 RFS</citableAs>
+<citableAs>116hr1037rfs</citableAs>
+<citableAs>116 H. R. 1037 RFS</citableAs>
+<docStage>Referred in Senate</docStage>
+<currentChamber>SENATE</currentChamber>
+<dc:creator>United States Senate</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>1</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine> HR 1037 RFS</slugLine>
+<distributionCode display="yes">IIB</distributionCode>
+<congress value="116">116th CONGRESS</congress>
+<session value="1">1st Session</session>
+<dc:type>H. R. </dc:type>
+<docNumber>1037</docNumber>
+<currentChamber value="SENATE">IN THE SENATE OF THE UNITED STATES</currentChamber>
+<action><date date="2019-05-15"><inline class="smallCaps">May </inline>15, 2019</date><actionDescription>Received; read twice and referred to the <committee committeeId="SSBK00">Committee on Banking, Housing, and Urban Affairs</committee></actionDescription></action></preface>
+<main id="H972EC1D4224A440A9E7AC7B08B8E90FA" styleType="OLC"><longTitle><docTitle>AN ACT</docTitle><officialTitle>To increase transparency with respect to financial services benefitting state sponsors of terrorism, human rights abusers, and corrupt officials, and for other purposes.</officialTitle></longTitle><enactingFormula><i>Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, </i></enactingFormula>
+<section identifier="/us/bill/116/hr/1037/s1" id="H44ADA04607E34829A239AE33223B1397"><num value="1">SECTION 1. </num><heading>SHORT TITLE.</heading><content class="block">This Act may be cited as the “<shortTitle role="act">Banking Transparency for Sanctioned Persons Act of 2019</shortTitle>”.</content></section>
+<section identifier="/us/bill/116/hr/1037/s2" id="H2D5655B04C0B4934993F61295477B71A"><num value="2">SEC. 2. </num><heading>REPORT ON FINANCIAL SERVICES BENEFITTING STATE SPONSORS OF TERRORISM, HUMAN RIGHTS ABUSERS, AND CORRUPT OFFICIALS.</heading>
+<subsection identifier="/us/bill/116/hr/1037/s2/a" id="H9DFF9572954247D99DF2FBFDD7DD85F0" class="indent0"><num value="a">(a) </num><heading><inline class="smallCaps">In General</inline>.—</heading><chapeau>Not later than 180 days after the date of the enactment of this Act, and every 180 days thereafter, the Secretary of the Treasury shall issue a report to the Committees on Financial Services and Foreign Affairs of the House of Representatives and the Committees on Banking, Housing, and Urban Affairs and Foreign Relations of the Senate that includes—</chapeau>
+<paragraph identifier="/us/bill/116/hr/1037/s2/a/1" id="HCCC72F0209834DF696EE4C5C386C5ED9" class="indent1"><num value="1">(1) </num><content>a copy of any license issued by the Secretary in the preceding 180 days that authorizes a financial institution to provide financial services benefitting a state sponsor of terrorism; and</content></paragraph>
+<paragraph identifier="/us/bill/116/hr/1037/s2/a/2" id="H9E0143FB53D5465CADB2735F4BBE06A8" class="indent1"><num value="2">(2) </num><chapeau>a list of any foreign financial institutions that, in the preceding 180 days, knowingly conducted a significant transaction or transactions, directly or indirectly, for a sanctioned person included on the Department of the Treasury’s Specially Designated Nationals And Blocked Persons List who—</chapeau>
+<subparagraph identifier="/us/bill/116/hr/1037/s2/a/2/A" id="HF490E3DA29ED4B5989FE409D5DB25AF8" class="indent2"><num value="A">(A) </num><content>is owned or controlled by, or acts on behalf of, the government of a state sponsor of terrorism; or</content></subparagraph>
+<subparagraph identifier="/us/bill/116/hr/1037/s2/a/2/B" id="H9170226FCCBB458A8058C2381DC56892" class="indent2"><num value="B">(B) </num><chapeau>is designated pursuant to any of the following:</chapeau>
+<clause identifier="/us/bill/116/hr/1037/s2/a/2/B/i" id="HB3E8B2A271994D98B940706AE4EBBC8A" class="indent3"><num value="i">(i) </num><content>Section 404 of the Russia and Moldova Jackson-Vanik Repeal and Sergei Magnitsky Rule of Law Accountability Act of 2012 (<ref href="/us/pl/112208">Public Law 112208</ref>).</content></clause>
+<clause identifier="/us/bill/116/hr/1037/s2/a/2/B/ii" id="H1BE913C88DE34346B0E98F434096E38B" class="indent3"><num value="ii">(ii) </num><content>Subtitle F of title XII of the National Defense Authorization Act for Fiscal Year 2017 (<ref href="/us/pl/114/328">Public Law 114–328</ref>, the Global Magnitsky Human Rights Accountability Act).</content></clause>
+<clause identifier="/us/bill/116/hr/1037/s2/a/2/B/iii" id="H85CE41AB4F20451A81F50C199D29A0B5" class="indent3"><num value="iii">(iii) </num><content>Executive Order No. 13818.</content></clause></subparagraph></paragraph></subsection>
+<subsection identifier="/us/bill/116/hr/1037/s2/b" id="H7B542965F407418085D8E2B9F16F3F42" class="indent0"><num value="b">(b) </num><heading><inline class="smallCaps">Form of Report</inline>.—</heading><content>The report required under subsection (a) shall be submitted in unclassified form but may contain a classified annex.</content></subsection></section>
+<section identifier="/us/bill/116/hr/1037/s3" id="H679CBD019B9E4F1DA766FA11E8641094"><num value="3">SEC. 3. </num><heading>WAIVER.</heading>
+<chapeau class="indent0">The Secretary of the Treasury may waive the requirements of section 2 with respect to a foreign financial institution described in paragraph (2) of such section—</chapeau>
+<paragraph identifier="/us/bill/116/hr/1037/s3/1" id="H915D2C0E4F864230B12F7F3B0360CDEC" class="indent1"><num value="1">(1) </num><content>upon receiving credible assurances that the foreign financial institution has ceased, or will imminently cease, to knowingly conduct any significant transaction or transactions, directly or indirectly, for a person described in subparagraph (A) or (B) of such paragraph (2); or</content></paragraph>
+<paragraph identifier="/us/bill/116/hr/1037/s3/2" id="HAA219B1D705B44A280D16562AD635D60" class="indent1"><num value="2">(2) </num><content>upon certifying to the Committees on Financial Services and Foreign Affairs of the House of Representatives and the Committees on Banking, Housing, and Urban Affairs and Foreign Relations of the Senate that the waiver is important to the national interest of the United States, with an explanation of the reasons therefor.</content></paragraph></section>
+<section identifier="/us/bill/116/hr/1037/s4" id="HEE07414903EF424BB9692CC02867807E"><num value="4">SEC. 4. </num><heading>DEFINITIONS.</heading>
+<chapeau class="indent0">For purposes of this Act:</chapeau>
+<paragraph role="definitions" identifier="/us/bill/116/hr/1037/s4/1" id="HA3EBA52671B946618E7E5A1044E9F307" class="indent1"><num value="1">(1) </num><heading><inline class="smallCaps">Financial institution</inline>.—</heading><content>The term “<term>financial institution</term>” means a United States financial institution or a foreign financial institution.</content></paragraph>
+<paragraph role="definitions" identifier="/us/bill/116/hr/1037/s4/2" id="H4ED053D5AAE44981AFE29E70F08A143F" class="indent1"><num value="2">(2) </num><heading><inline class="smallCaps">Foreign financial institution</inline>.—</heading><content>The term “<term>foreign financial institution</term>” has the meaning given that term under <ref href="/us/cfr/t31/s561.308">section 561.308 of title 31, Code of Federal Regulations</ref>.</content></paragraph>
+<paragraph role="definitions" identifier="/us/bill/116/hr/1037/s4/3" id="HDE488415924A4509B930F944D364BBC9" class="indent1"><num value="3">(3) </num><heading><inline class="smallCaps">Knowingly</inline>.—</heading><content>The term “<term>knowingly</term>” with respect to conduct, a circumstance, or a result, means that a person has actual knowledge, or should have known, of the conduct, the circumstance, or the result.</content></paragraph>
+<paragraph role="definitions" identifier="/us/bill/116/hr/1037/s4/4" id="HFDD957359FF548E593CA0DC43C85DC36" class="indent1"><num value="4">(4) </num><heading><inline class="smallCaps">United states financial institution</inline>.—</heading><content>The term “<term>United States financial institution</term>” has the meaning given the term “<term>U.S. financial institution</term>” under <ref href="/us/cfr/t31/s561.309">section 561.309 of title 31, Code of Federal Regulations</ref>.</content></paragraph></section>
+<section identifier="/us/bill/116/hr/1037/s5" id="HFE6F54CDCAC14F3EA252BE9B813C1EF6"><num value="5">SEC. 5. </num><heading>SUNSET.</heading><content class="block">The reporting requirement under this Act shall terminate on the date that is the end of the 7-year period beginning on the date of the enactment of this Act.</content></section></main>
+<attestation><action><actionDescription>Passed the House of Representatives </actionDescription><date date="2019-05-14" meta="chamber:House">May 14, 2019</date>.</action>
+<signatures>
+<signature><notation type="attestation">Attest: </notation><name>CHERYL L. JOHNSON,</name><role>Clerk</role>.</signature></signatures></attestation></bill>

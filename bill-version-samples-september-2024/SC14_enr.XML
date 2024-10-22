@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 SCONRES 14 ENR: Authorizing the use of Emancipation Hall in the Capitol Visitor Center for an event to celebrate the birthday of King Kamehameha I.</dc:title>
+<dc:type>Senate Concurrent Resolution</dc:type>
+<docNumber>14</docNumber>
+<citableAs>116 SCONRES 14 ENR</citableAs>
+<citableAs>116sconres14enr</citableAs>
+<citableAs>116 S. Con. Res. 14 ENR</citableAs>
+<docStage>Enrolled Bill</docStage>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>1</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<dc:type>S. Con. Res. </dc:type>
+<docNumber>14</docNumber>
+<action><actionDescription>Agreed to</actionDescription> <date date="2019-05-22"><inline class="smallCaps">May </inline>22, 2019</date></action>
+<congress value="116">One Hundred Sixteenth Congress of the United States of America</congress>
+<session value="1">AT THE FIRST SESSION</session>
+<enrolledDateline>Begun and held at the City of Washington on Thursday, the third day of January, two thousand and nineteen</enrolledDateline></preface>
+<main styleType="OLC"><longTitle><docTitle>Concurrent Resolution</docTitle></longTitle><resolvingClause><i>Resolved by the Senate (the House of Representatives concurring), </i></resolvingClause>
+<section identifier="/us/resolution/116/sconres/14/s1" id="id80d8eb9fb16644c58ffebfec41163129"><num value="1">SECTION 1. </num><heading>USE OF EMANCIPATION HALL FOR EVENT TO CELEBRATE BIRTHDAY OF KING KAMEHAMEHA I.</heading>
+<subsection identifier="/us/resolution/116/sconres/14/s1/a" id="idd7b5f69df61d43fea0963c4d49ea828d" class="indent0"><num value="a">(a) </num><heading><inline class="smallCaps">Authorization</inline>.—</heading><content>Emancipation Hall in the Capitol Visitor Center is authorized to be used on June 9, 2019, for an event to celebrate the birthday of King Kamehameha I.</content></subsection>
+<subsection identifier="/us/resolution/116/sconres/14/s1/b" id="id5a54f84e991d4efa974503624995a785" class="indent0"><num value="b">(b) </num><heading><inline class="smallCaps">Preparations</inline>.—</heading><content>Physical preparations for the conduct of the event described in subsection (a) shall be carried out in accordance with such conditions as may be prescribed by the Architect of the Capitol.</content></subsection></section></main>
+<signatures>
+<signature><notation type="attestation">Attest: </notation><role>Secretary of the Senate</role>.</signature></signatures>
+<signatures>
+<signature><notation type="attestation">Attest: </notation><role>Clerk of the House of Representatives</role>.</signature></signatures></resolution>

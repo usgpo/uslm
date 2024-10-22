@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="HD0219FC26FAE400786F9F87086496204"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 HCONRES 16 RH: Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.</dc:title>
+<dc:type>House Concurrent Resolution</dc:type>
+<docNumber>16</docNumber>
+<citableAs>116 HCONRES 16 RH</citableAs>
+<citableAs>116hconres16rh</citableAs>
+<citableAs>116 H. Con. Res. 16 RH</citableAs>
+<docStage>Reported in House</docStage>
+<currentChamber>HOUSE</currentChamber>
+<dc:creator>United States House of Representatives</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<relatedDocument role="calendar" href="/us/116/hcal/House/16">House Calendar No. 16</relatedDocument>
+<congress>116</congress>
+<session>1</session>
+<relatedDocument role="report" href="/us/hrpt/116/30" value="CRPT-116hrpt30">[Report No. 116–30]</relatedDocument>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine>•HCON 16 RH</slugLine>
+<distributionCode display="yes">IV</distributionCode>
+<relatedDocument role="calendar" href="/us/116/hcal/House/16">House Calendar No. 16</relatedDocument>
+<congress value="116">116th CONGRESS</congress>
+<session value="1">1st Session</session>
+<dc:type>H. CON. RES. </dc:type>
+<docNumber>16</docNumber>
+<relatedDocument role="report" href="/us/hrpt/116/30" value="CRPT-116hrpt30">[Report No. 116–30]</relatedDocument>
+<dc:title>Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.</dc:title>
+<currentChamber value="HOUSE">IN THE HOUSE OF REPRESENTATIVES</currentChamber>
+<action><date date="2019-02-08"><inline class="smallCaps">February </inline>8, 2019</date><actionDescription><sponsor bioGuideId="T000468">Ms. <inline class="smallCaps">Titus</inline></sponsor> (for herself and <cosponsor bioGuideId="M001187">Mr. <inline class="smallCaps">Meadows</inline></cosponsor>) submitted the following concurrent resolution; which was referred to the <committee committeeId="HPW00">Committee on Transportation and Infrastructure</committee></actionDescription></action>
+<action><date><inline class="smallCaps">April </inline>2, 2019</date><actionDescription>Referred to the House Calendar and ordered to be printed</actionDescription></action></preface>
+<main id="H1ED7777B533E42FC9A9C2FE10E21D576" styleType="OLC"><longTitle><docTitle>CONCURRENT RESOLUTION</docTitle><officialTitle>Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.</officialTitle></longTitle><resolvingClause><i>Resolved by the House of Representatives (the Senate concurring), </i></resolvingClause>
+<section identifier="/us/resolution/116/hconres/16/s1" id="H75292133C14E411AB61A22DC73BB11A3"><num value="1">SECTION 1. </num><heading>USE OF THE CAPITOL GROUNDS FOR NATIONAL PEACE OFFICERS MEMORIAL SERVICE.</heading>
+<subsection identifier="/us/resolution/116/hconres/16/s1/a" id="H6F4AF96EC73246FA8A031487663E5605" class="indent0"><num value="a">(a) </num><heading><inline class="smallCaps">In General</inline>.—</heading><content>The Grand Lodge of the Fraternal Order of Police and its auxiliary shall be permitted to sponsor a public event, the 38th Annual National Peace Officers Memorial Service (in this resolution referred to as the “Memorial Service”), on the Capitol Grounds, in order to honor the law enforcement officers who died in the line of duty during 2018.</content></subsection>
+<subsection identifier="/us/resolution/116/hconres/16/s1/b" id="HA6273FDE2944495F9BCDB6FAD54484AB" class="indent0"><num value="b">(b) </num><heading><inline class="smallCaps">Date of Memorial Service</inline>.—</heading><content>The Memorial Service shall be held on May 15, 2019, or on such other date as the Speaker of the House of Representatives and the Committee on Rules and Administration of the Senate jointly designate, with preparation for the event to begin on May 11, 2019, and takedown completed on May 16, 2019.</content></subsection></section>
+<section identifier="/us/resolution/116/hconres/16/s2" id="H4A2A55B50C774A619E9247FC3DE492E6"><num value="2">SEC. 2. </num><heading>USE OF THE CAPITOL GROUNDS FOR NATIONAL HONOR GUARD AND PIPE BAND EXHIBITION.</heading>
+<subsection identifier="/us/resolution/116/hconres/16/s2/a" id="HB63DF835093542EC9F4952DF628E55D7" class="indent0"><num value="a">(a) </num><heading><inline class="smallCaps">In General</inline>.—</heading><content>The Grand Lodge of the Fraternal Order of Police and its auxiliary shall be permitted to sponsor a public event, the National Honor Guard and Pipe Band Exhibition (in this resolution referred to as the “Exhibition”), on the Capitol Grounds, in order to allow law enforcement representatives to exhibit their ability to demonstrate Honor Guard programs and provide for a bagpipe exhibition.</content></subsection>
+<subsection identifier="/us/resolution/116/hconres/16/s2/b" id="HF38CA28E2D0042B1B3176B22130469DE" class="indent0"><num value="b">(b) </num><heading><inline class="smallCaps">Date of Exhibition</inline>.—</heading><content>The Exhibition shall be held on May 14, 2019, or on such other date as the Speaker of the House of Representatives and the Committee on Rules and Administration of the Senate jointly designate.</content></subsection></section>
+<section identifier="/us/resolution/116/hconres/16/s3" id="H4EDDAB01A3DB453093BFF0C7FD7CA83F"><num value="3">SEC. 3. </num><heading>TERMS AND CONDITIONS.</heading>
+<subsection identifier="/us/resolution/116/hconres/16/s3/a" id="HEA4392C18978468A9D94C3989913A38F" class="indent0"><num value="a">(a) </num><heading><inline class="smallCaps">In General</inline>.—</heading><chapeau>Under conditions to be prescribed by the Architect of the Capitol and the Capitol Police Board, the event shall be—</chapeau>
+<paragraph identifier="/us/resolution/116/hconres/16/s3/a/1" id="H3AAEEDDB80C141319E83B929778F2284" class="indent1"><num value="1">(1) </num><content>free of admission charge and open to the public; and</content></paragraph>
+<paragraph identifier="/us/resolution/116/hconres/16/s3/a/2" id="H00850B2BEC794DF5AA6FFF0EB0D20627" class="indent1"><num value="2">(2) </num><content>arranged not to interfere with the needs of Congress.</content></paragraph></subsection>
+<subsection identifier="/us/resolution/116/hconres/16/s3/b" id="H6300639F5725445C89453F0CA56A789F" class="indent0"><num value="b">(b) </num><heading><inline class="smallCaps">Expenses and Liabilities</inline>.—</heading><content>The sponsors of the Memorial Service and Exhibition shall assume full responsibility for all expenses and liabilities incident to all activities associated with the events.</content></subsection></section>
+<section identifier="/us/resolution/116/hconres/16/s4" id="H9A9FA68687B04DE8B6CAFCB1C2B4FC40"><num value="4">SEC. 4. </num><heading>EVENT PREPARATIONS.</heading><content class="block">Subject to the approval of the Architect of the Capitol, the sponsors referred to in section 3(b) are authorized to erect upon the Capitol Grounds such stage, sound amplification devices, and other related structures and equipment, as may be required for the Memorial Service and Exhibition.</content></section>
+<section identifier="/us/resolution/116/hconres/16/s5" id="H9F89068D5C1846B489DA247B8F58D546"><num value="5">SEC. 5. </num><heading>ENFORCEMENT OF RESTRICTIONS.</heading><content class="block">The Capitol Police Board shall provide for enforcement of the restrictions contained in <ref href="/us/usc/t40/s5104/c">section 5104(c) of title 40, United States Code</ref>, concerning sales, advertisements, displays, and solicitations on the Capitol Grounds, as well as other restrictions applicable to the Capitol Grounds, in connection with the events.</content></section></main>
+<endorsement orientation="landscape"><relatedDocument role="calendar" href="/us/116/hcal/House/16">House Calendar No. 16</relatedDocument><congress value="116">116th CONGRESS</congress><session value="1">1st Session</session><dc:type>H. CON. RES. </dc:type><docNumber>16</docNumber><relatedDocument role="report" href="/us/hrpt/116/30" value="CRPT-116hrpt30">[Report No. 116–30]</relatedDocument><longTitle><docTitle>CONCURRENT RESOLUTION</docTitle><officialTitle>Authorizing the use of the Capitol Grounds for the National Peace Officers Memorial Service and the National Honor Guard and Pipe Band Exhibition.</officialTitle></longTitle><action><date date="2019-04-02"><inline class="smallCaps">April </inline>2, 2019</date><actionDescription>Referred to the House Calendar and ordered to be printed</actionDescription></action></endorsement></resolution>

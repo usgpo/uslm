@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="H2290CD1F49F541FF8D46CA93631F44AF"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 HJRES 106 IH: Proposing an amendment to the Constitution of the United States to prohibit the use of slavery and involuntary servitude as a punishment for a crime.</dc:title>
+<dc:type>House Joint Resolution</dc:type>
+<docNumber>106</docNumber>
+<citableAs>116 HJRES 106 IH</citableAs>
+<citableAs>116hjres106ih</citableAs>
+<citableAs>116 H. J. Res. 106 IH</citableAs>
+<docStage>Introduced in House</docStage>
+<currentChamber>HOUSE</currentChamber>
+<dc:creator>United States House of Representatives</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>2</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine>•HJ 106 IH</slugLine>
+<distributionCode display="yes">IA</distributionCode>
+<congress value="116">116th CONGRESS</congress>
+<session value="2">2d Session</session>
+<dc:type>H. J. RES. </dc:type>
+<docNumber>106</docNumber>
+<dc:title>Proposing an amendment to the Constitution of the United States to prohibit the use of slavery and involuntary servitude as a punishment for a crime.</dc:title>
+<currentChamber value="HOUSE">IN THE HOUSE OF REPRESENTATIVES</currentChamber>
+<action><date date="2020-12-16"><inline class="smallCaps">December </inline>16, 2020</date><actionDescription><sponsor bioGuideId="H001092">Mr. <inline class="smallCaps">Hall</inline></sponsor> submitted the following joint resolution; which was referred to the <committee committeeId="HJU00">Committee on the Judiciary</committee></actionDescription></action></preface>
+<main styleType="traditional" id="H256B5FE604124415B2698457B90C292E"><longTitle><docTitle>JOINT RESOLUTION</docTitle><officialTitle>Proposing an amendment to the Constitution of the United States to prohibit the use of slavery and involuntary servitude as a punishment for a crime.</officialTitle></longTitle><resolvingClause class="inline"><i>Resolved by the Senate and House of Representatives of the United States of America in Congress assembled (two-thirds of each House concurring therein), </i></resolvingClause><section id="H4E7201E113AF43D4B93DF8D99262A4E2" class="inline"><content class="inline">That the following article is proposed as an amendment to the Constitution of the United States, which shall be valid to all intents and purposes as part of the Constitution when ratified by the legislatures of three-fourths of the several States: 
+<quotedContent styleType="traditional" id="H4E530E95146E4B0A82F08CC7632EA764"><article id="H3A26AC51D4E446589A747F104572156F"><num value=" ">“Article  —</num>
+<section id="HBE34569B9ADE4C2EB39E9BBE02DCA224"><content class="block">“Neither slavery nor involuntary servitude may be imposed as a punishment for a crime.”</content></section></article></quotedContent><inline role="after-quoted-block">.</inline></content></section></main><endMarker>○</endMarker></resolution>
