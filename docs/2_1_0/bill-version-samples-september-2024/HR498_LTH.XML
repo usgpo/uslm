@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="HC2FE9AACDC0C4392907939B4079C13D4"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 HRES 498 LTH: Impeaching Donald John Trump, President of the United States, of high misdemeanors.</dc:title>
+<dc:type>House Simple Resolution</dc:type>
+<docNumber>498</docNumber>
+<citableAs>116 HRES 498 LTH</citableAs>
+<citableAs>116hres498lth</citableAs>
+<citableAs>116 H. Res. 498 LTH</citableAs>
+<docStage>Laid on Table House</docStage>
+<currentChamber>HOUSE</currentChamber>
+<dc:creator>United States House of Representatives</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>1</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine> HRES 498 LTH</slugLine>
+<distributionCode display="yes">IV</distributionCode>
+<congress value="116">116th CONGRESS</congress>
+<session value="1">1st Session</session>
+<dc:type>H. RES. </dc:type>
+<docNumber>498</docNumber>
+<dc:title>Impeaching Donald John Trump, President of the United States, of high misdemeanors.</dc:title>
+<currentChamber value="HOUSE">IN THE HOUSE OF REPRESENTATIVES</currentChamber>
+<action><date date="2019-07-17"><inline class="smallCaps">July </inline>17, 2019</date><actionDescription><sponsor bioGuideId="G000553">Mr. <inline class="smallCaps">Green</inline> of Texas</sponsor> submitted the following resolution; which was laid on the table</actionDescription></action></preface>
+<main styleType="traditional" id="H79567CE2239841549E8F6B58C6AABE10"><longTitle><docTitle>RESOLUTION</docTitle><officialTitle>Impeaching Donald John Trump, President of the United States, of high misdemeanors.</officialTitle></longTitle><resolvingClause><i>Resolved, </i></resolvingClause><section id="H9355B54EBDFC4030872EA3697BF1E3D4" class="inline"><chapeau class="inline">that Donald John Trump, President of the United States, is unfit to be President, unfit to represent the American values of decency and morality, respectability and civility, honesty and propriety, reputability and integrity, is unfit to defend the ideals that have made America great, unfit to defend liberty and justice for all as extolled in the Pledge of Allegiance, is unfit to defend the American ideal of all persons being created equal as exalted in the Declaration of Independence, is unfit to ensure domestic tranquility, promote the general welfare and to ensure the blessings of liberty to ourselves and our posterity as lauded in the preamble to the United States Constitution, is unfit to protect the government of the people, by the people, for the people as elucidated in the Gettysburg Address, and is impeached for high misdemeanors that the following Article of Impeachment be exhibited to the Senate:</chapeau>
+<subsection id="H6B90FD62DD3848909144DDE5564A91FC" class="indent0"><content>Article of Impeachment exhibited by the House of Representatives of the United States, in the name of itself, of the people of the United States, against Donald John Trump, President of the United States, in maintenance and support of its impeachment against him for high misdemeanors committed as President constituting harm to American society to the manifest injury of the people of the United States:</content></subsection></section>
+<section id="H70D74E298BF84BEE86E88675F0EBF50E"><heading><inline class="smallCaps">article i</inline></heading><chapeau>The House of Representatives on July 16, 2019, strongly condemned President Donald Trump’s racist comments that have legitimized and increased fear and hatred of new Americans and people of color by saying that our fellow Americans who are immigrants, and those who may look to the President like immigrants, should “go back” to other countries, by referring to immigrants and asylum seekers as “invaders”, and by saying that Members of Congress who are immigrants, or those of our colleagues who are wrongly assumed to be immigrants, do not belong in Congress or the United States of America.</chapeau>
+<subsection id="H1DC141D908D34188B71E06C39A8976E1" class="indent0"><content>In all of this, the aforementioned Donald John Trump has, by his statements, brought the high office of the President of the United States in contempt, ridicule, disgrace, and disrepute, has sown seeds of discord among the people of the United States, has demonstrated that he is unfit to be President, and has betrayed his trust as President of the United States to the manifest injury of the people of the United States, and has committed a high misdemeanor in office.</content></subsection></section>
+<section id="H352F27C20D2B4932A481D976DB47477C">
+<subsection id="H3AF0CF2D8E514483AC9B18F6425F56CA" class="indent0"><content>Therefore, Donald John Trump by causing such harm to the society of the United States is unfit to be President and warrants impeachment, trial, and removal from office.</content></subsection></section></main><endMarker>○</endMarker></resolution>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><bill xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="A1"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 S 1029 RFH: To allow the use of certified facility dogs in criminal proceedings in Federal courts, and for other purposes.</dc:title>
+<dc:type>Senate Bill</dc:type>
+<docNumber>1029</docNumber>
+<citableAs>116 S 1029 RFH</citableAs>
+<citableAs>116s1029rfh</citableAs>
+<citableAs>116 S. 1029 RFH</citableAs>
+<docStage>Referred in House</docStage>
+<currentChamber>HOUSE</currentChamber>
+<dc:creator>United States House of Representatives</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>1</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine> S 1029 RFH</slugLine>
+<distributionCode display="yes">IC</distributionCode>
+<congress value="116">116th CONGRESS</congress>
+<session value="1">1st Session</session>
+<dc:type>S. </dc:type>
+<docNumber>1029</docNumber>
+<currentChamber value="HOUSE">IN THE HOUSE OF REPRESENTATIVES</currentChamber>
+<action><date><inline class="smallCaps">December </inline>23, 2019</date><actionDescription>Referred to the <committee committeeId="HJU00">Committee on the Judiciary</committee></actionDescription></action></preface>
+<main styleType="OLC"><longTitle><docTitle>AN ACT</docTitle><officialTitle>To allow the use of certified facility dogs in criminal proceedings in Federal courts, and for other purposes.</officialTitle></longTitle><enactingFormula><i>Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, </i></enactingFormula>
+<section identifier="/us/bill/116/s/1029/s1" id="id3C61555B1F7C4F1D95E24A9604C599F9"><num value="1">SECTION 1. </num><heading>SHORT TITLE.</heading><content class="block">This Act may be cited as the “<shortTitle role="act">Courthouse Dogs Act</shortTitle>”.</content></section>
+<section identifier="/us/bill/116/s/1029/s2" id="id07c629be87704040870ec6fceb27a422"><num value="2">SEC. 2. </num><heading>USE OF CERTIFIED FACILITY DOG FOR TESTIMONY IN CRIMINAL PROCEEDINGS.</heading>
+<subsection role="instruction" identifier="/us/bill/116/s/1029/s2/a" id="idBC8509AEE3534085A8579EF45C16E577" class="indent0"><num value="a">(a) </num><heading><inline class="smallCaps">In General</inline>.—</heading><content><ref href="/us/usc/t18/ch223">Chapter 223 of title 18, United States Code</ref>, <amendingAction type="amend">is amended</amendingAction> by <amendingAction type="insert">inserting</amendingAction> after section 3502 the following:
+<quotedContent id="id98A2B0105BB74F30ACABC77510201870" styleType="USC">
+<section id="id5CDB98EBDF734A16A137F7B0CAFDEBBB"><num value="3503">“§ 3503. </num><heading>Use of certified facility dog for testimony in criminal proceedings</heading>
+<subsection role="definitions" id="idAEA7A69637C3438BBBA14B1D53D3B12E" class="indent0"><num value="a">“(a) </num><heading><inline class="smallCaps">Defined Term</inline>.—</heading><chapeau>In this section, the term ‘<term>certified facility dog</term>’ means a dog that has graduated from an assistance dog organization that is a member of an internationally recognized assistance dog association that has a primary purpose of granting accreditation based on standards of excellence in areas of—</chapeau>
+<paragraph id="id15B34CDD118C44DF8DD121AADFECA437" class="indent1"><num value="1">“(1) </num><content>assistance dog acquisition;</content></paragraph>
+<paragraph id="idC2558DA397DE4B078B49FC65FE52D009" class="indent1"><num value="2">“(2) </num><content>dog training;</content></paragraph>
+<paragraph id="idFE3B4FD3C4774D86BB982E238D75E417" class="indent1"><num value="3">“(3) </num><content>dog handler training; and</content></paragraph>
+<paragraph id="idAE0A317F080D4BF9BF6801632FF79CE5" class="indent1"><num value="4">“(4) </num><content>dog placement.</content></paragraph></subsection>
+<subsection id="ida07296b1f71a4ce1a2c258b3731168cc" class="indent0"><num value="b">“(b) </num><heading><inline class="smallCaps">Requests for Use of Certified Facility Dogs</inline>.—</heading><chapeau>Either party in a criminal proceeding in a Federal court may apply for an order from the court to allow a certified facility dog, if available, to be present with a witness testifying before the court through—</chapeau>
+<paragraph id="id51A7DA9634DA42D39C2D76115000686F" class="indent1"><num value="1">“(1) </num><content>in-person testimony; or</content></paragraph>
+<paragraph id="id1521E3CFC3964780BB68B02D31965F6F" class="indent1"><num value="2">“(2) </num><content>testimony televised by 2-way, closed-circuit television.</content></paragraph></subsection>
+<subsection id="id9387c70f9dde47fc8b796223a3697b59" class="indent0"><num value="c">“(c) </num><heading><inline class="smallCaps">Conditions for Approval</inline>.—</heading><chapeau>A Federal court may enter an order authorizing an available certified facility dog to accompany a witness while testifying at a hearing in accordance with subsection (b) if the court finds that—</chapeau>
+<paragraph id="idf04e7c6feb0e410cbbcd070cf5fecb0f" class="indent1"><num value="1">“(1) </num><content>the dog to be used qualifies as a certified facility dog;</content></paragraph>
+<paragraph id="idc7d1f56b94484d30a78756982abedb3a" class="indent1"><num value="2">“(2) </num><content>the use of a certified facility dog will aid the witness in providing testimony; and</content></paragraph>
+<paragraph id="idCDE843F52F9C493697FD7996317B6525" class="indent1"><num value="3">“(3) </num><content>upon a showing by the party seeking an order under subsection (b), the certified facility dog is insured for liability protection.</content></paragraph></subsection>
+<subsection id="id08A7EF2FFFAF4F0EBD75B70ABF2B6E5C" class="indent0"><num value="d">“(d) </num><heading><inline class="smallCaps">Handlers</inline>.—</heading><chapeau>Each certified facility dog authorized to accompany a witness under subsection (c) shall be accompanied by a handler who is—</chapeau>
+<paragraph id="id65179FDADE9D49149DB54B619F3B6DD4" class="indent1"><num value="1">“(1) </num><content>trained to manage the certified facility dog by an assistance dog organization described in subsection (a); and</content></paragraph>
+<paragraph id="id6DEA165611E3499B93B0370149197274" class="indent1"><num value="2">“(2) </num><content>a professional working in the legal system with knowledge about the legal and criminal justice processes.</content></paragraph></subsection>
+<subsection id="ide1914946ec994c98a945e2934e2373a6" class="indent0"><num value="e">“(e) </num><heading><inline class="smallCaps">Deadline</inline>.—</heading><content>The party seeking an order under subsection (b) shall apply for such order not later than 14 days before the preliminary hearing, trial date, or other hearing to which the order is to apply.</content></subsection>
+<subsection id="id90d30653847d4fbdba962e0367fcadf1" class="indent0"><num value="f">“(f) </num><heading><inline class="smallCaps">Other Orders</inline>.—</heading><content>A Federal court may make such orders as may be necessary to preserve the fairness of the proceeding, including imposing restrictions on, and instructing the jury regarding, the presence of the certified facility dog during the proceedings.</content></subsection>
+<subsection id="id2f683bbb30a54d5996e1a124ccb79577" class="indent0"><num value="g">“(g) </num><heading><inline class="smallCaps">Savings Provision</inline>.—</heading><content>Nothing in this section may be construed to prevent a Federal court from providing any other accommodations to a witness in accordance with applicable law.”</content></subsection></section></quotedContent><inline role="after-quoted-block">.</inline></content></subsection>
+<subsection role="instruction" identifier="/us/bill/116/s/1029/s2/b" id="id9980355505254F6EA251EDD478AD1625" class="indent0"><num value="b">(b) </num><heading><inline class="smallCaps">Clerical Amendment</inline>.—</heading><content>The chapter analysis for <ref href="/us/usc/t18/ch223">chapter 223 of title 18, United States Code</ref>, <amendingAction type="amend">is amended</amendingAction> by <amendingAction type="insert">inserting</amendingAction> after the item relating to section 3502 the following:
+<quotedContent id="id4f82715e-4f46-4dc7-b244-06aa8c82554d" styleType="USC">
+<toc>
+<referenceItem idref="id5CDB98EBDF734A16A137F7B0CAFDEBBB" role="section">
+<designator>“3503. </designator><label>Use of certified facility dog for testimony in criminal proceedings.”</label>
+</referenceItem></toc></quotedContent><inline role="after-quoted-block">.</inline></content></subsection></section></main>
+<attestation><action><actionDescription>Passed the Senate </actionDescription><date date="2019-12-19" meta="chamber:Senate">December 19, 2019</date>.</action>
+<signatures>
+<signature><notation type="attestation">Attest: </notation><name>JULIE E. ADAMS,</name><role>Secretary</role>.</signature></signatures></attestation></bill>

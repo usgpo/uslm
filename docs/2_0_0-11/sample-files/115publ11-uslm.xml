@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><pLaw xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.0.3.xsd" xml:lang="en" class="mimicGPOPrint">
+
+<?I97 131 STAT. ?>
+<?I98 131 STAT. ?>
+<?I99 131 STAT. ?>
+<?I50 PUBLIC LAW 115–11—MAR. 27, 2017?>
+<?I51 PUBLIC LAW 115–11—MAR. 27, 2017?>
+<?I52 PUBLIC LAW 115–11—MAR. 27, 2017?>
+
+<meta><dc:title>Public Law 115–11: Disapproving the rule submitted by the Department of Defense, the General Services Administration, and the National Aeronautics and Space Administration relating to the Federal Acquisition Regulation.</dc:title><dc:type>Public Law</dc:type><docNumber>11</docNumber><citableAs>Public Law 115–11</citableAs><citableAs>131 Stat. 75</citableAs><dc:publisher>United States Government Publishing Office</dc:publisher><dc:creator>National Archives and Records Administration</dc:creator><dc:creator>Office of the Federal Register</dc:creator><dc:format>text/xml</dc:format><dc:language>EN</dc:language><dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<processedBy>GPO Locator to USLM Converter 3.2.6;Stage2.20181004</processedBy><processedDate>2018-10-04</processedDate>
+<congress>115</congress><publicPrivate>public</publicPrivate></meta>
+<preface><page>131 STAT. 75</page><dc:type>Public Law</dc:type><docNumber>115–11</docNumber><congress value="115">115th Congress</congress></preface>
+<main>
+<longTitle>
+<docTitle>Joint Resolution</docTitle>
+<officialTitle>Disapproving the rule submitted by the Department of Defense, the General Services Administration, and the National Aeronautics and Space Administration relating to the Federal Acquisition Regulation.</officialTitle><sidenote><p style="-uslm-lc:I658076" class="centered">Mar. 27, 2017</p><p style="-uslm-lc:I658076" class="centered">[<ref href="/us/bill/115/hjres/37">H.J. Res. 37</ref>]<?GPOvSpace 08?></p></sidenote>
+</longTitle>
+<resolvingClause class="indent0 firstIndent0 fontsize10" style="-uslm-lc:I658120">  Resolved by the Senate and House of Representatives of the United States of America in Congress assembled,</resolvingClause>
+<section class="inline">
+<content class="inline"> That Congress disapproves the rule submitted by the Department of Defense, the General Services Administration, and the National Aeronautics and Space Administration relating to the Federal Acquisition Regulation (published at <ref href="/us/fr/81/58562">81 Fed. Reg. 58562</ref> (August 25, 2016)), and such rule shall have no force or effect.</content>
+</section>
+<action>
+<actionDescription style="-uslm-lc:I658030">Approved March 27, 2017.</actionDescription></action>
+</main>
+<legislativeHistory>
+<heading style="-uslm-lc:I658031"><inline class="underline">LEGISLATIVE HISTORY</inline>—<ref href="/us/bill/115/hjres/37">H.J. Res. 37</ref>:</heading>
+<note>
+<heading style="-uslm-lc:I658032">CONGRESSIONAL RECORD, Vol. 163 (2017):</heading>
+<p style="-uslm-lc:I658035" class="indent4 firstIndent-1">Feb. 2, considered and passed House.</p><p style="-uslm-lc:I658035" class="indent4 firstIndent-1">Mar. 2, 6, considered and passed Senate.</p></note>
+<note>
+<heading style="-uslm-lc:I658032">DAILY COMPILATION OF PRESIDENTIAL DOCUMENTS (2017):</heading>
+<p style="-uslm-lc:I658035" class="indent4 firstIndent-1">Mar. 27, Presidential remarks.</p></note>
+</legislativeHistory>
+<endMarker>○</endMarker>
+</pLaw>

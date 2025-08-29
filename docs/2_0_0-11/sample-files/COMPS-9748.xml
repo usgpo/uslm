@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="uslm.css"?><statuteCompilation xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpo="http://www.gpo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.0.9.xsd" xml:lang="en" style="-uslm-dtd:statute">
+    <meta style="-uslm-dtd:compilation-act-form">
+        <dc:title>Consumer Product Safety Improvement Act of 2008</dc:title>
+        <citableAs>Public Law 110–314, as amended</citableAs>
+        <citableAsShortTitle>Consumer Product Safety Improvement Act of 2008</citableAsShortTitle>
+        <docNumber>314</docNumber>
+        <currentThroughPublicLaw>112–28</currentThroughPublicLaw>
+        <dc:type>Statute Compilation</dc:type>
+        <dc:creator>United States House of Representatives</dc:creator>
+        <dc:creator>Office of the Legislative Counsel</dc:creator>
+        <dc:format>text/xml</dc:format>
+        <dc:language>EN</dc:language>
+        <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+        <processedBy>GPO Statute Compilations USLM converter, version 20210520.1</processedBy>
+        <processedDate>2021-05-25</processedDate>
+        <containsShortTitle>Consumer Product Safety Improvement Act of 2008</containsShortTitle>
+        <containsShortTitle>Danny Keysar Child Product Safety Notification Act</containsShortTitle>
+        <property role="fileId">9748</property>
+        <congress>110</congress>
+        <approvedDate>2008-08-14</approvedDate>
+    </meta>
+    <preface style="-uslm-dtd:compilation-act-form">
+        <property style="-uslm-dtd:comp-short-title" role="compShortTitle">Consumer Product Safety Improvement Act of 2008</property>
+        <citationNote style="-uslm-dtd:public-law">[(<citableAs>Public Law 110–314</citableAs>)]</citationNote>
+        <editionNote style="-uslm-dtd:updated-through-note">[As Amended Through <currentThroughPublicLaw>P.L. 112–28</currentThroughPublicLaw>, Enacted <date date="2011-08-12">August 12, 2011</date>]</editionNote>
+        <explanationNote style="-uslm-dtd:explanatory-note"><b>[</b>Currency: This publication is a compilation of the text of Public Law 110–314. It was last amended by the public law listed in the As Amended Through note above and below at the bottom of each page of the pdf version and reflects current law through the date of the enactment of the public law listed at https://www.govinfo.gov/app/collection/comps/<b>]</b></explanationNote>
+        <explanationNote style="-uslm-dtd:explanatory-note"><b>[</b>Note: While this publication does  not represent an official version of any Federal statute, substantial efforts have been made to ensure the accuracy of its contents. The official version of Federal law is found in the United States Statutes at Large and in the United States Code. The legal effect to be given to the Statutes at Large and the United States Code is established by statute (1 U.S.C. 112, 204).<b>]</b></explanationNote>
+    </preface>
+    <main style="-uslm-dtd:legis-body"><longTitle><docTitle style="-uslm-dtd:legis-type">AN ACT</docTitle><officialTitle style="-uslm-dtd:official-title">To establish consumer product safety standards and other safety requirements for children’s products and to reauthorize and modernize the Consumer Product Safety Commission.</officialTitle></longTitle><enactingFormula style="-uslm-dtd:enacting-clause">
+Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,
+</enactingFormula>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/110/314/s1" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="1">SECTION 1. </num><heading style="-uslm-dtd:header">SHORT TITLE; TABLE OF CONTENTS. </heading>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/s1/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t15/s2051">15 U.S.C. 2051 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Short Title.—</heading><content style="-uslm-dtd:text">This Act may be cited as the “<shortTitle style="-uslm-dtd:quote"><inline style="-uslm-dtd:short-title">Consumer Product Safety Improvement Act of 2008</inline></shortTitle>”.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/s1/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Table of Contents.—</heading><content style="-uslm-dtd:text">The table of contents for this Act is as follows:<toc style="-uslm-dtd:toc">
+                <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 1.</designator><label> Short title; table of contents.</label></referenceItem>
+                <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 2.</designator><label> References.</label></referenceItem>
+                <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 3.</designator><label> Authority to issue implementing regulations.</label></referenceItem>
+                <groupItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="title"><designator>TITLE I—</designator><label>CHILDREN’S PRODUCT SAFETY</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 101.</designator><label> Children’s products containing lead; lead paint rule.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 102.</designator><label> Mandatory third party testing for certain children’s products.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 103.</designator><label> Tracking labels for children’s products.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 104.</designator><label> Standards and consumer registration of durable nursery products.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 105.</designator><label> Labeling requirement for advertising toys and games.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 106.</designator><label> Mandatory toy safety standards.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 107.</designator><label> Study of preventable injuries and deaths in minority children related to consumer products.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 108.</designator><label> Prohibition on sale of certain products containing specified phthalates.</label></referenceItem>
+                </groupItem>
+                <groupItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="title"><designator>TITLE II—</designator><label>CONSUMER PRODUCT SAFETY COMMISSION REFORM</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="subtitle"><designator>Subtitle A—</designator><label>Administrative Improvements</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 201.</designator><label> Reauthorization of the Commission.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 202.</designator><label> Full Commission requirement; interim quorum; personnel.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 203.</designator><label> Submission of copy of certain documents to Congress.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 204.</designator><label> Expedited rulemaking.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 205.</designator><label> Inspector general audits and reports.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 206.</designator><label> Industry-sponsored travel ban.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 207.</designator><label> Sharing of information with Federal, State, local, and foreign government agencies.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 208.</designator><label> Employee training exchanges.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 209.</designator><label> Annual reporting requirement.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="subtitle"><designator>Subtitle B—</designator><label>Enhanced Enforcement Authority</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 211.</designator><label> Public disclosure of information.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 212.</designator><label> Establishment of a public consumer product safety database.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 213.</designator><label> Prohibition on stockpiling under other Commission-enforced statutes.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 214.</designator><label> Enhanced recall authority and corrective action plans.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 215.</designator><label> Inspection of firewalled conformity assessment bodies; identification of supply chain.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 216.</designator><label> Prohibited acts.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 217.</designator><label> Penalties.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 218.</designator><label> Enforcement by State attorneys general.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 219.</designator><label> Whistleblower protections. </label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="subtitle"><designator>Subtitle C—</designator><label>Specific Import-Export Provisions</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 221.</designator><label> Export of recalled and non-conforming products.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 222.</designator><label> Import safety management and interagency cooperation.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 223.</designator><label> Substantial product hazard list and destruction of noncompliant imported products.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 224.</designator><label> Financial responsibility.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 225.</designator><label> Study and report on effectiveness of authorities relating to safety of imported consumer products.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="subtitle"><designator>Subtitle D—</designator><label>Miscellaneous Provisions and Conforming Amendments</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 231.</designator><label> Preemption.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 232.</designator><label> All-terrain vehicle standard.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 233.</designator><label> Cost-benefit analysis under the Poison Prevention Packaging Act of 1970.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 234.</designator><label> Study on use of formaldehyde in manufacturing of textile and apparel articles.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 235.</designator><label> Technical and conforming changes.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 236.</designator><label> Expedited judicial review.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 237.</designator><label> Repeal.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 238.</designator><label> Pool and Spa Safety Act technical amendments.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 239.</designator><label> Effective dates and Severability.</label></referenceItem>
+                </groupItem></toc></content>
+            </subsection>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/110/314/s2" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="2">SEC. 2. </num><heading style="-uslm-dtd:header">REFERENCES. </heading>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/s2/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t15/s2051">15 U.S.C. 2051 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Defined Terms.—</heading><chapeau style="-uslm-dtd:text">As used in this Act—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/s2/a/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">the term “<quotedText style="-uslm-dtd:quote">appropriate Congressional committees</quotedText>” means the Committee on Energy and Commerce of the House of Representatives and the Committee on Commerce, Science, and Transportation of the Senate; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/s2/a/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">the term “<quotedText style="-uslm-dtd:quote">Commission</quotedText>” means the Consumer Product Safety Commission.</content>
+                </paragraph>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/s2/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Consumer Product Safety Act.—</heading><content style="-uslm-dtd:text">Except as otherwise expressly provided, whenever in this Act an amendment is expressed as an amendment to a section or other provision, the reference shall be considered to be made to a section or other provision of the Consumer Product Safety Act (15 U.S.C. 2051 et seq.).</content>
+            </subsection>
+        </section>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/110/314/s3" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="3">SEC. 3. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t15/s2051">15 U.S.C. 2051 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">AUTHORITY TO ISSUE IMPLEMENTING REGULATIONS. </heading>
+            <content style="-uslm-dtd:text" class="block">The Commission may issue regulations, as necessary, to implement this Act and the amendments made by this Act.</content>
+        </section>
+        <title style="-uslm-dtd:title" identifier="/us/sComp/110/314/tI" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="I">TITLE I—</num><heading style="-uslm-dtd:header">CHILDREN’S PRODUCT SAFETY </heading>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/110/314/tI/s101" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="101">SEC. 101. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t15/s1278a">15 U.S.C. 1278a</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">CHILDREN’S PRODUCTS CONTAINING LEAD; LEAD PAINT RULE. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s101/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">General Lead Ban.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Treatment as a banned hazardous substance.—</heading><content style="-uslm-dtd:text">Except as expressly provided in subsection (b) beginning on the dates provided in paragraph (2), any children’s product (as defined in section 3(a) of the Consumer Product Safety Act (15 U.S.C. 2052(a))) that contains more lead than the limit established by paragraph (2) shall be treated as a banned hazardous substance under the Federal Hazardous Substances Act (15 U.S.C. 1261 et seq.).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Lead limit.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/a/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">600 parts per million.—</heading><content style="-uslm-dtd:text">Except as provided in subparagraphs (B), (C), (D), and (E), beginning 180 days after the date of enactment of this Act, the lead limit referred to in paragraph (1) is 600 parts per million total lead content by weight for any part of the product.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/a/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">300 parts per million.—</heading><content style="-uslm-dtd:text">Except as provided by subparagraphs (C), (D), and (E), beginning on the date    that is 1 year after the date of enactment of this Act, the lead limit referred to in paragraph (1) is 300 parts per million total lead content by weight for any part of the product.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/a/2/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">100 parts per million.—</heading><content style="-uslm-dtd:text">Except as provided in subparagraphs (D) and (E), beginning on the date that is 3 years after the date of enactment of this Act, subparagraph (B) shall be applied by substituting “<quotedText style="-uslm-dtd:quote">100 parts per million</quotedText>” for “<quotedText style="-uslm-dtd:quote">300 parts per million</quotedText>” unless the Commission determines that a limit of 100 parts per million is not technologically feasible for a product or product category. The Commission may make such a determination only after notice and a hearing and after analyzing the public health protections associated with substantially reducing lead in children’s products.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/a/2/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><heading style="-uslm-dtd:header">Alternate reduction of limit.—</heading><content style="-uslm-dtd:text">If the Commission determines under subparagraph (C) that the 100 parts per million limit is not technologically feasible for a product or product category, the Commission shall, by regulation, establish an amount that is the lowest amount of lead, lower than 300 parts per million, the Commission determines to be technologically feasible to achieve for that product or product category. The amount of lead established by the Commission under the preceding sentence shall be substituted for the 300 parts per million limit under subparagraph (B) beginning on the date that is 3 years after the date of enactment of this Act.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/a/2/E" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="E">(E) </num><heading style="-uslm-dtd:header">Periodic review and further reductions.—</heading><content style="-uslm-dtd:text">The Commission shall, based on the best available scientific and technical information, periodically review and revise downward the limit set forth in this subsection, no less frequently than every 5 years after promulgation of the limit under subparagraph (C) or (D) to require the lowest amount of lead that the Commission determines is technologically feasible to achieve. The amount of lead established by the Commission under the preceding sentence shall be substituted for the lead limit in effect immediately before such revision.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/a/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Application.—</heading><content style="-uslm-dtd:text">Each limit set forth in paragraph (2) (except for the limit set forth in subparagraphs (A) and (B)) shall apply only to a children’s product (as defined in section 3(a) of the Consumer Product Safety Act (15 U.S.C. 2052(a))) that is manufactured after the effective date of such respective limit.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s101/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Exclusion of Certain Materials or Products and Inaccessible Component Parts.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Functional purpose exception.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><chapeau style="-uslm-dtd:text">The Commission, on its own initiative or upon petition by an interested party, shall grant an exception to the limit in subsection (a) for a specific product, class of product, material, or component part if the Commission, after notice and a hearing, determines that—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/A/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">the product, class of product, material, or component part requires the inclusion of lead because it is not practicable or not technologically feasible to manufacture such product, class of product, material, or component part, as the case may be, in accordance with subsection (a) by removing the excessive lead or by making the lead inaccessible;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/A/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">the product, class of product, material, or component part is not likely to be placed in the mouth or ingested, taking into account normal and reasonably foreseeable use and abuse of such product, class of product, material, or component part by a child; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/A/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">an exception for the product, class of product, material, or component part will have no measurable adverse effect on public health or safety, taking into account normal and reasonably foreseeable use and abuse.</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Measurement.—</heading><content style="-uslm-dtd:text">For purposes of subparagraph (A)(iii), there is no measurable adverse effect on public health or safety if the exception described in subparagraph (A) will result in no measurable increase in blood lead levels of a child. The Commission may adopt an alternative method of measurement other than blood lead levels if it determines, after notice and a hearing, that such alternative method is a better scientific method for measuring adverse effect on public health and safety.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Procedures for granting exception.—</heading>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/C/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><heading style="-uslm-dtd:header">Burden of proof.—</heading><content style="-uslm-dtd:text">A party seeking an exception under subparagraph (A) has the burden of demonstrating that it meets the requirements of such subparagraph.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/C/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><heading style="-uslm-dtd:header">Grounds for decision.—</heading><content style="-uslm-dtd:text">In the case where a party has petitioned for an exception, in determining whether to grant the exception, the Commission may base its decision solely on the materials presented by the party seeking the exception and any materials received through notice and a hearing.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/C/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><heading style="-uslm-dtd:header">Admissible evidence.—</heading><content style="-uslm-dtd:text">In demonstrating that it meets the requirements of subparagraph (A), a party seeking an exception under such subparagraph may rely on any nonproprietary information submitted by any other party seeking such an exception and such information shall be considered part of the record presented by the party that relies on that information.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/C/iv" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iv">(iv) </num><heading style="-uslm-dtd:header">Scope of exception.—</heading><content style="-uslm-dtd:text">If an exception is sought for an entire product, the burden is on the petitioning party to demonstrate that the criteria in subparagraph (A) are met with respect to every accessible component or accessible material of the product.</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/1/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><heading style="-uslm-dtd:header">Limitation on exception.—</heading><chapeau style="-uslm-dtd:text">If the Commission grants an exception for a product, class of product, material, or component part under subparagraph (A), the Commission may, as necessary to protect public health or safety—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/D/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">establish a lead limit that such product, class of product, material, or component part may not exceed; or</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/1/D/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">place a manufacturing expiration date on such exception or establish a schedule after which the manufacturer of such product, class of product, material, or component part shall be in full compliance with the limit established under clause (i) or the limit set forth in subsection (a).</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/1/E" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="E">(E) </num><heading style="-uslm-dtd:header">Application of exception.—</heading><content style="-uslm-dtd:text">An exception under subparagraph (A) for a product, class of product, material, or component part shall apply regardless of the date of manufacture unless the Commission expressly provides otherwise.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/1/F" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="F">(F) </num><heading style="-uslm-dtd:header">Previously submitted petitions.—</heading><content style="-uslm-dtd:text">A party seeking an exception under this paragraph may rely on materials previously submitted in connection with a petition for exclusion under this section. In such cases, petitioners must notify the Commission of their intent to rely on materials previously submitted. Such reliance does not affect petitioners’ obligation to demonstrate that they meet all requirements of this paragraph as required by subparagraph (C)(i).</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Exception for inaccessible component parts.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The limits established under subsection (a) shall not apply to any component part of a children’s product that is not accessible to a child through normal and reasonably foreseeable use and abuse of such product, as determined by the Commission. A component part is not accessible under this subparagraph if such component part is not physically exposed by reason of a sealed covering or casing and does not become physically exposed through reasonably foreseeable use and abuse of the product. Reasonably foreseeable use and abuse shall include swallowing, mouthing, breaking, or other children’s activities, and the aging of the product.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Inaccessibility proceeding.—</heading><content style="-uslm-dtd:text">Within 1 year after the date of enactment of this Act, the Commission shall promulgate a rule providing guidance with respect to what product components, or classes of components, will be considered to be inaccessible for purposes of subparagraph (A).</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/2/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Application pending cpsc guidance.—</heading><content style="-uslm-dtd:text">Until the Commission promulgates a rule pursuant to subparagraph (B), the determination of whether a product component is inaccessible to a child shall be made in accordance with the requirements laid out in subparagraph (A) for considering a component to be inaccessible to a child.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Certain barriers disqualified.—</heading><content style="-uslm-dtd:text">For purposes of this subsection, paint, coatings, or electroplating may not be considered to be a barrier that would render lead in the substrate inaccessible to a child, or to prevent absorption of any lead into the human body, through normal and reasonably foreseeable use and abuse of the product.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/b/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Certain electronic devices.—</heading><chapeau style="-uslm-dtd:text">If the Commission determines that it is not technologically feasible for certain electronic devices, including devices containing batteries, to comply with subsection (a), the Commission, by regulation, shall—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/4/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">issue requirements to eliminate or minimize the potential for exposure to and accessibility of lead in such electronic devices, which may include requirements that such electronic devices be equipped with a child-resistant cover or casing that prevents exposure to and accessibility of the parts of the product containing lead; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/4/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">establish a schedule by which such electronic devices shall be in full compliance with the limits in subsection (a), unless the Commission determines that full compliance will not be technologically feasible for such devices within a schedule set by the Commission.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/b/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5) </num><heading style="-uslm-dtd:header">Exception for off-highway vehicles.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/5/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Subsection (a) shall not apply to an off-highway vehicle.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/5/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Off-highway vehicle defined.—</heading><chapeau style="-uslm-dtd:text">For purposes of this section, the term “<term style="-uslm-dtd:term">off-highway vehicle</term>”—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/5/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><chapeau style="-uslm-dtd:text">means any motorized vehicle—</chapeau>
+                                <subclause style="-uslm-dtd:subclause" identifier="/us/sComp/110/314/tI/s101/b/5/B/i/I" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="I">(I) </num><content style="-uslm-dtd:text">that is manufactured primarily for use off public streets, roads, and highways;</content>
+                                </subclause>
+                                <subclause style="-uslm-dtd:subclause" identifier="/us/sComp/110/314/tI/s101/b/5/B/i/II" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="II">(II) </num><content style="-uslm-dtd:text">designed to travel on 2, 3, or 4 wheels; and</content>
+                                </subclause>
+                                <subclause style="-uslm-dtd:subclause" identifier="/us/sComp/110/314/tI/s101/b/5/B/i/III" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="III">(III) </num><chapeau style="-uslm-dtd:text">that has either—</chapeau>
+                                    <item style="-uslm-dtd:item" identifier="/us/sComp/110/314/tI/s101/b/5/B/i/III/aa" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="aa">(aa) </num><content style="-uslm-dtd:text">a seat designed to be straddled by the operator and handlebars for steering control; or</content>
+                                    </item>
+                                    <item style="-uslm-dtd:item" identifier="/us/sComp/110/314/tI/s101/b/5/B/i/III/bb" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="bb">(bb) </num><content style="-uslm-dtd:text">a nonstraddle seat, steering wheel, seat belts, and roll-over protective structure; and</content>
+                                    </item>
+                                </subclause>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/5/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">includes a snowmobile.</content>
+                            </clause>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/b/6" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="6">(6) </num><heading style="-uslm-dtd:header">Bicycles and related products.—</heading><content style="-uslm-dtd:text">In lieu of the lead limits established in subsection (a)(2), the limits set forth for each respective material in the notice of the Commission entitled “<quotedText style="-uslm-dtd:quote">Notice of Stay of Enforcement Pertaining to Bicycles and Related Products</quotedText>”, published June 30, 2009 (74 Fed. Reg. 31254), shall apply to any metal component part of the products to which the stay of enforcement described in such notice applies, except that after December 31, 2011, the limits set forth in such notice shall not be more than 300 parts per million total lead content by weight for any metal component part of the products to which such stay pertains.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/b/7" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="7">(7) </num><heading style="-uslm-dtd:header">Exclusion of certain used children’s products.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/7/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">General exclusion.—</heading><content style="-uslm-dtd:text">The lead limits established under subsection (a) shall not apply to a used children’s product.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/b/7/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Definition.—</heading><chapeau style="-uslm-dtd:text">In this paragraph, the term “<term style="-uslm-dtd:term">used children’s product</term>” means a children’s product (as defined in section 3(a) of the Consumer Product Safety Act (15 U.S.C. 2052(a)) that was obtained by the seller for use and not for the purpose of resale or was obtained by the seller, either directly or indirectly, from a person who obtained such children’s product for use and not for the purpose of resale. Such term also includes a children’s product that was donated to the seller for charitable distribution or resale to support charitable purposes. Such term shall not include—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/7/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">children’s metal jewelry; </content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/7/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">any children’s product for which the donating party or the seller has actual knowledge that the product is in violation of the lead limits in this section; or</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s101/b/7/B/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">any other children’s product or product category that the Commission determines, after notice and a hearing.</content>
+                            </clause><continuation style="-uslm-dtd:continuation-text" role="subparagraph">For purposes of this definition, the term “<term style="-uslm-dtd:term">seller</term>” includes a person who lends or donates a used children’s product.</continuation>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/b/8" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="8">(8) </num><heading style="-uslm-dtd:header">Periodic review.—</heading><content style="-uslm-dtd:text">The Commission shall, based on the best available scientific and technical information, periodically review and revise the regulations promulgated pursuant to this subsection no less frequently than every 5 years after the first promulgation of a regulation under this subsection to make them more stringent and to require the lowest amount of lead the Commission determines is technologically feasible to achieve.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s101/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Application With ASTM F963.—</heading><content style="-uslm-dtd:text">To the extent that any regulation promulgated by the Commission under this section (or any section of the Consumer Product Safety Act or any other Act enforced by the Commission, as such Acts are affected by this section) is inconsistent with the ASTM F963 standard, such    promulgated regulation shall supersede the ASTM F963 standard to the extent of the inconsistency.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s101/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Technological Feasibility Defined.—</heading><chapeau style="-uslm-dtd:text">For purposes of this section, a limit shall be deemed technologically feasible with regard to a product or product category if—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">a product that complies with the limit is commercially available in the product category;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">technology to comply with the limit is commercially available to manufacturers or is otherwise available within the common meaning of the term;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/d/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">industrial strategies or devices have been developed that are capable or will be capable of achieving such a limit by the effective date of the limit and that companies, acting in good faith, are generally capable of adopting; or</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/d/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">alternative practices, best practices, or other operational changes would allow the manufacturer to comply with the limit.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s101/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Pending Rulemaking Proceedings To Have No Effect.—</heading><chapeau style="-uslm-dtd:text">The pendency of a rulemaking proceeding to consider—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/e/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">a delay in the effective date of a limit or an alternate limit under this section related to technological feasibility,</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/e/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">an exception for certain products or materials or inaccessibility guidance under subsection (b) of this section, or</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/e/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">any other request for modification of or exemption from any regulation, rule, standard, or ban under this Act or any other Act enforced by the Commission,</content>
+                    </paragraph><continuation style="-uslm-dtd:continuation-text" role="subsection">shall not delay the effect of any provision or limit under this section nor shall it stay general enforcement of the requirements of this section.</continuation>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s101/f" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">More Stringent Lead Paint Ban.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/f/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Effective on the date that is 1 year after the date of enactment of this Act, the Commission shall modify section 1303.1 of its regulations (16 C.F.R. 1301.1) by substituting “<quotedText style="-uslm-dtd:quote">0.009 percent</quotedText>” for “<quotedText style="-uslm-dtd:quote">0.06 percent</quotedText>” in subsection (a) of that section.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/f/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Periodic review and reduction.—</heading><content style="-uslm-dtd:text">The Commission shall, no less frequently than every 5 years after the date on which the Commission modifies the regulations pursuant to paragraph (1), review the limit for lead in paint set forth in section 1303.1 of title 16, Code of Federal Regulations (as revised by paragraph (1)), and shall by regulation revise downward the limit to require the lowest amount of lead that the Commission determines is technologically feasible to achieve.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/f/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Methods for screening lead in small painted areas.—</heading><content style="-uslm-dtd:text">In order to provide for effective and efficient enforcement of the limit set forth in section 1303.1 of title 16, Code of Federal Regulations, the Commission may rely on x-ray fluorescence technology or other alternative methods for measuring lead in paint or other surface coatings on products subject to such section where the total weight of such paint or surface coating is no greater than 10 milligrams or where such paint or surface coating covers no more than 1 square centimeter of the surface area of such products. Such alternative methods for measurement shall not permit more than 2 micrograms of lead in a total weight of 10 milligrams or less of paint or other surface coating or in a surface area of 1 square centimeter or less.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/f/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Alternative methods of measuring lead in paint generally.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/f/4/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">Study.—</heading><content style="-uslm-dtd:text">Not later than 1 year after the date of enactment of this Act, the Commission shall complete a study to evaluate the effectiveness, precision, and reliability of x-ray fluorescence technology and other alternative methods for measuring lead in paint or other surface coatings when used on a children’s product or furniture article in order to determine compliance with part 1303 of title 16, Code of Federal Regulations, as modified pursuant to this subsection.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s101/f/4/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Rulemaking.—</heading><content style="-uslm-dtd:text">If the Commission determines, based on the study in subparagraph (A), that x-ray fluorescence technology or other alternative methods for measuring lead in paint are as effective, precise, and reliable as the methodology used by the Commission for compliance determinations prior to the date of enactment of this Act, the Commission may promulgate regulations governing the use of such methods in determining the compliance of products with part 1303 of title 16, Code of Federal Regulations, as modified pursuant to this subsection. Any regulations promulgated by the Commission shall ensure that such alternative methods are no less effective, precise, and reliable than the methodology used by the Commission prior to the date of enactment of this Act.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/f/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5) </num><heading style="-uslm-dtd:header">Periodic review.—</heading><content style="-uslm-dtd:text">The Commission shall, no less frequently than every 5 years after the Commission completes the study required by paragraph (4)(A), review and revise any methods for measurement utilized by the Commission pursuant to paragraph (3) or pursuant to any regulations promulgated under paragraph (4) to ensure that such methods are the most effective methods available to protect children’s health. The Commission shall conduct an ongoing effort to study and encourage the further development of alternative methods for measuring lead in paint and other surface coating that can effectively, precisely, and reliably detect lead levels at or below the level set forth in part 1303 of title 16, Code of Federal Regulations, or any lower level established by regulation.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/f/6" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="6">(6) </num><heading style="-uslm-dtd:header">No effect on legal limit.—</heading><content style="-uslm-dtd:text">Nothing in paragraph (3), nor reliance by the Commission on any alternative method of measurement pursuant to such paragraph, nor any rule prescribed pursuant to paragraph (4), nor any method established pursuant to paragraph (5) shall be construed to alter the limit set forth in section 1303 of title 16, Code of Federal Regulations, as modified pursuant to this subsection, or provide any exemption from such limit.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s101/f/7" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="7">(7) </num><heading style="-uslm-dtd:header">Construction.—</heading><content style="-uslm-dtd:text">Nothing in this subsection shall be construed to affect the authority of the Commission or any other person to use alternative methods for detecting lead as a screening method to determine whether further testing or action is needed.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s101/g" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="g">(g) </num><heading style="-uslm-dtd:header">Treatment as a Regulation Under the FHSA.—</heading><content style="-uslm-dtd:text">Any ban imposed by subsection (a) or rule promulgated under subsection (a) or (b) of this section, and section 1303.1 of title 16, Code of Federal Regulations (as modified pursuant to subsection (f)(1) or (2)), or any successor regulation, shall be considered a regulation of the Commission promulgated under or for the enforcement of    section 2(q) of the Federal Hazardous Substances Act (15 U.S.C. 1261(q)).</content>
+                </subsection>
+            </section>
+            <elided style="-uslm-dtd:omitted-text">* * * * * * *</elided>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/110/314/tI/s104" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="104">SEC. 104. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t15/s2056a">15 U.S.C. 2056a</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">STANDARDS AND CONSUMER REGISTRATION OF DURABLE NURSERY PRODUCTS. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s104/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Short Title.—</heading><content style="-uslm-dtd:text">This section may be cited as the “<shortTitle style="-uslm-dtd:quote"><inline style="-uslm-dtd:short-title">Danny Keysar Child Product Safety Notification Act</inline></shortTitle>”.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s104/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Safety Standards.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><chapeau style="-uslm-dtd:text">The Commission shall—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/b/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">in consultation with representatives of consumer groups, juvenile product manufacturers, and independent child product engineers and experts, examine and assess the effectiveness of any voluntary consumer product safety standards for durable infant or toddler products; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/b/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><chapeau style="-uslm-dtd:text">in accordance with section 553 of title 5, United States Code, promulgate consumer product safety standards that—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s104/b/1/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">are substantially the same as such voluntary standards; or</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s104/b/1/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">are more stringent than such voluntary standards, if the Commission determines that more stringent standards would further reduce the risk of injury associated with such products.</content>
+                            </clause>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Timetable for rulemaking.—</heading><content style="-uslm-dtd:text">Not later than 1 year after the date of enactment of this Act, the Commission shall    commence the rulemaking required under paragraph (1) and shall promulgate standards for no fewer than 2 categories of durable infant or toddler products every 6 months thereafter, beginning with the product categories that the Commission determines to be of highest priority, until the Commission has promulgated standards for all such product categories. Thereafter, the Commission shall periodically review and revise the standards set forth under this subsection to ensure that such standards provide the highest level of safety for such products that is feasible.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Judicial review.—</heading><content style="-uslm-dtd:text">Any person adversely affected by such standards may file a petition for review under the procedures set forth in section 11(g) of the Consumer Product Safety Act (15 U.S.C. 2060(g)), as added by section 236 of this Act.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/b/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Process for considering subsequent revisions to voluntary standard.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/b/4/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">Notice of adoption of voluntary standard.—</heading><content style="-uslm-dtd:text">When the Commission promulgates a consumer product safety standard under this subsection that is based, in whole or in part, on a voluntary standard, the Commission shall notify the organization that issued the voluntary standard of the Commission’s action and shall provide a copy of the consumer product safety standard to the organization. </content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/b/4/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Commission action on revised voluntary standard.—</heading><content style="-uslm-dtd:text">If an organization revises a standard that has been adopted, in whole or in part, as a consumer product safety standard under this subsection, it shall notify the Commission. The revised voluntary standard shall be considered to be a consumer product safety standard issued by the Commission under section 9 of the Consumer Product Safety Act (15 U.S.C. 2058), effective 180 days after the date on which the organization notifies the Commission (or such later date specified by the Commission in the Federal Register) unless, within 90 days after receiving that notice, the Commission notifies the organization that it has determined that the proposed revision does not improve the safety of the consumer product covered by the standard and that the Commission is retaining the existing consumer product safety standard.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s104/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Cribs.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/c/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">It shall be a violation of section 19(a)(1) of the Consumer Product Safety Act (15 U.S.C. 2068(a)(1)) for any person to which this subsection applies to manufacture, sell, contract to sell or resell, lease, sublet, offer, provide for use, or otherwise place in the stream of commerce a crib that is not in compliance with a standard promulgated under subsection (b).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/c/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Persons to which subsection applies.—</heading><chapeau style="-uslm-dtd:text">This subsection applies to any person that—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/c/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">manufactures, distributes in commerce, or contracts to sell cribs;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/c/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">based on the person’s occupation, holds itself out as having knowledge or skill peculiar to cribs, including child care facilities and family child care homes;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/c/2/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">is in the business of contracting to sell or resell, lease, sublet, or otherwise place cribs in the stream of commerce; or</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/c/2/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">owns or operates a place of public accommodation affecting commerce (as defined in section 4 of the Federal Fire Prevention and Control Act of 1974 (15 U.S.C. 2203) applied without regard to the phrase “<quotedText style="-uslm-dtd:quote">not owned by the Federal Government</quotedText>”).</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/c/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Application of any revision.—</heading><content style="-uslm-dtd:text">With respect to any revision of the standard promulgated under subsection (b)(1)(B) subsequent to the initial promulgation of a standard under such subsection, paragraph (1) shall apply only to a person that manufactures or imports cribs, unless the Commission determines that application to any other person described in paragraph (2) is necessary to protect against an unreasonable risk to health or safety. If the Commission determines that application to a person described in paragraph (2) is necessary, it shall provide not less than 12 months for such person to come into compliance.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/c/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Crib defined.—</heading><chapeau style="-uslm-dtd:text">In this subsection, the term “<quotedText style="-uslm-dtd:quote">crib</quotedText>” includes—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/c/4/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">new and used cribs;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/c/4/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">full-sized or nonfull-sized cribs; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/c/4/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">portable cribs and crib-pens.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s104/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Consumer Registration Requirement.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Rulemaking.—</heading><chapeau style="-uslm-dtd:text">Notwithstanding any provision of chapter 6 of title 5, United States Code, or the Paperwork Reduction Act of 1980 (44 U.S.C. 3501 et seq.), not later than 1 year after the date of enactment of this Act, the Commission shall, pursuant to its authority under section 16(b) of the Consumer Product Safety Act (15 U.S.C. 2065(b)), promulgate a final consumer product safety rule to require each manufacturer of a durable infant or toddler product—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">to provide consumers with a postage-paid consumer registration form with each such product;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">to maintain a record of the names, addresses, e-mail addresses, and other contact information of consumers who register their ownership of such products with the  manufacturer in order to improve the effectiveness of manufacturer campaigns to recall such products; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">to permanently place the manufacturer name and contact information, model name and number, and the date of manufacture on each durable infant or toddler product.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Requirements for registration form.—</heading><chapeau style="-uslm-dtd:text">The registration form required to be provided to consumers under paragraph (1) shall—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">include spaces for a consumer to provide the consumer’s name, address, telephone number, and e-mail address;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">include space sufficiently large to permit easy, legible recording of all desired information;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/2/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">be attached to the surface of each durable infant or toddler product so that, as a practical matter, the consumer must notice and handle the form after purchasing the product;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/2/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">include the manufacturer’s name, model name and number for the product, and the date of manufacture;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/2/E" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="E">(E) </num><content style="-uslm-dtd:text">include a message explaining the purpose of the registration and designed to encourage consumers to complete the registration;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/2/F" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="F">(F) </num><content style="-uslm-dtd:text">include an option for consumers to register through the Internet; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/d/2/G" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="G">(G) </num><content style="-uslm-dtd:text">include a statement that information provided by the consumer shall not be used for any purpose other than to facilitate a recall of or safety alert regarding that product.</content>
+                        </subparagraph><continuation style="-uslm-dtd:continuation-text" role="paragraph">In issuing regulations under this section, the Commission may prescribe the exact text and format of the required registration form.</continuation>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/d/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Record keeping and notification requirements.—</heading><content style="-uslm-dtd:text">The rules required under this section shall require each manufacturer of a durable infant or toddler product to maintain a record of registrants for each product manufactured that includes all of the information provided by each consumer registered, and to use such information to notify such consumers in the event of a voluntary or involuntary recall of or safety alert regarding such product. Each manufacturer shall maintain such a record for a period of not less than 6 years after the date of manufacture of the product. Consumer information collected by a manufacturer under this Act may not be used by the manufacturer, nor disseminated by such manufacturer to any other party, for any purpose other than notification to such consumer in the event of a product recall or safety alert.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/d/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Study.—</heading><content style="-uslm-dtd:text">The Commission shall conduct a study at such time as it considers appropriate on the effectiveness of the consumer registration forms required by this section in facilitating product recalls and whether such registration forms should be required for other children’s products. Not later than 4 years after the date of enactment of this Act, the Commission shall report its findings to the appropriate Congressional committees.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s104/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Use of Alternative Recall Notification Technology.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/e/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Technology assessment and report.—</heading><chapeau style="-uslm-dtd:text">The Commission shall—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/e/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">beginning 2 years after a rule is promulgated under subsection (d), regularly review recall notification technology and assess the effectiveness of such technology in facilitating recalls of durable infant or toddler products; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/e/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">not later than 3 years after the date of enactment of this Act and periodically thereafter as the Commission considers appropriate, transmit a report on such assessments to the appropriate Congressional committees.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/e/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Determination.—</heading><chapeau style="-uslm-dtd:text">If, based on the assessment required by paragraph (1), the Commission determines by rule that a recall notification technology is likely to be as effective or more effective in facilitating recalls of durable infant or toddler products as the registration forms required by subsection (d), the Commission—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/e/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">shall submit to the appropriate Congressional committees a report on such determination; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/e/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">shall permit a manufacturer of durable infant or toddler products to use such technology in lieu of such registration forms to facilitate recalls of durable infant or toddler products.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s104/f" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Definition of Durable Infant or Toddler Product.—</heading><chapeau style="-uslm-dtd:text">As used in this section, the term “<quotedText style="-uslm-dtd:quote">durable infant or toddler product</quotedText>”—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/f/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">means a durable product intended for use, or that may be reasonably expected to be used, by children under the age of 5 years; and</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s104/f/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><chapeau style="-uslm-dtd:text">includes—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">full-size cribs and nonfull-size cribs;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">toddler beds;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">high chairs, booster chairs, and hook-on chairs;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">bath seats;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/E" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="E">(E) </num><content style="-uslm-dtd:text">gates and other enclosures for confining a child;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/F" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="F">(F) </num><content style="-uslm-dtd:text">play yards;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/G" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="G">(G) </num><content style="-uslm-dtd:text">stationary activity centers;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/H" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="H">(H) </num><content style="-uslm-dtd:text">infant carriers;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/I" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="I">(I) </num><content style="-uslm-dtd:text">strollers;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/J" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="J">(J) </num><content style="-uslm-dtd:text">walkers;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/K" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="K">(K) </num><content style="-uslm-dtd:text">swings; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s104/f/2/L" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="L">(L) </num><content style="-uslm-dtd:text">bassinets and cradles.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+            </section>
+            <elided style="-uslm-dtd:omitted-text">* * * * * * *</elided>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/110/314/tI/s106" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="106">SEC. 106. </num><heading style="-uslm-dtd:header">MANDATORY TOY SAFETY STANDARDS. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t15/s2056b">15 U.S.C. 2056b</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Beginning 180 days after the date of enactment of this Act, the provisions of ASTM International Standard F963-07 Consumer Safety Specifications for Toy Safety (ASTM F963), as it exists on the date of enactment of this Act (except for section 4.2 and Annex 4 or any provision that restates or incorporates an existing mandatory standard or ban promulgated by the Commission or by statute or any provision that restates or incorporates a regulation promulgated by the Food and Drug Administration or any statute administered by the Food and Drug Administration) shall be considered to be consumer product safety standards issued by the Commission under section 9 of the Consumer Product Safety Act (15 U.S.C. 2058).</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Rulemaking for Specific Toys, Components and Risks.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s106/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Evaluation.—</heading><chapeau style="-uslm-dtd:text">Not later than 1 year after the date of enactment of this Act, the Commission, in consultation with representatives of consumer groups, juvenile product manufacturers, and independent child product engineers and experts, shall examine and assess the effectiveness of ASTM F963 or its successor standard (except for section 4.2 and Annex 4), as it relates to safety requirements, safety labeling requirements, and test methods related to—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/b/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">internal harm or injury hazards caused by the ingestion or inhalation of magnets in children’s products;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/b/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">toxic substances;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/b/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">toys with spherical ends;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/b/1/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">hemispheric-shaped objects;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/b/1/E" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="E">(E) </num><content style="-uslm-dtd:text">cords, straps, and elastics; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/b/1/F" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="F">(F) </num><content style="-uslm-dtd:text">battery-operated toys.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s106/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Rulemaking.—</heading><chapeau style="-uslm-dtd:text">Within 1 year after the completion of the assessment required by paragraph (1), the Commission shall promulgate rules in accordance with section 553 of title 5, United States Code, that—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/b/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">take into account other children’s product safety rules; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/b/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">are more stringent than such standards, if the Commission determines that more stringent standards would further reduce the risk of injury of such toys.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Periodic Review.—</heading><content style="-uslm-dtd:text">The Commission shall periodically review and revise the rules set forth under this section to ensure that such rules provide the highest level of safety for such products that is feasible.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Consideration of Remaining ASTM Standards.—</heading><chapeau style="-uslm-dtd:text">After promulgating the rules required by subsection (b), the Commission shall—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s106/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">in consultation with representatives of consumer groups, juvenile product manufacturers, and independent child product engineers and experts, examine and assess the effectiveness of ASTM F963 (and alternative health protective requirements to prevent or minimize flammability of children’s products) or its successor standard, and shall assess the adequacy of such standards in protecting children from safety hazards; and</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s106/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><chapeau style="-uslm-dtd:text">in accordance with section 553 of title 5, United States Code, promulgate consumer product safety rules that—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/d/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">take into account other children’s product safety rules; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/d/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">are more stringent than such standards, if the Commission determines that more stringent standards would further reduce the risk of injury associated with such toys.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Prioritization.—</heading><content style="-uslm-dtd:text">The Commission shall promulgate rules beginning with the product categories that the Commission determines to be of highest priority, until the Commission has promulgated standards for all such product categories.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/f" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Treatment as Consumer Product Safety Standards.—</heading><content style="-uslm-dtd:text">Rules issued under this section shall be considered consumer product safety standards issued by the Commission under section 9 of the Consumer Product Safety Act (15 U.S.C. 2058).</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/g" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="g">(g) </num><heading style="-uslm-dtd:header">Revisions.—</heading><content style="-uslm-dtd:text">If ASTM International (or its successor entity) proposes to revise ASTM F963-07, or a successor standard, it shall notify the Commission of the proposed revision. The Commission shall incorporate the revision or a section of the revision into the consumer product safety rule. The revised standard shall be considered to be a consumer product safety standard issued by the Consumer Product Safety Commission under section 9 of the Consumer Product Safety Act (15 U.S.C. 2058), effective 180 days after the date on which ASTM International notifies the Commission of the revision unless, within 90 days after receiving that notice, the Commission notifies ASTM International that it has determined that the proposed revision does not improve the safety of the consumer product covered by the standard. If the Commission so notifies ASTM International with respect to a proposed revision of the standard, the existing standard shall continue to be considered to be a consumer product safety rule without regard to the proposed revision.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/h" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="h">(h) </num><heading style="-uslm-dtd:header">Rulemaking to Consider Exemption From Preemption.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s106/h/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Exemption of state law from preemption.—</heading><chapeau style="-uslm-dtd:text">Upon application of a State or political subdivision of a State, the Commission shall, after notice and opportunity for oral presentation of views, consider a rulemaking to exempt from the provisions of section 26(a) of the Consumer Product Safety Act (under such conditions as it may impose in the rule) any proposed safety standard or regulation which is described in such application and which is designed to protect against a risk of injury associated with a children’s product subject to the consumer product safety standards described in subsection (a) or any rule promulgated under this section. The Commission shall grant such an exemption if the State or political subdivision standard or regulation—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/h/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">provides a significantly higher degree of protection from such risk of injury than the consumer product safety standard or rule under this section; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s106/h/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">does not unduly burden interstate commerce.</content>
+                        </subparagraph><continuation style="-uslm-dtd:continuation-text" role="paragraph">In determining the burden, if any, of a State or political subdivision standard or regulation on interstate commerce, the Commission shall consider and make appropriate (as determined by the Commission in its discretion) findings on the technological and economic feasibility of complying with such standard or regulation, the cost of complying with such standard or regulation, the geographic distribution of the consumer product to which the standard or regulation would apply, the probability of other States or political subdivisions applying for an exemption under this subsection for a similar standard or regulation, and the need for a national, uniform standard under this Act for such consumer product.</continuation>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s106/h/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Effect of standards on established state laws.—</heading><content style="-uslm-dtd:text">Nothing in this section or in section 26 of the Consumer Product Safety Act (15 U.S.C. 2075) shall prevent a State or political subdivision of a State from continuing in effect a safety requirement applicable to a toy or other children’s product that is designed to deal with the same risk of injury as the consumer product safety standards established by this section and that is in effect on the day before the date of enactment of this Act, if such State or political subdivision has filed such requirement with the Commission within 90 days after the date of enactment of this Act, in such form and in such manner as the Commission may require.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s106/i" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="i">(i) </num><heading style="-uslm-dtd:header">Judicial Review.—</heading><content style="-uslm-dtd:text">The issuance of any rule under this section is subject to judicial review as provided in section 11(g) of the Consumer Product Safety Act (15 U.S.C. 2060(g)), as added by section 236 of this Act.</content>
+                </subsection>
+            </section>
+            <elided style="-uslm-dtd:omitted-text">* * * * * * *</elided>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/110/314/tI/s108" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="108">SEC. 108. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t15/s2057c">15 U.S.C. 2057c</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">PROHIBITION ON SALE OF CERTAIN PRODUCTS CONTAINING SPECIFIED PHTHALATES. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s108/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Prohibition on the Sale of Certain Products Containing Phthalates.—</heading><content style="-uslm-dtd:text">Beginning on the date that is 180 days after the date of enactment of this Act, it shall be unlawful for any person to manufacture for sale, offer for sale, distribute in commerce, or import into the United States any children’s toy or child care article that contains concentrations of more than 0.1 percent of di-(2-ethylhexyl) phthalate (DEHP), dibutyl phthalate (DBP), or benzyl butyl phthalate (BBP).</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s108/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Prohibition on the Sale of Additional Products Containing Certain Phthalates.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Interim prohibition.—</heading><content style="-uslm-dtd:text">Beginning on the date that is 180 days after the date of enactment of this Act and until a final rule is promulgated under paragraph (3), it shall be unlawful for any person to manufacture for sale, offer for sale, distribute in commerce, or import into the United States any children’s toy that can be placed in a child’s mouth or child care article that contains concentrations of more than 0.1 percent of diisononyl phthalate (DINP), diisodecyl phthalate (DIDP), or di-n-octyl phthalate (DnOP).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Chronic hazard advisory panel.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/b/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">Appointment.—</heading><content style="-uslm-dtd:text">Not earlier than 180 days after the date of enactment of this Act, the Commission shall begin the process of appointing a Chronic Hazard Advisory Panel pursuant to the procedures of section 28 of the Consumer Product Safety Act (15 U.S.C. 2077) to study the effects on children’s health of all phthalates and phthalate alternatives as used in children’s toys and child care articles.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/b/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Examination.—</heading><chapeau style="-uslm-dtd:text">The panel shall, within 18 months after its appointment under subparagraph (A), complete an examination of the full range of phthalates that are used in products for children and shall—</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/b/2/B/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">examine all of the potential health effects (including endocrine disrupting effects) of the full range of phthalates;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/b/2/B/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">consider the potential health effects of each of these phthalates both in isolation and in combination with other phthalates;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/b/2/B/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">examine the likely levels of children’s, pregnant women’s, and others’ exposure to phthalates, based on a reasonable estimation of normal and foreseeable use and abuse of such products;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/b/2/B/iv" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iv">(iv) </num><content style="-uslm-dtd:text">consider the cumulative effect of total exposure to phthalates, both from children’s products and from other sources, such as personal care products;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/b/2/B/v" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="v">(v) </num><content style="-uslm-dtd:text">review all relevant data, including the most recent, best-available, peer-reviewed, scientific studies  of these phthalates and phthalate alternatives that employ objective data collection practices or employ other objective methods;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/b/2/B/vi" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="vi">(vi) </num><content style="-uslm-dtd:text">consider the health effects of phthalates not only from ingestion but also as a result of dermal, hand-to-mouth, or other exposure;</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/b/2/B/vii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="vii">(vii) </num><content style="-uslm-dtd:text">consider the level at which there is a reasonable certainty of no harm to children, pregnant women, or other susceptible individuals and their offspring, considering the best available science, and using sufficient safety factors to account for uncertainties regarding exposure and susceptibility of children, pregnant women, and other potentially susceptible individuals; and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/b/2/B/viii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="viii">(viii) </num><content style="-uslm-dtd:text">consider possible similar health effects of phthalate alternatives used in children’s toys and child care articles.</content>
+                            </clause><continuation style="-uslm-dtd:continuation-text" role="subparagraph">The panel’s examinations pursuant to this paragraph shall be conducted <i style="-uslm-dtd:italic">de novo</i>. The findings and conclusions of any previous Chronic Hazard Advisory Panel on this issue and other studies conducted by the Commission shall be reviewed by the panel but shall not be considered determinative.</continuation>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/b/2/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><heading style="-uslm-dtd:header">Report.—</heading><content style="-uslm-dtd:text">Not later than 180 days after completing its examination, the panel appointed under subparagraph (A) shall report to the Commission the results of the examination conducted under this section and shall make recommendations to the Commission regarding any phthalates (or combinations of phthalates) in addition to those identified in subsection (a) or phthalate alternatives that the panel determines should be declared banned hazardous substances.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Permanent prohibition by rule.—</heading><chapeau style="-uslm-dtd:text">Not later than 180 days after receiving the report of the panel under paragraph (2)(C), the Commission shall, pursuant to section 553 of title 5, United States Code, promulgate a final rule to—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/b/3/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">determine, based on such report, whether to continue in effect the prohibition under paragraph (1), in order to ensure a reasonable certainty of no harm to children, pregnant women, or other susceptible individuals with an adequate margin of safety; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/b/3/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">evaluate the findings and recommendations of the Chronic Hazard Advisory Panel and declare any children’s product containing any phthalates to be a banned hazardous product under section 8 of the Consumer Product Safety Act (15 U.S.C. 2057), as the Commission determines necessary to protect the health of children.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s108/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Application.—</heading><content style="-uslm-dtd:text">Effective on the date of enactment of this Act, subsections (a) and (b)(1) and any rule promulgated under subsection (b)(3) shall apply to any plasticized component part of a children’s toy or child care article or any other component part of a children’s toy or child care article that is made of other materials that may contain phthalates. </content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s108/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Exclusion for Inaccessible Component Parts.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The prohibitions established under subsections (a) and (b) shall not apply to any component part of a children’s toy or child care article that is not accessible to a child through normal and reasonably foreseeable use and abuse of such product, as determined by the Commission. A component part is not accessible under this paragraph if such component part is not physically exposed by reason of a sealed covering or casing and does not become physically exposed through reasonably foreseeable use and abuse of the product. Reasonably foreseeable use and abuse shall include swallowing, mouthing, breaking, or other children’s activities, and the aging of the product.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Limitation.—</heading><content style="-uslm-dtd:text">The Commission may revoke an exclusion or all exclusions granted under paragraph (1) at any time and require that any or all component parts manufactured after such exclusion is revoked comply with the prohibitions established under subsections (a) and (b) if the Commission finds, based on scientific evidence, that such compliance is necessary to protect the public health or safety.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/d/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Inaccessibility proceeding.—</heading><chapeau style="-uslm-dtd:text">Within 1 year after the date of enactment of this subsection, the Commission shall—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/d/3/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">promulgate a rule providing guidance with respect to what product components, or classes of components, will be considered to be inaccessible for purposes of paragraph (1); or</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/d/3/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">adopt the same guidance with respect to inaccessibility that was adopted by the Commission with regards to accessibility of lead under section 101(b)(2)(B), with additional consideration, as appropriate, of whether such component can be placed in a child’s mouth. </content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/d/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><heading style="-uslm-dtd:header">Application pending Commission guidance.—</heading><content style="-uslm-dtd:text">Until the Commission promulgates a rule pursuant to paragraph (3), the determination of whether a product component is inaccessible to a child shall be made in accordance with the requirements laid out in paragraph (1) for considering a component to be inaccessible to a child.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s108/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Treatment of Violation.—</heading><content style="-uslm-dtd:text">A violation of subsection (a) or (b)(1) or any rule promulgated by the Commission under subsection (b)(3) shall be treated as a violation of section 19(a)(1) of the Consumer Product Safety Act (15 U.S.C. 2068(a)(1)).</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s108/f" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="f">(f) </num><heading style="-uslm-dtd:header">Treatment as Consumer Product Safety Standards; Effect on State Laws.—</heading><content style="-uslm-dtd:text">Subsections (a) and (b)(1) and any rule promulgated under subsection (b)(3) shall be considered consumer product safety standards under the Consumer Product Safety Act. Nothing in this section or the Consumer Product Safety Act (15 U.S.C. 2051 et seq.) shall be construed to preempt or otherwise    affect any State requirement with respect to any phthalate alternative not specifically regulated in a consumer product safety standard under the Consumer Product Safety Act.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/110/314/tI/s108/g" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="g">(g) </num><heading style="-uslm-dtd:header">Definitions.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/g/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">Defined terms.—</heading><chapeau style="-uslm-dtd:text">As used in this section:</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/g/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">The term “<quotedText style="-uslm-dtd:quote">phthalate alternative</quotedText>” means any common substitute to a phthalate, alternative material to a phthalate, or alternative plasticizer.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/g/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">The term “<quotedText style="-uslm-dtd:quote">children’s toy</quotedText>” means a consumer product designed or intended by the manufacturer for a child 12 years of age or younger for use by the child when the child plays.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/g/1/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">The term “<quotedText style="-uslm-dtd:quote">child care article</quotedText>” means a consumer product designed or intended by the manufacturer to facilitate sleep or the feeding of children age 3 and younger, or to help such children with sucking or teething.</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/g/1/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">The term “<quotedText style="-uslm-dtd:quote">consumer product</quotedText>” has the meaning given such term in section 3(a)(1) of the Consumer Product Safety Act (15 U.S.C. 2052(a)(1)).</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/110/314/tI/s108/g/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Determination guidelines.—</heading>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/g/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><heading style="-uslm-dtd:header">Age.—</heading><chapeau style="-uslm-dtd:text">In determining whether products described in paragraph (1) are designed or intended for use by a child of the ages specified, the following factors shall be considered:</chapeau>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/g/2/A/i" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">(i) </num><content style="-uslm-dtd:text">A statement by a manufacturer about the intended use of such product, including a label on such product if such statement is reasonable.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/g/2/A/ii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">(ii) </num><content style="-uslm-dtd:text">Whether the product is represented in its packaging, display, promotion, or advertising as appropriate for use by children of the ages specified.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/g/2/A/iii" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iii">(iii) </num><content style="-uslm-dtd:text">Whether the product is commonly recognized by consumers as being intended for use by a child of the ages specified.</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" identifier="/us/sComp/110/314/tI/s108/g/2/A/iv" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="iv">(iv) </num><content style="-uslm-dtd:text">The Age Determination guidelines issued by the Commission staff in September 2002 and any successor to such guidelines.</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/110/314/tI/s108/g/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><heading style="-uslm-dtd:header">Toy that can be placed in a child’s mouth.—</heading><content style="-uslm-dtd:text">For purposes of this section a toy can be placed in a child’s mouth if any part of the toy can actually be brought to the mouth and kept in the mouth by a child so that it can be sucked and chewed. If the children’s product can only be licked, it is not regarded as able to be placed in the mouth. If a toy or part of a toy in one dimension is smaller than 5 centimeters, it can be placed in the mouth.</content>
+                            <elided style="-uslm-dtd:omitted-text">* * * * * * *</elided>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+            </section>
+        </title>
+    </main>
+</statuteCompilation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="HFF1EB98ADF2E4C53BED941C6375A1D0E">
+    <!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> 
+    <meta>
+<dc:title>113 HRES 378 CDH: Expressing the sense of the House of Representatives regarding certain provisions of the Senate amendment to H.R. 2642 relating to the Secretary of Agriculture’s administration of tariff-rate quotas for raw and refined sugar.</dc:title>
+<dc:type>House Simple Resolution</dc:type>
+<docNumber>378</docNumber>
+<citableAs>113 HRES 378 CDH</citableAs>
+<citableAs>113hres378cdh</citableAs>
+<citableAs>113 H. Res. 378 CDH</citableAs>
+<docStage>Committee Discharged House</docStage>
+<currentChamber>HOUSE</currentChamber>
+<dc:creator>United States House of Representatives</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>113</congress>
+<session>1</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine>•HRES 378 CDH</slugLine>
+<distributionCode display="yes">IV</distributionCode>
+<congress value="113">113th CONGRESS</congress>
+<session value="1">1st Session</session>
+<dc:type>H. RES. </dc:type>
+<docNumber>378</docNumber>
+<dc:title>Expressing the sense of the House of Representatives regarding certain provisions of the Senate amendment to H.R. 2642 relating to the Secretary of Agriculture’s administration of tariff-rate quotas for raw and refined sugar.</dc:title>
+<currentChamber value="HOUSE">IN THE HOUSE OF REPRESENTATIVES</currentChamber>
+<action><date date="2013-10-11"><inline class="smallCaps">October </inline>11, 2013</date><actionDescription><sponsor bioGuideId="P000373">Mr. <inline class="smallCaps">Pitts</inline></sponsor> (for himself, <cosponsor bioGuideId="D000096">Mr. <inline class="smallCaps">Danny K. Davis</inline> of Illinois</cosponsor>, <cosponsor bioGuideId="G000289">Mr. <inline class="smallCaps">Goodlatte</inline></cosponsor>, and <cosponsor bioGuideId="B000574">Mr. <inline class="smallCaps">Blumenauer</inline></cosponsor>) submitted the following resolution; which was referred to the <committee committeeId="HAG00">Committee on Agriculture</committee>, and in addition to the Committee on <committee committeeId="HWM00">Ways and Means</committee>, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned</actionDescription></action>
+<action><date><inline class="smallCaps">October </inline>11, 2013</date><actionDescription>The Committees on Agriculture and Ways and Means discharged and considered</actionDescription></action></preface>
+<main id="H3F6EC19FE5304A0E89F81F6FA7809263" styleType="traditional">
+    <longTitle><docTitle>RESOLUTION</docTitle>
+    <officialTitle>Expressing the sense of the House of Representatives regarding certain provisions of the Senate amendment to H.R. 2642 relating to the Secretary of Agriculture’s administration of tariff-rate quotas for raw and refined sugar.</officialTitle></longTitle>
+    <resolvingClause class="inline"><i>Resolved, </i></resolvingClause><section id="HFD2A6BB5FC17414B936E3D761CFA5725" class="inline"><content class="inline">That it is the sense of the House of Representatives that the managers on the part of the House of the conference on the disagreeing votes of the two Houses on the House amendment to the Senate amendment to the bill H.R. 2642 (an Act to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture and other programs of the Department of Agriculture through fiscal year 2018, and for other purposes) should advance provisions to repeal the Administration of Tariff Rate Quotas language as added by the Food, Conservation, and Energy Act of 2008, and thus restore the Secretary of Agriculture’s authority to manage supplies of sugar throughout the marketing year to meet domestic demand at reasonable prices.</content></section></main>
+    <endMarker>○</endMarker></resolution>

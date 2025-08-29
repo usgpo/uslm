@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.0.11-alpha.xsd" xml:lang="en">
+<!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.-->
+<meta>
+<dc:title>116 SJRES 14 IS: Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of not more than 9 justices.</dc:title>
+<dc:type>Senate Joint Resolution</dc:type>
+<docNumber>14</docNumber>
+<citableAs>116 SJRES 14 IS</citableAs>
+<citableAs>116sjres14is</citableAs>
+<citableAs>116 S. J. Res. 14 IS</citableAs>
+<dc:creator>United States Senate</dc:creator>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<docStage>IS</docStage>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.2</processedBy>
+<processedDate>2022-08-15</processedDate>
+<congress>116</congress>
+<session>1</session>
+<currentChamber>SENATE</currentChamber>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<distributionCode display="yes">IIA</distributionCode>
+<congress value="116">116th CONGRESS</congress>
+<session value="1">1st Session</session>
+<dc:type>S. J. Res. </dc:type>
+<docNumber>14</docNumber>
+<dc:title> Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of not more than 9 justices.</dc:title>
+<currentChamber value="SENATE" display="yes">IN THE SENATE OF THE UNITED STATES</currentChamber>
+<action><date date="2019-03-25">March 25, 2019</date><actionDescription><sponsor senateId="S350">Mr.Rubio</sponsor> (for himself, <cosponsor senateId="S351">Mr.Toomey</cosponsor>, <cosponsor senateId="S398">Mr.Cramer</cosponsor>, <cosponsor senateId="S396">Mrs.Blackburn</cosponsor>, <cosponsor senateId="S391">Mr.Young</cosponsor>, <cosponsor senateId="S395">Mrs.Hyde-Smith</cosponsor>, <cosponsor senateId="S344">Mr.Hoeven</cosponsor>, <cosponsor senateId="S346">Mr.Lee</cosponsor>, <cosponsor senateId="S382">Mr.Sasse</cosponsor>, <cosponsor senateId="S401">Mr.Romney</cosponsor>, <cosponsor senateId="S266">Mr.Crapo</cosponsor>, <cosponsor senateId="S372">Mrs.Capito</cosponsor>, and <cosponsor senateId="S375">Mr.Daines</cosponsor>) introduced the following joint resolution; which was read twice and referred to the <committee committeeId="SSJU00">Committee on the Judiciary</committee></actionDescription></action></preface><main><longTitle><docTitle>Joint Resolution</docTitle><officialTitle> Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of not more than 9 justices.</officialTitle></longTitle><preamble><recital>Now, therefore, be it</recital><resolvingClause class="indent0">Resolved by the Senate and House of Representatives of the United States of America in Congress assembled (two-thirds of each House concurring therein), </resolvingClause></preamble><section id="id72358907658303873611" role="undesignated-section" class="inline"><content class="inline">That the following article is proposed as an amendment to the Constitution of the United States, which shall be valid to all intents and purposes as part of the Constitution when ratified by the legislatures of three-fourths of the several States within seven years after the date of its submission by the Congress:<quotedContent id="ID1629239E7133467AA2CE74BA22185E08" styleType="constitutional-amendment">
+<article id="ID3F77DAE6D065403FBFBC59A6F7E765CA"><num value=" ">“ — </num>
+<section id="ID7C3A6CD4A4984BC397A8E8CB2E990D9A" role="section-one"><num value="1"><inline class="smallCaps">“Section 1. </inline></num><content class="inline">The Supreme Court of the United States shall be composed of not more than 9 justices.</content></section>
+<section id="id33B4A6FDB5654CE3A898DB3772CEF4CE" role="section-one"><num value="2"><inline class="smallCaps">“Section 2. </inline></num><content class="inline">The Congress shall have the power to enforce this article by appropriate legislation.”.</content></section></article></quotedContent></content></section></main><endMarker>○</endMarker></resolution>

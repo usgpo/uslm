@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" meta="slc-id:S1-BOM19914-F0K-F4-L82"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 SJRES 65 CPS: Providing for the reappointment of John Fahey as a citizen regent of the Board of Regents of the Smithsonian Institution. </dc:title>
+<dc:type>Senate Joint Resolution</dc:type>
+<docNumber>65</docNumber>
+<citableAs>116 SJRES 65 CPS</citableAs>
+<citableAs>116sjres65cps</citableAs>
+<citableAs>116 S. J. Res. 65 CPS</citableAs>
+<docStage>Considered and Passed Senate</docStage>
+<currentChamber>SENATE</currentChamber>
+<dc:creator>United States Senate</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>2</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine>•SJ 65 CPS</slugLine>
+<distributionCode display="yes">IIA</distributionCode>
+<congress value="116">116th CONGRESS</congress>
+<session value="2">2d Session</session>
+<dc:type>S. J. RES. </dc:type>
+<docNumber>65</docNumber>
+<dc:title>Providing for the reappointment of John Fahey as a citizen regent of the Board of Regents of the Smithsonian Institution. </dc:title>
+<currentChamber value="SENATE">IN THE SENATE OF THE UNITED STATES</currentChamber>
+<action><date date="2020-01-09"><inline class="smallCaps">January </inline>9, 2020</date><actionDescription><sponsor senateId="S343" role="by-request:no">Mr. <inline class="smallCaps">Boozman</inline></sponsor> (for himself, <cosponsor senateId="S379">Mr. <inline class="smallCaps">Perdue</inline></cosponsor>, and <cosponsor senateId="S057">Mr. <inline class="smallCaps">Leahy</inline></cosponsor>) introduced the following joint resolution; which was read twice, considered, read the third time, and passed</actionDescription></action></preface>
+<main styleType="OLC"><longTitle><docTitle>JOINT RESOLUTION</docTitle><officialTitle>Providing for the reappointment of John Fahey as a citizen regent of the Board of Regents of the Smithsonian Institution. </officialTitle></longTitle><resolvingClause class="inline"><i>Resolved by the Senate and House of Representatives of the United States of America in Congress assembled, </i></resolvingClause><section id="S1" class="inline"><content class="inline">That, in accordance with section 5581 of the Revised Statutes (<ref href="/us/usc/t20/s43">20 U.S.C. 43</ref>), the vacancy on the Board of Regents of the Smithsonian Institution, in the class other than Members of Congress, occurring by reason of the expiration of the term of John Fahey of Massachusetts on February 20, 2020, is filled by the reappointment of the incumbent. The reappointment is for a term of six years, beginning on the later of February 20, 2020, or the date of the enactment of this joint resolution.</content></section></main><endMarker>○</endMarker></resolution>

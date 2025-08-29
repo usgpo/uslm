@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="uslm.css"?><statuteCompilation xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gpo="http://www.gpo.gov/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.0.9.xsd" xml:lang="en" style="-uslm-dtd:statute">
+    <meta style="-uslm-dtd:compilation-act-form">
+        <dc:title>Disaster Mitigation Act of 2000</dc:title>
+        <citableAs>Public Law 106–390, as amended</citableAs>
+        <citableAsShortTitle>Disaster Mitigation Act of 2000</citableAsShortTitle>
+        <docNumber>390</docNumber>
+        <currentThroughPublicLaw>115–254</currentThroughPublicLaw>
+        <dc:type>Statute Compilation</dc:type>
+        <dc:creator>United States House of Representatives</dc:creator>
+        <dc:creator>Office of the Legislative Counsel</dc:creator>
+        <dc:format>text/xml</dc:format>
+        <dc:language>EN</dc:language>
+        <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+        <processedBy>GPO Statute Compilations USLM converter, version 20210520.1</processedBy>
+        <processedDate>2021-05-25</processedDate>
+        <containsShortTitle>Disaster Mitigation Act of 2000</containsShortTitle>
+        <property role="fileId">13731</property>
+        <congress>106</congress>
+        <approvedDate>2000-10-30</approvedDate>
+    </meta>
+    <preface style="-uslm-dtd:compilation-act-form">
+        <property style="-uslm-dtd:comp-short-title" role="compShortTitle">Disaster Mitigation Act of 2000</property>
+        <citationNote style="-uslm-dtd:public-law">[(<citableAs>Public Law 106–390</citableAs>)]</citationNote>
+        <editionNote style="-uslm-dtd:updated-through-note">[As Amended Through <currentThroughPublicLaw>P.L. 115–254</currentThroughPublicLaw>, Enacted <date date="2018-10-05">October 05, 2018</date>]</editionNote>
+        <explanationNote style="-uslm-dtd:explanatory-note"><b>[</b>Currency: This publication is a compilation of the text of Public Law 106–390. It was last amended by the public law listed in the As Amended Through note above and below at the bottom of each page of the pdf version and reflects current law through the date of the enactment of the public law listed at https://www.govinfo.gov/app/collection/comps/<b>]</b></explanationNote>
+        <explanationNote style="-uslm-dtd:explanatory-note"><b>[</b>Note: While this publication does  not represent an official version of any Federal statute, substantial efforts have been made to ensure the accuracy of its contents. The official version of Federal law is found in the United States Statutes at Large and in the United States Code. The legal effect to be given to the Statutes at Large and the United States Code is established by statute (1 U.S.C. 112, 204).<b>]</b></explanationNote>
+    </preface>
+    <main style="-uslm-dtd:legis-body"><longTitle><docTitle style="-uslm-dtd:legis-type">AN ACT</docTitle><officialTitle style="-uslm-dtd:official-title">To amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act to authorize a program for predisaster mitigation, to streamline the administration of disaster relief, to control the Federal costs of disaster assistance, and for other purposes.</officialTitle></longTitle><enactingFormula style="-uslm-dtd:enacting-clause">
+Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,
+</enactingFormula>
+        <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/s1" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="1">SECTION 1. </num><heading style="-uslm-dtd:header">SHORT TITLE; TABLE OF CONTENTS. </heading>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/s1/a" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="a">(a) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5121">42 U.S.C. 5121 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Short Title.—</heading><content style="-uslm-dtd:text">This Act may be cited as the “<shortTitle style="-uslm-dtd:quote"><inline style="-uslm-dtd:short-title">Disaster Mitigation Act of 2000</inline></shortTitle>”.</content>
+            </subsection>
+            <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/s1/b" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Table of Contents.—</heading><content style="-uslm-dtd:text">The table of contents of this Act is as follows:<toc style="-uslm-dtd:toc">
+                <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 1.</designator><label> Short title; table of contents.</label></referenceItem>
+                <groupItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="title"><designator>TITLE I—</designator><label>PREDISASTER HAZARD MITIGATION</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 101.</designator><label> Findings and purpose.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 102.</designator><label> Predisaster hazard mitigation.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 103.</designator><label> Interagency task force.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 104.</designator><label> Mitigation planning; minimum standards for public and private structures.</label></referenceItem>
+                </groupItem>
+                <groupItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="title"><designator>TITLE II—</designator><label>STREAMLINING AND COST REDUCTION</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 201.</designator><label> Technical amendments.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 202.</designator><label> Management costs.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 203.</designator><label> Public notice, comment, and consultation requirements.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 204.</designator><label> State administration of hazard mitigation grant program.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 205.</designator><label> Assistance to repair, restore, reconstruct, or replace damaged facilities.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 206.</designator><label> Federal assistance to individuals and households.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 207.</designator><label> Community disaster loans.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 208.</designator><label> Report on State management of small disasters initiative.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 209.</designator><label> Study regarding cost reduction.</label></referenceItem>
+                </groupItem>
+                <groupItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="title"><designator>TITLE III—</designator><label>MISCELLANEOUS</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 301.</designator><label> Technical correction of short title.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 302.</designator><label> Definitions.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 303.</designator><label> Fire management assistance.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 304.</designator><label> Disaster grant closeout procedures.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 305.</designator><label> Public safety officer benefits for certain Federal and State employees.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 306.</designator><label> Buy American.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 307.</designator><label> Treatment of certain real property.</label></referenceItem>
+                    <referenceItem style="-uslm-dtd:toc-entry" role="section"><designator>Sec. 308.</designator><label> Study of participation by Indian tribes in emergency management.</label></referenceItem>
+                </groupItem></toc></content>
+            </subsection>
+        </section>
+        <title style="-uslm-dtd:title" identifier="/us/sComp/106/390/tI" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="I">TITLE I—</num><heading style="-uslm-dtd:header">PREDISASTER HAZARD MITIGATION </heading>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tI/s101" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="101">SEC. 101. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5133">42 U.S.C. 5133 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">FINDINGS AND PURPOSE. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tI/s101/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Findings.—</heading><chapeau style="-uslm-dtd:text">Congress finds that—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s101/a/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">natural disasters, including earthquakes, tsunamis, tornadoes, hurricanes, flooding, and wildfires, pose great danger to human life and to property throughout the United States;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s101/a/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><chapeau style="-uslm-dtd:text">greater emphasis needs to be placed on—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s101/a/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">identifying and assessing the risks to States and local governments (including Indian tribes) from natural disasters;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s101/a/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">implementing adequate measures to reduce losses from natural disasters; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s101/a/2/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">ensuring that the critical services and facilities of communities will continue to function after a natural disaster;</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s101/a/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">expenditures for postdisaster assistance are increasing without commensurate reductions in the likelihood of future losses from natural disasters;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s101/a/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">in the expenditure of Federal funds under the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5121 et seq.), high priority should be given to mitigation of hazards at the local level; and</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s101/a/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5) </num><chapeau style="-uslm-dtd:text">with a unified effort of economic incentives, awareness and education, technical assistance, and demonstrated Federal support, States and local governments (including Indian tribes) will be able to—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s101/a/5/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">form effective community-based partnerships for hazard mitigation purposes;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s101/a/5/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">implement effective hazard mitigation measures that reduce the potential damage from natural disasters;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s101/a/5/C" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">(C) </num><content style="-uslm-dtd:text">ensure continued functionality of critical services;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s101/a/5/D" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="D">(D) </num><content style="-uslm-dtd:text">leverage additional non-Federal resources in meeting natural disaster resistance goals; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s101/a/5/E" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="E">(E) </num><content style="-uslm-dtd:text">make commitments to long-term hazard mitigation efforts to be applied to new and existing structures.</content>
+                        </subparagraph>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tI/s101/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Purpose.—</heading><chapeau style="-uslm-dtd:text">The purpose of this title is to establish a national disaster hazard mitigation program—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s101/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">to reduce the loss of life and property, human suffering, economic disruption, and disaster assistance costs resulting from natural disasters; and</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s101/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">to provide a source of predisaster hazard mitigation funding that will assist States and local governments (including Indian tribes) in implementing effective hazard mitigation measures that are designed to ensure the continued functionality of critical services and facilities after a natural disaster.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tI/s102" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="102">SEC. 102. </num><heading style="-uslm-dtd:header">PREDISASTER HAZARD MITIGATION. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tI/s102/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Title II of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5131 et seq.) is amended by adding at the end the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <section style="-uslm-dtd:section" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="203">“SEC. 203. </num><heading style="-uslm-dtd:header">PREDISASTER HAZARD MITIGATION </heading>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="a">“(a) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5133">42 U.S.C. 5133</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Definition of Small Impoverished Community. </heading><content style="-uslm-dtd:text">In this section, the term ‘<term style="-uslm-dtd:term">small impoverished community</term>’ means a community of 3,000 or fewer individuals that is economically disadvantaged, as determined by the State in which the community is located and based on criteria established by the President.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Establishment of Program. </heading><content style="-uslm-dtd:text">The President may establish a program to provide technical and financial assistance to States and local governments to assist in the implementation of  predisaster hazard mitigation measures that are cost-effective and are designed to reduce injuries, loss of life, and damage and destruction of property, including damage to critical services and facilities under the jurisdiction of the States or local governments.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Approval by President. </heading><content style="-uslm-dtd:text">If the President determines that a State or local government has identified natural disaster hazards in areas under its jurisdiction and has demonstrated the ability to form effective public-private natural disaster hazard mitigation partnerships, the President, using amounts in the National Predisaster Mitigation Fund established under subsection (i) (referred to in this section as the ‘<quotedText style="-uslm-dtd:quote">Fund</quotedText>’), may provide technical and financial assistance to the State or local government to be used in accordance with subsection (e).</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="d">“(d) </num><heading style="-uslm-dtd:header">State Recommendations. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">Recommendations. </heading><content style="-uslm-dtd:text">The Governor of each State may recommend to the President not fewer than five local governments to receive assistance under this section.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Deadline for submission. </heading><content style="-uslm-dtd:text">The recommendations under subparagraph (A) shall be submitted to the President not later than October 1, 2001, and each October 1st thereafter or such later date in the year as the President may establish.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="C">“(C) </num><heading style="-uslm-dtd:header">Criteria. </heading><content style="-uslm-dtd:text">In making recommendations under subparagraph (A), a Governor shall consider the criteria specified in subsection (g).</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Use. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">Except as provided in subparagraph (B), in providing assistance to local governments under this section, the President shall select from local governments recommended by the Governors under this subsection.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Extraordinary circumstances. </heading><content style="-uslm-dtd:text">In providing assistance to local governments under this section, the President may select a local government that has not been recommended by a Governor under this subsection if the President determines that extraordinary circumstances justify the selection and that making the selection will further the purpose of this section.</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="3">“(3) </num><heading style="-uslm-dtd:header">Effect of failure to nominate. </heading><content style="-uslm-dtd:text">If a Governor of a State fails to submit recommendations under this subsection in a timely manner, the President may select, subject to the criteria specified in subsection (g), any local governments of the State to receive assistance under this section.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="e">“(e) </num><heading style="-uslm-dtd:header">Uses of Technical and Financial Assistance. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><chapeau style="-uslm-dtd:text">Technical and financial assistance provided under this section—</chapeau>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">shall be used by States and local governments principally to implement predisaster hazard mitigation measures that are cost-effective and are described in proposals approved by the President under this section; and</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><chapeau style="-uslm-dtd:text">may be used—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">to support effective public-private natural disaster hazard mitigation partnerships;</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">to improve the assessment of a community’s vulnerability to natural hazards; or</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="iii">“(iii) </num><content style="-uslm-dtd:text">to establish hazard mitigation priorities, and an appropriate hazard mitigation plan, for a community.</content>
+                                    </clause>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Dissemination. </heading><content style="-uslm-dtd:text">A State or local government may use not more than 10 percent of the financial assistance received by the State or local government under this section for a fiscal year to fund activities to disseminate information regarding cost-effective mitigation technologies.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="f">“(f) </num><chapeau style="-uslm-dtd:text">) Allocation of Funds.—The amount of financial assistance made available to a State (including amounts made available to local governments of the State) under this section for a fiscal year—</chapeau>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><chapeau style="-uslm-dtd:text">shall be not less than the lesser of—</chapeau>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">$500,000; or</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">the amount that is equal to 1.0 percent of the total funds appropriated to carry out this section for the fiscal year;</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><content style="-uslm-dtd:text">shall not exceed 15 percent of the total funds described in paragraph (1)(B); and</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="3">“(3) </num><content style="-uslm-dtd:text">shall be subject to the criteria specified in subsection (g).</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="g">“(g) </num><heading style="-uslm-dtd:header">Criteria for Assistance Awards. </heading><chapeau style="-uslm-dtd:text">In determining whether to provide technical and financial assistance to a State or local government under this section, the President shall take into account—</chapeau>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><content style="-uslm-dtd:text">the extent and nature of the hazards to be mitigated;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><content style="-uslm-dtd:text">the degree of commitment of the State or local government to reduce damages from future natural disasters;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="3">“(3) </num><content style="-uslm-dtd:text">the degree of commitment by the State or local government to support ongoing non-Federal support for the hazard mitigation measures to be carried out using the technical and financial assistance;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="4">“(4) </num><content style="-uslm-dtd:text">the extent to which the hazard mitigation measures to be carried out using the technical and financial assistance contribute to the mitigation goals and priorities established by the State;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="5">“(5) </num><content style="-uslm-dtd:text">the extent to which the technical and financial assistance is consistent with other assistance provided under this Act;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="6">“(6) </num><content style="-uslm-dtd:text">the extent to which prioritized, cost-effective mitigation activities that produce meaningful and definable outcomes are clearly identified;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="7">“(7) </num><content style="-uslm-dtd:text">if the State or local government has submitted a mitigation plan under section 322, the extent to which the activities identified under paragraph (6) are consistent with the mitigation plan;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="8">“(8) </num><content style="-uslm-dtd:text">the opportunity to fund activities that maximize net benefits to society;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="9">“(9) </num><content style="-uslm-dtd:text">the extent to which assistance will fund mitigation activities in small impoverished communities; and</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="10">“(10) </num><content style="-uslm-dtd:text">such other criteria as the President establishes in consultation with State and local governments.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="h">“(h) </num><heading style="-uslm-dtd:header">Federal Share. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">Financial assistance provided under this section may contribute up to 75 percent of the total cost of mitigation activities approved by the President.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Small impoverished communities. </heading><content style="-uslm-dtd:text">Notwithstanding paragraph (1), the President may contribute up to 90 percent of the total cost of a mitigation activity carried out in a small impoverished community.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">“(i) </num><heading style="-uslm-dtd:header">National Predisaster Mitigation Fund. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Establishment. </heading><content style="-uslm-dtd:text">The President may establish in the Treasury of the United States a fund to be known as the ‘<quotedText style="-uslm-dtd:quote">National Predisaster Mitigation Fund</quotedText>’, to be used in carrying out this section.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Transfers to fund. </heading><chapeau style="-uslm-dtd:text">There shall be deposited in the Fund—</chapeau>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">amounts appropriated to carry out this section, which shall remain available until expended; and</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">sums available from gifts, bequests, or donations of services or property received by the President for the purpose of predisaster hazard mitigation.</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="3">“(3) </num><heading style="-uslm-dtd:header">Expenditures from fund. </heading><content style="-uslm-dtd:text">Upon request by the President, the Secretary of the Treasury shall transfer from the Fund to the President such amounts as the President determines are necessary to provide technical and financial assistance under this section.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="4">“(4) </num><heading style="-uslm-dtd:header">Investment of amounts. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">The Secretary of the Treasury shall invest such portion of the Fund as is not, in the judgment of the Secretary of the Treasury, required to meet current withdrawals. Investments may be made only in interest-bearing obligations of the United States.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Acquisition of obligations. </heading><chapeau style="-uslm-dtd:text">For the purpose of investments under subparagraph (A), obligations may be acquired—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">on original issue at the issue price; or</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">by purchase of outstanding obligations at the market price.</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="C">“(C) </num><heading style="-uslm-dtd:header">Sale of obligations. </heading><content style="-uslm-dtd:text">Any obligation acquired by the Fund may be sold by the Secretary of the Treasury at the market price.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="D">“(D) </num><heading style="-uslm-dtd:header">Credits to fund. </heading><content style="-uslm-dtd:text">The interest on, and the proceeds from the sale or redemption of, any obligations held in the Fund shall be credited to and form a part of the Fund.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="E">“(E) </num><heading style="-uslm-dtd:header">Transfers of amounts. </heading>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">The amounts required to be transferred to the Fund under this subsection shall be transferred at least monthly from the general fund of the Treasury to the Fund on the basis of estimates made by the Secretary of the Treasury.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><heading style="-uslm-dtd:header">Adjustments. </heading><content style="-uslm-dtd:text">Proper adjustment shall be made in amounts subsequently transferred to the extent prior estimates were in excess of or less than the amounts required to be transferred.</content>
+                                    </clause>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="j">“(j) </num><content style="-uslm-dtd:text">) Limitation on Total Amount of Financial Assistance.—The President shall not provide financial assistance under this section in an amount greater than the amount available in the Fund.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="k">“(k) </num><heading style="-uslm-dtd:header">Multihazard Advisory Maps. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Definition of multihazard advisory map. </heading><content style="-uslm-dtd:text">In this subsection, the term ‘<term style="-uslm-dtd:term">multihazard advisory map</term>’ means a map  on which hazard data concerning each type of natural disaster is identified simultaneously for the purpose of showing areas of hazard overlap.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Development of maps. </heading><content style="-uslm-dtd:text">In consultation with States, local governments, and appropriate Federal agencies, the President shall develop multihazard advisory maps for areas, in not fewer than five States, that are subject to commonly recurring natural hazards (including flooding, hurricanes and severe winds, and seismic events).</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="3">“(3) </num><heading style="-uslm-dtd:header">Use of technology. </heading><content style="-uslm-dtd:text">In developing multihazard advisory maps under this subsection, the President shall use, to the maximum extent practicable, the most cost-effective and efficient technology available.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="4">“(4) </num><heading style="-uslm-dtd:header">Use of maps. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">Advisory nature. </heading><content style="-uslm-dtd:text">The multihazard advisory maps shall be considered to be advisory and shall not require the development of any new policy by, or impose any new policy on, any government or private entity.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Availability of maps. </heading><chapeau style="-uslm-dtd:text">The multihazard advisory maps shall be made available to the appropriate State and local governments for the purposes of—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">informing the general public about the risks of natural hazards in the areas described in paragraph (2);</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">supporting the activities described in subsection (e); and</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="iii">“(iii) </num><content style="-uslm-dtd:text">other public uses.</content>
+                                    </clause>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="l">“(l) </num><heading style="-uslm-dtd:header">Report on Federal and State Administration. </heading><content style="-uslm-dtd:text">Not later than 18 months after the date of the enactment of this section, the President, in consultation with State and local governments, shall submit to Congress a report evaluating efforts to implement this section and recommending a process for transferring greater authority and responsibility for administering the assistance program established under this section to capable States.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="m">“(m) </num><heading style="-uslm-dtd:header">Termination of Authority. </heading><content style="-uslm-dtd:text">The authority provided by this section terminates December 31, 2003.”</content>
+                        </subsection>
+                    </section></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tI/s102/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Conforming Amendment.—</heading><content style="-uslm-dtd:text">Title II of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5131 et seq.) is amended by striking the title heading and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <title style="-uslm-dtd:title">
+                        <num style="-uslm-dtd:enum" value="II">“TITLE II—</num><heading style="-uslm-dtd:header">DISASTER PREPAREDNESS AND MITIGATION ASSISTANCE ”</heading>
+                    </title></quotedContent>.</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tI/s103" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="103">SEC. 103. </num><heading style="-uslm-dtd:header">INTERAGENCY TASK FORCE. </heading>
+                <content style="-uslm-dtd:text" class="block">Title II of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5131 et seq.) (as amended by section 102(a)) is amended by adding at the end the following:<quotedContent style="-uslm-dtd:quoted-block">
+                <section style="-uslm-dtd:section" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="204">“SEC. 204. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5134">42 U.S.C. 5134</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">INTERAGENCY TASK FORCE </heading>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">In General. </heading><content style="-uslm-dtd:text">The President shall establish a Federal interagency task force for the purpose of coordinating the implementation of predisaster hazard mitigation programs administered by the Federal Government.</content>
+                    </subsection>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Chairperson. </heading><content style="-uslm-dtd:text">The Director of the Federal Emergency Management Agency shall serve as the chairperson of the task force.</content>
+                    </subsection>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Membership. </heading><chapeau style="-uslm-dtd:text">The membership of the task force shall include representatives of—</chapeau>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><content style="-uslm-dtd:text">relevant Federal agencies;</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><content style="-uslm-dtd:text">State and local government organizations (including Indian tribes); and</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="3">“(3) </num><content style="-uslm-dtd:text">the American Red Cross.”</content>
+                        </paragraph>
+                    </subsection>
+                </section></quotedContent>.</content>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tI/s104" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="104">SEC. 104. </num><heading style="-uslm-dtd:header">MITIGATION PLANNING; MINIMUM STANDARDS FOR PUBLIC AND PRIVATE STRUCTURES. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tI/s104/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Title III of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5141 et seq.) is amended by adding at the end the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <section style="-uslm-dtd:section" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="322">“SEC. 322. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5165">42 U.S.C. 5165</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">MITIGATION PLANNING </heading>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">Requirement of Mitigation Plan. </heading><content style="-uslm-dtd:text">As a condition of receipt of an increased Federal share for hazard mitigation measures under subsection (e), a State, local, or tribal government shall develop and submit for approval to the President a mitigation plan that outlines processes for identifying the natural hazards, risks, and vulnerabilities of the area under the jurisdiction of the government.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Local and Tribal Plans. </heading><chapeau style="-uslm-dtd:text">Each mitigation plan developed by a local or tribal government shall—</chapeau>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><content style="-uslm-dtd:text">describe actions to mitigate hazards, risks, and vulnerabilities identified under the plan; and</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><content style="-uslm-dtd:text">establish a strategy to implement those actions.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">State Plans. </heading><chapeau style="-uslm-dtd:text">The State process of development of a mitigation plan under this section shall—</chapeau>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><content style="-uslm-dtd:text">identify the natural hazards, risks, and vulnerabilities of areas in the State;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><content style="-uslm-dtd:text">support development of local mitigation plans;</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="3">“(3) </num><content style="-uslm-dtd:text">provide for technical assistance to local and tribal governments for mitigation planning; and</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="4">“(4) </num><content style="-uslm-dtd:text">identify and prioritize mitigation actions that the State will support, as resources become available.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="d">“(d) </num><heading style="-uslm-dtd:header">Funding. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">Federal contributions under section 404 may be used to fund the development and updating of mitigation plans under this section.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Maximum federal contribution. </heading><content style="-uslm-dtd:text">With respect to any mitigation plan, a State, local, or tribal government may use an amount of Federal contributions under section 404 not to exceed 7 percent of the amount of such contributions available to the government as of a date determined by the government.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="e">“(e) </num><heading style="-uslm-dtd:header">Increased Federal Share for Hazard Mitigation Measures. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">If, at the time of the declaration of a major disaster, a State has in effect an approved mitigation plan under this section, the President may increase to 20 percent, with respect to the major disaster, the maximum percentage specified in the last sentence of section 404(a).</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Factors for consideration. </heading><chapeau style="-uslm-dtd:text">In determining whether to increase the maximum percentage under paragraph (1), the President shall consider whether the State has established—</chapeau>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">eligibility criteria for property acquisition and other types of mitigation measures;</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">requirements for cost effectiveness that are related to the eligibility criteria;</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="C">“(C) </num><content style="-uslm-dtd:text">a system of priorities that is related to the eligibility criteria; and</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="D">“(D) </num><content style="-uslm-dtd:text">a process by which an assessment of the effectiveness of a mitigation action may be carried out after the mitigation action is complete.</content>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                    </section>
+                    <section style="-uslm-dtd:section" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="323">“SEC. 323. </num><heading style="-uslm-dtd:header">MINIMUM STANDARDS FOR PUBLIC AND PRIVATE STRUCTURES </heading>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="a">“(a) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5165a">42 U.S.C. 5165a</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">In General. </heading><chapeau style="-uslm-dtd:text">As a condition of receipt of a disaster loan or grant under this Act—</chapeau>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><content style="-uslm-dtd:text">the recipient shall carry out any repair or construction to be financed with the loan or grant in accordance with applicable standards of safety, decency, and sanitation and in conformity with applicable codes, specifications, and standards; and</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><content style="-uslm-dtd:text">the President may require safe land use and construction practices, after adequate consultation with appropriate State and local government officials.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Evidence of Compliance. </heading><content style="-uslm-dtd:text">A recipient of a disaster loan or grant under this Act shall provide such evidence of compliance with this section as the President may require by regulation.”</content>
+                        </subsection>
+                    </section></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tI/s104/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Losses From Straight Line Winds.—</heading><content style="-uslm-dtd:text">The President shall increase the maximum percentage specified in the last sentence of section 404(a) of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5170c(a)) from 15 percent to 20 percent with respect to any major disaster that is in the State of Minnesota and for which assistance is being provided as of the date of the enactment of this Act, except that additional assistance provided under this subsection shall not exceed $6,000,000. The mitigation measures assisted under this subsection shall be related to losses in the State of Minnesota from straight line winds.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tI/s104/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Conforming Amendments.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s104/c/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><chapeau style="-uslm-dtd:text">Section 404(a) of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5170c(a)) is amended—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s104/c/1/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">in the second sentence, by striking “<quotedText style="-uslm-dtd:quote">section 409</quotedText>” and inserting “<quotedText style="-uslm-dtd:quote">section 322</quotedText>”; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tI/s104/c/1/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">in the third sentence, by striking “<quotedText style="-uslm-dtd:quote">The total</quotedText>” and inserting “<quotedText style="-uslm-dtd:quote">Subject to section 322, the total</quotedText>”.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tI/s104/c/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">Section 409 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5176) is repealed.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+        </title>
+        <title style="-uslm-dtd:title" identifier="/us/sComp/106/390/tII" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="II">TITLE II—</num><heading style="-uslm-dtd:header">STREAMLINING AND COST REDUCTION </heading>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s201" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="201">SEC. 201. </num><heading style="-uslm-dtd:header">TECHNICAL AMENDMENTS. </heading>
+                <content style="-uslm-dtd:text" class="block">Section 311 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5154) is amended in subsections (a)(1), (b), and (c) by striking “<quotedText style="-uslm-dtd:quote">section 803 of the Public Works and Economic Development Act of 1965</quotedText>” each place it appears  and inserting “<quotedText style="-uslm-dtd:quote">section 209(c)(2) of the Public Works and Economic Development Act of 1965 (42 U.S.C. 3149(c)(2))</quotedText>”.</content>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s202" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="202">SEC. 202. </num><heading style="-uslm-dtd:header">MANAGEMENT COSTS. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s202/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Title III of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5141 et seq.) (as amended by section 104(a)) is amended by adding at the end the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <section style="-uslm-dtd:section" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="324">“SEC. 324. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5165b">42 U.S.C. 5165b</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">MANAGEMENT COSTS </heading>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">Definition of Management Cost. </heading><content style="-uslm-dtd:text">In this section, the term ‘<term style="-uslm-dtd:term">management cost</term>’ includes any indirect cost, any administrative expense, and any other expense not directly chargeable to a specific project under a major disaster, emergency, or disaster preparedness or mitigation activity or measure.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Establishment of Management Cost Rates. </heading><content style="-uslm-dtd:text">Notwithstanding any other provision of law (including any administrative rule or guidance), the President shall by regulation establish management cost rates, for grantees and subgrantees, that shall be used to determine contributions under this Act for management costs.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Review. </heading><content style="-uslm-dtd:text">The President shall review the management cost rates established under subsection (b) not later than 3 years after the date of establishment of the rates and periodically thereafter.”</content>
+                        </subsection>
+                    </section></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s202/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5165b">42 U.S.C. 5165b note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Applicability.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s202/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Subject to paragraph (2), subsections (a) and (b) of section 324 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (as added by subsection (a)) shall apply to major disasters declared under that Act on or after the date of the enactment of this Act.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s202/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Interim authority.—</heading><content style="-uslm-dtd:text">Until the date on which the President establishes the management cost rates under section 324 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (as added by subsection (a)), section 406(f ) of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5172(f )) (as in effect on the day before the date of the enactment of this Act) shall be used to establish management cost rates.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s203" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="203">SEC. 203. </num><heading style="-uslm-dtd:header">PUBLIC NOTICE, COMMENT, AND CONSULTATION REQUIREMENTS. </heading>
+                <content style="-uslm-dtd:text" class="block">Title III of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5141 et seq.) (as amended by section 202(a)) is amended by adding at the end the following:<quotedContent style="-uslm-dtd:quoted-block">
+                <section style="-uslm-dtd:section" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="325">“SEC. 325. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5165c">42 U.S.C. 5165c</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">PUBLIC NOTICE, COMMENT, AND CONSULTATION REQUIREMENTS </heading>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">Public Notice and Comment Concerning New or Modified Policies. </heading>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><chapeau style="-uslm-dtd:text">The President shall provide for public notice and opportunity for comment before adopting any new or modified policy that—</chapeau>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">governs implementation of the public assistance program administered by the Federal Emergency Management Agency under this Act; and</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">could result in a significant reduction of assistance under the program.</content>
+                            </subparagraph>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Application. </heading><content style="-uslm-dtd:text">Any policy adopted under paragraph (1) shall apply only to a major disaster or emergency declared on or after the date on which the policy is adopted.</content>
+                        </paragraph>
+                    </subsection>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Consultation Concerning Interim Policies. </heading>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><chapeau style="-uslm-dtd:text">Before adopting any interim policy under the public assistance program to address specific conditions that relate to a major disaster or emergency that has been declared under this Act, the President, to the maximum extent practicable, shall solicit the views and recommendations of grantees and subgrantees with respect to the major disaster or emergency concerning the potential interim policy, if the interim policy is likely—</chapeau>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">to result in a significant reduction of assistance to applicants for the assistance with respect to the major disaster or emergency; or</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">to change the terms of a written agreement to which the Federal Government is a party concerning the declaration of the major disaster or emergency.</content>
+                            </subparagraph>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">No legal right of action. </heading><content style="-uslm-dtd:text">Nothing in this subsection confers a legal right of action on any party.</content>
+                        </paragraph>
+                    </subsection>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Public Access. </heading><content style="-uslm-dtd:text">The President shall promote public access to policies governing the implementation of the public assistance program.”</content>
+                    </subsection>
+                </section></quotedContent>.</content>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s204" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="204">SEC. 204. </num><heading style="-uslm-dtd:header">STATE ADMINISTRATION OF HAZARD MITIGATION GRANT PROGRAM. </heading>
+                <content style="-uslm-dtd:text" class="block">Section 404 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5170c) is amended by adding at the end the following:<quotedContent style="-uslm-dtd:quoted-block">
+                <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Program Administration by States. </heading>
+                    <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">A State desiring to administer the hazard mitigation grant program established by this section with respect to hazard mitigation assistance in the State may submit to the President an application for the delegation of the authority to administer the program.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Criteria. </heading><chapeau style="-uslm-dtd:text">The President, in consultation and coordination with States and local governments, shall establish criteria for the approval of applications submitted under paragraph (1). The criteria shall include, at a minimum—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">the demonstrated ability of the State to manage the grant program under this section;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">there being in effect an approved mitigation plan under section 322; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">“(C) </num><content style="-uslm-dtd:text">a demonstrated commitment to mitigation activities.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">“(3) </num><heading style="-uslm-dtd:header">Approval. </heading><content style="-uslm-dtd:text">The President shall approve an application submitted under paragraph (1) that meets the criteria established under paragraph (2).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">“(4) </num><heading style="-uslm-dtd:header">Withdrawal of approval. </heading><content style="-uslm-dtd:text">If, after approving an application of a State submitted under paragraph (1), the President determines that the State is not administering the hazard mitigation grant program established by this section in a manner satisfactory to the President, the President shall withdraw the approval.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">“(5) </num><heading style="-uslm-dtd:header">Audits. </heading><content style="-uslm-dtd:text">The President shall provide for periodic audits of the hazard mitigation grant programs administered by States under this subsection.”</content>
+                    </paragraph>
+                </subsection></quotedContent>.</content>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s205" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="205">SEC. 205. </num><heading style="-uslm-dtd:header">ASSISTANCE TO REPAIR, RESTORE, RECONSTRUCT, OR REPLACE DAMAGED FACILITIES. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s205/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Contributions.—</heading><content style="-uslm-dtd:text">Section 406 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5172) is amended by striking subsection (a) and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">Contributions. </heading>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><chapeau style="-uslm-dtd:text">The President may make contributions—</chapeau>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">to a State or local government for the repair, restoration, reconstruction, or replacement of a public facility damaged or destroyed by a major disaster and for associated expenses incurred by the government; and</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">subject to paragraph (3), to a person that owns or operates a private nonprofit facility damaged or destroyed by a major disaster for the repair, restoration, reconstruction, or replacement of the facility and for associated expenses incurred by the person.</content>
+                            </subparagraph>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Associated expenses. </heading><chapeau style="-uslm-dtd:text">For the purposes of this section, associated expenses shall include—</chapeau>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">the costs of mobilizing and employing the National Guard for performance of eligible work;</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">the costs of using prison labor to perform eligible work, including wages actually paid, transportation to a worksite, and extraordinary costs of guards, food, and lodging; and</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="C">“(C) </num><content style="-uslm-dtd:text">base and overtime wages for the employees and extra hires of a State, local government, or person described in paragraph (1) that perform eligible work, plus fringe benefits on such wages to the extent that such benefits were being paid before the major disaster.</content>
+                            </subparagraph>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="3">“(3) </num><heading style="-uslm-dtd:header">Conditions for assistance to private nonprofit facilities. </heading>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><chapeau style="-uslm-dtd:text">The President may make contributions to a private nonprofit facility under paragraph (1)(B) only if—</chapeau>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">the facility provides critical services (as defined by the President) in the event of a major disaster; or</content>
+                                </clause>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="ii">“(ii) </num><chapeau style="-uslm-dtd:text">the owner or operator of the facility—</chapeau>
+                                    <subclause style="-uslm-dtd:subclause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="I">“(I) </num><content style="-uslm-dtd:text">has applied for a disaster loan under section 7(b) of the Small Business Act (15 U.S.C. 636(b)); and</content>
+                                    </subclause>
+                                    <subclause style="-uslm-dtd:subclause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="II">“(II)</num><item style="-uslm-dtd:item" styleType="OLC" class="inline"><num style="-uslm-dtd:enum" value="aa">(aa) </num><content style="-uslm-dtd:text">has been determined to be ineligible for such a loan; or</content></item>
+                                        <item style="-uslm-dtd:item" styleType="OLC" class="leftIndentDecrease1">
+                                            <num style="-uslm-dtd:enum" value="bb">“(bb) </num><content style="-uslm-dtd:text">has obtained such a loan in the maximum amount for which the Small Business Administration determines the facility is eligible.</content>
+                                        </item>
+                                    </subclause>
+                                </clause>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Definition of critical services. </heading><content style="-uslm-dtd:text">In this paragraph, the term ‘<term style="-uslm-dtd:term">critical services</term>’ includes power, water (including water provided by an irrigation organization or facility), sewer, wastewater treatment, communications, and emergency medical care.</content>
+                            </subparagraph>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="4">“(4) </num><heading style="-uslm-dtd:header">Notification to congress. </heading><chapeau style="-uslm-dtd:text">Before making any contribution under this section in an amount greater than $20,000,000, the President shall notify—</chapeau>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">the Committee on Environment and Public Works of the Senate;</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">the Committee on Transportation and Infrastructure of the House of Representatives;</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="C">“(C) </num><content style="-uslm-dtd:text">the Committee on Appropriations of the Senate; and</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="D">“(D) </num><content style="-uslm-dtd:text">the Committee on Appropriations of the House of Representatives.”</content>
+                            </subparagraph>
+                        </paragraph>
+                    </subsection></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s205/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Federal Share.—</heading><content style="-uslm-dtd:text">Section 406 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5172) is amended by striking subsection (b) and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Federal Share. </heading>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Minimum federal share. </heading><content style="-uslm-dtd:text">Except as provided in paragraph (2), the Federal share of assistance under this section shall be not less than 75 percent of the eligible cost of repair, restoration, reconstruction, or replacement carried out under this section.</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Reduced federal share. </heading><chapeau style="-uslm-dtd:text">The President shall promulgate regulations to reduce the Federal share of assistance under this section to not less than 25 percent in the case of the repair, restoration, reconstruction, or replacement of any eligible public facility or private nonprofit facility following an event associated with a major disaster—</chapeau>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">that has been damaged, on more than one occasion within the preceding 10-year period, by the same type of event; and</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">the owner of which has failed to implement appropriate mitigation measures to address the hazard that caused the damage to the facility.”</content>
+                            </subparagraph>
+                        </paragraph>
+                    </subsection></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s205/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Large In-Lieu Contributions.—</heading><content style="-uslm-dtd:text">Section 406 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5172) is amended by striking subsection (c) and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Large In-Lieu Contributions. </heading>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">For public facilities. </heading>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">In any case in which a State or local government determines that the public welfare would not best be served by repairing, restoring, reconstructing, or replacing any public facility owned or controlled by the State or local government, the State or local government may elect to receive, in lieu of a contribution under subsection (a)(1)(A), a contribution in an amount equal to 75 percent of the Federal share of the Federal estimate of the cost of repairing, restoring, reconstructing, or replacing the facility and of management expenses.</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Areas with unstable soil. </heading><content style="-uslm-dtd:text">In any case in which a State or local government determines that the public welfare would not best be served by repairing, restoring, reconstructing, or replacing any public facility owned or controlled by the State or local government because soil instability in the disaster area makes repair, restoration, reconstruction, or replacement infeasible, the State or local government may elect to receive, in lieu of a contribution under subsection (a)(1)(A), a contribution in an amount equal to 90 percent of the Federal share of the Federal estimate of the cost of repairing, restoring, reconstructing, or replacing the facility and of management expenses.</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="C">“(C) </num><heading style="-uslm-dtd:header">Use of funds. </heading><chapeau style="-uslm-dtd:text">Funds contributed to a State or local government under this paragraph may be used—</chapeau>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">to repair, restore, or expand other selected public facilities;</content>
+                                </clause>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">to construct new facilities; or</content>
+                                </clause>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="iii">“(iii) </num><content style="-uslm-dtd:text">to fund hazard mitigation measures that the State or local government determines to be necessary to meet a need for governmental services and functions in the area affected by the major disaster.</content>
+                                </clause>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="D">“(D) </num><heading style="-uslm-dtd:header">Limitations. </heading><chapeau style="-uslm-dtd:text">Funds made available to a State or local government under this paragraph may not be used for—</chapeau>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">any public facility located in a regulatory floodway (as defined in section 59.1 of title 44, Code of Federal Regulations (or a successor regulation)); or</content>
+                                </clause>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">any uninsured public facility located in a special flood hazard area identified by the Director of the Federal Emergency Management Agency under the National Flood Insurance Act of 1968 (42 U.S.C. 4001 et seq.).</content>
+                                </clause>
+                            </subparagraph>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">For private nonprofit facilities. </heading>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">In any case in which a person that owns or operates a private nonprofit facility determines that the public welfare would not best be served by repairing, restoring, reconstructing, or replacing the facility, the person may elect to receive, in lieu of a contribution under subsection (a)(1)(B), a contribution in an amount equal to 75 percent of the Federal share of the Federal estimate of the cost of repairing, restoring, reconstructing, or replacing the facility and of management expenses.</content>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Use of funds. </heading><chapeau style="-uslm-dtd:text">Funds contributed to a person under this paragraph may be used—</chapeau>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">to repair, restore, or expand other selected private nonprofit facilities owned or operated by the person;</content>
+                                </clause>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">to construct new private nonprofit facilities to be owned or operated by the person; or</content>
+                                </clause>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="iii">“(iii) </num><content style="-uslm-dtd:text">to fund hazard mitigation measures that the person determines to be necessary to meet a need for the person’s services and functions in the area affected by the major disaster.</content>
+                                </clause>
+                            </subparagraph>
+                            <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="C">“(C) </num><heading style="-uslm-dtd:header">Limitations. </heading><chapeau style="-uslm-dtd:text">Funds made available to a person under this paragraph may not be used for—</chapeau>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">any private nonprofit facility located in a regulatory floodway (as defined in section 59.1 of title 44, Code of Federal Regulations (or a successor regulation)); or</content>
+                                </clause>
+                                <clause style="-uslm-dtd:clause" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">any uninsured private nonprofit facility located in a special flood hazard area identified by the Director of the Federal Emergency Management Agency under the National Flood Insurance Act of 1968 (42 U.S.C. 4001 et seq.).”</content>
+                                </clause>
+                            </subparagraph>
+                        </paragraph>
+                    </subsection></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s205/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><heading style="-uslm-dtd:header">Eligible Cost.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s205/d/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">Section 406 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5172) is amended by striking subsection (e) and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="e">“(e) </num><heading style="-uslm-dtd:header">Eligible Cost. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Determination. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><chapeau style="-uslm-dtd:text">For the purposes of this section, the President shall estimate the eligible cost of repairing, restoring, reconstructing, or replacing a public facility or private nonprofit facility—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">on the basis of the design of the facility as the facility existed immediately before the major disaster; and</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">in conformity with codes, specifications, and standards (including floodplain management and hazard mitigation criteria required by the President or under the Coastal Barrier Resources Act (16 U.S.C. 3501 et seq.)) applicable at the time at which the disaster occurred.</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Cost estimation procedures. </heading>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">Subject to paragraph (2), the President shall use the cost estimation procedures established under paragraph (3) to determine the eligible cost under this subsection.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><heading style="-uslm-dtd:header">Applicability. </heading><content style="-uslm-dtd:text">The procedures specified in this paragraph and paragraph (2) shall apply only to projects the eligible cost of which is equal to or greater than the amount specified in section 422.</content>
+                                    </clause>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Modification of eligible cost. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">Actual cost greater than ceiling percentage of estimated cost. </heading><content style="-uslm-dtd:text">In any case in which the actual cost of repairing, restoring, reconstructing, or replacing a facility under this section is greater than the ceiling percentage established under paragraph (3) of the cost estimated under paragraph (1), the President may determine that the eligible cost includes a portion of the actual cost of the repair, restoration, reconstruction, or replacement that exceeds the cost estimated under paragraph (1).</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Actual cost less than estimated cost. </heading>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><heading style="-uslm-dtd:header">Greater than or equal to floor percentage of estimated cost. </heading><content style="-uslm-dtd:text">In any case in which the actual cost of repairing, restoring, reconstructing, or replacing a facility under this section is less than 100 percent of the cost estimated under paragraph (1), but is greater than or equal to the floor percentage established under paragraph (3) of the cost estimated under paragraph (1), the State or local government or person receiving funds under this section shall use the excess funds to carry out cost-effective activities that reduce the risk of future damage, hardship, or suffering from a major disaster.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><heading style="-uslm-dtd:header">Less than floor percentage of estimated cost. </heading><content style="-uslm-dtd:text">In any case in which the actual cost of repairing, restoring, reconstructing, or replacing a facility under this section is less than the floor percentage established under paragraph (3) of the cost estimated under paragraph (1), the State or local government or person receiving assistance under this section shall reimburse the President in the amount of the difference.</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="C">“(C) </num><heading style="-uslm-dtd:header">No effect on appeals process. </heading><content style="-uslm-dtd:text">Nothing in this paragraph affects any right of appeal under section 423.</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="3">“(3) </num><heading style="-uslm-dtd:header">Expert panel. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">Establishment. </heading><content style="-uslm-dtd:text">Not later than 18 months after the date of the enactment of this paragraph, the President, acting through the Director of the Federal Emergency Management Agency, shall establish an expert panel, which shall include representatives from the construction industry and State and local government.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Duties. </heading><chapeau style="-uslm-dtd:text">The expert panel shall develop recommendations concerning—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">procedures for estimating the cost of repairing, restoring, reconstructing, or replacing a facility consistent with industry practices; and</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">the ceiling and floor percentages referred to in paragraph (2).</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="C">“(C) </num><heading style="-uslm-dtd:header">Regulations. </heading><chapeau style="-uslm-dtd:text">Taking into account the recommendations of the expert panel under subparagraph (B), the President shall promulgate regulations that establish—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">cost estimation procedures described in subparagraph (B)(i); and</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">the ceiling and floor percentages referred to in paragraph (2).</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="D">“(D) </num><heading style="-uslm-dtd:header">Review by president. </heading><content style="-uslm-dtd:text">Not later than 2 years after the date of promulgation of regulations under subparagraph (C) and periodically thereafter, the President shall review the cost estimation procedures and the ceiling and floor percentages established under this paragraph.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="E">“(E) </num><heading style="-uslm-dtd:header">Report to congress. </heading><content style="-uslm-dtd:text">Not later than 1 year after the date of promulgation of regulations under subparagraph (C), 3 years after that date, and at the end of each 2-year period thereafter, the expert panel shall submit to Congress a report on the appropriateness of the cost estimation procedures.</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="4">“(4) </num><heading style="-uslm-dtd:header">Special rule. </heading><content style="-uslm-dtd:text">In any case in which the facility being repaired, restored, reconstructed, or replaced under this section was under construction on the date of the major disaster, the cost of repairing, restoring, reconstructing, or replacing the facility shall include, for the purposes of this section, only those costs that, under the contract for the construction, are the owner’s responsibility and not the contractor’s responsibility.”</content>
+                            </paragraph>
+                        </subsection></quotedContent>.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s205/d/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5172">42 U.S.C. 5172 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Effective date.—</heading><content style="-uslm-dtd:text">The amendment made by paragraph (1) takes effect on the date of the enactment of this Act and applies to funds appropriated after the date of the enactment of this Act, except that paragraph (1)(B) of section 406(e) of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (as amended by paragraph (1)) takes effect on the date on which the cost estimation procedures established under paragraph (3) of that section take effect.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s205/e" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="e">(e) </num><heading style="-uslm-dtd:header">Conforming Amendment.—</heading><content style="-uslm-dtd:text">Section 406 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5172) is amended by striking subsection (f ).</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s206" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="206">SEC. 206. </num><heading style="-uslm-dtd:header">FEDERAL ASSISTANCE TO INDIVIDUALS AND HOUSEHOLDS. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s206/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Section 408 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5174) is amended to read as follows:<quotedContent style="-uslm-dtd:quoted-block">
+                    <section style="-uslm-dtd:section" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="408">“SEC. 408. </num><heading style="-uslm-dtd:header">FEDERAL ASSISTANCE TO INDIVIDUALS AND HOUSEHOLDS </heading>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">In General. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Provision of assistance. </heading><content style="-uslm-dtd:text">In accordance with this section, the President, in consultation with the Governor of a State, may provide financial assistance, and, if necessary, direct services, to individuals and households in the State who, as a direct result of a major disaster, have necessary expenses and serious needs in cases in which the individuals and households are unable to meet such expenses or needs through other means.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Relationship to other assistance. </heading><content style="-uslm-dtd:text">Under paragraph (1), an individual or household shall not be denied assistance under paragraph (1), (3), or (4) of subsection (c) solely on the basis that the individual or household has not applied for or received any loan or other financial assistance from the Small Business Administration or any other Federal agency.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Housing Assistance. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Eligibility. </heading><content style="-uslm-dtd:text">The President may provide financial or other assistance under this section to individuals and households to respond to the disaster-related housing needs of individuals and households who are displaced from their predisaster primary residences or whose predisaster primary residences are rendered uninhabitable as a result of damage caused by a major disaster.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Determination of appropriate types of assistance. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">The President shall determine appropriate types of housing assistance to be provided under this section to individuals and households described in subsection (a)(1) based on considerations of cost effectiveness, convenience to the individuals and households, and such other factors as the President may consider appropriate.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Multiple types of assistance. </heading><content style="-uslm-dtd:text">One or more types of housing assistance may be made available under this section, based on the suitability and availability of the types of assistance, to meet the needs of individuals and households in the particular disaster situation.</content>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Types of Housing Assistance. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Temporary housing. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">Financial assistance. </heading>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">The President may provide financial assistance to individuals or households to rent alternate housing accommodations, existing rental units, manufactured housing, recreational vehicles, or other readily fabricated dwellings.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><heading style="-uslm-dtd:header">Amount. </heading><content style="-uslm-dtd:text">The amount of assistance under clause (i) shall be based on the fair market rent for the accommodation provided plus the cost of any transportation, utility hookups, or unit installation not provided directly by the President.</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Direct assistance. </heading>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">The President may provide temporary housing units, acquired by purchase or lease, directly to individuals or households who, because of a lack of available housing resources, would be unable  to make use of the assistance provided under subparagraph (A).</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><heading style="-uslm-dtd:header">Period of assistance. </heading><content style="-uslm-dtd:text">The President may not provide direct assistance under clause (i) with respect to a major disaster after the end of the 18-month period beginning on the date of the declaration of the major disaster by the President, except that the President may extend that period if the President determines that due to extraordinary circumstances an extension would be in the public interest.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="iii">“(iii) </num><heading style="-uslm-dtd:header">Collection of rental charges. </heading><content style="-uslm-dtd:text">After the end of the 18-month period referred to in clause (ii), the President may charge fair market rent for each temporary housing unit provided.</content>
+                                    </clause>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Repairs. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><chapeau style="-uslm-dtd:text">The President may provide financial assistance for—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">the repair of owner-occupied private residences, utilities, and residential infrastructure (such as a private access route) damaged by a major disaster to a safe and sanitary living or functioning condition; and</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">eligible hazard mitigation measures that reduce the likelihood of future damage to such residences, utilities, or infrastructure.</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Relationship to other assistance. </heading><content style="-uslm-dtd:text">A recipient of assistance provided under this paragraph shall not be required to show that the assistance can be met through other means, except insurance proceeds.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="C">“(C) </num><heading style="-uslm-dtd:header">Maximum amount of assistance. </heading><content style="-uslm-dtd:text">The amount of assistance provided to a household under this paragraph shall not exceed $5,000, as adjusted annually to reflect changes in the Consumer Price Index for All Urban Consumers published by the Department of Labor.</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="3">“(3) </num><heading style="-uslm-dtd:header">Replacement. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">The President may provide financial assistance for the replacement of owner-occupied private residences damaged by a major disaster.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Maximum amount of assistance. </heading><content style="-uslm-dtd:text">The amount of assistance provided to a household under this paragraph shall not exceed $10,000, as adjusted annually to reflect changes in the Consumer Price Index for All Urban Consumers published by the Department of Labor.</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="C">“(C) </num><heading style="-uslm-dtd:header">Applicability of flood insurance requirement. </heading><content style="-uslm-dtd:text">With respect to assistance provided under this paragraph, the President may not waive any provision of Federal law requiring the purchase of flood insurance as a condition of the receipt of Federal disaster assistance.</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="4">“(4) </num><heading style="-uslm-dtd:header">Permanent housing construction. </heading><chapeau style="-uslm-dtd:text">The President may provide financial assistance or direct assistance to individuals or households to construct permanent housing in insular areas outside the continental United States and in other remote locations in cases in which—</chapeau>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">no alternative housing resources are available; and</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">the types of temporary housing assistance described in paragraph (1) are unavailable, infeasible, or not cost-effective.</content>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="d">“(d) </num><heading style="-uslm-dtd:header">Terms and Conditions Relating to Housing Assistance. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Sites. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">In general. </heading><chapeau style="-uslm-dtd:text">Any readily fabricated dwelling provided under this section shall, whenever practicable, be located on a site that—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">is complete with utilities; and</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">is provided by the State or local government, by the owner of the site, or by the occupant who was displaced by the major disaster.</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Sites provided by the president. </heading><content style="-uslm-dtd:text">A readily fabricated dwelling may be located on a site provided by the President if the President determines that such a site would be more economical or accessible.</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Disposal of units. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">Sale to occupants. </heading>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">Notwithstanding any other provision of law, a temporary housing unit purchased under this section by the President for the purpose of housing disaster victims may be sold directly to the individual or household who is occupying the unit if the individual or household lacks permanent housing.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><heading style="-uslm-dtd:header">Sale price. </heading><content style="-uslm-dtd:text">A sale of a temporary housing unit under clause (i) shall be at a price that is fair and equitable.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="iii">“(iii) </num><heading style="-uslm-dtd:header">Deposit of proceeds. </heading><content style="-uslm-dtd:text">Notwithstanding any other provision of law, the proceeds of a sale under clause (i) shall be deposited in the appropriate Disaster Relief Fund account.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="iv">“(iv) </num><heading style="-uslm-dtd:header">Hazard and flood insurance. </heading><content style="-uslm-dtd:text">A sale of a temporary housing unit under clause (i) shall be made on the condition that the individual or household purchasing the housing unit agrees to obtain and maintain hazard and flood insurance on the housing unit.</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="v">“(v) </num><heading style="-uslm-dtd:header">Use of gsa services. </heading><content style="-uslm-dtd:text">The President may use the services of the General Services Administration to accomplish a sale under clause (i).</content>
+                                    </clause>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Other methods of disposal. </heading><chapeau style="-uslm-dtd:text">If not disposed of under subparagraph (A), a temporary housing unit purchased under this section by the President for the purpose of housing disaster victims—</chapeau>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">may be sold to any person; or</content>
+                                    </clause>
+                                    <clause style="-uslm-dtd:clause" styleType="OLC">
+                                        <num style="-uslm-dtd:enum" value="ii">“(ii) </num><chapeau style="-uslm-dtd:text">may be sold, transferred, donated, or otherwise made available directly to a State or other governmental entity or to a voluntary organization for the sole purpose of providing temporary housing to disaster victims in major disasters and emergencies if, as a condition of the sale, transfer, or donation, the State, other governmental agency, or voluntary organization agrees—</chapeau>
+                                        <subclause style="-uslm-dtd:subclause" styleType="OLC">
+                                            <num style="-uslm-dtd:enum" value="I">“(I) </num><content style="-uslm-dtd:text">to comply with the nondiscrimination provisions of section 308; and</content>
+                                        </subclause>
+                                        <subclause style="-uslm-dtd:subclause" styleType="OLC">
+                                            <num style="-uslm-dtd:enum" value="II">“(II) </num><content style="-uslm-dtd:text">to obtain and maintain hazard and flood insurance on the housing unit.</content>
+                                        </subclause>
+                                    </clause>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="e">“(e) </num><heading style="-uslm-dtd:header">Financial Assistance To Address Other Needs. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Medical, dental, and funeral expenses. </heading><content style="-uslm-dtd:text">The President, in consultation with the Governor of a State, may provide financial assistance under this section to an individual or household in the State who is adversely affected by a major disaster to meet disaster-related medical, dental, and funeral expenses.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Personal property, transportation, and other expenses. </heading><content style="-uslm-dtd:text">The President, in consultation with the Governor of a State, may provide financial assistance under this section to an individual or household described in paragraph (1) to address personal property, transportation, and other necessary expenses or serious needs resulting from the major disaster.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="f">“(f) </num><chapeau style="-uslm-dtd:text">) State Role.—</chapeau>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Financial assistance to address other needs. </heading>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><heading style="-uslm-dtd:header">Grant to state. </heading><content style="-uslm-dtd:text">Subject to subsection (g), a Governor may request a grant from the President to provide financial assistance to individuals and households in the State under subsection (e).</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><heading style="-uslm-dtd:header">Administrative costs. </heading><content style="-uslm-dtd:text">A State that receives a grant under subparagraph (A) may expend not more than 5 percent of the amount of the grant for the administrative costs of providing financial assistance to individuals and households in the State under subsection (e).</content>
+                                </subparagraph>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Access to records. </heading><content style="-uslm-dtd:text">In providing assistance to individuals and households under this section, the President shall provide for the substantial and ongoing involvement of the States in which the individuals and households are located, including by providing to the States access to the electronic records of individuals and households receiving assistance under this section in order for the States to make available any additional State and local assistance to the individuals and households.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="g">“(g) </num><heading style="-uslm-dtd:header">Cost Sharing. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Federal share. </heading><content style="-uslm-dtd:text">Except as provided in paragraph (2), the Federal share of the costs eligible to be paid using assistance provided under this section shall be 100 percent.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Financial assistance to address other needs. </heading><chapeau style="-uslm-dtd:text">In the case of financial assistance provided under subsection (e)—</chapeau>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">the Federal share shall be 75 percent; and</content>
+                                </subparagraph>
+                                <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                                    <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">the non-Federal share shall be paid from funds made available by the State.</content>
+                                </subparagraph>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="h">“(h) </num><heading style="-uslm-dtd:header">Maximum Amount of Assistance. </heading>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">No individual or household shall receive financial assistance greater than $25,000 under this section with respect to a single major disaster.</content>
+                            </paragraph>
+                            <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Adjustment of limit. </heading><content style="-uslm-dtd:text">The limit established under paragraph (1) shall be adjusted annually to reflect changes in the Consumer Price Index for All Urban Consumers published by the Department of Labor.</content>
+                            </paragraph>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="i">“(i) </num><heading style="-uslm-dtd:header">Rules and Regulations. </heading><content style="-uslm-dtd:text">The President shall prescribe rules and regulations to carry out this section, including criteria, standards, and procedures for determining eligibility for assistance.”</content>
+                        </subsection>
+                    </section></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s206/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Conforming Amendment.—</heading><content style="-uslm-dtd:text">Section 502(a)(6) of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5192(a)(6)) is amended by striking “<quotedText style="-uslm-dtd:quote">temporary housing</quotedText>”.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s206/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Elimination of Individual and Family Grant Programs.—</heading><content style="-uslm-dtd:text">Section 411 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5178) is repealed.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tII/s206/d" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="d">(d) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5174">42 U.S.C. 5174 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Effective Date.—</heading><content style="-uslm-dtd:text">The amendments made by this section take effect 18 months after the date of the enactment of this Act.</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s207" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="207">SEC. 207. </num><heading style="-uslm-dtd:header">COMMUNITY DISASTER LOANS. </heading>
+                <chapeau style="-uslm-dtd:text" class="block">Section 417 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5184) is amended—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s207/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">by striking “<quotedText style="-uslm-dtd:quote">(a) The President</quotedText>” and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">In General. </heading><content style="-uslm-dtd:text">The President”</content>
+                    </subsection></quotedContent>;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s207/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">by striking “<quotedText style="-uslm-dtd:quote">The amount</quotedText>” and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Amount. </heading><content style="-uslm-dtd:text">The amount”</content>
+                    </subsection></quotedContent>;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s207/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">by striking “<quotedText style="-uslm-dtd:quote">Repayment</quotedText>” and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Repayment. </heading>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">Cancellation. </heading><content style="-uslm-dtd:text">Repayment”</content>
+                        </paragraph>
+                    </subsection></quotedContent>;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s207/4" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">by striking “<quotedText style="-uslm-dtd:quote">(b) Any loans</quotedText>” and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="d">“(d) </num><heading style="-uslm-dtd:header">Effect on Other Assistance. </heading><content style="-uslm-dtd:text">Any loans”</content>
+                    </subsection></quotedContent>;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s207/5" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="5">(5) </num><chapeau style="-uslm-dtd:text">in subsection (b) (as designated by paragraph (2))—</chapeau>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tII/s207/5/A" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">by striking “<quotedText style="-uslm-dtd:quote">and shall</quotedText>” and inserting “<quotedText style="-uslm-dtd:quote">shall</quotedText>”; and</content>
+                    </subparagraph>
+                    <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tII/s207/5/B" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">by inserting before the period at the end the following: “<quotedText style="-uslm-dtd:quote">, and shall not exceed $5,000,000</quotedText>”; and</content>
+                    </subparagraph>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s207/6" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="6">(6) </num><content style="-uslm-dtd:text">in subsection (c) (as designated by paragraph (3)), by adding at the end the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Condition on continuing eligibility. </heading><content style="-uslm-dtd:text">A local government shall not be eligible for further assistance under this section during any period in which the local government is in arrears with respect to a required repayment of a loan under this section.”</content>
+                    </paragraph></quotedContent>.</content>
+                </paragraph>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s208" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="208">SEC. 208. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5121">42 U.S.C. 5121 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">REPORT ON STATE MANAGEMENT OF SMALL DISASTERS INITIATIVE. </heading>
+                <chapeau style="-uslm-dtd:text" class="block">Not later than 3 years after the date of the enactment of this Act, the President shall submit to Congress a report describing the results of the State Management of Small Disasters Initiative, including—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s208/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">identification of any administrative or financial benefits of the initiative; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tII/s208/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">recommendations concerning the conditions, if any, under which States should be allowed the option to administer parts of the assistance program under section 406 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5172).</content>
+                </paragraph>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tII/s209" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="209">SEC. 209. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5121">42 U.S.C. 5121 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">STUDY REGARDING COST REDUCTION. </heading>
+                <content style="-uslm-dtd:text" class="block">Not later than September 30, 2007, the Director of the Congressional Budget Office shall complete a study estimating the reduction in Federal disaster assistance that has resulted and is likely to result from the enactment of this Act.</content>
+            </section>
+        </title>
+        <title style="-uslm-dtd:title" identifier="/us/sComp/106/390/tIII" styleType="OLC">
+            <num style="-uslm-dtd:enum" value="III">TITLE III—</num><heading style="-uslm-dtd:header">MISCELLANEOUS </heading>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tIII/s301" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="301">SEC. 301. </num><heading style="-uslm-dtd:header">TECHNICAL CORRECTION OF SHORT TITLE. </heading>
+                <content style="-uslm-dtd:text" class="block">The first section of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5121 note) is amended to read as follows:<quotedContent style="-uslm-dtd:quoted-block">
+                <section style="-uslm-dtd:section" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">“SEC. 1. </num><heading style="-uslm-dtd:header">SHORT TITLE </heading>
+                    <content style="-uslm-dtd:text" class="block">“This Act may be cited as the ‘<shortTitle style="-uslm-dtd:quote">Robert T. Stafford Disaster Relief and Emergency Assistance Act</shortTitle>’.”</content>
+                </section></quotedContent>.</content>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tIII/s302" styleType="OLC" role="definitions">
+                <num style="-uslm-dtd:enum" value="302">SEC. 302. </num><heading style="-uslm-dtd:header">DEFINITIONS. </heading>
+                <chapeau style="-uslm-dtd:text" class="block">Section 102 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5122) is amended—</chapeau>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s302/1" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">in each of paragraphs (3) and (4), by striking “<term style="-uslm-dtd:quote">the Northern</term>” and all that follows through “<term style="-uslm-dtd:quote">Pacific Islands</term>” and inserting “<term style="-uslm-dtd:quote">and the Commonwealth of the Northern Mariana Islands</term>”;</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s302/2" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">by striking paragraph (6) and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="6">“(6) </num><heading style="-uslm-dtd:header">Local government. </heading><chapeau style="-uslm-dtd:text">The term ‘<term style="-uslm-dtd:term">local government</term>’ means—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">a county, municipality, city, town, township, local public authority, school district, special district, intrastate district, council of governments (regardless of whether the council of governments is incorporated as a nonprofit corporation under State law), regional or interstate government entity, or agency or instrumentality of a local government;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">“(B) </num><content style="-uslm-dtd:text">an Indian tribe or authorized tribal organization, or Alaska Native village or organization; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">“(C) </num><content style="-uslm-dtd:text">a rural community, unincorporated town or village, or other public entity, for which an application for assistance is made by a State or political subdivision of a State.”</content>
+                        </subparagraph>
+                    </paragraph></quotedContent>; and</content>
+                </paragraph>
+                <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s302/3" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">in paragraph (9), by inserting “<term style="-uslm-dtd:quote">irrigation,</term>” after “<term style="-uslm-dtd:quote">utility,</term>”.</content>
+                </paragraph>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tIII/s303" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="303">SEC. 303. </num><heading style="-uslm-dtd:header">FIRE MANAGEMENT ASSISTANCE. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s303/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Section 420 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5187) is amended to read as follows:<quotedContent style="-uslm-dtd:quoted-block">
+                    <section style="-uslm-dtd:section" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="420">“SEC. 420. </num><heading style="-uslm-dtd:header">FIRE MANAGEMENT ASSISTANCE </heading>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">In General. </heading><content style="-uslm-dtd:text">The President is authorized to provide assistance, including grants, equipment, supplies, and personnel, to any State or local government for the mitigation, management, and control of any fire on public or private forest land or grassland that threatens such destruction as would constitute a major disaster.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Coordination With State and Tribal Departments of Forestry. </heading><content style="-uslm-dtd:text">In providing assistance under this section, the President shall coordinate with State and tribal departments of forestry.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Essential Assistance. </heading><content style="-uslm-dtd:text">In providing assistance under this section, the President may use the authority provided under section 403.</content>
+                        </subsection>
+                        <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="d">“(d) </num><heading style="-uslm-dtd:header">Rules and Regulations. </heading><content style="-uslm-dtd:text">The President shall prescribe such rules and regulations as are necessary to carry out this section.”</content>
+                        </subsection>
+                    </section></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s303/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5187">42 U.S.C. 5187 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Effective Date.—</heading><content style="-uslm-dtd:text">The amendment made by subsection (a) takes effect 1 year after the date of the enactment of this Act.</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tIII/s304" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="304">SEC. 304. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5205">42 U.S.C. 5205</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">DISASTER GRANT CLOSEOUT PROCEDURES. </heading>
+                <content style="-uslm-dtd:text" class="block">Title VII of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5101 et seq.) is amended by adding at the end the following:<quotedContent style="-uslm-dtd:quoted-block">
+                <section style="-uslm-dtd:section" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="705">“SEC. 705. </num><heading style="-uslm-dtd:header">DISASTER GRANT CLOSEOUT PROCEDURES </heading>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="a">“(a) </num><heading style="-uslm-dtd:header">Statute of Limitations. </heading>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">Except as provided in paragraph (2), no administrative action to recover any payment made to a State or local government for disaster or emergency assistance under this Act shall be initiated in any forum after the date that is 3 years after the date of transmission of the final expenditure report for the disaster or emergency.</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Fraud exception. </heading><content style="-uslm-dtd:text">The limitation under paragraph (1) shall apply unless there is evidence of civil or criminal fraud.</content>
+                        </paragraph>
+                    </subsection>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="b">“(b) </num><heading style="-uslm-dtd:header">Rebuttal of Presumption of Record Maintenance. </heading>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><heading style="-uslm-dtd:header">In general. </heading><content style="-uslm-dtd:text">In any dispute arising under this section after the date that is 3 years after the date of transmission of the final expenditure report for the disaster or emergency, there shall be a presumption that accounting records were maintained that adequately identify the source and application of funds provided for financially assisted activities.</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><heading style="-uslm-dtd:header">Affirmative evidence. </heading><content style="-uslm-dtd:text">The presumption described in paragraph (1) may be rebutted only on production of affirmative evidence that the State or local government did not maintain documentation described in that paragraph.</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="3">“(3) </num><heading style="-uslm-dtd:header">Inability to produce documentation. </heading><content style="-uslm-dtd:text">The inability of the Federal, State, or local government to produce source documentation supporting expenditure reports later than 3 years after the date of transmission of the final expenditure report shall not constitute evidence to rebut the presumption described in paragraph (1).</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="4">“(4) </num><heading style="-uslm-dtd:header">Right of access. </heading><content style="-uslm-dtd:text">The period during which the Federal, State, or local government has the right to access source documentation shall not be limited to the required 3-year retention period referred to in paragraph (3), but shall last as long as the records are maintained.</content>
+                        </paragraph>
+                    </subsection>
+                    <subsection style="-uslm-dtd:subsection" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="c">“(c) </num><heading style="-uslm-dtd:header">Binding Nature of Grant Requirements. </heading><chapeau style="-uslm-dtd:text">A State or local government shall not be liable for reimbursement or any other penalty for any payment made under this Act if—</chapeau>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="1">“(1) </num><content style="-uslm-dtd:text">the payment was authorized by an approved agreement specifying the costs;</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="2">“(2) </num><content style="-uslm-dtd:text">the costs were reasonable; and</content>
+                        </paragraph>
+                        <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="3">“(3) </num><content style="-uslm-dtd:text">the purpose of the grant was accomplished.”</content>
+                        </paragraph>
+                    </subsection>
+                </section></quotedContent>.</content>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tIII/s305" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="305">SEC. 305. </num><heading style="-uslm-dtd:header">PUBLIC SAFETY OFFICER BENEFITS FOR CERTAIN FEDERAL AND STATE EMPLOYEES. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s305/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Section 1204 of the Omnibus Crime Control and Safe Streets Act of 1968 (42 U.S.C. 3796b) is amended by striking paragraph (7) and inserting the following:<quotedContent style="-uslm-dtd:quoted-block">
+                    <paragraph style="-uslm-dtd:paragraph" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="7">“(7) </num><chapeau style="-uslm-dtd:text">
+‘<quotedText style="-uslm-dtd:quote">public safety officer</quotedText>’ means—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">“(A) </num><content style="-uslm-dtd:text">an individual serving a public agency in an official capacity, with or without compensation, as a law enforcement officer, as a firefighter, or as a member of a rescue squad or ambulance crew;</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">“(B) </num><chapeau style="-uslm-dtd:text">an employee of the Federal Emergency Management Agency who is performing official duties of the Agency in an area, if those official duties—</chapeau>
+                            <clause style="-uslm-dtd:clause" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">are related to a major disaster or emergency that has been, or is later, declared to exist with respect to the area under the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5121 et seq.); and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">are determined by the Director of the Federal Emergency Management Agency to be hazardous duties; or</content>
+                            </clause>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="C">“(C) </num><chapeau style="-uslm-dtd:text">an employee of a State, local, or tribal emergency management or civil defense agency who is performing official duties in cooperation with the Federal Emergency Management Agency in an area, if those official duties—</chapeau>
+                            <clause style="-uslm-dtd:clause" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="i">“(i) </num><content style="-uslm-dtd:text">are related to a major disaster or emergency that has been, or is later, declared to exist with respect to the area under the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5121 et seq.); and</content>
+                            </clause>
+                            <clause style="-uslm-dtd:clause" styleType="OLC">
+                                <num style="-uslm-dtd:enum" value="ii">“(ii) </num><content style="-uslm-dtd:text">are determined by the head of the agency to be hazardous duties.”</content>
+                            </clause>
+                        </subparagraph>
+                    </paragraph></quotedContent>.</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s305/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s3796b">42 U.S.C. 3796b note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">Effective Date.—</heading><content style="-uslm-dtd:text">The amendment made by subsection (a) applies only to employees described in subparagraphs (B) and (C) of section 1204(7) of the Omnibus Crime Control and Safe Streets Act of 1968 (as amended by subsection (a)) who are injured or who die in the line of duty on or after the date of the enactment of this Act.</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tIII/s306" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="306">SEC. 306. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5206">42 U.S.C. 5206</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">BUY AMERICAN. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s306/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Compliance With Buy American Act.—</heading><content style="-uslm-dtd:text">No funds authorized to be appropriated under this Act or any amendment made by this Act may be expended by an entity unless the entity, in expending the funds, complies with the Buy American Act (41 U.S.C. 10a et seq.).</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s306/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Debarment of Persons Convicted of Fraudulent Use of “<quotedText style="-uslm-dtd:quote">Made in America</quotedText>” Labels.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s306/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">If the Director of the Federal Emergency Management Agency determines that a person has been convicted of intentionally affixing a label bearing a “<quotedText style="-uslm-dtd:quote">Made in America</quotedText>” inscription to any product sold in or shipped to the United States that is not made in America, the Director shall determine, not later than 90 days after determining that the person has been so convicted, whether the person should be debarred from contracting under the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. 5121 et seq.).</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s306/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Definition of debar.—</heading><content style="-uslm-dtd:text">In this subsection, the term “<term style="-uslm-dtd:term">debar</term>” has the meaning given the term in section 2393(c) of title 10, United States Code.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tIII/s307" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="307">SEC. 307. </num><heading style="-uslm-dtd:header">TREATMENT OF CERTAIN REAL PROPERTY. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s307/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">In General.—</heading><content style="-uslm-dtd:text">Notwithstanding the National Flood Insurance Act of 1968 (42 U.S.C. 4001 et seq.), the Flood Disaster  Protection Act of 1973 (42 U.S.C. 4002 et seq.), or any other provision of law, or any flood risk zone identified, delineated, or established under any such law (by flood insurance rate map or otherwise), the real property described in subsection (b) shall not be considered to be, or to have been, located in any area having special flood hazards (including any floodway or floodplain).</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s307/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Real Property.—</heading><chapeau style="-uslm-dtd:text">The real property described in this subsection is all land and improvements on the land located in the Maple Terrace Subdivisions in the City of Sycamore, DeKalb County, Illinois, including—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s307/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">Maple Terrace Phase I;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s307/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">Maple Terrace Phase II;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s307/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">Maple Terrace Phase III Unit 1;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s307/b/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">Maple Terrace Phase III Unit 2;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s307/b/5" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="5">(5) </num><content style="-uslm-dtd:text">Maple Terrace Phase III Unit 3;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s307/b/6" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="6">(6) </num><content style="-uslm-dtd:text">Maple Terrace Phase IV Unit 1;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s307/b/7" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="7">(7) </num><content style="-uslm-dtd:text">Maple Terrace Phase IV Unit 2; and</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s307/b/8" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="8">(8) </num><content style="-uslm-dtd:text">Maple Terrace Phase IV Unit 3.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s307/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Revision of Flood Insurance Rate Lot Maps.—</heading><content style="-uslm-dtd:text">As soon as practicable after the date of the enactment of this Act, the Director of the Federal Emergency Management Agency shall revise the appropriate flood insurance rate lot maps of the agency to reflect the treatment under subsection (a) of the real property described in subsection (b).</content>
+                </subsection>
+            </section>
+            <section style="-uslm-dtd:section" identifier="/us/sComp/106/390/tIII/s308" styleType="OLC">
+                <num style="-uslm-dtd:enum" value="308">SEC. 308. </num><editorialNote style="-uslm-dtd:usc-reference" role="uscRef"><b>[</b><ref href="/us/usc/t42/s5121">42 U.S.C. 5121 note</ref><b>]</b> </editorialNote><heading style="-uslm-dtd:header">STUDY OF PARTICIPATION BY INDIAN TRIBES IN EMERGENCY MANAGEMENT. </heading>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s308/a" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="a">(a) </num><heading style="-uslm-dtd:header">Definition of Indian Tribe.—</heading><content style="-uslm-dtd:text">In this section, the term “<term style="-uslm-dtd:term">Indian tribe</term>” has the meaning given the term in section 4 of the Indian Self-Determination and Education Assistance Act (25 U.S.C. 450b).</content>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s308/b" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="b">(b) </num><heading style="-uslm-dtd:header">Study.—</heading>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s308/b/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><heading style="-uslm-dtd:header">In general.—</heading><content style="-uslm-dtd:text">The Director of the Federal Emergency Management Agency shall conduct a study of participation by Indian tribes in emergency management.</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s308/b/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><heading style="-uslm-dtd:header">Required elements.—</heading><chapeau style="-uslm-dtd:text">The study shall—</chapeau>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tIII/s308/b/2/A" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="A">(A) </num><content style="-uslm-dtd:text">survey participation by Indian tribes in training, predisaster and postdisaster mitigation, disaster preparedness, and disaster recovery programs at the Federal and State levels; and</content>
+                        </subparagraph>
+                        <subparagraph style="-uslm-dtd:subparagraph" identifier="/us/sComp/106/390/tIII/s308/b/2/B" styleType="OLC">
+                            <num style="-uslm-dtd:enum" value="B">(B) </num><content style="-uslm-dtd:text">review and assess the capacity of Indian tribes to participate in cost-shared emergency management programs and to participate in the management of the programs.</content>
+                        </subparagraph>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s308/b/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><heading style="-uslm-dtd:header">Consultation.—</heading><content style="-uslm-dtd:text">In conducting the study, the Director shall consult with Indian tribes.</content>
+                    </paragraph>
+                </subsection>
+                <subsection style="-uslm-dtd:subsection" identifier="/us/sComp/106/390/tIII/s308/c" styleType="OLC">
+                    <num style="-uslm-dtd:enum" value="c">(c) </num><heading style="-uslm-dtd:header">Report.—</heading><chapeau style="-uslm-dtd:text">Not later than 1 year after the date of the enactment of this Act, the Director shall submit a report on the study under subsection (b) to—</chapeau>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s308/c/1" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="1">(1) </num><content style="-uslm-dtd:text">the Committee on Environment and Public Works of the Senate;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s308/c/2" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="2">(2) </num><content style="-uslm-dtd:text">the Committee on Transportation and Infrastructure of the House of Representatives;</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s308/c/3" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="3">(3) </num><content style="-uslm-dtd:text">the Committee on Appropriations of the Senate; and</content>
+                    </paragraph>
+                    <paragraph style="-uslm-dtd:paragraph" identifier="/us/sComp/106/390/tIII/s308/c/4" styleType="OLC">
+                        <num style="-uslm-dtd:enum" value="4">(4) </num><content style="-uslm-dtd:text">the Committee on Appropriations of the House of Representatives.</content>
+                    </paragraph>
+                </subsection>
+            </section>
+        </title>
+    </main>
+</statuteCompilation>

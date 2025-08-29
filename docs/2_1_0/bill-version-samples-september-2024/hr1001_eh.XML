@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="uslm.css"?><resolution xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm uslm-2.1.0.xsd" xml:lang="en" id="HEEE0B0117F6446CE9C43C66AA5FE15AF"><!--Disclaimer: Legislative measures that include compacts or other non-standard data structures will require additional modeling and may contain inconsistencies in the converted USLM XML.--> <meta>
+<dc:title>116 HRES 1001 EH: Recognizing June 19, 2020, as this year’s observance of the historical significance of Juneteenth Independence Day.</dc:title>
+<dc:type>House Simple Resolution</dc:type>
+<docNumber>1001</docNumber>
+<citableAs>116 HRES 1001 EH</citableAs>
+<citableAs>116hres1001eh</citableAs>
+<citableAs>116 H. Res. 1001 EH</citableAs>
+<docStage>Engrossed in House</docStage>
+<currentChamber>HOUSE</currentChamber>
+<dc:creator>United States House of Representatives</dc:creator>
+<processedBy>GPO XPub Bill to USLM Generator, version 0.5 + manual changes</processedBy>
+<processedDate>2024-09-09</processedDate>
+<dc:publisher>United States Government Publishing Office</dc:publisher>
+<dc:format>text/xml</dc:format>
+<dc:language>EN</dc:language>
+<dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+<congress>116</congress>
+<session>2</session>
+<publicPrivate>public</publicPrivate></meta>
+<preface>
+<slugLine>•HRES 1001 EH</slugLine>
+<distributionCode display="no">IV</distributionCode>
+<congress value="116" display="no">116th CONGRESS</congress>
+<session value="2" display="no">2d Session</session>
+<dc:type>H. Res. </dc:type>
+<docNumber>1001</docNumber>
+<currentChamber value="HOUSE">In the House of Representatives, U. S.,</currentChamber>
+<action><date date="2020-06-30">June 30, 2020.</date></action></preface>
+<main styleType="traditional" id="H26C133FC23454D68927C7A0D2C562937"><longTitle><docTitle/></longTitle><preamble>
+<recital>Whereas news of the end of slavery did not reach frontier areas of the United States, and in particular the Southwestern States, for more than 2½ years after President Lincoln’s Emancipation Proclamation, which was issued on January 1, 1863, and months after the conclusion of the Civil War;</recital>
+<recital>Whereas, on June 19, 1865, Union soldiers led by Major General Gordon Granger arrived in Galveston, Texas, with news that the Civil War had ended and that the enslaved were free;</recital>
+<recital>Whereas African Americans who had been slaves in the Southwest celebrated June 19th, commonly known as “Juneteenth Independence Day”, as the anniversary of their emancipation;</recital>
+<recital>Whereas African Americans from the Southwest continue the tradition of celebrating Juneteenth Independence Day as inspiration and encouragement for future generations;</recital>
+<recital>Whereas for more than 150 years, Juneteenth Independence Day celebrations have been held to honor African-American freedom while encouraging self-development and respect for all cultures; and</recital>
+<recital>Whereas the faith and strength of character demonstrated by former slaves remains an example for all people of the United States, regardless of background, religion, or race: Now, therefore, be it</recital><resolvingClause><i>Resolved, </i></resolvingClause></preamble><section id="H0AD01297A04243FD89D0596C3DEA00BC" class="inline"><chapeau class="inline">That—</chapeau>
+<paragraph identifier="/us/resolution/116/hres/1001/s/1" id="H4267888EFDDB421B89BF6AF71E88F4E7" class="indent1"><num value="1">(1) </num><chapeau>the House of Representatives—</chapeau>
+<subparagraph identifier="/us/resolution/116/hres/1001/s/1/A" id="HA5912EB2D5844D16AA7B98B6171E3953" class="indent2"><num value="A">(A) </num><content>recognizes the historical significance of Juneteenth Independence Day to the Nation;</content></subparagraph>
+<subparagraph identifier="/us/resolution/116/hres/1001/s/1/B" id="H7DDE16FA05A14FD9B15B529AB1A752AD" class="indent2"><num value="B">(B) </num><content>supports the continued celebration of Juneteenth Independence Day to provide an opportunity for the people of the United States to learn more about the past and to better understand the experiences that have shaped the Nation; and</content></subparagraph>
+<subparagraph identifier="/us/resolution/116/hres/1001/s/1/C" id="HD4934677897446BCA543E5665EB2EA66" class="indent2"><num value="C">(C) </num><content>encourages the people of the United States to observe Juneteenth Independence Day with appropriate ceremonies, activities, and programs; and</content></subparagraph></paragraph>
+<paragraph identifier="/us/resolution/116/hres/1001/s/2" id="HAC59DEE494724CE58AD2E920D5F3A43C" class="indent1"><num value="2">(2) </num><chapeau>it is the sense of the House of Representatives that—</chapeau>
+<subparagraph identifier="/us/resolution/116/hres/1001/s/2/A" id="HF67730462256442989EF2657BD659882" class="indent2"><num value="A">(A) </num><content>the celebration of the end of slavery is an important and enriching part of the history and heritage of the United States; and</content></subparagraph>
+<subparagraph identifier="/us/resolution/116/hres/1001/s/2/B" id="H5AE4E9DA809C438BAECF5A755691E017" class="indent2"><num value="B">(B) </num><content>history should be regarded as a means for understanding the past and solving the challenges of the future.</content></subparagraph></paragraph></section></main>
+<signatures>
+<signature><notation type="attestation">Attest: </notation><name display="no">CHERYL L. JOHNSON,</name><role>Clerk.</role></signature></signatures></resolution>
