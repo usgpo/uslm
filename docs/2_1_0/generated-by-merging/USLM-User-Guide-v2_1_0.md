@@ -733,56 +733,36 @@ The `<toc>` structure can be intermixed with the `<layout>` structure to define 
 
 # 10 Table Model
 
-Three table-like models can be used with USLM: (1) a column-oriented model, (2) the USLM 2.0 table model , and (3) the HTML table model.
+USLM provides two approaches for tabular content: a native column-oriented model and standard XHTML tables with USLM extensions.
 
+## 10.1 Column-Oriented Layout Model
+The `<layout>` model is USLM's native approach for arranging legislative content in columns or grids. This model is defined within USLM and can contain other USLM elements, making it ideal for legislative structures that need column formatting but aren't true data tables.
 
-## 10.1 Column-Oriented
-Use the column-oriented `<layout>` model when information related to the legislative structure is to be arranged in a column- or grid-oriented fashion, but not a true table. The advantage of the column-oriented `<layout>` model is that it is defined within USLM, so it can contain other USLM elements. The drawback is that it is a non-standard table model, so it is not inherently understood by tools that handle standard HTML tables.
+The `<layout>` model provides `<row>` and `<column>` elements for defining structure. Like HTML tables, it supports `@colspan` and `@rowspan` attributes.
 
+## 10.2 XHTML Tables with USLM Extensions
+For true tabular data, USLM uses standard XHTML 1.0 table elements (`<table>`, `<caption>`, `<thead>`, `<tbody>`, `<tfoot>`, `<tr>`, `<td>`) from the XHTML namespace, enhanced with USLM-specific attributes and content capabilities.
 
-The `<layout>` model provides a `<row>` element for defining individual rows. When there is a row structure, the parts of each row that belong within each column are identified using the `<column>` element. Any direct child of the `<layout>` element is considered to be a row unless it is a `<layout>` element.
+### 10.2.1 USLM Enhancements to XHTML Tables
+The XHTML table model has been extended with additional attributes for legislative processing:
 
-However, when the `<column>` element is a direct child of the `<layout>` element, then there is no notion of rows, and the columns form a basic structure of the `<layout>`. If `<layout>` contains any `<column>` child, then it must only contain `<column>`s as children.
-
-Like HTML tables, the `<layout>` model supports the `@colspan` and the `@rowspan` elements.
-
-## 10.2 USLM Table Model 
-
-While still based on XHTML 1.0 structures, the table model has been customized to meet the specific needs of legislative and regulatory documents.
-
-The basic structure uses the standard XHTML elements `<table>`, `<caption>`, `<thead>`, `<tfoot>`, `<tbody>`, `<colgroup>`, `<col>`, `<tr>`, and `<td>` from the XHTML namespace. However, USLM inline elements and note elements are allowed within table cells along with character content.
-
-### 10.2.1 USLM Table Attributes 
-
-Additional attributes have been added to support legislative processing needs:
-
-- **`@stubHierarchy`** - Controls the hierarchical formatting of stub columns
-- **`@textHierarchy`** - Controls the hierarchical formatting of text columns  
-- **`@blockStyle`** - Specifies the block-level styling approach
-- **`@leaders`** - Controls the use of leader dots or lines between columns
-- **`@leaderAlign`** - Specifies the alignment of leader elements
-- **`@id`** - Provides unique identification for table elements
+- **`@stubHierarchy`** - Controls hierarchical formatting of stub columns
+- **`@textHierarchy`** - Controls hierarchical formatting of text columns  
+- **`@blockStyle`** - Specifies block-level styling approach
+- **`@leaders`** - Controls use of leader dots between columns
+- **`@leaderAlign`** - Specifies alignment of leader elements
+- **`@id`** - Provides unique identification
 - **`@identifier`** - Provides human-readable identification
 
-These attributes enable precise control over the presentation and processing of complex legislative tables while maintaining compatibility with standard table processing tools.
+These extensions allow XHTML tables to meet the specific formatting and processing requirements of legislative documents while maintaining compatibility with standard table processing tools.
 
-## 10.3 HTML Tables
+### 10.2.2 Content Model
+Unlike standard XHTML tables, the USLM-enhanced version allows USLM inline elements and note elements within table cells, along with character content.
 
-Use the HTML `<table>` model when (1) information is arranged in a tabular structure, (2) there is little information within the table that is part of the legislative structure, or (3) the structure is regarded as a normal table with gridlines and table cells.
+## 10.3 Choosing Between Models
+- Use `<layout>` when legislative structure needs column formatting but isn't truly tabular data
+- Use XHTML tables for actual data tables, forms, or when standard table semantics are needed
 
-An embedded HTML table will look something like this:
-
-```
-<schedule name="sch{num}">
-   <num value="1">Schedule 1</num>
-   <heading>…</heading>
-   <table xmlns=http://www.w3.org/1999/xhtml">
-      <th>…</th>
-      <tr>…</tr>
-      …
-   <table>
-</schedule>
-```
 
 # 11 Identification Model
 ## 11.1 Concept
