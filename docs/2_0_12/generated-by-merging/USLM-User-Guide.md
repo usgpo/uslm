@@ -195,8 +195,8 @@ The abstract model contains three basic sets of elements: the primitive set, the
 The primitive set is a set of four primitive elements that are the fundamental building blocks of the abstract model. All USLM elements can be traced back through the derivation hierarchy to one of the four primitive elements. The four primitive elements are the following:
 
 
-| --- | Element | Description |
-| --- | --- | --- |
+|     | Element | Description |
+| --- | ------- | ----------- |
 | 1 | `<marker>` | A marker is an empty XML element. It is used to denote a location or position within an XML document. |
 | 2 | `<inline>` | An inline is an XML element that can be placed within text content – similar to an XHTML `<span>` element. An inline element can contain other inline elements, markers, or text. |
 | 3 | `<block>` | A block is an XML element that is presented as a block-like structure and does not contain direct child text content. |
@@ -214,8 +214,8 @@ The core set is a set of twenty-nine elements. Taken together, these twenty-nine
 
 The twenty-nine core elements that define the six-part basic document model are the following:
 
-| --- | Element | Description |
-| --- | --- | --- |
+|     | Element | Description |
+| --- | ------- | ----------- |
 | 1 | `<lawDoc>` | The document root for a legislative document. |
 | 2 | `<document>` | The document root for a loosely-structured non-legislative document. |
 | 3 | `<meta>` | An optional container at the start of the document for metadata. |
@@ -249,8 +249,8 @@ The twenty-nine core elements that define the six-part basic document model are 
 ## 4.4 Generic Set
 The generic set defines a set of general-purpose tags used to markup basic structures. Many of the USLM generic elements are borrowed from XHTML, but exist within the USLM namespace because it is often impractical or impossible to use XHTML structures directly, such as when special legislative structures are embedded within general structures (or general structures are embedded within special legislative structures). In such instances, the USLM generic set is used. The USLM generic set includes the following:
 
-| --- | Element | Description |
-| --- | --- | --- |
+|     | Element | Description |
+| --- | ------- | ----------- |
 | 1 | `<layout>` | A region to be presented in a column-oriented layout – similar to a table.  |
 | 2 | `<header>`  | A heading row in a `<layout>` structure. |
 | 3 | `<row>`  | A normal row in a `<layout>` structure. In general, this level can be omitted.
