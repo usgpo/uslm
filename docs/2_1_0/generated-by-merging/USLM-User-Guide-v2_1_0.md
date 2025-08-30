@@ -771,13 +771,13 @@ The basic structure uses the standard XHTML elements `<table>`, `<caption>`, `<t
 
 Additional attributes have been added to support legislative processing needs:
 
-- **`@stubHierarchy`** (introduced in v2.0) - Controls the hierarchical formatting of stub columns
-- **`@textHierarchy`** (introduced in v2.0) - Controls the hierarchical formatting of text columns  
-- **`@blockStyle`** (introduced in v2.0) - Specifies the block-level styling approach
-- **`@leaders`** (introduced in v2.0) - Controls the use of leader dots or lines between columns
-- **`@leaderAlign`** (introduced in v2.0) - Specifies the alignment of leader elements
-- **`@id`** (introduced in v2.0) - Provides unique identification for table elements
-- **`@identifier`** (introduced in v2.0) - Provides human-readable identification
+- **`@stubHierarchy`** - Controls the hierarchical formatting of stub columns
+- **`@textHierarchy`** - Controls the hierarchical formatting of text columns  
+- **`@blockStyle`** - Specifies the block-level styling approach
+- **`@leaders`** - Controls the use of leader dots or lines between columns
+- **`@leaderAlign`** - Specifies the alignment of leader elements
+- **`@id`** - Provides unique identification for table elements
+- **`@identifier`** - Provides human-readable identification
 
 These attributes enable precise control over the presentation and processing of complex legislative tables while maintaining compatibility with standard table processing tools.
 
@@ -1050,15 +1050,15 @@ Notes are found throughout the United States Code and other legislative document
 
 USLM version 2.0 introduces two fundamental categories of notes based on their rendering behavior:
 
-### 14.2.1 NoteType Elements (introduced in v2.0)
+### 14.2.1 NoteType Elements
 
 NoteType elements are rendered directly in the main content flow where they logically appear. A U.S. Code note is an example of a NoteType element. Elements of this type include:
 
 - `<note>` - Basic note element
-- `<sourceCredit>` - Source attribution
-- `<statutoryNote>` - Statutory notes
-- `<editorialNote>` - Editorial annotations
-- `<changeNote>` - Change documentation
+- `<sourceCredit>` - Source attribution (existed in v1.0)
+- `<statutoryNote>` - Statutory notes (existed in v1.0)
+- `<editorialNote>` - Editorial annotations (existed in v1.0)
+- `<changeNote>` - Change documentation (existed in v1.0)
 - `<authority>` (introduced in v2.0) - Authority citations
 - `<source>` (introduced in v2.0) - Source information  
 - `<effectiveDateNote>` (introduced in v2.0) - Effective date information
