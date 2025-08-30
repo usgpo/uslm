@@ -1,9 +1,9 @@
 ﻿# United States Legislative Markup
-## User Guide for the USLM Schema Version 2.0.12
+## User Guide for the USLM Schema Version 2.0.17
 
 # 1 USLM
 ## 1.1 Overview
-United States Legislative Markup (USLM) is an XML information model designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials. Building on this foundation, USLM version 2.0 extends its use to additional document sets including Enrolled Bills, Public Laws, Statutes at Large, Statute Compilations, Federal Register (FR), and Code of Federal Regulations (CFR) (extended in v2.0). USLM is intended to meet the following needs:
+United States Legislative Markup (USLM) is an XML information model designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials. Building on this foundation, USLM version 2.0 extends its use to additional document sets including Enrolled Bills, Public Laws, Statutes at Large, Statute Compilations, Federal Register (FR), and Code of Federal Regulations (CFR) (extended in v2.0). Version 2.0.17 further extends support to bill and resolution document stages prior to enrollment and older Statutes at Large volumes (extended in v2.0.17). USLM is intended to meet the following needs:
 
 1. Allow existing titles of the United States Code to be converted into XML.
 2. Support ongoing maintenance of the United States Code.
@@ -40,13 +40,14 @@ USLM version 2.0 extends this foundation to support additional document types (e
 
 **Legislative Documents:**
 - United States Code (USC) titles and appendices
-- Bills (introduced in v2.0)
-- Resolutions (introduced in v2.0)
+- Bills (introduced in v2.0, extended in v2.0.17)
+- Resolutions (introduced in v2.0, extended in v2.0.17)
 - Enrolled Bills (introduced in v2.0)
 - Public Laws (introduced in v2.0)
-- Statutes at Large (introduced in v2.0)
+- Statutes at Large (introduced in v2.0, extended in v2.0.17)
 - Statute Compilations (introduced in v2.0)
 - Amendments (introduced in v2.0)
+- Constitutional Amendments (introduced in v2.0.17)
 
 **Regulatory Documents:**
 - Federal Register (FR) documents (introduced in v2.0)
@@ -146,7 +147,7 @@ USLM has no dependencies on any other information model aside from the core XML 
 
 1. Dublin Core for metadata.
 2. XHTML for tables and other loosely structure content.
-3. MathML for equations.
+3. MathML for equations (fully supported in v2.0.17).
 4. SVG for vector graphics.
 
 # 2 Abstract Model vs. Concrete Model
@@ -438,12 +439,13 @@ The LawDoc model has been significantly extended in version 2.0 to accommodate d
 The extended LawDoc model enables modeling of:
 
 - lawDoc (original USC documents)
-- **bill** (introduced in v2.0)
-- **resolution** (introduced in v2.0)  
+- **bill** (introduced in v2.0, extended in v2.0.17)
+- **resolution** (introduced in v2.0, extended in v2.0.17)  
 - uscDoc (USC documents)
 - **pLaw** (introduced in v2.0) - Public Laws
-- **statutesAtLarge** (introduced in v2.0) - Statutes at Large
+- **statutesAtLarge** (introduced in v2.0, extended in v2.0.17) - Statutes at Large
 - **amendment** (introduced in v2.0) - Legislative amendments
+- **constitutionalAmendment** (introduced in v2.0.17) - Constitutional amendments
 - **frDoc** (introduced in v2.0) - Federal Register documents
 - **rule** (introduced in v2.0) - Regulatory rules
 - **presidentialDoc** (introduced in v2.0) - Presidential documents
@@ -456,7 +458,7 @@ The extended LawDoc model enables modeling of:
 <lawDoc       
      xmlns="http://xml.house.gov/schemas/uslm/2.0"
      xsi:schemaLocation="http://xml.house.gov/schemas/uslm/2.0
-       ./USLM-2.0.12.xsd"
+       ./USLM-2.0.17.xsd"
      xml:base="http://resolver.mydomain.com"
      identifier="/us/usc/t5">
    <meta>
@@ -525,7 +527,19 @@ There can also be any number of appendices following the main part of the docume
 Some documents contain signatures of the people who introduce, sponsor, or approve the legislation. The signatures are held in a `<signatures>` block, either at the top of the main part of the document or in the appendices. In version 2.0, the signature model has been enhanced to better match actual signature instances with new elements for `<notation>` and `<autograph>` (enhanced in v2.0). Additionally, signatures are now allowed at the end of levels to support Federal Register documents (enhanced in v2.0).
 
 ## 5.7 Multiple Models
-Models from multiple XML namespaces are used to construct a USLM document. The dcterms model is used for metadata.  The XHTML model is used for tables.  XHTML may also be used to mark the external document for inclusion within the larger legislative document. In the future, MathML may be used for equations and SVG may be used for vector graphics.
+Models from multiple XML namespaces are used to construct a USLM document. The dcterms model is used for metadata.  The XHTML model is used for tables.  XHTML may also be used to mark the external document for inclusion within the larger legislative document. MathML is supported for equations (introduced in v2.0.17) and SVG may be used for vector graphics.
+
+## 5.8 Mathematical Formulae Support (introduced in v2.0.17)
+
+USLM version 2.0.17 incorporates the MathML 3 schema, providing comprehensive support for representing mathematical formulae within legislative documents (introduced in v2.0.17). This enables precise markup of complex mathematical expressions, equations, and formulas that may appear in technical legislation, regulations, or scientific legislative content.
+
+### 5.8.1 MathML Integration
+
+Mathematical content can be embedded directly within USLM documents using the standard MathML 3 namespace and elements. This provides:
+- Support for both presentation markup (how math looks) and content markup (what math means)
+- Compatibility with mathematical rendering systems
+- Accessibility features for mathematical content
+- Standards-based mathematical notation
 
 # 6 Concrete Model
 ## 6.1 Concept
@@ -539,7 +553,8 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 | 2 | `<statute>` | `<lawDoc>` | An enacted bill  |
 | 3 | `<resolution>` | `<lawDoc>` | A proposed resolution  |
 | 4 | `<amendment>` | `<lawDoc>` | A document containing a pre-enactment stage amendment  |
-| 5 | `<uscDoc>` | `<lawDoc>` | A title or appendix of the United States Code  |
+| 5 | `<constitutionalAmendment>` | `<lawDoc>` | A Constitutional Amendment to the United States Constitution (introduced in v2.0.17) |
+| 6 | `<uscDoc>` | `<lawDoc>` | A title or appendix of the United States Code  |
 
 ## 6.3 Properties
 |   | **Element** | **Derived From** | **Contains** |
@@ -698,6 +713,8 @@ Most legislative documents have a well-defined hierarchical structure of numbere
 The fundamental unit of the hierarchy is the `<level>` element. A discussion below describes how the `@class` attribute and XML schema substitution groups can be used to subclass this fundamental unit to produce the various levels found in United States legislation.
 
 A level is composed of (1) a `<num>` identification designation, (2) an optional `<heading>`, and (3) either primarily textual `<content>`, lower hierarchical `<level>` children, or a few other possible elements.
+
+**Note:** (enhanced in v2.0.17) A **`<referenceMarker>`** element may be used with or instead of a `<num>` element for cases when a level requires a non-hierarchical designation with or instead of the usual hierarchical designation. This allows for more flexible numbering and referencing schemes in legislative documents.
 
 ## 9.3 Big Levels vs. Small Levels
 
@@ -1051,6 +1068,7 @@ PositionedNoteType elements have content that is rendered at a different positio
 - `<footnote>` - Traditional footnotes
 - `<sidenote>` (introduced in v2.0) - Marginal notes
 - `<leftRunningHead>` (introduced in v2.0) - Left-page running headers
+- `<centerRunningHead>` (introduced in v2.0.17) - Center-page running headers
 - `<rightRunningHead>` (introduced in v2.0) - Right-page running headers  
 - `<ear>` (introduced in v2.0) - Margin text (used in CFR)
 - `<endMarker>` (introduced in v2.0) - End-of-document markers
@@ -1338,6 +1356,8 @@ The preface content model allows:
 - Table of contents elements
 - Notes
 - General content elements
+- **`<firstPageHeading>`** (introduced in v2.0.17) - Heading for the first page
+- **`<firstPageSubheading>`** (introduced in v2.0.17) - Subheading for the first page
 
 ## 18.2 Back Matter Model (introduced in v2.0)
 
@@ -1364,17 +1384,57 @@ Federal Register rules have a specific preamble structure that typically follows
 
 The rule preamble model supports the standardized format requirements for Federal Register rule publications while maintaining flexibility for variations in content and structure.
 
-## 18.4 Appropriations Model (introduced in v2.0)
+## 18.4 Endorsement Model (introduced in v2.0.17)
 
 ### 18.4.1 Concept
 
+The **`<endorsement>`** element is used in bills and resolutions prior to enrollment (introduced in v2.0.17). It appears at the end of the document and contains a selection of document metadata that is typically printed sideways on the physical document.
+
+### 18.4.2 Usage
+
+The endorsement provides essential document identification and tracking information for legislative documents during the drafting and committee process stages, before they reach final enrollment.
+
+### 18.4.3 Content
+
+The endorsement typically contains:
+- Document identification numbers
+- Committee information
+- Date stamps
+- Processing metadata
+- Other administrative information required for document tracking
+
+## 18.5 Amendment Tracking Elements (introduced in v2.0.17)
+
+### 18.5.1 Concept
+
+Version 2.0.17 introduces specialized elements for tracking changes in bills and resolutions during the amendment process:
+
+**`<addedText>`** (introduced in v2.0.17) - Indicates content that has been added to amend a bill or resolution in amendment documents and reported bills.
+
+**`<deletedText>`** (introduced in v2.0.17) - Indicates content that has been deleted to amend a bill or resolution in amendment documents and reported bills.
+
+### 18.5.2 Styling Control
+
+The visual styling of added and deleted text is controlled by attributes set on the `<committee>` element whose ID is referenced in the `@origin` attribute of the content:
+
+- **`@addedDisplayStyle`** (introduced in v2.0.17) - Declares the display style for added content
+- **`@deletedDisplayStyle`** (introduced in v2.0.17) - Declares the display style for deleted content
+
+### 18.5.3 Distinction from Law Amendments
+
+These elements are specifically for amendments to bills and resolutions during the legislative process. For amendments to existing law, the existing `<quotedText>` and `<quotedContent>` elements continue to be used.
+
+## 18.6 Appropriations Model (introduced in v2.0)
+
+### 18.6.1 Concept
+
 Appropriation bills have unique constructs compared to other legislative proposals. USLM version 2.0 adds specific elements and attributes to capture the structure and data behind appropriation accounts in appropriation acts (introduced in v2.0).
 
-### 18.4.2 Appropriations Element
+### 18.6.2 Appropriations Element
 
 The `<appropriations>` element is used for nesting the various levels of appropriation agencies, bureaus, and departments, as well as the various budget areas within agencies, bureaus, and departments.
 
-### 18.4.3 Appropriation Attributes (introduced in v2.0)
+### 18.6.3 Appropriation Attributes (introduced in v2.0)
 
 **`@level`** (introduced in v2.0) - Specifies the appropriations level (major, intermediate, or small, corresponding to Bill DTD terminology).
 
@@ -1382,7 +1442,7 @@ The `<appropriations>` element is used for nesting the various levels of appropr
 
 **`@forValue`** (introduced in v2.0) - Defines the specific budget grouping. May be a URI pointing to detailed information about the agency or account.
 
-### 18.4.4 Example Structure
+### 18.6.4 Example Structure
 
 ```xml
 <appropriations level="major" forType="agency" forValue="Department of Defense">
@@ -1526,6 +1586,19 @@ Example usage:
 - **`<headingText>`** (introduced in v2.0) - Heading text elements
 - **`<span>`** (introduced in v2.0) - Generic span element for styling
 - **`<committee>`** (introduced in v2.0) - Committee name markup
+
+### 19.6.4 Amendment Tracking Elements (introduced in v2.0.17)
+
+- **`<addedText>`** (introduced in v2.0.17) - Indicates added content in bill/resolution amendments
+- **`<deletedText>`** (introduced in v2.0.17) - Indicates deleted content in bill/resolution amendments
+
+### 19.6.5 Additional v2.0.17 Elements
+
+- **`<endorsement>`** (introduced in v2.0.17) - Document metadata for pre-enrollment bills/resolutions
+- **`<firstPageHeading>`** (introduced in v2.0.17) - First page heading in preface
+- **`<firstPageSubheading>`** (introduced in v2.0.17) - First page subheading in preface
+- **`<centerRunningHead>`** (introduced in v2.0.17) - Center-positioned running header
+- **`<referenceMarker>`** (introduced in v2.0.17) - Non-hierarchical level designation
 
 # 20 Feedback
 
