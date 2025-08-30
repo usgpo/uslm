@@ -1076,15 +1076,17 @@ NoteType elements are rendered directly in the main content flow where they logi
 
 PositionedNoteType elements have content that is rendered at a different position from where they logically refer. A footnote is an example of a positioned note. The positioned note has attributes to specify where it should be rendered. Elements of this type include:
 
-- `<footnote>` - Traditional footnotes
-- `<sidenote>` (introduced in v2.0) - Marginal notes
-- `<leftRunningHead>` (introduced in v2.0) - Left-page running headers
-- `<centerRunningHead>` (introduced in v2.0.17) - Center-page running headers
-- `<rightRunningHead>` (introduced in v2.0) - Right-page running headers  
-- `<ear>` (introduced in v2.0) - Margin text (used in CFR)
-- `<endMarker>` (introduced in v2.0) - End-of-document markers
-- `<page>` (introduced in v2.0) - Page boundary markers
-- `<line>` (introduced in v2.0) - Line boundary markers
+| Tag | Description | Version Note |
+|-----|-------------|--------------|
+| `<footnote>` | Traditional footnotes | Introduced in v2.0 |
+| `<sidenote>` | Marginal notes | Introduced in v2.0 |
+| `<leftRunningHead>` | Left-page running headers | Introduced in v2.0 |
+| `<centerRunningHead>` | Center-page running headers | Introduced in v2.0.17 |
+| `<rightRunningHead>` | Right-page running headers | Introduced in v2.0 |
+| `<ear>` | Margin text (used in CFR) | Introduced in v2.0 |
+| `<endMarker>` | End-of-document markers | Introduced in v2.0 |
+| `<page>` | Page boundary markers | Introduced in v2.0 |
+| `<line>` | Line boundary markers | Introduced in v2.0 |
 
 ## 14.3 Note Classes
 
@@ -1126,21 +1128,21 @@ The new semantic model represents a ToC or Index as a collection of "items" rath
 
 There are three fundamental types of items in the ToC/Index model:
 
-**`<referenceItem>`** (introduced in v2.0) - Refers to specific content in the document (versus a concept or grouping). The referenceItem may also contain lower-level referenceItems if the content being referred to contains nested content.
+**`<referenceItem>`** - Refers to specific content in the document (versus a concept or grouping). The referenceItem may also contain lower-level referenceItems if the content being referred to contains nested content.
 
-**`<headingItem>`** (introduced in v2.0) - A columnar-type heading for the items below it, such as "Sec." or "Page". This type is commonly repeated on following pages for consistency.
+**`<headingItem>`** - A columnar-type heading for the items below it, such as "Sec." or "Page". This type is commonly repeated on following pages for consistency.
 
-**`<groupItem>`** (introduced in v2.0) - An item that collects a number of referenceItems or other groupItems under a heading. The groupItem may or may not refer to a specific place in the document. groupItems may contain nested groupItems for hierarchical organization.
+**`<groupItem>`** - An item that collects a number of referenceItems or other groupItems under a heading. The groupItem may or may not refer to a specific place in the document. groupItems may contain nested groupItems for hierarchical organization.
 
 ### 15.2.2 Item Components (introduced in v2.0)
 
 Each item may consist of one or more of the following elements:
 
-**`<designator>`** (introduced in v2.0) - A reference to a numbered item in a table of contents or index (e.g., section numbers, page numbers).
+**`<designator>`** - A reference to a numbered item in a table of contents or index (e.g., section numbers, page numbers).
 
-**`<label>`** (introduced in v2.0) - A textual reference in a table of contents or index (e.g., section titles, index terms).
+**`<label>`** - A textual reference in a table of contents or index (e.g., section titles, index terms).
 
-**`<target>`** (introduced in v2.0) - A reference to the target location in a table of contents. This provides various items in the last column of multi-column table of contents entries. It uses the same attributes as standard references.
+**`<target>`** - A reference to the target location in a table of contents. This provides various items in the last column of multi-column table of contents entries. It uses the same attributes as standard references.
 
 ## 15.3 Supported ToC/Index Types (expanded in v2.0)
 
@@ -1150,17 +1152,17 @@ The new model supports a wide variety of table of contents and index types found
 - `<toc>` - Standard table of contents
 - `<index>` (introduced in v2.0) - General index
 
-**Specialized Elements:**
-- `<tableOfTitlesAndChapters>` (introduced in v2.0) - Structural overview of titles and chapters
-- `<listOfAgencies>` (introduced in v2.0) - Agency listings (common in regulatory documents)
-- `<listOfSectionsAffected>` (introduced in v2.0) - Sections affected by changes
-- `<listOfBillsEnacted>` (introduced in v2.0) - Bills enacted during a period
-- `<listOfPublicLaws>` (introduced in v2.0) - Public law listings
-- `<listOfPrivateLaws>` (introduced in v2.0) - Private law listings
-- `<listOfConcurrentResolutions>` (introduced in v2.0) - Concurrent resolution listings
-- `<listOfProclamations>` (introduced in v2.0) - Presidential proclamation listings
-- `<popularNameIndex>` (introduced in v2.0) - Index of popular names for acts
-- `<subjectIndex>` (introduced in v2.0) - Subject-based index
+**Specialized Elements (introduced in v2.0):**
+- `<tableOfTitlesAndChapters>` - Structural overview of titles and chapters
+- `<listOfAgencies>` - Agency listings (common in regulatory documents)
+- `<listOfSectionsAffected>` - Sections affected by changes
+- `<listOfBillsEnacted>` - Bills enacted during a period
+- `<listOfPublicLaws>` - Public law listings
+- `<listOfPrivateLaws>` - Private law listings
+- `<listOfConcurrentResolutions>` - Concurrent resolution listings
+- `<listOfProclamations>` - Presidential proclamation listings
+- `<popularNameIndex>` - Index of popular names for acts
+- `<subjectIndex>` - Subject-based index
 
 ## 15.4 Example Usage (introduced in v2.0)
 
