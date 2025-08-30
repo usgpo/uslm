@@ -1215,33 +1215,33 @@ The format-oriented `<layout>` model from version 1.0 has been replaced by this 
 
 ## 16.1 Concept
 
-USLM version 2.0 introduces a new "Collections" model to support documents that are collections of other sub-documents (introduced in v2.0). This is particularly important for documents such as the Federal Register, where a daily issue is essentially a collection of collections, each containing multiple individual documents or document fragments.
+USLM version 2.0 introduces a new "Collections" model to support documents that are collections of other sub-documents. This is particularly important for documents such as the Federal Register, where a daily issue is essentially a collection of collections, each containing multiple individual documents or document fragments.
 
 ## 16.2 Collection Structure (introduced in v2.0)
 
 ### 16.2.1 Basic Elements
 
-**`<collection>`** (introduced in v2.0) - The core collection element that acts as a container for multiple related items.
+**`<collection>`** - The core collection element that acts as a container for multiple related items.
 
-**`<component>`** (introduced in v2.0) - A wrapper element for individual documents or fragments within a collection. The component may directly contain the content or point to external content via the `@origin` attribute.
+**`<component>`** - A wrapper element for individual documents or fragments within a collection. The component may directly contain the content or point to external content via the `@origin` attribute.
 
 ### 16.2.2 Collection Types (introduced in v2.0)
 
 The following elements are instances of the CollectionType:
 
 **Federal Register Collections:**
-- `<notices>` (introduced in v2.0) - Collection of Federal Register notices
-- `<rules>` (introduced in v2.0) - Collection of final rules
-- `<proposedRules>` (introduced in v2.0) - Collection of proposed rules
-- `<presidentialDocs>` (introduced in v2.0) - Collection of presidential documents
+- `<notices>` - Collection of Federal Register notices
+- `<rules>` - Collection of final rules
+- `<proposedRules>` - Collection of proposed rules
+- `<presidentialDocs>` - Collection of presidential documents
 
 **Organizational Collections:**
-- `<agencyGroup>` (introduced in v2.0) - Collection grouped by agency
+- `<agencyGroup>` - Collection grouped by agency
 
 **Legislative Collections:**
-- `<publicLaws>` (introduced in v2.0) - Collection of public laws
-- `<privateLaws>` (introduced in v2.0) - Collection of private laws
-- `<concurrentResolutions>` (introduced in v2.0) - Collection of concurrent resolutions
+- `<publicLaws>` - Collection of public laws
+- `<privateLaws>` - Collection of private laws
+- `<concurrentResolutions>` - Collection of concurrent resolutions
 
 ## 16.3 Usage Patterns (introduced in v2.0)
 
@@ -1371,17 +1371,17 @@ This approach allows:
 
 ## 19.1 Concept
 
-USLM version 1.0 relied on external XHTML namespace elements for list structures. Version 2.0 introduces a native USLM list model that better serves the specific requirements of legislative and regulatory documents (introduced in v2.0).
+USLM version 1.0 relied on external XHTML namespace elements for list structures. Version 2.0 introduces a native USLM list model that better serves the specific requirements of legislative and regulatory documents.
 
 ## 19.2 List Elements (introduced in v2.0)
 
-**`<list>`** (introduced in v2.0) - The container element for a list structure.
+**`<list>`** - The container element for a list structure.
 
-**`<listHeading>`** (introduced in v2.0) - An optional heading element for the entire list.
+**`<listHeading>`** - An optional heading element for the entire list.
 
-**`<listItem>`** (introduced in v2.0) - Individual items within the list.
+**`<listItem>`** - Individual items within the list.
 
-**`<listContent>`** (introduced in v2.0) - The content container within each list item, allowing for complex structured content.
+**`<listContent>`** - The content container within each list item, allowing for complex structured content.
 
 ## 19.3 List Features (introduced in v2.0)
 
@@ -1421,7 +1421,7 @@ The USLM list model provides several advantages over generic XHTML lists:
 
 ### 20.1.1 Concept
 
-The `<preface>` element is a container for rendered material that precedes the main body of the document (introduced in v2.0). Documents may optionally have a preface before the main body, and some information in the preface may be duplicated in the meta section.
+The `<preface>` element is a container for rendered material that precedes the main body of the document. Documents may optionally have a preface before the main body, and some information in the preface may be duplicated in the meta section.
 
 The key distinction is that content in the meta section is normalized and machine-readable, whereas content in the preface contains text as it is rendered for the user.
 
@@ -1447,14 +1447,14 @@ The preface content model allows:
 - Table of contents elements
 - Notes
 - General content elements
-- **`<firstPageHeading>`** (introduced in v2.0.17) - Heading for the first page
-- **`<firstPageSubheading>`** (introduced in v2.0.17) - Subheading for the first page
+- **`<firstPageHeading>`** - Heading for the first page
+- **`<firstPageSubheading>`** - Subheading for the first page
 
 ## 20.2 Back Matter Model (introduced in v2.0)
 
 ### 20.2.1 Concept
 
-Back matter includes indexes, glossaries, lists, and other general material that follows the main body of the document (introduced in v2.0). Back matter does not include appendix material, which has its own dedicated model.
+Back matter includes indexes, glossaries, lists, and other general material that follows the main body of the document. Back matter does not include appendix material, which has its own dedicated model.
 
 ### 20.2.2 Typical Back Matter Content
 
@@ -1469,7 +1469,7 @@ Back matter includes indexes, glossaries, lists, and other general material that
 
 ### 20.3.1 Concept
 
-Federal Register rules have a specific preamble structure that typically follows a regular pattern, usually ending with "words of issuance" (introduced in v2.0).
+Federal Register rules have a specific preamble structure that typically follows a regular pattern, usually ending with "words of issuance".
 
 ### 20.3.2 Usage
 
@@ -1519,7 +1519,7 @@ These elements are specifically for amendments to bills and resolutions during t
 
 ### 18.6.1 Concept
 
-Appropriation bills have unique constructs compared to other legislative proposals. USLM version 2.0 adds specific elements and attributes to capture the structure and data behind appropriation accounts in appropriation acts (introduced in v2.0).
+Appropriation bills have unique constructs compared to other legislative proposals. USLM version 2.0 adds specific elements and attributes to capture the structure and data behind appropriation accounts in appropriation acts.
 
 ### 18.6.2 Appropriations Element
 
@@ -1527,11 +1527,11 @@ The `<appropriations>` element is used for nesting the various levels of appropr
 
 ### 18.6.3 Appropriation Attributes (introduced in v2.0)
 
-**`@level`** (introduced in v2.0) - Specifies the appropriations level (major, intermediate, or small, corresponding to Bill DTD terminology).
+**`@level`** - Specifies the appropriations level (major, intermediate, or small, corresponding to Bill DTD terminology).
 
-**`@forType`** (introduced in v2.0) - Defines the type of budget grouping (agency, bureau, account, etc.).
+**`@forType`** - Defines the type of budget grouping (agency, bureau, account, etc.).
 
-**`@forValue`** (introduced in v2.0) - Defines the specific budget grouping. May be a URI pointing to detailed information about the agency or account.
+**`@forValue`** - Defines the specific budget grouping. May be a URI pointing to detailed information about the agency or account.
 
 ### 18.6.4 Example Structure
 
@@ -1553,63 +1553,63 @@ USLM version 2.0 significantly expands the available PropertyType elements to su
 
 ### 19.1.1 Document Classification Properties (introduced in v2.0)
 
-- **`<docStage>`** (introduced in v2.0) - Document stage in the legislative process
-- **`<docPart>`** (introduced in v2.0) - Part designation within a larger document
-- **`<publicPrivate>`** (introduced in v2.0) - Classification as public or private law
+- **`<docStage>`** - Document stage in the legislative process
+- **`<docPart>`** - Part designation within a larger document
+- **`<publicPrivate>`** - Classification as public or private law
 
 ### 19.1.2 Congressional Properties (introduced in v2.0)
 
-- **`<congress>`** (introduced in v2.0) - Congressional session number
-- **`<session>`** (introduced in v2.0) - Session within a congress
-- **`<enrolledDateline>`** (introduced in v2.0) - Date and location of bill enrollment
-- **`<starPrint>`** (introduced in v2.0) - Star print designation
+- **`<congress>`** - Congressional session number
+- **`<session>`** - Session within a congress
+- **`<enrolledDateline>`** - Date and location of bill enrollment
+- **`<starPrint>`** - Star print designation
 
 ### 19.1.3 Citation and Reference Properties (introduced in v2.0)
 
-- **`<citableAs>`** (introduced in v2.0) - Standard citation format
-- **`<currentThroughPublicLaw>`** (introduced in v2.0) - Currency designation
-- **`<containsShortTitle>`** (introduced in v2.0) - Short title information
+- **`<citableAs>`** - Standard citation format
+- **`<currentThroughPublicLaw>`** - Currency designation
+- **`<containsShortTitle>`** - Short title information
 
 ### 19.1.4 Publication Properties (introduced in v2.0)
 
-- **`<volume>`** (introduced in v2.0) - Volume number in multi-volume sets
-- **`<issue>`** (introduced in v2.0) - Issue number for periodical publications
-- **`<startingPage>`** (introduced in v2.0) - First page of content
-- **`<endingPage>`** (introduced in v2.0) - Last page of content
-- **`<startingProvision>`** (introduced in v2.0) - First provision in a range
-- **`<endingProvision>`** (introduced in v2.0) - Last provision in a range
-- **`<provisionRange>`** (introduced in v2.0) - Range of provisions affected
+- **`<volume>`** - Volume number in multi-volume sets
+- **`<issue>`** - Issue number for periodical publications
+- **`<startingPage>`** - First page of content
+- **`<endingPage>`** - Last page of content
+- **`<startingProvision>`** - First provision in a range
+- **`<endingProvision>`** - Last provision in a range
+- **`<provisionRange>`** - Range of provisions affected
 
 ### 19.1.5 Process and Workflow Properties (introduced in v2.0)
 
-- **`<processedBy>`** (introduced in v2.0) - Processing organization or system
-- **`<actionDescription>`** (introduced in v2.0) - Description of legislative action
-- **`<actionInstruction>`** (introduced in v2.0) - Instructions for document action
-- **`<createdDate>`** (introduced in v2.0) - Document creation date
+- **`<processedBy>`** - Processing organization or system
+- **`<actionDescription>`** - Description of legislative action
+- **`<actionInstruction>`** - Instructions for document action
+- **`<createdDate>`** - Document creation date
 
 ### 19.1.6 Content Description Properties (introduced in v2.0)
 
-- **`<organization>`** (introduced in v2.0) - Responsible organization
-- **`<affected>`** (introduced in v2.0) - Provisions or entities affected
-- **`<subject>`** (introduced in v2.0) - Subject matter classification
-- **`<coverTitle>`** (introduced in v2.0) - Cover page title
-- **`<coverText>`** (introduced in v2.0) - Cover page text
+- **`<organization>`** - Responsible organization
+- **`<affected>`** - Provisions or entities affected
+- **`<subject>`** - Subject matter classification
+- **`<coverTitle>`** - Cover page title
+- **`<coverText>`** - Cover page text
 
 ## 19.2 New Attributes (introduced in v2.0)
 
 ### 19.2.1 Styling and Presentation Attributes (introduced in v2.0)
 
-**`@styleType`** (introduced in v2.0) - Sets the overall semantic type of a block for rendering purposes. Only predefined values are allowed, carried over from Bill DTD and Comp DTD styles such as "OLC" and "USC".
+**`@styleType`** - Sets the overall semantic type of a block for rendering purposes. Only predefined values are allowed, carried over from Bill DTD and Comp DTD styles such as "OLC" and "USC".
 
-**`@verticalSpace`** (introduced in v2.0) - Specifies the amount of vertical space to move down. If not present, single line spacing is default. Value may specify CSS units (e.g., "4em" or "12pt"). Special values "nextPage" and "nextColumn" force page or column breaks.
+**`@verticalSpace`** - Specifies the amount of vertical space to move down. If not present, single line spacing is default. Value may specify CSS units (e.g., "4em" or "12pt"). Special values "nextPage" and "nextColumn" force page or column breaks.
 
 ### 19.2.2 Scope and Context Attributes (introduced in v2.0)
 
-**`@scope`** (introduced in v2.0) - Specifies the scope within which the `@identifier` attribute is valid. Typically formatted as a URL referring to a specific context. Used for terms within definitions to specify the scope of the definition.
+**`@scope`** - Specifies the scope within which the `@identifier` attribute is valid. Typically formatted as a URL referring to a specific context. Used for terms within definitions to specify the scope of the definition.
 
-**`@legisDate`** (introduced in v2.0) - Logical legislative date, which may differ from the calendar date.
+**`@legisDate`** - Logical legislative date, which may differ from the calendar date.
 
-**`@inEffect`** (introduced in v2.0) - Boolean attribute indicating whether provisions are in effect at the time of document publication. Typically used in statute compilations. Default value is "true".
+**`@inEffect`** - Boolean attribute indicating whether provisions are in effect at the time of document publication. Typically used in statute compilations. Default value is "true".
 
 ## 19.3 Document Actions and Titles (enhanced in v2.0)
 
@@ -1617,9 +1617,9 @@ USLM version 2.0 significantly expands the available PropertyType elements to su
 
 Legislative actions on documents are modeled more thoroughly in version 2.0:
 
-- **`<action>`** (introduced in v2.0) - Container for legislative actions
-- **`<actionDescription>`** (introduced in v2.0) - Description of the action taken
-- **`<actionInstruction>`** (introduced in v2.0) - Instructions for implementing the action
+- **`<action>`** - Container for legislative actions
+- **`<actionDescription>`** - Description of the action taken
+- **`<actionInstruction>`** - Instructions for implementing the action
 
 Example usage:
 ```xml
@@ -1633,10 +1633,10 @@ Example usage:
 
 Legislative document titles are modeled more thoroughly:
 
-- **`<longTitle>`** (introduced in v2.0) - Complete long title structure
-- **`<docTitle>`** (introduced in v2.0) - Document title component
-- **`<officialTitle>`** (introduced in v2.0) - Official title text
-- **`<shortTitle>`** (introduced in v2.0) - Short title designation
+- **`<longTitle>`** - Complete long title structure
+- **`<docTitle>`** - Document title component
+- **`<officialTitle>`** - Official title text
+- **`<shortTitle>`** - Short title designation
 
 Example usage:
 ```xml
@@ -1650,33 +1650,33 @@ Example usage:
 
 ### 19.4.1 Term Element (introduced in v2.0)
 
-**`<term>`** (introduced in v2.0) - A word or phrase being defined. The `<term>` element surrounds the words for the term being defined. Multiple `<term>` elements may be specified within a definition. When a `<term>` represents words in an alternate language, the `xml:lang` attribute must be used. The containing element should have `@role="definitions"` to indicate that definitions are contained within it.
+**`<term>`** - A word or phrase being defined. The `<term>` element surrounds the words for the term being defined. Multiple `<term>` elements may be specified within a definition. When a `<term>` represents words in an alternate language, the `xml:lang` attribute must be used. The containing element should have `@role="definitions"` to indicate that definitions are contained within it.
 
 ### 19.4.2 Entity Element (introduced in v2.0)
 
-**`<entity>`** (introduced in v2.0) - A generic inline element to identify text fragments introducing or referring to ontological concepts. Modeled after the Akoma Ntoso `<entity>` element. The `@role` attribute distinguishes the concept type (e.g., `<entity @role="NAICS">` or `<entity @role="SEC">`).
+**`<entity>`** - A generic inline element to identify text fragments introducing or referring to ontological concepts. Modeled after the Akoma Ntoso `<entity>` element. The `@role` attribute distinguishes the concept type (e.g., `<entity @role="NAICS">` or `<entity @role="SEC">`).
 
 ## 19.5 Page and Line Numbering (introduced in v2.0)
 
-**`<page>`** and **`<line>`** elements were introduced to mark where page and line boundaries occurred in published documents (introduced in v2.0). These are typed as notes and can exist at actual boundary locations. Page and line numbers are used for citations and references in some document types, such as page numbers for Statutes at Large citations.
+**`<page>`** and **`<line>`** elements were introduced to mark where page and line boundaries occurred in published documents. These are typed as notes and can exist at actual boundary locations. Page and line numbers are used for citations and references in some document types, such as page numbers for Statutes at Large citations.
 
 ## 19.6 Additional New Elements (introduced in v2.0)
 
 ### 19.6.1 Statement Type Elements (introduced in v2.0)
 
-- **`<resolvingClause>`** (introduced in v2.0) - Resolving clause in resolutions
-- **`<wordsOfIssuance>`** (introduced in v2.0) - Words of issuance in rules
+- **`<resolvingClause>`** - Resolving clause in resolutions
+- **`<wordsOfIssuance>`** - Words of issuance in rules
 
 ### 19.6.2 Content Type Elements (introduced in v2.0)
 
-- **`<figure>`** (introduced in v2.0) - Figure element for illustrations
-- **`<figCaption>`** (introduced in v2.0) - Caption for figures
+- **`<figure>`** - Figure element for illustrations
+- **`<figCaption>`** - Caption for figures
 
 ### 19.6.3 Inline Type Elements (introduced in v2.0)
 
-- **`<headingText>`** (introduced in v2.0) - Heading text elements
-- **`<span>`** (introduced in v2.0) - Generic span element for styling
-- **`<committee>`** (introduced in v2.0) - Committee name markup
+- **`<headingText>`** - Heading text elements
+- **`<span>`** - Generic span element for styling
+- **`<committee>`** - Committee name markup
 
 ### 19.6.4 Amendment Tracking Elements (introduced in v2.0.17)
 
