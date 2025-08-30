@@ -3,7 +3,9 @@
 
 # 1 USLM
 ## 1.1 Overview
-United States Legislative Markup (USLM) is an XML information model designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials. Building on this foundation, USLM version 2.0 extends its use to additional document sets including Enrolled Bills, Public Laws, Statutes at Large, Statute Compilations, Federal Register (FR), and Code of Federal Regulations (CFR) (extended in v2.0). Version 2.0.17 further extends support to bill and resolution document stages prior to enrollment and older Statutes at Large volumes (extended in v2.0.17). Version 2.1.0 introduces significant enhancements for amendment documents and implements breaking changes to improve schema consistency and processing (major update in v2.1.0). USLM is intended to meet the following needs:
+United States Legislative Markup (USLM) is an XML information model designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials. 
+
+USLM is intended to meet the following needs:
 
 1. Allow existing titles of the United States Code to be converted into XML.
 2. Support ongoing maintenance of the United States Code.
@@ -89,11 +91,8 @@ XML namespaces are associated with a URI (Uniform Resource Identifier) which is 
 
 For USLM, the namespace URI is defined as the following URL:
 
-http://xml.house.gov/schemas/uslm/1.0
+http://schemas.gpo.gov/xml/uslm
 
->**Note:** (updated in v2.0) For version 2.0 and later, the namespace URI follows the pattern http://xml.house.gov/schemas/uslm/2.0 to reflect the major version change.
-
->**Note:** (updated in v2.1.0) For version 2.1.0 and later, the namespace URI has been changed to http://schemas.gpo.gov/xml/uslm to reflect the expanded governance and maintenance by the Government Publishing Office.
 
 #### 1.5.2.3 Namespace Prefix
 Ordinarily, a namespace prefix is not necessary and should not be used. However, in cases where a namespace prefix is deemed necessary, the preferred prefix is &quot;USLM&quot;.
@@ -427,13 +426,13 @@ The LawDoc model has been significantly extended in version 2.0 to accommodate d
 
 **Version 2.0 Extended LawDoc Model:**
 - meta (not rendered, canonical form)
-- **preface** (introduced in v2.0) - rendered prefatory material
+- **preface**  - rendered prefatory material
 - main
-- **attestation** (introduced in v2.0) - attestation blocks
-- **signatures** (enhanced in v2.0) - signature blocks
-- **notes** (enhanced in v2.0) - document-level notes
-- **backMatter** (introduced in v2.0) - indexes, glossaries, lists
-- **endMarker** (introduced in v2.0) - end-of-document markers
+- **attestation**  - attestation blocks
+- **signatures**  - signature blocks
+- **notes**  - document-level notes
+- **backMatter**  - indexes, glossaries, lists
+- **endMarker**  - end-of-document markers
 - appendix
 
 ### 5.2.2 Supported Document Types (expanded in v2.0)
@@ -444,16 +443,16 @@ The extended LawDoc model enables modeling of:
 - **bill** (introduced in v2.0, extended in v2.0.17)
 - **resolution** (introduced in v2.0, extended in v2.0.17)  
 - uscDoc (USC documents)
-- **pLaw** (introduced in v2.0) - Public Laws
+- **pLaw**  - Public Laws
 - **statutesAtLarge** (introduced in v2.0, extended in v2.0.17) - Statutes at Large
 - **amendment** (introduced in v2.0, restructured in v2.1.0) - Legislative amendments with new document model
 - **engrossedAmendment** (introduced in v2.1.0) - Engrossed amendment documents
 - **constitutionalAmendment** (introduced in v2.0.17) - Constitutional amendments
-- **frDoc** (introduced in v2.0) - Federal Register documents
-- **rule** (introduced in v2.0) - Regulatory rules
-- **presidentialDoc** (introduced in v2.0) - Presidential documents
-- **cfrDoc** (introduced in v2.0) - CFR documents
-- **statuteCompilation** (introduced in v2.0) - Statute compilations
+- **frDoc**  - Federal Register documents
+- **rule**  - Regulatory rules
+- **presidentialDoc**  - Presidential documents
+- **cfrDoc**  - CFR documents
+- **statuteCompilation**  - Statute compilations
 
 ```xml
 <?xml version="1.0" encoding="UTF-8">
@@ -472,7 +471,7 @@ The extended LawDoc model enables modeling of:
       …
    </meta>
 
-   <!-- Optional preface (introduced in v2.0) -->
+   <!-- Optional preface  -->
    <preface>
       <congress>One Hundred Fifteenth Congress of the United States</congress>
    </preface>
@@ -498,7 +497,7 @@ The extended LawDoc model enables modeling of:
       </level>
    </main>
 
-   <!-- Optional enhanced document elements (introduced in v2.0) -->
+   <!-- Optional enhanced document elements  -->
    <notes>
       <!-- Document-level notes -->
    </notes>
@@ -526,8 +525,8 @@ An appendix can either follow the main part of a document or be a stand-alone do
 
 There can also be any number of appendices following the main part of the document. These may also be known as schedules, annexes, or explanatory notes/memoranda. An `<appendix>` element can either contain the content within the document or it can reference the content for inclusion using the `@src` attribute.
 
-## 5.6 Signatures (enhanced in v2.0)
-Some documents contain signatures of the people who introduce, sponsor, or approve the legislation. The signatures are held in a `<signatures>` block, either at the top of the main part of the document or in the appendices. In version 2.0, the signature model has been enhanced to better match actual signature instances with new elements for `<notation>` and `<autograph>` (enhanced in v2.0). Additionally, signatures are now allowed at the end of levels to support Federal Register documents (enhanced in v2.0).
+## 5.6 Signatures 
+Some documents contain signatures of the people who introduce, sponsor, or approve the legislation. The signatures are held in a `<signatures>` block, either at the top of the main part of the document or in the appendices. In version 2.0, the signature model has been enhanced to better match actual signature instances with new elements for `<notation>` and `<autograph>` . Additionally, signatures are now allowed at the end of levels to support Federal Register documents .
 
 ## 5.7 Multiple Models
 Models from multiple XML namespaces are used to construct a USLM document. The dcterms model is used for metadata.  The XHTML model is used for tables.  XHTML may also be used to mark the external document for inclusion within the larger legislative document. MathML is supported for equations (introduced in v2.0.17) and SVG may be used for vector graphics.
@@ -744,7 +743,7 @@ The `<toc>` structure can be intermixed with the `<layout>` structure to define 
 
 # 10 Table Model
 
-Three table-like models can be used with USLM: (1) a column-oriented model, (2) the USLM 2.0 table model (enhanced in v2.0), and (3) the HTML table model.
+Three table-like models can be used with USLM: (1) a column-oriented model, (2) the USLM 2.0 table model , and (3) the HTML table model.
 
 >**Important Note for v2.1.0:** (breaking changes in v2.1.0) While USLM continues to support the same three table models, significant **restrictions** have been applied in version 2.1.0 to improve schema consistency. The `<layout>` (column-oriented) model has been **restricted** by removing the `<content>` element and adding specific allowed elements (`<column>`, `<page>`, `<coverText>`). The `<column>` element itself now has a specific list of allowed child elements rather than the permissive content model of previous versions. These are **breaking changes** - USLM 2.0 documents using `<content>` elements within `<layout>` structures must be updated for 2.1.0 compatibility. However, `<xhtml:table>` elements remain fully supported as explicit exceptions to the general namespace restrictions introduced in v2.1.0.
 
@@ -759,13 +758,13 @@ However, when the `<column>` element is a direct child of the `<layout>` element
 
 Like HTML tables, the `<layout>` model supports the `@colspan` and the `@rowspan` elements.
 
-## 10.2 USLM Table Model (enhanced in v2.0)
+## 10.2 USLM Table Model 
 
-In USLM version 2.0, the table model has been significantly enhanced and is now formally defined within the schema (enhanced in v2.0). While still based on XHTML 1.0 structures, the table model has been customized to meet the specific needs of legislative and regulatory documents.
+In USLM version 2.0, the table model has been significantly enhanced and is now formally defined within the schema . While still based on XHTML 1.0 structures, the table model has been customized to meet the specific needs of legislative and regulatory documents.
 
 The basic structure uses the standard XHTML elements `<table>`, `<caption>`, `<thead>`, `<tfoot>`, `<tbody>`, `<colgroup>`, `<col>`, `<tr>`, and `<td>` from the XHTML namespace. However, USLM inline elements and note elements are allowed within table cells along with character content.
 
-### 10.2.1 USLM Table Attributes (introduced in v2.0)
+### 10.2.1 USLM Table Attributes 
 
 Additional attributes have been added to support legislative processing needs:
 
@@ -965,10 +964,8 @@ The following case-insensitive referencing nomenclature is used;
 
 >**Note:** _The prefixes are defined to be case-insensitive. This is done as case-sensitive URLs can be problematic in some environments._
 
-## 12.5 References within Amendment Instructions (enhanced in v2.0)
+## 12.5 References within Amendment Instructions
 Amendments refer to the item that they are amending. The reference may be complex, specifying not only the item affected, but a relative position either within, before, or after the item affected. Three additional attributes are provided with references to allow this sort of specification:
-
->**Note:** (changed in v2.0) To support the use of the `<action>` element in the context of bill actions, the existing use of `<action>` within amendments has been changed to `<amendingAction>`. Additionally, the action "renumber" has been renamed "redesignate" to better match congressional terminology, and new actions "conform", "repealAndReserve", and "unknown" have been added.
 
 - `@pos` – Specifies a position that is either at the start, before, inside, after, or at the end of the context item.
 
@@ -1042,9 +1039,9 @@ Properties can be grouped into simple sets. A `<set>` is essentially a property 
 # 14 Notes Model
 # 14.1 Concept
 
-Notes are found throughout the United States Code and other legislative documents. USLM defines a flexible model to support all the different types of notes that are found. In version 2.0, the note model has been significantly enhanced to accommodate the broader variety of notes found in different document types (enhanced in v2.0).
+Notes are found throughout the United States Code and other legislative documents. USLM defines a flexible model to support all the different types of notes that are found. In version 2.0, the note model has been significantly enhanced to accommodate the broader variety of notes found in different document types .
 
-## 14.2 Note Categories (enhanced in v2.0)
+## 14.2 Note Categories 
 
 USLM version 2.0 introduces two fundamental categories of notes based on their rendering behavior:
 
@@ -1070,7 +1067,7 @@ NoteType elements are rendered directly in the main content flow where they logi
 | `<explanationNote>` | Explanatory content | Introduced in v2.0 |
 | `<findingAidsNote>` | Finding aids information | Introduced in v2.0 |
 
-### 14.2.2 PositionedNoteType Elements (introduced in v2.0)
+### 14.2.2 PositionedNoteType Elements 
 
 PositionedNoteType elements have content that is rendered at a different position from where they logically refer. A footnote is an example of a positioned note. The positioned note has attributes to specify where it should be rendered. Elements of this type include:
 
@@ -1148,9 +1145,9 @@ The new model supports a wide variety of table of contents and index types found
 
 **Basic Elements:**
 - `<toc>` - Standard table of contents
-- `<index>` (introduced in v2.0) - General index
+- `<index>`  - General index
 
-**Specialized Elements (introduced in v2.0):**
+**Specialized Elements :**
 - `<tableOfTitlesAndChapters>` - Structural overview of titles and chapters
 - `<listOfAgencies>` - Agency listings (common in regulatory documents)
 - `<listOfSectionsAffected>` - Sections affected by changes
@@ -1205,11 +1202,8 @@ The new model supports a wide variety of table of contents and index types found
 </popularNameIndex>
 ```
 
-## 15.5 Migration from Layout Model (changed in v2.0)
 
-The format-oriented `<layout>` model from version 1.0 has been replaced by this semantic approach. Documents using the old layout-based ToC model will need to be updated to use the new item-based structure. The semantic model provides better accessibility, more flexible styling options, and clearer logical relationships between ToC elements.
-
-# 16 Collections Model (introduced in v2.0)
+# 16 Collections Model 
 
 ## 16.1 Concept
 
@@ -1365,7 +1359,7 @@ This approach allows:
 - **Compatibility** - Documents remain valid USLM while including chamber-specific information
 - **Maintenance** - Chamber-specific changes don't require updates to the core USLM schema
 
-# 19 Lists Model (introduced in v2.0)
+# 19 Lists Model 
 
 ## 19.1 Concept
 
@@ -1413,7 +1407,7 @@ The USLM list model provides several advantages over generic XHTML lists:
 </list>
 ```
 
-# 20 Document Structure Extensions (introduced in v2.0)
+# 20 Document Structure Extensions 
 
 ## 20.1 Preface Model
 
@@ -1543,7 +1537,7 @@ The `<appropriations>` element is used for nesting the various levels of appropr
 </appropriations>
 ```
 
-# 19 New PropertyTypes and Attributes (introduced in v2.0)
+# 19 New PropertyTypes and Attributes 
 
 ## 19.1 New PropertyTypes
 
@@ -1609,7 +1603,7 @@ USLM version 2.0 significantly expands the available PropertyType elements to su
 
 **`@inEffect`** - Boolean attribute indicating whether provisions are in effect at the time of document publication. Typically used in statute compilations. Default value is "true".
 
-## 19.3 Document Actions and Titles (enhanced in v2.0)
+## 19.3 Document Actions and Titles 
 
 ### 19.3.1 Document Actions
 
@@ -1627,7 +1621,7 @@ Example usage:
 </action>
 ```
 
-### 19.3.2 Document Titles (enhanced in v2.0)
+### 19.3.2 Document Titles 
 
 Legislative document titles are modeled more thoroughly:
 
