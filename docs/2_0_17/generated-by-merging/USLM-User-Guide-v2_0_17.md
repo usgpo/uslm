@@ -1614,17 +1614,17 @@ The Office of the Law Revision Counsel also produces an online HTML version of t
 
 The Office of the Law Revision Counsel also produces (beginning July 30, 2013) an XML version of the United States Code for download (http://uscode.house.gov/download/download.shtml). The XML version is updated continuously as new laws are enacted.
 
-## 16.2 Bulk Data Downloads of XML Files
-### 16.2.1 Directory Structure
+## 21.2 Bulk Data Downloads of XML Files
+### 21.2.1 Directory Structure
 The download directory (http://uscode.house.gov/download/download.shtml) contains one XML file for each title of the United States Code and a zip file for the entire Code. The directory also includes the XML schema files required for XML validation. A CSS stylesheet is provided for convenience. The CSS stylesheet is informational only and is not part of the United States Code.
 
-### 16.2.2 Download Protocols
+### 21.2.2 Download Protocols
 Bulk download is supported via HTTP protocols.
 
-### 16.2.3 Versions
+### 21.2.3 Versions
 The most current version of the United States Code is available in XML, and prior versions in XML created on or after July 30, 2013, are also available. Eventually, the titles of some prior editions of the United States Code will also be available in XML. During the beta period, the XML format is subject to change. Some titles may be replaced with updated versions. The creation date and effective date of each title is provided on the website and in the metadata within the XML files.
 
-## 16.3 Authenticity of Data
+## 21.3 Authenticity of Data
 Section 204(a) of title 1, United States Code, which was enacted in 1947, relates to the printed version of the United States Code. It provides:
 
 >In all courts, tribunals, and public offices of the United States, at home or abroad, of the District of Columbia, and of each State, Territory, or insular possession of the United States[,t]he matter set forth in the edition of the Code of Laws of the United States current at any time shall, together with the then current supplement, if any, establish prima facie the laws of the United States, general and permanent in their nature, in force on the day preceding the commencement of the session following the last session the legislation of which is included: _Provided, however_, That whenever titles of such Code shall have been enacted into positive law the text thereof shall be legal evidence of the laws therein contained, in all the courts of the United States, the several States, and the Territories and insular possessions of the United States.
