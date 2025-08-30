@@ -205,7 +205,7 @@ The primitive set is a set of four primitive elements that are the fundamental b
 | 4 | `<content>` | A content is an XML element that is presented as a block-like structure and that can contain a mixture of text and XML elements. |
 
 ## 4.3 Core Set
-The core set is a set of twenty-nine elements. Taken together, these twenty-nine core elements define the basic document model, which consists of six parts:
+The core set define the basic document model, which consists of six parts:
 
 1. The root level document.
 2. The metadata block.
@@ -334,8 +334,7 @@ The following attributes are used in amendments to declare how amendments are to
 |     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@type` | Describes, through an enumerated value, the action being taken. |
-| 2 | `@occurrence` | Describes which occurrence of an item on which the action is to be taken. |
-| 3 | `@commencementDate` | Specifies the date on which the action is to be taken. |
+| 2 | `@commencementDate` | Specifies the date on which the action is to be taken. |
 
 ### 4.5.7 Amending
 Attributes used to point to items being amended. The amending group is used with the Reference Group and should be used only within amending instructions.
@@ -526,8 +525,6 @@ Models from multiple XML namespaces are used to construct a USLM document. The d
 
 ## 5.8 Mathematical Formulae Support
 
-USLM version 2.0.17 incorporates the MathML 3 schema, providing comprehensive support for representing mathematical formulae within legislative documents. This enables precise markup of complex mathematical expressions, equations, and formulas that may appear in technical legislation, regulations, or scientific legislative content.
-
 ### 5.8.1 MathML Integration
 
 Mathematical content can be embedded directly within USLM documents using the standard MathML 3 namespace and elements. This provides:
@@ -709,7 +706,7 @@ The fundamental unit of the hierarchy is the `<level>` element. A discussion bel
 
 A level is composed of (1) a `<num>` identification designation, (2) an optional `<heading>`, and (3) either primarily textual `<content>`, lower hierarchical `<level>` children, or a few other possible elements.
 
-**Note:** (enhanced in v2.0.17) A **`<referenceMarker>`** element may be used with or instead of a `<num>` element for cases when a level requires a non-hierarchical designation with or instead of the usual hierarchical designation. This allows for more flexible numbering and referencing schemes in legislative documents.
+**Note:** A **`<referenceMarker>`** element may be used with or instead of a `<num>` element for cases when a level requires a non-hierarchical designation with or instead of the usual hierarchical designation. This allows for more flexible numbering and referencing schemes in legislative documents.
 
 ## 9.3 Big Levels vs. Small Levels
 
@@ -1484,8 +1481,6 @@ The endorsement typically contains:
 
 ### 18.5.1 Concept
 
-Version 2.0.17 introduces specialized elements for tracking changes in bills and resolutions during the amendment process:
-
 **`<addedText>`** - Indicates content that has been added to amend a bill or resolution in amendment documents and reported bills.
 
 **`<deletedText>`** - Indicates content that has been deleted to amend a bill or resolution in amendment documents and reported bills.
@@ -1669,7 +1664,7 @@ Example usage:
 - **`<addedText>`** - Indicates added content in bill/resolution amendments
 - **`<deletedText>`** - Indicates deleted content in bill/resolution amendments
 
-### 19.6.5 Additional v2.0.17 Elements
+### 19.6.5 Additional Elements
 
 - **`<endorsement>`** - Document metadata for pre-enrollment bills/resolutions
 - **`<firstPageHeading>`** - First page heading in preface
