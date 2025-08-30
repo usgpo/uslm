@@ -410,44 +410,37 @@ The following are other miscellaneous attributes.
 
 # 5 Core Document Model
 ## 5.1 Concept
-The core document model uses the core elements of the abstract model discussed above to define a simple model for constructing legislation or law with abstract elements. Version 2.0 extends this model significantly to support additional document types (extended in v2.0). This model is summarized below. A number of details are omitted for the sake of brevity.
+The core document model uses the core elements of the abstract model discussed above to define a simple model for constructing legislation or law with abstract elements. Version 2.0 extends this model significantly to support additional document types. This model is summarized below. A number of details are omitted for the sake of brevity.
 
-## 5.2 LawDoc Model Extensions (extended in v2.0)
+## 5.2 LawDoc Model Extensions
 
 The LawDoc model has been significantly extended in version 2.0 to accommodate documents with more complex structure than the original United States Code titles. The enhanced model supports:
 
-### 5.2.1 Extended Document Structure (extended in v2.0)
+### 5.2.1 Extended Document Structure
 
-**Version 1.0 LawDoc Model:**
-- meta
-- main  
-- appendix
-- signatures (optional)
-
-**Version 2.0 Extended LawDoc Model:**
-- meta (not rendered, canonical form)
+- **meta** (not rendered, canonical form)
 - **preface**  - rendered prefatory material
-- main
+- **main**
 - **attestation**  - attestation blocks
 - **signatures**  - signature blocks
 - **notes**  - document-level notes
 - **backMatter**  - indexes, glossaries, lists
 - **endMarker**  - end-of-document markers
-- appendix
+- **appendix**
 
-### 5.2.2 Supported Document Types (expanded in v2.0)
+### 5.2.2 Supported Document Types
 
 The extended LawDoc model enables modeling of:
 
-- lawDoc (original USC documents)
-- **bill** (introduced in v2.0, extended in v2.0.17)
-- **resolution** (introduced in v2.0, extended in v2.0.17)  
-- uscDoc (USC documents)
+- **lawDoc** (original USC documents)
+- **bill**
+- **resolution**  
+- **uscDoc** (USC documents)
 - **pLaw**  - Public Laws
-- **statutesAtLarge** (introduced in v2.0, extended in v2.0.17) - Statutes at Large
-- **amendment** (introduced in v2.0, restructured in v2.1.0) - Legislative amendments with new document model
-- **engrossedAmendment** (introduced in v2.1.0) - Engrossed amendment documents
-- **constitutionalAmendment** (introduced in v2.0.17) - Constitutional amendments
+- **statutesAtLarge** - Statutes at Large
+- **amendment** - Legislative amendments with new document model
+- **engrossedAmendment** - Engrossed amendment documents
+- **constitutionalAmendment** - Constitutional amendments
 - **frDoc**  - Federal Register documents
 - **rule**  - Regulatory rules
 - **presidentialDoc**  - Presidential documents
@@ -477,7 +470,7 @@ The extended LawDoc model enables modeling of:
    </preface>
 
    <main>
-      <!-- Enhanced ToC model (redesigned in v2.0) -->
+      <!-- Enhanced ToC model -->
       <toc>
          <headingItem><label>Chapter</label></headingItem>
          <headingItem><label>Section</label></headingItem>
@@ -529,11 +522,11 @@ There can also be any number of appendices following the main part of the docume
 Some documents contain signatures of the people who introduce, sponsor, or approve the legislation. The signatures are held in a `<signatures>` block, either at the top of the main part of the document or in the appendices. In version 2.0, the signature model has been enhanced to better match actual signature instances with new elements for `<notation>` and `<autograph>` . Additionally, signatures are now allowed at the end of levels to support Federal Register documents .
 
 ## 5.7 Multiple Models
-Models from multiple XML namespaces are used to construct a USLM document. The dcterms model is used for metadata.  The XHTML model is used for tables.  XHTML may also be used to mark the external document for inclusion within the larger legislative document. MathML is supported for equations (introduced in v2.0.17) and SVG may be used for vector graphics.
+Models from multiple XML namespaces are used to construct a USLM document. The dcterms model is used for metadata.  The XHTML model is used for tables.  XHTML may also be used to mark the external document for inclusion within the larger legislative document. MathML is supported for equations and SVG may be used for vector graphics.
 
-## 5.8 Mathematical Formulae Support (introduced in v2.0.17)
+## 5.8 Mathematical Formulae Support
 
-USLM version 2.0.17 incorporates the MathML 3 schema, providing comprehensive support for representing mathematical formulae within legislative documents (introduced in v2.0.17). This enables precise markup of complex mathematical expressions, equations, and formulas that may appear in technical legislation, regulations, or scientific legislative content.
+USLM version 2.0.17 incorporates the MathML 3 schema, providing comprehensive support for representing mathematical formulae within legislative documents. This enables precise markup of complex mathematical expressions, equations, and formulas that may appear in technical legislation, regulations, or scientific legislative content.
 
 ### 5.8.1 MathML Integration
 
@@ -555,7 +548,7 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 | 2 | `<statute>` | `<lawDoc>` | An enacted bill  |
 | 3 | `<resolution>` | `<lawDoc>` | A proposed resolution  |
 | 4 | `<amendment>` | `<lawDoc>` | A document containing a pre-enactment stage amendment  |
-| 5 | `<constitutionalAmendment>` | `<lawDoc>` | A Constitutional Amendment to the United States Constitution (introduced in v2.0.17) |
+| 5 | `<constitutionalAmendment>` | `<lawDoc>` | A Constitutional Amendment to the United States Constitution |
 | 6 | `<uscDoc>` | `<lawDoc>` | A title or appendix of the United States Code  |
 
 ## 6.3 Properties
@@ -722,7 +715,7 @@ A level is composed of (1) a `<num>` identification designation, (2) an optional
 
 The principal level is the `<section>` level. Levels above the `<section>` level are referred to as &quot;big&quot; levels and levels below the `<section>` level are referred to as &quot;small&quot; levels.
 
-| --- | --- |
+|     |     |
 | --- | --- |
 | Big Levels | title, subtitle, chapter, subchapter, part, subpart, division, subdivision |
 | Primary Level | section |
@@ -745,12 +738,10 @@ The `<toc>` structure can be intermixed with the `<layout>` structure to define 
 
 Three table-like models can be used with USLM: (1) a column-oriented model, (2) the USLM 2.0 table model , and (3) the HTML table model.
 
->**Important Note for v2.1.0:** (breaking changes in v2.1.0) While USLM continues to support the same three table models, significant **restrictions** have been applied in version 2.1.0 to improve schema consistency. The `<layout>` (column-oriented) model has been **restricted** by removing the `<content>` element and adding specific allowed elements (`<column>`, `<page>`, `<coverText>`). The `<column>` element itself now has a specific list of allowed child elements rather than the permissive content model of previous versions. These are **breaking changes** - USLM 2.0 documents using `<content>` elements within `<layout>` structures must be updated for 2.1.0 compatibility. However, `<xhtml:table>` elements remain fully supported as explicit exceptions to the general namespace restrictions introduced in v2.1.0.
 
-## 10.1 Column-Oriented (restricted in v2.1.0)
+## 10.1 Column-Oriented
 Use the column-oriented `<layout>` model when information related to the legislative structure is to be arranged in a column- or grid-oriented fashion, but not a true table. The advantage of the column-oriented `<layout>` model is that it is defined within USLM, so it can contain other USLM elements. The drawback is that it is a non-standard table model, so it is not inherently understood by tools that handle standard HTML tables.
 
-**Version 2.1.0 Changes:** (breaking changes in v2.1.0) The `<layout>` element has been significantly restricted in v2.1.0. The `<content>` element is **no longer allowed** within `<layout>` structures. Instead, the content model now specifically allows `<header>`, `<row>`, `<block>`, `<NoteStructure>`, plus the newly added `<column>`, `<page>`, and `<coverText>` elements. The `<column>` element itself is no longer based on the permissive `<content>` element and now contains a specific list of allowed elements for better schema consistency.
 
 The `<layout>` model provides a `<row>` element for defining individual rows. When there is a row structure, the parts of each row that belong within each column are identified using the `<column>` element. Any direct child of the `<layout>` element is considered to be a row unless it is a `<layout>` element.
 
@@ -760,7 +751,7 @@ Like HTML tables, the `<layout>` model supports the `@colspan` and the `@rowspan
 
 ## 10.2 USLM Table Model 
 
-In USLM version 2.0, the table model has been significantly enhanced and is now formally defined within the schema . While still based on XHTML 1.0 structures, the table model has been customized to meet the specific needs of legislative and regulatory documents.
+While still based on XHTML 1.0 structures, the table model has been customized to meet the specific needs of legislative and regulatory documents.
 
 The basic structure uses the standard XHTML elements `<table>`, `<caption>`, `<thead>`, `<tfoot>`, `<tbody>`, `<colgroup>`, `<col>`, `<tr>`, and `<td>` from the XHTML namespace. However, USLM inline elements and note elements are allowed within table cells along with character content.
 
@@ -1093,8 +1084,8 @@ Individual note elements can contain simple text or complex structured content d
 ### 14.3.2 Notes collection
 Notes can be grouped together into a collection using a `<notes>` container.
 
-## 14.4 Type of notes (updated in v2.0)
-The note typing system has been enhanced in version 2.0. Use the @type attribute to specify the note type where applicable:
+## 14.4 Type of notes
+Use the @type attribute to specify the note type where applicable:
 
 1. inline – notes that are shown inline where they appear in the text.
 
@@ -1109,11 +1100,11 @@ Notes in the United States Code often have a specific topic, such as &quot;Amend
 
 `@topic="regulations construction"`
 
-# 15 Table of Contents and Index Model (redesigned in v2.0)
+# 15 Table of Contents and Index Model
 
 ## 15.1 Concept
 
-Version 2.0 introduces a completely redesigned model for Tables of Contents (ToC) and Indexes (redesigned in v2.0). The previous format-oriented model using the `<layout>` tag has been replaced with a semantic model that better captures the logical structure and relationships within these navigational elements.
+Version 2.0 introduces a completely redesigned model for Tables of Contents (ToC) and Indexes. The previous format-oriented model using the `<layout>` tag has been replaced with a semantic model that better captures the logical structure and relationships within these navigational elements.
 
 ## 15.2 Model Overview
 
@@ -1139,7 +1130,7 @@ Each item may consist of one or more of the following elements:
 
 **`<target>`** - A reference to the target location in a table of contents. This provides various items in the last column of multi-column table of contents entries. It uses the same attributes as standard references.
 
-## 15.3 Supported ToC/Index Types (expanded in v2.0)
+## 15.3 Supported ToC/Index Types
 
 The new model supports a wide variety of table of contents and index types found in legislative and regulatory documents:
 
@@ -1281,30 +1272,30 @@ Collections can contain other collections for complex document structures:
 </agencyGroup>
 ```
 
-# 17 Amendment Documents Model (introduced in v2.1.0)
+# 17 Amendment Documents Model
 
 ## 17.1 Concept
 
-Amendment documents have a unique structure that differs significantly from other legislative documents (introduced in v2.1.0). These documents require specialized metadata and content organization to properly represent the amendment instructions and their associated content. Unlike traditional legislative documents, amendment documents focus on describing changes to existing legislation rather than establishing new law.
+Amendment documents have a unique structure that differs significantly from other legislative documents. These documents require specialized metadata and content organization to properly represent the amendment instructions and their associated content. Unlike traditional legislative documents, amendment documents focus on describing changes to existing legislation rather than establishing new law.
 
-## 17.2 Amendment Document Structure (introduced in v2.1.0)
+## 17.2 Amendment Document Structure
 
 Amendment documents use specialized elements that are equivalents to the standard document structure:
 
-- **`<amendMeta>`** (introduced in v2.1.0) - Machine-processable metadata specific to amendment documents
-- **`<amendPreface>`** (introduced in v2.1.0) - Rendered prefatory material for amendment documents  
-- **`<amendMain>`** (introduced in v2.1.0) - Main content containing amendment instructions
+- **`<amendMeta>`** - Machine-processable metadata specific to amendment documents
+- **`<amendPreface>`** - Rendered prefatory material for amendment documents  
+- **`<amendMain>`** - Main content containing amendment instructions
 
 This parallel structure allows amendment documents to maintain the same organizational principles as other USLM documents while accommodating their unique requirements.
 
-## 17.3 Amendment Instructions (introduced in v2.1.0)
+## 17.3 Amendment Instructions
 
-Within the `<amendMain>` element, individual amendment instructions are delineated using **`<amendmentInstruction>`** elements (introduced in v2.1.0). Each instruction contains:
+Within the `<amendMain>` element, individual amendment instructions are delineated using **`<amendmentInstruction>`** elements. Each instruction contains:
 
 - **`<num>`** - Amendment number (when present)
 - **`<content>`** - Content of the amendment instruction
 
-The content lines are always numbered, and instruction lines may be numbered depending on the value of the **`@amendmentInstructionLineNumbering`** attribute (introduced in v2.1.0) on the `<amendMain>` element.
+The content lines are always numbered, and instruction lines may be numbered depending on the value of the **`@amendmentInstructionLineNumbering`** attribute on the `<amendMain>` element.
 
 ### 17.3.1 Example Amendment Instruction
 
@@ -1322,9 +1313,9 @@ The content lines are always numbered, and instruction lines may be numbered dep
 </amendmentInstruction>
 ```
 
-## 17.4 Amendment Content Element (introduced in v2.1.0)
+## 17.4 Amendment Content Element
 
-The **`<amendmentContent>`** element (introduced in v2.1.0) has the same content model as the `<quotedContent>` element but serves a specific purpose. It is used for amendments to:
+The **`<amendmentContent>`** element has the same content model as the `<quotedContent>` element but serves a specific purpose. It is used for amendments to:
 
 - Bills that are not yet law
 - Reported bills  
@@ -1332,17 +1323,17 @@ The **`<amendmentContent>`** element (introduced in v2.1.0) has the same content
 
 This contrasts with the `<quotedContent>` element, which is used for amending existing law.
 
-## 17.5 Engrossed Amendment Documents (introduced in v2.1.0)
+## 17.5 Engrossed Amendment Documents
 
 **`<engrossedAmendment>`** documents have the same allowed content model as other amendment documents but use a distinct root element. The structure typically differs from standard amendment documents to reflect the engrossment process.
 
 Engrossed amendments represent amendments that have been formally adopted and prepared in their final legislative form.
 
-# 18 Chamber-Specific Metadata (introduced in v2.1.0)
+# 18 Chamber-Specific Metadata
 
 ## 18.1 Concept
 
-The House and Senate each have specific metadata requirements for bills and resolutions before engrossment to support their distinct workflows (introduced in v2.1.0). Since this metadata is chamber-specific, USLM 2.1.0 defines only the namespace for this metadata rather than prescribing specific schema elements.
+The House and Senate each have specific metadata requirements for bills and resolutions before engrossment to support their distinct workflows. Since this metadata is chamber-specific, USLM 2.1.0 defines only the namespace for this metadata rather than prescribing specific schema elements.
 
 ## 18.2 Implementation Approach
 
@@ -1467,11 +1458,11 @@ Federal Register rules have a specific preamble structure that typically follows
 
 The rule preamble model supports the standardized format requirements for Federal Register rule publications while maintaining flexibility for variations in content and structure.
 
-## 18.4 Endorsement Model (introduced in v2.0.17)
+## 18.4 Endorsement Model
 
 ### 18.4.1 Concept
 
-The **`<endorsement>`** element is used in bills and resolutions prior to enrollment (introduced in v2.0.17). It appears at the end of the document and contains a selection of document metadata that is typically printed sideways on the physical document.
+The **`<endorsement>`** element is used in bills and resolutions prior to enrollment. It appears at the end of the document and contains a selection of document metadata that is typically printed sideways on the physical document.
 
 ### 18.4.2 Usage
 
@@ -1486,22 +1477,22 @@ The endorsement typically contains:
 - Processing metadata
 - Other administrative information required for document tracking
 
-## 18.5 Amendment Tracking Elements (introduced in v2.0.17)
+## 18.5 Amendment Tracking Elements
 
 ### 18.5.1 Concept
 
 Version 2.0.17 introduces specialized elements for tracking changes in bills and resolutions during the amendment process:
 
-**`<addedText>`** (introduced in v2.0.17) - Indicates content that has been added to amend a bill or resolution in amendment documents and reported bills.
+**`<addedText>`** - Indicates content that has been added to amend a bill or resolution in amendment documents and reported bills.
 
-**`<deletedText>`** (introduced in v2.0.17) - Indicates content that has been deleted to amend a bill or resolution in amendment documents and reported bills.
+**`<deletedText>`** - Indicates content that has been deleted to amend a bill or resolution in amendment documents and reported bills.
 
 ### 18.5.2 Styling Control
 
 The visual styling of added and deleted text is controlled by attributes set on the `<committee>` element whose ID is referenced in the `@origin` attribute of the content:
 
-- **`@addedDisplayStyle`** (introduced in v2.0.17) - Declares the display style for added content
-- **`@deletedDisplayStyle`** (introduced in v2.0.17) - Declares the display style for deleted content
+- **`@addedDisplayStyle`** - Declares the display style for added content
+- **`@deletedDisplayStyle`** - Declares the display style for deleted content
 
 ### 18.5.3 Distinction from Law Amendments
 
@@ -1670,18 +1661,18 @@ Example usage:
 - **`<span>`** - Generic span element for styling
 - **`<committee>`** - Committee name markup
 
-### 19.6.4 Amendment Tracking Elements (introduced in v2.0.17)
+### 19.6.4 Amendment Tracking Elements
 
-- **`<addedText>`** (introduced in v2.0.17) - Indicates added content in bill/resolution amendments
-- **`<deletedText>`** (introduced in v2.0.17) - Indicates deleted content in bill/resolution amendments
+- **`<addedText>`** - Indicates added content in bill/resolution amendments
+- **`<deletedText>`** - Indicates deleted content in bill/resolution amendments
 
 ### 19.6.5 Additional v2.0.17 Elements
 
-- **`<endorsement>`** (introduced in v2.0.17) - Document metadata for pre-enrollment bills/resolutions
-- **`<firstPageHeading>`** (introduced in v2.0.17) - First page heading in preface
-- **`<firstPageSubheading>`** (introduced in v2.0.17) - First page subheading in preface
-- **`<centerRunningHead>`** (introduced in v2.0.17) - Center-positioned running header
-- **`<referenceMarker>`** (introduced in v2.0.17) - Non-hierarchical level designation
+- **`<endorsement>`** - Document metadata for pre-enrollment bills/resolutions
+- **`<firstPageHeading>`** - First page heading in preface
+- **`<firstPageSubheading>`** - First page subheading in preface
+- **`<centerRunningHead>`** - Center-positioned running header
+- **`<referenceMarker>`** - Non-hierarchical level designation
 
 # 20 Feedback
 
@@ -1717,6 +1708,9 @@ In producing the United States Code, the Office of the Law Revision Counsel uses
 The HTML and XML files created by the Office of the Law Revision Counsel can be manipulated and enriched by others and offered to the public in new forms. Once data moves beyond the direct control of the Office of the Law Revision Counsel, the Office cannot vouch for its accuracy. Consumers should make their own determinations as to the reliability of data from other sources.
 
 **Footnotes**
+
 [1]: The feasibility study is rooted in a 1996 directive from the Committee on House Oversight (now known as the Committee on House Administration) and the Senate Committee on Rules and Administration to the Clerk of the House and Secretary of Senate, respectively, to work together toward establishing common data standards for the exchange of legislative information. See also 2 U.S.C. 181.
+
 [2]: For more information, see: [http://www.w3.org/TR/xhtml11/Overview.html#toc](http://www.w3.org/TR/xhtml11/Overview.html#toc)
+
 [3]: For more information, see: [http://dublincore.org/](http://dublincore.org/%20)
