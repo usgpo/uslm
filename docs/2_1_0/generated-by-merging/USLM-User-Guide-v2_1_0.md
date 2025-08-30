@@ -1,9 +1,9 @@
 ﻿# United States Legislative Markup
-## User Guide for the USLM Schema Version 2.0.17
+## User Guide for the USLM Schema Version 2.1.0
 
 # 1 USLM
 ## 1.1 Overview
-United States Legislative Markup (USLM) is an XML information model designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials. Building on this foundation, USLM version 2.0 extends its use to additional document sets including Enrolled Bills, Public Laws, Statutes at Large, Statute Compilations, Federal Register (FR), and Code of Federal Regulations (CFR) (extended in v2.0). Version 2.0.17 further extends support to bill and resolution document stages prior to enrollment and older Statutes at Large volumes (extended in v2.0.17). USLM is intended to meet the following needs:
+United States Legislative Markup (USLM) is an XML information model designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials. Building on this foundation, USLM version 2.0 extends its use to additional document sets including Enrolled Bills, Public Laws, Statutes at Large, Statute Compilations, Federal Register (FR), and Code of Federal Regulations (CFR) (extended in v2.0). Version 2.0.17 further extends support to bill and resolution document stages prior to enrollment and older Statutes at Large volumes (extended in v2.0.17). Version 2.1.0 introduces significant enhancements for amendment documents and implements breaking changes to improve schema consistency and processing (major update in v2.1.0). USLM is intended to meet the following needs:
 
 1. Allow existing titles of the United States Code to be converted into XML.
 2. Support ongoing maintenance of the United States Code.
@@ -46,7 +46,9 @@ USLM version 2.0 extends this foundation to support additional document types (e
 - Public Laws (introduced in v2.0)
 - Statutes at Large (introduced in v2.0, extended in v2.0.17)
 - Statute Compilations (introduced in v2.0)
-- Amendments (introduced in v2.0)
+- Amendments (introduced in v2.0, significantly enhanced in v2.1.0)
+- Amendment Documents (major new model in v2.1.0)
+- Engrossed Amendment Documents (introduced in v2.1.0)
 - Constitutional Amendments (introduced in v2.0.17)
 
 **Regulatory Documents:**
@@ -92,6 +94,8 @@ For USLM, the namespace URI is defined as the following URL:
 http://xml.house.gov/schemas/uslm/1.0
 
 >**Note:** (updated in v2.0) For version 2.0 and later, the namespace URI follows the pattern http://xml.house.gov/schemas/uslm/2.0 to reflect the major version change.
+
+>**Note:** (updated in v2.1.0) For version 2.1.0 and later, the namespace URI has been changed to http://schemas.gpo.gov/xml/uslm to reflect the expanded governance and maintenance by the Government Publishing Office.
 
 #### 1.5.2.3 Namespace Prefix
 Ordinarily, a namespace prefix is not necessary and should not be used. However, in cases where a namespace prefix is deemed necessary, the preferred prefix is &quot;USLM&quot;.
@@ -444,7 +448,8 @@ The extended LawDoc model enables modeling of:
 - uscDoc (USC documents)
 - **pLaw** (introduced in v2.0) - Public Laws
 - **statutesAtLarge** (introduced in v2.0, extended in v2.0.17) - Statutes at Large
-- **amendment** (introduced in v2.0) - Legislative amendments
+- **amendment** (introduced in v2.0, restructured in v2.1.0) - Legislative amendments with new document model
+- **engrossedAmendment** (introduced in v2.1.0) - Engrossed amendment documents
 - **constitutionalAmendment** (introduced in v2.0.17) - Constitutional amendments
 - **frDoc** (introduced in v2.0) - Federal Register documents
 - **rule** (introduced in v2.0) - Regulatory rules
@@ -456,9 +461,9 @@ The extended LawDoc model enables modeling of:
 <?xml version="1.0" encoding="UTF-8">
 
 <lawDoc       
-     xmlns="http://xml.house.gov/schemas/uslm/2.0"
-     xsi:schemaLocation="http://xml.house.gov/schemas/uslm/2.0
-       ./USLM-2.0.17.xsd"
+     xmlns="http://schemas.gpo.gov/xml/uslm"
+     xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm
+       ./uslm-2.1.0.xsd"
      xml:base="http://resolver.mydomain.com"
      identifier="/us/usc/t5">
    <meta>
@@ -743,10 +748,14 @@ The `<toc>` structure can be intermixed with the `<layout>` structure to define 
 
 Three table-like models can be used with USLM: (1) a column-oriented model, (2) the USLM 2.0 table model (enhanced in v2.0), and (3) the HTML table model.
 
-## 10.1 Column-Oriented
+>**Important Note for v2.1.0:** (breaking changes in v2.1.0) While USLM continues to support the same three table models, significant **restrictions** have been applied in version 2.1.0 to improve schema consistency. The `<layout>` (column-oriented) model has been **restricted** by removing the `<content>` element and adding specific allowed elements (`<column>`, `<page>`, `<coverText>`). The `<column>` element itself now has a specific list of allowed child elements rather than the permissive content model of previous versions. These are **breaking changes** - USLM 2.0 documents using `<content>` elements within `<layout>` structures must be updated for 2.1.0 compatibility. However, `<xhtml:table>` elements remain fully supported as explicit exceptions to the general namespace restrictions introduced in v2.1.0.
+
+## 10.1 Column-Oriented (restricted in v2.1.0)
 Use the column-oriented `<layout>` model when information related to the legislative structure is to be arranged in a column- or grid-oriented fashion, but not a true table. The advantage of the column-oriented `<layout>` model is that it is defined within USLM, so it can contain other USLM elements. The drawback is that it is a non-standard table model, so it is not inherently understood by tools that handle standard HTML tables.
 
-The `<layout>` model is intended to be flexible. It provides a `<row>` element for defining individual rows. When there is a row structure, the parts of each row that belong within each column are identified using the `<column>` element. Any direct child of the `<layout>` element is considered to be a row unless it is a `<layout>` element.
+**Version 2.1.0 Changes:** (breaking changes in v2.1.0) The `<layout>` element has been significantly restricted in v2.1.0. The `<content>` element is **no longer allowed** within `<layout>` structures. Instead, the content model now specifically allows `<header>`, `<row>`, `<block>`, `<NoteStructure>`, plus the newly added `<column>`, `<page>`, and `<coverText>` elements. The `<column>` element itself is no longer based on the permissive `<content>` element and now contains a specific list of allowed elements for better schema consistency.
+
+The `<layout>` model provides a `<row>` element for defining individual rows. When there is a row structure, the parts of each row that belong within each column are identified using the `<column>` element. Any direct child of the `<layout>` element is considered to be a row unless it is a `<layout>` element.
 
 However, when the `<column>` element is a direct child of the `<layout>` element, then there is no notion of rows, and the columns form a basic structure of the `<layout>`. If `<layout>` contains any `<column>` child, then it must only contain `<column>`s as children.
 
@@ -1276,13 +1285,91 @@ Collections can contain other collections for complex document structures:
 </agencyGroup>
 ```
 
-# 17 Lists Model (introduced in v2.0)
+# 17 Amendment Documents Model (introduced in v2.1.0)
 
 ## 17.1 Concept
 
+Amendment documents have a unique structure that differs significantly from other legislative documents (introduced in v2.1.0). These documents require specialized metadata and content organization to properly represent the amendment instructions and their associated content. Unlike traditional legislative documents, amendment documents focus on describing changes to existing legislation rather than establishing new law.
+
+## 17.2 Amendment Document Structure (introduced in v2.1.0)
+
+Amendment documents use specialized elements that are equivalents to the standard document structure:
+
+- **`<amendMeta>`** (introduced in v2.1.0) - Machine-processable metadata specific to amendment documents
+- **`<amendPreface>`** (introduced in v2.1.0) - Rendered prefatory material for amendment documents  
+- **`<amendMain>`** (introduced in v2.1.0) - Main content containing amendment instructions
+
+This parallel structure allows amendment documents to maintain the same organizational principles as other USLM documents while accommodating their unique requirements.
+
+## 17.3 Amendment Instructions (introduced in v2.1.0)
+
+Within the `<amendMain>` element, individual amendment instructions are delineated using **`<amendmentInstruction>`** elements (introduced in v2.1.0). Each instruction contains:
+
+- **`<num>`** - Amendment number (when present)
+- **`<content>`** - Content of the amendment instruction
+
+The content lines are always numbered, and instruction lines may be numbered depending on the value of the **`@amendmentInstructionLineNumbering`** attribute (introduced in v2.1.0) on the `<amendMain>` element.
+
+### 17.3.1 Example Amendment Instruction
+
+```xml
+<amendmentInstruction>
+  <num>3</num>
+  <content>On page 4, line 11, add at the end of section 2(b) the following new paragraph:
+    <amendmentContent styleType="OLC">
+      <paragraph>
+        <num>(9)</num>
+        <content class="inline">Even public health programs do not consistently provide coverage for such treatments.</content>
+      </paragraph>
+    </amendmentContent>
+  </content>
+</amendmentInstruction>
+```
+
+## 17.4 Amendment Content Element (introduced in v2.1.0)
+
+The **`<amendmentContent>`** element (introduced in v2.1.0) has the same content model as the `<quotedContent>` element but serves a specific purpose. It is used for amendments to:
+
+- Bills that are not yet law
+- Reported bills  
+- Amendment documents
+
+This contrasts with the `<quotedContent>` element, which is used for amending existing law.
+
+## 17.5 Engrossed Amendment Documents (introduced in v2.1.0)
+
+**`<engrossedAmendment>`** documents (introduced in v2.1.0) have the same allowed content model as other amendment documents but use a distinct root element. The structure typically differs from standard amendment documents to reflect the engrossment process.
+
+Engrossed amendments represent amendments that have been formally adopted and prepared in their final legislative form.
+
+# 18 Chamber-Specific Metadata (introduced in v2.1.0)
+
+## 18.1 Concept
+
+The House and Senate each have specific metadata requirements for bills and resolutions before engrossment to support their distinct workflows (introduced in v2.1.0). Since this metadata is chamber-specific, USLM 2.1.0 defines only the namespace for this metadata rather than prescribing specific schema elements.
+
+## 18.2 Implementation Approach
+
+USLM 2.1.0 allows chamber-specific metadata to be added to both:
+- `<meta>` elements (for standard documents)
+- `<amendMeta>` elements (for amendment documents)
+
+Each chamber maintains its own schema definition within its designated namespace, providing flexibility for chamber-specific requirements while maintaining USLM compatibility.
+
+## 18.3 Namespace Separation
+
+This approach allows:
+- **Flexibility** - Each chamber can evolve its metadata requirements independently
+- **Compatibility** - Documents remain valid USLM while including chamber-specific information
+- **Maintenance** - Chamber-specific changes don't require updates to the core USLM schema
+
+# 19 Lists Model (introduced in v2.0)
+
+## 19.1 Concept
+
 USLM version 1.0 relied on external XHTML namespace elements for list structures. Version 2.0 introduces a native USLM list model that better serves the specific requirements of legislative and regulatory documents (introduced in v2.0).
 
-## 17.2 List Elements (introduced in v2.0)
+## 19.2 List Elements (introduced in v2.0)
 
 **`<list>`** (introduced in v2.0) - The container element for a list structure.
 
@@ -1292,7 +1379,7 @@ USLM version 1.0 relied on external XHTML namespace elements for list structures
 
 **`<listContent>`** (introduced in v2.0) - The content container within each list item, allowing for complex structured content.
 
-## 17.3 List Features (introduced in v2.0)
+## 19.3 List Features (introduced in v2.0)
 
 The USLM list model provides several advantages over generic XHTML lists:
 
@@ -1301,7 +1388,7 @@ The USLM list model provides several advantages over generic XHTML lists:
 3. **Consistent styling** - Unified approach to list presentation across different legislative document types
 4. **Enhanced metadata** - Support for USLM's standard identification and referencing attributes
 
-## 17.4 Example Usage (introduced in v2.0)
+## 19.4 Example Usage (introduced in v2.0)
 
 ```xml
 <list>
@@ -1324,24 +1411,24 @@ The USLM list model provides several advantages over generic XHTML lists:
 </list>
 ```
 
-# 18 Document Structure Extensions (introduced in v2.0)
+# 20 Document Structure Extensions (introduced in v2.0)
 
-## 18.1 Preface Model (introduced in v2.0)
+## 20.1 Preface Model (introduced in v2.0)
 
-### 18.1.1 Concept
+### 20.1.1 Concept
 
 The `<preface>` element is a container for rendered material that precedes the main body of the document (introduced in v2.0). Documents may optionally have a preface before the main body, and some information in the preface may be duplicated in the meta section.
 
 The key distinction is that content in the meta section is normalized and machine-readable, whereas content in the preface contains text as it is rendered for the user.
 
-### 18.1.2 Content Differences
+### 20.1.2 Content Differences
 
 ```xml
 <meta><congress>115</congress></meta>
 <preface><congress>One Hundred Fifteenth Congress of the United States</congress></preface>
 ```
 
-### 18.1.3 Preface Variations
+### 20.1.3 Preface Variations
 
 The size and content of prefaces vary widely by document type:
 
@@ -1349,7 +1436,7 @@ The size and content of prefaces vary widely by document type:
 
 **CFR Volumes** - Include cover page with numerous items, notes and notices, Table of Contents, publisher information, and other front matter.
 
-### 18.1.4 Content Model
+### 20.1.4 Content Model
 
 The preface content model allows:
 - PropertyType elements (same as the `<meta>` section)
@@ -1359,13 +1446,13 @@ The preface content model allows:
 - **`<firstPageHeading>`** (introduced in v2.0.17) - Heading for the first page
 - **`<firstPageSubheading>`** (introduced in v2.0.17) - Subheading for the first page
 
-## 18.2 Back Matter Model (introduced in v2.0)
+## 20.2 Back Matter Model (introduced in v2.0)
 
-### 18.2.1 Concept
+### 20.2.1 Concept
 
 Back matter includes indexes, glossaries, lists, and other general material that follows the main body of the document (introduced in v2.0). Back matter does not include appendix material, which has its own dedicated model.
 
-### 18.2.2 Typical Back Matter Content
+### 20.2.2 Typical Back Matter Content
 
 **CFR Volumes** may include dozens of pages of back matter:
 - Finding aids notes
@@ -1374,13 +1461,13 @@ Back matter includes indexes, glossaries, lists, and other general material that
 - List of sections affected
 - End markers
 
-## 18.3 Rule Preamble Model (introduced in v2.0)
+## 20.3 Rule Preamble Model (introduced in v2.0)
 
-### 18.3.1 Concept
+### 20.3.1 Concept
 
 Federal Register rules have a specific preamble structure that typically follows a regular pattern, usually ending with "words of issuance" (introduced in v2.0).
 
-### 18.3.2 Usage
+### 20.3.2 Usage
 
 The rule preamble model supports the standardized format requirements for Federal Register rule publications while maintaining flexibility for variations in content and structure.
 
