@@ -1164,7 +1164,7 @@ The new model supports a wide variety of table of contents and index types found
 - `<popularNameIndex>` - Index of popular names for acts
 - `<subjectIndex>` - Subject-based index
 
-## 15.4 Example Usage (introduced in v2.0)
+## 15.4 Example Usage
 
 ### 15.4.1 Basic Table of Contents
 
@@ -1342,7 +1342,7 @@ This contrasts with the `<quotedContent>` element, which is used for amending ex
 
 ## 17.5 Engrossed Amendment Documents (introduced in v2.1.0)
 
-**`<engrossedAmendment>`** documents (introduced in v2.1.0) have the same allowed content model as other amendment documents but use a distinct root element. The structure typically differs from standard amendment documents to reflect the engrossment process.
+**`<engrossedAmendment>`** documents have the same allowed content model as other amendment documents but use a distinct root element. The structure typically differs from standard amendment documents to reflect the engrossment process.
 
 Engrossed amendments represent amendments that have been formally adopted and prepared in their final legislative form.
 
