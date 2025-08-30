@@ -284,7 +284,7 @@ The general-purpose attributes that are used in the abstract model (or in the co
 ### 4.5.1 Identification
 The following attributes are used to identify elements in various ways. The identification group is a universal group and can be used on all elements.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@id` | An immutable (unchangeable) id assigned to an element upon creation. It should be preserved as is when an element is moved. However, when an element is copied, new values for all `@id` attributes in the copied fragment should be generated. |
 | 2 | `@name` | A name assigned to an element that can be parameterized to support computation of a name or id a point in time.  For example: &quot;s{num}&quot;. |
@@ -294,7 +294,7 @@ The following attributes are used to identify elements in various ways. The iden
 ### 4.5.2 Classification
 The following attributes are used to classify elements. These are primarily used for informal subclassing and styling purposes.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@role` | Assigns a single semantic subclass to an element. This attribute is primarily for use with abstract elements, but may be used across all elements to provide a richer semantic association. |
 | 2 | `@class` | Assigns one or more presentation classes to an element. These classes relate to CSS classes. |
@@ -303,7 +303,7 @@ The following attributes are used to classify elements. These are primarily used
 ### 4.5.3 Annotation
 The following attributes are used to annotate or mark elements, usually for editorial reasons. Attribute values are not shown in a published form. The annotation group is universal and can be used on all elements.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@note` | A simple text note not to be published. |
 | 2 | `@alt` | An alternate description of an element. The `@alt` attribute is intended to map to the HTML `@alt` attribute for use with WCAG 2.0 and other accessibility initiatives. |
@@ -315,7 +315,7 @@ The following attributes are used to annotate or mark elements, usually for edit
 ### 4.5.4 Description
 The following attributes are used to describe or categorize elements.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@title` | A short textual description of an item. |
 | 2 | `@brief` | A longer textual description of an item. |
@@ -325,7 +325,7 @@ The following attributes are used to describe or categorize elements.
 
 The following attributes are used to establish pointers or references to other documents or locations within the same document.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@href` | A URL reference to another document or part of another document. The @href URL in USLM is generally a path beginning with a single slash. A &quot;resolver&quot;, described in section 13, maps between the path found in the URL and the full URL required to retrieve the target item.  |
 | 2 | `@idref` | A reference to an item within the same document, identified by specifying the value of the `@id` attribute for the target element. If the `@idref` points to a `<ref>` element, then the referencing attributes of the target element are inherited, in a recursive fashion. This concept is described in more detail later in section 13. |
@@ -334,7 +334,7 @@ The following attributes are used to establish pointers or references to other d
 ### 4.5.6 Action
 The following attributes are used in amendments to declare how amendments are to be made.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@type` | Describes, through an enumerated value, the action being taken. |
 | 2 | `@occurrence` | Describes which occurrence of an item on which the action is to be taken. |
@@ -343,7 +343,7 @@ The following attributes are used in amendments to declare how amendments are to
 ### 4.5.7 Amending
 Attributes used to point to items being amended. The amending group is used with the Reference Group and should be used only within amending instructions.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@pos` | Specifies a relative position in which an action is to occur, such as before or after the item being referenced. |
 | 2 | `@posText` | Used in conjunction with the `@pos` attribute to specify a location. It specifies text within the referenced item that the `@pos` is relative to. |
@@ -352,14 +352,14 @@ Attributes used to point to items being amended. The amending group is used with
 ### 4.5.8 Link
 The following attribute is used to link other documents or images intended to be embedded within the primary document.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@src` | A URL reference to a document, image, or other item to be embedded in a document.  If `@src` contains an absolute path, it should be handled by a resolver, similar to an `@href` attribute. |
 
 ### 4.5.9 Value
 The following attributes are used to hold normalized values computed from the text content.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@value` | A normalized value representing the content of the element. |
 | 2 | `@startValue` | A normalized value representing the start of a range expressed in the content of the element. |
@@ -368,7 +368,7 @@ The following attributes are used to hold normalized values computed from the te
 ### 4.5.10 Date
 The following attributes are used to hold normalized forms of date and time values computed from the text content. All date and date times are expressed as YYYY-MM-DD[Thh:mm:ss[Z|(+|-)hh:mm]].
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@date` | A normalized date (or date and time) representing the content of the element. |
 | 2 | `@beginDate` | A normalized date (or date and time) representing the start of a time/date range expressed as content of the element |
@@ -377,7 +377,7 @@ The following attributes are used to hold normalized forms of date and time valu
 ### 4.5.11 Versioning
 The following attributes are used to manage the temporal, or time-based, aspects of legislation and the law. All time/dates used in the versioning group use the same time/date format as the Date group.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@startPeriod` | The earliest date (or date and time) a version applies to. |
 | 2 | `@endPeriod` | The latest date (or date and time) a version applies to. |
@@ -387,7 +387,7 @@ The following attributes are used to manage the temporal, or time-based, aspects
 ### 4.5.12 Cell
 The following attributes are used for managing column structures. The `@colspan` and `@rowspan` attributes are borrowed from HTML and follow HTML&#39;s all lowercase convention.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@colspan` | Specifies how many columns the current column cell should span. By default, a column cell only spans a single column. |
 | 2 | `@rowspan` | Specifies how many rows the current column cell should span. By default, a column cell only spans a single row.  |
@@ -396,7 +396,7 @@ The following attributes are used for managing column structures. The `@colspan`
 ### 4.5.13 Note
 The following attributes are used for positioning and categorizing individual notes and groups of notes.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@type` | When used within a note or a notes container, `@type` specifies the position of the note. Setting the `@type` attribute to &quot;footnote&quot; indicates that the note or notes contained should be shown in the footnotes at the end of the page and setting to &quot;endnote&quot; indicates that the note or notes contained should be shown at the end of the document. If not specified, &quot;footnote&quot; is assumed. For users of `@type` other than within notes, see below. |
 | 2 | `@topic` | Specifies the focus of the notes. The `@topic` attribute is set to a string value in order to categorize the note or group of notes. An open, but enumerated, list of string values should be used. Using a fixed list of values will better aid in categorization of notes later. |
@@ -404,7 +404,7 @@ The following attributes are used for positioning and categorizing individual no
 ### 4.5.14 Other Attributes
 The following are other miscellaneous attributes.
 
-| --- | Attribute | Description |
+|     | Attribute | Description |
 | --- | --- | --- |
 | 1 | `@xml:lang`  | The language of the text contained. |
 | 2 | `@xml:base` | A URL that can be used to resolve all URLs found in the document. USLM URLs are generally specified as absolute paths. This is to make USLM documents portable, allowing them to be rehosted in a different location without modification. The `@xml:base` provides a preferred location of a resolver capable of resolving the contained references. However, this location is only an advisory. It is be possible for a local system to determine its own preferred resolver location. |
@@ -552,7 +552,7 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 
 ## 6.2 Documents
 
-| ---  | **Element** | **Derived From** | **Contains** |
+|     | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
 | 1 | `<bill>` | `<lawDoc>` | A proposed bill  |
 | 2 | `<statute>` | `<lawDoc>` | An enacted bill  |
@@ -562,7 +562,7 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 | 6 | `<uscDoc>` | `<lawDoc>` | A title or appendix of the United States Code  |
 
 ## 6.3 Properties
-|   | **Element** | **Derived From** | **Contains** |
+|     | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
 | 1 | `<docNumber>` | `<property>` | A numeric designation assigned to the document |
 | 2 | `<docPublicationName>` | `<property>` | The name of  the publication that the document is part of |
@@ -570,14 +570,14 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 
 ## 6.4 Titles
 
-|   | **Element** | **Derived From** | **Contains** |
+|     | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
 | 1 | `<docTitle>` | `<statement>` | A statement that precedes the long title in the bill  |
 | 2 | `<longTitle>` | `<statement>` | A statement that sets out the purposes of the bill  |
 | 3 | `<shortTitle>` | `<inline>` | The short title of a bill where it is first defined |
 
 ## 6.5 Levels
-|   | **Element** | **Derived From** | **Contains** |
+|     | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
 | 1 | `<preliminary>` | `<level>` | A hierarchical region of the main document consisting of preliminary clauses that are outside of the main document hierarchy  |
 | 2 | `<title>` | `<level>` | A hierarchical level in a legislative document  |
@@ -607,7 +607,7 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 
 ## 6.6 Other Structures
 
-|   | **Element** | **Derived From** | **Contains** |
+|     | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
 | 1 | `<def>` | `<text>` | One or more `<term>` elements, as well as their respective definitions
  |
@@ -621,7 +621,7 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 
 
 ## 6.7 Notes
-|   | **Element** | **Derived From** | **Contains** |
+|     | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
 | 1 | `<sourceCredit>` | `<note>` | Text containing the source of a provision, usually surrounded by parentheses
  |
@@ -639,7 +639,7 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 | 2 | `<approved>` | `<signature>` | The signatures of the people approving the document |
 
 ## 6.9 Appendices
-|   | **Example** | **Derived From** |   |
+|     | **Example** | **Derived From** |   |
 | --- | --- | --- | --- |
 | 1 | `<schedule>` | `<appendix>` | An appendix to a document, often a list of numbered items, a table, or another document |
 
@@ -676,7 +676,7 @@ Most styling is handled using Cascading StyleSheets (CSS), as is the case with m
 
 There are two primary attributes which are used to affect the presentation of the text:
 
-| --- | **Attributes** | **Description** |
+|     | **Attributes** | **Description** |
 | --- | --- | --- |
 | 1 | `@class` | The `@class` attribute is used, as in HTML, to identify CSS classes. |
 | 2 | `@style` | The `@style` attribute is used to specify CSS attributes. Ordinarily, all presentation attributes should be specified in a separate CSS file. However, there are many legacy cases where individual instances do not follow the standard form for presentation of that element. In these cases, the converter should leave the non-standard formatting with the `@style` attribute where it can override the CSS attributes defined in the external stylesheet. |
@@ -937,7 +937,7 @@ The example above shows an initial reference to title 5, United States Code. The
 The following case-insensitive referencing nomenclature is used;
 
 | Short Form | Long Form | Description |
-| --- | --- | --- |
+| ---------- | --------- | ----------- |
 | pl[0-9]+ | publicLaw[0-9]+ | Public Law + number – Statute |
 | t[0-9\|a-z]+ | title[0-9\|a-z]+ | Title + number |
 | st[0-9\|a-z]+ | subtitle[0-9\|a-z]+ | Subtitle + number |
