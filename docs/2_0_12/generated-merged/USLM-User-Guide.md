@@ -1,9 +1,9 @@
 ﻿# United States Legislative Markup
-## User Guide for the USLM Schema
+## User Guide for the USLM Schema Version 2.0.12
 
 # 1 USLM
 ## 1.1 Overview
-United States Legislative Markup (USLM) is an XML information model designed to represent the legislation of United States Congress. Initially, USLM is being used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials. USLM is intended to meet the following needs:
+United States Legislative Markup (USLM) is an XML information model designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials. Building on this foundation, USLM version 2.0 extends its use to additional document sets including Enrolled Bills, Public Laws, Statutes at Large, Statute Compilations, Federal Register (FR), and Code of Federal Regulations (CFR) (extended in v2.0). USLM is intended to meet the following needs:
 
 1. Allow existing titles of the United States Code to be converted into XML.
 2. Support ongoing maintenance of the United States Code.
@@ -34,7 +34,25 @@ In general, generated text is avoided in USLM. Over the past decade, as Congress
 USLM is designed to support a specific set of documents that are legislative in nature. While it is not a general model for documents outside this specific set, USLM may be applicable for Federal regulatory publications
 
 ### 1.3.1 Types of Documents Covered
-USLM is designed to represent the legislation of United States Congress. Initially, USLM is being used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials.
+USLM is designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials.
+
+USLM version 2.0 extends this foundation to support additional document types (extended in v2.0):
+
+**Legislative Documents:**
+- United States Code (USC) titles and appendices
+- Bills (introduced in v2.0)
+- Resolutions (introduced in v2.0)
+- Enrolled Bills (introduced in v2.0)
+- Public Laws (introduced in v2.0)
+- Statutes at Large (introduced in v2.0)
+- Statute Compilations (introduced in v2.0)
+- Amendments (introduced in v2.0)
+
+**Regulatory Documents:**
+- Federal Register (FR) documents (introduced in v2.0)
+- Code of Federal Regulations (CFR) documents (introduced in v2.0)
+- Rules (introduced in v2.0)
+- Presidential Documents (introduced in v2.0)
 
 ## 1.4 Goals
 The USLM schema is defined with the following goals in mind:
@@ -71,6 +89,8 @@ XML namespaces are associated with a URI (Uniform Resource Identifier) which is 
 For USLM, the namespace URI is defined as the following URL:
 
 http://xml.house.gov/schemas/uslm/1.0
+
+>**Note:** (updated in v2.0) For version 2.0 and later, the namespace URI follows the pattern http://xml.house.gov/schemas/uslm/2.0 to reflect the major version change.
 
 #### 1.5.2.3 Namespace Prefix
 Ordinarily, a namespace prefix is not necessary and should not be used. However, in cases where a namespace prefix is deemed necessary, the preferred prefix is &quot;USLM&quot;.
@@ -388,46 +408,103 @@ The following are other miscellaneous attributes.
 
 # 5 Core Document Model
 ## 5.1 Concept
-The core document model uses the core elements of the abstract model discussed above to define a simple model for constructing legislation or law with abstract elements. This model is summarized below. A number of details are omitted for the sake of brevity.
+The core document model uses the core elements of the abstract model discussed above to define a simple model for constructing legislation or law with abstract elements. Version 2.0 extends this model significantly to support additional document types (extended in v2.0). This model is summarized below. A number of details are omitted for the sake of brevity.
+
+## 5.2 LawDoc Model Extensions (extended in v2.0)
+
+The LawDoc model has been significantly extended in version 2.0 to accommodate documents with more complex structure than the original United States Code titles. The enhanced model supports:
+
+### 5.2.1 Extended Document Structure (extended in v2.0)
+
+**Version 1.0 LawDoc Model:**
+- meta
+- main  
+- appendix
+- signatures (optional)
+
+**Version 2.0 Extended LawDoc Model:**
+- meta (not rendered, canonical form)
+- **preface** (introduced in v2.0) - rendered prefatory material
+- main
+- **attestation** (introduced in v2.0) - attestation blocks
+- **signatures** (enhanced in v2.0) - signature blocks
+- **notes** (enhanced in v2.0) - document-level notes
+- **backMatter** (introduced in v2.0) - indexes, glossaries, lists
+- **endMarker** (introduced in v2.0) - end-of-document markers
+- appendix
+
+### 5.2.2 Supported Document Types (expanded in v2.0)
+
+The extended LawDoc model enables modeling of:
+
+- lawDoc (original USC documents)
+- **bill** (introduced in v2.0)
+- **resolution** (introduced in v2.0)  
+- uscDoc (USC documents)
+- **pLaw** (introduced in v2.0) - Public Laws
+- **statutesAtLarge** (introduced in v2.0) - Statutes at Large
+- **amendment** (introduced in v2.0) - Legislative amendments
+- **frDoc** (introduced in v2.0) - Federal Register documents
+- **rule** (introduced in v2.0) - Regulatory rules
+- **presidentialDoc** (introduced in v2.0) - Presidential documents
+- **cfrDoc** (introduced in v2.0) - CFR documents
+- **statuteCompilation** (introduced in v2.0) - Statute compilations
 
 ```xml
 <?xml version="1.0" encoding="UTF-8">
 
 <lawDoc       
-     xmlns=http://xml.house.gov/schemas/uslm/1.0
-	xsi:schemaLocation"http://xml.house.gov/schemas/uslm/1.0
-       ./USLM-1.0.xsd"
-	 xml:base="http://resolver.mydomain.com"
+     xmlns="http://xml.house.gov/schemas/uslm/2.0"
+     xsi:schemaLocation="http://xml.house.gov/schemas/uslm/2.0
+       ./USLM-2.0.12.xsd"
+     xml:base="http://resolver.mydomain.com"
      identifier="/us/usc/t5">
    <meta>
-      <property name=&quot;docTitle&quot;>…</property>
+      <property name="docTitle">…</property>
+      <!-- Enhanced metadata support in v2.0 -->
+      <congress>115</congress>
+      <session>1</session>
       …
    </meta>
 
-   <main>
-      <layout>
-         <header>Table of Contents</header>
-         <toc>
-            <tocItem title="Chapter 1">
-               <column>1.</column>
-               <column leaders=".">General Provisions</column>
-               <column>101</column>
-            </tocItem>
-         </toc>
-      </layout>
+   <!-- Optional preface (introduced in v2.0) -->
+   <preface>
+      <congress>One Hundred Fifteenth Congress of the United States</congress>
+   </preface>
 
-      <level role=&quot;Chapter&quot;>
-         <num value=&quot;1&quot;>CHAPTER 1.</num>
+   <main>
+      <!-- Enhanced ToC model (redesigned in v2.0) -->
+      <toc>
+         <headingItem><label>Chapter</label></headingItem>
+         <headingItem><label>Section</label></headingItem>
+         <referenceItem>
+            <designator>1</designator>
+            <label>General Provisions</label>
+            <target>101</target>
+         </referenceItem>
+      </toc>
+
+      <level role="Chapter">
+         <num value="1">CHAPTER 1.</num>
          <heading>General Provisions</heading>
          <content>
             ...
          </content>
       </level>
    </main>
+
+   <!-- Optional enhanced document elements (introduced in v2.0) -->
+   <notes>
+      <!-- Document-level notes -->
+   </notes>
+   
+   <backMatter>
+      <!-- Indexes, glossaries, finding aids -->
+   </backMatter>
 </lawDoc>
 ```
 
-## 5.2 Metadata
+## 5.3 Metadata
 The metadata block, `<meta>`, is an optional block of named properties or sets of named properties at the start of the document. Properties are defined as simple strings. The metadata model is open and unconstrained to provide maximum flexibility.
 
 Information found in the metadata block is generally not printed in the published form.
@@ -436,18 +513,18 @@ Some of the metadata may be generated through analysis of the main text of the d
 
 Metadata can be defined using (1) the abstract `<property>` and `<set>` elements, (2) the built-in  `<docNumber>`, and other properties, or (3) elements defined in the Dublin Core.
 
-## 5.3 Main
+## 5.4 Main
 The main text of the document is contained in the `<main>` block. The main block will not have an `@id` or a `@name` attribute. References to items in the main body may skip or suppress the main level in the reference.
 
-## 5.4 Appendices
+## 5.5 Appendices
 An appendix can either follow the main part of a document or be a stand-alone document. To include an appendix as a stand-alone document, omit the `<main>` element and include the `<appendix>` element directly after the metadata. This technique is used for United States Code title appendices (e.g., Title 5 Appendix).
 
 There can also be any number of appendices following the main part of the document. These may also be known as schedules, annexes, or explanatory notes/memoranda. An `<appendix>` element can either contain the content within the document or it can reference the content for inclusion using the `@src` attribute.
 
-## 5.5 Signatures
-Some documents contain signatures of the people who introduce, sponsor, or approve the legislation. The signatures are held in a `<signatures>` block, either at the top of the main part of the document or in the appendices.
+## 5.6 Signatures (enhanced in v2.0)
+Some documents contain signatures of the people who introduce, sponsor, or approve the legislation. The signatures are held in a `<signatures>` block, either at the top of the main part of the document or in the appendices. In version 2.0, the signature model has been enhanced to better match actual signature instances with new elements for `<notation>` and `<autograph>` (enhanced in v2.0). Additionally, signatures are now allowed at the end of levels to support Federal Register documents (enhanced in v2.0).
 
-## 5.6 Multiple Models
+## 5.7 Multiple Models
 Models from multiple XML namespaces are used to construct a USLM document. The dcterms model is used for metadata.  The XHTML model is used for tables.  XHTML may also be used to mark the external document for inclusion within the larger legislative document. In the future, MathML may be used for equations and SVG may be used for vector graphics.
 
 # 6 Concrete Model
@@ -647,7 +724,7 @@ The `<toc>` structure can be intermixed with the `<layout>` structure to define 
 
 # 10 Table Model
 
-Two table-like models can be used with USLM: (1) a column-oriented model and (2) the HTML table model.
+Three table-like models can be used with USLM: (1) a column-oriented model, (2) the USLM 2.0 table model (enhanced in v2.0), and (3) the HTML table model.
 
 ## 10.1 Column-Oriented
 Use the column-oriented `<layout>` model when information related to the legislative structure is to be arranged in a column- or grid-oriented fashion, but not a true table. The advantage of the column-oriented `<layout>` model is that it is defined within USLM, so it can contain other USLM elements. The drawback is that it is a non-standard table model, so it is not inherently understood by tools that handle standard HTML tables.
@@ -658,7 +735,27 @@ However, when the `<column>` element is a direct child of the `<layout>` element
 
 Like HTML tables, the `<layout>` model supports the `@colspan` and the `@rowspan` elements.
 
-## 10.2 HTML Tables
+## 10.2 USLM Table Model (enhanced in v2.0)
+
+In USLM version 2.0, the table model has been significantly enhanced and is now formally defined within the schema (enhanced in v2.0). While still based on XHTML 1.0 structures, the table model has been customized to meet the specific needs of legislative and regulatory documents.
+
+The basic structure uses the standard XHTML elements `<table>`, `<caption>`, `<thead>`, `<tfoot>`, `<tbody>`, `<colgroup>`, `<col>`, `<tr>`, and `<td>` from the XHTML namespace. However, USLM inline elements and note elements are allowed within table cells along with character content.
+
+### 10.2.1 USLM Table Attributes (introduced in v2.0)
+
+Additional attributes have been added to support legislative processing needs:
+
+- **`@stubHierarchy`** (introduced in v2.0) - Controls the hierarchical formatting of stub columns
+- **`@textHierarchy`** (introduced in v2.0) - Controls the hierarchical formatting of text columns  
+- **`@blockStyle`** (introduced in v2.0) - Specifies the block-level styling approach
+- **`@leaders`** (introduced in v2.0) - Controls the use of leader dots or lines between columns
+- **`@leaderAlign`** (introduced in v2.0) - Specifies the alignment of leader elements
+- **`@id`** (introduced in v2.0) - Provides unique identification for table elements
+- **`@identifier`** (introduced in v2.0) - Provides human-readable identification
+
+These attributes enable precise control over the presentation and processing of complex legislative tables while maintaining compatibility with standard table processing tools.
+
+## 10.3 HTML Tables
 
 Use the HTML `<table>` model when (1) information is arranged in a tabular structure, (2) there is little information within the table that is part of the legislative structure, or (3) the structure is regarded as a normal table with gridlines and table cells.
 
@@ -844,8 +941,10 @@ The following case-insensitive referencing nomenclature is used;
 
 >**Note:** _The prefixes are defined to be case-insensitive. This is done as case-sensitive URLs can be problematic in some environments._
 
-## 12.5 References within Amendment Instructions
+## 12.5 References within Amendment Instructions (enhanced in v2.0)
 Amendments refer to the item that they are amending. The reference may be complex, specifying not only the item affected, but a relative position either within, before, or after the item affected. Three additional attributes are provided with references to allow this sort of specification:
+
+>**Note:** (changed in v2.0) To support the use of the `<action>` element in the context of bill actions, the existing use of `<action>` within amendments has been changed to `<amendingAction>`. Additionally, the action "renumber" has been renamed "redesignate" to better match congressional terminology, and new actions "conform", "repealAndReserve", and "unknown" have been added.
 
 - `@pos` – Specifies a position that is either at the start, before, inside, after, or at the end of the context item.
 
@@ -919,20 +1018,57 @@ Properties can be grouped into simple sets. A `<set>` is essentially a property 
 # 14 Notes Model
 # 14.1 Concept
 
-Notes are found throughout the United States Code. USLM defines a very flexible model to support all the different types of notes that are found.
+Notes are found throughout the United States Code and other legislative documents. USLM defines a flexible model to support all the different types of notes that are found. In version 2.0, the note model has been significantly enhanced to accommodate the broader variety of notes found in different document types (enhanced in v2.0).
 
-## 14.2 Note Classes
+## 14.2 Note Categories (enhanced in v2.0)
 
-The abstract model provides two basic elements for implementing notes.
+USLM version 2.0 introduces two fundamental categories of notes based on their rendering behavior:
 
-### 14.2.1 Individual notes
-The basic `<note>` implement provides the fundamental model for a note. A note can be simple string of text or it can be a complex structure of text.
+### 14.2.1 NoteType Elements (introduced in v2.0)
 
-### 14.2.2 Notes collection
+NoteType elements are rendered directly in the main content flow where they logically appear. A U.S. Code note is an example of a NoteType element. Elements of this type include:
+
+- `<note>` - Basic note element
+- `<sourceCredit>` - Source attribution
+- `<statutoryNote>` - Statutory notes
+- `<editorialNote>` - Editorial annotations
+- `<changeNote>` - Change documentation
+- `<authority>` (introduced in v2.0) - Authority citations
+- `<source>` (introduced in v2.0) - Source information  
+- `<effectiveDateNote>` (introduced in v2.0) - Effective date information
+- `<frDocID>` (introduced in v2.0) - Federal Register document identifiers
+- `<billingCode>` (introduced in v2.0) - Billing code information
+- `<editionNote>` (introduced in v2.0) - Edition-specific notes
+- `<organizationNote>` (introduced in v2.0) - Organizational information
+- `<citationNote>` (introduced in v2.0) - Citation guidance
+- `<explanationNote>` (introduced in v2.0) - Explanatory content
+- `<findingAidsNote>` (introduced in v2.0) - Finding aids information
+
+### 14.2.2 PositionedNoteType Elements (introduced in v2.0)
+
+PositionedNoteType elements have content that is rendered at a different position from where they logically refer. A footnote is an example of a positioned note. The positioned note has attributes to specify where it should be rendered. Elements of this type include:
+
+- `<footnote>` - Traditional footnotes
+- `<sidenote>` (introduced in v2.0) - Marginal notes
+- `<leftRunningHead>` (introduced in v2.0) - Left-page running headers
+- `<rightRunningHead>` (introduced in v2.0) - Right-page running headers  
+- `<ear>` (introduced in v2.0) - Margin text (used in CFR)
+- `<endMarker>` (introduced in v2.0) - End-of-document markers
+- `<page>` (introduced in v2.0) - Page boundary markers
+- `<line>` (introduced in v2.0) - Line boundary markers
+
+## 14.3 Note Classes
+
+The abstract model provides elements for implementing both individual notes and note collections.
+
+### 14.3.1 Individual notes
+Individual note elements can contain simple text or complex structured content depending on their specific type and usage context.
+
+### 14.3.2 Notes collection
 Notes can be grouped together into a collection using a `<notes>` container.
 
-## 14.3 Type of notes
-There are four primary types of notes. Use the @type attribute to specify the note type:
+## 14.4 Type of notes (updated in v2.0)
+The note typing system has been enhanced in version 2.0. Use the @type attribute to specify the note type where applicable:
 
 1. inline – notes that are shown inline where they appear in the text.
 
@@ -947,12 +1083,456 @@ Notes in the United States Code often have a specific topic, such as &quot;Amend
 
 `@topic="regulations construction"`
 
-# 15 Feedback
+# 15 Table of Contents and Index Model (redesigned in v2.0)
+
+## 15.1 Concept
+
+Version 2.0 introduces a completely redesigned model for Tables of Contents (ToC) and Indexes (redesigned in v2.0). The previous format-oriented model using the `<layout>` tag has been replaced with a semantic model that better captures the logical structure and relationships within these navigational elements.
+
+## 15.2 Model Overview (redesigned in v2.0)
+
+The new semantic model represents a ToC or Index as a collection of "items" rather than a tabular layout. This approach provides better semantic meaning and more flexible presentation options.
+
+### 15.2.1 Item Types (introduced in v2.0)
+
+There are three fundamental types of items in the ToC/Index model:
+
+**`<referenceItem>`** (introduced in v2.0) - Refers to specific content in the document (versus a concept or grouping). The referenceItem may also contain lower-level referenceItems if the content being referred to contains nested content.
+
+**`<headingItem>`** (introduced in v2.0) - A columnar-type heading for the items below it, such as "Sec." or "Page". This type is commonly repeated on following pages for consistency.
+
+**`<groupItem>`** (introduced in v2.0) - An item that collects a number of referenceItems or other groupItems under a heading. The groupItem may or may not refer to a specific place in the document. groupItems may contain nested groupItems for hierarchical organization.
+
+### 15.2.2 Item Components (introduced in v2.0)
+
+Each item may consist of one or more of the following elements:
+
+**`<designator>`** (introduced in v2.0) - A reference to a numbered item in a table of contents or index (e.g., section numbers, page numbers).
+
+**`<label>`** (introduced in v2.0) - A textual reference in a table of contents or index (e.g., section titles, index terms).
+
+**`<target>`** (introduced in v2.0) - A reference to the target location in a table of contents. This provides various items in the last column of multi-column table of contents entries. It uses the same attributes as standard references.
+
+## 15.3 Supported ToC/Index Types (expanded in v2.0)
+
+The new model supports a wide variety of table of contents and index types found in legislative and regulatory documents:
+
+**Basic Elements:**
+- `<toc>` - Standard table of contents
+- `<index>` (introduced in v2.0) - General index
+
+**Specialized Elements:**
+- `<tableOfTitlesAndChapters>` (introduced in v2.0) - Structural overview of titles and chapters
+- `<listOfAgencies>` (introduced in v2.0) - Agency listings (common in regulatory documents)
+- `<listOfSectionsAffected>` (introduced in v2.0) - Sections affected by changes
+- `<listOfBillsEnacted>` (introduced in v2.0) - Bills enacted during a period
+- `<listOfPublicLaws>` (introduced in v2.0) - Public law listings
+- `<listOfPrivateLaws>` (introduced in v2.0) - Private law listings
+- `<listOfConcurrentResolutions>` (introduced in v2.0) - Concurrent resolution listings
+- `<listOfProclamations>` (introduced in v2.0) - Presidential proclamation listings
+- `<popularNameIndex>` (introduced in v2.0) - Index of popular names for acts
+- `<subjectIndex>` (introduced in v2.0) - Subject-based index
+
+## 15.4 Example Usage (introduced in v2.0)
+
+### 15.4.1 Basic Table of Contents
+
+```xml
+<toc>
+  <headingItem>
+    <label>Section</label>
+  </headingItem>
+  <headingItem>
+    <label>Page</label>
+  </headingItem>
+  <referenceItem>
+    <designator>1</designator>
+    <label>Short Title</label>
+    <target>1</target>
+  </referenceItem>
+  <referenceItem>
+    <designator>2</designator>
+    <label>Definitions</label>
+    <target>2</target>
+  </referenceItem>
+</toc>
+```
+
+### 15.4.2 Hierarchical Index
+
+```xml
+<popularNameIndex>
+  <groupItem>
+    <label>Americans with Disabilities Act</label>
+    <referenceItem>
+      <label>of 1990</label>
+      <target>42 USC 12101</target>
+    </referenceItem>
+    <referenceItem>
+      <label>Amendments Act of 2008</label>
+      <target>42 USC 12101 note</target>
+    </referenceItem>
+  </groupItem>
+</popularNameIndex>
+```
+
+## 15.5 Migration from Layout Model (changed in v2.0)
+
+The format-oriented `<layout>` model from version 1.0 has been replaced by this semantic approach. Documents using the old layout-based ToC model will need to be updated to use the new item-based structure. The semantic model provides better accessibility, more flexible styling options, and clearer logical relationships between ToC elements.
+
+# 16 Collections Model (introduced in v2.0)
+
+## 16.1 Concept
+
+USLM version 2.0 introduces a new "Collections" model to support documents that are collections of other sub-documents (introduced in v2.0). This is particularly important for documents such as the Federal Register, where a daily issue is essentially a collection of collections, each containing multiple individual documents or document fragments.
+
+## 16.2 Collection Structure (introduced in v2.0)
+
+### 16.2.1 Basic Elements
+
+**`<collection>`** (introduced in v2.0) - The core collection element that acts as a container for multiple related items.
+
+**`<component>`** (introduced in v2.0) - A wrapper element for individual documents or fragments within a collection. The component may directly contain the content or point to external content via the `@origin` attribute.
+
+### 16.2.2 Collection Types (introduced in v2.0)
+
+The following elements are instances of the CollectionType:
+
+**Federal Register Collections:**
+- `<notices>` (introduced in v2.0) - Collection of Federal Register notices
+- `<rules>` (introduced in v2.0) - Collection of final rules
+- `<proposedRules>` (introduced in v2.0) - Collection of proposed rules
+- `<presidentialDocs>` (introduced in v2.0) - Collection of presidential documents
+
+**Organizational Collections:**
+- `<agencyGroup>` (introduced in v2.0) - Collection grouped by agency
+
+**Legislative Collections:**
+- `<publicLaws>` (introduced in v2.0) - Collection of public laws
+- `<privateLaws>` (introduced in v2.0) - Collection of private laws
+- `<concurrentResolutions>` (introduced in v2.0) - Collection of concurrent resolutions
+
+## 16.3 Usage Patterns (introduced in v2.0)
+
+### 16.3.1 Direct Content
+
+Components can contain content directly:
+
+```xml
+<rules>
+  <component>
+    <rule>
+      <meta>...</meta>
+      <main>...</main>
+    </rule>
+  </component>
+</rules>
+```
+
+### 16.3.2 Referenced Content
+
+Components can reference external content:
+
+```xml
+<notices>
+  <component origin="document-12345.xml"/>
+  <component origin="document-12346.xml"/>
+</notices>
+```
+
+### 16.3.3 Nested Collections
+
+Collections can contain other collections for complex document structures:
+
+```xml
+<agencyGroup>
+  <meta>
+    <organization>Department of Agriculture</organization>
+  </meta>
+  <rules>
+    <component>...</component>
+  </rules>
+  <notices>
+    <component>...</component>
+  </notices>
+</agencyGroup>
+```
+
+# 17 Lists Model (introduced in v2.0)
+
+## 17.1 Concept
+
+USLM version 1.0 relied on external XHTML namespace elements for list structures. Version 2.0 introduces a native USLM list model that better serves the specific requirements of legislative and regulatory documents (introduced in v2.0).
+
+## 17.2 List Elements (introduced in v2.0)
+
+**`<list>`** (introduced in v2.0) - The container element for a list structure.
+
+**`<listHeading>`** (introduced in v2.0) - An optional heading element for the entire list.
+
+**`<listItem>`** (introduced in v2.0) - Individual items within the list.
+
+**`<listContent>`** (introduced in v2.0) - The content container within each list item, allowing for complex structured content.
+
+## 17.3 List Features (introduced in v2.0)
+
+The USLM list model provides several advantages over generic XHTML lists:
+
+1. **Legislative-specific semantics** - Better integration with USLM's legislative element model
+2. **Flexible content model** - Support for complex structured content within list items
+3. **Consistent styling** - Unified approach to list presentation across different legislative document types
+4. **Enhanced metadata** - Support for USLM's standard identification and referencing attributes
+
+## 17.4 Example Usage (introduced in v2.0)
+
+```xml
+<list>
+  <listHeading>Required Actions</listHeading>
+  <listItem>
+    <listContent>
+      <p>Complete environmental impact assessment</p>
+    </listContent>
+  </listItem>
+  <listItem>
+    <listContent>
+      <p>Submit public comment period notice</p>
+    </listContent>
+  </listItem>
+  <listItem>
+    <listContent>
+      <p>Coordinate with affected agencies</p>
+    </listContent>
+  </listItem>
+</list>
+```
+
+# 18 Document Structure Extensions (introduced in v2.0)
+
+## 18.1 Preface Model (introduced in v2.0)
+
+### 18.1.1 Concept
+
+The `<preface>` element is a container for rendered material that precedes the main body of the document (introduced in v2.0). Documents may optionally have a preface before the main body, and some information in the preface may be duplicated in the meta section.
+
+The key distinction is that content in the meta section is normalized and machine-readable, whereas content in the preface contains text as it is rendered for the user.
+
+### 18.1.2 Content Differences
+
+```xml
+<meta><congress>115</congress></meta>
+<preface><congress>One Hundred Fifteenth Congress of the United States</congress></preface>
+```
+
+### 18.1.3 Preface Variations
+
+The size and content of prefaces vary widely by document type:
+
+**Enrolled Bills** - Include Bill ID, congress and session, and enrolled dateline.
+
+**CFR Volumes** - Include cover page with numerous items, notes and notices, Table of Contents, publisher information, and other front matter.
+
+### 18.1.4 Content Model
+
+The preface content model allows:
+- PropertyType elements (same as the `<meta>` section)
+- Table of contents elements
+- Notes
+- General content elements
+
+## 18.2 Back Matter Model (introduced in v2.0)
+
+### 18.2.1 Concept
+
+Back matter includes indexes, glossaries, lists, and other general material that follows the main body of the document (introduced in v2.0). Back matter does not include appendix material, which has its own dedicated model.
+
+### 18.2.2 Typical Back Matter Content
+
+**CFR Volumes** may include dozens of pages of back matter:
+- Finding aids notes
+- Table of CFR Titles and Chapters
+- List of Agencies
+- List of sections affected
+- End markers
+
+## 18.3 Rule Preamble Model (introduced in v2.0)
+
+### 18.3.1 Concept
+
+Federal Register rules have a specific preamble structure that typically follows a regular pattern, usually ending with "words of issuance" (introduced in v2.0).
+
+### 18.3.2 Usage
+
+The rule preamble model supports the standardized format requirements for Federal Register rule publications while maintaining flexibility for variations in content and structure.
+
+## 18.4 Appropriations Model (introduced in v2.0)
+
+### 18.4.1 Concept
+
+Appropriation bills have unique constructs compared to other legislative proposals. USLM version 2.0 adds specific elements and attributes to capture the structure and data behind appropriation accounts in appropriation acts (introduced in v2.0).
+
+### 18.4.2 Appropriations Element
+
+The `<appropriations>` element is used for nesting the various levels of appropriation agencies, bureaus, and departments, as well as the various budget areas within agencies, bureaus, and departments.
+
+### 18.4.3 Appropriation Attributes (introduced in v2.0)
+
+**`@level`** (introduced in v2.0) - Specifies the appropriations level (major, intermediate, or small, corresponding to Bill DTD terminology).
+
+**`@forType`** (introduced in v2.0) - Defines the type of budget grouping (agency, bureau, account, etc.).
+
+**`@forValue`** (introduced in v2.0) - Defines the specific budget grouping. May be a URI pointing to detailed information about the agency or account.
+
+### 18.4.4 Example Structure
+
+```xml
+<appropriations level="major" forType="agency" forValue="Department of Defense">
+  <appropriations level="intermediate" forType="bureau" forValue="Army">
+    <appropriations level="small" forType="account" forValue="Operations and Maintenance">
+      <!-- Appropriation content -->
+    </appropriations>
+  </appropriations>
+</appropriations>
+```
+
+# 19 New PropertyTypes and Attributes (introduced in v2.0)
+
+## 19.1 New PropertyTypes (introduced in v2.0)
+
+USLM version 2.0 significantly expands the available PropertyType elements to support the broader range of document types. These elements are typically found in the meta and/or preface sections and capture important metadata about the document.
+
+### 19.1.1 Document Classification Properties (introduced in v2.0)
+
+- **`<docStage>`** (introduced in v2.0) - Document stage in the legislative process
+- **`<docPart>`** (introduced in v2.0) - Part designation within a larger document
+- **`<publicPrivate>`** (introduced in v2.0) - Classification as public or private law
+
+### 19.1.2 Congressional Properties (introduced in v2.0)
+
+- **`<congress>`** (introduced in v2.0) - Congressional session number
+- **`<session>`** (introduced in v2.0) - Session within a congress
+- **`<enrolledDateline>`** (introduced in v2.0) - Date and location of bill enrollment
+- **`<starPrint>`** (introduced in v2.0) - Star print designation
+
+### 19.1.3 Citation and Reference Properties (introduced in v2.0)
+
+- **`<citableAs>`** (introduced in v2.0) - Standard citation format
+- **`<currentThroughPublicLaw>`** (introduced in v2.0) - Currency designation
+- **`<containsShortTitle>`** (introduced in v2.0) - Short title information
+
+### 19.1.4 Publication Properties (introduced in v2.0)
+
+- **`<volume>`** (introduced in v2.0) - Volume number in multi-volume sets
+- **`<issue>`** (introduced in v2.0) - Issue number for periodical publications
+- **`<startingPage>`** (introduced in v2.0) - First page of content
+- **`<endingPage>`** (introduced in v2.0) - Last page of content
+- **`<startingProvision>`** (introduced in v2.0) - First provision in a range
+- **`<endingProvision>`** (introduced in v2.0) - Last provision in a range
+- **`<provisionRange>`** (introduced in v2.0) - Range of provisions affected
+
+### 19.1.5 Process and Workflow Properties (introduced in v2.0)
+
+- **`<processedBy>`** (introduced in v2.0) - Processing organization or system
+- **`<actionDescription>`** (introduced in v2.0) - Description of legislative action
+- **`<actionInstruction>`** (introduced in v2.0) - Instructions for document action
+- **`<createdDate>`** (introduced in v2.0) - Document creation date
+
+### 19.1.6 Content Description Properties (introduced in v2.0)
+
+- **`<organization>`** (introduced in v2.0) - Responsible organization
+- **`<affected>`** (introduced in v2.0) - Provisions or entities affected
+- **`<subject>`** (introduced in v2.0) - Subject matter classification
+- **`<coverTitle>`** (introduced in v2.0) - Cover page title
+- **`<coverText>`** (introduced in v2.0) - Cover page text
+
+## 19.2 New Attributes (introduced in v2.0)
+
+### 19.2.1 Styling and Presentation Attributes (introduced in v2.0)
+
+**`@styleType`** (introduced in v2.0) - Sets the overall semantic type of a block for rendering purposes. Only predefined values are allowed, carried over from Bill DTD and Comp DTD styles such as "OLC" and "USC".
+
+**`@verticalSpace`** (introduced in v2.0) - Specifies the amount of vertical space to move down. If not present, single line spacing is default. Value may specify CSS units (e.g., "4em" or "12pt"). Special values "nextPage" and "nextColumn" force page or column breaks.
+
+### 19.2.2 Scope and Context Attributes (introduced in v2.0)
+
+**`@scope`** (introduced in v2.0) - Specifies the scope within which the `@identifier` attribute is valid. Typically formatted as a URL referring to a specific context. Used for terms within definitions to specify the scope of the definition.
+
+**`@legisDate`** (introduced in v2.0) - Logical legislative date, which may differ from the calendar date.
+
+**`@inEffect`** (introduced in v2.0) - Boolean attribute indicating whether provisions are in effect at the time of document publication. Typically used in statute compilations. Default value is "true".
+
+## 19.3 Document Actions and Titles (enhanced in v2.0)
+
+### 19.3.1 Document Actions (introduced in v2.0)
+
+Legislative actions on documents are modeled more thoroughly in version 2.0:
+
+- **`<action>`** (introduced in v2.0) - Container for legislative actions
+- **`<actionDescription>`** (introduced in v2.0) - Description of the action taken
+- **`<actionInstruction>`** (introduced in v2.0) - Instructions for implementing the action
+
+Example usage:
+```xml
+<action>
+  <actionDescription>Agreed to</actionDescription>
+  <date date="2017-02-10">February 10, 2017</date>
+</action>
+```
+
+### 19.3.2 Document Titles (enhanced in v2.0)
+
+Legislative document titles are modeled more thoroughly:
+
+- **`<longTitle>`** (introduced in v2.0) - Complete long title structure
+- **`<docTitle>`** (introduced in v2.0) - Document title component
+- **`<officialTitle>`** (introduced in v2.0) - Official title text
+- **`<shortTitle>`** (introduced in v2.0) - Short title designation
+
+Example usage:
+```xml
+<longTitle>
+  <docTitle>An Act</docTitle>
+  <officialTitle>To authorize the National Science Foundation to support entrepreneurial programs for women.</officialTitle>
+</longTitle>
+```
+
+## 19.4 Content Tagging Elements (introduced in v2.0)
+
+### 19.4.1 Term Element (introduced in v2.0)
+
+**`<term>`** (introduced in v2.0) - A word or phrase being defined. The `<term>` element surrounds the words for the term being defined. Multiple `<term>` elements may be specified within a definition. When a `<term>` represents words in an alternate language, the `xml:lang` attribute must be used. The containing element should have `@role="definitions"` to indicate that definitions are contained within it.
+
+### 19.4.2 Entity Element (introduced in v2.0)
+
+**`<entity>`** (introduced in v2.0) - A generic inline element to identify text fragments introducing or referring to ontological concepts. Modeled after the Akoma Ntoso `<entity>` element. The `@role` attribute distinguishes the concept type (e.g., `<entity @role="NAICS">` or `<entity @role="SEC">`).
+
+## 19.5 Page and Line Numbering (introduced in v2.0)
+
+**`<page>`** and **`<line>`** elements were introduced to mark where page and line boundaries occurred in published documents (introduced in v2.0). These are typed as notes and can exist at actual boundary locations. Page and line numbers are used for citations and references in some document types, such as page numbers for Statutes at Large citations.
+
+## 19.6 Additional New Elements (introduced in v2.0)
+
+### 19.6.1 Statement Type Elements (introduced in v2.0)
+
+- **`<resolvingClause>`** (introduced in v2.0) - Resolving clause in resolutions
+- **`<wordsOfIssuance>`** (introduced in v2.0) - Words of issuance in rules
+
+### 19.6.2 Content Type Elements (introduced in v2.0)
+
+- **`<figure>`** (introduced in v2.0) - Figure element for illustrations
+- **`<figCaption>`** (introduced in v2.0) - Caption for figures
+
+### 19.6.3 Inline Type Elements (introduced in v2.0)
+
+- **`<headingText>`** (introduced in v2.0) - Heading text elements
+- **`<span>`** (introduced in v2.0) - Generic span element for styling
+- **`<committee>`** (introduced in v2.0) - Committee name markup
+
+# 20 Feedback
 
 The Office of the Law Revision Counsel of the U.S. House of Representatives welcomes any questions or comments about the United States Code in USLM at [uscode@mail.house.gov](mailto:uscode@mail.house.gov). For questions, comments, or requests for proposed changes to the USLM schema or this User Guide, please visit GPO&#39;s GitHub repository and open an issue at [https://github.com/usgpo/uslm/issues/new](https://github.com/usgpo/uslm/issues/new).
 
-# 16 Appendix: United States Code
-## 16.1 Brief Introduction to the United States Code
+# 21 Appendix: United States Code
+## 21.1 Brief Introduction to the United States Code
 The schema described in this User Guide is used to produce the United States Code in XML. The United States Code contains the general and permanent laws of the United States, organized into titles based on subject matter.
 
 The United States Code is prepared and published by the Office of the Law Revision Counsel of the U.S. House of Representatives pursuant to 2 U.S.C. 285b. For the printed version of the Code, a complete new edition is printed every six years, and five annual cumulative supplements are printed in the intervening years.
@@ -984,4 +1564,3 @@ The HTML and XML files created by the Office of the Law Revision Counsel can be 
 [1]: The feasibility study is rooted in a 1996 directive from the Committee on House Oversight (now known as the Committee on House Administration) and the Senate Committee on Rules and Administration to the Clerk of the House and Secretary of Senate, respectively, to work together toward establishing common data standards for the exchange of legislative information. See also 2 U.S.C. 181.
 [2]: For more information, see: [http://www.w3.org/TR/xhtml11/Overview.html#toc](http://www.w3.org/TR/xhtml11/Overview.html#toc)
 [3]: For more information, see: [http://dublincore.org/](http://dublincore.org/%20)
-
