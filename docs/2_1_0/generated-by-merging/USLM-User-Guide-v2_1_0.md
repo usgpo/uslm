@@ -1054,21 +1054,23 @@ USLM version 2.0 introduces two fundamental categories of notes based on their r
 
 NoteType elements are rendered directly in the main content flow where they logically appear. A U.S. Code note is an example of a NoteType element. Elements of this type include:
 
-- `<note>` - Basic note element
-- `<sourceCredit>` - Source attribution (existed in v1.0)
-- `<statutoryNote>` - Statutory notes (existed in v1.0)
-- `<editorialNote>` - Editorial annotations (existed in v1.0)
-- `<changeNote>` - Change documentation (existed in v1.0)
-- `<authority>` (introduced in v2.0) - Authority citations
-- `<source>` (introduced in v2.0) - Source information  
-- `<effectiveDateNote>` (introduced in v2.0) - Effective date information
-- `<frDocID>` (introduced in v2.0) - Federal Register document identifiers
-- `<billingCode>` (introduced in v2.0) - Billing code information
-- `<editionNote>` (introduced in v2.0) - Edition-specific notes
-- `<organizationNote>` (introduced in v2.0) - Organizational information
-- `<citationNote>` (introduced in v2.0) - Citation guidance
-- `<explanationNote>` (introduced in v2.0) - Explanatory content
-- `<findingAidsNote>` (introduced in v2.0) - Finding aids information
+| Tag | Description | Version Note |
+|-----|-------------|--------------|
+| `<note>` | Basic note element | Core element |
+| `<sourceCredit>` | Source attribution | Since v1.0 |
+| `<statutoryNote>` | Statutory notes | Since v1.0 |
+| `<editorialNote>` | Editorial annotations | Since v1.0 |
+| `<changeNote>` | Change documentation | Since v1.0 |
+| `<authority>` | Authority citations | Introduced in v2.0 |
+| `<source>` | Source information | Introduced in v2.0 |
+| `<effectiveDateNote>` | Effective date information | Introduced in v2.0 |
+| `<frDocID>` | Federal Register document identifiers | Introduced in v2.0 |
+| `<billingCode>` | Billing code information | Introduced in v2.0 |
+| `<editionNote>` | Edition-specific notes | Introduced in v2.0 |
+| `<organizationNote>` | Organizational information | Introduced in v2.0 |
+| `<citationNote>` | Citation guidance | Introduced in v2.0 |
+| `<explanationNote>` | Explanatory content | Introduced in v2.0 |
+| `<findingAidsNote>` | Finding aids information | Introduced in v2.0 |
 
 ### 14.2.2 PositionedNoteType Elements (introduced in v2.0)
 
