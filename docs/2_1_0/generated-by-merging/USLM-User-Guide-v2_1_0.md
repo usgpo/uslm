@@ -1064,7 +1064,6 @@ PositionedNoteType elements have content that is rendered at a different positio
 | `<footnote>` | Traditional footnotes | Introduced in v2.0 |
 | `<sidenote>` | Marginal notes | Introduced in v2.0 |
 | `<endnote>`  | End notes rendered at the end of the logical unit (e.g., section, chapter, document) | Introduced in v2.0 |
-
 | `<leftRunningHead>` | Left-page running headers | Introduced in v2.0 |
 | `<centerRunningHead>` | Center-page running headers | Introduced in v2.0.17 |
 | `<rightRunningHead>` | Right-page running headers | Introduced in v2.0 |
