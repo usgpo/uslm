@@ -36,26 +36,24 @@ USLM is designed to support a specific set of documents that are legislative in 
 ### 1.3.1 Types of Documents Covered
 USLM is designed to represent the legislation of United States Congress. Initially, USLM was used to produce titles of the United States Code in XML, but it is designed to be adaptable for appendices to titles of the United States Code as well as bills, resolutions, statutes, and certain other legislative materials.
 
-USLM version 2.0 extends this foundation to support additional document types (extended in v2.0):
-
 **Legislative Documents:**
 - United States Code (USC) titles and appendices
-- Bills (introduced in v2.0, extended in v2.0.17)
-- Resolutions (introduced in v2.0, extended in v2.0.17)
-- Enrolled Bills (introduced in v2.0)
-- Public Laws (introduced in v2.0)
-- Statutes at Large (introduced in v2.0, extended in v2.0.17)
-- Statute Compilations (introduced in v2.0)
-- Amendments (introduced in v2.0, significantly enhanced in v2.1.0)
-- Amendment Documents (major new model in v2.1.0)
-- Engrossed Amendment Documents (introduced in v2.1.0)
-- Constitutional Amendments (introduced in v2.0.17)
+- Bills
+- Resolutions
+- Enrolled Bills
+- Public Laws
+- Statutes at Large
+- Statute Compilations
+- Amendments
+- Amendment Documents
+- Engrossed Amendment Documents
+- Constitutional Amendments
 
 **Regulatory Documents:**
-- Federal Register (FR) documents (introduced in v2.0)
-- Code of Federal Regulations (CFR) documents (introduced in v2.0)
-- Rules (introduced in v2.0)
-- Presidential Documents (introduced in v2.0)
+- Federal Register (FR) documents
+- Code of Federal Regulations (CFR) documents
+- Rules
+- Presidential Documents
 
 ## 1.4 Goals
 The USLM schema is defined with the following goals in mind:
@@ -151,7 +149,7 @@ USLM has no dependencies on any other information model aside from the core XML 
 
 1. Dublin Core for metadata.
 2. XHTML for tables and other loosely structure content.
-3. MathML for equations (fully supported in v2.0.17).
+3. MathML for equations.
 4. SVG for vector graphics.
 
 # 2 Abstract Model vs. Concrete Model
