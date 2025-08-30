@@ -395,7 +395,7 @@ The following attributes are used for positioning and categorizing individual no
 
 |     | Attribute | Description |
 | --- | --- | --- |
-| 1 | `@type` | When used within a note or a notes container, `@type` specifies the position of the note. Setting the `@type` attribute to &quot;footnote&quot; indicates that the note or notes contained should be shown in the footnotes at the end of the page and setting to &quot;endnote&quot; indicates that the note or notes contained should be shown at the end of the document. If not specified, &quot;footnote&quot; is assumed. For users of `@type` other than within notes, see below. |
+| 1 | `@type` | When used within a note or a notes container, `@type` specifies the position of the note. Setting the `@type` attribute to &quot;footnote&quot; indicates that the note or notes contained should be shown in the footnotes at the end of the page and setting to "endnote" indicates that the note or notes contained should be shown at the end of the document. If not specified, &quot;footnote&quot; is assumed. For users of `@type` other than within notes, see below. |
 | 2 | `@topic` | Specifies the focus of the notes. The `@topic` attribute is set to a string value in order to categorize the note or group of notes. An open, but enumerated, list of string values should be used. Using a fixed list of values will better aid in categorization of notes later. |
 
 ### 4.5.14 Other Attributes
@@ -1066,6 +1066,8 @@ PositionedNoteType elements have content that is rendered at a different positio
 |-----|-------------|--------------|
 | `<footnote>` | Traditional footnotes | Introduced in v2.0 |
 | `<sidenote>` | Marginal notes | Introduced in v2.0 |
+| `<endnote>`  | End notes rendered at the end of the logical unit (e.g., section, chapter, document) | Introduced in v2.0 |
+
 | `<leftRunningHead>` | Left-page running headers | Introduced in v2.0 |
 | `<centerRunningHead>` | Center-page running headers | Introduced in v2.0.17 |
 | `<rightRunningHead>` | Right-page running headers | Introduced in v2.0 |
@@ -1085,15 +1087,16 @@ Individual note elements can contain simple text or complex structured content d
 Notes can be grouped together into a collection using a `<notes>` container.
 
 ## 14.4 Type of notes
-Use the @type attribute to specify the note type where applicable:
+Use the `@type` attribute to specify the rendering/placement type of a note (or a `<notes>` container). The allowed values are:
 
-1. inline – notes that are shown inline where they appear in the text.
+1. `inline` – shown in the main flow where the note appears.
+2. `endnote` – shown at the end of the relevant logical unit; a `<ref>` may point to it.
+3. `footnote` – shown at the bottom of the page where the reference appears; a `<ref>` points to it.
+4. `uscNote` – U.S. Code notes that appear at the bottom of a section or heading (typically after `<sourceCredit>`).
+5. `sidenote` – marginal notes set beside the main text.
+6. `editorial` – editorial annotations.
 
-2. endnote – notes that appear at the end of the level in which they appear. A `<ref>` pointer may be used to point to these notes
-
-3. footnote - notes that appear at the bottom of the page in which a reference to that note appears. A `<ref>` pointer is used to point to these notes.
-
-4. uscNote - notes that appear at the bottom of the section or heading, typically after the sourceCredit.
+**Default:** If `@type` is omitted on a note/notes container, the default is `footnote`.
 
 ## 14.4 Topic of notes
 Notes in the United States Code often have a specific topic, such as &quot;Amendments&quot;. Use the `@topic` attribute to specify the note&#39;s topic(s). More than one topic can be specified, separated by spaces, such as:
