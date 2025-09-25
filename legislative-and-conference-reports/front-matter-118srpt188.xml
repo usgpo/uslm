@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<legislativeReport  xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.1.xsd" xml:lang="en">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <reportMeta>
+        <dc:title>S. Rept. 118-188: NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2025</dc:title>
+        <dc:date>2024-07-08</dc:date>
+        <dc:type>Senate Legislative Report</dc:type>
+        <docNumber>188</docNumber>
+        <citableAs>S. Rept. 118-188</citableAs>
+        <citableAs>Senate Report 118-188</citableAs>
+        <citableAs>CRPT-118srpt188</citableAs>
+        <committee>Committee on Armed Services</committee>
+        <currentChamber>Senate</currentChamber>
+        <genre>legislative</genre>
+        <cboCostEstimateLine>N</cboCostEstimateLine>
+        <accompanies>118s4638</accompanies>
+    </reportMeta>
+    <reportPreface> 
+        <reportCoverPage role="jacket"> 
+            <relatedDocument role="calendar" href="/us/118/scal/433">Calendar No. 433</relatedDocument>
+            <layout class="reportHeader">
+                <row><column class="topLeft"><congress>118th Congress</congress></column>
+                    <column rowspan="2" class="leftBracket">}</column>
+                    <column rowspan="2" class="middle"><currentChamber>SENATE</currentChamber></column>
+                    <column rowspan="2" class="rightBracket">{</column>
+                    <column class="topRight smallCaps"><dc:type>Report</dc:type></column>
+                </row>
+                <row><column class="bottomLeft italic"><session>2d Session</session></column>
+                    <column class="bottomRight"><docNumber>118–188</docNumber></column></row>
+            </layout>
+            
+            <reportTitle class="centered">NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2025</reportTitle>
+            <longTitle><docTitle class="centered">R E P O R T</docTitle>
+                <p class="centered">ON</p>
+                <officialTitle>TO AUTHORIZE APPROPRIATIONS FOR FISCAL YEAR 2025 FOR
+                    MILITARY ACTIVITIES OF THE DEPARTMENT OF DEFENSE AND
+                    FOR MILITARY CONSTRUCTION, TO PRESCRIBE MILITARY PERSONNEL
+                    STRENGTHS FOR SUCH FISCAL YEAR, AND FOR OTHER
+                    PURPOSES</officialTitle>
+                <accompanies class="centered">[TO ACCOMPANY <affected><dc:type>S.</dc:type> <docNumber>4638</docNumber></affected>]</accompanies>
+                <p class="centered">TOGETHER WITH</p>
+                <reportViews class="centered">ADDITIONAL VIEWS</reportViews></longTitle>
+            <committee class="centered">COMMITTEE ON ARMED SERVICES</committee>
+            <currentChamber class="centered">UNITED STATES SENATE</currentChamber>
+            <img src="..." class="centered" alt="eagle image"></img>
+            <action><date date="2024-07-08" class="smallCaps">JULY 8, 2024.—</date><actionDescription>Ordered to be printed</actionDescription></action>
+            <reportTitle class="spine">NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2025</reportTitle>
+        </reportCoverPage>
+
+        <reportCoverPage> 
+            <relatedDocument role="calendar" href="/us/118/scal/433">Calendar No. 433</relatedDocument>
+            <layout class="reportHeader">
+                <row><column class="topLeft"><congress>118th Congress</congress></column>
+                    <column rowspan="2" class="leftBracket">}</column>
+                    <column rowspan="2" class="middle"><currentChamber>SENATE</currentChamber></column>
+                    <column rowspan="2" class="rightBracket">{</column>
+                    <column class="topRight smallCaps"><dc:type>Report</dc:type></column>
+                </row>
+                <row><column class="bottomLeft italic"><session>2d Session</session></column>
+                    <column class="bottomRight"><docNumber>118–188</docNumber></column></row>
+            </layout>
+            <reportTitle class="centered">NATIONAL DEFENSE AUTHORIZATION ACT FOR FISCAL YEAR 2025</reportTitle>
+            <longTitle><docTitle class="centered">R E P O R T</docTitle>
+                <accompanies class="centered">[TO ACCOMPANY <affected><dc:type>S.</dc:type> <docNumber>4638</docNumber></affected>]</accompanies>
+                <p class="centered">ON</p>
+                <officialTitle>TO AUTHORIZE APPROPRIATIONS FOR FISCAL YEAR 2025 FOR
+                    MILITARY ACTIVITIES OF THE DEPARTMENT OF DEFENSE AND
+                    FOR MILITARY CONSTRUCTION, TO PRESCRIBE MILITARY PERSONNEL
+                    STRENGTHS FOR SUCH FISCAL YEAR, AND FOR OTHER
+                    PURPOSES</officialTitle>
+                <p class="centered">TOGETHER WITH</p>
+                <reportViews class="centered">ADDITIONAL VIEWS</reportViews></longTitle>
+            <committee class="centered">COMMITTEE ON ARMED SERVICES</committee>
+            <currentChamber class="centered">UNITED STATES SENATE</currentChamber>
+            <img src="..." class="centered" alt="eagle image"></img>
+            <action><date date="2024-07-08" class="smallCaps">JULY 8, 2024.—</date><actionDescription>Ordered to be printed</actionDescription></action>
+            <organizationNote>
+                <p class="centered">U.S. GOVERNMENT PUBLISHING OFFICE</p>
+                <p class="centered">WASHINGTON : 2024</p>
+            </organizationNote>
+            <jacketId class="leftMargin">56–075</jacketId>
+        </reportCoverPage>
+        <committeeMembersAndStaff class="centered"> 
+            <heading>COMMITTEE ON ARMED SERVICES</heading>
+            <legislators> 
+                <layout class="centered twoColumn">
+                    <row><column colspan="2" class="centered"><legislator bioGuideId="" committeeRole="chairman">JACK REED, Rhode Island, <i>Chairman</i></legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">JEANNE SHAHEEN, New Hampshire</legislator></column><column class="right"><legislator bioGuideId="">ROGER F. WICKER, Mississippi</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">KIRSTEN E. GILLIBRAND, New York</legislator></column><column class="right"><legislator bioGuideId="">DEB FISCHER, Nebraska</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">RICHARD BLUMENTHAL, Connecticut</legislator></column><column class="right"><legislator bioGuideId="">TOM COTTON, Arkansas</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">MAZIE K. HIRONO, Hawaii</legislator></column><column class="right"><legislator bioGuideId="">MIKE ROUNDS, South Dakota</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">TIM KAINE, Virginia</legislator></column><column class="right"><legislator bioGuideId="">JONI ERNST, Iowa</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">ANGUS S. KING, <inline class="smallCaps">Jr.</inline>, Maine</legislator></column><column class="right"><legislator bioGuideId="">DAN SULLIVAN, Alaska</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">ELIZABETH WARREN, Massachusetts</legislator></column><column class="right"><legislator bioGuideId="">KEVIN CRAMER, North Dakota</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">GARY C. PETERS, Michigan</legislator></column><column class="right"><legislator bioGuideId="">RICK SCOTT, Florida</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">JOE MANCHIN III, West Virginia</legislator></column><column class="right"><legislator bioGuideId="">TOMMY TUBERVILLE, Alabama</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">TAMMY DUCKWORTH, Illinois</legislator></column><column class="right"><legislator bioGuideId="">MARKWAYNE MULLIN, Oklahoma</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">JACKY ROSEN, Nevada</legislator></column><column class="right"><legislator bioGuideId="">TED BUDD, North Carolina</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">MARK KELLY, Arizona</legislator></column><column class="right"><legislator bioGuideId="">ERIC SCHMITT, Missouri</legislator></column></row>
+                </layout>
+            </legislators>
+            <staffList>
+                <layout class="centered twoColumn">
+                    <row><column colspan="2" class="centered"><staff role="committee"><inline class="smallCaps">Elizabeth L. King</inline>, <i>Staff Director</i></staff></column></row>
+                    <row><column colspan="2" class="centered"><staff role="committee"><inline class="smallCaps">John P. Keast</inline>, <i>Minority Staff Director</i></staff></column></row>
+                </layout>
+            </staffList>
+        </committeeMembersAndStaff>
+        <page class="centered">(II)</page>
+        <toc><heading>C O N T E N T S</heading>
+            <headingItem><target>Page</target></headingItem>
+            <headingItem><designator>REPORT TO ACCOMPANY S. 4638</designator></headingItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Purpose of the Bill  </designator><target> 1</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Committee Overview  </designator><target> 2</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Budgetary Effects of This Act (Sec. 4) </designator><target> 3</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Summary of Discretionary Authorizations and Budget Authority Implication  </designator><target> 3</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">DIVISION A—DEPARTMENT OF DEFENSE AUTHORIZATIONS  </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">TITLE I—PROCUREMENT  </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Subtitle A—Authorization of Appropriations  </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Authorization of appropriations (sec. 101) </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Subtitle B—Army Programs  </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Centralized security monitoring program for facilities of the Army (sec. 111) </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Strategy for Army active protection systems (sec. 112) </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Certification of additional manufacturer for low, slow, small unmanned aircraft integrated defeat system of the Army (sec. 113) </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Subtitle C—Navy Programs  </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Extension of prohibition on availability of funds for Navy port waterborne security barriers (sec. 121) </designator><target> 5</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Constellation-class frigate program (sec. 122) </designator><target> 6</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Limitation on the construction of the Landing Ship Medium (sec.123) </designator><target> 7</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Authority for the procurement, leasing, or chartering of a medium-sized landing ship (sec. 124) </designator><target> 8</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Annual report on surface ship suppliers (sec. 125) </designator><target> 8</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Block buy contract and multiyear procurement authority for CH–53K heavy lift helicopter program (sec. 126) </designator><target> 8</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Modification of requirement to incorporate advanced degaussing systems into Arleigh Burke-class destroyers (sec. 127) </designator><target> 9</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Modification of authority to purchase used vessels under the National Defense Sealift Fund (sec. 128) </designator><target> 9</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Authority for incrementally funded contract for the construction of a Virginia-class submarine (sec. 129) </designator><target> 9</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Sense of Congress on aircraft carrier acquisition strategies (sec. 130) </designator><target> 9</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Modifications to procurement authorities for certain amphibious ship-building programs (sec. ) </designator><target> 9</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Subtitle D—Air Force Programs  </designator><target> 10</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Prohibition on certain reductions to inventory of E–3 airborne warning and control system aircraft (sec. 131) </designator><target> 10</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Management of temporary relocation of B–1 bomber aircraft and personnel (sec. 132) </designator><target> 10</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Modification of requirements for cost-benefit and technical risk analysis for F–35 propulsion and thermal management modernization program (sec. 133) </designator><target> 10</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Plan for sustainment and recapitalization of Air National Guard fighter fleet (sec. 134) </designator><target> 11</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Air base air defense (sec. 135) </designator><target> 11</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Annual report on Air Force tactical fighter aircraft force structure (sec. 136) </designator><target> 12</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Extension of limitations and minimum inventory requirement relating to RQ–4 aircraft (sec. 137) </designator><target> 12</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Modification of inventory requirements for aircraft of the combat air forces (sec. 138) </designator><target> 12</target></referenceItem>
+            <referenceItem><designator leaderAlign="right" leaderChar=".">Subtitle E—Defense-Wide, Joint, and Multiservice Matters  </designator><target> 12</target></referenceItem>
+            <referenceItem><designator>[Content is elided in this sample.]</designator></referenceItem>
+        </toc>
+    </reportPreface>
+</legislativeReport>

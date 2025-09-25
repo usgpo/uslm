@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<legislativeReport  xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.1.xsd" xml:lang="en">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <reportMeta>
+        <dc:title>H. Rept. 108-150: KEEPING CHILDREN AND FAMILIES SAFE ACT OF 2003</dc:title>
+        <dc:date>2003-06-12</dc:date>
+        <dc:type>Conference Report</dc:type>
+        <docNumber>150</docNumber>
+        <congress>108</congress>
+        <citableAs>H. Rept. 108-150</citableAs>
+        <citableAs>House Report 108-150</citableAs>
+        <citableAs>CRPT-108hrpt150</citableAs>
+        <committee>Conference Committee</committee>
+        <currentChamber>House</currentChamber>
+        <genre>legislative</genre>
+        <genre>conference</genre>
+        <accompanies>108s342</accompanies> 
+        <relatedDocument id="senateVersion" href="/us/bill/108/s/342@es">108s342es</relatedDocument>
+        <relatedDocument id="houseVersion" href="/us/bill/108/s/342@eah">108s342eah</relatedDocument>
+    </reportMeta>
+    <reportPreface> 
+        <layout class="reportHeader">
+            <row><column class="topLeft"><congress>108th Congress</congress></column><column rowspan="2" class="leftBracket">}</column>
+                <column rowspan="2" class="middle"><currentChamber>HOUSE OF REPRESENTATIVES</currentChamber></column>
+                <column rowspan="2" class="rightBracket">{</column><column class="topRight smallCaps"><dc:type>Report</dc:type></column></row>
+            <row><column class="bottomLeft italic"><session>1st Session</session></column><column class="bottomRight"><docNumber>108-150</docNumber></column></row>
+        </layout>
+        <reportTitle class="centered">KEEPING CHILDREN AND FAMILIES SAFE ACT OF 2003</reportTitle>
+        <action><date date="2003-06-12" class="smallCaps">June 12, 2003.—</date><actionDescription class="inline">Ordered to be printed</actionDescription></action>
+        <action><actionDescription><sponsor bioGuideId="YYY">Mr. <inline class="smallCaps">Boehner</inline></sponsor>, from the committee of conference, submitted the following 
+                <longTitle><docTitle>CONFERENCE REPORT</docTitle>
+                    <accompanies>[To accompany <affected><dc:type>S.</dc:type> <docNumber>342</docNumber></affected>]</accompanies></longTitle>
+        </actionDescription></action>
+    </reportPreface>
+    <reportMain> 
+        <recommendation>
+            <p>The committee of conference on the disagreeing votes of 
+                the two Houses on the amendment of the House to the bill (S. 
+                342), to amend the Child Abuse Prevention and Treatment Act to 
+                make improvements to and reauthorize programs under that Act, 
+                and for other purposes, having met, after full and free 
+                conference, have agreed to recommend and do recommend to their 
+                respective Houses as follows:</p>
+            <p>That the Senate recede from its disagreement to the 
+                amendment of the House and agree to the same with an amendment as follows:</p>
+            <legislativeSegment role="amendment">
+                <amendmentInstruction><content><p class="block">In lieu of the matter proposed to be inserted by the 
+                        House amendment, insert the following:</p>
+                <amendmentContent changed="added">
+                    <section><num>(a) </num><heading>SHORT TITLE.</heading>
+                        <content>This Act may be cited as the ‘‘<shortTitle>Keeping Children and Families Safe Act of 2003</shortTitle>’’.</content></section>
+                    <section><num>(b) </num><heading>TABLE OF CONTENTS.</heading>
+                        <content>
+                            <p>The table of contents of this Act is as follows:</p>
+                            <toc>
+                            <referenceItem><designator>Sec. 1. Short title; table of contents.</designator></referenceItem>
+                            <referenceItem class="centered"><designator class="centered">TITLE I—CHILD ABUSE PREVENTION AND TREATMENT ACT</designator></referenceItem>
+                            <referenceItem><designator>Sec. 101. Findings.</designator></referenceItem>
+                            <referenceItem><designator class="normal">[Content is elided in this sample.]</designator></referenceItem>
+                            </toc>
+                        </content>
+                    </section>
+                    <title><num>TITLE I—</num><heading>CHILD ABUSE PREVENTION AND TREATMENT ACT</heading>
+                        <section><num>SEC. 101. </num><heading>FINDINGS.</heading><chapeau>Section 2 of the Child Abuse Prevention and Treatment Act (42 U.S.C. 5101 note) is amended—</chapeau>
+                            <subsection><num>(1) </num><content>in paragraph (1), by striking ‘‘close to 1,000,000" and inserting ‘‘approximately 900,000";</content></subsection>
+                        <elided class="centered normal">[Content is elided in this sample.]</elided></section>
+                    </title>    
+                </amendmentContent></content></amendmentInstruction>
+            </legislativeSegment>
+            <p>And the House agrees to the same.</p>
+            <p>From the Committee on Education and the 
+                Workforce, for consideration of the Senate bill 
+                and the House amendment, and modifications 
+                committed to conference:</p>
+            <signaturesBlock>    
+                <signatures role="House" class="centered">
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">John Boehner,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Pete Hoekstra,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Jon Porter,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">James Greenwood,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Charlie Norwood,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Phil Gingrey,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Max Burns,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">George Miller,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Rubén Hinojosa,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Susan A. Davis,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Tim Ryan,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Danny K. Davis,</legislator></signature>
+                    <role>Managers on the Part of the House.</role>
+                </signatures>
+                <signatures role="Senate" class="centered">
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Judd Gregg,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Lamar Alexander,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Mike Dewine,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Edward M. Kennedy,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Chris Dodd,</legislator></signature>
+                    <role>Managers on the Part of the Senate.</role>
+                </signatures>
+            </signaturesBlock>
+        </recommendation>   
+        <jointExplanatoryStatement>
+            <heading class="centered">JOINT EXPLANATORY STATEMENT OF THE COMMITTEE OF CONFERENCE</heading>
+            <p>The managers on the part of the House and the Senate at the conference on
+                the disagreeing votes of the two Houses on the amendment of the House to the bill
+                (<ref idref="houseVersion">S. 342</ref>), to amend the Child Abuse Prevention and Treatment Act to make improvements
+                to and reauthorize programs under that Act, and for other purposes, submit the
+                following joint statement to the House and the Senate in explanation of the effect
+                of the action agreed upon by the managers and recommended in the accompanying conference report: </p>
+            <subheading class="centered"> THE KEEPING CHILDREN AND FAMILIES SAFE ACT OF 2003— EXPLANATION OF THE COMMITTEE OF CONFERENCE</subheading>
+            <p role="conferenceAgreement">The conference agreement to S. 342, the Keeping Children 
+                and Families Safe Act of 2003, builds upon reforms made during 
+                the last reauthorization of CAPTA and FVPSA to improve program 
+                implementation and make improvements to current law to ensure 
+                that states have the necessary resources and flexibility to 
+                properly address issues of child abuse and neglect and family 
+                violence. It makes changes that serve to assist states in 
+                improving their child protective services systems and enhance 
+                the federal government's role in providing support for the 
+                child protective services system infrastructure. The conference 
+                agreement also makes changes to better serve victims of 
+                domestic violence and their dependents.</p>
+            <p role="chamberDifferences">The Senate bill and House amendment were very similar 
+                with only a few major differences. This conference report 
+                reflects the agreements on these major differences.</p>
+            <subheading class="centered">CAPTA</subheading>
+            <subheading class="italic">Comprehensive Adolescent Victim/Victimizer Program</subheading>
+            <p role="senatePosition"> The Senate bill, but not the House amendment, includes a 
+                new demonstration program that establishes a network of 
+                trainers who will work with schools to implement school-based 
+                adolescent victim/victimizer programs that are comprehensive, 
+                meet state guidelines for health education, and reduce child 
+                sexual abuse by focusing on prevention for both adolescent 
+                victims and victimizers.</p>
+            <p role="conferenceAgreement">The conference agreement does not include this provision.</p>
+            <subheading class="italic">Safety Training for Caseworkers</subheading>
+            <p role="senatePosition">The Senate bill, but not the House amendment, includes 
+                language to permit ‘‘personal safety training for caseworkers’’ 
+                as part of the training for which states may use their CAPTA 
+                dollars. Personal safety training will help child protective 
+                services personnel be prepared when faced with a variety of 
+                complex situations and emotions as they confront families with 
+                allegations of child abuse and neglect.</p>
+            <p role="conferenceAgreement">The conference agreement includes this provision with no modifications.</p>
+            <subheading class="italic">Infants Born Addicted to Substances</subheading>
+            <p role="chamberDifferences">The House amendment and the Senate bill include 
+                provisions to address the needs of infants born and identified 
+                as being affected by illegal substance abuse or withdrawal 
+                symptoms. The House amendment requires procedures for infants 
+                born with fetal alcohol effects, fetal alcohol syndrome, 
+                neonatal intoxication or withdrawal syndrome, or neonatal 
+                physical or neurological harm resulting from prenatal drug 
+                exposure. The Senate bill requires procedures for infants born 
+                and identified as being affected by illegal substance abuse or 
+                withdrawal symptoms resulting form prenatal drug exposure. The 
+                House amendment, but not the Senate, requires the notification 
+                of child protectiveservices and permits the consideration of 
+                providing the mother with additional services, and providing the infant 
+                with referral to IDEA, Part C services for evaluation.</p>
+            <p role="conferenceAgreement">The conference agreement follows the Senate bill with a 
+                modification. The agreement includes the requirement that 
+                health care providers involved in the delivery or care of 
+                infants born and identified as being affected by illegal 
+                substance abuse or withdrawal symptoms notify child protective 
+                services of the occurrence of such condition in such infants.</p>
+            <subheading class="italic">GAO Study</subheading>
+            <p role="senatePosition">The Senate bill, but not the House amendment, includes a 
+                study to have GAO review and evaluate training (including 
+                cross-training in domestic violence and substance abuse) of 
+                child protective services workers including the effects of 
+                caseloads, compensation and supervision of staff; the 
+                efficiencies and effectiveness of agencies that provide cross-
+                training with court personnel; and recommendations to 
+                strengthen child protective services effectiveness to improve 
+                outcomes for children.</p>
+            <p role="conferenceAgreement">The conference agreement does not include this provision. 
+                The House and Senate conferees agree to write a joint letter to 
+                GAO to request the study be conducted.</p>
+            <subheading class="italic">Children's Justice Act</subheading>
+            <p role="housePosition">The House amendment, but not the Senate bill, includes 
+                language to allow states to handle cases involving children 
+                with disabilities or serious health conditions with their 
+                children's justice grant funding. Children's justice grants 
+                help states improve their child protection programs in 
+                investigation and prosecution of child abuse and neglect cases.</p>
+            <p role="conferenceAgreement">The conference agreement includes this provision with no 
+                modifications.</p>
+            <subheading class="italic">IDEA</subheading>
+            <p role="housePosition">The House amendment, but not the Senate bill, requires 
+                states to have provisions and procedures for referral of a 
+                child under the age of 3 who is involved in a substantiated 
+                case of child abuse or neglect to the statewide early 
+                intervention program funded under Part C, of the Individuals 
+                with Disabilities Education Act for an evaluation of services.</p>
+            <p role="conferenceAgreement">The conference agreement does not include this provision. 
+                The conferees agree to provide for a reference to similar 
+                provisions for referral of such children in Part C of IDEA.</p>
+            <subheading class="italic">State CAPTA Reports</subheading>
+            <p role="senatePosition">The Senate bill, but not the House amendment, requires 
+                states to report on the manner in which CAPTA dollars, alone or 
+                in combination with other funds, were used to address the 
+                purposes and achieve the objectives of Kinship Care. Kinship 
+                care is a living situation in which a grandparent, other close 
+                relative or someone else who is emotionally close to a child 
+                takes primary responsibility for the care of that child.</p>
+            <p role="conferenceAgreement">The conference agreement includes this provision with 
+                modifications. The agreement requires states to report on all 
+                CAPTA programs, rather than just Kinship Care.</p>
+            <subheading class="italic">Respite Care</subheading>
+            <p role="housePosition">The House amendment, but not the Senate bill, adds 
+                respite care, home visiting and family support services to the 
+                list of optional core services that a state may provide as a 
+                part of family support services under Community-Based Programs 
+                within CAPTA.</p>
+            <p role="conferenceAgreement">The conference agreement does not include this provision. 
+                However, the conferees want to recognize the importance of 
+                respite care and other services as positive, cost-effective, 
+                community-based child abuse and neglect prevention programs. As 
+                evidence shows, respite and crises care programs are effective 
+                prevention strategies associated with avoiding more costly and 
+                traumatic out-of-home placements, including foster care. By 
+                retaining current law for local program criteria, the conferees 
+                have not intended to discourage or limit the ability of the 
+                lead entity or local program to provide or arrange for respite 
+                care.</p>
+            <subheading class="centered">FVPSA</subheading>
+            <subheading class="italic">Children Who Witness Domestic Violence</subheading>
+            <p role="senatePosition">The Senate bill, but not the House amendment, establishes 
+                a new program to address the needs of children who witness 
+                domestic violence to provide direct services; training for and 
+                collaboration among child welfare agencies, domestic violence 
+                victim service providers, courts, law enforcement and other 
+                entities, and multi-system interventions. This new program is 
+                conditioned upon appropriations exceeding $150 million. At such 
+                time 50 percent of the excess must be used to fund this 
+                program.</p>
+            <p role="conferenceAgreement">The conference agreement follows the intent of the Senate 
+                bill with modifications. The agreement would not create a new 
+                program. The agreement adds services for children who witness 
+                domestic violence to the list of allowable activities under the 
+                state demonstration grants within FVPSA. It requires that once 
+                appropriations exceed $130 million for the state demonstration 
+                grants, that grants include programs of multi-system 
+                interventions, training, and services (either directly or by 
+                referral) for children who witness domestic violence. The 
+                agreement also requires the national resource center to include 
+                children who witness domestic violence as part of their 
+                research and training services, and adds children who witness 
+                domestic violence to the definition of ‘‘related assistance.’’</p>
+            <subheading class="italic">Domestic Violence Hotline/Internet Enchancement</subheading>
+            <p role="senatePosition">The Senate bill, but not the House amendment, creates a 
+                new five year grant program to establish and operate a highly 
+                secure Internet website that links the national domestic 
+                violence hotline, U.S. domestic violence shelters, state and 
+                local domestic violence agencies, and other domestic violence 
+                organizations in order to connect a victim of domestic violence 
+                to domestic violence shelters. The website must also 
+                containcontinuously updated information concerning the availability of 
+                services and space in domestic violence shelters across the U.S. This 
+                new program is conditioned upon appropriations for the domestic 
+                violence hotline exceeding $3 million. The Senate bill, but not the 
+                House amendment, increases the authorization for the domestic violence 
+                hotline from $2 million to $4 million. The domestic violence hotline is 
+                currently funded at $2.6 million.</p>
+            <p role="conferenceAgreement">The conference agreement follows the intent of the Senate 
+                bill with modifications. The agreement would not create a new 
+                program. The agreement requires that once appropriations for 
+                the domestic violence hotline exceed $3 million, grants shall 
+                be made for startup and operational costs associated with 
+                establishing a highly secure Internet website available to the 
+                hotline and to shelters. The website shall serve as a database 
+                of information describing the services available to victims of 
+                domestic violence, including medical and mental health 
+                services, social services, transportation, services for 
+                children (including children who witness domestic violence) and 
+                other relevant services; domestic violence shelters available; 
+                and services provided by participating shelters. The 
+                authorization for the domestic violence hotline is $3.5 
+                million. As a result of recent significant authorization and 
+                appropriation increases occurring since the committee's last 
+                consideration of this act, the conferees believe an 
+                authorization level of $3.5 million will sustain the services 
+                provided as a part of the domestic violence hotline during the 
+                current five year authorization without the need for 
+                intervening authorizations.</p>
+        <p>From the Committee on Education and the Workforce, for consideration of the Senate bill 
+            and the House amendment, and modifications committed to conference:</p>
+            <signaturesBlock>    
+                <signatures role="House" class="centered">
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">John Boehner,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Pete Hoekstra,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Jon Porter,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">James Greenwood,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Charlie Norwood,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Phil Gingrey,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Max Burns,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">George Miller,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Rubén Hinojosa,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Susan A. Davis,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Tim Ryan,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Danny K. Davis,</legislator></signature>
+                    <role>Managers on the Part of the House.</role>
+                </signatures>
+                <signatures role="Senate" class="centered">
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Judd Gregg,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Lamar Alexander,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Mike Dewine,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Edward M. Kennedy,</legislator></signature>
+                    <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Chris Dodd,</legislator></signature>
+                    <role>Managers on the Part of the Senate.</role>
+                </signatures>
+            </signaturesBlock>
+        </jointExplanatoryStatement>
+    </reportMain>
+    <endMarker>○</endMarker>
+</legislativeReport>
+

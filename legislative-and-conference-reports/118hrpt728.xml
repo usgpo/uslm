@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<legislativeReport  xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.1.xsd" xml:lang="en">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <reportMeta>
+        <dc:title>H. Rept. 118-728: FOSTERING THE USE OF TECHNOLOGY TO UPHOLD REGULATORY EFFECTIVENESS IN SUPERVISION ACT</dc:title>
+        <dc:date>2024-11-01</dc:date>
+        <dc:type>House Legislative Report</dc:type>
+        <docNumber>728</docNumber>
+        <congress>118</congress>
+        <session>2</session>
+        <citableAs>H. Rept. 118-728</citableAs>
+        <citableAs>House Report 118-728</citableAs>
+        <citableAs>CRPT-118hrpt728</citableAs>
+        <committee>Committee on Financial Services</committee>
+        <currentChamber>House</currentChamber>
+        <genre>legislative</genre>
+        <cboCostEstimateLine>Y</cboCostEstimateLine>
+        <accompanies>118hr7437</accompanies>
+    </reportMeta>
+    <reportPreface> 
+        <layout class="reportHeader">
+            <row><column class="topLeft"><congress>118th Congress</congress></column><column rowspan="2" class="leftBracket">}</column>
+                <column rowspan="2" class="middle"><currentChamber>HOUSE OF REPRESENTATIVES</currentChamber></column>
+                <column rowspan="2" class="rightBracket">{</column><column class="topRight smallCaps"><dc:type>Report</dc:type></column></row>
+            <row><column class="bottomLeft italic"><session>2nd Session</session></column><column class="bottomRight"><docNumber>118–728</docNumber></column></row>
+        </layout>
+        <reportTitle>FOSTERING THE USE OF TECHNOLOGY TO UPHOLD REGULATORY EFFECTIVENESS IN SUPERVISION ACT</reportTitle>
+        <action><date date="2024-11-01">November 1, 2024.—</date><actionDescription class="inline">Committed to the Committee of the Whole House on the 
+State of the Union and ordered to be printed</actionDescription></action>
+        <action><actionDescription><sponsor bioGuideId="YYY">Mr. McHenry</sponsor>, from the <committee>Committee on Financial Services</committee>, submitted 
+the following
+<longTitle><docTitle>R E P O R T</docTitle>
+<accompanies>[To accompany <affected><dc:type>H.R.</dc:type> <docNumber>7437</docNumber></affected>]</accompanies>
+<cboCostEstimateLine value="Y">[Including cost estimate of the Congressional Budget Office]</cboCostEstimateLine></longTitle>
+</actionDescription></action>
+</reportPreface>
+    
+    <reportMain> 
+        <recommendation>The Committee on Financial Services, to whom was referred the bill (H.R. 7437) to require certain supervisory agencies to assess their technological vulnerabilities, and for other 
+            purposes, having considered the same, reports favorably thereon with an amendment and recommends that the bill as amended do pass.</recommendation>
+        <toc>
+            <heading>CONTENTS</heading>
+            <headingItem><target>Page</target></headingItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Purpose and Summary</label><target>3</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Background and Need for Legislation</label><target>3</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Related Hearings</label><target>4</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Committee Consideration</label><target>4</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Committee Votes</label><target>5</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Committee Oversight Findings</label><target>7</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Performance Goals and Objectives</label><target>7</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Congressional Budget Office Estimates</label><target>7</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">New Budget Authority, Entitlement Authority, and Tax Expenditures </label><target>8</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Federal Mandates Statement</label><target>8</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Advisory Committee Statement</label><target>8</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Applicability to Legislative Branch</label><target>8</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Earmark Identification</label><target>9</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Duplication of Federal Programs</label><target>9</target></referenceItem>
+            <referenceItem><label leaderAlign="right" leaderChar=".">Section-by-Section Analysis of the Legislation</label><target>9</target></referenceItem>
+        </toc>
+        <legislativeSegment role="amendment"><p>The amendment is as follows:</p>
+    <amendmentInstruction><content>Strike all after the enacting clause and insert the 
+following:
+<amendmentContent><section><num>SECTION 1. </num><heading>SHORT TITLE.</heading>
+        <content>This Act may be cited as the “<shortTitle>Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act</shortTitle>”.</content>
+</section>
+    <section><num> SEC. 2. </num><heading>FINDINGS.</heading>
+    <chapeau>Congress finds the following:</chapeau>
+   <paragraph><num> (1) </num><content>Banking regulators continue to examine and monitor 
+    depository institutions without access to real-time 
+    information.</content></paragraph>
+   <paragraph><num> (2) </num><content>Risk surrounding technology procurement may present 
+    challenges for updating supervisory technology.</content></paragraph>
+    <paragraph><num>(3) </num><content>To ensure that prudential supervision is effective and 
+    sustainable in the digital age, agencies must leverage new 
+    technologies to allow for the financial monitoring necessary to 
+    preserve a safe and sound banking system.</content></paragraph>
+    <paragraph><num>(4) </num><content>New technological tools are also necessary in order for 
+    agencies to effectively fulfill mandates other than prudential 
+    supervision, including their mandates to assure consumer 
+    protection and monitor Bank Secrecy Act compliance.</content></paragraph>
+   <paragraph><num> (5) </num><chapeau>Agencies’ reliance on outdated technology creates 
+    vulnerabilities for the financial system, causing—</chapeau>
+    <subparagraph><num>(A) </num><content>difficulties in collecting, compiling, and 
+    analyzing relevant information about risks and 
+    noncompliance at supervised firms;</content></subparagraph>
+    <subparagraph><num>(B) </num><content>reliance on information that is inaccurate, 
+    incomplete, or not timely;</content></subparagraph>
+    <subparagraph><num>(C) </num><content>reliance on limited and outdated tools for data 
+    analysis;</content></subparagraph>
+    <subparagraph><num>(D) </num><content>difficulties in using data to identify risk 
+    trends;</content></subparagraph>
+   <subparagraph> <num>(E) </num><content>difficulties in producing accurate and timely 
+    reports;</content></subparagraph>
+    <subparagraph><num>(F) </num><content>inadequacy of cybersecurity safeguards; and</content></subparagraph>
+    <subparagraph><num>(G) </num><content>failure to detect illegal activities.</content></subparagraph></paragraph>
+    <paragraph><num>(6) </num><content>The rapid expansion of financial firms’ use of artificial 
+    intelligence may generate opportunities to improve the 
+    financial system while also introducing a range of risks, 
+    making it essential that agencies be equipped with the 
+    technology and skills needed to analyze these opportunities and 
+    potential risks.</content></paragraph>
+    <paragraph><num>(7) </num><content>While agencies assess their supervisory capabilities on 
+    an ongoing basis, it is imperative that there be a unified goal 
+    to enhancing supervisory technologies that ensures effective 
+    and sustainable oversight in the digital age.</content></paragraph></section>
+    
+ <section>   <num>SEC. 3. </num><heading>TECHNOLOGICAL VULNERABILITIES AND PROCUREMENT PRACTICES 
+    ASSESSMENT.</heading>
+    
+    <subsection><num>(a) </num><heading>In General.—</heading>
+    <paragraph><num>(1) </num><heading>Technological vulnerabilities assessment.—</heading><chapeau>Each covered 
+    agency shall, not later than 180 days after the date of the 
+    enactment of this section, assess how existing technological 
+    systems used by the covered agency prevent the covered agency 
+    from conducting real-time supervisory assessments of entities 
+    over which the covered agency has supervisory authority, 
+    including effects stemming from—</chapeau>
+    <subparagraph><num>(A) </num><content>core information technology infrastructure;</content></subparagraph>
+    <subparagraph><num>(B) </num><content>technology used to supervise entities, including 
+    supervisory technological tools; and</content></subparagraph>
+    <subparagraph><num>(C) </num><content>technology for monitoring general market risks 
+    using reported data and external data.</content></subparagraph></paragraph>
+   <paragraph><num> (2) </num><heading>Procurement practices assessment.—</heading><chapeau>Each covered agency 
+    shall, not later than 180 days after the date of the enactment 
+    of this section—</chapeau>
+    <subparagraph><num>(A) </num><content>assess the procurement rules and protocols 
+    adhered to by such covered agency when such covered 
+    agency acquires or develops new technological systems; 
+    and</content></subparagraph>
+    <subparagraph><num>(B) </num><content>identify any challenges created by such 
+    procurement rules and protocols, including the impact 
+    such rules or protocols have on the ability of the 
+    covered agency to test new technological systems.</content></subparagraph></paragraph></subsection>
+<subsection>    <num>(b) </num><heading>Report.—</heading><chapeau>Not later than 1 year after the completion of the 
+    assessments required under subsection (a), and every 5 years 
+    thereafter, the covered agencies shall coordinate and jointly submit to 
+    the Committee on Financial Services of the House of Representatives and 
+    the Committee on Banking, Housing, and Urban Affairs of the Senate a 
+    report that includes the following with respect to each covered 
+    agency—</chapeau>
+    <paragraph><num>(1) </num><content>a general overview of hardware and software used for 
+    information gathering and advanced analytics during supervision 
+    activities, including products purchased from technology 
+    vendors and products developed by the covered agency or 
+    contractors of the covered agency;</content></paragraph>
+    <paragraph><num>(2) </num><chapeau>a description of the procurement practices and protocols 
+    of the covered agency, including a description of—</chapeau>
+    <subparagraph><num>(A) </num><content>whether such processes are voluntarily adhered to 
+    or mandated; and</content></subparagraph>
+    <subparagraph><num>(B) </num><content>any challenges resulting from such practices and 
+    protocols and relevant factors, if any, that have 
+    impacted the covered agency’s ability to obtain new 
+    technology;</content></subparagraph></paragraph>
+   <paragraph><num> (3) </num><chapeau>a general overview of the portion of workforce of the 
+    covered agency that is engaged primarily in technology 
+    development within the covered agency, including—</chapeau>
+    <subparagraph><num>(A) </num><content>an overview of the ability of the covered agency 
+    to recruit and retain appropriate technology experts;</content></subparagraph>
+    <subparagraph><num>(B) </num><content>employee self-reported workforce data; and</content></subparagraph>
+    <subparagraph><num>(C) </num><content>a description of the degree to which the covered 
+    agency relies on contractors to design, develop, or 
+    deploy technology and perform technology-related tasks;</content></subparagraph></paragraph>
+    <paragraph><num>(4) </num><content>a description of the processes used by the covered agency 
+    to obtain information from entities supervised by the covered 
+    agency and general information about market trends and risks;</content></paragraph>
+    <paragraph><num>(5) </num><content>a description of the ways in which the covered agency 
+    shares information or system access with other covered 
+    agencies;</content></paragraph>
+    <paragraph><num>(6) </num><chapeau>an evaluation of the level of ease or difficulty 
+    experienced by the covered agency, including any legal or 
+    regulatory challenges, when—</chapeau>
+    <subparagraph><num>(A) </num><content>sharing data with other government agencies; or</content></subparagraph>
+        <subparagraph><num>(B) </num><content>collecting data from entities supervised by the 
+    covered agency;</content></subparagraph></paragraph>
+    <paragraph><num>(7) </num><content>an evaluation of cost for supervised entities to modify 
+    systems to share data with covered agencies; and</content></paragraph>
+    <paragraph><num>(8) </num><chapeau>a description of any plans the covered agency has that 
+    relate to how the covered agency will implement future upgrades 
+    to the technology used by the covered agency to supervise 
+    entities supervised by the covered agency, including—</chapeau>
+    <subparagraph><num>(A) </num><content>a general description of any planned upgrades;</content></subparagraph>
+    <subparagraph><num>(B) </num><content>the anticipated timeline for any planned upgrades;</content></subparagraph>
+    <subparagraph><num>(C) </num><content>the costs of any planned upgrades;</content></subparagraph>
+    <subparagraph><num>(D) </num><content>any concerns about access to needed resources;</content></subparagraph>
+    <subparagraph><num>(E) </num><content>intended efforts for hiring and training 
+    individuals as part of any technological upgrades;</content></subparagraph>
+    <subparagraph><num>(F) </num><content>any aspects of any planned upgrades that should 
+    be addressed on an interagency basis; and</content></subparagraph>
+    <subparagraph><num>(G) </num><chapeau>any anticipated challenges and solutions 
+    associated with entities supervised by the covered agency adapting to new reporting requirements, 
+    including—</chapeau>
+    <clause><num>(i) </num><content>estimates of transition costs; and</content></clause>
+    <clause><num>(ii) </num><content>estimates of any potential cost reductions.</content></clause>
+    </subparagraph></paragraph></subsection>
+     <subsection><num>(c) </num><heading>Covered Agency Defined.—</heading><content>In this section, the “covered agency” 
+             means the Board of Governors of the Federal Reserve System, the Federal 
+             Deposit Insurance Corporation, Office of the Comptroller of the Currency, the Bureau of Consumer Financial Protection, and the National 
+             Credit Union Administration.</content></subsection></section>
+    </amendmentContent>
+</content></amendmentInstruction>
+</legislativeSegment>
+        <segment role="purpose">
+            <heading>PURPOSE AND SUMMARY</heading>
+            <p>Introduced on February 23, 2024, by Representative Erin 
+                Houchin, H.R. 7437, the Fostering the Use of Technology to 
+                Uphold Regulatory Effectiveness in Supervision (FUTURES) Act, 
+                aims to help modernize technology systems within federal 
+                agencies responsible for regulating banks and credit unions, 
+                enhancing their capacity for effective supervision and 
+                oversight. H.R. 7437 would require the Federal Reserve System 
+                (Federal Reserve), Federal Deposit Insurance Corporation 
+                (FDIC), Office of the Comptroller of the Currency (OCC), 
+                Consumer Financial Protection Bureau (CFPB), and the National 
+                Credit Union Administration (NCUA), to assess their internal 
+                supervisory technologies as well as their ability to upgrade 
+                these technologies, as necessary. H.R. 7437 is cosponsored by 
+                Representatives Bill Foster, French Hill, and Brittany 
+                Pettersen.</p>
+        </segment>
+        <segment>
+            <heading>BACKGROUND AND NEED FOR LEGISLATION</heading>
+            <p>H.R. 7437 builds on the Government Accountability Office’s 
+                (GAO) September 2023 report titled “Agencies Can Better 
+                Support Workforce Expertise and Measure the Performance of 
+                Innovation Offices.” In that report, the GAO recommended that 
+                the CFPB, FDIC, Federal Reserve, NCUA, and the OCC collect 
+                staff skillset data and incorporate leading workforce planning 
+                practices. Further, the report recommended that the CFPB, NCUA, 
+                and OCC develop performance measures for their innovation 
+                offices and develop performance metrics for their supervisory 
+                technology strategic objectives.</p>
+            <p>The GAO report also discussed the critical challenges 
+            agencies face in developing and retaining a qualified workforce 
+            able to address technological developments by regulated 
+            entities while ensuring the agencies themselves are effectively 
+            deploying technology to enhance their own supervisory 
+            capabilities. Separately, an independent report titled 
+            “Financial Regulators’ Dilemma: Administrative and Regulatory 
+            Hurdles to Innovation,” conducted by the Alliance for 
+            Innovative Regulation (AIR), identified several issues and 
+            hurdles that financial regulators face in staying abreast of 
+            technological advances.</p>
+            <p>The FUTURES Act, by requiring a comprehensive assessment of 
+            procurement practices and technology usage, will shine a light 
+            on the challenges our financial regulators face and pave the 
+            way for solutions. It is imperative to ensure our financial 
+            regulators utilize cutting-edge technological tools as well as 
+            attract and retain personnel with the necessary expertise. By 
+            sharing experiences and challenges, the report will equip us 
+            with the necessary knowledge to develop solutions that 
+            modernize their capabilities. Technology modernization will 
+            lead to efficiencies that can help level the disproportionate 
+            regulatory costs and ensure our financial regulators have the 
+            tools they need to effectively supervise regulated entities.</p>
+        </segment>
+        <segment>
+            <heading>RELATED HEARINGS</heading>
+            <p>Pursuant to clause 3(c)(6) of rule XIII, the following hearings were used to develop H.R. 7437:</p>
+                <p>The Subcommittee on Digital Assets, Financial Technology and Inclusion of the Committee on Financial 
+                Services held a hearing on October 25, 2023, titled “Modernizing Financial Services Through Innovation and 
+                Competition.”</p>
+                <p>The Subcommittee on Digital Assets, Financial 
+                Technology and Inclusion of the Committee on Financial 
+                Services held a hearing on December 5, 2023, titled 
+                “Fostering Financial Innovation: How Agencies Can 
+                Leverage Technology to Shape the Future of Financial 
+                Services.”</p>
+                <p>The Subcommittee on Digital Assets, Financial 
+                Technology and Inclusion held a Field Hearing on 
+                December 8, 2023, titled “Connecting Communities: 
+                Building Innovation Ecosystems Across America.”</p>
+        </segment>
+        <segment>
+            <heading>COMMITTEE CONSIDERATION</heading>
+            <p>The Committee on Financial Services met in open session on 
+                April 17, 2024, and ordered H.R. 7437 to be reported favorably 
+                to the House as amended by a voice vote, a quorum being 
+                present. Before the question was called to order the bill 
+                favorably reported, the Committee adopted an amendment in the 
+                nature of a substitute offered by Ms. Houchin by voice vote.</p>
+        </segment>
+        <votesInCommittee>
+            <heading>COMMITTEE VOTES</heading>
+            <p>Clause 3(b) of rule XIII of the Rules of the House of 
+            Representatives requires the Committee to list the record votes 
+            on the order to report legislation and amendments thereto. H.R. 
+            7437 was ordered reported favorably to the House as amended by 
+            a voice vote, a quorum being present.</p>
+           <p> An amendment offered by Ms. Waters, no. 3, was not agreed 
+            to by a recorded vote of 22 ayes to 28 nays (Record vote no. 
+            FC-129), a quorum being present.</p>
+            <figure><figCaption>scan of vote tally goes here</figCaption><img alt="vote tally sheet"/></figure>
+        </votesInCommittee>
+        <segment>
+            <heading>COMMITTEE OVERSIGHT FINDINGS</heading>
+            <p> Pursuant to clause 3(c) of rule XIII of the Rules of the 
+                House of Representatives, the findings and recommendations of 
+                the Committee, based on oversight activities under clause 
+                2(b)(1) of rule X of the Rules of the House of Representatives, 
+                are incorporated in the descriptive portions of this report.</p>
+        </segment>
+        <segment>
+            <heading> PERFORMANCE GOALS AND OBJECTIVES</heading>
+            <p>Pursuant to clause 3(c)(4) of rule XIII of the Rules of the 
+                House of Representatives, the goal of H.R. 7437 is to require 
+                prudential regulators to individually assess their internal 
+                supervisory technologies, as well as their ability to upgrade 
+                these technologies, as necessary.</p>
+        </segment>
+        <estimatedCosts>
+            <heading>CONGRESSIONAL BUDGET OFFICE ESTIMATES</heading>
+            <p>Pursuant to clause 3(c)(3) of rule XIII of the Rules of the 
+            House of Representatives, the following is the cost estimate 
+            provided by the Congressional Budget Office pursuant to section 
+            402 of the Congressional Budget Act of 1974:</p>
+            <figure><figCaption>scan of CBO table goes here</figCaption><img alt="scan of results"/></figure>
+            <cboCostEstimate><p>H.R. 7437 would require federal financial regulators to 
+            assess how their technological systems prevent them from 
+            conducting real-time supervision of regulated entities and how 
+            their procurement rules limit the testing of new technologies. 
+            Federal financial regulators under the bill include the 
+            Consumer Financial Protection Bureau (CFPB), Federal Deposit 
+            Insurance Corporation (FDIC), Federal Reserve, National Credit 
+            Union Administration (NCUA), and Office of the Comptroller of 
+            the Currency (OCC). In addition, the bill would require those 
+            agencies to jointly report to the Congress every five years on 
+            multiple issues, including their use of hardware and software, 
+            procurement practices, and information technology workforce.
+            In total, CBO estimates that the administrative costs for 
+            the agencies to implement the requirements in H.R. 7437 would 
+            increase direct spending by $3 million and reduce revenues by 
+            $1 million over the 2024-2034 period.</p>
+            <p>Using information about the cost of similar provisions, CBO 
+            estimates that each agency would need about two employees, at 
+            an average annual cost of $260,000 per employee, to complete 
+            the assessments and reports.</p>
+            <p>Expenditures for the CFPB, FDIC, NCUA, and OCC are 
+            classified in the budget as direct spending. The NCUA and OCC 
+            collect fees from financial institutions to offset their 
+            operating costs, and those fees are recorded as offsetting 
+            receipts, that is, as reductions in direct spending. CBO 
+            estimates that, on net, enacting H.R. 7437 would increase 
+            direct spending by $3 million over the 2024-2034 period.
+            Costs incurred by the Federal Reserve reduce remittances to 
+            the Treasury, which are recorded in the budget as revenues. CBO 
+            estimates that H.R. 7437 would decrease revenues by $1 million 
+            over the 2024-2034 period.</p>
+            <p>If federal financial regulators increase annual fees to 
+            offset the costs of implementing the bill, H.R. 7437 would 
+            increase the costs of an existing private-sector mandate on 
+            entities required to pay those fees. CBO estimates that the 
+            incremental cost of the mandate would be small and would fall 
+            well below the annual threshold established in the Unfunded 
+            Mandates Reform Act (UMRA) for private-sector mandates ($200 
+            million in 2024, adjusted annually for inflation).
+            The bill contains no intergovernmental mandates as defined 
+            in UMRA.</p>
+            <p>The CBO staff contacts for this estimate are David Hughes 
+            (for federal costs) and Rachel Austin (for mandates). The 
+            estimate was reviewed by H. Samuel Papenfuss, Deputy Director 
+            of Budget Analysis.</p>
+            <p class="smallCaps">Phillip L. Swagel,</p>
+            <p class="italic">Director, Congressional Budget Office.</p></cboCostEstimate>
+        </estimatedCosts>
+<segment><heading>NEW BUDGET AUTHORITY, ENTITLEMENT AUTHORITY, AND TAX EXPENDITURES</heading>
+<p>Pursuant to clause 3(c)(2) of rule XIII of the Rules of the 
+House of Representatives, the Committee adopts as its own the 
+estimate of new budget authority, entitlement authority, or tax 
+expenditures or revenues contained in the cost estimate 
+prepared by the Director of the Congressional Budget Office 
+pursuant to section 402 of the Congressional Budget Act of 
+1973.</p></segment>
+<segment><heading>FEDERAL MANDATES STATEMENT</heading>
+<p>Pursuant to section 423 of the Unfunded Mandates Reform 
+Act, the Committee adopts as its own the estimate of the 
+Federal mandates prepared by the Director of the Congressional 
+Budget Office.</p></segment>
+<segment><heading>ADVISORY COMMITTEE STATEMENT</heading>
+<p>No advisory committees within the meaning of section 5(b) 
+of the Federal Advisory Committee Act were created by this 
+legislation.</p></segment>
+<segment><heading>APPLICABILITY TO LEGISLATIVE BRANCH</heading>
+<p>The Committee finds that the legislation does not relate to 
+the terms and conditions of employment or access to public 
+services or accommodations within the meaning of section 
+102(b)(3) of the Congressional Accountability Act.</p></segment>
+<segment><heading>EARMARK IDENTIFICATION</heading>
+<p>With respect to clause 9 of rule XXI of the Rules of the 
+House of Representatives, the Committee has carefully reviewed 
+the provisions of the bill and states that the provisions of 
+the bill do not contain any congressional earmarks, limited tax 
+benefits, or limited tariff benefits within the meaning of the 
+rule.</p></segment>
+        <segment>
+            <heading>DUPLICATION OF FEDERAL PROGRAMS</heading>
+            <p>Pursuant to clause 3(c)(5) of rule XIII of the Rules of the 
+House of Representatives, the Committee states that no 
+provision of the bill establishes or reauthorizes a program of 
+the Federal Government known to be duplicative of another 
+Federal program, including any program that was included in a 
+report to Congress pursuant to section 21 of the Public Law 
+111-139 or the most recent Catalog of Federal Domestic 
+Assistance.</p></segment>
+<segment><heading>SECTION-BY-SECTION ANALYSIS OF THE LEGISLATION</heading>
+<subheading class="italic">Section 1. Short title</subheading>
+<p>This Act may be cited as the “Fostering the Use of Technology to Uphold Regulatory Effectiveness in Supervision Act”.</p>
+    <subheading class="italic">Section 2. Findings</subheading>
+<p>This Section highlights that agencies must leverage new 
+technologies to enhance their capacity for effective 
+supervision and oversight. The findings also emphasize the 
+risks and vulnerabilities associated with reliance on outdated 
+technology. Further, this Section emphasizes that agencies must 
+leverage new technologies to fulfill other important mandates 
+to protect consumers and combat money laundering, the financing 
+of terrorism, and other illicit finance activities.</p>
+    <subheading class="italic">Section 3. Technological vulnerabilities and procurement practices assessment</subheading>
+<p>This Section requires the Federal Reserve, FDIC, OCC, CFPB 
+and the NCUA to conduct internal assessments of their 
+technological vulnerabilities and procurement practices. The 
+assessments within each agency must be completed within 180 
+days. A report must be submitted to the Committee on Financial 
+Services of the House of Representatives and the Committee on 
+Banking, Housing, and Urban Affairs no later than 180 days 
+after the assessments and every 5 years thereafter. This report 
+must include a general overview of their hardware and software; 
+a description of their procurement practices; a general 
+overview of their technology workforce; a description of the 
+processes they use to obtain information; a description of how 
+they share information with other agencies; and a description 
+of any existing plans to implement future upgrades to their 
+supervisory technologies.</p></segment>
+    </reportMain>
+    <endMarker>○</endMarker>
+</legislativeReport>

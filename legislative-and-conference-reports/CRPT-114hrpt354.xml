@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<legislativeReport  xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.1.xsd" xml:lang="en">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <reportMeta>
+        <dc:title>H. Rept. 114-354: EVERY STUDENT SUCCEEDS ACT</dc:title>
+        <dc:date>2015-11-30</dc:date>
+        <dc:type>Conference Report</dc:type>
+        <docNumber>354</docNumber>
+        <congress>114</congress>
+        <session>1</session>
+        <citableAs>H. Rept. 114-354</citableAs>
+        <citableAs>House Report 114-354</citableAs>
+        <citableAs>CRPT-114hrpt354</citableAs>
+        <committee>Conference Committee</committee>
+        <currentChamber>House</currentChamber>
+        <genre>legislative</genre>
+        <genre>conference</genre>
+        <accompanies>114s1177</accompanies>
+        <relatedDocument id="senateVersion" href="/us/bill/114/s/1177@es">114s1177es</relatedDocument>
+        <relatedDocument id="houseVersion" href="/us/bill/114/s/1177@eah">114s1177eah</relatedDocument>
+    </reportMeta>
+    <reportPreface> 
+        <layout class="reportHeader">
+            <row><column class="topLeft"><congress>114th Congress</congress></column><column rowspan="2" class="leftBracket">}</column>
+                <column rowspan="2" class="middle"><currentChamber>HOUSE OF REPRESENTATIVES</currentChamber></column>
+                <column rowspan="2" class="rightBracket">{</column><column class="topRight smallCaps"><dc:type>Report</dc:type></column></row>
+            <row><column class="bottomLeft italic"><session>1st Session</session></column><column class="bottomRight"><docNumber>114-354</docNumber></column></row>
+        </layout>
+        <reportTitle class="centered">EVERY STUDENT SUCCEEDS ACT</reportTitle>
+        <action><date date="2003-06-12" class="smallCaps">November 30, 2015.—</date><actionDescription class="inline">Ordered to be printed</actionDescription></action>
+        <action><actionDescription><sponsor bioGuideId="YYY">Mr. <inline class="smallCaps">Kline</inline></sponsor>, from the Committee on Conference, submitted the following 
+                <longTitle><docTitle>CONFERENCE REPORT</docTitle>
+                    <accompanies>[To accompany <affected><dc:type>S.</dc:type> <docNumber>1177</docNumber></affected>]</accompanies></longTitle>
+        </actionDescription></action>
+    </reportPreface>
+    <reportMain> 
+        <recommendation>
+            <p>The committee of conference on the disagreeing votes of the
+                two Houses on the amendment of the House to the bill (S. 1177),
+                to reauthorize the Elementary and Secondary Education Act of
+                1965 to ensure that every child achieves, having met, after full and
+                free conference, have agreed to recommend and do recommend to
+                their respective Houses as follows:</p>
+            <p>That the Senate recede from its disagreement to the 
+                amendment of the House and agree to the same with an amendment 
+                as follows:</p>
+            <legislativeSegment>
+                <amendmentInstruction>
+                <content><p class="block">In lieu of the matter proposed to be inserted by the 
+                        House amendment, insert the following:</p>
+                <amendmentContent changed="added">
+                            <section><num>SECTION 1. </num><heading>SHORT TITLE.</heading>
+                                <content>This Act may be cited as the ‘‘<shortTitle>Every Student Succeeds Act</shortTitle>’’.</content></section>
+                            <section><num>SEC. 2. </num><heading>TABLE OF CONTENTS.</heading>
+                                <content>The table of contents for this Act is as follows:
+                                <toc>
+                                <referenceItem><designator>Sec. 1. Short title.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 2. Table of contents.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 3. References.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 4. Transition.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 5. Effective date.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 6. Table of contents of the Elementary and Secondary Education Act of 1965.</designator></referenceItem>
+                                <referenceItem class="centered"><designator class="centered">TITLE I—IMPROVING BASIC PROGRAMS OPERATED BY STATE AND LOCAL EDUCATIONAL AGENCIES</designator></referenceItem>
+                                <referenceItem class="centered"><designator class="centered">Part A—Improving Basic Programs Operated by State and Local Educational Agencies</designator></referenceItem>
+                                <referenceItem><designator>Sec. 1001. Redesignation.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 1002. Statement of purpose.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 1003. Authorization of appropriations.</designator></referenceItem>
+                                <referenceItem><designator>[Content is elided in this sample.]</designator></referenceItem></toc>
+                                </content>
+                                </section>
+                </amendmentContent>
+                </content>
+                </amendmentInstruction>
+            </legislativeSegment>
+            <p>And the House agree to the same.</p>
+            <signaturesBlock>
+            <signatures role="House" class="centered">
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">John Kline,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Virginia Foxx,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">David P. Roe,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Glenn Thompson,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Brett Guthrie,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Todd Rokita,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Luke Messer,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Glenn Grothman,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Steve Russell,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Carlos Curbelo,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Robert C. ‘‘Bobby’’ Scott,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Susan A. Davis,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Marcia L. Fudge,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Jared Polis,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Frederica S. Wilson,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Suzanne Bonamici,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Katherine M. Clark,</legislator></signature>
+                <role>Managers on the Part of the House.</role>
+            </signatures>
+            <signatures role="Senate" class="centered">
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Lamar Alexander,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Micheal B. Enzi,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Richard Burr,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Johnny Isakson,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Susan M. Collins,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Lisa Murkowski,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Mark Kirk,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Tim Scott,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Orrin G. Hatch,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Pat Roberts,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Bill Cassidy,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Patty Murray,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Barbara A. Mikulski,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Barnard Sanders,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Robert P. Casey, Jr.,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Al Franken,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Michael F. Bennet,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Sheldon Whitehouse,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Tammy Baldwin,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Christopher Murphy,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Elizabeth Warren,</legislator></signature>
+                <role>Managers on the Part of the Senate.</role>
+            </signatures>
+            </signaturesBlock>
+        </recommendation>   
+        <jointExplanatoryStatement>
+            <heading class="centered">JOINT EXPLANATORY STATEMENT OF THE COMMITTEE OF CONFERENCE</heading>
+            <p>The managers on the part of the House and the Senate at the
+            conference on the disagreeing votes of the two Houses on the
+            amendment of the House to the bill (S. 1177), to reauthorize the
+            Elementary and Secondary Education Act of 1965 to ensure that
+            every child achieves, submit the following joint statement to the
+            House and the Senate in explanation of the effect of the action
+            agreed upon by the managers and recommended in the accompanying 
+            conference report:</p>
+            <p role="conferenceAgreement">The House amendment struck all of the Senate bill after the
+            enacting clause and inserted a substitute text.</p>
+            <p role="conferenceAgreement">The Senate recedes from its disagreement to the amendment
+            of the House with an amendment that is a substitute for the Senate 
+            bill and the House amendment. The differences between the
+            Senate bill, the House amendment, and the substitute agreed to in
+            conference are noted below, except for clerical corrections, conforming
+            changes made necessary by agreements reached by the
+            conferees, and minor drafting and clarifying changes.</p>
+            <heading role="title" class="centered" styleType="OLC">Title I, Part A—Disadvantaged Students</heading>
+            <list><listItem><num>1. </num><listContent>
+                    <p role="chamberDifferences" class="inline">The Senate bill and House amendment have different short
+                        titles for the Act.</p>
+                    <p role="conferenceAgreement" class="bold">HR/SR with an amendment to strike both and insert
+                        ‘‘<shortTitle>Every Student Succeeds Act</shortTitle>’’</p></listContent></listItem>
+                <listItem><num>2. </num><listContent>
+                        <p role="chamberDifferences" class="inline">The Senate bill and House amendment have different tables of contents.</p>
+                        <p role="conferenceAgreement" class="bold">HR/SR with an amendment to read as follows:
+                            <proposedContent changed="added">
+                                <section><num>SECTION 1. </num><heading>SHORT TITLE.</heading>
+                                <content>This Act may be cited as the ‘‘<shortTitle>Every Student Succeeds Act</shortTitle>’’.</content></section>
+                                <section><num>SEC. 2. </num><heading>TABLE OF CONTENTS.</heading>
+                                <content>The table of contents for this Act is as follows:
+                                <toc>
+                                <referenceItem><designator>Sec. 1. Short title.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 2. Table of contents.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 3. References.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 4. Transition.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 5. Effective date.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 6. Table of contents of the Elementary and Secondary Education Act of 1965.</designator></referenceItem>
+                                <referenceItem class="centered"><designator class="centered">TITLE I—IMPROVING BASIC PROGRAMS OPERATED BY STATE AND LOCAL EDUCATIONAL AGENCIES</designator></referenceItem>
+                                <referenceItem><designator>Sec. 1001. Redesignation.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 1002. Statement of purpose.</designator></referenceItem>
+                                <referenceItem><designator>Sec. 1003. Authorization of appropriations.</designator></referenceItem>
+                                <referenceItem><designator>[Content is elided in this sample.]</designator></referenceItem></toc>
+                                </content>
+                                </section>
+                                </proposedContent></p></listContent></listItem>
+                <listItem><num>3. </num><listContent>
+                    <p role="chamberDifferences" class="inline">The Senate bill and House amendment have identical sections 3.</p>
+                    <p role="conferenceAgreement" class="bold">LC</p></listContent></listItem>
+                <listItem><num>4. </num><listContent>
+                    <p role="senatePosition" class="inline">The Senate bill, but not the House amendment, includes a statement of purpose.</p>
+                    <p role="conferenceAgreement" class="bold">SR</p></listContent></listItem>
+                <listItem><num>5. </num><listContent>
+                    <p role="housePosition" class="inline">The House amendment, but not the Senate bill, includes this transition provision.</p>
+                    <p role="conferenceAgreement" class="bold">SR with an amendment to strike and replace with the following:</p>
+                    <p><proposedContent changed="added">
+                        <section><num>‘‘Sec. 4. </num><heading>Transition.</heading>
+                        <subsection><num>{a) </num><heading class="inline smallCaps">Funding Authority.—</heading>
+                        <paragraph><num>(1) </num><heading class="inline smallCaps">Multi-year Awards.—</heading>
+                        <content><p class="block">[Content is elided in this sample.]</p></content></paragraph></subsection></section>
+                        </proposedContent></p></listContent></listItem>
+                <listItem><num>6. </num><listContent>
+                        <p role="housePosition" class="inline">The House amendment, but not the Senate bill, includes a section for ‘‘Effective Dates’’ for the Act and amendments made by the Act.</p>
+                        <p role="conferenceAgreement" class="bold">SR with an amendment to read as follows:</p>
+                        <p><proposedContent changed="added">
+                            <amendmentInstruction><num>(1) </num><content>in subsection (b), to strike ‘‘2015’’ and insert ‘‘2016’’;</content></amendmentInstruction>
+                            <amendmentInstruction><num>(2) </num><content>in subsection (c), to strike ‘‘2016’’ and insert ‘‘2017’’; </content></amendmentInstruction>
+                            <amendmentInstruction><num>(3) </num><content>in subsection (d), to strike ‘‘2016’’ and insert ‘‘2017’’;</content></amendmentInstruction>
+                            </proposedContent></p>
+                        <p class="block">[Content is elided in this sample.]</p></listContent></listItem>
+                <listItem><num>10. </num><listContent>
+                        <p role="housePosition" class="inline">The House amendment, but not the Senate bill, includes a Sense of the Congress on state and local rights and responsibilities.</p>
+                        <p role="conferenceAgreement" class="bold">SR with an amendment to strike paragraphs (3), (4), (5), and (6) and to move the remainder of the Sec. to the beginning of Title IX</p>
+                        </listContent></listItem>
+                <listItem><num>11. </num><listContent>
+                        <p role="chamberDifferences" class="inline">The Senate bill and House amendment have different title headings. The House amendment, but not the Senate bill, includes a subtitle heading.</p>
+                        <p role="conferenceAgreement" class="bold">HR</p>
+                        </listContent></listItem>
+                <listItem><listContent>
+                        <p class="block">[Content is elided in this sample.]</p></listContent></listItem>
+                <listItem><num>16. </num><listContent>
+                        <p role="senatePosition" class="inline">The Senate bill, but not the House amendment, adds a subsection (c) to the redesignated section 1003 for ‘‘Technical Assistance and Support.’’</p>
+                        <p role="conferenceAgreement" class="bold">HR/SR with an amendment to strike and replace with the following:</p>
+                        <p><proposedContent changed="added">
+                            <section><num>Sec. 1003. [20 U.S.C. 6303] </num><heading class="inline">SCHOOL IMPROVEMENT.</heading>
+                            <content><p class="block">[Content is elided in this sample.]</p></content></section></proposedContent></p></listContent></listItem>
+                <listItem><num>17. </num><listContent>
+                        <p role="housePosition" class="inline">The House amendment, but not the Senate bill, increases the state set-aside from 4 percent to 7 percent.</p>
+                        <p role="conferenceAgreement" class="bold">See note 16.</p>
+                        </listContent></listItem>
+                <listItem><listContent>
+                        <p class="block">[Content is elided in this sample.]</p></listContent></listItem>
+                <listItem><num>290. </num><listContent>
+                        <p role="housePosition" class="inline">The House amendment, but not the Senate bill, includes this new section 1128.</p>
+                        <p role="conferenceAgreement" class="bold">HR</p>
+                        </listContent></listItem>
+            </list> 
+            <heading role="section" styleType="OLC">Sec. 1113</heading>
+            <list>
+                <listItem><num>1.</num><listContent>
+                        <p role="senatePosition" class="inline">The Senate bill combines sections 1113, 1114, and 1115 of current law into section 1113. The House amendment amends section 1113 and maintains separate sections 1114 and 1115.</p>
+                        <p role="conferenceAgreement" class="bold">SR</p></listContent></listItem>
+                <listItem><listContent>
+                        <p class="block">[Content is elided in this sample.]</p></listContent></listItem>
+            </list>
+            <signaturesBlock>
+            <signatures role="House" class="centered">
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">John Kline,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Virginia Foxx,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">David P. Roe,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Glenn Thompson,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Brett Guthrie,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Todd Rokita,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Luke Messer,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Glenn Grothman,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Steve Russell,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Carlos Curbelo,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Robert C. ‘‘Bobby’’ Scott,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Susan A. Davis,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Marcia L. Fudge,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Jared Polis,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Frederica S. Wilson,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Suzanne Bonamici,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Katherine M. Clark,</legislator></signature>
+                <role>Managers on the Part of the House.</role>
+            </signatures>
+            <signatures role="Senate" class="centered">
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Lamar Alexander,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Micheal B. Enzi,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Richard Burr,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Johnny Isakson,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Susan M. Collins,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Lisa Murkowski,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Mark Kirk,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Tim Scott,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Orrin G. Hatch,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Pat Roberts,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Bill Cassidy,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Patty Murray,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Barbara A. Mikulski,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Barnard Sanders,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Robert P. Casey, Jr.,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Al Franken,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Michael F. Bennet,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Sheldon Whitehouse,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Tammy Baldwin,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Christopher Murphy,</legislator></signature>
+                <signature><legislator class="centered smallCaps" bioGuideId="" partyAffiliation="" caucusAffiliation="">Elizabeth Warren,</legislator></signature>
+                <role>Managers on the Part of the Senate.</role>
+            </signatures>
+            </signaturesBlock>
+        </jointExplanatoryStatement>
+    </reportMain>
+    <endMarker>○</endMarker>
+</legislativeReport>
+

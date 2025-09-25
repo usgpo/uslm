@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<legislativeReport  xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.1.xsd" xml:lang="en">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <reportMeta>
+        <dc:title>S. Rept. 113-310: YOUTH SPORTS CONCUSSION ACT</dc:title>
+        <dc:date>2014-12-12</dc:date>
+        <dc:type>Senate Legislative Report</dc:type>
+        <docNumber>310</docNumber>
+        <congress>113</congress>
+        <session>2</session>
+        <citableAs>S. Rept. 113-310</citableAs>
+        <citableAs>Senate Report 113-310</citableAs>
+        <citableAs>CRPT-113srpt310</citableAs>
+        <committee>Committee on Commerce, Science, and Transportation</committee>
+        <currentChamber>Senate</currentChamber>
+        <genre>legislative</genre>
+        <!-- this should be the online location of the CBO report with the correct identifying number. -->
+        <relatedDocument href="https://www.cbo.gov/publication/45348">CBO report number 45348</relatedDocument>
+        <cboCostEstimateLine>Y</cboCostEstimateLine>
+        <accompanies>113s1014</accompanies>
+    </reportMeta>
+    <reportPreface> 
+        <reportCoverPage> 
+            <relatedDocument role="calendar" href="/us/113/scal/618">Calendar No. 618</relatedDocument>
+        <layout class="reportHeader">
+            <row><column class="topLeft"><congress>113th Congress</congress></column><column rowspan="2" class="leftBracket">}</column>
+                <column rowspan="2" class="middle"><currentChamber>SENATE</currentChamber></column>
+                <column rowspan="2" class="rightBracket">{</column><column class="topRight smallCaps"><dc:type>Report</dc:type></column></row>
+            <row><column class="bottomLeft italic"><session>2nd Session</session></column><column class="bottomRight"><docNumber>113-310</docNumber></column></row>
+        </layout>        
+            <reportTitle class="centered">YOUTH SPORTS CONCUSSION ACT</reportTitle>
+            <longTitle><docTitle class="centered">R E P O R T</docTitle>
+                <p class="centered smallCaps">of the</p>
+                <committee class="centered">COMMITTEE ON COMMERCE, SCIENCE, AND TRANSPORTATION</committee>
+                <accompanies class="centered smallCaps">on <br/><affected><dc:type>S.</dc:type> <docNumber>1014</docNumber></affected></accompanies>
+</longTitle>
+            <img src="..." class="centered" alt="eagle image"></img>
+            <action><date date="2014-12-12" class="smallCaps">December 12, 2014.—</date><actionDescription class="inline">Ordered to be printed</actionDescription></action>
+            <organizationNote>
+                <p class="smallCaps centered">u.s. government printing office</p>
+                <p class="smallCaps centered">washington : 2014</p>
+            </organizationNote>
+            <jacketId class="leftMargin">49-010</jacketId>
+        </reportCoverPage>
+        <committeeMembersAndStaff class="centered"> 
+            <heading>SENATE COMMITTEE ON COMMERCE, SCIENCE, AND TRANSPORTATION</heading>
+            <subheading class="smallCaps">one hundred thirteenth congress</subheading>
+            <subheading class="smallCaps">second session</subheading>
+            <legislators> 
+                <layout class="centered twoColumn">
+                    <row><column colspan="2" class="centered"><legislator bioGuideId="" committeeRole="chairman">JOHN D. ROCKEFELLER IV, West Virginia, <i>Chairman</i></legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">BARBARA BOXER, California</legislator></column><column class="right"><legislator bioGuideId="">JOHN THUNE, South Dakota</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">BILL NELSON, Florida</legislator></column><column class="right"><legislator bioGuideId="">ROGER F. WICKER, Mississippi</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">MARIA CANTWELL, Washington</legislator></column><column class="right"><legislator bioGuideId="">ROY BLUNT, Missouri</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">MARK PRYOR, Arkansas</legislator></column><column class="right"><legislator bioGuideId="">MARCO RUBIO, Florida</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">CLAIRE McCASKILL, Missouri</legislator></column><column class="right"><legislator bioGuideId="">KELLY AYOTTE, New Hampshire</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">AMY KLOBUCHAR , Minnesota</legislator></column><column class="right"><legislator bioGuideId="">DEAN HELLER, Nevada</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">MARK BEGICH, Alaska</legislator></column><column class="right"><legislator bioGuideId="">DANIEL COATS, Indiana</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">RICHARD BLUMENTHAL, Connecticut </legislator></column><column class="right"><legislator bioGuideId="">TIM SCOTT, South Carolina</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">BRIAN SCHATZ, Hawaii</legislator></column><column class="right"><legislator bioGuideId="">TED CRUZ, Texas</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">ED MARKEY, Massachusetts</legislator></column><column class="right"><legislator bioGuideId="">DEB FISCHER, Nebraska</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">CORY BOOKER, New Jersey</legislator></column><column class="right"><legislator bioGuideId="">RON JOHNSON, Wisconsin</legislator></column></row>
+                    <row><column class="left"><legislator bioGuideId="">JOHN WALSH, Montana</legislator></column><column class="right"><legislator bioGuideId=""></legislator></column></row>
+                </layout>
+            </legislators>
+            <staffList>
+                <layout class="centered twoColumn">
+                    <row><column colspan="2" class="centered"><staff role="committee"><inline class="smallCaps">Ellen Doneski</inline>, <i>Staff Director</i></staff></column></row>
+                    <row><column colspan="2" class="centered"><staff role="committee"><inline class="smallCaps">John Williams</inline>, <i>General Counsel</i></staff></column></row>
+                    <row><column colspan="2" class="centered"><staff role="committee"><inline class="smallCaps">David Schwietert</inline>, <i>Republican Staff Director</i></staff></column></row>
+                    <row><column colspan="2" class="centered"><staff role="committee"><inline class="smallCaps">Nick Rossi</inline>, <i>Republican Deputy Staff Director</i></staff></column></row>
+                    <row><column colspan="2" class="centered"><staff role="committee"><inline class="smallCaps">Rebecca Seidel</inline>, <i>Republican General Counsel</i></staff></column></row>
+                </layout>
+            </staffList>
+        </committeeMembersAndStaff>
+<page>(II)</page>
+        <relatedDocument role="calendar" href="/us/113/scal/618">Calendar No. 618</relatedDocument>
+        <layout class="reportHeader">
+            <row><column class="topLeft"><congress>113th Congress</congress></column><column rowspan="2" class="leftBracket">}</column>
+                <column rowspan="2" class="middle"><currentChamber>SENATE</currentChamber></column>
+                <column rowspan="2" class="rightBracket">{</column><column class="topRight smallCaps"><dc:type>Report</dc:type></column></row>
+            <row><column class="bottomLeft italic"><session>2nd Session</session></column><column class="bottomRight"><docNumber>113-310</docNumber></column></row>
+        </layout>
+        
+        <reportTitle class="centered">YOUTH SPORTS CONCUSSION ACT</reportTitle>
+        <action><date date="2014-12-12" class="smallCaps">December 12, 2014.—</date><actionDescription class="inline">Ordered to be printed</actionDescription></action>
+        <action><actionDescription><sponsor bioGuideId="YYY">Mr. Rockefeller</sponsor>, from the <committee>Committee on Commerce, Science, and Transportation</committee>, submitted 
+the following 
+<longTitle><docTitle>R E P O R T</docTitle>
+<accompanies>[To accompany <affected><dc:type>S.</dc:type> <docNumber>1014</docNumber></affected>]</accompanies></longTitle>
+</actionDescription></action>
+</reportPreface>
+    <reportMain> 
+        <recommendation> The Committee on Commerce, Science, and Transportation, to which was referred the bill (S. 1014) to reduce sports-related 
+            concussions in youth, and for other purposes, having considered the same, reports favorably thereon with an amendment (in the 
+            nature of a substitute) and recommends that the bill (as amended) do pass.</recommendation>
+        <segment role="purpose">
+            <heading class="smallCaps">Purpose of the Bill</heading>
+            <p>In recent years, a constant drumbeat of press coverage about the long-term implications of traumatic brain injury 
+            among athletes has caused widespread alarm among parents and growing public awareness of its dangers. Yet this public 
+            concern has also resulted in the proliferation of unfair and deceptive safety claims to sell protective sports equipment and 
+            has highlighted the need to streamline the FTC's authority over these claims, as well as a closer review of safety standards 
+            for sports equipment.</p>
+            <p>On October 19, 2011, the Committee on Commerce, Science, and Transportation of the Senate held a hearing, <i>Concussions 
+                    and the Marketing of Sports Equipment</i>, which examined its investigative findings of widespread usage of “anti-concussion,” “concussion-reducing,” or other unfounded claims in the marketing of sports equipment. In August 2012, 
+            the FTC brought an enforcement action against the makers of Brain-Pad mouth guards for false and misleading claims. Still, 
+            products touting unfounded promises of concussion “prevention” continue to be readily available online.</p>
+            <p>While much of the media coverage has centered on the tragedies of former NFL players with histories of brain 
+            injuries, doctors say that young athletes are more vulnerable to concussions and face greater negative consequences. This 
+            past school year, more than 300,000 high school athletes were diagnosed with concussions. And since 2005, over 1.3 million 
+            concussions have been diagnosed among high school athletes in just the top 9 most popular sports. These figures, researchers 
+            say, likely understate - vastly - the true extent of the epidemic because many head injuries go unreported or ignored.
+            In October 2013, the Institute of Medicine of the National Academies issued a report, Sports-Related Concussions in Youth: 
+            Improving the Science, Changing the Culture, which is referenced in the legislation and was commissioned at the 
+            urging of Chairman John D. Rockefeller IV and Senator Tom Udall. The report found that much remains unknown about the 
+            extent of concussions in youth, but it found limited evidence that current helmet designs reduce the risk of sport-related 
+            concussions and no evidence that mouth guards or other facial protection equipment reduce concussion risk. The Institute of 
+            Medicine's report recommended that the Federal Government invest in additional research into biomechanical factors that 
+            influence injury risk in youth and that this data be used to inform the development of effective protective equipment safety 
+            standards.</p>
+        </segment>
+        <segment>
+            <heading class="smallCaps">Summary of Provisions</heading>
+            <p>S. 1014 would allow the FTC to clarify what constitutes an 
+            unfair and deceptive act or practice in regards to safety 
+            claims involving sports equipment, and it would provide the FTC 
+            the authority to impose civil penalties for such violations. 
+            The legislation would also provide State attorneys general the 
+            authority to enforce such advertising violations.
+            The bill has received support from numerous sports, 
+            medical, and consumer organizations: American Academy of 
+            Neurology, American Academy of Pediatrics, Brain Injury 
+            Association of America, Brain Trauma Foundation, Cleveland 
+            Clinic, Consumer Federation of America, Consumers Union, Major 
+            League Baseball, Major League Baseball Players Association, 
+            Major League Soccer, Major League Soccer Players Union, 
+            National Association of State Head Injury Administrators, 
+            National Athletic Trainers’ Association, National Basketball 
+            Association, National Collegiate Athletic Association, National 
+            Consumers League, National Federation of State High School 
+            Associations, National Football League, National Football 
+            League Players Association, National Hockey League, National 
+            Interscholastic Athletic Administrators Association, National 
+            Operating Committee on Standards for Athletic Equipment, Safe 
+            Kids Worldwide, US Lacrosse, U.S. Soccer Federation, and USA 
+            Hockey.</p>
+        </segment>
+        <segment>
+            <heading class="smallCaps">Legislative History</heading>
+            <p>On April 9, 2014, in an open Executive Session, the 
+                Committee considered the bill and reported S. 1014, as amended, 
+                favorably by voice vote. The Committee adopted a substitute 
+                amendment from Senator Rockefeller.</p>
+        </segment>
+        <estimatedCosts>
+            <heading class="smallCaps">Estimated Costs</heading>
+          <p>  In accordance with paragraph 11(a) of rule XXVI of the Standing Rules of the Senate and section 403 of the 
+            Congressional Budget Act of 1974, the Committee provides the following cost estimate, prepared by the Congressional Budget 
+            Office:</p>
+           <subheading class="italic"> S. 1014—Youth Sports Concussion Act</subheading>
+            <p>S. 1014 would prohibit importers and sellers of athletic equipment from making deceptive claims about the safety of that 
+            equipment. The Federal Trade Commission (FTC) would be directed to write regulations to enforce the new prohibition.</p>
+            <p>Based on information from the FTC, CBO estimates that the cost of implementing S. 1014 would not be significant because 
+            the agency is already taking action to enforce such a prohibition under its general authority. Enacting S. 1014 would 
+            not affect direct spending or revenues; therefore, pay-as-you-go procedures do not apply.</p>
+            <p>S. 1014 contains no intergovernmental or private-sector mandates as defined in the Unfunded Mandates Reform Act.</p>
+            <p>The CBO staff contact for this estimate is Susan Willie. 
+            The estimate was approved by Theresa Gullo, Deputy Assistant Director for Budget Analysis.</p>
+            <cboCostEstimate href="https://www.cbo.gov/publication/45348"><p>S. 1014 would prohibit importers and sellers of athletic equipment from making deceptive claims about the safety of that 
+            equipment. The Federal Trade Commission (FTC) would be directed to write regulations to enforce the new prohibition.</p>
+            <p>Based on information from the FTC, CBO estimates that the cost of implementing S. 1014 would not be significant because 
+            the agency is already taking action to enforce such a prohibition under its general authority. Enacting S. 1014 would 
+            not affect direct spending or revenues; therefore, pay-as-you-go procedures do not apply.</p>
+            <p>S. 1014 contains no intergovernmental or private-sector mandates as defined in the Unfunded Mandates Reform Act.</p>
+            <p>The CBO staff contact for this estimate is Susan Willie. 
+            The estimate was approved by Theresa Gullo, Deputy Assistant Director for Budget Analysis.</p></cboCostEstimate>
+        </estimatedCosts>
+        <segment>
+            <heading class="smallCaps">Regulatory Impact</heading>
+            <subheading class="smallCaps">number of persons covered</subheading>
+           <p> The legislation would apply to manufacturers of sports equipment, including any person who sells, offers for sale, or imports
+            any item or equipment intended, designed, or offered for use by an individual engaged in any athletic sporting activity, whether professional or amateur.</p>
+            <subheading class="smallCaps">economic impact</subheading>
+            <p>This legislation is not expected to have an adverse economic impact on the Nation.</p>
+            <subheading class="smallCaps">privacy</subheading>
+            <p>S. 1014 would not have a negative impact on the personal privacy of individuals.</p>
+            <subheading class="smallCaps">paperwork</subheading>
+            <p>S. 1014 is not expected to create new reporting requirements.</p>
+        </segment>
+        <segment>
+            <heading class="smallCaps">Congressionally Directed Spending</heading>
+            <p>In compliance with paragraph 4(b) of rule XLIV of the Standing Rules of the Senate, the Committee provides that no 
+                provisions contained in the bill, as reported, meet the definition of congressionally directed spending items under the 
+                rule.</p>
+        </segment>
+        <segment><heading class="smallCaps">Section-by-Section Analysis</heading>
+    <subheading class="smallCaps">Section 1. Short title.</subheading>
+    <p>Section 1 of the bill would establish the short title of the bill as the “Youth Sports Concussion Act.”</p>
+    <subheading class="smallCaps">Section 2. Sense of Congress.</subheading>
+    <p>Section 2 of the bill would provide the sense of Congress that scientific advancements and a greater understanding 
+        of the issues that affect the health and safety of young athletes are key to reducing sports-related concussions in youth. 
+        The sense of Congress would call on the Consumer Product Safety Commission and the FTC to review the October 2013 report from 
+    the Institute of Medicine to inform their efforts to protect consumers. It also urges that any voluntary standards adopted 
+    by protective sports equipment manufacturers include a mechanism to ensure substantial compliance.
+    </p>
+    <subheading class="smallCaps">Section 3. False or misleading claims with respect to athletic sporting activity equipment.</subheading>
+    <p>Section 3 of the bill would make it unlawful for any person 
+    to sell, offer for sale, or import any item or equipment for 
+    which the seller or importer, or anyone on their behalf, makes 
+    any deceptive claim about the safety benefits of the item or 
+    equipment. Any such violation would be considered a violation 
+    of a rule under section 18 of the FTC Act (15 U.S.C. 57a). 
+    Should the FTC believe that a rulemaking is needed to carry out 
+    this section, the FTC would be empowered to do so under section 
+    553 of title 5, United States Code (commonly known as the 
+    Administrative Procedure Act). Section 3 of the bill also would 
+    authorize State attorneys general to bring actions against 
+    entities that are in violation of this section, subject to 
+    intervention by the FTC.</p>
+</segment>
+        <changesInExistingLaw>
+            <heading class="smallCaps">Changes in Existing Law</heading>
+            <p>In compliance with paragraph 12 of rule XXVI of the Standing Rules of the Senate, the Committee states that the 
+                bill as reported would make no change to existing law.</p>
+        </changesInExistingLaw>
+    </reportMain>
+    <endMarker>○</endMarker>
+</legislativeReport>

@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<legislativeReport  xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.1.xsd" xml:lang="en">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <!-- https://www.govinfo.gov/app/details/CRPT-118hrpt9/CRPT-118hrpt9 -->
+    <reportMeta>
+        <dc:title>H. Rept. 118-9: Parents Bill of Rights Act</dc:title><!-- report number + report title, separated by ':' -->
+        <dc:date>2023-03-14</dc:date>
+        <dc:type>House Legislative Report</dc:type>
+        <citableAs>H. Rept. 118-9</citableAs>
+        <citableAs>House Report 118-9</citableAs>
+        <citableAs>CRPT-118hrpt9</citableAs>
+        <currentChamber>House</currentChamber>
+        <congress>118</congress>
+        <session>1</session>
+        <committee>Committee on Education and the Workforce</committee><!-- The only committee in the meta is the lead committee -->
+        <genre>legislative</genre>
+        <cboCostEstimateLine>Y</cboCostEstimateLine>
+        <accompanies>118hr5</accompanies>
+        <jacketId>39-006</jacketId>
+    </reportMeta>
+    <reportPreface> 
+        <layout class="reportHeader">
+            <row><column class="topLeft"><congress>118th Congress</congress></column><column rowspan="2" class="leftBracket">}</column>
+                <column rowspan="2" class="middle"><currentChamber>HOUSE OF REPRESENTATIVES</currentChamber></column>
+                <column rowspan="2" class="rightBracket">{</column><column class="topRight smallCaps"><dc:type>Report</dc:type></column></row>
+            <row><column class="bottomLeft italic"><session>1st Session</session></column><column class="bottomRight"><docNumber>118–9</docNumber></column></row>
+        </layout>
+        
+        <reportTitle>PARENTS BILL OF RIGHTS ACT</reportTitle>
+        <action><date date="2023-03-14"><inline class="smallCaps">March 14, 2023</inline>.—</date><actionDescription>Committed to the Committee of the Whole House on the 
+                State of the Union and ordered to be printed</actionDescription></action>
+        <action><actionDescription><sponsor bioGuideId="YYY">Ms. <inline class="smallCaps">Foxx</inline></sponsor>, from the <committee>Committee on Education and the Workforce</committee>, submitted 
+                the following
+                <longTitle><docTitle>R E P O R T</docTitle>
+                    <p class="centered">together with</p>
+                    <reportViews>MINORITY VIEWS</reportViews>
+                    <accompanies>[To accompany <affected><dc:type>H.R.</dc:type> <docNumber>5</docNumber></affected>]</accompanies>
+                    <cboCostEstimateLine value="Y">[Including cost estimate of the Congressional Budget Office]</cboCostEstimateLine></longTitle>
+        </actionDescription></action>
+        <!-- The <slugLine> is a line added to the <reportPreface> (and other types of preface elements) that will be printed in the page footer. The author does not need to be concerned about the placement of the slugLine in the preface as the composition engine will place the content in the appropriate location on the rendered page. By convention it is the last child of the appropriate preface (in this case the <reportPreface>) element. -->
+        <slugLine><jacketId>39-006</jacketId></slugLine>
+    </reportPreface>
+    
+    <reportMain> 
+        <recommendation>The Committee on Education and the Workforce, to whom was referred the bill (H.R. 5) to ensure the rights of parents are 
+            honored and protected in the Nation’s public schools, having considered the same, reports favorably thereon with an 
+            amendment and recommends that the bill as amended do pass.</recommendation>
+        <legislativeSegment role="amendment"><p>The amendment is as follows:</p>
+            <amendmentInstruction><content>Strike all after the enacting clause and insert the 
+                    following:
+                    <amendmentContent><section><num>SECTION 1. </num><heading>SHORT TITLE.</heading>
+                            <content> This Act may be cited as the “<shortTitle>Parents Bill of Rights Act</shortTitle>”.</content></section>
+                        <title><num>TITLE I—</num><heading>AMENDMENTS TO THE ELEMENTARY AND SECONDARY EDUCATION ACT OF 
+                                1965</heading>
+                            <section><num>SEC. 101. </num><heading>STATE PLAN ASSURANCES.</heading>
+                                <chapeau>Section 1111(g)(2) of the Elementary and Secondary Education Act of 
+                                    1965 (20 U.S.C. 6311(g)(2)) is amended—</chapeau>
+                                <subsection><num>(1) </num><content>in subparagraph (M), by striking “<quotedText>and</quotedText>” at the end;</content></subsection>
+                                <subsection><num>(2) </num><content>in subparagraph (N), by striking the period at the end 
+                                        and inserting a semicolon; and</content></subsection>
+                                <subsection><num>(3) </num><content>by adding at the end the following:
+                                        <quotedContent><subparagraph><num>“(O) </num><chapeau>the State will ensure that each local educational agency in the State—</chapeau>
+                                                <clause><num>“(i) </num><chapeau>in a case in which the curriculum for an elementary or secondary school grade level 
+                                                        is freely and publicly available on the internet—</chapeau></clause></subparagraph></quotedContent></content></subsection>
+                            </section></title></amendmentContent>
+            </content></amendmentInstruction>
+            <p>[Content is elided in this sample]</p>
+        </legislativeSegment>
+        
+        <segment role="billPurpose">
+            <heading>PURPOSE</heading>
+            <p>The issue of parents’ rights in education has become a major
+                topic since the Covid–19 pandemic revealed the unaccountable influence
+                that teachers’ unions and special interest groups hold over
+                public K–12 education. School closures allowed many parents, for the first time, to see exactly what their kids were being taught.
+                They learned that divisive and inappropriate topics like Critical
+                Race Theory (CRT) and progressive gender ideology have infiltrated
+                public schools. H.R. 5, the <i>Parents Bill of Rights Act</i> takes important
+                steps to clarify that parents have a right to know what is happening
+                in their child’s school and maintain the right to make decisions
+                about their child’s education. H.R. 5 will put practices in
+                place that facilitate meaningful dialog between a family and their
+                child’s school, and lead to more input throughout the learning process.</p>
+        </segment>
+        <segment>
+            <heading>COMMITTEE ACTION</heading>
+            <heading>116TH CONGRESS</heading>
+            <subheading class="italic">Second Session—Hearings</subheading>
+            <p>On June 15, 2020, the Committee on Education and the 
+                Workforce held a virtual hearing on “Budget Cuts and Lost 
+                Learning: Assessing the Impact of Covid-19 on Public 
+                Education.” The hearing was the first in a series examining 
+                the impact of the Covid-19 pandemic on K-12 education. The 
+                purpose of the hearing was to evaluate the state of education 
+                funding and examine the learning losses students are projected 
+                to experience. Testifying before the Committee were Mr. Mark 
+                Johnson, State Superintendent, North Carolina Department of 
+                Public Instruction, Raleigh, NC; Dr. Michael Leachman, Vice 
+                President for State Fiscal Policy, Center on Budget and Policy 
+                Priorities, Washington, D.C.; Mr. Eric Gordon, CEO, Cleveland 
+                Metropolitan School District, Cleveland, OH; and Ms. Becky 
+                Pringle, Vice President, National Education Association, 
+                Washington, D.C.</p>
+            <p>On July 21, 2020, the Committee’s Subcommittee on Early 
+                Childhood, Elementary and Secondary Education (ECESE) held a 
+                virtual hearing on “Underfunded &amp; Unprepared: Examining How to 
+                Overcome Obstacles to Safely Reopen Public Schools.” The 
+                purpose of the hearing was to discuss the barriers to reopening 
+                schools and how to overcome them. Testifying before the 
+                subcommittee were Mrs. Penny Schwinn, Commissioner, Tennessee 
+                Department of Education, Nashville, TN; Ms. Leslie Boggs, 
+                President, National Parent Teachers Association, Alexandria, 
+                VA; Dr. Michael Hinojosa, Superintendent, Dallas Independent 
+                School District, Dallas, TX; and Dr. Sean O’Leary, Pediatric 
+                Infectious Disease Specialist, Children’s Hospital Colorado, 
+                Co-Chair of the Immunization Committee, Colorado Chapter of the 
+                American Academy of Pediatrics, Aurora, CO.</p>
+            <subheading class="italic">Legislative Action</subheading>
+            <p>On April 30, 2019, the Committee held a legislative hearing 
+                on school integration and civil rights enforcement. A review of 
+                Committee archives suggests this is the first hearing focused 
+                on school segregation since the 101st Congress, nearly 30 years 
+                ago. The hearing, titled “Brown v. Board of Education at 65: A 
+                Promise Unfulfilled,” was used to inform the development of 
+                H.R. 2639. On May 9, 2019, Rep. Marcia Fudge (D-OH) introduced 
+                H.R. 2639, the Strength in Diversity Act of 2019, with Chairman 
+                Bobby Scott (D-VA) and Rep. Gregorio Sablan (D-MP), Chair of 
+                the Subcommittee on Early Childhood, Elementary, and Secondary 
+                Education, as original co-sponsors. On May 16, 2019, the 
+                Committee considered H.R. 2639 in a legislative session and 
+                ordered it reported favorably, as amended, to the House of 
+                Representative by a vote of 26-20. The Committee considered and 
+                adopted the following amendments to H.R. 2639:</p>
+            <list><listItem><num>1. </num><listContent>Rep. Fudge offered an Amendment in the Nature of a 
+                        Substitute (ANS) that made numerous changes to H.R. 
+                        2639. The ANS improved provisions under section 5 of 
+                        the bill to ensure outreach to parents and students is 
+                        produced in commonly understandable language. It also 
+                        ensured consultation with students and families in the 
+                        district or region targeted for diversity improvement 
+                        efforts. Under section 6, the ANS expanded planning 
+                        grant activities to include the development of a robust 
+                        family, student, and community engagement plan. It also 
+                        explicitly stated that funds can be used to support 
+                        school districts under a court-ordered school 
+                        desegregation plan. The ANS expanded implementation 
+                        grants activities to include the development of 
+                        innovative and equitable school assignment plans and 
+                        other innovative activities to increase racial and 
+                        socioeconomic diversity. Under section 7, the ANS added 
+                        reducing school discipline rates as a measure of a 
+                        school integration plan’s success. Under section 8, the 
+                        ANS expanded the annual reporting requirement to 
+                        include a description of the entity’s efforts to 
+                        increase inclusivity in schools. Finally, the ANS added 
+                        a new section to specify that GEPA section 426 does not 
+                        apply to funds authorized by the bill.</listContent></listItem></list>
+            <p>The Committee further considered the following amendments 
+                to the Amendment in the Nature of a Substitute to H.R. 2639:</p>
+            <list><listItem><num>2. </num><listContent>Rep. Rick Allen (R-GA) offered an amendment to the 
+                        ANS that proposed to strike the authorization of the 
+                        new federal grant program created in H.R. 2639 to 
+                        support voluntary community-driven efforts to increase 
+                        diversity in schools. The amendment instead amended 
+                        section 4106 of the Elementary and Secondary Education 
+                        Act of 1965 to allow school districts to use funds 
+                        authorized by such act to develop or implement 
+                        strategies to improve diversity and reduce or eliminate 
+                        racial or socioeconomic isolation in schools. The 
+                        amendment also permitted LEAs to use funds received 
+                        under section 4106 to cover fees associated with 
+                        accelerated learning examinations given to low-income 
+                        students. Lastly, the amendment exempted funds used 
+                        pursuant to the authorized uses from the requirements 
+                        of GEPA section 426. Because the amendment proposed to 
+                        amend the Elementary and Secondary Education Act of 
+                        1965, a law not amended by the underlying bill, the 
+                        amendment expanded the scope of the bill and was ruled 
+                        out of order by the Chairman.</listContent></listItem></list>
+            <p>The Committee again worked with the Committee on 
+                Appropriations on longstanding anti-integration riders during 
+                the Fiscal Year 2021 (FY21) appropriations process. As a 
+                result, H.R. 7617, the Defense, Commerce, Justice, Science, 
+                Energy and Water Development, Financial Services and General 
+                Government, Labor, Health and Human Services, Education, 
+                Transportation, Housing, and Urban Development Appropriations 
+                Act, 2021 included a provision striking GEPA section 426 from 
+                law entirely. H.R. 7617 passed the House July 31, 2020 by a 
+                vote of 217-197.</p>
+            <p>On May 2, 2019, Rep. Kim Schrier (D-WA) introduced H.R. 
+                2480, the Stronger Child Abuse Prevention and Treatment Act, 
+                with Reps. James Comer (R-KY), Lori Trahan (D-MA), Dusty 
+                Johnson (R-SD), Suzanne Bonamici (D-OR), Elise Stefanik (R-NY), 
+                Chairman Bobby Scott (D-VA), and Ranking Member Virginia Foxx 
+                (R-NC) as original co-sponsors. On May 8, 2019, the Committee 
+                considered H.R. 2480 in a legislative session and reported it 
+                favorably, as amended, to the House of Representative by a 
+                voice vote. The Committee considered and adopted the following 
+                amendments to H.R. 2480:</p>
+            <list><listItem><num>1. </num><listContent>
+                        Rep. Bonamici offered an Amendment in the Nature 
+                            of a Substitute (ANS) that made several improvements to 
+                            H.R. 2480. The ANS narrowed the condition of receipt of 
+                            funds in Section 103(d) to grants received through 
+                            Section 106. In Section 106(a)(5)(A), housing agencies 
+                            were added to the list of service providers 
+                            participating in state and local networks supporting 
+                            child and family well-being to establish connections 
+                            between the child welfare system and agencies that 
+                            support families in finding and securing stable 
+                            housing.
+                        <p>The ANS made two important changes to support 
+                            prevention efforts in tribal communities. The amendment 
+                            added Indian tribes and tribal organizations to the 
+                            list of entities that receive equitable distribution of 
+                            assistance in Section 107 and required the Government 
+                            Accountability Office (GAO) to examine and make 
+                            recommendations about issues relating to child abuse 
+                            and neglect in Indian tribal communities.</p>
+                        <p>Several changes were made in Section 110 through the 
+                            ANS to clarify the intent of and strengthen the 
+                            electronic data exchange system. First, language was 
+                            added to ensure that standards and policies governing 
+                            the electronic interstate data exchange adhere to 
+                            federal law in addition to state law. The ANS also 
+                            clarified that the exchange can only be used for 
+                            purposes of child safety and is not to be used for any 
+                            other purpose. To this end, the ANS included a 
+                            prohibition on the Secretary from accessing or storing 
+                            data exchanged on the system. The ANS also required 
+                            that each state provide the Secretary an assurance that 
+                            its child abuse and neglect registry provides 
+                            procedural due process for individuals placed on such a 
+                            registry. Finally, the ANS modified the appropriations 
+                            reservation for Section 110 such that out of annual 
+                            funds appropriated in Title I, $2 million per year for 
+                            fiscal years 2020 and 2021 and $1 million per year for 
+                            fiscal years 2022 through 2025 are reserved for the 
+                            development and implementation of the electronic data 
+                            exchange system.</p>
+                        <p>The ANS also included a change in Title II to raise 
+                            the administrative cap on funds received in excess of 
+                            fiscal year 2019 state allocations from four percent to 
+                            ten percent to ensure lead entities are able to 
+                            effectively monitor and provide oversight of prevention 
+                            services. The ANS was adopted via voice vote.</p>
+            </listContent></listItem></list>
+            <p>During the legislative session the Committee adopted 
+                several amendments to the ANS:</p>
+            <list><listItem><num>1. </num><listContent>Rep. Lucy McBath (D-GA) offered, in coordination 
+                        with Rep. Stefanik (R-NY), an amendment to the ANS 
+                        allowing the Secretary to fund a national hotline for 
+                        child abuse and neglect. The amendment was adopted via 
+                        voice vote.</listContent></listItem>
+                <listItem><num>2. </num><listContent>Rep. Russ Fulcher (R-ID) offered an amendment to 
+                        the amendment in the nature of the substitute requiring 
+                        the working group established in Section 110 to 
+                        generate best practices that ensure due process for 
+                        individuals included in state child abuse and neglect 
+                        registries. The amendment was adopted via voice vote.</listContent></listItem>
+                <listItem><num>3. </num><listContent>Rep. David Trone (D-MD) offered, in coordination 
+                        with Rep. Ron Wright (R-TX), an amendment to the ANS 
+                        allowing states to carry out programs or strategies 
+                        that promote the recruitment, support, or retention of 
+                        the child welfare workforce. The amendment was adopted 
+                        via voice vote.</listContent></listItem>
+                <listItem><num>4. </num><listContent>Rep. Lloyd Smucker (R-PA) offered, in coordination 
+                        with Rep. Lauren Underwood (D-PA), an amendment to the 
+                        ANS ensuring the Secretary includes parent substance 
+                        use disorder as a factor in the study examining 
+                        adoption outcomes. The amendment was adopted via voice 
+                        vote.</listContent></listItem>
+                <listItem><num>5. </num><listContent>Rep. Van Taylor (R-TX) offered, in coordination 
+                        with Rep. Joe Morelle (D-NY), an amendment to the ANS 
+                        requiring the Secretary to conduct a study of 
+                        exemptions to state laws pertaining to the minimum age 
+                        of marriage and examine how such exemptions affect 
+                        child safety. The amendment was adopted via voice vote.</listContent></listItem>
+                <listItem><num>6. </num><listContent>Rep. Susan Wild (D-PA) offered, in coordination 
+                        with Rep. Glenn “GT” Thompson (R-PA), an amendment to 
+                        the ANS requiring the Secretary to conduct a study of 
+                        mandatory reporter state laws and examine differences 
+                        in rates of referrals related to such state laws. The 
+                        amendment was adopted via voice vote.</listContent></listItem>
+                <listItem><num>7. </num><listContent>Rep. Steve Watkins (R-KS) offered, in coordination 
+                        with Rep. Susie Lee (D-NV), an amendment to the ANS 
+                        ensuring that no child protective services protocols or 
+                        systems authorize the separation of a child from their 
+                        family due solely to poverty. The amendment was adopted 
+                        via voice vote.</listContent></listItem>
+                <listItem><num>8. </num><listContent>Rep. Josh Harder (D-CA) offered, in coordination 
+                        with Rep. Dan Meuser (R-PA), an amendment to the ANS 
+                        allowing states to carry out activities that reduce 
+                        child abuse and neglect due to the substance use 
+                        disorder of a parent. The amendment was adopted via 
+                        voice vote.</listContent></listItem>
+            </list>
+               <p>The Committee further considered the following amendment 
+                    H.R. 2480, as amended:</p>
+            <list>
+                <listItem><num>9. </num><listContent>Rep. Pramila Jayapal (D-WA) offered, in 
+                        coordination with Rep. Brett Guthrie (R-KY), an 
+                        amendment to the ANS ensuring that infants whose 
+                        prenatal drug exposure is the result of maternal intake 
+                        of drugs as prescribed by a physician are not reported 
+                        to child protective services. The amendment was 
+                        withdrawn with a commitment to work with Committee 
+                        leadership to improve this language for inclusion in 
+                        the bill.</listContent></listItem>
+            </list>
+            <p>[Content is elided in this sample]</p>
+            <heading>117TH CONGRESS</heading>
+            <subheading class="italic">First Session—Hearings</subheading>
+            <p>[Content is elided in this sample]</p>
+            <subheading class="italic">Second Session—Hearings</subheading>
+            <p>[Content is elided in this sample]</p>
+            <subheading class="italic">Legislative Action</subheading>
+            <p>[Content is elided in this sample]</p>
+            <heading>118TH CONGRESS</heading>
+            <subheading class="italic">First Session—Hearings</subheading>
+            <p>[Content is elided in this sample]</p>
+            <subheading class="italic">Second Session—Hearings</subheading>
+            <p>[Content is elided in this sample]</p>
+            <subheading class="italic">Legislative Action</subheading>
+            <p>[Content is elided in this sample]</p>
+        </segment>
+        
+        <segment role="">
+            <heading>COMMITTEE VIEWS</heading>
+            <heading>INTRODUCTION</heading>
+            <p>Parental rights are non-negotiable. Parents have a God-
+                given right to make decisions for their children, to raise 
+                children according to the values they hold, and to know how 
+                their children are being instructed in school. Americans should 
+                never be forced to relinquish these parental rights to the 
+                government—whether that involves curriculum decisions or 
+                personal medical choices.</p>
+            <p>These rights belong to all serving in parental roles. H.R. 
+                5 amends the <i>Elementary and Secondary Education Act</i> (ESEA), the 
+                <i>Family Educational Rights and Privacy Act</i> (FERPA), and the 
+                <i>Protection of Pupil Rights Amendment</i> (PPRA), all of which 
+                define “parent” broadly to include legal guardians and others 
+                standing in <i>loco parentis</i>. Unfortunately, these fundamental 
+                parental rights are increasingly under assault. The issue of 
+                parents’ rights in education has become a major topic since the 
+                COVID-19 pandemic. School closures allowed many parents, for 
+                the first time, to see exactly what their kids were being 
+                taught. Many parents discovered that divisive and inappropriate 
+                leftist ideology had infiltrated their local public school.</p>
+            <p>Rather than listening to parents’ concerns about what was 
+                being taught, the left has instead tried to silence them. 
+                Powerful teachers unions, school boards, Democrat politicians, 
+                and the Biden Justice Department have all voiced opposition to 
+                the rights of parents to have a say in their child’s education. 
+                Former Democrat House Budget Committee Chairman John Yarmuth 
+                argued in an Education and Labor Committee markup that children 
+                need to be protected from their parents.<ref idref="fn-1"><sup>1</sup></ref><footnote id="fn-1"><num><sup>1 </sup></num><ref href="https://www.youtube.com/watch?v=CwduW_zw18U">https://www.youtube.com/watch?v=CwduW_zw18U</ref>.</footnote> Virginia Democrat 
+                gubernatorial candidate Terry McAuliffe argued during a debate 
+                that parents should not tell schools what to teach.<ref idref="fn-2"><sup>2</sup></ref><footnote id="fn-2"><num><sup>2 </sup></num><ref href="https://www.foxnews.com/politics/mcauliffe-says-he-doesnt-believe-parents-should-control-what-schools-teach">https://www.foxnews.com/politics/mcauliffe-says-he-doesnt-believe-parents-should-control-what-schools-teach</ref>.</footnote> And 
+                Department of Education (ED) Secretary Miguel Cardona refused 
+                to accept that parents should be the primary stakeholder in 
+                their children’s education.<ref idref="fn-3"><sup>3</sup></ref><footnote id="fn-3"><num><sup>3 </sup></num><ref href="https://www.realclearpolitics.com/video/2021/10/01/biden_education_sec_cardona_parents_shouldnt_be_primary_stakeholder_in_their_kids_education.html">https://www.realclearpolitics.com/video/2021/10/01/biden_education_sec_cardona_parents_shouldnt_be_primary_stakeholder_in_their_kids_education.html</ref>.</footnote></p>
+            <p>H.R. 5 takes important steps to restore parents’ rights by 
+                strengthening provisions in ESEA, FERPA, and the PPRA. 
+                Committee Republicans want parents to be involved in the 
+                decision- making process when it comes to their child’s 
+                education. Parents deserve transparency and accountability. The 
+                <i>Parents Bill of Rights Act</i> (PBORA) reaffirms schools’ duties to 
+                parents by securing the following five key rights:</p>
+            <list><listItem><num>1. </num><listContent>The right to know what their children are being 
+                        taught.</listContent></listItem>
+                <listItem><num>2. </num><listContent>The right to be heard by educators and 
+                        policymakers.</listContent></listItem>
+                <listItem><num>3. </num><listContent>The right to see school budgeting and spending.</listContent></listItem>
+                <listItem><num>4. </num><listContent>The right to protect their child’s privacy.</listContent></listItem>
+                <listItem><num>5. </num><listContent>The right to keep their children safe.</listContent></listItem>
+            </list>
+            <subheading class="italic">Parents have the right to know what is being taught</subheading>
+            <p>In 2021, Rhode Island mother-of-two Nicole Solas talked to 
+                an elementary school principal in South Kingstown, RI, about 
+                what was being taught in schools. She quickly became concerned 
+                that leftist ideology was being taught and demanded to know 
+                more. She asked the principal, the school board, the 
+                superintendent, the director of curriculum, and the legal 
+                department at the Rhode Island Department of Education to let 
+                her view the curriculum.<ref idref="fn-4"><sup>4</sup></ref><footnote id="fn-4"><num><sup>4 </sup></num><ref href="https://legalinsurrection.com/2021/06/im-a-mom-seeking-records-of-critical-race-and-gender-curriculum-now-the-school-committee-may-sue-to-stop-me/">https://legalinsurrection.com/2021/06/im-a-mom-seeking-records-of-critical-race-and-gender-curriculum-now-the-school-committee-may-sue-to-stop-me/</ref>.</footnote></p>
+            <p>After persistent stonewalling, the school district directed 
+                her to file a request under state law governing public access 
+                of records on the school district website to obtain the 
+                curriculum. Solas filed numerous requests, leading the school 
+                board to publicly consider suing her.<ref idref="fn-5"><sup>5</sup></ref><footnote id="fn-5"><num><sup>5 </sup></num><ref href="https://turnto10.com/news/local/south-kingstown-school-committee-wont-sue-woman-over-public-records-requests">https://turnto10.com/news/local/south-kingstown-school-committee-wont-sue-woman-over-public-records-requests</ref>.</footnote> In August 2021, the 
+                local National Education Association affiliate did file a 
+                lawsuit against her.<ref idref="fn-6"><sup>6</sup></ref><footnote id="fn-6"><num><sup>6 </sup></num><ref href="https://turnto10.com/news/local/teachers-union-sues-south-kingstown-school-committee-parent-over-public-records-release">https://turnto10.com/news/local/teachers-union-sues-south-kingstown-school-committee-parent-over-public-records-release</ref>.</footnote></p>
+            <p>This kind of treatment is outrageous. Simply because she 
+                wanted to know what her child was being taught, Solas was 
+                subjected to endless stonewalling, public humiliation, and an 
+                interminable and costly legal battle. No parent should have to 
+                go through that just to know what their child is learning in 
+                school.</p>
+            <p>To these ends, schools and school districts must be 
+                transparent about every aspect of education. To honor the 
+                transparency that all parents deserve, H.R. 5 requires states 
+                to ensure that school districts post curriculum information for 
+                each grade level on a publicly accessible website or, for any 
+                districts that do not operate a website, that such districts 
+                must widely disseminate the information to the public. Schools 
+                will also be required to allow parents the opportunity to 
+                review the curriculum. Additionally, schools will be required 
+                to annually release a list of books and reading materials that 
+                are available in the school library, so parents are aware and 
+                able to review the literature available to their child. 
+                Finally, the bill requires states to provide the public a copy 
+                of any revisions made to the state’s academic content and 
+                achievement standards.</p>
+            <p>The Committee is aware of the important role teachers play 
+                in school system. These transparency responsibilities will not 
+                increase teacher burden. The responsibility to post or widely 
+                distribute curriculum information is a school district 
+                responsibility. The Committee expects that school district 
+                staff will fulfill this obligation.</p>
+            <subheading class="italic">Parents have the right to be heard</subheading>
+            <p>In the past two years, parents have turned out en masse to 
+                school board meetings to protest and express their opinions on 
+                local education policies. They have much to be frustrated 
+                about. For one, parents are rightly concerned about how leftist 
+                ideologies have infiltrated school classrooms. Nicole Solas’s 
+                story, above, is a prime example of how school administrators 
+                can stonewall even the most basic attempts to uncover what 
+                children are being taught. That is cause for grave concern.</p>
+            <p>Second, children have borne the brunt of excessively 
+                cautious and politicized COVID-19 mitigation strategies. School 
+                closures and the pandemic experience plunged students into 
+                feelings of isolation, depression, and anxiety.<ref idref="fn-7"><sup>7</sup></ref><footnote id="fn-7"><num><sup>7 </sup></num><ref href="https://www.hsph.harvard.edu/news/hsph-in-the-news/covid-youth-mental-health-crisis/">https://www.hsph.harvard.edu/news/hsph-in-the-news/covid-youth-mental-health-crisis/</ref>.</footnote> The CDC’s 
+                2021 Adolescent Behaviors and Experiences Survey noted that 37 
+                percent of high school students experienced poor mental health 
+                during the pandemic, with 44 percent of all students reporting 
+                feeling persistently sad or hopeless.<ref idref="fn-8"><sup>8</sup></ref><footnote id="fn-8"><num><sup>8 </sup></num><ref href="https://www.cdc.gov/healthyyouth/data/abes.htm">https://www.cdc.gov/healthyyouth/data/abes.htm</ref>, <ref href="https://www.cdc.gov/media/releases/2022/p0331-youth-mental-health-covid-19.html">https://www.cdc.gov/media/releases/2022/p0331-youth-mental-health-covid-19.html</ref>.</footnote> A study conducted by 
+                the American Civil Liberties Union asked students to grade 
+                their mental wellness before and after schools closed on a 
+                scale of one to 10, with 10 indicating peak mental health.<ref idref="fn-9"><sup>9</sup></ref><footnote id="fn-9"><num><sup>9 </sup></num>Student anxiety, depression increasing during school closures, survey finds | EdSource.</footnote> 
+                Before the pandemic, 65 percent of students gave themselves a 
+                seven or higher. After the onset of the pandemic, that 
+                percentage dropped to less than 40 percent. Moreover, the 
+                number of students who rated their mental health a three or 
+                lower more than tripled after the pandemic began, from 7.2 
+                percent to 23 percent.<ref idref="fn-10"><sup>10</sup></ref><footnote id="fn-10"><num><sup>10 </sup></num>Ibid.</footnote></p>
+            <p>Although students have been learning in person most of the 
+                last two school years, the learning loss suffered during school 
+                closures cannot be overstated. Study after study confirms the 
+                sad yet unsurprising reality: school closures crippled K-12 
+                students’ learning. ED released National Assessment of 
+                Educational Progress (NAEP) data<ref idref="fn-11"><sup>11</sup></ref><footnote id="fn-11"><num><sup>11 </sup></num><ref href="https://www.nationsreportcard.gov/highlights/ltt/2022/">https://www.nationsreportcard.gov/highlights/ltt/2022/</ref>.</footnote> last fall showing that 
+                reading and math scores for nine-year-olds declined sharply 
+                over the course of the pandemic. Average scores in 2022 
+                declined five points in reading and seven points in math 
+                compared to 2020. This is the largest average decline in 
+                reading since 1990 and the first ever decline in math. A July 
+                2021 analysis conducted by McKinsey &amp; Company found that 
+                students may earn $49,000 to $61,000 less over their lifetime 
+                because of the pandemic.<ref idref="fn-12"><sup>12</sup></ref><footnote id="fn-12"><num><sup>12 </sup></num><ref href="https://www.mckinsey.com/industries/public-and-social-sector/our-insights/covid-19-and-education-the-lingering-effects-of-unfinished-learning">https://www.mckinsey.com/industries/public-and-social-sector/our-insights/covid-19-and-education-the-lingering-effects-of-unfinished-learning</ref>.</footnote></p>
+            <p>What is worse is that COVID-19 mitigation policies were 
+                often influenced less by the imperatives of public health 
+                concerns and more by Democrats’ political allies. For instance, 
+                the Biden administration allowed the American Federation of 
+                Teachers to rewrite key portions of the Centers for Disease 
+                Control and Prevention’s school reopening guidance.<ref idref="fn-13"><sup>13</sup></ref><footnote id="fn-13"><num><sup>13 </sup></num><ref href="https://nypost.com/2021/05/01/teachers-union-collaborated-with-cdc-on-school-reopening-emails/">https://nypost.com/2021/05/01/teachers-union-collaborated-with-cdc-on-school-reopening-emails/</ref>.</footnote> 
+                Teachers unions also had tremendous control over deciding which 
+                school districts would reopen. Research shows large urban 
+                school districts with entrenched union power were less likely 
+                to reopen in the fall of 2021.<ref idref="fn-14"><sup>14</sup></ref><footnote id="fn-14"><num><sup>14 </sup></num><ref href="https://www.brookings.edu/blog/brown-center-chalkboard/2021/03/25/teachers-unions-scapegoats-or-bad-faith-actors-in-covid-19-school-reopening-decisions/">https://www.brookings.edu/blog/brown-center-chalkboard/2021/03/25/teachers-unions-scapegoats-or-bad-faith-actors-in-covid-19-school-reopening-decisions/</ref>.</footnote></p>
+            <p>When parents shared their concerns at local school board 
+                meetings, the Biden administration reacted not with compassion 
+                but by threatening to investigate and prosecute parents. In 
+                October 2021, Attorney General Merrick Garland instructed the 
+                FBI to be on the lookout for “harassment, intimidation, and 
+                threats of violence” against school board members and 
+                administrators.<ref idref="fn-15"><sup>15</sup></ref><footnote id="fn-15"><num><sup>15 </sup></num><ref href="https://www.justice.gov/ag/page/file/1438986/download">https://www.justice.gov/ag/page/file/1438986/download</ref>.</footnote> This directive followed on the heels of the 
+                National School Boards Association’s plea to the White House 
+                that some parents’ protests to school boards could be akin to 
+                “domestic terrorism.”<ref idref="fn-16"><sup>16</sup></ref><footnote id="fn-16"><num><sup>16 </sup></num><ref href="https://www.edweek.org/policy-politics/national-school-board-groups-apology-for-domestic-terrorism-letter-may-not-quell-uproar/2021/10">https://www.edweek.org/policy-politics/national-school-board-groups-apology-for-domestic-terrorism-letter-may-not-quell-uproar/2021/10</ref>.</footnote></p>
+            <p>Parents should never be prosecuted or labeled “domestic 
+                terrorists” simply for sharing their frustrations. School 
+                board meetings should be open to any concerned parent who 
+                wishes to discuss what is happening in their child’s school. 
+                H.R. 5 includes provisions that require each school district 
+                receiving Title I funds to provide parents an opportunity to 
+                address the school board on issues impacting the education of 
+                children in the school district. Additionally, parents should 
+                have access to their child’s teachers. Since parents are the 
+                primary stakeholders of their child’s education, H.R. 5 
+                includes provisions to ensure that all parents are aware of 
+                their opportunity to meet in person with each of their child’s 
+                teachers at least twice a year.</p>
+            <subheading class="italic">Parents have the right to see the school budget and spending</subheading>
+            <p>[Content is elided in this sample]</p>
+            <subheading class="italic">Parents have the right to protect their child’s privacy</subheading>
+            <p>[Content is elided in this sample]</p>
+            <subheading class="italic">Parents have the right to keep their children safe</subheading>
+            <p>[Content is elided in this sample]</p>
+            <heading>CONCLUSION</heading>
+            <p>The Biden administration’s politicization of education must 
+                stop. Parents have the right to be part of their child’s 
+                education. H.R. 5 takes important steps to restore parents’ 
+                rights by strengthening provisions in ESEA, FERPA, and the 
+                PPRA. Secretary of Education Miguel Cardona recently published 
+                an op-ed about the Democrat vision for parent empowerment.<ref>27</ref>
+                In his vision, parents should be satisfied when the federal 
+                government spends taxpayer dollars on top-down solutions. By 
+                contrast, Committee Republicans want an authentic give-and-take 
+                between parents and the education system about what students 
+                learn, how they are taught, and how they should be protected. 
+                Democrats seem to believe parents’ rights means the right to 
+                accept whatever the experts hand down from on high. H.R. 5 
+                rejects that approach and embraces an active role for parents 
+                in the education of their children.</p>
+        </segment>
+        <segment role="summary">
+            <heading>SUMMARY H.R. 5, THE PARENTS BILL OF RIGHTS ACT SECTION BY SECTION SUMMARY</heading>
+            <subheading class="italic">Section 1. Short title</subheading>
+            <list><listItem><num>• </num><listContent>Names the bill as the “Parents Bill of Rights Act.”</listContent></listItem></list>
+            <heading>TITLE I—AMENDMENTS TO THE ELEMENTARY AND SECONDARY EDUCATION ACT</heading>
+            <subheading class="italic">Section 101. State plan assurances</subheading>
+            <list><listItem><num>• </num><listContent>Amends the Title I state plan to require states to 
+                        ensure that each school district in the state posts the 
+                        curriculum for each grade level on a publicly accessible 
+                        website or, if the district does not operate a website, widely 
+                        disseminates the curriculum to the public. To protect 
+                        intellectual property, the bill specifies that if the 
+                        curriculum is not freely and openly available, school districts 
+                        must post descriptions of the curriculum and information on how 
+                        parents can review the curriculum.</listContent></listItem>
+                <listItem><num>• </num><listContent>Amends the Title I state plan to require states to 
+                        provide the public a copy of any revisions to the state’s 
+                        academic content and achievement standards, while also 
+                        clarifying that such a notice does not have to be provided to 
+                        the Secretary of Education.</listContent></listItem></list>
+            <subheading class="italic">Section 102. Annual local educational agency report card</subheading>
+            <list><listItem><num>• </num><listContent>Requires school districts that receive Title I 
+                        funds to include, as part of their annual report cards to the 
+                        public, the budget (including all revenues and expenditures) 
+                        for that school year for the district as a whole and for each 
+                        school served by that district.</listContent></listItem>
+                <listItem><num>• </num><listContent>Requires school districts to present summarized 
+                        budget information in addition to the detailed information 
+                        required to be reported under the bill.</listContent></listItem></list>
+            <subheading class="italic">Section 103. Local educational agency plan assurances</subheading>
+            <list><listItem><num>• </num><listContent>Amends the Title I local plan to require each 
+                        school district that receives Title I funds to post on a 
+                        publicly accessible website or, if the district does not 
+                        operate a website, widely disseminate to the public, the school 
+                        district’s plan for carrying out the parent engagement required 
+                        under section 1116 of the Elementary and Secondary Education 
+                        Act and the policies and procedures that result from that 
+                        engagement.</listContent></listItem>
+                <listItem><num>• </num><listContent>Ensures that schools notify parents if their 
+                        children are not grade-level proficient in reading at the end 
+                        of the third grade.</listContent></listItem>
+                <listItem><num>• </num><listContent>Requires school districts to ensure that schools 
+                        notify parents of individuals or groups that are invited to 
+                        speak at school.</listContent></listItem></list>
+            <subheading class="italic">Section 104. Parents Right-to-Know</subheading>
+            <list><listItem><num>• </num><listContent>Amends the Title I “Parents Right-To-Know” 
+                provisions to require each school district that receives Title 
+                I funds to ensure that each school served by the district:</listContent>
+                    <list><listItem><num>○ </num><listContent>annually posts a summary notice of the right of 
+                                parents to information about their children’s education 
+                                contained in the Elementary and Secondary Education 
+                                Act, including at least:</listContent>
+                            <list><listItem><num>&#x25fe; </num><listContent>the right to review the curriculum of the 
+                                        child’s school at no cost to parents;</listContent></listItem>
+                                <listItem><num>&#x25fe; </num><listContent>the right to make copies of curriculum, in 
+                                        addition to inspecting them;</listContent></listItem>
+                                <listItem><num>&#x25fe; </num><listContent>the right to know if the state alters the 
+                                        state’s academic standards;</listContent></listItem>
+                            </list></listItem></list>
+            </listItem></list>
+            <p>[Content is elided in this sample]</p>
+        </segment>
+        <segment role="explanation">
+            <heading>EXPLANATION OF AMENDMENTS</heading>
+            <p>The amendments, including the amendment in the nature of a 
+                substitute, are explained in the body of this report.</p>
+        </segment>
+        <segment role="legislativeBranchApplication">
+            <heading>APPLICATION OF LAW TO THE LEGISLATIVE BRANCH</heading>
+            <p>Section 102(b)(3) of Public Law 104-1 requires a 
+                description of the application of this bill to the legislative 
+                branch. H.R. 5. takes important steps to clarify that parents 
+                have a right to know what is happening in their child’s school 
+                and maintain the right to make decisions about their child’s 
+                education, including by putting practices in place that 
+                facilitate meaningful dialog between a family and their child’s 
+                school, and lead to more input throughout the learning process.</p>
+        </segment>
+        <segment role="unfundedMandate">
+            <heading>UNFUNDED MANDATE STATEMENT</heading>
+            <p>Section 423 of the Congressional Budget and Impoundment 
+                Control Act (as amended by Section 101(a)(2) of the Unfunded 
+                Mandates Reform Act, P.L. 104-4) requires a statement of 
+                whether the provisions of the reported bill include unfunded 
+                mandates. This issue is addressed in the CBO letter.</p>
+        </segment>
+        <segment role="earmark">
+            <heading>EARMARK STATEMENT</heading>
+            <p>H.R. 5 does not contain any congressional earmarks, limited 
+                tax benefits, or limited tariff benefits as defined in clause 9 
+                of House rule XXI.</p>
+        </segment>
+        <votesInCommittee>
+            <heading>ROLL CALL VOTES</heading>
+            <p>Clause 3(b) of rule XIII of the Rules of the House of 
+                Representatives requires the Committee Report to include for 
+                each record vote on a motion to report the measure or matter 
+                and on any amendments offered to the measure or matter the 
+                total number of votes for and against and the names of the 
+                Members voting for and against.</p>
+            <figure><figCaption>roll call vote 2 scanned image</figCaption><img alt="roll call vote 2 scanned image"/></figure>   
+            <figure><figCaption>roll call vote 3 scanned image</figCaption><img alt="roll call vote 3 scanned image"/></figure>
+            <figure><figCaption>roll call vote 4 scanned image</figCaption><img alt="roll call vote 4 scanned image"/></figure>
+            <figure><figCaption>roll call vote 5 scanned image</figCaption><img alt="roll call vote 5 scanned image"/></figure>
+            <figure><figCaption>roll call vote 6 scanned image</figCaption><img alt="roll call vote 6 scanned image"/></figure>
+            <figure><figCaption>roll call vote 7 scanned image</figCaption><img alt="roll call vote 7 scanned image"/></figure>
+            <figure><figCaption>roll call vote 8 scanned image</figCaption><img alt="roll call vote 8 scanned image"/></figure>
+            <figure><figCaption>roll call vote 9 scanned image</figCaption><img alt="roll call vote 9 scanned image"/></figure>
+            <figure><figCaption>roll call vote 10 scanned image</figCaption><img alt="roll call vote 10 scanned image"/></figure>
+            <figure><figCaption>roll call vote 11 scanned image</figCaption><img alt="roll call vote 11 scanned image"/></figure>
+            <figure><figCaption>roll call vote 12 scanned image</figCaption><img alt="roll call vote 12 scanned image"/></figure>
+            <figure><figCaption>roll call vote 13 scanned image</figCaption><img alt="roll call vote 13 scanned image"/></figure>
+            <figure><figCaption>roll call vote 14 scanned image</figCaption><img alt="roll call vote 14 scanned image"/></figure>
+            <figure><figCaption>roll call vote 15 scanned image</figCaption><img alt="roll call vote 15 scanned image"/></figure>
+            <figure><figCaption>roll call vote 16 scanned image</figCaption><img alt="roll call vote 16 scanned image"/></figure>
+            <figure><figCaption>roll call vote 17 scanned image</figCaption><img alt="roll call vote 17 scanned image"/></figure>
+        </votesInCommittee>
+        <segment>
+            <heading>STATEMENT OF GENERAL PERFORMANCE GOALS AND OBJECTIVES</heading>
+            <p>In accordance with clause (3)(c) of House rule XIII, the 
+                goal of H.R. 5 is to protect parents’ rights in educational 
+                decisions about their children.</p>
+        </segment>
+        <segment>
+            <heading>DUPLICATION OF FEDERAL PROGRAMS</heading>
+            <p>No provision of H.R. 5 establishes or reauthorizes a 
+                program of the Federal Government known to be duplicative of 
+                another Federal program, a program that was included in any 
+                report from the Government Accountability Office to Congress 
+                pursuant to section 21 of Public Law 111-139, or a program 
+                related to a program identified in the most recent Catalog of 
+                Federal Domestic Assistance.</p>
+        </segment>
+        <segment>
+            <heading>DISCLOSURE OF DIRECTED RULE MAKINGS</heading>
+            <p>The committee estimates enacting H.R. 5 does not 
+                specifically direct the completion of any specific rule makings 
+                within the meaning of 5 U.S.C. 551.</p>
+        </segment>
+        <segment>
+            <heading>STATEMENT OF OVERSIGHT FINDINGS AND RECOMMENDATIONS
+                OF THE COMMITTEE</heading>
+            <p>In compliance with clause 3(c)(1) of rule XIII and clause 
+                2(b)(1) of rule X of the Rules of the House of Representatives, 
+                the committee’s oversight findings and recommendations are 
+                reflected in the body of this report.</p>
+        </segment>
+        <segment>
+            <heading>REQUIRED COMMITTEE HEARING AND RELATED HEARINGS</heading>
+            <p> In compliance with clause 3(c)(6) of rule XIII the 
+                following hearing held during the 118th Congress was used to 
+                develop or consider H.R. 5: “American Education in Crisis.”</p>
+            <p>The following related hearings were held: “Budget Cuts and 
+                Lost Learning: Assessing the Impact of Covid-19 on Public 
+                Education.”, “Underfunded &amp; Unprepared: Examining How to 
+                Overcome Obstacles to Safely Reopen Public Schools.”, “Brown 
+                v. Board of Education at 65: A Promise Unfulfilled,”, 
+                “Building Back Better: Investing in Improving Schools, 
+                Creating Jobs, and Strengthening Families and our Economy.”, 
+                “Addressing the Impact of COVID-19 on Students with 
+                Disabilities.”, “Back to School: Highlighting Best Practices 
+                for Safely Reopening School.”, “Examining the Implementation 
+                of COVID-19 Education Funds.”, “Serving All Students: 
+                Promoting a Healthier, More Supportive School Environment.”, 
+                “Examining the Policies and Priorities of the U.S. Department 
+                of Education.”, “Back to School: Meeting Students’ Academic, 
+                Social and Emotional Needs.”</p>
+        </segment>
+        <estimatedCosts>
+            <heading>NEW BUDGET AUTHORITY AND CBO COST ESTIMATE</heading>
+            <p>With respect to the requirements of clause 3(c)(2) of rule 
+                XIII of the Rules of the House of Representatives and section 
+                308(a) of the Congressional Budget Act of 1974 and with respect 
+                to requirements of clause 3(c)(3) of rule XIII of the Rules of 
+                the House of Representatives and section 402 of the 
+                Congressional Budget Act of 1974, the committee has received 
+                the following estimate for H.R. 5 from the Director of the 
+                Congressional Budget Office:</p>
+            <cboCostEstimate><figure><figCaption>scanned image of CBO Cost Estimate</figCaption><img src="scanned image of CBO cost estimate" alt="scanned image of CBO cost estimate"/></figure>
+            <p>H.R. 5 would amend the Elementary and Secondary Education
+            Act (ESEA) and the General Education Provisions Act (GEPA) to
+            require public schools to allow parents to review certain materials
+            and to be informed of, and grant consent for, certain activities. In
+            addition, the bill would establish requirements on local education
+            agencies (LEAs) as a condition of receiving federal funds.</p>
+            <p>Spending subject to appropriation: The bill would amend ESEA
+            to require LEAs that receive funding under title I to ensure that
+            schools either make certain information publicly available on a
+            website or communicate that information to parents. That information
+            would include curricula, budgets, lists of parents’ rights, library
+            and course materials, and parent engagement plans.</p>
+           <p> In addition, H.R. 5 would amend GEPA to require schools that
+            participate in programs administered by the Department of Education
+            seek parental consent for specified activities—such as the
+            use of technology in the classroom, attendance for guest speakers
+            in the classroom, or mental health treatment. The bill also would
+            restrict the use of student information for commercial and financial
+            gain and require LEAs to provide comment periods to solicit feedback
+            from parents on course materials, books available to students,
+            and professional development materials. Finally, the Secretary of
+            Education would be required to report annually to the Congress
+            about investigations and enforcement actions by LEAs and state
+            education agencies as well as enforcement action taken by the Secretary.</p>
+            <p>Enacting H.R. 5 could result in a decrease in estimated authorizations
+            for programs at the Department of Education. This would
+            come about if schools choose to forgo federal funding by not complying
+            with the requirements in the bill. CBO has no basis to estimate
+            whether or how many LEAs would do so. CBO estimates that,
+            on average, schools receive $275,000 each year in federal funds
+            from programs under ESEA title I.</p>
+            <p>Direct spending: Title IV of the bill would establish as a condition
+            of federal assistance that schools get parental consent before
+            staff change a child’s gender marker, pronouns, or preferred name
+            on any school form or allow a child to change which bathroom or
+            locker room they use. CBO expects that the requirement would
+            apply broadly to all federal funds that schools receive, including
+            funding that is authorized by laws other than ESEA or GEPA.</p>
+            <p>Enacting the parental consent requirement could result in a reduction
+            in direct spending through a similar mechanism as spending
+            subject to appropriations, but CBO has no basis to predict
+            whether, or how many, schools would not comply with the requirement
+            in title IV. As a result, CBO cannot estimate the savings related
+            to schools not complying with that requirement.</p>
+            <p>CBO expects that schools that fail to get such parental consent
+            would not be allowed to participate in the child nutrition programs.
+            Under the National School Lunch Program (NSLP), the School
+            Breakfast Program (SBP), the Child and Adult Care Food Program,
+            the Summer Food Service Program, and the Special Milk Program,
+            the government provides commodities and cash payments to reimburse
+            participating schools and institutions for at least part of the
+            cost of each meal served. In 2024, CBO estimates that the average
+            school that participates in the NSLP and SBP will receive about
+            $121,800 in 2024 under those programs.</p>
+            <p>Mandates: Under the Unfunded Mandates Reform Act (UMRA),
+            duties required of nonfederal entities do not impose mandates if
+            those duties are a condition of federal assistance. H.R. 5 would require
+            state and local educational agencies, including schools, to perform
+            a series of new duties primarily related to the publication of
+            school materials and parental notification, consent, and review. Because
+            the duties in H.R. 5 are either explicitly conditioned on accepting
+            federal assistance or amend existing laws that apply to recipients
+            of federal assistance, the bill would not impose mandates
+            under UMRA.</p>
+            <p>The CBO staff contact for this estimate is Garrett Quenneville.
+            The estimate was reviewed by H. Samuel Papenfuss, Deputy Director
+            of Budget Analysis.</p></cboCostEstimate>
+            <heading>COMMITTEE COST ESTIMATE</heading>
+            <p>Clause 3(d)(1) of rule XIII of the Rules of the House of 
+                Representatives requires an estimate and a comparison of the 
+                costs that would be incurred in carrying out H.R. 5. However, 
+                clause 3(d)(2)(B) of that rule provides that this requirement 
+                does not apply when, as with the present report, the committee 
+                has included in its report a timely submitted cost estimate of 
+                the bill prepared by the Director of the Congressional Budget 
+                Office under section 402 of the Congressional Budget Act.</p>
+        </estimatedCosts>
+        <changesInExistingLaw>
+            <heading>CHANGES IN EXISTING LAW MADE BY THE BILL, AS REPORTED</heading>
+            <p>With respect to the requirement of clause 3(e) of rule XIII 
+                of the Rules of the House of Representatives, changes in 
+                existing law made by the bill, as reported, this section was 
+                not made available to the Committee in time for the filing of 
+                this report. The Chair of the Committee shall have this printed 
+                upon its receipt by the Committee.</p>
+        </changesInExistingLaw>
+        <supplementalViews role="minority">
+            <heading>MINORITY VIEWS</heading>
+            <segment role="minorityViewIntroduction">
+                <heading class="normal">INTRODUCTION</heading>
+                <p>The Majority claims that H.R. 5, the <i>Parents Bill of Rights Act</i>,
+                    seeks to “put in place concrete legal protections that will ensure
+                    parents always have a seat at the table when it comes to their
+                    child’s education.”<ref idref="fn-17"><sup>1</sup></ref><footnote id="fn-17"><num><sup>1 </sup></num>Press Release, Rep. Julia Letlow, Letlow Introduces Parents Bill of Rights (Mar. 1, 2023), https://letlow.house.gov/media/press-releases/letlow-reintroduces-parents-bill-rights.</footnote> However, the bill is largely duplicative of current
+                    law, lacks clarity in how its provisions will actually address
+                    students well-being, and stands as an example of the type federal
+                    overreach Congressional Republicans have long claimed would
+                    harm children, teachers and schools.</p>
+            </segment>
+            <segment role="minorityViewSummary">
+                <heading class="normal">SUMMARY OF CONCERNS</heading>
+            <heading class="italic">H.R. 5 is Duplicative of Current Law</heading>
+                <p>The provisions in H.R. 5 are largely duplicative of current 
+                    law and create unnecessary and burdensome requirements on state 
+                    education agencies (SEAs), local education agencies (LEAs), and 
+                    schools. The bill would require these entities to divert 
+                    essential resources and personnel away from serving students 
+                    and providing them with the supports they need. Recognizing 
+                    this is not an exhaustive list, the following are examples of 
+                    duplicative provisions contained in H.R. 5.</p>
+                <p>Under the <i>Protection of Pupils Rights Amendment</i> (PPRA), 
+                    parents already have the right to access instructional 
+                    materials used by their child’s school.<ref idref="fn-18"><sup>2</sup></ref><footnote id="fn-18"><num><sup>2 </sup></num>20 U.S.C. 1232h(c)(1).</footnote> Title I of 
+                    <i>Elementary and Secondary Education Act of 1965</i> (Title I) also 
+                    currently requires that districts conduct outreach to parents 
+                    and family members, and implement programs, activities, and 
+                    procedures to involve parents and families in their child’s 
+                    education.<ref idref="fn-19"><sup>3</sup></ref><footnote id="fn-19"><num><sup>3 </sup></num>20 U.S.C. 6318(a)(1), (b), (d); 20 U.S.C. 6311(d); 20 U.S.C. 6314(b).</footnote> Under the law, each district that receives Title 
+                    I funds must have a written parent and family engagement policy 
+                    in place that, in part, provides parents with a description and 
+                    explanation of the curriculum and assessments used in their 
+                    child’s school.<ref idref="fn-20"><sup>4</sup></ref><footnote id="fn-20"><num><sup>4 </sup></num>20 U.S.C. 6318(a)(1); 20 U.S.C. 6318(b), (d).</footnote> Districts and schools must distribute this 
+                    policy to parents and family members and hold at least one 
+                    annual meeting with families to explain the policy and their 
+                    right to be involved.<ref idref="fn-21"><sup>5</sup></ref><footnote id="fn-21"><num><sup>5 </sup></num>20 U.S.C. 6318.</footnote> Many of the additional requirements 
+                    placed on SEAs and LEAs would unduly burden Title I schools, 
+                    which serve higher portions of students from low-income 
+                    backgrounds and students of color. For example, if H.R. 5 
+                    became law, funds spent compiling and disseminating required 
+                    lists of books and reading materials to families could 
+                    otherwise be spent on direct educational services for 
+                    disadvantaged students or efforts to close achievement gaps, as 
+                    the <i>Elementary and Secondary Education Act</i> (ESEA) mandates.</p>
+                <p>[Content is elided in this sample]</p>
+            </segment>
+            <segment>
+                <heading class="normal">DEMOCRATIC AMENDMENTS OFFERED DURING THE MARKUP OF H.R. 5</heading>
+                <p>[Content is elided in this sample.]</p>
+            </segment>
+            <segment role="minorityViewConclusion">
+                <heading class="normal">CONCLUSION</heading> 
+                <p>House Democrats believe parental engagement is central to 
+                    student success. As the American Psychological Association 
+                    highlighted, “research shows a strong relationship between 
+                    parent engagement and educational outcomes, including school 
+                    attendance and higher grades and classroom test scores.” <ref idref="fn-22"><sup>15</sup></ref><footnote id="fn-22"><num><sup>15 </sup></num>What is Parental Engagement, Am Psych. Ass’n, (last visited Mar. 11, 2023), https://www.apa.org/pi/lgbt/programs.safe-supportive/parental-engagement.</footnote> 
+                    However, H.R. 5 does not help further promote parental 
+                    engagement. Instead, it is a bill largely duplicative of 
+                    requirements already in federal and state law; where it expands 
+                    upon existing requirements it unduly burdens schools and 
+                    families, opens the door for censorship in school curricula and 
+                    school libraries and contributes to the de-professionalization 
+                    of educators and librarians. The bill does nothing to address 
+                    the real challenges facing students, parents, and educators. 
+                    Issues like declining math and science scores, achievement 
+                    gaps, mental health services, and a lack community centers and 
+                    wrap-around services for youth were sidelined to focus on a 
+                    political agenda focused not on education but scapegoating some 
+                    of our most vulnerable students.</p>
+                <p>Simply put, H.R. 5 and PBOR efforts are educational gag 
+                    orders across the nation designed to prevent students from 
+                    learning and prevent teachers from teaching. These efforts seek 
+                    to score political points and scare parents into thinking that 
+                    schools do not have their best interests at heart. The 
+                    overwhelming majority of parents in this country know this is 
+                    not true. Instead, Committee Democrats will continue to 
+                    advocate for the support that schools and families actually 
+                    need to improve parent-teacher partnerships and support student 
+                    well-being and academic achievement. For the reasons stated 
+                    above, Committee Democrats unanimously opposed H.R. 5 when the 
+                    Committee on Education and the Workforce considered it on March 
+                    8, 2023. For the sake of the students of this country, we urge 
+                    the House of Representatives to do the same.</p>
+            </segment>
+            <signatures class="smallCaps">
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="1">Bobby Scott, <inline class="italic normal">Ranking Member.</inline></legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Raúl Grijalva.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Joe Courtney.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Gregorio Sablan.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Frederica Wilson.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Suzanna Bonamici.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Mark Takano.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Alma Adams.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Mark Desaulnier.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Donald Norcross.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Pramila Jayapal.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Lucy McBath.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Jahana Hayes.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Haley Stevens.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Teresa Leger Fernandez.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Frank Mrvan.</legislator></signature>
+                <signature><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="">Jamaal Bowman.</legislator></signature>
+            </signatures>
+        </supplementalViews>
+
+    </reportMain>
+</legislativeReport>

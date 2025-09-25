@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<!-- Goes with https://www.govinfo.gov/content/pkg/CRPT-111hrpt653/pdf/CRPT-111hrpt653-pt1.pdf -->
+<!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+<tallySheet xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.1.xsd" xml:lang="en">
+    <!-- https://agriculture.house.gov/sites/republicans.agriculture.house.gov/files/inside/legislation/111/hr4645rollcall7holdenmotionreptfav.pdf -->
+    <tallySheetMeta>
+        <committee>COMMITTEE ON AGRICULTURE</committee>
+        <congress>111</congress>
+        <currentChamber>House</currentChamber>
+        <motionOfferedBy>Rep. Holden</motionOfferedBy>
+        <voteNum>7</voteNum>
+        <voteType>roll call</voteType>
+        <voteTotals>
+            <yeaVoteTotal>25</yeaVoteTotal>
+            <nayVoteTotal>20</nayVoteTotal>
+            <notVotingTotal>1</notVotingTotal>
+        </voteTotals>
+        <accompanies><affected><dc:type>H.R.</dc:type> <docNumber>4645</docNumber></affected></accompanies>
+    </tallySheetMeta>
+    <tallySheetPreface><committee>COMMITTEE ON AGRICULTURE</committee>
+        <heading>ROLL CALL VOTES</heading>
+    </tallySheetPreface>
+    <p>In compliance with the Committee on Agriculture Rules, the Committee sets forth the record of the following roll call votes taken with respect to H.R. 4645, the Travel Restriction
+        Reform and Export Enhancement Act.</p>
+    <p><voteNum><inline class="underline">Roll Call # 7</inline></voteNum></p>
+    <p><b>Summary:</b> <voteDescription>Holden motion to report H.R. 4645 favorably to the House.</voteDescription></p>
+    <p><b>Results: </b><voteTotals><yeaVoteTotal>25 yeas</yeaVoteTotal>, <nayVoteTotal>20 nays</nayVoteTotal>, <notVotingTotal>1 not voting</notVotingTotal></voteTotals></p>
+   <!-- We format these results as two columns. This could also be a table, list, or scanned image, depending on committee preference. -->
+    <!-- Each <column> element could also contain a <legislator> element with the legislator details such as the BioGuide identifier. In this
+    example this information is omitted as it is contained in the <recordedVotes> element. -->
+    <layout class="twoColumn">
+        <header>
+            <column colspan="2" class="centered">YEAS</column>
+        </header>
+        <row>
+            <column>1. Mr. Holden</column><column>14. Mr. Kratovil</column>
+        </row>
+        <row>
+            <column>2. Mr. Boswell</column><column>15. Mr. Boccieri</column>
+        </row>
+        <row>
+            <column>3. Mr. Cardoza</column><column>16. Mr. Murphy</column>
+        </row>
+        <row>
+            <column>4. Mr. Scott</column><column>17. Mr. Owens</column>
+        </row>
+        <row>
+            <column>5. Ms. Herseth Sandlin</column><column>18. Mr. Pomeroy</column>
+        </row>
+        <row>
+            <column>6. Mr. Cuellar</column><column>19. Mr. Childers</column>
+        </row>
+        <row>
+            <column>7. Mr. Costa</column><column>20. Mr. Minnick</column>
+        </row>
+        <row>
+            <column>8. Mr. Ellsworth</column><column>21. Mr. Moran</column>
+        </row>
+        <row>
+            <column>9. Mr. Walz</column><column>22. Mr. Johnson</column>
+        </row>
+        <row>
+            <column>10. Mr. Kagen</column><column>23. Mr. Cassidy</column>
+        </row>
+        <row>
+            <column>11. Mrs. Halvorson</column><column>24. Mrs. Lummis</column>
+        </row>
+        <row>
+            <column>12. Mr. Bright</column><column>25. Mr. Peterson</column>
+        </row>
+        <row>
+            <column>13. Ms. Markey</column><column> </column>
+        </row>
+    </layout>
+    <layout class="twoColumn">
+        <header>
+            <column colspan="2" class="centered">NAYS</column>
+        </header>
+        <row>
+            <column>1. Mr. McIntyre</column><column>11. Mr. King</column>
+        </row>
+        <row>
+            <column>2. Mr. Baca</column><column>12. Mr. Neugebauer</column>
+        </row>
+        <row>
+            <column>3. Mr. Marshall</column><column>13. Mr. Conaway</column>
+        </row>
+        <row>
+            <column>4. Mr. Schrader</column><column>14. Mr. Fortenberry</column>
+        </row>
+        <row>
+            <column>5. Mrs. Dahlkemper</column><column>15. Mrs. Schmidt</column>
+        </row>
+        <row>
+            <column>6. Mr. Schauer</column><column>16. Mr. Smith</column>
+        </row>
+        <row>
+            <column>7. Mr. Lucas</column><column>17. Mr. Roe</column>
+        </row>
+        <row>
+            <column>8. Mr. Goodlatte</column><column>18. Mr. Luetkemeyer</column>
+        </row>
+        <row>
+            <column>9. Mr. Graves</column><column>19. Mr. Thompson</column>
+        </row>
+        <row>
+            <column>10. Mr. Rogers</column><column>20. Mr. Rooney</column>
+        </row>
+    </layout>
+    <layout class="twoColumn">
+        <header>
+            <column colspan="2" class="centered">NOT VOTING</column>
+        </header>
+        <row>
+            <column>1. Mr. Kissell</column>
+        </row>
+    </layout>
+    <recordedVotes display="no">
+        <!-- In this case we set the display of the individual recorded votes to 'no' to hide them from rendering, since we have formatted them for rendering as a two-column layout. -->
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Holden</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Kratovil</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Boswell</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Boccieri</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Cardoza</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Murphy</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Scott</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Owens</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Ms. Herseth Sandlin</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Pomeroy</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Cuellar</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Childers</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Costa</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Minnick</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Ellsworth</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Moran</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Walz</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Johnson</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Kagen</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Cassidy</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mrs. Halvorson</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mrs. Lummis</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Bright</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Peterson</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Ms. Markey</legislator><vote>Yea</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. McIntyre</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. King</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Baca</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Neugebauer</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Marshall</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Conaway</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Schrader</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Fortenberry</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mrs. Dahlkemper</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mrs. Schmidt</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Schauer</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Smith</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Lucas</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Roe</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Goodlatte</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Luetkemeyer</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Graves</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Thompson</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Rogers</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Rooney</legislator><vote>Nay</vote></recordedVote>
+        <recordedVote><legislator bioGuideId="" partyAffiliation="" caucusAffiliation="" rank="" committeeRole=""> Mr. Kissell</legislator><vote>Not voting</vote></recordedVote>
+    </recordedVotes>
+</tallySheet>

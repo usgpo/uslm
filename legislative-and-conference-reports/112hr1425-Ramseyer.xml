@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<changesInExistingLaw xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.1.xsd">
+   <!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+   <!-- Sample data taken from https://www.govinfo.gov/app/details/CRPT-112hrpt90/context -->
+   <!-- This segment would be found in a legislative Committee Report. -->
+   <num class="smallCaps">XIX. </num><heading class="smallCaps">Changes in Existing Law Made by the Bill, as Reported</heading>
+   <p>In compliance with clause 3(e) of rule XIII of the Rules of the House of Representatives, changes in existing law made by the bill, as reported, are shown as follows (existing law proposed to be omitted is enclosed in black brackets, new matter is printed in italic, existing law in which no change is proposed is shown in roman):</p>
+   <existingLaws>
+      <existingLaw source="/us/115/pl/43">
+   <heading class="bold centered"><existingLawName>SMALL BUSINESS ACT</existingLawName></heading>
+         <changesToLaw>
+<p class="centered"><elided>* * * * * * *</elided></p>
+<section style="other">
+   <num class="smallCaps">Sec. 3. </num>
+<subsection class="inline">
+<num>(a) </num>
+<paragraph class="inline">
+<num>(1) </num>
+   <content><elided>* * *</elided></content>
+</paragraph>
+   <continuation class="centered"><elided>* * * * * * *</elided></continuation>
+</subsection>
+<subsection changed="added" style="OLC"><num class="inline">(aa) </num><heading class="inline"><inline class="smallCaps">Venture Capital Operating Company</inline>.—</heading><content>In this Act, the term “<term>venture capital operating company</term>” means an entity described in clause (i), (v), or (vi) of section 121.103(b)(5) of title 13, Code of Federal Regulations (or any successor thereto).</content></subsection>
+   <subsection changed="added" style="OLC"><num class="inline">(bb) </num><heading class=" inline"><inline class="smallCaps">Hedge fund</inline>.—</heading><content class="inline">In this Act, the term “<term>hedge fund</term>” has the meaning given that term in section 13(h)(2) of the Bank Holding Company Act of 1956 (12 U.S.C. 1851(h)(2)).</content></subsection><subsection changed="added" style="OLC"><num>(cc) </num><heading class="smallCaps">Private equity firm.—</heading><content class="inline">In this Act, the term “<term>private equity firm</term>” has the meaning given the term “<term>private equity fund</term>” in section 13(h)(2) of the Bank Holding Company Act of 1956 (12 U.S.C. 1851(h)(2)).</content></subsection></section>
+            <continuation class="centered"><elided>* * * * * * *</elided></continuation>
+<section style="other">
+   <num class="smallCaps">Sec. 9. </num>
+<subsection class="inline">
+<num>(a) </num>
+   <content><elided>* * *</elided></content>
+</subsection>
+<subsection>
+<num>(b) </num>
+<chapeau>It shall be the duty of the Administration, and it is hereby empowered—</chapeau>
+<paragraph>
+<num>(1) </num>
+   <content><elided>* * *</elided></content>
+</paragraph>
+   <continuation class="centered"><elided>* * * * * * *</elided></continuation>
+   <paragraph>
+      <num>(7) </num>
+      <content>to report not less than annually to the Committee on Small Business of the Senate, and to the Committee on Science and the Committee on Small Business of the House of Representatives, on the SBIR and STTR programs of the Federal agencies and the Administration's information and monitoring efforts related to the SBIR and <deletedText>&#x3010;STTR programs, including the data&#x3011;</deletedText><proposedContent changed="added"><chapeau> STTR programs, including—</chapeau>
+            <subparagraph changed="added" styleType="OLC"><num class="inline">(A) </num><content class="inline">the data</content></subparagraph></proposedContent> on output and outcomes collected pursuant to subsections <deletedText>&#x3010;(g)(10), (o)(9), and (o)(15), the number of proposals received from, and the number and total amount of awards to, HUBZone small business concerns under each of the SBIR and STTR programs, and a description&#x3011;</deletedText><proposedContent changed="added"><content> (g)(8) and (o)(9);</content>
+               <subparagraph changed="added" styleType="OLC"><num>(B) </num><content class="inline">the number of proposals received from, and the number and total amount of awards to, HUBZone small business concerns and firms with venture capital, hedge fund, or private equity firm investment (including those majority-owned by multiple venture capital operating companies, hedge funds, or private equity firms) under each of the SBIR and STTR programs;</content></subparagraph>
+               <subparagraph changed="added" styleType="OLC"><num>(C) </num><content>a description of the extent to which each Federal agency is increasing outreach and awards to firms owned and controlled by women and social or economically disadvantaged individuals under each of the SBIR and STTR programs;</content></subparagraph>
+               <subparagraph changed="added" styleType="OLC"><num>(D) </num><content class="inline">general information about the implementation of, and compliance with the allocation of funds required under, subsection (dd) for firms owned in majority part by venture capital operating companies, hedge funds, or private equity firms and participating in the SBIR program;</content></subparagraph>
+               <subparagraph changed="added" styleType="OLC"><num>(E) </num><content>a detailed description of appeals of Phase III awards and notices of noncompliance with the SBIR Policy Directive and the STTR Policy Directive filed by the Administrator with Federal agencies; and</content></subparagraph>
+               <subparagraph changed="added" styleType="OLC"><num>(F) </num><content>a description</content></subparagraph></proposedContent> of the extent to which Federal agencies are providing in a timely manner information needed to maintain the database described in subsection (k); <deletedText>&#x3010;and&#x3011;</deletedText></content>
+   </paragraph>
+</subsection>
+   <continuation><elided>* * * * * * *</elided><p>[Content is elided in this sample.]</p></continuation>
+</section>
+</changesToLaw>
+      </existingLaw>
+      <existingLaw  source="/us/scomp/">
+         <heading class="bold centered"><existingLawName>SECTION 108 OF THE SMALL BUSINESS REAUTHORIZATION ACT OF 2000</existingLawName></heading>
+         <changesToLaw>
+            <section style="OLC"><num class="bold inline">SEC. 108 </num><heading class="inline">NATIONAL RESEARCH COUNCIL REPORTS.</heading><subsection><num class="inline">(a) </num><heading class="inline"><elided>* * *</elided></heading>
+                  <continuation class="centered"><elided>* * * * * * *</elided></continuation></subsection>
+               <subsection changed="added" style="OLC"><num class="inline">(e) </num><heading class="smallCaps inline">Extensions and enhancements of authority.—</heading>
+                  <paragraph><num class="inline">(1) </num><heading class="smallCaps inline">In general.—</heading><chapeau>Not later than 6 months after the date of enactment of the Creating Jobs Through Small Business Innovation Act of 2011, the head of each agency described in subsection (a), in consultation with the Small Business Administration, shall cooperatively enter into an agreement with the National Academy of Sciences for the National Research Council to, not later than 4 years after the date of enactment of the Creating Jobs Through Small Business Innovation Act of 2011, and every 4 years thereafter—</chapeau>
+                        <subparagraph><num>(A) </num><chapeau>continue the most recent study under this section relating to—</chapeau><clause><num>(i) </num><content>the issues described in subparagraphs (A), (B), (C), and (E) of subsection (a)(1); and</content></clause>
+                           <clause><num>(ii) </num><content>the effectiveness of the government and public databases described in section 9(k) of the Small Business Act (15 U.S.C. 638(k)) in reducing vulnerabilities of the SBIR program and the STTR program to fraud, waste, and abuse, particularly with respect to Federal agencies funding duplicative proposals and business concerns falsifying information in proposals;</content></clause></subparagraph>
+                        <subparagraph><num>(B) </num><chapeau>conduct a comprehensive study of how the STTR program has stimulated technological innovation and technology transfer, including—</chapeau><clause><num>(i) </num><content>a review of the collaborations created between small businesses and research institutions, including an evaluation of the effectiveness of the program in stimulating new collaborations and any obstacles that may prevent or inhibit the creation of such collaborations;</content></clause>
+                           <clause><num>(ii) </num><content>an evaluation of the effectiveness of the program at transferring technology and capabilities developed through Federal funding;</content></clause>
+                           <clause><num>(iii) </num><content>an evaluation of the program’s success at commercializing technologies compared with other Federal technology transfer programs and the SBIR program;</content></clause>
+                           <clause><num>(iv) </num><content>to the extent practicable, an evaluation of the economic benefits achieved by the STTR program, including the economic rate of return;</content></clause>
+                           <clause><num>(v) </num><content>an analysis of how Federal agencies are using small businesses that have completed Phase II under the STTR program to fulfill their procurement needs; and</content></clause><clause><num>(vi) </num><content>an analysis of whether the existing STTR allocation has impacted the effectiveness of the program in achieving its goals.</content></clause></subparagraph>
+                        <subparagraph><num>(C) </num><content>make recommendations with respect to the issues described in subparagraph (A), (D), and (E) of subsection (a)(2) and subparagraph (B) of this paragraph; and</content></subparagraph><subparagraph><num>(D) </num><content>estimate, to the extent practicable, the number of jobs created by the SBIR program or STTR program of the agency.</content></subparagraph></paragraph>
+                  <paragraph><num class="inline">(2) </num><heading class="inline smallCaps normal">Consultation.—</heading><content>An agreement under paragraph (1) shall require the National Research Council to ensure that there is participation by and consultation with the small business community, the Administration, and other interested parties as described in subsection (b).</content></paragraph>
+                  <paragraph><num class="inline">(3) </num><heading class="inline smallCaps normal">Reporting.—</heading><chapeau>An agreement under paragraph (1) shall require that—</chapeau>
+                     <subparagraph><num>(A) </num><content>not later than 4 years after the date of enactment of the Creating Jobs Through Small Business Innovation Act of 2011, and every 4 years thereafter, the National Research Council shall submit to the head of the agency entering into the agreement, the Committee on Small Business and Entrepreneurship of the Senate, and the Committee on Small Business and the Committee on Science, Space, and Technology of the House of Representatives, a report regarding the study conducted under paragraph (1) and containing the recommendations described in paragraph (1); and</content></subparagraph>
+                           <subparagraph><num>(B) </num><content>not later than 2 years after the date of enactment of the Creating Jobs Through Small Business Innovation Act of 2011, the National Research Council shall submit to the head of the agency entering into the agreement, the Committee on Small Business and Entrepreneurship of the Senate, and the Committee on Small Business and the Committee on Science, Space, and Technology of the House of Representatives, a report of preliminary findings and recommendations regarding the study conducted under paragraph (1)(B).</content></subparagraph>
+                        </paragraph></subsection>
+               <continuation><elided>* * * * * * *</elided><p>[Content is elided in this sample.]</p></continuation></section>
+      </changesToLaw>
+      </existingLaw>
+   </existingLaws>
+
+</changesInExistingLaw>
