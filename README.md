@@ -1,9 +1,8 @@
+>Version 2.1.1 of the schema, the schema review guide, updated CSS, and sample files for committee legislative reports and conference reports are available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed/legislative-and-conference-reports). Please refer to [CHANGELOG.md](CHANGELOG.md) for a summary of proposed changes.  
+>
 >Versions 2.0.14, 2.0.15, 2.0.16, 2.0.17, and 2.1.0 of the schema are available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
 >  
 >Version 2.33 of the CSS is available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
->  
->Sample Bill files are available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
-
 
 # USLM Schema #  
 In support of the United States Legislative Branch XML Working Group and in accordance with [2 U.S.C. 181](https://www.govinfo.gov/link/uscode/2/181), the Government Publishing Office (GPO) is making the United States Legislative Markup (USLM) XML schema available as an authoritative source on GitHub. 

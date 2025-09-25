@@ -1,6 +1,46 @@
 ﻿## Proposed Changes ##    
   
-N/A  
+2.1.1 - Proposed version of uslm-2.1.1.xsd along with uslm-components-2.1.1.xsd, uslm-table-module-2.1.1.xsd, uslm.css, and legislativeReport.css for the Committee Legislative Reports and Conference Reports project.   
+
+Schema:  
+- Add the ReportDocType document type as a basis for reports.  
+- Add the legislativeReport document type for legislative committee reports.  
+  - Add reportMeta, reportPreface, reportMain elements.  
+  - The reportMeta element extends the meta element to add the elements accompanies, cboCostEstimateLine, genre, jacketId.  
+  - The reportPreface element extends the preface element to add the elements accompanies, cboCostEstimateLine, committeeMembersAndStaff, jacketId, legislators, legislator, reportCoverPage, reportTitle, staff, staffList.  
+  - The reportMain element adds the elements segment, changesInExistingLaw, estimatedCosts, legislativeSegment, jointExplanatoryStatement, recommendation, supplementalViews, and votesInCommittee to the schema.  
+  - The changesInExistingLaw element adds the elements changesToLaws, existingLaw, existingLaws, existingLawName, proposedContent to the schema.  
+  - The estimatedCosts element adds the elements cboCostEstimate and cboLetter to the schema.  
+  - The jointExplanatoryStatement and supplementalViews elements add the element signaturesBlock to the schema.  
+  - The votesInCommittee element adds the tallySheet, tallySheetMeta, tallySheetPreface, recordedVotes, event, modVoteDate, updateVoteDate, vote, voteDate, voteDescription, voteDisposition, voteNum, voteTotals, ayeVoteTotal, yeaVoteTotal, notVotingTotal, nayVoteTotal, presentVoteTotal, noVoteTotal, absentTotal, otherVoteTotal elements to the schema.  
+- Change the RunningHeaderType to allow inline elements for formatting content.  
+- Add elements used in legislative committee reports to the column, longTitle, p, xhtml:caption, xhtml:td, and xhtml:th elements.  
+- Change the StatementType to no longer include the longTitle or other statement elements.  
+- Add mathml:math and referenceMarker elements to the PositionedNoteType.  
+- Add mathml:math to ProvisoType for the Statutes at Large Digitization Project.  
+- Change the content model for listContent to ListContentType and allow p elements.  
+- Deprecate the preliminary element prior to removal in a future version of USLM 2.  
+- Remove the unused temporalId, occurrence, and actionDate attributes.  
+  
+CSS:  
+  
+File - uslm.css:  
+Version: 2.37 2025-09-18  
+Previous version: 2.33 2024-08-23  
+  
+- Add styling for index in Statutes at Large back matter.  
+- Add classes for US Code Titles to better match the PDF version.  
+- Add classes for better support of historical Statutes at Large.  
+- Change to more specific definitions of indent classes for the US Code.  
+  
+File - legislativeReport.css  
+Version: Last modified: September 22, 2025  
+  
+- Add styling for elements used in legislative committee reports.  
+
+Sample Files: 
+- Sample Committee Legislative Reports and Conference Reports are available for review.  
+  
  
 ## Approved Changes ##  
 
