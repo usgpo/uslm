@@ -6,7 +6,7 @@
 
 
 # USLM Schema #  
-In support of the United States Legislative Branch XML Working Group and in accordance with [2 U.S.C. 181](https://www.govinfo.gov/link/uscode/2/181), the Government Publishing Office (GPO) is making the United States Legislative Markup (USLM) XML schema available as an authoritative source on GitHub. 
+In support of the United States Legislative Branch XML Working Group and in accordance with [2 U.S.C. 181](https://www.govinfo.gov/link/uscode/2/181), the Government Publishing Office (GPO) is making the United States Legislative Markup (USLM) XML schema available as an authoritative source on GitHub. See also the [Standardized Formats for Legislative Documents, USLM](https://usgpo.github.io/innovation/reports/) section of Reports on Legislative Branch Innovation Hub.  
 
 
 ## Schema Versions ##  
