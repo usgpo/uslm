@@ -6,20 +6,20 @@
 @namespace xhtml "http://www.w3.org/1999/xhtml";
 @namespace olrc "http://xml.house.gov/schemas/uslm/olrc";
 
-/* Version 2.33 2024-08-23 */
+/* Version 2.39 2026-05-11 */
 
-/* USLM root elements*/
+/* USLM root elements */
 bill, resolution, pLaw,
 statutesAtLarge, statuteCompilation,
 cfrDoc, frDoc, uscDoc, 
 engrossedAmendment, amendment {
-    font-family: "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: "Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
-/* Set margin to be 1em, to push the text away from the frame/print border */
-/* Set the font-size to be 10pts, and make all other measurements in em's */
-/* Not using rem units because the USLM sometimes lives within a 'div' of a surrounding application */
-/* Use serifed font to match printed bills and U.S. Code */
+/* Set margin to be 1em, to push the text away from the frame/print border 
+    Set the font-size to be 10pts, and make all other measurements in em's 
+    Use serifed font to match printed bills and U.S. Code */
+    /*  Web font size for bills: 14pt; default print size is 10pt */
 
 bill, resolution, pLaw,
 statutesAtLarge, statuteCompilation  {
@@ -30,10 +30,10 @@ statutesAtLarge, statuteCompilation  {
 
 /* For U.S. Code, set rendering compatibility with OLRC web version */
 uscDoc  {
-    max-width:          426pt;  /* Printed column width is ~206 pt. Both columns plus gutter is ~426pt.*/
+    max-width:          426pt;  /* Printed column width is ~206 pt. Both columns plus gutter is ~426pt. */
     margin-left:        24pt;
     margin-right:       24pt;
-    font-size:          11pt;  /* Web font size is 11pt. Printed font size is 8pt */
+    font-size:          11pt;  /* Web font size is 12pt (16px). Printed font size is 8pt. */
 }
 
 cfrDoc,
@@ -43,7 +43,7 @@ chapter[identifier*="/us/cfr"]  {
     margin:             1em;
     max-width:          35em;  /* 350 points */
     font-size:          10pt;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 frDoc {
@@ -51,11 +51,34 @@ frDoc {
     margin:             1em;
     max-width:          58em;  /* 522 points */
     font-size:          9pt;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
-uscDoc>meta, frDoc>meta  {
+component {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* Metadata block */
+/* The meta elements are usually not displayed; the selectors and properties here are kept in case that should change
+ * for a particular application */
+ 
+/* Suppress display of the Meta block */
+component>pLaw>meta::before,
+component>resolution>meta::before,
+component>*>meta *,
+component>*>meta,
+meta, amendMeta {
     display:            none;
+}
+
+meta>* {
+    margin-left:        2em;
+    text-indent:        -2em;
+}
+
+uscDoc>meta, bill>meta, resolution>meta, pLaw>meta, statutesAtLarge>meta,
+frDoc>meta, cfrDoc>meta, statutesAtLarge component>meta  {
     border-style:       solid;
     border-width:       1pt;
     border-color:       gray;
@@ -63,37 +86,174 @@ uscDoc>meta, frDoc>meta  {
     margin-top:         3pt;
     margin-bottom:	    3pt;
     text-align:         left;
-    text-indent:        1em;
+    text-indent: 0;
+    padding-left:       1em;
+    color:              gray;
 }
 
-uscDoc>meta::before, frDoc>meta::before  {
-    display:            none;
+uscDoc>meta::before, bill>meta::before, resolution>meta::before, pLaw>meta::before, statutesAtLarge>meta::before,
+frDoc>meta::before, cfrDoc>meta::before, statutesAtLarge component>meta::before  {
+    display:            inline;
     color:              gray;
     font-size:          1.2em;
     font-weight:        bold;
     content:            "[Metadata]";
 }
 
-/* USLM First-level elements */
-meta, preface, amendPreface, main, amendMain, signatures, appendix {
-    display:            block;
+/* Dublin Core elements */
+
+meta>dc|creator::before {
+    display:            inline;
+    color:              gray;
+    content:            "Created By: ";
+}
+
+meta>dc|format::before {
+    display:            inline;
+    color:              gray;
+    content:            "Format: ";
+}
+
+meta>dc|identifier::before {
+    display:            inline;
+    color:              gray;
+    content:            "Identifier: ";
+}
+
+meta>dc|language::before {
+    display:            inline;
+    color:              gray;
+    content:            "Language: ";
+}
+
+meta>dc|publisher::before  {
+    display:            inline;
+    color:              gray;
+    content:            "Publisher: ";
+}
+
+meta>dc|rights::before {
+    display:            inline;
+    color:              gray;
+    content:            "Rights: ";
+}
+
+meta>dc|title::before  {
+    display:            inline;
+    color:              gray;
+    content:            "Title: ";
+}
+
+meta>dc|type::before  {
+    display:            inline;
+    color:              gray;
+    content:            "Type: ";
+}
+
+meta>dcterms|created::before {
+    display:            inline;
+    color:              gray;
+    content:            "Created On: ";
+}
+
+/* USLM-defined metadata elements in the meta element context. 
+ * By default, these are not shown. */
+meta>citableAs::before  {
+    display:            inline;
+    color:              gray;
+    content:            "Citable As: ";
+}
+
+meta>congress::before {
+    display:            inline;
+    color:              gray;
+    content:            "Congress: ";
+}
+
+meta>date::before {
+    display:            inline;
+    color:              gray;
+    content:            "Date: ";
+}
+
+meta>docNumber::before {
+    display:            inline;
+    color:              gray;
+    content:            "Doc Number: ";
+}
+
+meta>docPart::before  {
+    display:            inline;
+    color:              gray;
+    content:            "Document Part: ";
+}
+
+meta>docPublicationName::before  {
+    display:            inline;
+    color:              gray;
+    content:            "Publication Name: ";
+}
+
+meta>docReleasePoint::before {
+    display:            inline;
+    color:              gray;
+    content:            "Doc Release Point: ";
+}
+
+meta>docStage::before {
+    display:            inline;
+    color:              gray;
+    content:            "Doc Stage: ";
+}
+
+meta>issue::before {
+    display:            inline;
+    color:              gray;
+    content:            "Issue: ";
+}
+
+meta>processedBy::before {
+    display:            inline;
+    color:              gray;
+    content:            "Processed By: ";
+}
+
+meta>processedDate::before {
+    display:            inline;
+    color:              gray;
+    content:            "Processed Date: ";
+}
+
+meta>publicPrivate::before {
+    display:            inline;
+    color:              gray;
+    content:            "Public/Private: ";
+}
+
+meta>session::before {
+    display:            inline;
+    color:              gray;
+    content:            "Session: ";
+}
+
+meta>startingPage::before {
+    display:            inline;
+    color:              gray;
+    content:            "Starting Page: ";
+}
+
+meta>volume::before {
+    display:            inline;
+    color:              gray;
+    content:            "Volume: ";
+}
+
+/*  End Metadata block  */
+
+/* USLM top-level elements */
+preface, amendPreface, main, amendMain, signatures, appendix {
+    display:  block;
     clear: both;
-}
-
-/* Suppress display of the Meta block */
-meta, amendMeta {
-    display:            none;
-}
-
-/* To render similar to GPO-printed bills and resolutions, set the max-width to match prints */
-/* Use max-width to allow the width to be narrower than print display to support narrower viewing windows */
-/* An override stylesheet may be used to set fixed width without scaling narrower when the window is not wide enough */
-bill[class~="mimicGPOPrint"],
-resolution[class~="mimicGPOPrint"],
-pLaw[class~="mimicGPOPrint"],
-statutesAtLarge[class~="mimicGPOPrint"] pLaw,
-statutesAtLarge[class~="mimicGPOPrint"] resolution {
-    max-width:          46.8em;  /* 468 points including side note space */
 }
 
 /* Set margin space on the right for sidenotes on Public Laws and Statutes at Large */
@@ -109,7 +269,7 @@ statutesAtLarge pLaw>main,
 statutesAtLarge pLaw>preface,
 statutesAtLarge pLaw>signatures,
 statutesAtLarge pLaw>appendix  {
-    margin-left:        0em; /*  None, since side notes are put on the right */
+    margin-left: 0; /*  None, since side notes are put on the right */
     margin-right:       9em;
 }
 
@@ -118,35 +278,9 @@ statutesAtLarge presidentialDoc  {
     margin-right:       15%;
 }
 
-/* The print that OLRC delivers to GPO is approx. 25% smaller and has wider margins */
-bill[class~="OLRCPrint"] {
-    width:              450pt;
-    max-width:          450pt;
-    margin-left:        72pt;
-    margin-right:       72pt;
-    font-size:          8pt;
-}
-
-bill[class~="OLRCPrint"]>meta,
-bill[class~="OLRCPrint"]>preface,
-bill[class~="OLRCPrint"]>main,
-bill[class~="OLRCPrint"]>appendix {
-    margin-left:        108pt;
-    margin-right:       108pt;
-}
 /* General style rule for all authority elements */
 authority {
     display:            block;
-}
-resolution>signatures>signature>notation[type="attestation"]  {
-    display:            block;
-    text-align:         left;
-    font-style:         normal;
-    margin-left:        -8em;
-}
-
-resolution resolvingClause:first-of-type  {
-    display:            inline;
 }
 
 /* Preface Elements */
@@ -155,7 +289,7 @@ bill>preface>dc|type,
 resolution>preface>dc|type  {
     display:            inline-block;
     margin-top:         1em;
-    margin-left:        0em;  /* this is printed in the left margin */
+    margin-left: 0;  /* this is printed in the left margin */
     text-align:         left;
     font-size:          1.3em;
 }
@@ -163,8 +297,23 @@ resolution>preface>dc|type  {
 bill>preface>docNumber,
 resolution>preface>docNumber  {
     display:            inline-block;
-    margin-left:        0em;  /* this shows on the same line as the dc|type */
+    margin-left: 0;  /* this shows on the same line as the dc|type */
     font-size:          1.3em;
+}
+
+bill endorsement session, resolution endorsement session,
+amendment endorsement session, engrossedAmendment endorsement session {
+    display: block;
+}
+
+bill endorsement dc|type, resolution endorsement dc|type, 
+amendment endorsement dc|type, engrossedAmendment endorsement dc|type,
+bill endorsement docNumber, resolution endorsement docNumber,
+amendment endorsement docNumber, engrossedAmendment endorsement docNumber {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
 }
 
 bill>preface>action:has(+congress),
@@ -172,7 +321,7 @@ resolution>preface>action:has(+congress)  {
     display:            inline-block;
     float:              right;
     margin-top:         1em;
-    margin-right:       0em;  /* this is printed in the right margin in enrolled bills */
+    margin-right: 0;  /* this is printed in the right margin in enrolled bills */
     font-size:          1.3em;
     margin-bottom: 1em;
 }
@@ -180,10 +329,7 @@ resolution>preface>action:has(+congress)  {
 bill>preface>congress,
 resolution>preface>congress  {
     display:            block;
-    margin-top:         1em;
-    margin-bottom:      .5em;
-    margin-left:        1em;
-    margin-right:       1em;
+    margin: 1em 1em .5em 1em;
     text-align:         center;
     font-size:          2em;
     font-family:        "Old English Text MT", serif;
@@ -230,6 +376,18 @@ resolution preface currentChamber {
     font-size: 1.2em;
 }
 
+slugLine {
+    display:            block;
+    margin-top:         1em;
+    margin-bottom:      1em;
+    text-align:         center;
+    font-weight:        bold;
+}
+
+bill slugLine, resolution slugLine {
+    display: none;
+}
+
 bill preface congress:has(~currentChamber), resolution preface congress:has(~currentChamber) {
     font-family: inherit;
     font-size: inherit;
@@ -256,6 +414,13 @@ bill preface docNumber:has(~currentChamber), resolution preface docNumber:has(~c
     font-weight: bold;
 }
 
+bill action, resolution action {
+    display: block;
+    float: none;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
 bill action actionDescription, resolution action actionDescription {
     display: block;
 } 
@@ -273,13 +438,6 @@ bill action actionDescription:has(+date), resolution action actionDescription:ha
 }
 bill action actionDescription+date, resolution action actionDescription+date {
   display: inline;
-}
-
-bill action, resolution action {
-    display: block;
-    float: none;
-    font-size: 1em;
-    margin-bottom: 1em;
 }
 
 attestation date {
@@ -306,14 +464,6 @@ engrossedAmendment amendPreface currentChamber {
     font-weight:        bold;
     font-style: italic;
     font-size: 1.2em;
-}
-
-slugLine {
-     display:            block;
-    margin-top:         1em;
-    margin-bottom:      1em;
-    text-align:         center;
-    font-weight:        bold;
 }
 
 amendPreface action date  {
@@ -398,7 +548,7 @@ amendment officialTitleAmendment {
 
 amendment amendPreface docTitle:has(+docNumber), amendment amendPreface docTitle+docNumber {
     font-variant: small-caps;
-     font-size: 1.4em;
+    font-size: 1.4em;
     font-weight: bold;
     margin-top: 1em;
     display: inline-block;
@@ -426,7 +576,6 @@ relatedDocument[role='calendar'] {
 relatedDocument[role='report'] {
     font-weight: bold;
     display:block;
-    text-align: center;
     float: none;
     text-align: center;
 }
@@ -442,7 +591,11 @@ relatedDocuments relatedDocument[role='report'] {
     display: inline;
 }
 
-amendment amendPreface purpose { display: block; margin-top: 1em; margin-bottom: 1em; }
+amendment amendPreface purpose {
+    display: block; 
+    margin-top: 1em; 
+    margin-bottom: 1em; 
+}
 
 amendment amendmentInstruction {
     font-style: initial;
@@ -512,7 +665,11 @@ pLaw>preface>docNumber  {
 
 pLaw>preface>congress  {
     display:            block;
-    margin-top:          0em;
+    margin-top: 0;
+}
+
+pLaw preface ref:has( + footnote) {
+    display: none;
 }
 
 /* StatutesAtLarge Preface */
@@ -543,17 +700,14 @@ statutesAtLarge centerRunningHead  {
     margin-bottom:      0.2em;
 }
 
-statutesAtLarge>preface,  /* In case there is only one part and no collection and component elements*/
+statutesAtLarge>preface,  /* In case there is only one part and no collection and component elements */
 statutesAtLarge>preface>note,
 statutesAtLarge component>preface,  /* For the repeated preface at the start of each part of the volume */
 statutesAtLarge component>preface>note {
     display:            block;
-    margin-top:         1em;
-    margin-bottom:      1em;
-    margin-left:        0em;
-    margin-right:       0em;
+    margin: 1em 0; /* top and bottom | left and right */
     text-align:         center;
-    text-indent:        0em;
+    text-indent: 0;
 }
 
 statutesAtLarge preface>coverTitle  {
@@ -566,12 +720,12 @@ statutesAtLarge preface>coverTitle  {
 
 statutesAtLarge preface>note
 {
-    text-indent:        0em;
+    text-indent: 0;
     font-size:          1.2em;  /* mostly 12 point font in the PDF */
 }
 
 statutesAtLarge preface p   {
-    text-indent:        0em;
+    text-indent: 0;
 }
 statutesAtLarge preface>organizationNote  {
     font-size:          0.8em;  /* 8 point font in the PDF */
@@ -579,12 +733,9 @@ statutesAtLarge preface>organizationNote  {
 
 statutesAtLarge preface>authority  {
     display:            block;
-    margin-top:         3em;
-    margin-bottom:      3em;
-    margin-left:        18em;
-    margin-right:       18em;
+    margin:       3em 18em;  /* top and bottom | left and right */
     text-align:         justify;
-    text-indent:        0em;
+    text-indent: 0;
     font-size:          0.8em;  /* 8 point font in the PDF */
 }
 
@@ -592,10 +743,7 @@ statutesAtLarge preface>explanationNote  {
     display:            block;
     margin-right:       20em;
     margin-left:        20em;
-    padding-top:        1.5em;
-    padding-bottom:     1.5em;
-    padding-left:       1.5em;
-    padding-right :     1.5em;
+    padding:        1.5em;
     border-style:       solid;
     border-color:       black;
     border-width:       1pt;
@@ -605,11 +753,10 @@ statutesAtLarge preface>explanationNote  {
 
 /*  Suppress property note */
 statutesAtLarge component>preface>note[role="propertyStatement"]  {
-   display:none;
+   display: none;
 }
 
 statutesAtLarge preface>toc  {
-    display:            table;
     margin-top:         4em;
     margin-bottom:      4em;
     margin-left:        14em;
@@ -652,7 +799,7 @@ statutesAtLarge preface>listOfBillsEnacted  {
 statutesAtLarge preface>listOfPublicLaws,
 statutesAtLarge preface>listOfPrivateLaws,
 statutesAtLarge preface>listOfConcurrentResolutions,
-statutesAtLarge preface>listOfProclamations  {
+statutesAtLarge preface>listOfProclamations {
     margin-top:         6em;
     margin-bottom:      6em;
     font-size:          .8em;  /* 8 point font in the PDF */
@@ -669,39 +816,74 @@ statutesAtLarge preface>listOfProclamations::before  {
   white-space:          pre;
 }
 
-statutesAtLarge preface>listOfBillsEnacted>groupItem  {
+/* Rules for Indexes */
+
+statutesAtLarge preface>listOfBillsEnacted>groupItem,
+statutesAtLarge backMatter>index>groupItem  {
     display:            table-row-group;
 }
 
-/* Override default properties designator*/
+/* Override default properties designator */
 statutesAtLarge preface>listOfBillsEnacted designator,
 statutesAtLarge preface>listOfPublicLaws designator,
-statutesAtLarge preface>listOfPrivateLaws designator  {
-    width:              8em;
+statutesAtLarge preface>listOfPrivateLaws designator,
+statutesAtLarge backMatter>index designator  {
+   width:              fit-content;
+   min-width:              8em;
 }
 
 /* Override default properties for label */
-statutesAtLarge preface>listOfPrivateLaws>headingItem>label  {
+statutesAtLarge preface>listOfPrivateLaws>headingItem>label {
     text-align:         right;
-    width:              30em;
+    width:              fit-content;
+     min-width:              30em;
     font-style:         italic;
 }
+/* Override default properties for headingItem>label */
+statutesAtLarge preface>listOfPublicLaws>headingItem>label,
+statutesAtLarge backMatter>index>headingItem>label {
+     margin-right:       1em;
+     text-align:         right;
+     width:              fit-content;
+     min-width:              24em;
+}
 
-/* Override default properties for label */
-statutesAtLarge preface>listOfPrivateLaws>headingItem>target  {
-    width:              12em;
-    font-style:         italic;
+/* Override default properties for referenceItem>label */
+statutesAtLarge preface>listOfPublicLaws label,
+statutesAtLarge backMatter>index label  {
+     padding-left:       .5em;
+     width:              fit-content;
+     min-width:              10em;
 }
 
 /* Override default properties for target */
 statutesAtLarge preface>listOfBillsEnacted>referenceItem>target,
-statutesAtLarge preface>listOfPrivateLaws designator  {
-    text-align:         left;
-    width:              6em;
+statutesAtLarge preface>listOfPrivateLaws>headingItem>target  {
+    width:              fit-content;
+    min-width:              12em;
+    font-style:         italic;
 }
-/* Override default properties for target */
-statutesAtLarge preface>listOfPrivateLaws  target  {
-    width:              6em;
+
+statutesAtLarge preface>listOfPublicLaws target  {
+    width:              fit-content;
+    min-width:              4em;
+}
+
+/* Override default settings for this list  */
+statutesAtLarge preface>listOfConcurrentResolutions>headingItem>target,
+statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>target  {
+    width:              fit-content;
+    min-width:              3em;
+    padding-right:      .5em;
+    padding-left:       .5em;
+}
+
+/* Override default properties for designator */
+statutesAtLarge preface>listOfPrivateLaws designator,
+statutesAtLarge backMatter>index designator  {
+    text-align:         left;
+    width:              fit-content;
+    min-width:              6em;
 }
 
 statutesAtLarge preface>listOfBillsEnacted>heading,
@@ -718,32 +900,14 @@ statutesAtLarge preface>listOfBillsEnacted>heading:nth-of-type(3)  {
 }
 
 /* Add rule below last subheading */
-statutesAtLarge preface>listOfBillsEnacted>subheading:last-of-type:after,
-statutesAtLarge preface>listOfPublicLaws>subheading:last-of-type:after,
-statutesAtLarge preface>listOfConcurrentResolutions>subheading:last-of-type:after,
-statutesAtLarge preface>listOfProclamations>subheading:last-of-type:after,
-statutesAtLarge preface>listOfPrivateLaws>subheading:last-of-type:after  {
+statutesAtLarge preface>listOfBillsEnacted>subheading:last-of-type::after,
+statutesAtLarge preface>listOfPublicLaws>subheading:last-of-type::after,
+statutesAtLarge preface>listOfConcurrentResolutions>subheading:last-of-type::after,
+statutesAtLarge preface>listOfProclamations>subheading:last-of-type::after,
+statutesAtLarge preface>listOfPrivateLaws>subheading:last-of-type::after  {
   content:              "\A\___________";
   text-align:           center;
   white-space:          pre;
-}
-
-/* Override default properties for headingItem>label */
-statutesAtLarge preface>listOfPublicLaws>headingItem>label {
-     margin-right:       1em;
-     text-align:         right;
-     width:              24em;
-}
-
-/* Override default properties for referenceItem>label */
-statutesAtLarge preface>listOfPublicLaws label  {
-     padding-left:       .5em;
-     width:              10em;
-}
-
-/* Override default properties for target */
-statutesAtLarge preface>listOfPublicLaws target  {
-     width:              4em;
 }
 
 statutesAtLarge preface>listOfBillsEnacted>subheading,
@@ -766,34 +930,29 @@ statutesAtLarge preface>listOfPrivateLaws>headingItem  {
     font-size:          0.8em;
 }
 
-statutesAtLarge preface>listOfPublicLaws>referenceItem>label:nth-of-type(1)  {
-    width:              25em;
+statutesAtLarge preface>listOfPublicLaws>referenceItem>label:nth-of-type(1) {
+    width:              fit-content;
+    min-width:              25em;
     text-indent:        -1em;
 }
 
 statutesAtLarge preface>listOfPublicLaws>referenceItem>label:nth-of-type(2),
 statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>label:nth-of-type(2),
 statutesAtLarge preface>listOfProclamations>referenceItem>label:nth-of-type(2)  {
-    width:              8em;
+    width:              fit-content;
+    min-width:              8em;
 }
 
 statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>designator,
 statutesAtLarge preface>listOfProclamations>referenceItem>designator  {
-    width:              10em;
+    width:              fit-content;
+    min-width:              10em;
 }
 
 statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>label:nth-of-type(1),
 statutesAtLarge preface>listOfProclamations>referenceItem>label:nth-of-type(1)  {
-    width:              28em;
-    padding-right:      .5em;
-    padding-left:       .5em;
-
-}
-
-/* Override default settings for this list  */
-statutesAtLarge preface>listOfConcurrentResolutions>headingItem>target,
-statutesAtLarge preface>listOfConcurrentResolutions>referenceItem>target  {
-    width:              3em;
+    width:              fit-content;
+    min-width:              28em;
     padding-right:      .5em;
     padding-left:       .5em;
 }
@@ -805,6 +964,9 @@ statutesAtLarge preface>coverText  {
     text-align:         center;
     font-size:          1.5em;
 }
+statutesAtLarge preface>coverText:nth-of-type(2)  {
+    margin-top:         0;
+}
 
 statutesAtLarge publicLaws enrolledDateline   {
     display:            block;
@@ -815,7 +977,7 @@ statutesAtLarge publicLaws enrolledDateline   {
     font-size:          1em;
     font-weight:        normal;
     font-style:         italic;
-    font-family:        "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family:        "Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 statutesAtLarge presidentialDoc>preface>docNumber {
@@ -844,7 +1006,7 @@ statutesAtLarge presidentialDoc longTitle {
 }
 
 statutesAtLarge presidentialDoc longTitle>docTitle {
-    font-family: "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: "Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
     margin-top: 0;
 }
 
@@ -860,7 +1022,7 @@ statutesAtLarge presidentialDoc sidenote p  {
 
 statutesAtLarge layout[role="sideBySide"] {
     display: grid;
-    grid-gap: 2%;
+    gap: 2%;
     grid-template-columns: 49% 49%;
     margin-top: 1em;
 }
@@ -877,15 +1039,51 @@ statutesAtLarge layout[role="sideBySide"] column[role="rightSide"] {
     grid-column: 2/2;
 }
 
+presidentialDocs p[class~="titleGroupNum"]
+{
+    margin-top:         .7em;
+    text-indent: 0;
+    font-size:          1em;
+    font-weight:        bold;
+}
+
+presidentialDocs p[class~="titleGroupSubject"]
+{
+    margin-top:         .7em;
+    text-indent: 0;
+    font-size:          1.2em;
+    font-weight:        bold;
+}
+
+presidentialDoc>preface>dc|title  {
+    display:            block;
+    margin-top:         .7em;
+    margin-left: 0;
+    text-align:         left;
+    font-size:          1em;
+    font-weight:        bold;
+}
+
+presidentialDoc>preface>dc|subject  {
+    display:            block;
+    margin-top:         .7em;
+    margin-left: 0;
+    text-align:         left;
+    font-size:          1.2em;
+    font-weight:        bold;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
+}
+
 statutesAtLarge presidentialDoc layout[role="threeColumn"] {
     display: grid;
-    grid-gap: 2%;
+    gap: 2%;
     grid-template-columns: 30% 30% 30%;
 }
 
 statutesAtLarge presidentialDoc layout[role="threeColumn"] row {
     display: contents;
 }
+
 statutesAtLarge presidentialDoc layout[role="threeColumn"] column[role="leftSide"] {
     grid-column: 1/3;
     text-align: left;
@@ -927,7 +1125,7 @@ frDoc preface  {
 }
 
 frDoc preface>startingPage  {
-    display:            block;
+    display:            none;
     margin-top:         1em;
     text-align:         right;
     font-size:          1.2em;
@@ -947,7 +1145,7 @@ frDoc preface>docPublicationName[role="unitName"]  {
 frDoc preface>docPublicationName[role="documentName"]  {
     display:            block;
     margin-top:         .7em;
-    margin-left:        0em;
+    margin-left: 0;
     text-align:         left;
     font-size:          0.9em;
     font-weight:        bold;
@@ -956,12 +1154,11 @@ frDoc preface>docPublicationName[role="documentName"]  {
 frDoc preface>volume  {
     display:            inline-block;
     margin-top:         .7em;
-    margin-left:        0em;
+    margin-left: 0;
     text-align:         left;
     font-size:          .9em;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
-
 
 frDoc preface>issue  {
     display:            inline-block;
@@ -974,51 +1171,16 @@ frDoc preface>date  {
     display:            block;
     margin-top:         .7em;
     margin-bottom:      1.2em;
-    margin-left:        0em;
+    margin-left: 0;
     text-align:         left;
     font-size:          .9em;
-}
-
-presidentialDocs p[class~="titleGroupNum"]
-{
-    margin-top:         .7em;
-    text-indent:        0em;
-    font-size:          1em;
-    font-weight:        bold;
-}
-
-presidentialDocs p[class~="titleGroupSubject"]
-{
-    margin-top:         .7em;
-    text-indent:        0em;
-    font-size:          1.2em;
-    font-weight:        bold;
-}
-
-presidentialDoc>preface>dc|title  {
-    display:            block;
-    margin-top:         .7em;
-    margin-left:        0em;
-    text-align:         left;
-    font-size:          1em;
-    font-weight:        bold;
-}
-
-presidentialDoc>preface>dc|subject  {
-    display:            block;
-    margin-top:         .7em;
-    margin-left:        0em;
-    text-align:         left;
-    font-size:          1.2em;
-    font-weight:        bold;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
 }
 
 /* Federal Register Main elements */
 frDoc part  {
     display:            block;
-    margin-left:        0em;
-    text-align:         justify; /*left align in print due to narrow column */
+    margin-left: 0;
+    text-align:         justify; /* left align in print due to narrow column */
 }
 
 frDoc level,
@@ -1027,10 +1189,10 @@ frDoc paragraph,
 frDoc subparagraph,
 frDoc level>heading  {
     display:            block;
-    margin-left:        0em;
-    text-indent:        0em;
+    margin-left: 0;
+    text-indent: 0;
     margin-bottom:      0.25em;
-    text-align:         justify; /*left align in print due to narrow column */
+    text-align:         justify; /* left align in print due to narrow column */
 }
 
 frDoc level>num,
@@ -1039,8 +1201,7 @@ frDoc part>num,
 frDoc part>heading,
 frDoc section>heading,
 frDoc section>num  {
-    text-indent:        0em;
-    font-weight:        bold;
+    text-indent: 0;
     font-size:          1em;
     font-weight:        bold;
     font-family:        sans-serif;
@@ -1060,7 +1221,7 @@ frDoc signature, frDoc signature *  {
     margin-top:         0.5em;
     text-align:         left;
     font-style:         normal;
-    margin-left:        0em;
+    margin-left: 0;
 }
 
 frDoc signature>signatureDate  {
@@ -1105,14 +1266,14 @@ frDoc rules, frDoc proposedRules, frDoc notices, frDoc presidentialDocs  {
     display:            block;
     width:              100%;  /* 522 points */
     margin-top:         1.2em;
-    text-align:         justify; /*left align in print due to narrow column */
+    text-align:         justify; /* left align in print due to narrow column */
     font-family:        sans-serif;
 }
 
 rules>p, proposedRules>p, notices>p  {
     display:            block;
     margin-bottom:	    0.7em;
-    text-indent:        0em;
+    text-indent: 0;
 }
 
 agencyGroup  {
@@ -1121,23 +1282,18 @@ agencyGroup  {
     border-width:       2pt;
 }
 
-/*  Suppress display of metadata in components */
-component>*>meta,
-component>*>meta *,
-component>pLaw>meta::before,
-component>resolution>meta::before  {
-    display:none;
-}
-
 /* rule, notice, and presidentialDoc elements */
-rule, presidentialDoc, notice  {
+rule, notice  {
     display:            block;
     font-size:          1em;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 /* Presidential Documents */
 presidentialDoc  {
+    display:            block;
+    font-size:          1em;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
    margin-left:         2em;
 }
 
@@ -1152,17 +1308,17 @@ presidentialDoc statement  {
 }
 
 presidentialDoc section>num {
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 presidentialDoc section>heading {
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
    font-style:          italic;
    font-weight:         normal;
 }
 
 presidentialDoc signature>date {
-   text-indent:         0em;
+   text-indent: 0;
    font-style:          italic;
 }
 
@@ -1185,7 +1341,7 @@ rule>main>rulePreamble>statement>content>heading  {
 }
 
 rule level>heading, notice level>heading {
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 rule statement,
@@ -1228,7 +1384,7 @@ frDoc appendix  {
 frDoc preface>organization[role="agency"]  {
     display:            block;
     margin-top:         0.3em;
-    font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
     font-weight:        normal;
 }
 
@@ -1264,7 +1420,7 @@ frDoc preface>action  {
     margin-top:         0.1em;
     margin-bottom:      0.5em;
     padding-bottom:     0.5em;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 frDoc preface>action>actionDescription>headingText  {
@@ -1282,23 +1438,23 @@ frDoc statement>heading  {
 
 frDoc *[class~="hd1"]  {
     display:            block;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
     font-weight:        bold;
     font-size:          1em;
     margin-top:         0.3em;
     margin-bottom:      0.3em;
-    text-indent:        0em;
+    text-indent: 0;
 }
 
 frDoc *[class~="hd2"]  {
     display:            block;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
     font-weight:        normal;
     font-style:         italic;
     font-size:          1em;
     margin-top:         0.3em;
     margin-bottom:      0.3em;
-    text-indent:        0em;
+    text-indent: 0;
 }
 
 wordsOfIssuance  {
@@ -1309,7 +1465,7 @@ wordsOfIssuance  {
 
 wordsOfIssuance>heading  {
     display:            block;
-    text-indent:        0em;
+    text-indent: 0;
     font-weight:        bold;
 }
 
@@ -1375,7 +1531,7 @@ cfrDoc>preface>dc|publisher  {
     margin-top:         2em;
     margin-left:        3em;
     width:              21em;
-    text-indent:        0em;
+    text-indent: 0;
     font-size:          1em;
     font-family:        sans-serif;
     font-weight:        normal;
@@ -1424,7 +1580,7 @@ cfrDoc>preface>explanationNote heading  {
     margin-top:         1em;
     margin-bottom:      1em;
     font-size:          1em;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
     font-weight:        normal;
 }
 
@@ -1499,7 +1655,7 @@ cfrDoc subpart>heading  {
 cfrDoc section>chapeau,
 cfrDoc paragraph  {
     text-indent:        1em;
-    margin-left:        0em;
+    margin-left: 0;
 }
 
 cfrDoc section  {
@@ -1525,8 +1681,8 @@ cfrDoc paragraph>heading  {
 }
 
 cfrDoc level  {
-    margin-left:        0em;
-    text-indent:        0em;
+    margin-left: 0;
+    text-indent: 0;
 }
 
 cfrDoc level>heading  {
@@ -1554,7 +1710,7 @@ cfrDoc note, cfrDoc editorialNote  {
 
 cfrDoc note[topic="citation"]  {
     margin-top:         1em;
-    text-indent:        0em;
+    text-indent: 0;
 }
 
 cfrDoc authority, cfrDoc source,
@@ -1569,7 +1725,7 @@ frDoc section authority  {
 cfrDoc section>source  {
     margin-top:         0.7em;
     border-width:       1pt;
-    text-indent:        0em;
+    text-indent: 0;
 }
 
 cfrDoc appendix>num, cfrDoc appendix>heading  {
@@ -1593,7 +1749,7 @@ statuteCompilation  {
     margin-left:        24pt;
     margin-right:       24pt;
     font-size:          10pt;
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 
@@ -1603,7 +1759,7 @@ statuteCompilation>preface>citationNote,
 statuteCompilation>preface>editionNote  {
     display:            block;
     margin-top:         .7em;
-    margin-left:        0em;
+    margin-left: 0;
     text-align:         center;
     font-size:          1em;
 }
@@ -1630,17 +1786,12 @@ statuteCompilation editorialNote  {
     font-style:         normal
 }
 
-/* section-level USC reference notes are on a separate line */
-statuteCompilation section > editorialNote[role="uscRef"]  {
-    display:            block;
-}
-
 statuteCompilation elided  {
     display:            block;
     margin-top:         1em;
-    margin-bottom:      0em;
+    margin-bottom: 0;
     text-align:         center;
-    text-indent:        0em;
+    text-indent: 0;
     font-weight:        normal;
 }
 
@@ -1691,7 +1842,9 @@ statuteCompilation section>editorialNote  {
     font-weight:        normal;
 }
 
-statuteCompilation section>editorialNote[role="uscRef"]  {
+/* section-level USC reference notes are on a separate line */
+statuteCompilation section > editorialNote[role="uscRef"]  {
+    display:            block;
     font-size:          0.8em;  /*  8 point in the PDF */
 }
 
@@ -1718,7 +1871,7 @@ statuteCompilation longTitle>docTitle,
 statuteCompilation longTitle>officialTitle  {
     display:            inline;
     font-size:          1em;
-    font-family:       "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family:       "Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 statuteCompilation longTitle>officialTitle::before  {
@@ -1743,7 +1896,7 @@ longTitle>docTitle  {
 
 pLaw>main>longTitle>docTitle  {
     font-size:          1.2em;  /* 12 point font in the pdf */
-	font-family: 		"Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
+    font-family: 	"Century Schoolbook", NewCenturySchlbk, "Times New Roman", serif;
 }
 
 /* In print, the official title is centered if 2 lines or less
@@ -1779,9 +1932,20 @@ resolvingClause  {
     text-align:         justify;
 }
 
+resolution resolvingClause:first-of-type  {
+    display:            inline;
+}
+
 resolvingClause::before {
     content: '\A';
     display: block;
+}
+
+resolution>signatures>signature>notation[type="attestation"]  {
+    display:            block;
+    text-align:         left;
+    font-style:         normal;
+    margin-left:        -8em;
 }
 
 bill>main>section  {
@@ -1811,10 +1975,6 @@ pLaw>main[styleType="traditional"] title>num, pLaw>main[styleType="traditional"]
     display: block;
 }
 
-resolution subsection  {
-    text-indent:        1em;
-}
-
 resolution>main>section,
 bill>main>title>section {
     text-align:         justify;
@@ -1839,7 +1999,7 @@ resolution>main>section>heading ~ content:first-of-type  {
 
 resolution main level,
 bill main level  {
-    margin-left:        0em;
+    margin-left: 0;
 }
 
 /* Section nums and headings are bold in both bills and the USC. */
@@ -1863,7 +2023,7 @@ section[identifier*="/us/usc"]>heading  {
     font-size:          1.0em;
 }
 
-/* Bill Section nums and headings are all caps and smaller font size*/
+/* Bill Section nums and headings are all caps and smaller font size */
 bill section>num, bill section>a>num, bill section>heading,
 resolution section>num, resolution section>a>num, resolution section>heading,
 pLaw section>num, pLaw section>a>num, pLaw section>heading  {
@@ -1896,7 +2056,7 @@ resolution>main section > heading + num,
 resolution>main section > num:first-child,
 pLaw>main section > heading + num,
 pLaw>main section > num:first-child  {
-    text-indent:    0em !important;
+    text-indent:    0 !important;
     text-transform: uppercase;
 }
 
@@ -1911,64 +2071,6 @@ pLaw>main section > chapeau:first-child  {
     text-indent:        2em;
 }
 
-uscDoc chapeau ~ paragraph > num {
-    font-variant: none;
-    font-weight: normal;
-    padding-left: 0em;
-    text-indent: -1em;
-}
-
-uscDoc paragraph + paragraph chapeau ~ subparagraph > num {
-    font-weight: normal;
-}
-/*
-uscDoc paragraph + paragraph subparagraph > num {
-    font-weight: bold;
-}*/
-uscDoc subsection > num, uscDoc subparagraph > num {
-    font-variant: none;
-    display: inline-block;
-    margin-right: 0.3em;
-    text-indent: 1em;
-}
-uscDoc quotedContent subsection > num, uscDoc subparagraph > num {
-    font-variant: none;
-    display: inline-block;
-    margin-right: 0.3em;
-    text-indent: -1em;
-}
-uscDoc heading ~ subsection > num {
-    font-variant: none;
-    display: inline-block;
-    margin-right: 0.3em;
-    text-indent: 1em;
-}
-uscDoc subparagraph > num, uscDoc subparagraph > clause > num {
-    font-variant: none;
-    display: inline-block;
-    margin-right: 0.3em;
-    text-indent: -0.3em;
-}
-uscDoc chapeau ~ subparagraph > num {
-    font-variant: none;
-    display: inline-block;
-    margin-right: 0.3em;
-    text-indent: -1em;
-    font-weight: normal;
-}
-uscDoc quotedContent subsection + subsection > num, uscDoc quotedContent heading + subsection > num {
-    font-variant: none;
-    display: inline-block;
-    margin-right: 0.3em;
-    text-indent: 0em;
-}
-uscDoc quotedContent > subsection + subsection > num {
-    font-variant: none;
-    display: inline-block;
-    margin-right: 0.3em;
-    text-indent: 0em;
-    font-weight: normal;
-}
 rule subsection>heading  {
     font-variant:       normal;
     font-style:         italic;
@@ -2151,27 +2253,20 @@ reorganizationPlan > heading {
 reorganizationPlan > heading + content > p[class='centered'] {
     font-weight: bold;
     font-size: 1.4em;
-    margin-bottom: 0.5em;
+    margin: 1em 10% 0.5em 10%;  /*  top | right | bottom | left */
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1em;
 }
 
 reorganizationPlan > heading + content > p[class~='centered'][class~='smallCaps']  {
     font-weight: bold;
     font-size: 1.2em;
-    margin-bottom: 0.5em;
+    margin: 0.5em 10%; /* top and bottom | left and right */
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 0.5em;
 }
 
 uscDoc heading {
     font-weight:        normal;
-    padding-left: 0.0em !important;
-    padding-left: 0.5em;
+    padding-left: 0 !important;
 }   
 
 chapter>num, chapter>heading  {
@@ -2179,21 +2274,19 @@ chapter>num, chapter>heading  {
     font-weight:        bold;
 }
 
-/* USLM 1.0 ToC rules (deprecated)*/
+/*  Tables of content */
+/* The toc element is used in USLM 1 and 2 */
+
+/* USLM 1.0 ToC rules (deprecated) */
 toc {
- /*   display:            table; */
     display : block;
     background-color:   inherit;
     width:              100%;
     margin-top:         1em;
     margin-bottom:      1em;
     text-align:         left;
-    text-indent:        0em;
+    text-indent: 0;
     font-weight:        normal;
-}
-
-.USCPositive toc[role="twoColumnTOC"] {
-    width: 100%;
 }
 
 toc[role="threeColumnTOC"] {
@@ -2206,16 +2299,7 @@ toc[role="twoColumnTOC"] > *:last-child {
 
 uscDoc toc {
     max-width:           69vw;
-    margin-left:        auto;
-    margin-right:       auto;
-    text-align:         center;
-    border-style:       none;
-    border-color:       gray;
-    border-width:       1pt;
-    margin-left:        0pt;
-    margin-top:         24pt;
-    margin-bottom:      3pt;
-    margin-right:       0pt;
+    margin: 24pt 0 3pt 0; /*  top | right | bottom | left */
     text-align:         left;
     display:            table;
     font-size:          1em;  /* For web, set TOC font the same size as body text. In print, the TOC uses a smaller font */
@@ -2276,44 +2360,40 @@ tocItem {
     background-color:   inherit;
 }
 
-column {
+toc column {
     display:            table-cell;
 }
 
-column[class~="threeColumnLeft"] {
+toc column[class~="threeColumnLeft"] {
     width:              10%;
 }
 
-column[class~="threeColumnMiddle"] {
+toc column[class~="threeColumnMiddle"] {
     width:              100%;
     margin-left:        1em;
     text-indent:        -1em;
 }
 
-column[class~="threeColumnRight"] {
+toc column[class~="threeColumnRight"],
+toc column[class~="tocHeaderRight"] {
     width:              15%;
     text-align:         right;
 }
 
-column[class~="tocHeaderLeft"] {
+toc column[class~="tocHeaderLeft"] {
     width:              5em;
     text-align:         left;
 }
 
-header[role="tocColumnHeader"] column:not([class]) {
+toc header[role="tocColumnHeader"] column:not([class]) {
     width:              76.7%;
 }
 
-column[class~="tocHeaderRight"] {
-    width:              15%;
-    text-align:         right;
-}
-
-column[class~="twoColumnLeft"] {
+toc column[class~="twoColumnLeft"] {
     width:              5em;
 }
 
-column[class~="twoColumnRight"] {
+toc column[class~="twoColumnRight"] {
     width:              50em;
     margin-left:        1em;
     text-indent:        -1em;
@@ -2345,7 +2425,7 @@ layout *[class~="indentTo65ptsHang"] {
 }
 
 /* USLM 2.0 ToC rules */
-/* ToC's are blocks */
+
 bill toc, resolution toc, pLaw toc  {
     display:            block;
     background-color:   inherit;
@@ -2356,23 +2436,29 @@ referenceItem, headingItem  {
     display:            block;
     background-color:   inherit;
     width:              100%;
+    font-variant: unset;
+}
+
+referenceItem label, referenceItem designator, 
+headingItem label, headingItem designator {
+    font-variant: unset;
 }
 
 toc[role~="twoColumnTOC"] referenceItem designator  {
-    max-width: 10rem;
-    min-width: 6rem;
-}
-
-toc[role~="twoColumnTOC"] > referenceItem > designator  {
-    max-width: 10rem;
-    min-width: 6rem;
+    width:              fit-content;
+    min-width:    6rem;
     padding-left: 1%;
+     font-variant: unset;
 }
 
 toc[role~="twoColumnTOC"] referenceItem label {
-    width:              50em;
-    margin-left:        1em;
-    text-indent:        -1em;
+    width:              fit-content;
+    min-width:              50em;
+     font-variant: unset;
+}
+
+toc[role~="twoColumnTOC"] referenceItem label footnote {
+    text-indent:        1em;
 }
 
 referenceItem[class~="indentTo65ptsHang"]  {
@@ -2380,20 +2466,27 @@ referenceItem[class~="indentTo65ptsHang"]  {
 }
 
 toc[role~="twoColumnTOC"] referenceItem referenceItem designator  {
-    width:              4rem;
-    min-width:          2rem;
+    width:              fit-content;
+    min-width:   6rem;
+    font-variant: unset;
 }
 
 toc[role~="twoColumnTOC"] referenceItem referenceItem label {
-    width:              50em;
-    margin-left:        1em;
-    text-indent:        -1em;
+    width:              fit-content;
+    min-width:              50em;
+    font-variant: unset;
+}
+
+toc[role~="twoColumnTOC"] referenceItem referenceItem label footnote {
+    text-indent:        1em;
+    font-variant: unset;
 }
 
 toc[role~="threeColumnTOC"] referenceItem designator {
     width:              6vw;
     grid-column-start:  1;
     grid-row-start:     1;
+    font-variant: unset;
 }
 
 toc[role~="threeColumnTOC"] referenceItem label {
@@ -2402,6 +2495,7 @@ toc[role~="threeColumnTOC"] referenceItem label {
     grid-row-start:     1;
     text-indent: -1em;
     padding-left: 1em;
+    font-variant: unset;
 }
 
 toc[role~="threeColumnTOC"] groupItem label {
@@ -2414,27 +2508,33 @@ toc[role~="threeColumnTOC"] headingItem label {
     max-width:              78vw;
     grid-column-start:  2;
     grid-row-start:     1;
+    font-variant: unset;
 }
 
-toc[role~="threeColumnTOC"] referenceItem target, toc[role~="threeColumnTOC"] referenceItem label + del {
+toc[role~="threeColumnTOC"] headingItem target, 
+toc[role~="threeColumnTOC"] referenceItem target,
+toc[role~="threeColumnTOC"] referenceItem label + del {
     width:              6vw;
     text-align:         right;
     grid-column-start:  4;
     grid-row-start:     auto;
     white-space:        pre-line;
+    font-variant: unset;
 }
 
 toc[role~="threeColumnTOC"] groupItem label + groupItem::before {
     content: " ";
     display: block;
 }
+
 toc[role~="threeColumnTOC"] del {
     height: 100% !important;
 }
 /*
 Old user agents don't support @supports() so will ignore the use of table-row
-but (recent) browsers will load it and override the properties set above.
+but (recent) browsers will load it and override properties set above.
 */
+
 @supports (display: table-row) {
     referenceItem, headingItem  {
         display:            table-row;
@@ -2473,11 +2573,13 @@ toc[role~="threeColumnTOC"] referenceItem > referenceItem {
     margin-top: -0.8em;
 }
 
-toc[role~="threeColumnTOC"] referenceItem > referenceItem > designator, toc[role~="threeColumnTOC"] referenceItem > referenceItem > label {
+toc[role~="threeColumnTOC"] referenceItem > referenceItem > designator, 
+toc[role~="threeColumnTOC"] referenceItem > referenceItem > label {
     margin-left: 10pt;
 }
 
-toc[role~="threeColumnTOC"] referenceItem, toc[role~="threeColumnTOC"] headingItem, toc[role~="threeColumnTOC"] > del, toc[role~="threeColumnTOC"] referenceItem > del:first-child {
+toc[role~="threeColumnTOC"] referenceItem, toc[role~="threeColumnTOC"] headingItem, 
+toc[role~="threeColumnTOC"] > del, toc[role~="threeColumnTOC"] referenceItem > del:first-child {
     display: grid;
     grid-template-columns: 4vw 65.5vw 4.5vw 6vw;
     grid-template-rows: 65% 35%;
@@ -2509,6 +2611,7 @@ groupItem > label  {
 target  {
     text-align:         right;
     grid-column-start: 4;
+    padding-left: .5em;
 }
 
 /* Some Big level ToC entries are centered, with designator and label inline */
@@ -2516,18 +2619,23 @@ uscDoc toc groupItem,
 bill toc referenceItem[role="division"],
 bill toc > referenceItem[role="title"],
 bill toc > referenceItem[role="subtitle"],
+bill toc > referenceItem[role="part"],
 amendment toc referenceItem[role="division"],
 amendment toc > referenceItem[role="title"],
 amendment toc > referenceItem[role="subtitle"],
+amendment toc > referenceItem[role="part"],
 engrossedAmendment toc referenceItem[role="division"],
 engrossedAmendment toc > referenceItem[role="title"],
 engrossedAmendment toc > referenceItem[role="subtitle"],
+engrossedAmendment toc > referenceItem[role="part"],
 resolution toc referenceItem[role="division"],
 resolution toc > referenceItem[role="title"],
 resolution toc > referenceItem[role="subtitle"],
+resolution toc > referenceItem[role="part"],
 pLaw toc referenceItem[role="division"],
 pLaw toc > referenceItem[role="title"],
-pLaw toc > referenceItem[role="subtitle"]  {
+pLaw toc > referenceItem[role="subtitle"],
+pLaw toc > referenceItem[role="part"] {
     display:            block;
     background-color:   inherit;
     margin-top:         0.5em;
@@ -2551,24 +2659,32 @@ bill toc referenceItem[role="title"] > designator,
 bill toc referenceItem[role="title"] > label,
 bill toc referenceItem[role="subtitle"] > designator,
 bill toc referenceItem[role="subtitle"] > label,
+bill toc referenceItem[role="part"] > designator,
+bill toc referenceItem[role="part"] > label,
 engrossedAmendment toc referenceItem[role="division"] > designator,
 engrossedAmendment toc referenceItem[role="division"] > label,
 engrossedAmendment toc referenceItem[role="title"] > designator,
 engrossedAmendment toc referenceItem[role="title"] > label,
 engrossedAmendment toc referenceItem[role="subtitle"] > designator,
 engrossedAmendment toc referenceItem[role="subtitle"] > label,
+engrossedAmendment toc referenceItem[role="part"] > designator,
+engrossedAmendment toc referenceItem[role="part"] > label,
 resolution toc referenceItem[role="division"] > designator,
 resolution toc referenceItem[role="division"] > label,
 resolution toc referenceItem[role="title"] > designator,
 resolution toc referenceItem[role="title"] > label,
 resolution toc referenceItem[role="subtitle"] > designator,
 resolution toc referenceItem[role="subtitle"] > label,
+resolution toc referenceItem[role="part"] > designator,
+resolution toc referenceItem[role="part"] > label,
 plaw toc referenceItem[role="division"] > designator,
 plaw toc referenceItem[role="division"] > label,
 plaw toc referenceItem[role="title"] > designator,
 plaw toc referenceItem[role="title"] > label,
 plaw toc referenceItem[role="subtitle"] > designator,
-plaw toc referenceItem[role="subtitle"] > label  {
+plaw toc referenceItem[role="subtitle"] > label,
+plaw toc referenceItem[role="part"] > designator,
+plaw toc referenceItem[role="part"] > label {
     display:            inline;
 }
 
@@ -2580,22 +2696,22 @@ pLaw toc referenceItem[role="division"] referenceItem  {
     text-align:         left;
 }
 
-resolution toc referenceItem[role="section"]:first-of-type *,
+/*resolution toc referenceItem[role="section"]:first-of-type *,
 bill toc referenceItem[role="section"]:first-of-type *,
 pLaw toc referenceItem[role="section"]:first-of-type *  {
     padding-top:         1em;
-}
+}*/
 
 bill toc referenceItem[role="section"]>designator,
 resolution toc referenceItem[role="section"]>designator,
 pLaw toc referenceItem[role="section"]>designator  {
-    min-width:              5em;
-    max-width:              6em;
+    width:              fit-content;
+    min-width:   5rem;
 }
 
-bill toc referenceItem[role="section"]>label,
-resolution toc referenceItem[role="section"]>label,
-pLaw toc referenceItem[role="section"]>label  {
+bill toc referenceItem[role="section"]>label:not([class="inline"]),
+resolution toc referenceItem[role="section"]>label:not([class="inline"]),
+pLaw toc referenceItem[role="section"]>label:not([class="inline"])  {
     text-indent:        -1em;
     padding-left:        1em;
 }
@@ -2638,7 +2754,7 @@ cfrDoc toc label  {
 
 cfrDoc toc target  {
     display:            block;
-    margin-right:       0em;
+    margin-right: 0;
 }
 
 cfrDoc > preface toc  {
@@ -2768,18 +2884,19 @@ frDoc toc[role="fr-contents"] referenceItem>target[role="fr-doc-id"] {
 
 frDoc toc[role="fr-issue-parts"]  {
     display:            block;
-
     border-top-style:   solid;
     border-bottom-style:   solid;
     border-width:       1pt;
 }
 
 statuteCompilation toc referenceItem[role="section"]>designator  {
-    width:              20em;
+    width:              fit-content;
+    min-width:  20em;
 }
 
 statuteCompilation toc referenceItem[role="section"]>label  {
-    width:              50em;
+    width:              fit-content;
+    min-width:   50em;
 }
 
 statuteCompilation toc referenceItem[role="title"],
@@ -2797,45 +2914,60 @@ statuteCompilation toc referenceItem[role="subtitle"]>label  {
     display:            inline;
 }
 
-/* Rules for Indexes */
 statutesAtLarge popularNameIndex,
-statutesAtLarge subjectIndex  {
+statutesAtLarge subjectIndex {
     display:            block;
     font-size:          0.9em;
 }
 
+statutesAtLarge index {
+    display: table;
+    margin: 1em;
+}
+
 statutesAtLarge popularNameIndex>heading,
-statutesAtLarge subjectIndex>heading  {
+statutesAtLarge subjectIndex>heading {
     display:            block;
     margin-top:         1em;
     margin-bottom:      1em;
+    font-size:          1.2em;
+    text-align:         center;
+}
+
+statutesAtLarge index>heading {
+    display:            block;
+    margin-top:         .5em;
+    margin-bottom:      .5em;
     font-size:          1.2em;
     text-align:         center;
 }
 
 statutesAtLarge popularNameIndex groupItem,
-statutesAtLarge subjectIndex groupItem  {
+statutesAtLarge subjectIndex groupItem,
+statutesAtLarge index groupItem {
     display:            block;
     margin-top:         1em;
     margin-bottom:      1em;
-    font-size:          1.2em;
 }
 
 statutesAtLarge popularNameIndex groupItem>label,
-statutesAtLarge subjectIndex groupItem>label  {
+statutesAtLarge subjectIndex groupItem>label,
+statutesAtLarge index groupItem>label {
     display:            block;
     width:              26em;
     font-weight:        bold;
     text-align:         center;
+    font-size: 1.1em;
 }
 
-statutesAtLarge subjectIndex groupItem>groupItem>label  {
+statutesAtLarge subjectIndex groupItem>groupItem>label,
+statutesAtLarge index groupItem>groupItem>label {
     width:              26em;
     text-align:         left;
     font-size:          0.8em;
 }
 
-statutesAtLarge subjectIndex referenceItem  {
+statutesAtLarge subjectIndex referenceItem {
     display:            block;
     margin-left:        1em;
 }
@@ -2881,19 +3013,18 @@ section, courtRule {
     font-weight:        normal;
 }
 
-
 section > content, section > amendingFormula,
 courtRule > content, courtRule > chapeau  {
     display:            block;
-    margin-top:         0em;
-    margin-bottom:      0em;
+    margin-top: 0;
+    margin-bottom: 0;
     text-indent:        1em;
 }
 
 quotedContent > section > num + content:not([class~="indent"]) {
     display:            inline;
-    margin-top:         0em;
-    margin-bottom:      0em;
+    margin-top: 0;
+    margin-bottom: 0;
     text-indent:        1em;
 }
 
@@ -2902,14 +3033,16 @@ section[identifier*="/us/usc"] > content {
 }
 section[identifier*="/us/usc"] > num + content  {
     display:            inline;
-    margin-top:         0em;
-    margin-bottom:      0em;
+    margin-top: 0;
+    margin-bottom: 0;
     text-indent:        1em;
 }
 
 /* Below section element rules */
 
-content {
+content,
+uscDoc subsection > content,
+uscDoc subsection heading + content {
     display:            inline;
 }
 
@@ -2917,18 +3050,14 @@ xhtml|del > content {
     display:            block;
 }
 
-
-uscDoc subsection > content {
-    display:           inline;
-}
-
-uscDoc subsection heading + content, uscDoc subsection heading + chapeau {  
+ uscDoc subsection heading + chapeau {  
     display:    inline;
-    text-indent: 1em;
 }
 
 /* For most docs, levels below subsection are indented 2em from their parent,
  * with a first-line indent of an additional 2em. */
+ /* The subsection has first-line indent of 2em, indent of 0 so is handled separately. 
+  * The level element is given an indentation only when in the context of a section. */
 paragraph:where(:not(.inline):not([class*="indent"])),
 subparagraph:where(:not(.inline):not([class*="indent"])),
 clause:where(:not(.inline):not([class*="indent"])),
@@ -2941,15 +3070,27 @@ section level:where(:not(.inline):not([class*="indent"])) {
     margin-top:         0.3em;
     margin-bottom:      0.3em;
     text-align:         justify;
-    text-indent: 1em;
+    text-indent: 2em;
     background-color: inherit;
-    margin-left: 1em;
+    margin-left: 2em;
+}
+
+paragraph:not(.inline),
+subparagraph:not(.inline),
+clause:not(.inline),
+subclause:not(.inline),
+item:not(.inline),
+subitem:not(.inline),
+subsubitem:not(.inline),
+section level:not(.inline) {
+    display: block;
 }
 
 inline[olrc|mainAndSupps~="true"] {
     margin-left: 1em;
 }
-/* In USC Titles, the default indents are 1em (block indent), 1em (first-line indent) */
+
+/* In USC Titles, the default indents are 1em (block indent; margin-left property), 1em (first-line indent; text-indent property) */
 
 *:where([identifier*="/us/usc"]) paragraph:where(:not(.inline):not([class*="indent"])),
 *:where([identifier*="/us/usc"]) subparagraph:where(:not(.inline):not([class*="indent"])),
@@ -2968,16 +3109,15 @@ inline[olrc|mainAndSupps~="true"] {
     background-color: inherit;
 }
 
-
 uscDoc paragraph[identifier*="/us/usc"] > num {
-    text-indent: 0em;
-    margin-left: 0em;
+/*    text-indent: 0;
+    margin-left: 0;*/
     font-weight: normal;
 }
 
 num + paragraph[identifier*="/us/usc"] > num {
-    text-indent: 0em;
-    margin-left: 0em;
+/*    text-indent: 0;
+    margin-left: 0;*/
     font-weight: normal;
 }
 
@@ -2992,15 +3132,16 @@ num + paragraph[identifier*="/us/usc"] > num {
 subsection  {
     display:            block;
     margin-top:         0.3em;
-    margin-left:        0em;
+    margin-left: 0;
     margin-bottom:      0.3em;
     text-align:         justify;
+    text-indent: 2em; 
 }
 
 /* USC subsections have a 1em first-line indent */
 subsection[identifier*="/us/usc"],
 *[identifier*="/us/usc"] subsection,
-*[identifier*="/us/usc"] ins subsection  {
+*[identifier*="/us/usc"] ins subsection {
     text-indent:        1em;
 }
 
@@ -3008,35 +3149,8 @@ subsection[identifier*="/us/usc"],
 paragraph[identifier*="/us/cfr"],
 section[identifier*="/us/cfr"] paragraph  {
     display:            block;
-    margin-left:        0em;
+    margin-left: 0;
     text-indent:        1em;
-}
-
-/* As a workaround, !important is set for USC small levels to override the indent and first-indent styles */
-/* Current USC USLM data has indents that are absolute from the left margin, not relative to their container. */
-/* But, this CSS works on relative margins. */
-
-/* In USC, subsection headings are not small-caps
- * This was incorrectly set because it followed the html printing the printed pdf does have small caps for subsections.
-subsection[identifier*="/us/usc"] heading,
-section[identifier*="/us/usc"] subsection heading {
-    font-variant:       normal;
-}
-*/
-
-/* In USC non-positive law titles, small levels that have headings put a new line after the heading */
-/* Temporarily this difference is recogized by a p element in content or an indent class on a chapeau */
-/* In the longer-term, USC title documents will have class indicating positive versus non-positive */
-[identifier*="/us/usc"] heading+content>p {
-    display:            block;
-    margin-left:        0em;
-    text-indent:        1em;
-    background-color: inherit;
-}
-
-paragraph[class~="indent-up1"] {
-    margin-left:        0em;
-    background-color: inherit;
 }
 
 uscDoc subsection > chapeau {
@@ -3056,7 +3170,7 @@ section > num + chapeau:not([class~="indent"]) {
 
 chapeau[class~="blockIndent0"] {
     display:            block;
-    margin-left:        0em;
+    margin-left: 0;
     text-indent:        1em;
     background-color: inherit;
 }
@@ -3078,6 +3192,7 @@ chapeau[class~="blockIndent2"] {
 continuation {
     display:            block;
     background-color: inherit;
+    text-indent: 0;
 }
 
 /* Appropriations */
@@ -3095,7 +3210,7 @@ appropriations,
 level[role~="appropriations"]  {
     display:            block;
     margin-top:         1em;
-    margin-left:        0em;
+    margin-left: 0;
     text-align:         justify;
 }
 
@@ -3115,13 +3230,13 @@ appropriations > subheading {
 
 appropriations > content  {
     display:            block;
-    margin-left:        0em;
+    margin-left: 0;
     text-align:         justify;
-    text-indent:        0em;
+    text-indent: 0;
 }
 
 appropriations > section > num,
-*[role=appropriations] > section > num  {
+*[role="appropriations"] > section > num  {
     margin-left:        2em;
     font-weight:        normal;
     font-variant:       small-caps;
@@ -3129,8 +3244,8 @@ appropriations > section > num,
 
 appropriations > section > content,
 appropriations > section > chapeau,
-*[role=appropriations] > section > content,
-*[role=appropriations] > section > chapeau  {
+*[role="appropriations"] > section > content,
+*[role="appropriations"] > section > chapeau  {
     display:            inline;
 }
 
@@ -3151,37 +3266,34 @@ notes {
     display: block;
     background-color: inherit;
     max-width: 100%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1em auto; /* top and bottom | left and right */
     text-align: center;
-    text-indent: 0em;
+    text-indent: 0;
     font-weight: normal;
 }
 
 sourceCredit {
     display:            block;
     background-color:   inherit;
-    margin-left:        0em;
+    margin-left: 0;
     margin-top:         0.3em;
     margin-bottom:      0.3em;
     text-align:         left;
-    text-indent:        0em;
+    text-indent: 0;
     font-size:          1em;
     font-weight:        normal;
 }
 
 sourceCredit > p {
-    text-indent:        0em;
+    text-indent: 0;
 }
 
-note {
+note, explanationNote {
     display:            block;
     background-color:   inherit;
     margin-bottom:      0.3em;
     text-align:         left;
-    text-indent:        0em;
+    text-indent: 0;
     font-weight:        normal;
 }
 
@@ -3205,19 +3317,13 @@ footnote  {
     display:            block;
     background-color:   inherit;
     margin-top:         0;
-    margin-bottom:      0em;
+    margin-bottom: 0;
     text-align:         left;
-    text-indent:        0em;
+    text-indent: 0;
     font-size:          0.8em;
     font-weight:        normal;
     width: auto;
     white-space: pre-line;
-}
-
-.USCPositive toc[role="twoColumnTOC"] label footnote {
-    margin-left: 0vw;
-    max-width: 100%;
-    white-space: normal;
 }
 
 toc[role="threeColumnTOC"] label footnote, toc:not([role]) label footnote {
@@ -3225,9 +3331,30 @@ toc[role="threeColumnTOC"] label footnote, toc:not([role]) label footnote {
     max-width: 25%;
 }
 
-.USCPositive toc[role="twoColumnTOC"] label footnote num {
-    white-space: normal;
-    margin-left: -5em;
+/* A ToC is usually printed in 8pt; for the web we make it the same size as the body for ease of reading */
+toc[role="threeColumnTOC"][class~="8ptsbold"] referenceItem {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+groupItem[class~="10ptsBoldGroup"] label, groupItem[class~="10ptsBoldGroup"] designator {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+groupItem[class~="7ptsGroup"] label, groupItem[class~="7ptsGroup"] designator {
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+groupItem[class~="7ptsSCGroup"] label, groupItem[class~="7ptsSCGroup"] designator {
+    font-variant: small-caps;
+    font-size: 0.9rem;
+}
+
+groupItem[class~="8ptsGroup"] label, groupItem[class~="8ptsGroup"] designator {
+    font-weight: normal;
+    font-size: 1rem;
 }
 
 target footnote {
@@ -3242,9 +3369,9 @@ ref footnote  {
     display:            block;
     background-color:   inherit;
     margin-top:         0.5em;
-    margin-bottom:      0em;
+    margin-bottom: 0;
     text-align:         left;
-    text-indent:        0em;
+    text-indent: 0;
     font-size:          0.8em;
     font-weight:        normal;
     width: auto;
@@ -3252,7 +3379,7 @@ ref footnote  {
     max-width: 25%;
 }
 
-/* Footnote rendering for statute compilations*/
+/* Footnote rendering for statute compilations */
 statuteCompilation footnote  {
     display:            block;
     background-color:   inherit;
@@ -3261,7 +3388,7 @@ statuteCompilation footnote  {
     padding-top:        0.2em;
     padding-bottom:     0.2em;
     text-align:         left;
-    text-indent:        0em;
+    text-indent: 0;
     font-size:          0.8em;
     font-weight:        normal;
     border-top:         1pt solid;
@@ -3308,7 +3435,7 @@ sidenote  {
   text-align:           left;
   margin-top:           0.3em;
   margin-bottom:        -1.2em;
-  text-indent:          0em;
+  text-indent: 0;
   font-size:            0.8em;
   font-weight:          normal;
   font-variant:         normal;
@@ -3326,7 +3453,7 @@ sidenote[renderingPosition="leftMargin"]  {
   width:                10em;
 }
 
-/* Push the a second sidenote below the first one.  There should be a better way to do this. */
+/* Push a second sidenote below the first one.  There should be a better way to do this. */
 sidenote:not(:first-of-type) {
   margin-top:         3em;
 }
@@ -3359,7 +3486,7 @@ pLaw resolvingClause + sidenote  {
 }
 
 sidenote > p {
-  text-indent:          0em;
+  text-indent: 0;
   text-align:           left;
 }
 
@@ -3371,8 +3498,8 @@ ref[role="classifiedText"]::before  {
     content: "["
 }
 
-span[role="classifiedText"]:after,
-ref[role="classifiedText"]:after  {
+span[role="classifiedText"]::after,
+ref[role="classifiedText"]::after  {
     font-weight: bold;
     font-size: 1.2em;
     color: red;
@@ -3389,8 +3516,8 @@ endMarker  {
 legislativeHistory  {
     display:            block;
     max-width:          32.4em;
-    margin-left:        0em;
-    margin-right:       0em;
+    margin-left: 0;
+    margin-right: 0;
     margin-top:         4em;
     border-top:         1px solid;
     font-size:          0.8em;
@@ -3403,10 +3530,7 @@ legislativeHistory p {
 note[topic="enacting"] > p {
     display:            block;
     background-color:   inherit;
-    margin-left:        2em;
-    margin-right:       2em;
-    margin-top:         0em;
-    margin-bottom:      0em;
+    margin: 0 2em; /* top and bottom | left and right */
     text-align:         center;
     font-style:         italic;
 }
@@ -3432,7 +3556,7 @@ title>note[topic="miscellaneous"]>p::before, appendix>note[topic="miscellaneous"
     content:            "[";
 }
 
-title>note[topic="miscellaneous"]>p:after, appendix>note[topic="miscellaneous"]>p:after {
+title>note[topic="miscellaneous"]>p::after, appendix>note[topic="miscellaneous"]>p::after {
     display:            inline;
     content:            "]";
 }
@@ -3457,9 +3581,9 @@ title>note[topic="miscellaneous"]>p:after, appendix>note[topic="miscellaneous"]>
 /* Elided */
 elided[role="fiveStar"] {
     display:            block;
-    margin-bottom:      0em;
+    margin-bottom: 0;
     text-align:         left;
-    text-indent:        0em;
+    text-indent: 0;
     font-weight:        normal;
 }
 
@@ -3483,9 +3607,9 @@ elided[role="threeStar"] {
 *[class~="centered"] {
     display:            block;
     background-color:   inherit;
-    margin-left:        0em;
-    margin-right:       0em;
-    text-indent:        0em;
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
     text-align:         center;
 }
 
@@ -3496,24 +3620,18 @@ num[class~="centered"] {
 num[class~="centered"] + heading[class~="centered"] {
     display:            inline-block;
     background-color:   inherit;
-    margin-left:        0em;
-    margin-right:       0em;
-    text-indent:        0em;
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
     text-align:         center;
 }
 
 quotedContent num + heading[class~="centered"] {
     display:            inline;
     background-color:   inherit;
-    margin-left:        0em;
-    margin-right:       0em;
-    text-indent:        0em;
-    text-align:         center;
-}
-
-td[class~="centered"], td *[class~="centered"],  th[class~="centered"], th *[class~="centered"] {
-    display:            table-cell;
-    background-color:   inherit;
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
     text-align:         center;
 }
 
@@ -3521,73 +3639,33 @@ quotedContent title num:not([class~="indent"]) {
     text-align:         center;
 }
 
-section[class~="bold"] {
-    font-weight:        normal !important;
-}
-
-section[class~="bold"] > num, section[class~="bold"] > heading {
-    font-weight:        bold !important;
-}
-
-*[class~="bold"] {
-    font-weight:        bold !important;
-}
-
-
-*[class~="noBold"] {
-    font-weight:        normal !important;
-}
 
 quotedContent chapter > num {
     font-weight:        normal !important;
     font-variant:       small-caps;
 }
 
-*[class~="italic"] {
-    font-style:         italic !important;
+/*  Classes for use with any elements */
+
+*[class~="leftAlign"] {
+    background-color:   inherit;
+    margin-left: 0;
+    text-indent: 0;
+    text-align:         left;
 }
 
-*[class~="noItalic"] {
-    font-style:         normal !important;
+*[class~="rightAlign"] {
+    background-color:   inherit;
+    margin-right: 0;
+    text-indent: 0;
+    text-align:         right;
 }
 
-*[class~="smallCaps"] {
-    font-variant:       small-caps !important;
-    font-weight: initial;
-    margin-bottom: 0.5em;
-}
-
-*[class~="boldRoman"] {
-    font-weight: bold;
-    font-style: normal;
-}
-
-*[class~="boldItalic"] {
-    font-weight: bold;
-    font-style: italic;
-}
-
-section[class~="bold"] *[class~="smallCaps"] {
-    font-variant:       small-caps !important;
-}
-notes section num {
-    font-weight: initial;
- }
-
-notes section[class~="bold"] num {
-    font-weight: bold;
- }
-
-*[class~="noSmallCaps"]  {
-    font-variant:       normal !important;
-}
-
-*[class~="allCaps"] {
-    text-transform:     uppercase !important;
-}
-
-*[class~="noTextTransform"]  {
-    text-transform:       none !important;
+*[class~="justify"] {
+    background-color:   inherit;
+    margin-right: 0;
+    text-indent: 0;
+    text-align: justify;
 }
 
 *[class~="block"] {
@@ -3596,24 +3674,89 @@ notes section[class~="bold"] num {
 
 *[class~="inline"] {
    display:             inline !important;
-   margin-left:         0em;
+   margin-left: 0;
 }
 
-/* The following font sizes are based on root font size of 8pt. 1em = 8pt */
+*[class~="allCaps"] {
+    text-transform:     uppercase !important;
+}
+
+*[class~="bold"] {
+    font-weight:        bold !important;
+}
+
+*[class~="boldItalic"] {
+    font-weight: bold;
+    font-style: italic;
+}
+
+*[class~="boldRoman"] {
+    font-weight: bold;
+    font-style: normal;
+}
+
+*[class~="italic"] {
+    font-style:         italic !important;
+}
+
+*[class~="smallCaps"], *[class~="small-caps"] {
+    font-variant:       small-caps !important;
+    font-weight: initial;
+    margin-bottom: 0.5em;
+}
+
+*[class~="linethrough"] {
+    text-decoration-line:       line-through;
+}
+
+*[class~="underline"] {
+    text-decoration-line:       underline;
+}
+
+*[class~="normal"], *[class~="noBold"], *[class~="noItalic"], *[class~="noSmallCaps"], *[class~="noTextTransform"]  {
+    font-weight:        normal !important;
+}
+
+/* The following font sizes are based on root font size of 10pt. 1em = 10pt */
+
 *[class~="fontsize6"] {
-    font-size:          0.75em;
+    font-size:          0.6rem;
 }
 
 *[class~="fontsize7"] {
-    font-size:          0.88em;
+    font-size:          0.7rem;
 }
 
 *[class~="fontsize8"] {
-    font-size:          1em;
+    font-size:          0.8rem;
 }
+
+*[class~="fontsize10"] {
+    font-size:  1rem;
+}
+
+*[class~="fontsize12"] {
+    font-size:  1.2rem;
+}
+
+*[class~="fontsize14"] {
+    font-size:  1.4rem;
+}
+
+*[class~="fontsize18"] {
+    font-size:  1.8rem;
+}
+
+/*  End font size classes */
+
 notes p:not([class*='fontsize']) {
-    font-size:          0.88em;
+    font-size:          0.7em;
 }
+
+notes section num {
+    font-weight: initial;
+ }
+
 /* cfr classes */
 *[class~="heading2"]  {
     text-align:         center;
@@ -3636,19 +3779,20 @@ notes p:not([class*='fontsize']) {
 xhtml|p, p, level content p {
     display:            block;
     background-color:   inherit;
-    margin-left:        0em;
+    margin-left: 0;
     text-indent:        1em;
     text-align:         justify;
+}
+
+p[class~="secHead"], heading[class~="secHead"], num[class~="secHead"] {
+  display: block;
+  margin-top: 1.5em;
+  font-weight: bold;
 }
 
 text {
     display:            block;
     text-indent:        1em;
-}
-
-continuation {
-    display:            block;
-    text-indent:        0em;
 }
 
 content > heading  {
@@ -3658,7 +3802,7 @@ content > heading  {
 
 quotedContent {
     display:            inline;
-/*  text-indent:        0em; */
+/*  text-indent: 0; */
 }
 
 quotedText {
@@ -3680,8 +3824,8 @@ deletedText {
 
 xhtml|ul {
     display:            block;
-    margin-top:         0em;
-    margin-bottom:      0em;
+    margin-top: 0;
+    margin-bottom: 0;
     list-style-position: inside;
     text-indent:        1em;
     margin-left:        -3em;
@@ -3695,7 +3839,7 @@ xhtml|li  {
 
 xhtml|ul[class~="outsideBullet"]  {
    list-style-position: outside;
-   text-indent:         0em;
+   text-indent: 0;
    margin-left:         -2em;
 }
 
@@ -3725,18 +3869,6 @@ inline {
     display:            inline;
 }
 
-*[class~="small-caps"] {
-    font-variant:       small-caps;
-}
-
-*[class~="underline"] {
-    text-decoration:       underline;
-}
-
-def {
-    display:            inline;
-}
-
 term {
     display: inline;
 }
@@ -3754,10 +3886,7 @@ br {
 
 figure {
     display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 1em 40px; /* top and bottom | left and right */
 }
 
 figCaption {
@@ -3775,7 +3904,7 @@ listHeading  {
 listItem  {
     display:            block;
     margin-left:        2em;
-    text-indent:        0em;
+    text-indent: 0;
 }
 
 listContent  {
@@ -3833,7 +3962,56 @@ xhtml|th, th {
    overflow-x:          hidden;
 }
 
-note table:not([class=HNR]) xhtml|td {
+
+td[class~="centered"], td *[class~="centered"],  th[class~="centered"], th *[class~="centered"] {
+    display:            table-cell;
+    background-color:   inherit;
+    text-align:         center;
+}
+/* The stubHierarchy values are theoretically in units of 1 em under a certain width, 2em if over that width,
+ * unless the class attribute on the table is set to stubIndent1.
+ * For simplicity we set them to be units of 1em in the CSS */
+td[stubHierarchy="1"], td *[stubHierarchy="1"],  th[stubHierarchy="1"], th *[stubHierarchy="1"] {
+    text-align:    left;
+    text-indent:  -1em;
+    padding-left: 1em;
+}
+td[stubHierarchy="2"], td *[stubHierarchy="2"],  th[stubHierarchy="2"], th *[stubHierarchy="2"] {
+    text-align:    left;
+    text-indent:  -1em;
+    padding-left: 2em;
+}
+td[stubHierarchy="3"], td *[stubHierarchy="3"],  th[stubHierarchy="3"], th *[stubHierarchy="3"] {
+    text-align:    left;
+    text-indent:  -1em;
+    padding-left: 3em;
+}
+td[stubHierarchy="4"], td *[stubHierarchy="4"],  th[stubHierarchy="4"], th *[stubHierarchy="4"] {
+    text-align:    left;
+    text-indent:  -1em;
+    padding-left: 4em;
+}
+td[stubHierarchy="5"], td *[stubHierarchy="5"],  th[stubHierarchy="5"], th *[stubHierarchy="5"] {
+    text-align:    left;
+    text-indent:  -1em;
+    padding-left: 5em;
+}
+td[stubHierarchy="6"], td *[stubHierarchy="6"],  th[stubHierarchy="6"], th *[stubHierarchy="6"] {
+    text-align:    left;
+    text-indent:  -1em;
+    padding-left: 6em;
+}
+td[stubHierarchy="7"], td *[stubHierarchy="7"],  th[stubHierarchy="7"], th *[stubHierarchy="7"] {
+    text-align:    left;
+    text-indent:  -1em;
+    padding-left: 7em;
+}
+td[stubHierarchy="8"], td *[stubHierarchy="8"],  th[stubHierarchy="8"], th *[stubHierarchy="8"] {
+    text-align:    left;
+    text-indent:  -1em;
+    padding-left: 8em;
+}
+note table:not([class="HNR"]) xhtml|td {
     padding-left: 4vw;
     text-indent: -2vw;
 }
@@ -3867,14 +4045,14 @@ xhtml|td > xhtml|p {
 }
 
 xhtml|th > xhtml|p {
-   margin:              0em;
+   margin: 0;
    margin-left:         0.4em;
    margin-right:        0.4em;
 }
 
 xhtml|p[class~="leaders"] {
     max-width:          40em;
-    padding:            0em;
+    padding: 0;
     baseline-shift:     0;
     overflow-x:         hidden;
     list-style:         none;
@@ -3882,7 +4060,7 @@ xhtml|p[class~="leaders"] {
 
 xhtml|td[leaders~="yes"] {
   max-width:          40em;
-  padding:            0em;
+/*  padding: 0;*/
   baseline-shift:     0;
   overflow-x:         hidden;
   list-style:         none;
@@ -3892,10 +4070,10 @@ xhtml|td:not([leaders~="yes"])[style*="vertical-align:top"] {
     vertical-align: bottom !important;
   }
 
-xhtml|p[class~="leaders"] xhtml|span:after {
+xhtml|p[class~="leaders"] xhtml|span::after {
     display:            inline-flex;
     float:              left;
-    width:              0em;
+    width: 0;
     baseline-shift:     0;
     white-space:        nowrap;
     content:
@@ -3905,10 +4083,10 @@ xhtml|p[class~="leaders"] xhtml|span:after {
        ". . . . . . . . . . . . . . . . . . . . "
 }
 
-xhtml|td[leaders~="yes"] inline:after {
+xhtml|td[leaders~="yes"] inline::after {
   display:            inline-flex;
   float:              left;
-  width:              0em;
+  width: 0;
   baseline-shift:     0;
   white-space:        nowrap;
   content:
@@ -3939,7 +4117,7 @@ td[class~="indentTo90ptsHang"] {
 /* Schedule of Laws Repealed */
 *[class~="SOLR"] {
 	width: 100%;
-	margin: 1em 0 1em 0;
+	margin: 1em 0;
 	text-indent: 0;
 	border-bottom: 1px solid black;
 }
@@ -3953,7 +4131,7 @@ td[class~="indentTo90ptsHang"] {
 *[class~="SOLR"] thead th {
 	font-size: 0.7em;
 	text-align: center;
-	padding: 0.5em 0 0.5em 0;
+	padding: 0.5em 0;
 	vertical-align: middle;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
@@ -3976,203 +4154,6 @@ td[class~="indentTo90ptsHang"] {
 	text-indent: -0.8em;
 }
 
-
-/* Metadata block */
-uscDoc>meta, bill>meta, resolution>meta, pLaw>meta, statutesAtLarge>meta,
-frDoc>meta, cfrDoc>meta, statutesAtLarge component>meta  {
-    display:            none;
-    border-style:       solid;
-    border-width:       1pt;
-    border-color:       gray;
-    margin-left:	    3pt;
-    margin-top:         3pt;
-    margin-bottom:	    3pt;
-    text-align:         left;
-    text-indent:        0em;
-    padding-left:       1em;
-    color:              gray;
-}
-
-uscDoc>meta::before, bill>meta::before, resolution>meta::before, pLaw>meta::before, statutesAtLarge>meta::before,
-frDoc>meta::before, cfrDoc>meta::before, statutesAtLarge component>meta::before  {
-    display:            inline;
-    color:              gray;
-    font-size:          1.2em;
-    font-weight:        bold;
-    content:            "[Metadata]";
-}
-
-/* By default, all metadata items are block */
-meta>* {
-    display:            block;
-    margin-left:        2em;
-    text-indent:        -2em;
-}
-
-frDoc component>meta>* {
-    display:            none;
-}
-
-/* Metadata display */
-/* Dublin Core elements */
-meta>dc|creator::before {
-    display:            inline;
-    color:              gray;
-    content:            "Created By: ";
-}
-
-meta>dc|format::before {
-    display:            inline;
-    color:              gray;
-    content:            "Format: ";
-}
-
-meta>dc|identifier::before {
-    display:            inline;
-    color:              gray;
-    content:            "Identifier: ";
-}
-
-meta>dc|language::before {
-    display:            inline;
-    color:              gray;
-    content:            "Language: ";
-}
-
-meta>dc|publisher::before  {
-    display:            inline;
-    color:              gray;
-    content:            "Publisher: ";
-}
-
-meta>dc|rights::before {
-    display:            inline;
-    color:              gray;
-    content:            "Rights: ";
-}
-
-meta>dc|title::before  {
-    display:            inline;
-    color:              gray;
-    content:            "Title: ";
-}
-
-meta>dc|type::before  {
-    display:            inline;
-    color:              gray;
-    content:            "Type: ";
-}
-
-meta>dcterms|created::before {
-    display:            inline;
-    color:              gray;
-    content:            "Created On: ";
-}
-
-/* USLM-defined metadata elements */
-meta>congress::before  {
-    display:            inline;
-    color:              gray;
-    content:            "Congress: ";
-}
-
-meta>docNumber::before {
-    display:            inline;
-    color:              gray;
-    content:            "Doc Number: ";
-}
-
-meta>docPublicationName::before {
-    display:            inline;
-    color:              gray;
-    content:            "Publication Name: ";
-}
-
-meta>citableAs::before {
-    display:            inline;
-    color:              gray;
-    content:            "Citable As: ";
-}
-
-meta>docReleasePoint::before {
-    display:            inline;
-    color:              gray;
-    content:            "Doc Release Point: ";
-}
-
-meta>docStage::before  {
-    display:            inline;
-    color:              gray;
-    content:            "Doc Stage: ";
-}
-
-meta>session::before  {
-    display:            inline;
-    color:              gray;
-    content:            "Session: ";
-}
-
-meta>startingPage::before {
-    display:            inline;
-    color:              gray;
-    content:            "Starting Page: ";
-}
-
-meta>dc|title::before {
-    display:            inline;
-    color:              gray;
-    content:            "Title: ";
-}
-
-meta>docPublicationName::before {
-    display:            inline;
-    color:              gray;
-    content:            "Publication Name: ";
-}
-
-meta>volume::before {
-    display:            inline;
-    color:              gray;
-    content:            "Volume: ";
-}
-
-meta>issue::before {
-    display:            inline;
-    color:              gray;
-    content:            "Issue: ";
-}
-
-meta>date::before {
-    display:            inline;
-    color:              gray;
-    content:            "Date: ";
-}
-
-meta>processedBy::before {
-    display:            inline;
-    color:              gray;
-    content:            "Processed By: ";
-}
-
-meta>processedDate::before {
-    display:            inline;
-    color:              gray;
-    content:            "Processed Date: ";
-}
-
-meta>publicPrivate::before {
-    display:            inline;
-    color:              gray;
-    content:            "Public/Private: ";
-}
-
-
-meta>docPart::before {
-    display:            inline;
-    color:              gray;
-    content:            "Document Part: ";
-}
-
 /* Page Formatting */
 /* Page Break Markers */
 page, preface>startingPage  {
@@ -4180,11 +4161,11 @@ page, preface>startingPage  {
     margin-top: 24pt;
     margin-bottom: 12pt;
     text-align: center;
-    text-indent: 0pt;
+    text-indent: 0;
     font-weight: normal;
     font-style: normal;
     font-family: "Century Schoolbook", "NewCenturySchlbk", "Times New Roman", serif;
-	font-size: 11pt;  /* fixed size, independent of context. 11pt in the pdf */
+    font-size: 1.1em;  /* 11pt in the pdf */
 }
 
 /* Suppress page numbers in Statutes At Large cover pages */
@@ -4206,14 +4187,10 @@ page[class="raw"]::before, preface>startingPage[class="raw"]::before {
     content: "--- ";
 }
 
-page:after, preface>startingPage:after {
+page::after, preface>startingPage::after {
     content: " ---";
 }
   */
-
-frDoc preface>startingPage  {
-    display:none;
-}
 
 cfrDoc leftRunningHead,
 cfrDoc rightRunningHead,
@@ -4248,8 +4225,8 @@ frDoc ear  {
 /* Override dc:title at the end of the CSS so that dc:title does not get rendered like a USLM:title element */
 dc|title {
     display:            block;
-    margin-top:         0em;
-    margin-bottom:      0em;
+    margin-top: 0;
+    margin-bottom: 0;
     text-align:         left;
     font-size:          1em;
 }
@@ -4365,204 +4342,263 @@ xhtml|br[verticalSpace='29'], br[verticalSpace='29'] {
 }
 
 /* BEGIN ALL INDENT RULES */
-*[identifier*="/us/resolution"] *:not(.inline)[class*=indent], *[identifier*="/us/usc"] *:not(.inline)[class*=indent] {
+/*  OLRC indent rules */
+
+quotedContent:not([identifier*="/us/usc"]) { 
+    margin-left: inherit;
+    text-indent: inherit;
+}
+
+*:where([identifier*="/us/usc"]) *[class*="indentUp0"] {
+    margin-left: 0;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentUp1"], 
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentUp1"],
+*:is([identifier*="/us/usc"]) note *[class*="indentUp1"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentUp1"] {
+    margin-left: 1em;
+} 
+*:where([identifier*="/us/usc"]) *[class*="indentUp2"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentUp2"],
+*:is([identifier*="/us/usc"]) note *[class*="indentUp2"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentUp2"] {
+    margin-left: 2em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentUp3"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentUp3"],
+*:is([identifier*="/us/usc"]) note *[class*="indentUp3"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentUp3"] {
+    margin-left: 3em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentUp4"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentUp4"],
+*:is([identifier*="/us/usc"]) note *[class*="indentUp4"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentUp4"] {
+    margin-left: 4em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentUp5"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentUp5"],
+*:is([identifier*="/us/usc"]) note *[class*="indentUp5"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentUp5"] {
+    margin-left: 5em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentUp6"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentUp6"],
+*:is([identifier*="/us/usc"]) note *[class*="indentUp6"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentUp6"] {
+    margin-left: 6em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentUp7"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentUp7"],
+*:is([identifier*="/us/usc"]) note *[class*="indentUp7"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentUp7"] {
+    margin-left: 7em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentDown0"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentDown0"],
+*:is([identifier*="/us/usc"]) note *[class*="indentDown0"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentDown0"] {
+    margin-left: 0;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentDown1"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentDown1"],
+*:is([identifier*="/us/usc"]) note *[class*="indentDown1"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentDown1"] {
+    margin-left: -1em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentDown2"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentDown2"],
+*:is([identifier*="/us/usc"]) note *[class*="indentDown2"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentDown2"] {
+    margin-left: -2em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentDown3"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentDown3"],
+*:is([identifier*="/us/usc"]) note *[class*="indentDown3"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentDown3"] {
+    margin-left: -3em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentDown4"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentDown4"],
+*:is([identifier*="/us/usc"]) note *[class*="indentDown4"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentDown4"] {
+    margin-left: -4em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentDown5"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentDown5"],
+*:is([identifier*="/us/usc"]) note *[class*="indentDown5"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentDown5"] {
+    margin-left: -5em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentDown6"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentDown6"],
+*:is([identifier*="/us/usc"]) note *[class*="indentDown6"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentDown6"] {
+    margin-left: -6em;
+}
+*:where([identifier*="/us/usc"]) *[class*="indentDown7"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="indentDown7"],
+*:is([identifier*="/us/usc"]) note *[class*="indentDown7"], 
+*:is([identifier*="/us/usc"]) content list listItem[class*="indentDown7"] {
+    margin-left: -7em;
+}
+*:where([identifier*="/us/usc"]) paragraph:where(:not(.inline):not([class*="firstIndent"])),
+*:where([identifier*="/us/usc"]) subparagraph:where(:not(.inline):not([class*="firstIndent"])),
+*:where([identifier*="/us/usc"]) clause:where(:not(.inline):not([class*="firstIndent"])),
+*:where([identifier*="/us/usc"]) subclause:where(:not(.inline):not([class*="firstIndent"])),
+*:where([identifier*="/us/usc"]) item:where(:not(.inline):not([class*="firstIndent"])),
+*:where([identifier*="/us/usc"]) subitem:where(:not(.inline):not([class*="firstIndent"])),
+*:where([identifier*="/us/usc"]) subsubitem:where(:not(.inline):not([class*="firstIndent"])),
+*:where([identifier*="/us/usc"]) section level:where(:not(.inline):not([class*="firstIndent"])) {
+    text-indent: 1em;
+}
+*:where([identifier*="/us/usc"]) *[class*="firstIndent1"],
+*:is([identifier*="/us/usc"]) continuation[class*="firstIndent1"],
+*:is([identifier*="/us/usc"]) content list listItem[class*="firstIndent1"],
+*:is([identifier*="/us/usc"]) note *[class*="firstIndent1"],
+ *:is([identifier*="/us/usc"]) quotedContent *[class*="firstIndent1"] {
+    text-indent: 1em;
+} 
+*:where([identifier*="/us/usc"]) *[class*="firstIndent2"],
+*:is([identifier*="/us/usc"]) continuation[class*="firstIndent2"],
+*:is([identifier*="/us/usc"]) content list listItem[class*="firstIndent2"],
+*:is([identifier*="/us/usc"]) note *[class*="firstIndent2"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="firstIndent2"]  {
+    text-indent: 2em;
+}
+*:where([identifier*="/us/usc"]) *[class*="firstIndent-1"],
+*:is([identifier*="/us/usc"]) continuation[class*="firstIndent-1"],
+*:is([identifier*="/us/usc"]) content list listItem[class*="firstIndent-1"],
+*:is([identifier*="/us/usc"]) note *[class*="firstIndent-1"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="firstIndent-1"]  {
+    text-indent: -1em;
+}
+*:where([identifier*="/us/usc"]) *[class*="firstIndent-2"],
+*:is([identifier*="/us/usc"]) continuation[class*="firstIndent-2"],
+*:is([identifier*="/us/usc"]) content list listItem[class*="firstIndent-2"],
+*:is([identifier*="/us/usc"]) note *[class*="firstIndent-2"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="firstIndent-2"] {
+    text-indent: -2em;
+}
+*:where([identifier*="/us/usc"]) *[class*="firstIndent-3"],
+*:is([identifier*="/us/usc"]) continuation[class*="firstIndent-3"],
+*:is([identifier*="/us/usc"]) content list listItem[class*="firstIndent-3"],
+*:is([identifier*="/us/usc"]) note *[class*="firstIndent-3"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="firstIndent-3"] {
+    text-indent: -3em;
+}
+*:where([identifier*="/us/usc"]) *[class*="firstIndent-4"],
+*:is([identifier*="/us/usc"]) continuation[class*="firstIndent-4"],
+*:is([identifier*="/us/usc"]) content list listItem[class*="firstIndent-4"],
+*:is([identifier*="/us/usc"]) note *[class*="firstIndent-4"],
+*:is([identifier*="/us/usc"]) quotedContent *[class*="firstIndent-4"] {
+    text-indent: -4em;
+}
+*:where([identifier*="/us/usc"]) *[class*="rightIndent1"],
+*:is([identifier*="/us/usc"]) note *[class*="rightIndent1"] {
+    margin-right: 1em;
+    text-align: justify;
+}
+*:where([identifier*="/us/usc"]) *[class*="rightIndent2"],
+*:is([identifier*="/us/usc"]) note *[class*="rightIndent2"]  {
+    margin-right: 2em;
+    text-align: justify;
+}
+*:where([identifier*="/us/usc"]) *[class*="rightIndent3"],
+*:is([identifier*="/us/usc"]) note *[class*="rightIndent3"]  {
+    margin-right: 3em;
+    text-align: justify;
+}
+
+/*  Non-OLRC indent rules */
+
+*:not([identifier*="/us/usc"]) paragraph[class*="indent"],
+*:not([identifier*="/us/usc"]) subparagraph[class*="indent"],
+*:not([identifier*="/us/usc"]) clause[class*="indent"], 
+*:not([identifier*="/us/usc"]) subclause[class*="indent"] {
     display: block;
 }
-
-*[identifier*="/us/usc"] *:not(quotedContent) * { 
-    > [class*="indentUp0"], [class*="indentUp0"] {
-        margin-left: 0em;
-    }
-    [class*="indentUp1"] {
-        margin-left: 1em;
-    }
-    [class*="indentUp2"] {
-        margin-left: 2em;
-    }
-    > [class*="indentUp2"] {
-        margin-left: 2em;
-    }
-    [class*="indentUp3"] {
-        margin-left: 3em;
-    }
-    [class*="indentUp4"] {
-        margin-left: 4em;
-    }
-    [class*="indentUp5"] {
-        margin-left: 5em;
-    }
-    [class*="indentUp6"] {
-        margin-left: 6em;
-    }
-    [class*="indentUp7"] {
-        margin-left: 7em;
-    }
-    [class*="indentDown1"] {
-        margin-left: -1em;
-    }
-    [class*="indentDown2"] {
-        margin-left: -2em;
-    }
-    [class*="indentDown3"] {
-        margin-left: -3em;
-    }
-    [class*="indentDown4"] {
-        margin-left: -4em;
-    }
-    [class*="indentDown5"] {
-        margin-left: -5em;
-    }
-    [class*="indentDown6"] {
-        margin-left: -6em;
-    }
-    [class*="indentDown7"] {
-        margin-left: -7em;
-    }    
-    [class*="firstIndent0"]:where(:not(subsection):not(level):not(p):not(paragraph):not(subparagraph):not(clause):not(subclause):not(item):not(subitem)) {
-        text-indent: 0em;
-    }
-    [class*="firstIndent1"] {
-        text-indent: 1em;
-    }
-    [class*="firstIndent2"] {
-        text-indent: 2em;
-    }
-    [class*="firstIndent-1"] {
-        text-indent: -1em;
-    }
-    [class*="firstIndent-2"] {
-        text-indent: -2em;
-    }
-    > [class*="firstIndent-2"] {
-        text-indent: -2em;
-    }
-    [class*="firstIndent-3"] {
-        text-indent: -3em;
-    }
-    [class*="firstIndent-4"] {
-        text-indent: -4em;
-    }
-    [class*="rightIndent1"] {
-        margin-right: 1em;
-        text-align: justify;
-    }
-    [class*="rightIndent2"] {
-        margin-right: 2em;
-        text-align: justify;
-    }
-    [class*="rightIndent3"] {
-        margin-right: 3em;
-        text-align: justify;
-    }
+*:not([identifier*="/us/usc"]) [class*="indentUp0"] {
+    margin-left: 0;
 }
-
-*:not([identifier*="/us/usc"]) { 
-    &:is(quotedContent) {
-        margin-left: inherit;
-        text-indent: inherit;
-    }
+*:not([identifier*="/us/usc"]) [class*="indentUp1"] {
+    margin-left: 2em;
 }
-*:not([identifier*="/us/usc"]) { 
-    paragraph[class*="indent0"], paragraph[class*="indent1"], paragraph[class*="indent2"], paragraph[class*="indent3"],
-    paragraph[class*="indent4"], paragraph[class*="indent5"], paragraph[class*="indent6"], paragraph[class*="indent7"],
-    subparagraph[class*="indent0"], subparagraph[class*="indent1"], subparagraph[class*="indent2"], subparagraph[class*="indent3"],
-    subparagraph[class*="indent4"], subparagraph[class*="indent5"], subparagraph[class*="indent6"], subparagraph[class*="indent7"],
-    clause[class*="indent0"], clause[class*="indent1"], clause[class*="indent2"], clause[class*="indent3"],
-    clause[class*="indent4"], clause[class*="indent5"], clause[class*="indent6"], clause[class*="indent7"],
-    subclause[class*="indent0"], subclause[class*="indent1"], subclause[class*="indent2"], subclause[class*="indent3"],
-    subclause[class*="indent4"], subclause[class*="indent5"], subclause[class*="indent6"], subclause[class*="indent7"]
-     {
-        display: block;
-    }
-
-    [class*="indentUp0"] {
-        margin-left: 0em;
-    }
-    [class*="indentUp1"] {
-        margin-left: 2em;
-        display: block;
-    }
-    [class*="indentUp2"] {
-        margin-left: 4em;
-    }
-    [class*="indentUp3"] {
-        margin-left: 6em;
-    }
-    [class*="indentUp4"] {
-        margin-left: 8em;
-    }
-    [class*="indentUp5"] {
-        margin-left: 10em;
-    }
-    [class*="indentUp6"] {
-        margin-left: 12em;
-    }
-    [class*="indentUp7"] {
-        margin-left: 14em;
-    }
-    [class*="indentDown1"] {
-        margin-left: -2em;
-    }
-    &:is(paragraph[class*="indentDown1"]) {
-        margin-left: 2em;
-    }
-    [class*="indentDown2"] {
-        margin-left: -4em;
-    }
-    [class*="indentDown3"] {
-        margin-left: -6em;
-    }
-    [class*="indentDown4"] {
-        margin-left: -8em;
-    }
-    [class*="indentDown5"] {
-        margin-left: -10em;
-    }
-    [class*="indentDown6"] {
-        margin-left: -12em;
-    }
-    [class*="indentDown7"] {
-        margin-left: -14em;
-    }
-    
-    [class*="firstIndent1"] {
-        > num {
-            margin-left: -1em;
-        }
-        text-indent: 2em;
-    }
-    [class*="firstIndent2"] {
-        text-indent: 4em;
-    }
-    [class*="firstIndent-1"] {
-        text-indent: -2em;
-    }
-    [class*="firstIndent-2"] {
-        text-indent: -4em;
-    }
-    [class*="firstIndent-3"] {
-        text-indent: -6em;
-    }
-    [class*="firstIndent-4"] {
-        text-indent: -8em;
-    }
-    [class*="rightIndent1"] {
-        margin-right: 2em;
-        text-align: justify;
-    }
-    [class*="rightIndent2"] {
-        margin-right: 4em;
-        text-align: justify;
-    }
-    [class*="rightIndent3"] {
-        margin-right: 6em;
-        text-align: justify;
-    }
+*:not([identifier*="/us/usc"]) [class*="indentUp2"] {
+    margin-left: 4em;
 }
-
-/*uscDoc paragraph heading, uscDoc paragraph:not([class="indentUp0"]) > num, uscDoc quotedContent subsection > num, uscDoc subclause > num, uscDoc clause > num {
-    font-weight: bold;
-}*/
+*:not([identifier*="/us/usc"]) [class*="indentUp3"] {
+    margin-left: 6em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentUp4"] {
+    margin-left: 8em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentUp5"] {
+    margin-left: 10em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentUp6"] {
+    margin-left: 12em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentUp7"] {
+    margin-left: 14em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentDown0"] {
+    margin-left: 0;
+}
+*:not([identifier*="/us/usc"]) [class*="indentDown1"] {
+    margin-left: -2em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentDown2"] {
+    margin-left: -4em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentDown3"] {
+    margin-left: -6em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentDown4"] {
+    margin-left: -8em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentDown5"] {
+    margin-left: -10em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentDown6"] {
+    margin-left: -12em;
+}
+*:not([identifier*="/us/usc"]) [class*="indentDown7"] {
+    margin-left: -14em;
+}
+*:not([identifier*="/us/usc"]) [class*="firstIndent1"] > num {
+    margin-left: -1em;
+}
+*:not([identifier*="/us/usc"]) [class*="firstIndent1"] {
+    text-indent: 2em;
+}
+*:not([identifier*="/us/usc"]) [class*="firstIndent2"] {
+    text-indent: 4em;
+}
+*:not([identifier*="/us/usc"]) [class*="firstIndent-1"] {
+    text-indent: -2em;
+}
+*:not([identifier*="/us/usc"]) [class*="firstIndent-2"] {
+    text-indent: -4em;
+}
+*:not([identifier*="/us/usc"]) [class*="firstIndent-3"] {
+    text-indent: -6em;
+}
+*:not([identifier*="/us/usc"]) [class*="firstIndent-4"] {
+    text-indent: -8em;
+}
+*:not([identifier*="/us/usc"]) [class*="rightIndent1"] {
+    margin-right: 2em;
+    text-align: justify;
+}
+*:not([identifier*="/us/usc"]) [class*="rightIndent2"] {
+    margin-right: 4em;
+    text-align: justify;
+}
+*:not([identifier*="/us/usc"]) [class*="rightIndent3"] {
+    margin-right: 6em;
+    text-align: justify;
+}
 
 uscDoc num + heading ~ paragraph[class="indentUp0"] > num {
     font-variant: none;
@@ -4570,94 +4606,11 @@ uscDoc num + heading ~ paragraph[class="indentUp0"] > num {
     margin-left: 0;
 }
 
-/* In U.S. Code sections, resolutions/chapeau override each of the indent classes to reflect lunit=1em starting at 0*/
-*[identifier*="/us/resolution"] chapeau[class~="firstIndent-4"]:not(.inline) {
-    text-indent:        -3em ;
+*[class~="firstLineIndent1em"] {
+    text-indent: 1em;
 }
 
-*[identifier*="/us/resolution"] chapeau[class~="firstIndent-3"]:not(.inline) {
-    text-indent:        -2em ;
-}
-
-*[identifier*="/us/resolution"] chapeau[class~="firstIndent-2"]:not(.inline) {
-    text-indent:        -1em;
-}
-
-*[identifier*="/us/resolution"] chapeau[class~="firstIndent1"]:not(.inline) {
-    text-indent:        0em;
-}
-
-*[identifier*="/us/resolution"] chapeau[class~="firstIndent2"]:not(.inline) {
-    text-indent:        1em;
-}
-
-/* Set right margin indentation. Each logical indent level is 1em WHEN NESTED IN QUOTEDCONTENT */
-quotedContent *[class~="rightIndent1"] {
-    display:            block;
-    margin-right:       1em;
-}
-
-quotedContent *[class~="rightIndent2"] {
-    display:            block;
-    margin-right:       2em;
-    text-align:         right;
-}
-
-quotedContent *[class~="rightIndent3"] {
-    display:            block;
-    margin-right:       3em;
-}
-
-/*
-*[identifier*="/us/usc"] quotedContent *[class~="indentUp1"]:not(.inline) {
-    margin-left:        1em;
-}
-
-*[identifier*="/us/usc"] quotedContent *[class~="indentUp2"]:not(.inline) {
-    margin-left:        2em;
-}
-
-*[identifier*="/us/usc"] quotedContent *[class~="indentUp3"]:not(.inline) {
-    margin-left:        3em;
-}
-
-*[identifier*="/us/usc"] quotedContent *[class~="indentUp4"]:not(.inline) {
-    margin-left:        4em;
-}
-
-*[identifier*="/us/usc"] quotedContent *[class~="indentUp5"]:not(.inline) {
-    margin-left:        5em;
-}
-
-*[identifier*="/us/usc"] quotedContent *[class~="indentUp6"]:not(.inline) {
-    margin-left:        6em;
-}
-
-*[identifier*="/us/usc"] quotedContent *[class~="indentUp7"]:not(.inline) {
-    margin-left:        7em;
-}
-/* P in notes are not nested, so the absolute indents (rather than relative indents) may be respected */
-
-note > p[class~="firstIndent-2"] {
-    text-indent:        -2em!important;
-}
-
-note > p[class~="firstIndent-3"] {
-    text-indent:        -3em!important;
-}
-
-note > p[class~="firstIndent-4"] {
-    text-indent:        -4em!important;
-}
-
-note > p[class~="firstIndent-5"] {
-    text-indent:        -5em!important;
-}
-
-note > p[class~="firstIndent-6"] {
-    text-indent:        -6em!important;
-}
-
+/* These absolute indents will not give correct results for any hierarchy. */
 note > p[class~="indent1"] {
     margin-left:        1em;
 }
@@ -4681,26 +4634,9 @@ note > p[class~="indent5"] {
 note > p[class~="indent6"] {
     margin-left:        6em;
 }
-/* USC levels below subsection are indented 1em from their parent by default,
- * with a first-line indent of an additional 1em. 
- *[identifier*="/us/usc"], *[identifier*="/us/resolution"]  {
-     margin-left:        1em;
- }*/
 
  quotedContent:not([identifier*="/us/usc"]) > *:first-child:not([identifier*="/us/usc"]):not([class*="indent"]) {
-    margin-left: 0em;
-}
-subsection {
-    text-indent: 1em; /*default*/
-}
-subsection[identifier*="/us/usc"], *[identifier*="/us/usc"] subsection, *[identifier*="/us/usc"] ins subsection {
-    text-indent: 1em; /*default*/
+    margin-left: 0;
 }
 
-/* nums should inherit indent and left margin from parent 
-section > num {
-    text-indent: inherit;
-    margin-left: inherit;
-}
-*/
 /* END ALL INDENT RULES */

@@ -2,7 +2,7 @@
 >
 >Versions 2.0.14, 2.0.15, 2.0.16, 2.0.17, and 2.1.0 of the schema are available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
 >  
->Version 2.33 of the CSS is available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
+>Version 2.39 2026-05-11 of the CSS is available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
 
 
 # USLM Schema #  
