@@ -25,8 +25,8 @@ Schema:
 CSS:  
   
 File - uslm.css:  
-Version: 2.37 2025-09-18  
-Previous version: 2.33 2024-08-23  
+Version: 2.39 2026-05-11  
+Previous version: 2.37 2025-09-18 
   
 - Add styling for index in Statutes at Large back matter.  
 - Add classes for US Code Titles to better match the PDF version.  
