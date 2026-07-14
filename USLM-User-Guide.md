@@ -70,7 +70,7 @@ XML namespaces are associated with a URI (Uniform Resource Identifier) which is 
 
 For USLM, the namespace URI is defined as the following URL:
 
-https://xml.house.gov/schemas/uslm/1.0
+http://xml.house.gov/schemas/uslm/1.0
 
 #### 1.5.2.3 Namespace Prefix
 Ordinarily, a namespace prefix is not necessary and should not be used. However, in cases where a namespace prefix is deemed necessary, the preferred prefix is &quot;USLM&quot;.
