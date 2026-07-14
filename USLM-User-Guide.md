@@ -11,7 +11,7 @@ United States Legislative Markup (USLM) is an XML information model designed to 
 4. Provide a flexible foundation to meet future needs of the United States Congress.
 5. Be compatible with other legislative documents that already exist in other XML formats.
 
-This User Guide describes, at a high level, how USLM is designed and how it can be used. USLM is designed using the XML Schema Definition language (XSD). This User Guide is intended for individuals familiar with XSDs and with document information modeling. For more information on XSDs, see the W3C website at [http://www.w3.org/TR/2004/REC-xmlschema-0-20041028/](http://www.w3.org/TR/2004/REC-xmlschema-0-20041028/) and other reference materials on these subjects.
+This User Guide describes, at a high level, how USLM is designed and how it can be used. USLM is designed using the XML Schema Definition language (XSD). This User Guide is intended for individuals familiar with XSDs and with document information modeling. For more information on XSDs, see the W3C website at [https://www.w3.org/TR/2004/REC-xmlschema-0-20041028/](https://www.w3.org/TR/2004/REC-xmlschema-0-20041028/) and other reference materials on these subjects.
 
 >**Note:** _Version 1.0 of XML Schema is used for USLM. A more recent version, V1.1, is available as a recommendation, but currently there is very limited tool support for the more recent version._
 
@@ -70,7 +70,7 @@ XML namespaces are associated with a URI (Uniform Resource Identifier) which is 
 
 For USLM, the namespace URI is defined as the following URL:
 
-http://xml.house.gov/schemas/uslm/1.0
+https://xml.house.gov/schemas/uslm/1.0
 
 #### 1.5.2.3 Namespace Prefix
 Ordinarily, a namespace prefix is not necessary and should not be used. However, in cases where a namespace prefix is deemed necessary, the preferred prefix is &quot;USLM&quot;.
@@ -119,7 +119,7 @@ A number of elements in USLM are defined to be identical in name and function to
 The elements borrowed from XHTML are: `<p>`, `<br>`, `<img>`, `<center>`, `<b>`, `<i>`, `<sub>`, `<sup>`, `<del>`, and `<ins>`. In addition to this set, there are other elements which share the same name as XHTML elements, but in those cases, the semantics behind the elements are either not completely similar or are totally different. Do not assume XHTML semantics merely because the element name coincides with an XHTML element name.
 
 ## 1.7 Relationship to Akoma Ntoso
-USLM is not defined to be either a derivative or subset of Akoma Ntoso (http://www.akomantoso.org/). It would be premature to define USLM in that way while the effort is still underway in the OASIS (http://www.oasis-open.org/committees/legaldocml) standards group to establish Akoma Ntoso as the XML standard for legislative documents. However, USLM is designed to be consistent with Akoma Ntoso to the extent practicable. Many of the element and attribute names in USLM match the Akoma Ntoso equivalents. As Akoma Ntoso becomes a standard, and as demand for it emerges, it should be possible to produce an Akoma Ntoso XML rendition of a USLM document through a simple transformation.
+USLM is not defined to be either a derivative or subset of Akoma Ntoso. It would be premature to define USLM in that way while the effort is still underway in the OASIS (https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml) standards group to establish Akoma Ntoso as the XML standard for legislative documents. However, USLM is designed to be consistent with Akoma Ntoso to the extent practicable. Many of the element and attribute names in USLM match the Akoma Ntoso equivalents. As Akoma Ntoso becomes a standard, and as demand for it emerges, it should be possible to produce an Akoma Ntoso XML rendition of a USLM document through a simple transformation.
 
 ## 1.8 External Dependencies
 USLM has no dependencies on any other information model aside from the core XML model. However, the United States Code titles in USLM currently depend on the Dublin Core and XHTML namespaces. USLM supports the optional use of other information models to create composite documents made up of multiple namespaces. In particular, the use of the following information models is encouraged:
@@ -147,7 +147,7 @@ If a tag is defined in the abstract model, and it is sufficient for direct use, 
 
 2. For anomalous situations occurring so infrequently that modification of the schema is unwarranted, inheritance can be implemented in USLM with an approach inspired by XHTML, using the `@role` attribute to create subclasses. The element name represents the base class, and the `@role` attribute value represents the subclass. This approach makes it easy to create subclasses without changing the schema. Although this method provides welcome flexibility for special cases, it should be used sparingly to avoid the creation of many poorly defined and poorly supported subclasses.
 
->**Note:** _There is a rough equivalence between the two approaches. For instance, `<level role="chapter">`_ _is roughly analogous to `<chapter>`. However, there is no formal mechanism within XML to establish this equivalence._
+>**Note:** _There is a rough equivalence between the two approaches. For instance, `<level role="chapter">`_ _is roughly analogous to `<chapter>. However, there is no formal mechanism within XML to establish this equivalence._
 
 ## 3.1 Polymorphism
 In a programming language, **_polymorphism_** is the ability to use an instance of a subclass wherever an instance of the base class is expected. XML schemas support polymorphism. However, in XML schemas, unlike programming languages, polymorphism is not an implicit capability that comes along with inheritance. In XML schemas, polymorphism is achieved by defining a base level element and then defining subclassed elements to be part of the base element's **substitution group**.
@@ -233,11 +233,15 @@ The generic set defines a set of general-purpose tags used to markup basic struc
 | --- | --- | --- |
 | 1 | `<layout>` | A region to be presented in a column-oriented layout – similar to a table.  |
 | 2 | `<header>`  | A heading row in a `<layout>` structure. |
-| 3 | `<row>`  | A normal row in a `<layout>` structure. In general, this level can be omitted. |
+| 3 | `<row>`  | A normal row in a `<layout>` structure. In general, this level can be omitted.
+ |
 | 4 | `<column>`  | A column cell in a `<layout>` structure. |
-| 5 | `<p>`  | A normal (unnumbered) paragraph. The semantics for a paragraph should be preserved. Do not use the `<p>` element as a general block like element. |
-| 6 | `<br>`  | A line break. This element should only be used to force a line break when other more semantic elements are not sufficient to achieve the desired formatting. |
-| 7 | `<img>`  | An embedded image. This is a marker element which points, via a URL, to the image to be embedded.|
+| 5 | `<p>`  | A normal (unnumbered) paragraph. The semantics for a paragraph should be preserved. Do not use the `<p>` element as a general block like element.
+ |
+| 6 | `<br>`  | A line break. This element should only be used to force a line break when other more semantic elements are not sufficient to achieve the desired formatting.
+ |
+| 7 | `<img>`  | An embedded image. This is a marker element which points, via a URL, to the image to be embedded.
+ |
 | 8 | `<center>`  | Centered text. While this tag is deprecated in HTML 4.01, it is provided here for convenience as centering text is common.|
 | 9 | `<fillIn>`  | A region of text intended to be filled in on a form. |
 | 10 | `<checkBox>` | A check box intended to be checked on a form. |
@@ -390,10 +394,10 @@ The core document model uses the core elements of the abstract model discussed a
 <?xml version="1.0" encoding="UTF-8">
 
 <lawDoc       
-     xmlns=http://xml.house.gov/schemas/uslm/1.0
-	xsi:schemaLocation"http://xml.house.gov/schemas/uslm/1.0
+     xmlns=https://xml.house.gov/schemas/uslm/1.0
+	xsi:schemaLocation"https://xml.house.gov/schemas/uslm/1.0
        ./USLM-1.0.xsd"
-	 xml:base="http://resolver.mydomain.com"
+	 xml:base="https://resolver.mydomain.com"
      identifier="/us/usc/t5">
    <meta>
       <property name=&quot;docTitle&quot;>…</property>
@@ -508,29 +512,34 @@ The concrete model builds on the abstract model discussed in section 5 of this d
 
 |   | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
-| 1 | `<def>` | `<text>` | One or more `<term>` elements, as well as their respective definitions |
-| 2 | `<term>` | `<inline>` | A term in the document that is being defined |
-| 3 | `<chapeau>` | `<text>` | Introductory text that comes before lower levels in a level hierarchy |
-| 4 | `<continuation>` | `<text>` | Final or interstitial text that comes after or between lower levels in a level hierarchy |
+| 1 | `<def>` | `<text>` | One or more `<term>` elements, as well as their respective definitions
+ |
+| 2 | `<term>` | `<inline>` | A term in the document that is being defined
+ |
+| 3 | `<chapeau>` | `<text>` | Introductory text that comes before lower levels in a level hierarchy
+ |
+| 4 | `<continuation>` | `<text>` | Final or interstitial text that comes after or between lower levels in a level hierarchy
+ |
 | 5 | `<proviso>` | `<text>` | A paragraph of text, usually beginning with &quot;Provided that&quot; or &quot;Provided&quot;, that states conditions on the law to which it is related |
 
 
 ## 6.7 Notes
 |   | **Element** | **Derived From** | **Contains** |
 | --- | --- | --- | --- |
-| 1 | `<sourceCredit>` | `<note>` | Text containing the source of a provision, usually surrounded by parentheses |
-| 2 | `<statutoryNote>` | `<note>` | A note that becomes part of the law |
-| 3 | `<editorialNote>` | `<note>` | A note included for editorial purposes only |
+| 1 | `<sourceCredit>` | `<note>` | Text containing the source of a provision, usually surrounded by parentheses
+ |
+| 2 | `<statutoryNote>` | `<note>` | A note that becomes part of the law
+ |
+| 3 | `<editorialNote>` | `<note>` | A note included for editorial purposes only
+ |
 | 4 | `<changeNote>` | `<note>` | A note that records a non-substantive change that has been made to the document, usually surrounded by square brackets |
-
 
 ## 6.8 Signatures
 |   | **Example** | **Derived From** |   |
 | --- | --- | --- | --- |
-| 1 | `<made>` | `<signature>` | The signatures of the people making the legislation |
+| 1 | `<made>` | `<signature>` | The signatures of the people making the legislation
+ |
 | 2 | `<approved>` | `<signature>` | The signatures of the people approving the document |
-
-
 
 ## 6.9 Appendices
 |   | **Example** | **Derived From** |   |
@@ -659,7 +668,7 @@ An embedded HTML table will look something like this:
 <schedule name="sch{num}">
    <num value="1">Schedule 1</num>
    <heading>…</heading>
-   <table xmlns=http://www.w3.org/1999/xhtml">
+   <table xmlns=https://www.w3.org/1999/xhtml">
       <th>…</th>
       <tr>…</tr>
       …
@@ -736,7 +745,7 @@ Typically, the `@identifier` will be established on the root element and all lev
 
 References are a machine-readable format for making very precise citations or establishing links between different things in a document. The prevailing method for establishing references is to use HTTP-based hyperlinks, using the familiar technology prevalent on websites.
 
-These references are, like websites, modeled as Uniform Resource Locators (URL). A URL is a string representing a hierarchical path down to the item being requested, using forward slashes &quot;/&quot; as hierarchical separators. In normal websites, each level in the URL represents a folder, terminating in a file that is being requested. URLs can be specified in one of three ways: (1) global references starting with &quot;http://{domain}&quot;; (2) absolute paths starting with &quot;/&quot;; or (3) relative references starting with &quot;./&quot;. Absolute paths typically use the local domain as the context for the URL, while relative references use the current file as the context.
+These references are, like websites, modeled as Universal Resource Locators (URL). A URL is a string representing a hierarchical path down to the item being requested, using forward slashes &quot;/&quot; as hierarchical separators. In normal websites, each level in the URL represents a folder, terminating in a file that is being requested. URLs can be specified in one of three ways: (1) global references starting with &quot;http://{domain}&quot;; (2) absolute paths starting with &quot;/&quot;; or (3) relative references starting with &quot;./&quot;. Absolute paths typically use the local domain as the context for the URL, while relative references use the current file as the context.
 
 USLM references use a variation of the absolute path technique. All references thus start with a forward slash &quot;/&quot;. However, rather than representing folder and files, the hierarchical path represents a conceptual hierarchy down to the item in question. This path is known as a logical path. The logical path does not represent the folder/file hierarchy as with a physical path. In fact, there may be no physical path for information stored in a database rather than in a file system.
 
@@ -745,7 +754,7 @@ Web servers usually handle the task of interpreting a URL and retrieving the req
 How the resolver is constructed depends on the web server being used and the storage format for the documents. All modern web servers provide some form of facility to allow a resolver to be constructed. This issue is discussed in greater detail below under Reference Resolver.
 
 ## 12.2 URL References
-The International Federation of Library Associations and Institutions (IFLA) (http://www.ifla.org/) has developed a conceptual entity-relationship model for organizing bibliographic records (like index cards at a library). This model is called the Functional Requirements for Bibliographic Records (FRBR – pronounced &quot;_Ferber_&quot;). FRBR creates the conceptual framework for the USLM references.
+The International Federation of Library Associations and Institutions (IFLA) (https://www.ifla.org/) has developed a conceptual entity-relationship model for organizing bibliographic records (like index cards at a library). This model is called the Functional Requirements for Bibliographic Records (FRBR – pronounced &quot;_Ferber_&quot;). FRBR creates the conceptual framework for the USLM references.
 
 References in USLM are composed using the following format:
 
@@ -753,7 +762,7 @@ References in USLM are composed using the following format:
 
 Where:
 
-- item – identifies the location of an instance. For non-computer locations, this is expressed as an http domain. An example would be [http://uscode.house.gov](http://uscode.house.gov).
+- item – identifies the location of an instance. For non-computer locations, this is expressed as an http domain. An example would be [https://uscode.house.gov](https://uscode.house.gov).
 
 - work – identifies the logical hierarchy down to the document being referenced. This hierarchy starts by identifying the jurisdiction (&quot;/us&quot; for United States) and continues by identifying the document (&quot;/usc/t5&quot; for Title 5). The jurisdiction is included in order to distinguish between the library that serves the document and the jurisdiction where the document originated. With this approach, it is possible for a library to serve a document from a different jurisdiction.
 
@@ -773,7 +782,7 @@ Examples:
 
 - /us/usc/t5/s1/a.htm - the current version of subsection (a) of section 1 of title 5, rendered as HTML.
 
-- http://uscode.house.gov/download/us/usc/t5/main/s1/a.htm the current version of subsection (a) of section 1 of title 5, rendered as HTML and delivered from http://uscode.house.gov/download.
+- https://uscode.house.gov/download/us/usc/t5/main/s1/a.htm the current version of subsection (a) of section 1 of title 5, rendered as HTML and delivered from http://uscode.house.gov/download.
 
 Notes:
 
@@ -948,13 +957,13 @@ The schema described in this User Guide is used to produce the United States Cod
 
 The United States Code is prepared and published by the Office of the Law Revision Counsel of the U.S. House of Representatives pursuant to 2 U.S.C. 285b. For the printed version of the Code, a complete new edition is printed every six years, and five annual cumulative supplements are printed in the intervening years.
 
-The Office of the Law Revision Counsel also produces an online HTML version of the United States Code for searching and browsing (http://uscode.house.gov/). The online HTML version of the United States Code is updated continuously as new laws are enacted.
+The Office of the Law Revision Counsel also produces an online HTML version of the United States Code for searching and browsing (https://uscode.house.gov/). The online HTML version of the United States Code is updated continuously as new laws are enacted.
 
-The Office of the Law Revision Counsel also produces (beginning July 30, 2013) an XML version of the United States Code for download (http://uscode.house.gov/download/download.shtml). The XML version is updated continuously as new laws are enacted.
+The Office of the Law Revision Counsel also produces (beginning July 30, 2013) an XML version of the United States Code for download (https://uscode.house.gov/download/download.shtml). The XML version is updated continuously as new laws are enacted.
 
 ## 16.2 Bulk Data Downloads of XML Files
 ### 16.2.1 Directory Structure
-The download directory (http://uscode.house.gov/download/download.shtml) contains one XML file for each title of the United States Code and a zip file for the entire Code. The directory also includes the XML schema files required for XML validation. A CSS stylesheet is provided for convenience. The CSS stylesheet is informational only and is not part of the United States Code.
+The download directory (https://uscode.house.gov/download/download.shtml) contains one XML file for each title of the United States Code and a zip file for the entire Code. The directory also includes the XML schema files required for XML validation. A CSS stylesheet is provided for convenience. The CSS stylesheet is informational only and is not part of the United States Code.
 
 ### 16.2.2 Download Protocols
 Bulk download is supported via HTTP protocols.
@@ -973,6 +982,6 @@ The HTML and XML files created by the Office of the Law Revision Counsel can be 
 
 **Footnotes**
 [1]: The feasibility study is rooted in a 1996 directive from the Committee on House Oversight (now known as the Committee on House Administration) and the Senate Committee on Rules and Administration to the Clerk of the House and Secretary of Senate, respectively, to work together toward establishing common data standards for the exchange of legislative information. See also 2 U.S.C. 181.
-[2]: For more information, see: [http://www.w3.org/TR/xhtml11/Overview.html#toc](http://www.w3.org/TR/xhtml11/Overview.html#toc)
-[3]: For more information, see: [http://dublincore.org/](http://dublincore.org/%20)
+[2]: For more information, see: [https://www.w3.org/TR/xhtml11/Overview.html#toc](https://www.w3.org/TR/xhtml11/Overview.html#toc)
+[3]: For more information, see: [https://dublincore.org/](https://dublincore.org/%20)
 
