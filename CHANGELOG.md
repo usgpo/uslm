@@ -1,8 +1,44 @@
 ﻿## Proposed Changes ##    
+
+2.1.2 - Proposed version of uslm-2.1.2.xsd along with uslm-components-2.1.2.xsd, uslm-table-module-2.1.2.xsd, uslm.css, and legislativeReport.css for the Congressional Budget Office (CBO) reports project.   
+
+Schema:  
+  
+- Add CboReportDocType document type as the basis for CBO reports.  
+- Add cboReport, cboMeta, cboPreface, and cboCostEstimate elements.   
+  - The cboReport element is the root document element for stand-alone CBO reports.   
+  - The cboMeta element contains meta elements specific to CBO reports.  
+    - The CboMetaElementsGroup defines specific CBO meta data elements.  
+  - The cboPreface element contains preface elements specific to CBO reports.  
+  - The cboCostEstimate element contains main elements specific to stand-alone CBO reports and to cost estimates that are included in legislative reports.  
+- Add the CboAtAGlanceType as a basis for CBO at-a-glance reports.  
+- Add TextLevelType as the base type for an hierarchical level structure that does not include, nor imply, legislative content semantics.  
+- Add textLevel element as the general container for hierarchical content that neither includes nor implies legislative semantics.  
+- Add several CBO-specific TextLevelType elements for common segments of the CBO report.  
+- Add and modify various other elements to support the CBO report content.  
+- Modify various elements to improve support for other document types.  
+
+CSS:  
+  
+File - uslm.css:  
+Version:  Version 2.40 2026-09-04  
+Previous version: 2.39 2026-05-11  
+  
+- Update bill classes to allow multiple values.  
+- Fix capitalization bug in plaw.  
+
+File - legislativeReport.css  
+Version: Last modified: September 22, 2025  
+  
+- Add styling for elements used in CBO cost estimates.  
+
+Sample Files: 
+- Sample CBO cost estimates are available for review.  
+ 
   
 2.1.1 - Proposed version of uslm-2.1.1.xsd along with uslm-components-2.1.1.xsd, uslm-table-module-2.1.1.xsd, uslm.css, and legislativeReport.css for the Committee Legislative Reports and Conference Reports project.   
 
-Schema:  
+Schema:
 - Add the ReportDocType document type as a basis for reports.  
 - Add the legislativeReport document type for legislative committee reports.  
   - Add reportMeta, reportPreface, reportMain elements.  
@@ -25,13 +61,13 @@ Schema:
 CSS:  
   
 File - uslm.css:  
-Version: 2.39 2026-05-11  
-Previous version: 2.37 2025-09-18 
+Version:  Version 2.39 2026-05-11  
+Previous version: 2.37 2025-09-18  
   
 - Add styling for index in Statutes at Large back matter.  
 - Add classes for US Code Titles to better match the PDF version.  
 - Add classes for better support of historical Statutes at Large.  
-- Change to more specific definitions of indent classes for the US Code.  
+- Change to more specific definitions of indent classes for the U.S. Code.  
   
 File - legislativeReport.css  
 Version: Last modified: September 22, 2025  
@@ -40,8 +76,8 @@ Version: Last modified: September 22, 2025
 
 Sample Files: 
 - Sample Committee Legislative Reports and Conference Reports are available for review.  
-  
  
+
 ## Approved Changes ##  
 
 2.1.0 - Approved version of uslm-2.1.0.xsd along with uslm-components-2.1.0.xsd, uslm-table-module-2.1.0.xsd, and uslm.css for the Remaining Bill Versions project.   

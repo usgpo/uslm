@@ -6,7 +6,7 @@
 @namespace xhtml "http://www.w3.org/1999/xhtml";
 @namespace olrc "http://xml.house.gov/schemas/uslm/olrc";
 
-/* Version 2.39 2026-05-11 */
+/* Version 2.40 2026-09-04 */
 
 /* USLM root elements */
 bill, resolution, pLaw,
@@ -1963,10 +1963,10 @@ pLaw>main title>num, pLaw>main title>a>num, pLaw>main title>heading
     font-weight:        bold;
 }
 
-bill>main title>num[class="smallCaps"], bill>main title>a>num[class="smallCaps"], bill>main title>heading[class="smallCaps"], 
-bill>main title>heading>inline[class="smallCaps"],
-pLaw>main title>num[class="smallCaps"], pLaw>main title>a>num[class="smallCaps"], pLaw>main title>heading[class="smallCaps"],
-pLaw>main title>heading>inline[class="smallCaps"],
+bill>main title>num[class~="smallCaps"], bill>main title>a>num[class~="smallCaps"], bill>main title>heading[class~="smallCaps"], 
+bill>main title>heading>inline[class~="smallCaps"],
+pLaw>main title>num[class~="smallCaps"], pLaw>main title>a>num[class~="smallCaps"], pLaw>main title>heading[class~="smallCaps"],
+pLaw>main title>heading>inline[class~="smallCaps"],
 bill>main[styleType="appropriations"] title>num, bill>main[styleType="appropriations"] title>a>num, bill>main[styleType="appropriations"] title>heading,
 pLaw>main[styleType="appropriations"] title>num, pLaw>main[styleType="appropriations"] title>a>num, pLaw>main[styleType="appropriations"] title>heading,
 bill>main[styleType="traditional"] title>num, bill>main[styleType="traditional"] title>a>num, bill>main[styleType="traditional"] title>heading,
@@ -2223,11 +2223,11 @@ heading {
     display:            inline;
 }
 
-heading[class='uppercase'] {
+heading[class~='uppercase'] {
     text-transform: uppercase;
 }
 
-heading[class='titlecase'] {
+heading[class~='titlecase'] {
     font-variant: small-caps;
 }
 
@@ -2677,14 +2677,14 @@ resolution toc referenceItem[role="subtitle"] > designator,
 resolution toc referenceItem[role="subtitle"] > label,
 resolution toc referenceItem[role="part"] > designator,
 resolution toc referenceItem[role="part"] > label,
-plaw toc referenceItem[role="division"] > designator,
-plaw toc referenceItem[role="division"] > label,
-plaw toc referenceItem[role="title"] > designator,
-plaw toc referenceItem[role="title"] > label,
-plaw toc referenceItem[role="subtitle"] > designator,
-plaw toc referenceItem[role="subtitle"] > label,
-plaw toc referenceItem[role="part"] > designator,
-plaw toc referenceItem[role="part"] > label {
+pLaw toc referenceItem[role="division"] > designator,
+pLaw toc referenceItem[role="division"] > label,
+pLaw toc referenceItem[role="title"] > designator,
+pLaw toc referenceItem[role="title"] > label,
+pLaw toc referenceItem[role="subtitle"] > designator,
+pLaw toc referenceItem[role="subtitle"] > label,
+pLaw toc referenceItem[role="part"] > designator,
+pLaw toc referenceItem[role="part"] > label {
     display:            inline;
 }
 
@@ -2709,9 +2709,9 @@ pLaw toc referenceItem[role="section"]>designator  {
     min-width:   5rem;
 }
 
-bill toc referenceItem[role="section"]>label:not([class="inline"]),
-resolution toc referenceItem[role="section"]>label:not([class="inline"]),
-pLaw toc referenceItem[role="section"]>label:not([class="inline"])  {
+bill toc referenceItem[role="section"]>label:not([class~="inline"]),
+resolution toc referenceItem[role="section"]>label:not([class~="inline"]),
+pLaw toc referenceItem[role="section"]>label:not([class~="inline"])  {
     text-indent:        -1em;
     padding-left:        1em;
 }
