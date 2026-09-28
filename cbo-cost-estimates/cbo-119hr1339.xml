@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<cboReport xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for CBO Cost Estimates. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <cboMeta>
+        <date>2025-12-05</date><!-- This is the publication date of the CBO cost estimate -->
+        <dc:type>CBO Cost Estimate</dc:type>
+        <docNumber>61050</docNumber>
+        <dc:title>CBO Cost Estimate 61050: S. 1339, Pharmacy Benefit Manager Reform Act as ordered reported by the Senate Committee on Health, Education, Labor, and Pensions on June 22, 2023</dc:title>        
+        <citableAs>CBO Cost Estimate 61050</citableAs>
+        <about>S. 1339, Pharmacy Benefit Manager Reform Act as ordered reported by the Senate Committee on Health, Education, Labor, and Pensions on June 22, 2023</about>
+        <about>119hr1339</about>
+        <cboBillStatus>as ordered reported</cboBillStatus>
+        <cboEstimateForm>long</cboEstimateForm>
+        <congress>118</congress>
+        <session>2</session>
+        <committee>Senate Committee on Health, Education, Labor, and Pensions</committee>
+        <currentChamber>Senate</currentChamber>
+        <longTermDirectSpending>Less than $2.5 billion</longTermDirectSpending>
+        <longTermDeficit>Less than $5 billion</longTermDeficit>
+        <intergovernmentalMandate>No</intergovernmentalMandate>
+        <privateSectorMandate>Yes, Over Threshold</privateSectorMandate>
+        <payGo>Yes</payGo>
+        <dc:format>text/xml</dc:format>
+       <dc:language>EN</dc:language>
+        <dc:rights>The information and documents on CBO’s website are not copyrighted. CBO’s products are created by our employees in the course of their employment at CBO and are therefore works of the government. Government documents are in the public domain and are not protected by copyright law.</dc:rights>
+        <dc:creator>Congressional Budget Office</dc:creator>
+        <dc:publisher>Congressional Budget Office</dc:publisher>
+    </cboMeta>
+    <cboPreface>
+        <date date="2024-12-05">December 05, 2024</date>
+        <heading>Congressional Budget Office</heading>
+        <subheading>Cost Estimate</subheading>
+    </cboPreface>
+<cboCostEstimate>
+    <cboAtAGlance>
+        <block class="cboHeader">
+            <heading>At a Glance</heading>
+            <about><dc:type>S. </dc:type> <docNumber>1339</docNumber>, <shortTitle> Pharmacy Benefit Manager Reform Act</shortTitle>
+                <br/><cboBillStatus>As ordered reported</cboBillStatus> by the <committee>Pharmacy Benefit Manager Reform Act</committee> on <date date="2023-06-22">June 22, 2023</date></about>
+        </block>
+        <xhtml:table  style="border-collapse:collapse;" class="fullWidth">
+            <xhtml:colgroup>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+            </xhtml:colgroup>
+            <xhtml:tbody><xhtml:tr style="border-top: 1px solid black;"><xhtml:th>By Fiscal Year, Millions of Dollars</xhtml:th>
+                <xhtml:td class="rightAlign">2025</xhtml:td><xhtml:td class="rightAlign">2025-2029</xhtml:td><xhtml:td class="rightAlign">2026-2034</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Direct Spending (Outlays)</xhtml:th><xhtml:td class="rightAlign">9</xhtml:td><xhtml:td class="rightAlign">42</xhtml:td><xhtml:td class="rightAlign">16</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Revenues</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">-150</xhtml:td><xhtml:td class="rightAlign">-229</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Increase or Decrease (-) in the Deficit</xhtml:th><xhtml:td class="rightAlign">9</xhtml:td><xhtml:td class="rightAlign">191</xhtml:td><xhtml:td class="rightAlign">245</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Spending Subject to Appropriation (Outlays)</xhtml:th>
+                <xhtml:td class="rightAlign">3</xhtml:td><xhtml:td class="rightAlign">2</xhtml:td><xhtml:td class="rightAlign">not estimated</xhtml:td></xhtml:tr>
+                <xhtml:tr style="border-top: 1px solid black;background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>net direct spending</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDirectSpending class="bold">&lt; $2.5 billion</uslm:longTermDirectSpending></xhtml:td><xhtml:td class="leftAlign"  style="border-bottom: 1px solid black;">Statutory pay-as-you-go procedures apply?</xhtml:td><xhtml:td class="centered" style="border-bottom: 1px solid black;"><uslm:payGo class="bold">Yes</uslm:payGo></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td colspan="2" class="centered bold">Mandate Effects</xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>on-budget deficits</uslm:i> in any of the four consecutive 10-year periods beginning in 2037?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDeficit class="bold">&lt; $5 billion</uslm:longTermDeficit></xhtml:td><xhtml:td class="leftAlign">Contains intergovernmental mandate?</xhtml:td><xhtml:td class="centered"><uslm:intergovernmentalMandate class="bold">No</uslm:intergovernmentalMandate></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td class="leftAlign">Contains private-sector mandate?</xhtml:td>
+                    <xhtml:td class="centered"><uslm:privateSectorMandate class="bold">Yes, Over Threshold</uslm:privateSectorMandate></xhtml:td></xhtml:tr></xhtml:tbody>
+        </xhtml:table>
+        <list><listHeading class="bold leftAlign">The bill would</listHeading>
+            <listItem><num>• </num><listContent>Impose new rules for contracts between pharmacy benefit managers (PBMs) and sponsors of private healthinsurance plans</listContent></listItem>
+            <listItem><num>• </num><listContent></listContent>Require an exception process for patients undergoing a medication step therapy protocol</listItem>
+            <listItem><num>• </num><listContent></listContent>Increase transparency of plans’ health insurance claims, networks, and costs for providers and patients</listItem>
+            <listItem><num>• </num><listContent></listContent>Impose private-sector mandates by limiting revenue sources for PBMs, requiring additional data disclosure byhealth plans, and restricting contracting terms</listItem></list>
+            <list><listHeading class="bold leftAlign">Estimated budgetary effects would mainly stem from</listHeading>
+           <listItem><num>• </num><listContent>Reduced federal subsidies for plan sponsors that benefit from PBM information disclosures and lower the cost of their pharmacy benefits</listContent></listItem>
+           <listItem><num>• </num><listContent>Higher administrative costs for insurers and PBMs that would result in higher health insurance premiums</listContent></listItem>
+                <listItem><num>• </num><listContent>Increased federal subsidies for health insurance plans whose enrollees access higher priced drugs than they would under current law</listContent></listItem></list>
+       <list><listHeading class="bold leftAlign">Areas of significant uncertainty include</listHeading>
+            <listItem><num>• </num><listContent>Anticipating responses by private health insurance plan sponsors and their contracted service providers tothe bill’s requirements</listContent></listItem>
+           <listItem><num>• </num><listContent>Projecting regulatory decisionmaking and enforcement by federal agencies</listContent></listItem>
+        <listItem><num>• </num><listContent> Estimating the effects of those decisions on competition and drug prices</listContent></listItem></list>
+    </cboAtAGlance>
+    <cboBillSummary> <!-- level 1 -->   
+    <heading>Bill Summary</heading>
+        <p>S. 1339 contains provisions to improve transparency for health care coverage, pharmacy
+            benefits, and drug costs. The bill would require contracts between plan sponsors and
+            pharmacy benefit managers (PBMs) to meet certain standards, require an exception process
+            for patients undergoing medication step therapy protocols, and require insurance plans to
+            make more information available through an application programming interface (API) or a
+            successor technology. </p>
+        <p>In addition, S. 1339 would require federal agencies that regulate private health insurance to
+            issue new rules that define reporting and benefits requirements and enforce compliance
+            among drug manufacturers, insurance plans, and service providers. The bill also would
+            require several federal agencies to report to the Congress on effects of the bill’s provisions.</p>
+</cboBillSummary>
+    <estimatedFederalCost> <!-- level 1 -->
+    <heading> Estimated Federal Cost</heading>
+        <p>The estimated budgetary effects of of S. 1339 are shown in <ref idref="table-1">Table 1</ref>.The costs of the legislation
+            fall within budget functions 370 (commerce and housing credit) and 550 (health).</p>
+        <xhtml:table class="fullWidth" style="border-collapse:collapse;border-bottom:1px solid black;" id="table-1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+            <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:1px solid black;"><uslm:p>Table 1.</uslm:p>
+                <uslm:p>Estimated Budgetary Effects of S. 1339</uslm:p></xhtml:caption>
+            <xhtml:colgroup>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col  style="background-color:#D9D9D9;"/><xhtml:col  style="background-color:#D9D9D9;"/>
+            </xhtml:colgroup>
+    <xhtml:thead><xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+            <xhtml:td colspan="10" align="center" class="bold">By Fiscal Year, Millions of Dollars</xhtml:td>
+            <xhtml:td></xhtml:td>
+            <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2025</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2026</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2027</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2028</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2029</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2030</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2031</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2032</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2033</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2034</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2025-2029</xhtml:td>
+        <xhtml:td style="border-bottom: 1px solid black">2025-2034</xhtml:td>
+    </xhtml:tr></xhtml:thead>
+            <xhtml:tfoot>
+                <xhtml:tr>
+                    <xhtml:td colspan="14" align="left">Components may not sum to totals because of rounding; * = between -$500,000 and $500,000; n.e = not estimated.</xhtml:td>
+                </xhtml:tr>
+                <xhtml:tr>
+                    <xhtml:td colspan="14" align="left">Off-budget effects would come from decreases in revenues from Social Security payroll taxes and decreases in federal outlays for health insurance for active employees of the Postal Service.</xhtml:td>
+                </xhtml:tr>
+                <xhtml:tr>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                    <xhtml:td></xhtml:td>
+                </xhtml:tr>
+            </xhtml:tfoot>
+<xhtml:tbody> 
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="10" align="center" class="bold">Increases or Decreases (-) in Direct Spending</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Budget Authority</xhtml:td>
+        <xhtml:td>45</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>42</xhtml:td>
+        <xhtml:td>16</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Outlays</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>18</xhtml:td>
+        <xhtml:td>15</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>42</xhtml:td>
+        <xhtml:td>16</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>On-Budget</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>18</xhtml:td>
+        <xhtml:td>15</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>42</xhtml:td>
+        <xhtml:td>18</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td class="italic">Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="10" align="center" class="bold">Increases or Decreases (-) in Revenues</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Revenues</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-82</xhtml:td>
+        <xhtml:td>-166</xhtml:td>
+        <xhtml:td>13</xhtml:td>
+        <xhtml:td>85</xhtml:td>
+        <xhtml:td>59</xhtml:td>
+        <xhtml:td>24</xhtml:td>
+        <xhtml:td>-12</xhtml:td>
+        <xhtml:td>-52</xhtml:td>
+        <xhtml:td>-98</xhtml:td>
+        <xhtml:td>-150</xhtml:td>
+        <xhtml:td>-229</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td class="italic">On-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-60</xhtml:td>
+        <xhtml:td>-123</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>63</xhtml:td>
+        <xhtml:td>44</xhtml:td>
+        <xhtml:td>18</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-39</xhtml:td>
+        <xhtml:td>-73</xhtml:td>
+        <xhtml:td>-111</xhtml:td>
+        <xhtml:td>-170</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td class="italic">Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-22</xhtml:td>
+        <xhtml:td>-43</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>22</xhtml:td>
+        <xhtml:td>15</xhtml:td>
+        <xhtml:td>6</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-13</xhtml:td>
+        <xhtml:td>-25</xhtml:td>
+        <xhtml:td>-39</xhtml:td>
+        <xhtml:td>-59</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="10" align="center" class="bold">Net Increase or Decrease (-) in the Deficit </xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="10" align="center" class="bold">From Changes in Direct Spending and Revenues</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Effect on the Deficit</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>100</xhtml:td>
+        <xhtml:td>181</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-90</xhtml:td>
+        <xhtml:td>-65</xhtml:td>
+        <xhtml:td>-30</xhtml:td>
+        <xhtml:td>7</xhtml:td>
+        <xhtml:td>47</xhtml:td>
+        <xhtml:td>95</xhtml:td>
+        <xhtml:td>191</xhtml:td>
+        <xhtml:td>245</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td class="italic">On-Budget</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>78</xhtml:td>
+        <xhtml:td>138</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-67</xhtml:td>
+        <xhtml:td>-50</xhtml:td>
+        <xhtml:td>-24</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>35</xhtml:td>
+        <xhtml:td>70</xhtml:td>
+        <xhtml:td>153</xhtml:td>
+        <xhtml:td>188</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td class="italic">Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>22</xhtml:td>
+        <xhtml:td>43</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-23</xhtml:td>
+        <xhtml:td>-15</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>12</xhtml:td>
+        <xhtml:td>25</xhtml:td>
+        <xhtml:td>38</xhtml:td>
+        <xhtml:td>57</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="10" align="center" class="bold">Increases in Spending Subject to Appropriation</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr></xhtml:tbody>
+           </xhtml:table>
+</estimatedFederalCost>
+    <basisOfEstimate> <!-- level 1 -->
+    <heading>Basis of Estimate</heading><!-- new line + space for level 1 heading -->
+        <p>For this estimate, CBO assumes that the bill will be enacted during the first quarter of fiscal
+            year 2025 and that the estimated amounts will be appropriated each year. CBO gathered
+            information from health plans and their contracted service providers, the drug industry, and
+            federal health agencies and used historical data and internal analyses of the economic effects
+            of drug price transparency to construct this estimate. </p>
+        <directSpendingAndRevenues><!-- level 2 -->
+            <heading>Direct Spending and Revenues</heading>
+            <p>On the basis of information from subject matter experts and industry stakeholders, CBO
+                expects that enacting S. 1339 would, on net, increase premiums charged by health insurance
+                plans in the private sector. Those increases would in turn result in larger federal subsidies for
+                employment-based group health plans. Increases in premiums for those plans would shift a
+                portion of employees’ compensation from taxable wages to tax-favored health insurance
+                benefits and, as a result, decrease federal revenues. However, the net increase in federal
+                subsidies would reflect offsetting effects arising from several provisions of the bill. </p>
+            <p> In total, CBO estimates that enacting the bill would increase direct spending by $16 million
+                and decrease revenues by $229 million over the 2025-2034 period, for a net increase in the
+                deficit of $245 million(see <ref idref="table-2">Table 2</ref>).</p> 
+
+            <xhtml:table class="fullWidth" style="border-collapse:collapse;border-bottom:1px solid black;" id="table-2" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:1px solid black;"><uslm:p>Table 2.</uslm:p>
+                    <uslm:p>Estimated Changes in Direct Spending, Revenues, and the Deficit Under S. 1339</uslm:p></xhtml:caption>
+                <xhtml:colgroup>
+                    <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                    <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col  style="background-color:#D9D9D9;"/><xhtml:col  style="background-color:#D9D9D9;"/>
+                </xhtml:colgroup>
+                <xhtml:thead><xhtml:tr>
+                        <xhtml:td></xhtml:td>
+                        <xhtml:td></xhtml:td>
+                        <xhtml:td colspan="10" align="center" class="bold">By Fiscal Year, Millions of Dollars</xhtml:td>
+                        <xhtml:td></xhtml:td>
+                        <xhtml:td></xhtml:td>
+                </xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td></xhtml:td>
+                        <xhtml:td></xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2025</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2026</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2027</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2028</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2029</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2030</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2031</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2032</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2033</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2034</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2025-2029</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black">2025-2034</xhtml:td>
+                    </xhtml:tr></xhtml:thead>
+                <xhtml:tfoot>    
+                    <xhtml:tr><xhtml:td colspan="14">&#160;</xhtml:td></xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td colspan="14" align="left">Components may not sum to totals because of rounding; APIs = application programming interface; * = between -$500,000 and $500,000.</xhtml:td>
+                </xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td colspan="14" align="left">Off-budget effects would come from decreases in revenues from Social Security payroll taxes and decreases in federal outlays for health insurance for active employees of the Postal Service.</xhtml:td>
+                    </xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td colspan="14" align="left"><footnote id="fn-2-a" class="fontsize10"><num>a.   </num>The bill provides a mandatory appropriation of $40 million for the Centers for Medicare &amp; Medicaid Services and $4.5 million for the Department of Labor to implement the provisions in section 2. This mandatory appropriation was specified to become available in 2023 and is available until expended. CBO estimated the budget authority in 2025, which is the first year in which the funding can be obligated.</footnote> </xhtml:td>
+                    </xhtml:tr>
+                </xhtml:tfoot>
+   <xhtml:tbody> <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+           <xhtml:td colspan="10" align="center" class="bold">Increases or Decreases (-) in Direct Spending</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="12">Oversight of Pharmacy Benefit Managers</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Budget Authority<ref idref="fn-2-a"><sup>a</sup></ref></xhtml:td>
+        <xhtml:td>45 </xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>28</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Outlays</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>16</xhtml:td>
+        <xhtml:td>11</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>28</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>On-Budget</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>16</xhtml:td>
+        <xhtml:td>11</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>28</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="12">Require Manufacturers to Report Drug Prices</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Budget Authority</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Outlays</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="12">Require Insurers to Share Information Through APIs</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Budget Authority</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>14</xhtml:td>
+        <xhtml:td>24</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Outlays</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>14</xhtml:td>
+        <xhtml:td>24</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="12">Step Therapy Protocols</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Budget Authority</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Outlays</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="12">Total Changes in Direct Spending</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Budget Authority</xhtml:td>
+        <xhtml:td>45</xhtml:td>
+        <xhtml:td>2</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>42</xhtml:td>
+        <xhtml:td>16</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Outlays</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>18</xhtml:td>
+        <xhtml:td>15</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>42</xhtml:td>
+        <xhtml:td>16</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>On-Budget</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>18</xhtml:td>
+        <xhtml:td>15</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>42</xhtml:td>
+        <xhtml:td>18</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td class="bold" colspan="10" align="center">Increases or Decreases (-) in Revenues</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="12">Oversight of Pharmacy Benefit Managers</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Revenues</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>244</xhtml:td>
+        <xhtml:td>327</xhtml:td>
+        <xhtml:td>308</xhtml:td>
+        <xhtml:td>287</xhtml:td>
+        <xhtml:td>265</xhtml:td>
+        <xhtml:td>236</xhtml:td>
+        <xhtml:td>205</xhtml:td>
+        <xhtml:td>571</xhtml:td>
+        <xhtml:td>1,872</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>On-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>180</xhtml:td>
+        <xhtml:td>242</xhtml:td>
+        <xhtml:td>228</xhtml:td>
+        <xhtml:td>213</xhtml:td>
+        <xhtml:td>197</xhtml:td>
+        <xhtml:td>175</xhtml:td>
+        <xhtml:td>152</xhtml:td>
+        <xhtml:td>422</xhtml:td>
+        <xhtml:td>1,387</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>64</xhtml:td>
+        <xhtml:td>85</xhtml:td>
+        <xhtml:td>80</xhtml:td>
+        <xhtml:td>74</xhtml:td>
+        <xhtml:td>68</xhtml:td>
+        <xhtml:td>61</xhtml:td>
+        <xhtml:td>53</xhtml:td>
+        <xhtml:td>149</xhtml:td>
+        <xhtml:td>485</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="12">Require Manufacturers to Report Drug Prices</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Revenues</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="12">Require Insurers to Share Information Through APIs</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Revenues</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-10</xhtml:td>
+        <xhtml:td>-24</xhtml:td>
+        <xhtml:td>-30</xhtml:td>
+        <xhtml:td>-16</xhtml:td>
+        <xhtml:td>-11</xhtml:td>
+        <xhtml:td>-12</xhtml:td>
+        <xhtml:td>-12</xhtml:td>
+        <xhtml:td>-12</xhtml:td>
+        <xhtml:td>-13</xhtml:td>
+        <xhtml:td>-80</xhtml:td>
+        <xhtml:td>-140</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>On-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-7</xhtml:td>
+        <xhtml:td>-18</xhtml:td>
+        <xhtml:td>-22</xhtml:td>
+        <xhtml:td>-12</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-10</xhtml:td>
+        <xhtml:td>-59</xhtml:td>
+        <xhtml:td>-104</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>-8</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-21</xhtml:td>
+        <xhtml:td>-36</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td class="2">Step Therapy Protocols</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Estimated Revenues</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-72</xhtml:td>
+        <xhtml:td>-142</xhtml:td>
+        <xhtml:td>-201</xhtml:td>
+        <xhtml:td>-226</xhtml:td>
+        <xhtml:td>-238</xhtml:td>
+        <xhtml:td>-251</xhtml:td>
+        <xhtml:td>-265</xhtml:td>
+        <xhtml:td>-276</xhtml:td>
+        <xhtml:td>-290</xhtml:td>
+        <xhtml:td>-641</xhtml:td>
+        <xhtml:td>-1,961</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>On-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-53</xhtml:td>
+        <xhtml:td>-105</xhtml:td>
+        <xhtml:td>-149</xhtml:td>
+        <xhtml:td>-167</xhtml:td>
+        <xhtml:td>-176</xhtml:td>
+        <xhtml:td>-186</xhtml:td>
+        <xhtml:td>-197</xhtml:td>
+        <xhtml:td>-205</xhtml:td>
+        <xhtml:td>-215</xhtml:td>
+        <xhtml:td>-474</xhtml:td>
+        <xhtml:td>-1,453</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-19</xhtml:td>
+        <xhtml:td>-37</xhtml:td>
+        <xhtml:td>-52</xhtml:td>
+        <xhtml:td>-59</xhtml:td>
+        <xhtml:td>-62</xhtml:td>
+        <xhtml:td>-65</xhtml:td>
+        <xhtml:td>-68</xhtml:td>
+        <xhtml:td>-71</xhtml:td>
+        <xhtml:td>-75</xhtml:td>
+        <xhtml:td>-167</xhtml:td>
+        <xhtml:td>-508</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Total Changes in Revenues</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-82</xhtml:td>
+        <xhtml:td>-166</xhtml:td>
+        <xhtml:td>13</xhtml:td>
+        <xhtml:td>85</xhtml:td>
+        <xhtml:td>59</xhtml:td>
+        <xhtml:td>24</xhtml:td>
+        <xhtml:td>-12</xhtml:td>
+        <xhtml:td>-52</xhtml:td>
+        <xhtml:td>-98</xhtml:td>
+        <xhtml:td>-150</xhtml:td>
+        <xhtml:td>-229</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>On-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-60</xhtml:td>
+        <xhtml:td>-123</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>63</xhtml:td>
+        <xhtml:td>44</xhtml:td>
+        <xhtml:td>18</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-39</xhtml:td>
+        <xhtml:td>-73</xhtml:td>
+        <xhtml:td>-111</xhtml:td>
+        <xhtml:td>-170</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>-22</xhtml:td>
+        <xhtml:td>-43</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>22</xhtml:td>
+        <xhtml:td>15</xhtml:td>
+        <xhtml:td>6</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-13</xhtml:td>
+        <xhtml:td>-25</xhtml:td>
+        <xhtml:td>-39</xhtml:td>
+        <xhtml:td>-59</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="10" class="bold" align="center">Net Increase or Decrease (-) in the Deficit</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="10" class="bold" align="center">From Changes in Direct Spending and Revenues</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="2">Effect on the Deficit</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>100</xhtml:td>
+        <xhtml:td>181</xhtml:td>
+        <xhtml:td>-9</xhtml:td>
+        <xhtml:td>-90</xhtml:td>
+        <xhtml:td>-65</xhtml:td>
+        <xhtml:td>-30</xhtml:td>
+        <xhtml:td>7</xhtml:td>
+        <xhtml:td>47</xhtml:td>
+        <xhtml:td>95</xhtml:td>
+        <xhtml:td>191</xhtml:td>
+        <xhtml:td>245</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>On-Budget</xhtml:td>
+        <xhtml:td>9</xhtml:td>
+        <xhtml:td>78</xhtml:td>
+        <xhtml:td>138</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-67</xhtml:td>
+        <xhtml:td>-50</xhtml:td>
+        <xhtml:td>-24</xhtml:td>
+        <xhtml:td>4</xhtml:td>
+        <xhtml:td>35</xhtml:td>
+        <xhtml:td>70</xhtml:td>
+        <xhtml:td>153</xhtml:td>
+        <xhtml:td>188</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr class="italic">
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Off-Budget</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>22</xhtml:td>
+        <xhtml:td>43</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-23</xhtml:td>
+        <xhtml:td>-15</xhtml:td>
+        <xhtml:td>-6</xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>12</xhtml:td>
+        <xhtml:td>25</xhtml:td>
+        <xhtml:td>38</xhtml:td>
+        <xhtml:td>57</xhtml:td>
+    </xhtml:tr>
+    </xhtml:tbody>
+</xhtml:table>
+        <textLevel>  
+                    <heading class="inline">Oversight of Pharmacy Benefit Managers</heading>
+                    <p class="inline"> Under section 2, at least annually for every
+                        plan year beginning at least 30 months after enactment, PBMs would be required to disclose
+                        certain types of information about pharmacy benefits to the sponsors of group health plans. </p>
+                    <p> The Department of Health and Human Services (HHS), the Department of Labor, and the
+                        Department of the Treasury would be required to issue rules specifying formats for those
+                        reports. The bill would appropriate $40 million for the Centers for Medicare and Medicaid
+                        Services (within HHS) and $4.5 million for the Department of Labor to implement the
+                        requirements in section 2. </p>
+                    <p>For businesses with 50 or more employees, PBMs would be directed to disclose data related
+                        to enrollees’ use of prescription drugs, along with costs, rebates, fees, and cost-sharing
+                        amounts to plan sponsors. PBMs would be required to disclose only a subset of that
+                        information (excluding information related to the use and costs of specific prescription
+                        drugs) to plan sponsors for businesses with fewer than 50 employees. Sponsors of fully
+                        insured group health plans (in which the insurer rather than the employer bears the insurance
+                        risk) would be required to opt in to receive those information disclosures.</p>
+                    <p>Section 2 also would regulate certain provisions of contracts between PBMs and plan
+                        sponsors. PBMs could not engage in spread pricing (the act of charging a plan sponsor,
+                        health insurance plan, or patient more than the PBM paid the pharmacy for a drug). PBMs
+                        would be required to pass on to sponsors of group health plans 100 percent of the rebates,
+                        fees, discounts, or other remuneration received from pharmaceutical manufacturers,
+                        distributors, or other third parties related to use of prescription drugs by plan enrollees. PBM
+                        affiliates, including group-purchasing organizations and other rebate aggregators, would be
+                        required to remit 100 percent of such amounts that they collect. </p>
+                    <p>CBO expects that, in some cases, prescription drug costs would be reduced if private payers
+                        had more complete information about the operations of their PBMs, including the net drug
+                        prices that PBMs negotiate with drug manufacturers and pharmacies. Access to that
+                        information—especially concerning total amounts in rebates and other fees tied to
+                        prescription drug use that flow from manufacturers to PBMs and their affiliates—would put
+                        plan sponsors in a marginally better position to negotiate how much to share in the payments
+                        received by PBMs and could lead to more efficient competition.</p>
+                    <p>CBO expects that disclosure of information would help a subset of PBM clients obtain better
+                        terms in contract negotiations. In particular, sponsors of small and medium-sized health
+                        plans could benefit; under current law, many have only limited access to such information.
+                        The overall effect of the policy would be limited, however, because a large portion of the
+                        market would not be significantly affected because many contracts between PBMs and plan
+                        sponsors in the private health insurance market include terms that give plan sponsors access
+                        to comparable information under current law. </p>
+                    <p>Certain provisions of section 2 would limit the scope of PBMs’ disclosures, particularly for
+                        small employers. Under section 2, sponsors of plans from small employers—defined as
+                        businesses with fewer than 50 employees—would not necessarily receive price or usage
+                        information comparable to that provided to larger employers. CBO estimates that the information made available to small employers would be about half as useful in contract
+                        negotiations as the more comprehensive disclosure would be for larger employers.  </p>
+                    <p>Employers that purchase fully insured health coverage would be required to opt in to receive
+                        PBM disclosures. Based on survey data, CBO estimates that about one-third of the
+                        164 million enrollees in the group insurance market are enrolled in fully insured plans, but
+                        more than half of small employers participate in fully insured arrangements. CBO estimates
+                        that about one-quarter of the sponsors of fully insured plans who otherwise might benefit
+                        from the PBM transparency disclosure would not opt in. </p>
+                    <p>Section 2 also includes requirements pertaining to PBMs’ contract provisions, such as
+                        banning spread pricing and requiring full pass-through of manufacturer rebates. CBO does
+                        not expect those provisions to affect the profits that PBMs would share with group health
+                        plans, unlike the amounts that would be affected as a result of the information disclosure
+                        mandate alone. PBMs derive compensation for their services in many ways, and the amounts
+                        they lose because any individual practice is regulated can be recovered by charging higher
+                        fees. </p>
+                    <p>CBO expects PBMs to recover some amounts lost as a result of compliance with section 2 by
+                        charging higher fees to plan sponsors and other participants in the drug supply chain. That
+                        action would limit the share passed through to private health plans. After accounting for
+                        those higher fees, CBO estimates that in the first full year of implementation, section 2
+                        would reduce net retail drug costs by more than 0.5 percent for all employment-based health
+                        insurance plans. </p>
+                    <p>CBO estimates that the reduction in drug costs would cause premiums charged in the group
+                        health insurance market in the first full year of implementation to fall by less than
+                        0.1 percent, on average, and expects that those savings probably would erode over time. The
+                        usefulness of the information to plan sponsors would diminish as contract terms between
+                        parties are redefined and PBMs find more ways to generate revenue outside of the disclosure
+                        requirements. By 2034, CBO estimates, average premiums charged in the private insurance
+                        market would be less than 0.01 percent lower relative to those under current law. </p>
+                    <p>CBO and the staff of the Joint Committee on Taxation (JCT) estimate that section 2 would
+                        reduce private health insurance premiums and would primarily affect the federal budget by
+                        shifting employees’ compensation from tax-favored health insurance to taxable wages. CBO
+                        and JCT estimate that enacting section 2 would increase federal revenues by $1.9 billion and
+                        decrease direct spending by $8 million, for a net decrease in the deficit of $1.9 billion over
+                        the 2025-2034 period. </p>
+                </textLevel>
+                <textLevel>
+                    <heading class="inline">Require Insurers to Share Information Through APIs. </heading>
+                    <p class="inline">Section 8 would require private health insurers to use an API or successor technology to share information with enrollees, contracted providers and their business associates, and enrollee-authorized third parties.</p>
+                    <p>CBO expects that under the bill, APIs would function similarly to smartphone applications or web portals to share claims and payment data, provider directories, and estimated out-of-pocket costs for specific products and services.</p>
+                    <p>Developing and maintaining APIs would increase administrative costs for insurers, which, in CBO’s assessment, would slightly increase premiums for private-sector health insurance. Such an effect would be limited by the growing use of such technology under current law. For example, regulations from 2020 and 2024 already impose similar requirements on insurers in the federally operated marketplaces established under the Affordable Care Act. CBO estimates that the effect of enacting section 8 would be largest in 2027, when premiums would increase by less than 0.01 percent but would moderate by 2034, when premiums would increase by less than 0.005 percent.</p>
+                    <p>The estimated increase in private health insurance premiums would result in a slight increase in premium tax credits for coverage obtained through the marketplaces and create a slight shift in employees’ compensation away from taxable wages. CBO and JCT estimate that enacting section 8 would increase direct spending by $24 million and decrease revenues by $140 million, for a net increase in the deficit of $164 million over the 2025-2034 period.</p>
+                </textLevel>
+            <textLevel><heading class="inline">Step Therapy Protocols</heading>
+                <p class="inline">Section 9 would require group health plans to establish a
+                    standardized process for enrollees to obtain exceptions for medication step therapy protocols.
+                    That approach to managing enrollees’ use of prescription drugs typically requires enrollees
+                    to try a preferred prescription drug before their insurance plan will approve coverage for a
+                    nonpreferred prescribed product. 
+                </p>
+                <p>Section 9 lists the criteria (including, for example, a patient’s adverse reactions to a preferred
+                    treatment) that would allow a prescriber or patient to apply for an exception. The section also
+                    specifies that plans or issuers would generally be required to respond within 72 hours of
+                    receiving a request for an exception, or within 24 hours if the life or health of the patient
+                    could be at risk. </p>
+                <p>Health insurance plans typically establish step therapy protocols as a tool for managing
+                    formularies (the lists of drugs covered by a plan), particularly for drugs that have substitutes
+                    or competitors within the same therapeutic class. Pharmacy and therapeutic committees
+                    established by insurance plans commonly have an advisory role in designing formularies to
+                    align with best clinical practices. Plans or PBMs typically negotiate with manufacturers for
+                    larger rebates on drugs in exchange for preferred placement on a plan’s formulary. Enrollees
+                    may face fewer restrictions on access (such as step therapy or prior authorization) and lower
+                    out-of-pocket costs for drugs in a formulary’s preferred tier. </p>
+                <p>Under a typical step therapy protocol, a plan might require a patient to try a generic product
+                    and then a preferred brand-name product before the plan will approve coverage for a nonpreferred prescribed product—mainly to steer patients toward products with the lowest
+                    net price to the insurer or the plan’s sponsor</p>
+                <p>On the basis of information from subject matter experts and industry stakeholders, CBO
+                    expects that group health plans largely have processes in place to provide exceptions for
+                    patients who otherwise would be required to undergo a step therapy protocol. Enacting
+                    section 9 would make exceptions to the protocol easier to obtain than under current law.
+                    CBO projects that a plan’s failure to meet the timelines specified in section 9 would result in
+                    an approval of coverage for a nonpreferred drug, which would increase access to
+                    nonpreferred drugs for some patients, relative to current law. As a result, CBO expects that
+                    enacting section 9 would marginally weaken the ability of group health plans to manage
+                    pharmacy benefit costs and increase net drug costs for those plans. </p>
+                <p>Based on a review of state statutes, CBO also estimates that more than three-quarters of the
+                    people who have employment-based insurance reside in a state with laws that incorporate
+                    policies similar to the step therapy provision in section 9, so enacting that section would not
+                    affect costs for plans regulated by those states. However, those laws generally apply only to
+                    fully insured group health plans, which constitute about one-third of group health plan
+                    enrollment nationally.</p>
+                <p>CBO and JCT expect that enacting section 9 would lead to increases in premiums for
+                    employment-based health insurance and would affect the federal budget primarily by shifting
+                    employees’ compensation from taxable wages to tax-favored health insurance. CBO
+                    estimates that enacting section 9 would not affect direct spending, but CBO and JCT expect
+                    that revenues from income and payroll taxes would decrease by $2.0 billion, for a net
+                    increase in the deficit of $2.0 billion over the 2025-2034 period.</p>
+            </textLevel>
+        </directSpendingAndRevenues>
+                <spendingSubjectToAppropriation><heading>Spending Subject to Appropriation</heading>
+                <p>CBO estimates that implementing S. 1339 would cost federal agencies $2 million over the
+                    2025-2029 period (see Table 3). Any related spending would be subject to the availability of
+                    appropriated funds.</p>
+                <p>S. 1339 would require federal agencies that regulate private health insurance to issue new
+                    rules that define reporting and benefits requirements and enforce compliance among drug
+                    manufacturers, insurance plans, and their service providers. Based on the costs of similar
+                    activities, CBO estimates that those costs, primarily for administrative activities within HHS
+                    and the Department of Labor, would total $5 million over the 2025‑2029 period. </p>
+                        <xhtml:table class="fullWidth" style="border-collapse:collapse;border-bottom:1px solid black;" id="table-3" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                            <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:1px solid black;"><p>Table 3.</p>
+                       <p>Estimated Changes in Spending Subject to Appropriation Under S. 1339</p></xhtml:caption>
+                            <xhtml:colgroup>
+                                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col  style="background-color:#D9D9D9;"/>
+                            </xhtml:colgroup>
+<xhtml:thead>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="5" class="bold centered">By Fiscal Year, Millions of Dollars</xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td align="right" style="border-bottom: 1px solid black;">2025</xhtml:td>
+        <xhtml:td align="right" style="border-bottom: 1px solid black;">2026</xhtml:td>
+        <xhtml:td align="right" style="border-bottom: 1px solid black;">2027</xhtml:td>
+        <xhtml:td align="right" style="border-bottom: 1px solid black;">2028</xhtml:td>
+        <xhtml:td align="right" style="border-bottom: 1px solid black;">2029</xhtml:td>
+        <xhtml:td align="right" style="border-bottom: 1px solid black;">2025-2029</xhtml:td>
+    </xhtml:tr></xhtml:thead>
+                   <xhtml:tfoot>
+                       <xhtml:tr>
+                           <xhtml:td>&#160;</xhtml:td>
+                           <xhtml:td></xhtml:td>
+                           <xhtml:td></xhtml:td>
+                           <xhtml:td></xhtml:td>
+                           <xhtml:td></xhtml:td>
+                           <xhtml:td></xhtml:td>
+                           <xhtml:td></xhtml:td>
+                           <xhtml:td></xhtml:td>
+                       </xhtml:tr>
+                       <xhtml:tr>
+                           <xhtml:td colspan="8" align="left">Components may not sum to totals because of rounding; API = application programming interface; PBM = pharmacy benefit manager; * = between zero and $500,000.</xhtml:td>
+                       </xhtml:tr>
+                       <xhtml:tr>
+                           <xhtml:td colspan="8" align="left"><footnote id="fn-3-a" class="fontsize10"><num>a.   </num>Section 2 also would appropriate funding for the Centers for Medicare &amp; Medicaid Services and the Department of Labor.</footnote></xhtml:td>
+                       </xhtml:tr>
+                   </xhtml:tfoot>
+    <xhtml:tbody><xhtml:tr>
+        <xhtml:td colspan="7">Oversight of PBMs<sup><ref idref="fn-3-a">a</ref></sup></xhtml:td>
+            <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">-3</xhtml:td>
+        <xhtml:td align="right">-3</xhtml:td>
+        <xhtml:td align="right">-5</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays </xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">-3</xhtml:td>
+        <xhtml:td align="right">-3</xhtml:td>
+        <xhtml:td align="right">-5</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="7">Require Manufacturers to Report Drug Prices</xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="7">Report on Fiduciaries’ Duties</xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="7">Requirement to Disclose Compensation</xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="7">Study on Naloxone Access</xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="7">Prohibition on Blocking Consumer Support Tools</xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="7">Require Insurers to Share Information Through APIs</xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">0</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="7">Step Therapy Protocols </xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">3</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">*</xhtml:td>
+        <xhtml:td align="right">3</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#160;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td colspan="7">Total Increases</xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td align="right">3</xhtml:td>
+        <xhtml:td align="right">2</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">-2</xhtml:td>
+        <xhtml:td align="right">-2</xhtml:td>
+        <xhtml:td align="right">2</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td align="right">3</xhtml:td>
+        <xhtml:td align="right">2</xhtml:td>
+        <xhtml:td align="right">1</xhtml:td>
+        <xhtml:td align="right">-2</xhtml:td>
+        <xhtml:td align="right">-2</xhtml:td>
+        <xhtml:td align="right">2</xhtml:td>    </xhtml:tr>
+    </xhtml:tbody>
+</xhtml:table>
+                <p>CBO estimates that, beginning in 2028, the transparency provisions for PBMs in section 2
+                    also would lead to modest reductions in premiums for enrollees in the Federal Employees
+                    Health Benefits Program. CBO estimates that federal agencies’ share of active federal
+                    employees’ health insurance premiums would fall by $5 million over the 2025-2029 period.
+                    That spending is considered discretionary and would be subject to reductions in
+                    appropriations by the estimated amounts. </p>
+                <p>S. 1339 also would require several federal agencies to conduct research and report to the
+                    Congress on various aspects of the bill’s implementation and on related topics, including
+                    manufacturers’ rebates, pharmacy networks’ operations, drug manufacturers’ price increases,PBMs’ fiduciary duties, access to naloxone, and health plans’ use of exceptions to step
+                    therapy protocols. CBO estimates that implementing those requirements would cost
+                    $2 million over the 2025‑2029 period. </p></spendingSubjectToAppropriation>
+                </basisOfEstimate>
+        <textLevel role="uncertainty"> 
+    <heading class="leftAlign">Uncertainty</heading>
+            <p>CBO’s estimate is subject to significant uncertainty in several areas.</p>
+         <textLevel>
+          <heading>Oversight of Pharmacy Benefit Managers</heading>
+             <p>CBO’s estimate of the effects of section 2 of the bill involves significant uncertainty regarding effects on competitiveness in the PBM market. Under current law, smaller PBMs compete with larger PBMs by offering more transparent contracts, and some larger PBMs have begun offering similar options. The extent to which employers and insurers would choose PBMs that provide more transparent contracts, and the price of those contracts under current law, is not well understood.</p>
+             <p>CBO expects that mandating increased PBM transparency would be useful to a subset of PBM clients, but employers’ capacity to take advantage of the new information would depend on factors that are difficult to quantify—such as the capacity of an employer to reevaluate and renegotiate existing PBM contracts. CBO also anticipates that the bill’s additional reporting would increase PBMs’ administrative costs, which would offset a portion of the lower premiums associated with the increased transparency. The magnitude of those effects could be larger or smaller than CBO has estimated.</p>
+             <p>Another area of uncertainty involves federal regulatory and oversight policies for enhancing PBMs’ transparency. Without clear standards and continuing enforcement, PBMs may attempt to limit the usefulness of their disclosures, making comparisons among PBMs more difficult. CBO expects that evolving practices among PBMs will erode the usefulness of the required disclosures over time.</p>
+             <p>Other sources of uncertainty relate to public disclosure of proprietary drug-pricing information, which ultimately could affect drug prices. That information would probably be protected by nondisclosure agreements between PBMs and plan sponsors, but it also is possible that, if disclosed, the information could result in collusion among competing manufacturers, leading in turn to higher drug prices. In total, the effect of section 2 on premiums could be larger or smaller than CBO has estimated.</p>
+         </textLevel>
+    <textLevel>
+                <heading>Step Therapy Protocols</heading>
+                <p> CBO’s estimates of the effects of section 9 also involve uncertainty. The budgetary effects of providing exceptions to step therapy protocols would depend on changes in health plans’ use of utilization management tools and exceptions under current law. An increasing number of states have mandated exceptions in recent years, and although CBO expects that trend to continue, the pace of adoption by additional states is uncertain. Insurance plans could respond to new regulations by substituting prior authorization requirements for step therapy, but enacting the section also could have unexpected effects on price negotiations between manufacturers and plans.</p>
+                <p>CBO does not expect that any effects on medical costs would result from the process mandated by the bill to allow exceptions to step therapy protocols but assumes that most plans design formularies to minimize costs under current law. In some cases, step therapy protocols can impede access to medication and could result in a patient abandoning treatment. Even though step therapy protocols are designed to promote patient safety and prevent unintended harm, a policy that accelerates access to nonpreferred medications could nevertheless harm some patients. The result of that effect on medical costs is unclear.</p>
+    </textLevel></textLevel>
+      <payGoConsiderations><!-- level 1 -->
+    <heading>Pay-As-You-Go Considerations</heading>
+        <p> The Statutory Pay-As-You-Go Act of 2010 establishes budget-reporting and enforcement
+            procedures for legislation affecting direct spending or revenues. The net changes in outlays
+            that are subject to those pay-as-you-go procedures are shown in <ref idref="table-4">Table 4</ref>. </p>
+          <xhtml:table class="fullWidth" style="border-collapse:collapse;border-bottom:1px solid black;" id="table-4" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+              <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:1px solid black;"><p>Table 4.</p>
+                  <p>CBO’s Estimate of the Statutory Pay-As-You-Go Effects of S. 1339, the Pharmacy Benefit Manager Reform Act, as Reported by the Senate Committee on Health, Education, Labor, and Pensions on June 22, 2023</p></xhtml:caption>
+              <xhtml:colgroup>
+                  <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                  <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col  style="background-color:#D9D9D9;"/><xhtml:col  style="background-color:#D9D9D9;"/>
+              </xhtml:colgroup>
+ <xhtml:thead>             
+     <xhtml:tr>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td colspan="10" style="border-bottom: 1px solid black;">By Fiscal Year, Millions of Dollars</xhtml:td>
+         <xhtml:td style="border-bottom: 1px solid black;"></xhtml:td>
+         <xhtml:td style="border-bottom: 1px solid black;"></xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2025</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2026</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2027</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2028</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2029</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2030</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2031</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2032</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2033</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2034</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2025-2029</xhtml:td>
+                  <xhtml:td style="border-bottom: 1px solid black;">2025-2034</xhtml:td>
+              </xhtml:tr>
+</xhtml:thead><xhtml:tbody>              <xhtml:tr>
+                  <xhtml:td>&#160;</xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td colspan="10" class="centered bold">Net Increase in the On-Budget Deficit</xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td>Pay-As-You-Go Effect</xhtml:td>
+                  <xhtml:td>9</xhtml:td>
+                  <xhtml:td>78</xhtml:td>
+                  <xhtml:td>138</xhtml:td>
+                  <xhtml:td>-5</xhtml:td>
+                  <xhtml:td>-67</xhtml:td>
+                  <xhtml:td>-50</xhtml:td>
+                  <xhtml:td>-24</xhtml:td>
+                  <xhtml:td>4</xhtml:td>
+                  <xhtml:td>35</xhtml:td>
+                  <xhtml:td>70</xhtml:td>
+                  <xhtml:td>153</xhtml:td>
+                  <xhtml:td>188</xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td>&#160;</xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td class="bold">Memorandum:</xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td>Changes in Outlays</xhtml:td>
+                  <xhtml:td>9</xhtml:td>
+                  <xhtml:td>18</xhtml:td>
+                  <xhtml:td>15</xhtml:td>
+                  <xhtml:td>4</xhtml:td>
+                  <xhtml:td>-4</xhtml:td>
+                  <xhtml:td>-6</xhtml:td>
+                  <xhtml:td>-6</xhtml:td>
+                  <xhtml:td>-5</xhtml:td>
+                  <xhtml:td>-4</xhtml:td>
+                  <xhtml:td>-3</xhtml:td>
+                  <xhtml:td>42</xhtml:td>
+                  <xhtml:td>18</xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td>Changes in Revenues</xhtml:td>
+                  <xhtml:td>0</xhtml:td>
+                  <xhtml:td>-60</xhtml:td>
+                  <xhtml:td>-123</xhtml:td>
+                  <xhtml:td>9</xhtml:td>
+                  <xhtml:td>63</xhtml:td>
+                  <xhtml:td>44</xhtml:td>
+                  <xhtml:td>18</xhtml:td>
+                  <xhtml:td>-9</xhtml:td>
+                  <xhtml:td>-39</xhtml:td>
+                  <xhtml:td>-73</xhtml:td>
+                  <xhtml:td>-111</xhtml:td>
+                  <xhtml:td>-170</xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td>&#160;</xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+              </xhtml:tr>
+              <xhtml:tr>
+                  <xhtml:td>&#160;</xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+                  <xhtml:td></xhtml:td>
+              </xhtml:tr></xhtml:tbody>
+          </xhtml:table>
+          <p>Changes to off-budget outlays and revenues are exempt from pay-as-you-go procedures and are excluded from <ref idref="table-4">Table 4</ref>. CBO estimates that enacting S. 1339 would increase private health insurance premiums that would in turn shift a portion of employees’ compensation from taxable wages to tax-favored health insurance and decrease collections of Social Security payroll taxes, which are classified as off-budget. CBO also estimates that S. 1339 would decrease federal outlays for health insurance for active employees of the Postal Service; those amounts also are classified as off-budget.</p>
+    </payGoConsiderations>
+    <textLevel>
+    <heading> Increase in Long-Term Net Direct Spending and Deficits</heading>
+        <p><longTermDirectSpending>CBO estimates that enacting S. 1339 would not increase net direct spending by more than $2.5 billion</longTermDirectSpending> in any of the four consecutive 10-year periods beginning in 2035.</p>
+        <p><longTermDeficit>CBO estimates that enacting S. 1339 would not increase on-budget deficits</longTermDeficit> by more than $5 billion in any of the four consecutive 10-year periods beginning in 2035.</p>
+    </textLevel>
+    <mandates><!-- level 1 -->
+    <heading>Mandates</heading>
+        <p><privateSectorMandate>S. 1339 would impose private-sector mandates</privateSectorMandate> as defined in the Unfunded Mandates Reform Act (UMRA) by limiting revenue sources for Pharmacy Benefit Managers (PBMs), requiring additional data disclosure by health plans, and restricting contracting terms. <intergovernmentalMandate>The bill would not impose any intergovernmental mandates</intergovernmentalMandate> as defined in UMRA.</p>
+        <list><listHeading class="bold leftAlign">Specifically, the bill would impose mandates by:</listHeading>
+         <listItem><num>• </num><listContent>Prohibiting spread pricing, which occurs when PBMs retain the difference between the amount paid to a pharmacy and the amount charged to a health plan or patient;</listContent></listItem>
+            <listItem><num>• </num><listContent>Requiring PBMs to passthrough to health plans the full amount of rebates and other remuneration received from pharmaceutical manufacturers or wholesalers;</listContent></listItem>
+            <listItem><num>• </num><listContent>Requiring PBMs to annually provide plan sponsors with detailed data on prescription drug spending;</listContent></listItem>
+            <listItem><num>• </num><listContent>Expanding a mandate imposed on health insurance brokers and consultants to report any anticipated compensation from PBMs;</listContent></listItem>
+            <listItem><num>• </num><listContent>Prohibiting contracts that restrict access to information for the purpose of operating a customer support toolconcerning prescription drug benefits;</listContent></listItem>
+            <listItem><num>• </num><listContent>Requiring group health plans and insurers to electronically publish information, including historical claims and payment data, provider directory information, and enrollee out-of-pocket costs; and</listContent></listItem>
+            <listItem><num>• </num><listContent>Limiting group health plans’ and insurers’ ability to implement step therapy protocols.</listContent></listItem></list>
+            <p>The most significant of these mandates would impose costs on PBMs by restricting commercial activities that currently provide substantial revenue. Although CBO expects that PBMs will retain and pursue alternative methods for generating new revenue in response, UMRA does not allow such revenue shifts to offset the cost of the mandates. Based on discussions with stakeholders and using available market and financial data, CBO estimates that the aggregate cost of all mandates in S. 1339 would average approximately $7 billion annually and would exceed the private-sector threshold ($200 million in 2024, adjusted annually for inflation) in each of the first five years that the mandates are in effect.</p>
+    </mandates>
+    <textLevel><!-- level 1 -->
+    <heading>Estimate Prepared By</heading>
+        <p>Federal Costs: <analyst>Ryan Greenfield</analyst> (for prescription drugs)  <analyst>Jessica Hale</analyst> (for private insurance plans)</p>
+        <p>Revenues: <analyst>Ryan Greenfield</analyst>, <analyst>Jessica Hale</analyst>, and the <analyst>Staff of the Joint Committee on Taxation</analyst></p>
+        <p>Mandates: <analyst>Andrew Laughlin</analyst></p>
+    </textLevel>
+    <textLevel><!-- level 1 -->
+    <heading>Estimate Reviewed By</heading>
+        <p>Sean Dunbar</p> <p>Chief, Income Security Cost Estimates Unit</p>
+        <p>Kathleen FitzGerald</p> <p>Chief, Finance, Housing, and Education Cost Estimates Unit</p>
+        <p>Chad Chirico </p> <p>Director of Budget Analysis</p>
+        
+    </textLevel>
+    <signature><!-- level 1 --> 
+        <notation>Estimate Approved By</notation>
+        <autograph><!-- wet signature scan --></autograph>
+        <name>Phillip L. Swagel</name>
+        <role>Director, </role><affiliation>Congressional Budget Office</affiliation>
+    </signature>
+</cboCostEstimate>
+</cboReport>

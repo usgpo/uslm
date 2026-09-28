@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<cboReport xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for CBO Cost Estimates. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <cboMeta>
+        <date>2026-02-06</date><!-- This is the publication date of the CBO cost estimate -->
+        <dc:type>CBO Cost Estimate</dc:type>
+        <docNumber>62098</docNumber>
+        <dc:title>CBO Cost Estimate 62098: H.R. 5301, PIPES Act of 2025 as ordered reported by the House Committee on Transportation and Infrastructure on September 17, 2025</dc:title>        
+        <citableAs>CBO Cost Estimate 62098</citableAs>
+        <citableAs>https://www.cbo.gov/publication/62098</citableAs><!-- We will add a second form with the URL. -->
+        <about>H.R. 5301, PIPES Act of 2025 as ordered reported by the House Committee on Transportation and Infrastructure on September 17, 2025</about>
+        <about>119hr5301</about><!-- We will a short form of the 'about' element for the core measure information. -->
+        <about>119hr5301RH</about><!-- We can also include the bill stage (docStage in USLM) in the short form of the about element. Having the stage is important 
+        in case something happens on the floor in a subsequent version. -->
+        <cboBillStatus>as ordered reported</cboBillStatus><!-- this can also be used to distinguish the version of the bill.  -->
+        <!-- cboBillStatus or the about with the bill status MUST be present in the cost estimate. -->
+        <cboEstimateForm>long</cboEstimateForm>
+        <congress>119</congress>
+        <session>1</session>
+        <committee>House Committee on Transportation and Infrastructure</committee>
+        <currentChamber>House</currentChamber>
+        <relatedDocument href="https://www.cbo.gov/publication/62027">CBO Cost Estimate 62027: S. 2975, the PIPELINE Safety Act of 2025, as ordered reported by the Senate Committee on Commerce, Science, and Transportation on October 21, 2025.</relatedDocument>
+        <longTermDirectSpending>between -$500,000 and $500,000</longTermDirectSpending>
+        <longTermDeficit>No</longTermDeficit>
+        <intergovernmentalMandate>No</intergovernmentalMandate>
+        <privateSectorMandate>Yes, Over Threshold</privateSectorMandate>
+        <payGo>Yes</payGo>
+        <dc:format>text/xml</dc:format>
+       <dc:language>EN</dc:language>
+        <dc:rights>The information and documents on CBO’s website are not copyrighted. CBO’s products are created by our employees in the course of their employment at CBO and are therefore works of the government. Government documents are in the public domain and are not protected by copyright law.</dc:rights>
+        <dc:creator>Congressional Budget Office</dc:creator>
+        <dc:publisher>Congressional Budget Office</dc:publisher>
+    </cboMeta>
+    <cboPreface>
+        <img src="..."/><!-- logo; can also use the xhtml:img element -->
+        <date date="2026-02-06">February 6, 2026</date>
+        <heading>Congressional Budget Office</heading>
+        <subheading>Cost Estimate</subheading>
+    </cboPreface>
+    <!-- The cboCostEstimate element is designed to be copied directly to the legislative committee report, with 
+    the only required changes being for styling (which includes capitalization, colons after headings, etc). -->
+<cboCostEstimate>
+    <cboAtAGlance><!-- This element encapsulates all of the 'at a glance' content on the first page of the PDF.  -->
+        <block class="cboHeader"><!-- This is a generic block element added to allow styling the entire header -->
+            <heading>At a Glance</heading>
+            <about><dc:type>H.R. </dc:type> <docNumber>5301</docNumber>, <shortTitle>PIPES Act of 2025</shortTitle>
+                <br/><cboBillStatus>As ordered reported</cboBillStatus> by the <committee>House Committee on Transportation and Infrastructure</committee> on <date date="2025-09-17">September 17, 2025</date></about>
+            <!-- CBO views the 'as ordered reported' as being the bill status. Other examples are 'as posted', or 'as passed'. It's related to the version of the bill that they
+            are estimating. This is a 3-part identifier: the bill as ordered reported by a particular committee on a particular date; in theory
+            the same bill could have a second round of 'as ordered reported', by a different committee, or on a different date. 
+            -->
+        </block>
+        <xhtml:table  style="border-collapse:collapse;" class="fullWidth">
+            <xhtml:colgroup>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+            </xhtml:colgroup>
+            <xhtml:tfoot style="border-bottom: 1px solid black;border-top: 1px solid black;background-color:#D9D9D9;">
+                <xhtml:tr><xhtml:td colspan="4" class="leftAlign">* = between -$500,000 and $500,000.</xhtml:td></xhtml:tr>
+            </xhtml:tfoot>
+            <xhtml:tbody><xhtml:tr style="border-top: 1px solid black;"><xhtml:th>By Fiscal Year, Millions of Dollars</xhtml:th>
+                <xhtml:td class="rightAlign">2026</xhtml:td><xhtml:td class="rightAlign">2026-2030</xhtml:td><xhtml:td class="rightAlign">2026-2035</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Direct Spending (Outlays)</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Revenues</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">1</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Increase or Decrease (-) in the Deficit</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">-1</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Spending Subject to Appropriation (Outlays)</xhtml:th>
+                <xhtml:td class="rightAlign">-76</xhtml:td><xhtml:td class="rightAlign">323</xhtml:td><xhtml:td class="rightAlign">not estimated</xhtml:td></xhtml:tr>
+                <xhtml:tr style="border-top: 1px solid black;background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>net direct spending</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDirectSpending>*</uslm:longTermDirectSpending></xhtml:td><xhtml:td class="leftAlign"  style="border-bottom: 1px solid black;">Statutory pay-as-you-go procedures apply?</xhtml:td><xhtml:td class="centered" style="border-bottom: 1px solid black;"><uslm:payGo>Yes</uslm:payGo></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td colspan="2" class="centered bold">Mandate Effects</xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>on-budget deficits</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDeficit>No</uslm:longTermDeficit></xhtml:td><xhtml:td class="leftAlign">Contains intergovernmental mandate?</xhtml:td><xhtml:td class="centered"><uslm:intergovernmentalMandate>No</uslm:intergovernmentalMandate></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td class="leftAlign">Contains private-sector mandate?</xhtml:td>
+                <xhtml:td class="centered"><uslm:privateSectorMandate>Yes, Over Threshold</uslm:privateSectorMandate></xhtml:td></xhtml:tr></xhtml:tbody>
+        </xhtml:table>
+        <list><listHeading class="bold leftAlign">The bill would</listHeading>
+    <listItem><num>• </num><listContent>Reauthorize programs managed by the Pipeline and Hazardous Materials Safety Administration (PHMSA) through 2029</listContent></listItem>
+    <listItem><num>• </num><listContent>Require PHMSA to conduct regulatory and inspection activities and make grants</listContent></listItem>
+    <listItem><num>• </num><listContent>Increase the maximum civil penalty for violating certain requirements related to pipeline safety</listContent></listItem>
+    <listItem><num>• </num><listContent>Impose private-sector mandates by reauthorizing user fees and authorizing new or revised safety regulations</listContent></listItem></list>
+        <list><listHeading class="bold leftAlign">Estimated budgetary effects would mainly stem from</listHeading>
+            <listItem><num>• </num><listContent>Authorizing appropriations for PHMSA programs through 2029</listContent></listItem>
+        <listItem><num>• </num><listContent>Authorizing PHMSA to collect pipeline safety and natural gas storage facility fees</listContent></listItem>
+        <listItem><num>• </num><listContent>Increasing collections of civil and criminal penalties</listContent></listItem></list>
+        <list><listHeading class="bold leftAlign">Areas of significant uncertainty include</listHeading>
+           <listItem><num>• </num><listContent>Projecting the frequency and severity of pipeline violations</listContent></listItem>
+        <listItem><num>• </num><listContent>Predicting the deterrent effect of larger civil and criminal penalties</listContent></listItem>
+        </list>
+    </cboAtAGlance>
+    <!-- The first-level header has a space between the header and content; second level has no space between header and content, 
+    third level is run-in header bolded, fourth level is run-in header italicized.
+    These are hierarchical levels. 
+   -->
+    <cboBillSummary> <!-- level 1 -->   <!-- This works as an element name; allows for other types of bill summaries in future versions of USLM. -->
+    <heading>Bill Summary</heading>
+    <p>H.R. 5301 would reauthorize the pipeline safety programs of the Pipeline and Hazardous Materials Safety Administration (PHMSA) through 2029. The bill also would require PHMSA to conduct various regulatory, grantmaking, and inspection activities and would require the Government Accountability Office to evaluate and report on various pipeline safety programs. Finally, H.R. 5301 would increase civil and criminal penalties for certain violations of pipeline safety requirements.</p>
+</cboBillSummary>
+    <estimatedFederalCost> <!-- level 1 -->
+    <heading> Estimated Federal Cost</heading><!-- this is always there -->
+    <p>The estimated budgetary effects of H.R. 5301 are shown in <ref idref="table-1">Table 1</ref>. The costs of the legislation fall within budget functions 400 (transportation), 750 (administration of justice), and 800 (general government).</p>
+    <xhtml:table class="fullWidth" style="border-collapse:collapse;border-bottom:1px solid black;" id="table-1">
+        <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:1px solid black;"><uslm:p>Table 1.</uslm:p>
+            <uslm:p>Estimated Budgetary Effects of H.R 5301</uslm:p></xhtml:caption>
+        <xhtml:colgroup>
+            <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col  style="background-color:#D9D9D9;"/>
+        </xhtml:colgroup>
+        <xhtml:thead>
+            <xhtml:tr><xhtml:td class="rightAlign">&#xa0;</xhtml:td><xhtml:td colspan="5" class="centered bold">By Fiscal Year, Millions of Dollars</xhtml:td><xhtml:td class="rightAlign"/></xhtml:tr>
+            <xhtml:tr><xhtml:td class="rightAlign">&#xa0;</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2026</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2027</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2028</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2029</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2030</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2026-2030</xhtml:td></xhtml:tr>
+        </xhtml:thead>
+        <xhtml:tfoot>
+            <xhtml:tr><xhtml:td colspan="7" class="leftAlign">CBO estimates that enacting the bill would increase revenues from civil and criminal penalties by less than $500,000 in every year, totaling $1 million over the 2026‑2035 period. Because criminal penalties can be spent without future appropriation, the bill also would increase direct spending by less than $500,000 in every year and over the 2026-2035 period.</xhtml:td></xhtml:tr>
+        </xhtml:tfoot>
+        <xhtml:tbody >
+            <xhtml:tr><xhtml:td class="rightAlign">&#xa0;</xhtml:td><xhtml:td colspan="5" class="centered bold">Increases or Decreases (-) in Spending Subject to Appropriation</xhtml:td><xhtml:td class="rightAlign"/></xhtml:tr>
+            <xhtml:tr><xhtml:td class="rightAlign">Estimated Authorization</xhtml:td>
+                <xhtml:td class="rightAlign">77</xhtml:td><xhtml:td class="rightAlign">235</xhtml:td>
+                <xhtml:td class="rightAlign">236</xhtml:td><xhtml:td class="rightAlign">238</xhtml:td>
+                <xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">786</xhtml:td></xhtml:tr>
+            <xhtml:tr><xhtml:td class="rightAlign">Estimated Outlays</xhtml:td>
+                <xhtml:td class="rightAlign">-76</xhtml:td><xhtml:td class="rightAlign">19</xhtml:td>
+                <xhtml:td class="rightAlign">60</xhtml:td><xhtml:td class="rightAlign">96</xhtml:td>
+                <xhtml:td class="rightAlign">224</xhtml:td><xhtml:td class="rightAlign">323</xhtml:td></xhtml:tr>
+        </xhtml:tbody>
+    </xhtml:table>
+</estimatedFederalCost>
+    <basisOfEstimate> <!-- level 1 -->
+    <heading>Basis of Estimate</heading><!-- this is always there; level 1 --><!-- new line + space for level 1 heading -->
+   <p>For this estimate, CBO assumes that the bill will be enacted early in calendar year 2026, that the specified and necessary amounts will be provided each year, and that outlays will follow historical spending patterns for the affected programs.</p>
+        <spendingSubjectToAppropriation><!-- this is usually there; it depends on the bill --><!-- level 2 -->
+            <heading>Spending Subject to Appropriation</heading><!-- new line for level 2 heading -->
+    <p>H.R. 5301 would authorize gross appropriations of $1.6 billion over the 2026-2030 period, which would be partially offset by $800 million in collections of user fees also authorized by the bill, resulting in a net authorization of about $800 million over that period. CBO estimates that implementing H.R. 5301 would cost $323 million over the 2026-2030 period, assuming appropriation actions consistent with that estimate (see <ref idref="table-2">Table 2</ref>).</p>
+    <xhtml:table xmlns="http://www.w3.org/1999/xhtml"  class="fullWidth"   style="border-collapse:collapse;border-bottom:1px solid black;"
+        id="table-2">
+        <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:solid 1px black;">
+                        <uslm:p>Table 2.</uslm:p><!-- Should we allow uslm:num here, or directly in the table caotion? Perhaps also uslm:br
+                        as an alternative to the uslm:p for line breaks. -->
+                        <uslm:p>Estimated Changes in Spending Subject to Appropriation Under H.R. 5301</uslm:p>
+             </xhtml:caption>
+        <colgroup>
+            <col/><col/><col/><col/><col/><col/><col/><col style="background-color:#D9D9D9;"/>
+        </colgroup>
+        <xhtml:thead>
+            <tr>
+                <td colspan="2" valign="bottom" class="rightAlign">&#xa0;</td>
+                <td colspan="5" valign="bottom" class="centered bold">By Fiscal Year, Millions of Dollars</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" style="border-bottom:1px solid black;" class="rightAlign">2026</td>
+                <td valign="bottom" style="border-bottom:1px solid black;" class="rightAlign">2027</td>
+                <td valign="bottom" style="border-bottom:1px solid black;" class="rightAlign">2028</td>
+                <td valign="bottom" style="border-bottom:1px solid black;" class="rightAlign">2029</td>
+                <td valign="bottom" style="border-bottom:1px solid black;" class="rightAlign">2030</td>
+                <td valign="bottom" style="border-bottom:1px solid black;" class="rightAlign">2026-2030</td>
+            </tr>
+        </xhtml:thead>
+        <xhtml:tfoot><tr>
+            <td colspan="9" valign="top" class="leftAlign">* = between zero and $500,000.</td>
+        </tr></xhtml:tfoot>
+        <tbody>
+            <tr>
+                <td colspan="3" valign="bottom" class="leftAlign">Safety Programs Financed by User Fees</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Authorization</td>
+                <td valign="bottom" class="rightAlign">188</td>
+                <td valign="bottom" class="rightAlign">197</td>
+                <td valign="bottom" class="rightAlign">205</td>
+                <td valign="bottom" class="rightAlign">214</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">804</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">66</td>
+                <td valign="bottom" class="rightAlign">144</td>
+                <td valign="bottom" class="rightAlign">179</td>
+                <td valign="bottom" class="rightAlign">205</td>
+                <td valign="bottom" class="rightAlign">136</td>
+                <td valign="bottom" class="rightAlign">730</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Offsetting Collections of User Fees</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Authorization</td>
+                <td valign="bottom" class="rightAlign">-188</td>
+                <td valign="bottom" class="rightAlign">-197</td>
+                <td valign="bottom" class="rightAlign">-205</td>
+                <td valign="bottom" class="rightAlign">-214</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">-804</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">-188</td>
+                <td valign="bottom" class="rightAlign">-197</td>
+                <td valign="bottom" class="rightAlign">-205</td>
+                <td valign="bottom" class="rightAlign">-214</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">-804</td>
+            </tr>
+            <tr>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="leftAlign">Subtotal, User Fee Programs</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="leftAlign">Estimated Authorization</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">0</td>
+            </tr>
+            <tr>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">-122</td>
+                <td valign="bottom" class="rightAlign">-53</td>
+                <td valign="bottom" class="rightAlign">-26</td>
+                <td valign="bottom" class="rightAlign">-9</td>
+                <td valign="bottom" class="rightAlign">136</td>
+                <td valign="bottom" class="rightAlign">-74</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Securing Systems Grants</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Authorization</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">150</td>
+                <td valign="bottom" class="rightAlign">150</td>
+                <td valign="bottom" class="rightAlign">150</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">450</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">*</td>
+                <td valign="bottom" class="rightAlign">2</td>
+                <td valign="bottom" class="rightAlign">17</td>
+                <td valign="bottom" class="rightAlign">54</td>
+                <td valign="bottom" class="rightAlign">73</td>
+            </tr>
+            <tr>
+                <td colspan="3" valign="bottom" class="leftAlign">Safety Programs Financed by a Trust Fund</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Authorization</td>
+                <td valign="bottom" class="rightAlign">30</td>
+                <td valign="bottom" class="rightAlign">31</td>
+                <td valign="bottom" class="rightAlign">31</td>
+                <td valign="bottom" class="rightAlign">32</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">124</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">18</td>
+                <td valign="bottom" class="rightAlign">26</td>
+                <td valign="bottom" class="rightAlign">31</td>
+                <td valign="bottom" class="rightAlign">32</td>
+                <td valign="bottom" class="rightAlign">13</td>
+                <td valign="bottom" class="rightAlign">120</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Operational Expenses</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Authorization</td>
+                <td valign="bottom" class="rightAlign">32</td>
+                <td valign="bottom" class="rightAlign">32</td>
+                <td valign="bottom" class="rightAlign">33</td>
+                <td valign="bottom" class="rightAlign">34</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">131</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">22</td>
+                <td valign="bottom" class="rightAlign">29</td>
+                <td valign="bottom" class="rightAlign">33</td>
+                <td valign="bottom" class="rightAlign">34</td>
+                <td valign="bottom" class="rightAlign">10</td>
+                <td valign="bottom" class="rightAlign">128</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Other Activities</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Authorization</td>
+                <td valign="bottom" class="rightAlign">15</td>
+                <td valign="bottom" class="rightAlign">22</td>
+                <td valign="bottom" class="rightAlign">22</td>
+                <td valign="bottom" class="rightAlign">22</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">81</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">6</td>
+                <td valign="bottom" class="rightAlign">17</td>
+                <td valign="bottom" class="rightAlign">20</td>
+                <td valign="bottom" class="rightAlign">22</td>
+                <td valign="bottom" class="rightAlign">11</td>
+                <td valign="bottom" class="rightAlign">76</td>
+            </tr>
+            <tr>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="leftAlign">Subtotal, All Other</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="leftAlign">Estimated Authorization</td>
+                <td valign="bottom" class="rightAlign">77</td>
+                <td valign="bottom" class="rightAlign">235</td>
+                <td valign="bottom" class="rightAlign">236</td>
+                <td valign="bottom" class="rightAlign">238</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">786</td>
+            </tr>
+            <tr>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">46</td>
+                <td valign="bottom" class="rightAlign">72</td>
+                <td valign="bottom" class="rightAlign">86</td>
+                <td valign="bottom" class="rightAlign">105</td>
+                <td valign="bottom" class="rightAlign">88</td>
+                <td valign="bottom" class="rightAlign">397</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Total Changes</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+                <td valign="bottom" class="rightAlign">&#xa0;</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Authorization</td>
+                <td valign="bottom" class="rightAlign">77</td>
+                <td valign="bottom" class="rightAlign">235</td>
+                <td valign="bottom" class="rightAlign">236</td>
+                <td valign="bottom" class="rightAlign">238</td>
+                <td valign="bottom" class="rightAlign">0</td>
+                <td valign="bottom" class="rightAlign">786</td>
+            </tr>
+            <tr>
+                <td colspan="2" valign="bottom" class="leftAlign">Estimated Outlays</td>
+                <td valign="bottom" class="rightAlign">-76</td>
+                <td valign="bottom" class="rightAlign">19</td>
+                <td valign="bottom" class="rightAlign">60</td>
+                <td valign="bottom" class="rightAlign">96</td>
+                <td valign="bottom" class="rightAlign">224</td>
+                <td valign="bottom" class="rightAlign">323</td>
+            </tr>
+        </tbody>
+    </xhtml:table>
+            <textLevel><!-- level 3 --><!-- the b is a heading; run-in and bold for level 3 -->
+                <heading class="bold inline">Safety Programs Financed by User Fees.</heading>
+    <p class="inline">Most safety programs operated by PHMSA are financed by fees collected from the owners and operators of pipelines and natural gas storage facilities. CBO estimates that implementing the provisions related to safety programs would, on net, reduce spending subject to appropriation by $74 million over the 2026-2030 period and would increase such spending by $74 million after 2030 so that there would be no net effect on spending over time, assuming appropriation actions consistent with that estimate.</p>
+                <textLevel> <!-- level 4 --><!-- heading is run-in italic for level 4 -->
+                    <heading class="inline">Authorized Spending for Safety Programs.</heading>
+                    <p class="inline"> H.R. 5301 would authorize the appropriation of specific amounts each year totaling $804 million over the 2026-2030 period for certain safety programs. CBO estimates that implementing those provisions would cost $730 million over the same period. In 2025, the Congress provided $188 million for those activities.</p></textLevel>
+                <textLevel>   <!-- level 4 -->
+                    <heading class="inline">Offsetting Collections of User Fees.</heading>
+                    <p class="inline"><ref href="#directSpendingAndRevenues">The fees</ref> that PHMSA is generally authorized to collect from the natural gas and pipeline industries to cover the costs of certain safety programs are treated as offsets to discretionary spending. For this estimate, CBO assumes that PHMSA would collect fees equal to 100 percent of the authorized amount each year, totaling $804 million in collections over the 2026-2030 period.</p>
+                </textLevel>
+            </textLevel>
+            <textLevel levelDepth="3"> <!-- level 3 --> <!-- levelDepth is optional -->
+                <heading class="inline">Securing Systems Grants.</heading>
+                <p class="inline">The bill would authorize appropriations totaling $450 million over the 2026-2030 period for a program to help pay for repairs to or replacement of natural gas pipelines. CBO estimates that implementing the provision would cost $73 million over the 2026-2030 period and $377 million after 2030.</p>
+                <!-- optional link between the table item and the paragraph about it; id/idref? ref element? -->
+            </textLevel>
+            <textLevel><!-- level 3 -->
+                <heading class="inline">Safety Programs Financed by a Trust Fund.</heading>
+                <p class="inline"> The bill would authorize the appropriation of specific amounts from the Oil Spill Liability Trust Fund totaling $124 million over the 2026‑2030 period to pay for pipeline safety programs. CBO estimates that implementing that provision would cost $120 million over the same period and $4 million after 2030. In 2025, the Congress provided $30 million for those activities.</p></textLevel>    
+            <textLevel>  <!-- level 3 -->  
+                <heading class="inline">Operational Expenses.</heading>
+                <p class="inline">The bill would authorize the appropriation of specific amounts each year totaling $131 million over the 2026-2030 period for PHMSA’s operational expenses. CBO estimates that implementing that provision would cost $128 million over the same period and $3 million after 2030. In 2025, the Congress provided $32 million for those activities.</p>
+            </textLevel>
+            <textLevel><!-- level 3 -->
+                <heading class="inline">Other Activities.</heading>
+                <p class="inline"> CBO estimates that H.R. 5301 would authorize appropriations totaling Other Activities. CBO estimates that H.R. 5301 would authorize appropriations totaling $81 million over the 2026-2030 period for other activities conducted by PHMSA and other agencies. CBO estimates that the bill would authorize the following amounts:</p>
+                <list><listItem><num>• </num><listContent>$40 million for emergency response grants (as specified in the bill);</listContent></listItem>
+                    <listItem><num>• </num><listContent>$31 million for PHMSA to establish a voluntary information system related to pipeline safety (as specified in the bill);</listContent></listItem>
+                    <listItem><num>• </num><listContent>$8 million for damage prevention programs (as specified in the bill); and</listContent></listItem>
+                    <listItem><num>• </num><listContent>$2 million for various reports and for administrative activities conducted by federal agencies, primarily the Government Accountability Office.</listContent></listItem></list>
+                <p>    CBO estimates that the total cost of implementing those provisions would be $76 million over the 2026-2030 period.</p>
+            </textLevel>        
+    </spendingSubjectToAppropriation>
+        <directSpendingAndRevenues id="directSpendingAndRevenues">    <!-- level 2 -->
+    <heading>Revenues and Direct Spending</heading>
+    <!-- Direct spending is usually there and people look for it. It may be combined with Revenues depending on the bill. Direct spending over 500,000 over 10 years also defaults to long form. -->
+    <p>Several sections of H.R. 5301 would increase collections of civil and criminal penalties, which are recorded in the budget as revenues. Criminal penalties are deposited in the Crime Victims Fund and later spent without further appropriation.</p>
+    <p>Section 22 would raise the maximum civil penalty PHMSA may levy for violations of certain requirements and regulations related to pipeline safety and maintenance. Specifically, the maximum for a series of daily violations would increase from $2.7 million in 2025 to $3.4 million in 2026. Over the past several years, collections of those penalties have totaled about $5 million per year, on average, but most have not reached the maximum. Using information from PHMSA, CBO estimates that enacting section 22 would reduce the number of violations but would increase collections, on net, by $1 million over the 2026-2035 period.</p>
+    <p>In addition, based on the number of expected cases, CBO estimates that the increase in collections of criminal penalties and the associated increase in direct spending under H.R. 5301 would total less than $500,000 over the 2026-2035 period.</p></directSpendingAndRevenues>
+        <textLevel role="uncertainty">    <!-- level 2 -->
+    <heading class="leftAlign">Uncertainty</heading>
+   <p> The estimated revenue effects of H.R. 5301 are subject to considerable uncertainty. Projecting the frequency or severity of pipeline safety violations is difficult, as is estimating the deterrent effect of larger civil penalties for those violations. Thus, the amount of additional revenue collected under the bill could be larger or smaller than CBO estimates if larger penalties led to more or fewer violations than we expect.</p>
+</textLevel>
+    </basisOfEstimate>
+    <payGoConsiderations><!-- level 1 -->
+    <heading>Pay-As-You-Go Considerations</heading><!-- always there -->
+    <p>The Statutory Pay-As-You-Go Act of 2010 establishes budget-reporting and enforcement procedures for legislation affecting direct spending or revenues. Enacting the bill would increase revenues by $1 million over the 2026-2035 period and direct spending by less than $500,000 over that same period.</p>
+    </payGoConsiderations>
+    <textLevel><!-- level 1 -->
+    <heading> Increase in Long-Term Net Direct Spending and Deficits</heading>
+        <p>CBO estimates that <longTermDirectSpending>enacting H.R. 5301 would not significantly increase net direct spending</longTermDirectSpending> in any of the four consecutive 10-year periods beginning in 2036.</p>
+        <p>CBO estimates that <longTermDeficit>enacting H.R. 5301 would not increase on-budget deficits</longTermDeficit> in any of the four consecutive 10-year periods beginning in 2036.</p>
+    </textLevel>
+    <mandates><!-- level 1 -->
+    <heading>Mandates</heading><!-- always there -->
+    <p><privateSectorMandate>H.R. 5301 would impose private-sector mandates</privateSectorMandate> as defined in the Unfunded Mandates Reform Act (UMRA). The bill would reauthorize an existing mandate that permits the Department of Transportation (DOT) to collect user fees from the owners and operators of pipelines and natural gas facilities. The bill would authorize the department to collect about $200 million each year over the 2026-2030 period. CBO estimates that the cost of compliance would exceed the private-sector threshold established in UMRA ($214 million in 2026, adjusted annually for inflation).</p>
+    <p>The bill also would authorize DOT to issue new or revised regulations based on studies required under the bill. Those regulations could impose new mandates or expand existing mandates on operators to ensure adequate protection for buildings and occupied outdoor facilities from pipeline incidents and could revise the regulations on the maximum allowable operating pressure for pipelines. Because such regulations have not yet been issued, CBO cannot determine whether the cost of compliance would exceed UMRA’s private-sector threshold.</p>
+    <p><intergovernmentalMandate>The bill would not impose intergovernmental mandates</intergovernmentalMandate> as defined in UMRA.</p>
+    </mandates>
+    <textLevel><!-- level 1 -->
+    <heading>Previous CBO Estimate</heading>
+    <p>On January 21, 2026, CBO transmitted a <ref href="https://www.cbo.gov/publication/62027">cost estimate for S. 2975</ref>, the PIPELINE Safety Act of 2025, as ordered reported by the Senate Committee on Commerce, Science, and Transportation on October 21, 2025. Both bills would reauthorize programs administered by PHMSA. H.R. 5301 would authorize those programs through 2029, and S. 2975 would authorize them through 2030; the two bills also would authorize different amounts. H.R. 5301 would increase civil penalties by less than S. 2975 and also would increase criminal penalties, whereas the Senate bill would not increase criminal penalties. Those differences are reflected in the estimates.</p>
+    </textLevel>
+    <textLevel><!-- level 1 -->
+    <heading>Estimate Prepared By</heading>
+    <!-- Use the new element 'analyst' for these first three names; the labels are just text. -->
+    <p>Federal Costs: <analyst>Aaron Krupkin</analyst></p>
+    <p>Revenues: <analyst>Nathaniel Frentz</analyst></p>
+    <p>Mandates: <analyst>Brandon Lever</analyst></p>
+    </textLevel>
+    <textLevel><!-- level 1 -->
+    <heading>Estimate Reviewed By</heading>
+    <!-- These are not signatures. The unit chief for each analyst is listed, and the deputy director. Some estimates
+    also have the director of budget analysis listed. -->
+    <p>Ann E. Futrell</p> <p>Chief, Natural and Physical Resources Cost Estimates Unit</p>
+    <p>Joshua Shakin</p> <p>Chief, Revenue Projections Unit</p>
+    <p>Kathleen FitzGerald</p> <p>Chief, Public and Private Mandates Unit</p>
+    <p>H. Samuel Papenfuss</p> <p>Deputy Director of Budget Analysis</p>
+    <p>Chad Chirico</p> <p>Director of Budget Analysis</p>
+    </textLevel>
+    <signature><!-- level 1 --> 
+        <notation>Estimate Approved By</notation>
+        <autograph><!-- wet signature scan --></autograph>
+        <name>Phillip L. Swagel</name>
+        <role>Director, </role><affiliation>Congressional Budget Office</affiliation>
+    </signature>
+</cboCostEstimate>
+</cboReport>

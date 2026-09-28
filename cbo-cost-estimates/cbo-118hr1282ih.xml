@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<cboReport xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for CBO Cost Estimates. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <cboMeta>
+        <date>2023-06-13</date><!-- This is the publication date of the CBO cost estimate -->
+        <dc:type>CBO Cost Estimate</dc:type>
+        <docNumber>59244</docNumber>
+        <dc:title>CBO Cost Estimate 59244: H.R. 1282, MAJOR RICHARD STAR ACT as introduced in the House of Representatives on March 1, 2023</dc:title>        
+        <citableAs>CBO Cost Estimate 59244</citableAs>
+        <citableAs>https://www.cbo.gov/publication/59244</citableAs>
+        <about>H.R. 1282, MAJOR RICHARD STAR ACT as introduced in the House of Representatives on March 1, 2023</about>
+        <about>118hr1282</about>
+        <about>118hr1282ih</about>
+        <cboBillStatus>as introduced</cboBillStatus>
+        <cboEstimateForm>long</cboEstimateForm>
+        <congress>118</congress>
+        <session>1</session>
+        <committee>House Committee on Armed Services</committee>
+        <currentChamber>House</currentChamber>
+        <longTermDirectSpending>greater than $2.5 billion</longTermDirectSpending>
+        <longTermDeficit>greater than $5 billion</longTermDeficit>
+        <intergovernmentalMandate>No</intergovernmentalMandate>
+        <privateSectorMandate>No</privateSectorMandate>
+        <payGo>Yes</payGo>
+        <dc:format>text/xml</dc:format>
+       <dc:language>EN</dc:language>
+        <dc:rights>The information and documents on CBO’s website are not copyrighted. CBO’s products are created by our employees in the course of their employment at CBO and are therefore works of the government. Government documents are in the public domain and are not protected by copyright law.</dc:rights>
+        <dc:creator>Congressional Budget Office</dc:creator>
+        <dc:publisher>Congressional Budget Office</dc:publisher>
+    </cboMeta>
+    <cboPreface>
+        <img src="..."/><!-- logo; can also use the xhtml:img element -->
+        <date date="2023-06-13">June 13, 2023</date>
+        <heading>Congressional Budget Office</heading>
+        <subheading>Cost Estimate</subheading>
+    </cboPreface>
+    <cboCostEstimate>
+        <cboAtAGlance>
+            <block class="cboHeader">
+                <heading>At a Glance</heading>
+                <about><dc:type>H.R. </dc:type> <docNumber>1282</docNumber>, <officialTitle>Major Richard Star Act</officialTitle>
+                    <br/><cboBillStatus>As introduced</cboBillStatus> by the <committee>House Committee on Armed Services</committee> on <date date="2023-03-01">March 1, 2023</date></about>
+            </block>
+            <xhtml:table  style="border-collapse:collapse;" class="fullWidth">
+                <xhtml:colgroup>
+                    <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                </xhtml:colgroup>
+                <xhtml:tbody><xhtml:tr style="border-top: 1px solid black;"><xhtml:th>By Fiscal Year, Millions of Dollars</xhtml:th>
+                        <xhtml:td class="rightAlign">2023</xhtml:td><xhtml:td class="rightAlign">2023-2028</xhtml:td><xhtml:td class="rightAlign">2023-2033</xhtml:td></xhtml:tr>
+                    <xhtml:tr><xhtml:th>Direct Spending (Outlays)</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">4,550</xhtml:td><xhtml:td class="rightAlign">9,750</xhtml:td></xhtml:tr>
+                    <xhtml:tr><xhtml:th>Revenues</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">0</xhtml:td></xhtml:tr>
+                    <xhtml:tr><xhtml:th>Increase or Decrease (-) in the Deficit</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">4,550</xhtml:td><xhtml:td class="rightAlign">9,750</xhtml:td></xhtml:tr>
+                    <xhtml:tr><xhtml:th>Spending Subject to Appropriation (Outlays)</xhtml:th>
+                        <xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">2,950</xhtml:td><xhtml:td class="rightAlign">7,150</xhtml:td></xhtml:tr>
+                    <xhtml:tr style="border-top: 1px solid black;background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>net direct spending</uslm:i> in any of the four consecutive 10-year periods beginning in 2034?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDirectSpending>> $2.5 billion</uslm:longTermDirectSpending></xhtml:td><xhtml:td class="leftAlign"  style="border-bottom: 1px solid black;">Statutory pay-as-you-go procedures apply?</xhtml:td><xhtml:td class="centered" style="border-bottom: 1px solid black;"><uslm:payGo>Yes</uslm:payGo></xhtml:td></xhtml:tr>
+                    <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td colspan="2" class="centered bold">Mandate Effects</xhtml:td></xhtml:tr>
+                    <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>on-budget deficits</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDeficit>> $5 billion</uslm:longTermDeficit></xhtml:td><xhtml:td class="leftAlign">Contains intergovernmental mandate?</xhtml:td><xhtml:td class="centered"><uslm:intergovernmentalMandate>No</uslm:intergovernmentalMandate></xhtml:td></xhtml:tr>
+                    <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td class="leftAlign">Contains private-sector mandate?</xhtml:td>
+                        <xhtml:td class="centered"><uslm:privateSectorMandate>No</uslm:privateSectorMandate></xhtml:td></xhtml:tr></xhtml:tbody>
+            </xhtml:table>
+            <list><listHeading class="bold leftAlign">The bill would</listHeading>
+                <listItem><num>• </num><listContent>Allow certain military retirees with combat-related disabilities to collect the full amount of both their military retired pay
+                        and their veterans’ disability compensation.</listContent></listItem>
+            </list>
+            <list><listHeading class="bold leftAlign">Estimated budgetary effects would mainly stem from</listHeading>
+                <listItem><num>• </num><listContent>Increased net payments from the Department of Defense to military retirees with combat-related disabilities.</listContent></listItem>
+                <listItem><num>• </num><listContent>Increased accrual payments by the Department of Defense to account for the future cost of those increased retirement payments.</listContent></listItem>
+            </list>
+            <list><listHeading class="bold leftAlign">Areas of significant uncertainty include</listHeading>
+                <listItem><num>• </num><listContent>Estimating the number of service members with combat-related disabilities who will receive disability retirements.</listContent></listItem>
+            </list>
+        </cboAtAGlance>
+        <cboBillSummary class="block"><heading>Bill Summary</heading><p>The Major Richard Star Act would permit certain
+                veterans with qualifying combat-related disabilities who are eligible for military retirement and veterans’ disability compensation to
+                receive the full amount of both of those benefits.</p></cboBillSummary>
+        <estimatedFederalCost class="block noVerticalSpace"><heading>Estimated Federal cost</heading>
+            <p>The estimated budgetary effects of H.R. 1282 are shown in Table 1. The costs of the legislation fall within
+                budget functions 050 (national defense), 600 (income security), and 950 (undistributed offsetting receipts).</p>
+            <xhtml:table class="fullWidth" style="border-collapse:collapse;border-bottom:1px solid black;" id="table-1">
+                <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:1px solid black;"><uslm:p>Table 1.</uslm:p>
+                    <uslm:p>Estimated Budgetary Effects of H.R. 1282</uslm:p></xhtml:caption>
+                <xhtml:colgroup>
+                    <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                    <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                    <xhtml:col  style="background-color:#D9D9D9;"/>
+                    <xhtml:col  style="background-color:#D9D9D9;"/>
+                </xhtml:colgroup>
+                <xhtml:thead>
+                    <xhtml:tr><xhtml:td></xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" colspan="13">By fiscal year, millions of dollars—</xhtml:td></xhtml:tr>
+                    <xhtml:tr><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign"></xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2023</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2024</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2025</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2026</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2027</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2028</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2029</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2030</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2031</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2032</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2033</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2023-2028</xhtml:td>
+                        <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2023-2033</xhtml:td></xhtml:tr>
+                </xhtml:thead>
+                <xhtml:tfoot>
+                    <xhtml:tr><xhtml:td colspan="14" class="leftAlign">a.  Outlays for accrual payments to the Military Retirement Fund are intragovernmental transactions that have no net effect on federal spending.</xhtml:td></xhtml:tr>
+                </xhtml:tfoot>
+                <xhtml:tbody >
+                    <xhtml:tr><xhtml:td class="rightAlign">&#xa0;</xhtml:td><xhtml:td colspan="13" class="centered">Increases in Direct Spending</xhtml:td><xhtml:td class="rightAlign"/></xhtml:tr>
+                    <xhtml:tr>        
+                        <xhtml:td class="rightAlign">Estimated Budget Authority</xhtml:td>
+                        <xhtml:td class="rightAlign">0</xhtml:td>
+                        <xhtml:td class="rightAlign">850</xhtml:td>
+                        <xhtml:td class="rightAlign">900</xhtml:td>
+                        <xhtml:td class="rightAlign">900</xhtml:td>
+                        <xhtml:td class="rightAlign">950</xhtml:td>
+                        <xhtml:td class="rightAlign">950</xhtml:td>
+                        <xhtml:td class="rightAlign">1,000</xhtml:td>
+                        <xhtml:td class="rightAlign">1,000</xhtml:td>
+                        <xhtml:td class="rightAlign">1,050</xhtml:td>
+                        <xhtml:td class="rightAlign">1,050</xhtml:td>
+                        <xhtml:td class="rightAlign">1,100</xhtml:td>
+                        <xhtml:td class="rightAlign">4,550</xhtml:td>
+                        <xhtml:td class="rightAlign">9,750</xhtml:td></xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td class="rightAlign">Estimated Outlays</xhtml:td>
+                        <xhtml:td class="rightAlign">0</xhtml:td>
+                        <xhtml:td class="rightAlign">750</xhtml:td>
+                        <xhtml:td class="rightAlign">900</xhtml:td>
+                        <xhtml:td class="rightAlign">900</xhtml:td>
+                        <xhtml:td class="rightAlign">950</xhtml:td>
+                        <xhtml:td class="rightAlign">1,050</xhtml:td>
+                        <xhtml:td class="rightAlign">900</xhtml:td>
+                        <xhtml:td class="rightAlign">1,000</xhtml:td>
+                        <xhtml:td class="rightAlign">1,050</xhtml:td>
+                        <xhtml:td class="rightAlign">1,050</xhtml:td>
+                        <xhtml:td class="rightAlign">1,200</xhtml:td>
+                        <xhtml:td class="rightAlign">4,550</xhtml:td>
+                        <xhtml:td class="rightAlign">9,750</xhtml:td></xhtml:tr>
+                    <xhtml:tr><xhtml:td class="rightAlign">&#xa0;</xhtml:td><xhtml:td colspan="13" class="centered">Increases in Spending Subject to Appropriation<sup>a</sup></xhtml:td><xhtml:td class="rightAlign"/></xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td class="rightAlign">Estimated Authorization</xhtml:td>
+                        <xhtml:td class="rightAlign">0</xhtml:td>
+                        <xhtml:td class="rightAlign">0</xhtml:td>
+                        <xhtml:td class="rightAlign">700</xhtml:td>
+                        <xhtml:td class="rightAlign">750</xhtml:td>
+                        <xhtml:td class="rightAlign">750</xhtml:td>
+                        <xhtml:td class="rightAlign">750</xhtml:td>
+                        <xhtml:td class="rightAlign">800</xhtml:td>
+                        <xhtml:td class="rightAlign">800</xhtml:td>
+                        <xhtml:td class="rightAlign">850</xhtml:td>
+                        <xhtml:td class="rightAlign">850</xhtml:td>
+                        <xhtml:td class="rightAlign">900</xhtml:td>
+                        <xhtml:td class="rightAlign">2,950</xhtml:td>
+                        <xhtml:td class="rightAlign">7,150</xhtml:td>
+                    </xhtml:tr>
+                    <xhtml:tr>
+                        <xhtml:td class="rightAlign">Estimated Outlays</xhtml:td>
+                        <xhtml:td class="rightAlign">0</xhtml:td>
+                        <xhtml:td class="rightAlign">0</xhtml:td>
+                        <xhtml:td class="rightAlign">700</xhtml:td>
+                        <xhtml:td class="rightAlign">750</xhtml:td>
+                        <xhtml:td class="rightAlign">750</xhtml:td>
+                        <xhtml:td class="rightAlign">750</xhtml:td>
+                        <xhtml:td class="rightAlign">800</xhtml:td>
+                        <xhtml:td class="rightAlign">800</xhtml:td>
+                        <xhtml:td class="rightAlign">850</xhtml:td>
+                        <xhtml:td class="rightAlign">850</xhtml:td>
+                        <xhtml:td class="rightAlign">900</xhtml:td>
+                        <xhtml:td class="rightAlign">2,950</xhtml:td>
+                        <xhtml:td class="rightAlign">7,150</xhtml:td>
+                    </xhtml:tr>
+                </xhtml:tbody>
+            </xhtml:table>
+        </estimatedFederalCost>
+        <basisOfEstimate>
+            <heading>Basis of estimate</heading>
+            <p>For this estimate, CBO assumes that the bill
+                will be enacted in late fiscal year 2023 and will apply to military
+                retirement payments beginning in fiscal year 2024. CBO expects
+                that the accrual payments that the Department of Defense (DoD)
+                makes to the Military Retirement Fund will increase as a result of
+                the bill beginning in fiscal year 2025.</p>
+            <directSpending><heading>Direct spending</heading>
+                <p>Veterans with disabilities connected to their military service can receive compensation from the Department of
+                    Veterans Affairs (VA). Since 1890, federal law has prevented veterans from receiving both military retired pay and veterans’ disability
+                    compensation. Military retirees who are eligible for disability compensation typically have their retired pay offset 
+                    dollar-for-dollar by the amount of disability compensation that they receive from VA.<ref idref="fn-1"><sup>1</sup></ref><footnote id="fn-1"><num><sup>1</sup></num>Given the dollar-for-dollar offset, a retiree might choose not to apply for disability compensation.
+                        However, because disability compensation is not subject to income tax, whereas military
+                        retired pay generally is, receiving disability compensation is generally financially advantageous.</footnote></p>
+                <p>Beginning in 2002, the Congress enacted exceptions to that restriction
+                    by allowing certain retirees to receive both retired pay and
+                    disability compensation through two programs:</p>
+                <list>
+                    <listItem><num>•</num><listContent>Concurrent Retirement and Disability Pay allows retirees
+                            to receive the full amount of their retired pay and disability
+                            compensation, provided they served at least 20 years and have
+                            a VA disability rating of at least 50 percent.</listContent></listItem>
+                    <listItem><num>•</num><listContent>Combat Related Special Compensation (CRSC) allows retirees
+                            with qualifying combat-related disabilities to receive special
+                            compensation up to the amount by which the military retired
+                            pay is offset for disability compensation, irrespective of
+                            their years of service or disability rating.</listContent></listItem>
+                </list>
+                <p>For service members who retired based on disability after fewer
+                    than 20 years of service, the CRSC payment plus any residual retirement
+                    payment (after applying the disability offset) cannot exceed
+                    the amount of retired pay they would have received based on
+                    their years of service. For retirees who suffered severe combat-related
+                    disabilities after a short time in the military, that rule significantly
+                    limits the amount they receive from DoD.</p>
+                <p>H.R. 1282 would eliminate the disability offset altogether for
+                    combat-disabled military retirees who served fewer than 20 years,
+                    allowing them to receive both the full amount of retired pay they
+                    earned and the VA disability compensation to which they are entitled.</p>
+                <p>DoD makes CRSC payments to slightly more than 50,000 disability
+                    retirees who have fewer than 20 years of service. CBO expects
+                    that number to increase by about 7,000 by 2033.<ref idref="fn-2"><sup>2</sup></ref><footnote id="fn-2"><num><sup>2</sup></num>Disabilities incurred outside of armed conflict can be considered combat related—and therefore
+                        establish eligibility for CRSC—if they involve hazardous duty (such as parachute or demolition
+                        duty), an instrumentality of war (such as a military vehicle or vessel), or simulated war
+                        (such as training with live ammunition). Thus, CBO anticipates service members will continue
+                        to become eligible for CRSC over the 2024–2033 period, even absent any new U.S. combat operations.</footnote> The average
+                    disability offset for those retirees was just over $1,900 per
+                    month in 2022, almost three times the average CRSC payment of
+                    just under $700 per month. Under H.R. 1282, those disability retirees
+                    would instead receive the full amount of their retired pay.
+                    Thus, they would receive about $1,200 more each month in total
+                    compensation under the bill than they will under current law.
+                    (Both retired pay and disability compensation are adjusted upward based on inflation, so CBO projects those monthly amounts would
+                    increase over time.) On that basis, CBO estimates that enacting
+                    the bill would increase direct spending for compensation to military
+                    retirees by $9.75 billion over the 2024–2033 period.</p>
+            </directSpending>
+            <spendingSubjectToAppropriation>
+                <heading>Spending subject to appropriation</heading>
+                <p>DoD makes annual accrual
+                    payments into the Military Retirement Fund. Those payments are
+                    the amounts necessary to cover the present value of estimated payments
+                    for future retirement benefits—other than concurrent receipt
+                    payments—earned during the year.<ref idref="fn-3"><sup>3</sup></ref><footnote id="fn-3"><num><sup>3</sup></num>The Treasury makes an annual accrual payment into the Military Retirement fund to cover
+                        the present value of future concurrent receipt payments. The Treasury accrual payment is classified
+                        as mandatory and is not subject to appropriation. That annual transaction is
+                        intragovernmental and has no net effect on federal spending.</footnote></p>
+                <p>Under current law, CBO projects that DoD’s annual accrual payments
+                    will climb from about $24 billion in 2024 to about $31 billion
+                    in 2033. CBO expects that under the bill, DoD’s annual accrual
+                    payments would increase by almost 3 percent, as future retirees
+                    with combat-related disabilities receive the full amount of their retired
+                    pay. On that basis, CBO estimates that implementing H.R.
+                    1282 would increase spending subject to appropriation by $7.15 billion
+                    over the 2025–2033 period; such spending would be subject to
+                    the appropriation of the estimated amounts. The accrual payments
+                    from DoD are recorded in the budget as offsetting collections in the
+                    Military Retirement Fund. Because those transactions are
+                    intragovernmental, they have no net effect on federal spending.</p>
+            </spendingSubjectToAppropriation>
+            <textLevel role="level2"><heading>Uncertainty</heading>
+                <p>CBO estimates that the number of service members who are retired because of combat-related disabilities will continue
+                    to rise over the next decade, albeit at a slower rate than over the past two decades. Costs would differ if the number of retirees
+                    changes at a different rate than projected. For example, if the number of CRSC-eligible retirees with fewer than 20 years of service remains
+                    at the current level over the next decade, the estimated increase in direct spending under the bill would be about $0.75 billion
+                    less than estimated here.</p></textLevel>
+        </basisOfEstimate>
+        <payGoConsiderations><heading>Pay-As-You-Go considerations</heading>
+            <p>The Statutory Pay-As-You-Go Act
+                of 2010 establishes budget-reporting and enforcement procedures
+                for legislation affecting direct spending or revenues. The net
+                changes in outlays that are subject to those pay-as-you-go procedures
+                are shown in Table 1.</p></payGoConsiderations>
+        <textLevel><!-- level 1 -->
+            <heading> Increase in Long-Term Net Direct Spending and Deficits</heading>
+            <p>CBO estimates that <longTermDirectSpending>enacting H.R. 1282 would increase net direct spending
+                    by more than $2.5 billion</longTermDirectSpending>in each of the four consecutive 10-year
+                periods beginning in 2034.</p>
+            <p>CBO estimates that <longTermDeficit>enacting H.R. 1282 would increase on-budget
+                    deficits by more than $5 billion</longTermDeficit> in each of the four consecutive 10-year periods beginning in 2034.</p>
+        </textLevel>
+        <mandates class="block"><heading class="inline">Mandates: </heading><p class="inline bold fontsize12">None.</p></mandates>
+        <textLevel>
+            <heading>Estimate Prepared By</heading>
+            <p>Federal Costs: <analyst>David Rafferty</analyst></p>
+            <p>Mandates: <analyst>Brandon Lever</analyst></p>
+        </textLevel>
+        <textLevel>
+            <heading>Estimate Reviewed By</heading>
+            <p>David Newman</p>
+            <p>Chief, Defense, International Affairs, and Veterans’ Affairs Cost Estimates Unit</p>
+            <p>Kathleen FitzGerald</p>
+            <p>Chief, Public and Private Mandates Unit</p>
+            <p>Christina Hawley Anthony</p>
+            <p>Deputy Director of Budget Analysis.</p>
+        </textLevel>
+        <signature>
+            <notation>Estimate Approved By</notation>
+            <autograph>wet signature</autograph>
+            <name>Phillip L. Swagel</name>
+            <role>Director, </role><affiliation>Congressional Budget Office</affiliation>
+        </signature>
+    </cboCostEstimate>
+</cboReport>

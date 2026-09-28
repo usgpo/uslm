@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<cboReport xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for CBO Cost Estimates. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <cboMeta>
+        <date>2026-06-25</date><!-- This is the publication date of the CBO cost estimate -->
+        <dc:type>CBO Cost Estimate</dc:type>
+        <docNumber>62542</docNumber>
+        <dc:title>CBO Cost Estimate 62542: H.R. 8873, Recover COVID Unemployment Fraud in Banks Act as ordered reported by the House Committee on Ways and Means on May 29, 2026</dc:title>        
+        <citableAs>CBO Cost Estimate 62542</citableAs>
+        <about>H.R. 8873, Recover COVID Unemployment Fraud in Banks Act as ordered reported by the House Committee on Ways and Means on May 29, 2026</about>
+        <about>119hr8873</about>
+        <cboBillStatus>as ordered reported</cboBillStatus>
+        <cboEstimateForm>long</cboEstimateForm>
+        <congress>119</congress>
+        <session>1</session>
+        <committee>House Committee on Ways and Means</committee>
+        <currentChamber>House</currentChamber>
+        <relatedDocument href="https://www.cbo.gov/publication/61219">CBO Cost Estimate for H.R. 1156, Pandemic Unemployment Fraud Enforcement Act, as ordered reported by the House Committee on Ways and Means on February 24, 2025.</relatedDocument>
+        <longTermDirectSpending>No</longTermDirectSpending>
+        <longTermDeficit>No</longTermDeficit>
+        <intergovernmentalMandate>No</intergovernmentalMandate>
+        <privateSectorMandate>No</privateSectorMandate>
+        <payGo>Yes</payGo>
+        <dc:format>text/xml</dc:format>
+       <dc:language>EN</dc:language>
+        <dc:rights>The information and documents on CBO’s website are not copyrighted. CBO’s products are created by our employees in the course of their employment at CBO and are therefore works of the government. Government documents are in the public domain and are not protected by copyright law.</dc:rights>
+        <dc:creator>Congressional Budget Office</dc:creator>
+        <dc:publisher>Congressional Budget Office</dc:publisher>
+    </cboMeta>
+    <cboPreface>
+        <date date="2026-06-25">June 25, 2026</date>
+        <heading>Congressional Budget Office</heading>
+        <subheading>Cost Estimate</subheading>
+    </cboPreface>
+<cboCostEstimate>
+    <cboAtAGlance>
+        <block class="cboHeader">
+            <heading>At a Glance</heading>
+            <about><dc:type>H.R. </dc:type> <docNumber>8873</docNumber>, <shortTitle> Recover COVID Unemployment Fraud in Banks Act</shortTitle>
+                <br/><cboBillStatus>As ordered reported</cboBillStatus> by the <committee>House Committee on Ways and Means</committee> on <date date="2026-05-29">May 29, 2026</date></about>
+        </block>
+        <xhtml:table  style="border-collapse:collapse;" class="fullWidth">
+            <xhtml:colgroup>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+            </xhtml:colgroup>
+            <xhtml:tfoot style="border-bottom: 1px solid black;border-top: 1px solid black;background-color:#D9D9D9;">
+                <xhtml:tr><xhtml:td colspan="4" class="leftAlign">* = between -$500,000 and $500,000.</xhtml:td></xhtml:tr>
+            </xhtml:tfoot>
+            <xhtml:tbody><xhtml:tr style="border-top: 1px solid black;"><xhtml:th>By Fiscal Year, Millions of Dollars</xhtml:th>
+                <xhtml:td class="rightAlign">2026</xhtml:td><xhtml:td class="rightAlign">2026-2031</xhtml:td><xhtml:td class="rightAlign">2026-2036</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Direct Spending (Outlays)</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">-5</xhtml:td><xhtml:td class="rightAlign">-5</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Revenues</xhtml:th><xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">0</xhtml:td><xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">*</xhtml:td><xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">*</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Increase or Decrease (-) in the Deficit</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">-5</xhtml:td><xhtml:td class="rightAlign">-5</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Spending Subject to Appropriation (Outlays)</xhtml:th>
+                <xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">6</xhtml:td><xhtml:td class="rightAlign">not estimated</xhtml:td></xhtml:tr>
+                <xhtml:tr style="border-top: 1px solid black;background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>net direct spending</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDirectSpending>No</uslm:longTermDirectSpending></xhtml:td><xhtml:td class="leftAlign"  style="border-bottom: 1px solid black;">Statutory pay-as-you-go procedures apply?</xhtml:td><xhtml:td class="centered" style="border-bottom: 1px solid black;"><uslm:payGo>Yes</uslm:payGo></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td colspan="2" class="centered bold">Mandate Effects</xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>on-budget deficits</uslm:i> in any of the four consecutive 10-year periods beginning in 2037?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDeficit>No</uslm:longTermDeficit></xhtml:td><xhtml:td class="leftAlign">Contains intergovernmental mandate?</xhtml:td><xhtml:td class="centered"><uslm:intergovernmentalMandate>No</uslm:intergovernmentalMandate></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td class="leftAlign">Contains private-sector mandate?</xhtml:td>
+                <xhtml:td class="centered"><uslm:privateSectorMandate>No</uslm:privateSectorMandate></xhtml:td></xhtml:tr></xhtml:tbody>
+        </xhtml:table>
+        <list><listHeading class="bold leftAlign">The bill would</listHeading>
+        <listItem><num>• </num><listContent>Establish a task force to review federal unemployment compensation issued on prepaid debit cards during the COVID-19 pandemic</listContent></listItem>
+            <listItem><num>• </num><listContent>Extend the statute of limitations for federal criminal prosecution and civil enforcement actions related to pandemic unemployment compensation</listContent></listItem></list>
+        <list><listHeading class="bold leftAlign">Estimated budgetary effects would mainly stem from</listHeading>
+            <listItem><num>• </num><listContent>Increasing the amount of fraudulent benefit payments recovered</listContent></listItem>
+            <listItem><num>• </num><listContent>Increasing states’ administrative costs that would be reimbursed by the Department of Labor</listContent></listItem></list>
+            <list><listHeading class="bold leftAlign">Areas of significant uncertainty include</listHeading>
+           <listItem><num>• </num><listContent>Projecting the frequency and severity of pipeline violations</listContent></listItem>
+        <listItem><num>• </num><listContent>Predicting the deterrent effect of larger civil and criminal penalties</listContent></listItem></list>
+    </cboAtAGlance>
+    <cboBillSummary> <!-- level 1 -->   
+    <heading>Bill Summary</heading>
+        <p>H.R. 8873 would require the Secretary of Labor, in consultation with the Attorney General,
+            the Inspector General of the Department of Labor (DOL), and the Secretary of the Treasury,
+            to designate a national recovery coordinator. The coordinator would convene a task force to
+            review federal unemployment compensation issued on prepaid debit cards during the
+            COVID-19 pandemic that is held—or frozen—by financial institutions or states because of
+            suspected fraud. The task force would develop model processes for recovering fraudulent
+            payments and would issue guidance to financial institutions and state agencies responsible
+            for unclaimed property.</p>
+        <p>Similar activities are underway, and states and the federal government are already required to
+            investigate and attempt to recover fraudulent payments. The Office of Inspector General of
+            DOL has issued memoranda to the department’s Employment and Training Administration
+            directing it to ensure that states take action to recover and return pandemic funds frozen by
+            banks to the Treasury. In addition, in Executive Order 14395 the President established a task
+            force to address fraud in federal benefit programs.</p>
+        <p>The bill also would extend the statute of limitations from 5 years to 10 years for federal
+            criminal prosecution and civil enforcement actions for fraud related to the temporary
+            unemployment programs enacted during the pandemic. Under current law, the 5-year statute
+            of limitations for those offenses began expiring in March 2025. </p>
+</cboBillSummary>
+    <estimatedFederalCost> <!-- level 1 -->
+    <heading> Estimated Federal Cost</heading><!-- this is always there -->
+        <p>The estimated budgetary effects of H.R. 8873 are shown in <ref idref="table-1">Table 1</ref>.The costs of the
+            legislation fall within budget functions 370 (commerce and housing credit), 500 (education,
+            training, employment, and social services), 600 (income security), 750 (administration of
+            justice), and 800 (general government). </p>
+    <xhtml:table class="fullWidth" style="border-collapse:collapse;border-bottom:1px solid black;" id="table-1">
+        <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:1px solid black;"><uslm:p>Table 1.</uslm:p>
+            <uslm:p>Estimated Budgetary Effects of H.R 8873</uslm:p></xhtml:caption>
+        <xhtml:colgroup>
+            <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+            <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col  style="background-color:#D9D9D9;"/><xhtml:col  style="background-color:#D9D9D9;"/>
+        </xhtml:colgroup>
+        <xhtml:thead>
+            <xhtml:tr>
+                <xhtml:td class="rightAlign">&#xa0;</xhtml:td><xhtml:td colspan="11" class="centered bold">By Fiscal Year, Millions of Dollars</xhtml:td>
+                <xhtml:td></xhtml:td><xhtml:td class="rightAlign"/></xhtml:tr>
+            <xhtml:tr><xhtml:td class="rightAlign">&#xa0;</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2026</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2027</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2028</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2029</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2030</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2031</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2032</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2033</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2034</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2035</xhtml:td><xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2036</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2026-2031</xhtml:td>
+                <xhtml:td style="border-bottom: 1px solid black;" class="rightAlign">2026-2036</xhtml:td></xhtml:tr>
+        </xhtml:thead>
+        <xhtml:tfoot>
+            <xhtml:tr>
+                <xhtml:td>&#xa0;</xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+            </xhtml:tr>
+            <xhtml:tr>
+                <xhtml:td colspan="14" align="left">n.e. = not estimated; * = between -$500,000 and $500,000.</xhtml:td>
+            </xhtml:tr>
+        </xhtml:tfoot>
+        <xhtml:tbody >
+    <xhtml:tr>
+        <xhtml:td>&#xa0;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="11" class="centered bold">Increases or Decreases (-) in Direct Spending</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td class="leftAlign">Estimated Budget Authority</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#xa0;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="11" class="centered bold">Increases in Revenues</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Revenues</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="11" class="centered bold">Net Increase or Decrease (-) in the Deficit</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="11" class="centered bold">From Changes in Direct Spending and Revenues</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Effect on the Deficit</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#xa0;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td></xhtml:td>
+        <xhtml:td colspan="11" class="centered bold">Increases in Spending Subject to Appropriation</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Authorization</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>6</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+        <xhtml:td>6</xhtml:td>
+        <xhtml:td>n.e.</xhtml:td>
+    </xhtml:tr>
+        </xhtml:tbody>
+</xhtml:table>
+</estimatedFederalCost>
+    <basisOfEstimate> <!-- level 1 -->
+    <heading>Basis of Estimate</heading><!-- new line + space for level 1 heading -->
+   <p>For this estimate, CBO assumes that the bill will be enacted early in calendar year 2026, that the specified and necessary amounts will be provided each year, and that outlays will follow historical spending patterns for the affected programs.</p>
+        <directSpending><!-- level 2 -->
+            <heading>Direct Spending</heading>
+            <p> CBO estimates that enacting H.R. 8873 would decrease direct spending by $5 million over
+                the 2026-2036 period (see <ref idref="table-2">Table 2</ref>).</p> 
+            <textLevel>
+            <heading class="inline">Task Force to Recover Pandemic Unemployment Compensation. </heading>
+            <p class="inline"> H.R. 8873 would
+                establish a task force to develop procedures for recovering fraudulent payments of pandemic
+                unemployment compensation held by financial institutions or in state accounts. The task
+                force would include six representatives from five agencies: one from the Consumer Financial
+                Protection Bureau (CFPB), two from DOL (including one representative from the
+                department’s Office of Inspector General), one from the Department of Justice (DOJ), one
+                from the Department of the Treasury, and one from the Federal Deposit Insurance
+                Corporation (FDIC). The administrative costs of the CFPB and the FDIC are classified as
+                direct spending. </p>
+    <xhtml:table xmlns="http://www.w3.org/1999/xhtml"  class="fullWidth"   style="border-collapse:collapse;border-bottom:1px solid black;"
+        id="table-2">
+        <xhtml:caption class="bold" style="background-color: #DEEAF6;border-top:solid 1px black;">
+                        <uslm:p>Table 2.</uslm:p>
+            <uslm:p>Estimated Changes in Direct Spending Under H.R. 8873</uslm:p>
+             </xhtml:caption>
+        <xhtml:colgroup>
+            <xhtml:col/><col/><col/><col/><col/><col/><col/>
+            <xhtml:col/><col/><col/><col/><col/><col style="background-color:#D9D9D9;"/><col style="background-color:#D9D9D9;"/>
+        </xhtml:colgroup>
+        <xhtml:thead>
+            <xhtml:tr>
+                <xhtml:td></xhtml:td>
+                <xhtml:td colspan="11" class="bold centered">By Fiscal Year, Millions of Dollars</xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+            </xhtml:tr>
+            <xhtml:tr>
+                <xhtml:td>&#xa0;</xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+                <xhtml:td></xhtml:td>
+            </xhtml:tr>
+            <xhtml:tr>
+                <xhtml:td></xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2026</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2027</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2028</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2029</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2030</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2031</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2032</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2033</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2034</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2035</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2036</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2026-2031</xhtml:td>
+                <xhtml:td style="border-bottom:1px solid black;">2026-2036</xhtml:td>
+            </xhtml:tr>
+        </xhtml:thead>
+        <xhtml:tfoot>
+            <xhtml:tr>
+                <xhtml:td colspan="14" class="leftAlign">* = between -$500,000 and $500,000.</xhtml:td>
+            </xhtml:tr>
+            <xhtml:tr>
+                <xhtml:td colspan="14" class="leftAlign">CBO also estimates that enacting H.R. 8873 would increase direct spending of penalty collections by less than $500,000 over the 2026-2036 period.</xhtml:td>
+            </xhtml:tr>
+        </xhtml:tfoot>
+        <xhtml:tbody>
+            <xhtml:tr>
+        <xhtml:td>&#xa0;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td class="bold">Task Force to Recover Pandemic Unemployment Compensation</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Budget Authority</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#xa0;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td class="bold">States’ Administrative Costs</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Budget Authority</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>0</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>3</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#xa0;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td class="bold">Increased Recoveries</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Budget Authority</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-10</xhtml:td>
+        <xhtml:td>-10</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-10</xhtml:td>
+        <xhtml:td>-10</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>&#xa0;</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td class="bold">Total Changes</xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+        <xhtml:td></xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Budget Authority</xhtml:td>
+        <xhtml:td>5</xhtml:td>
+        <xhtml:td>-4</xhtml:td>
+        <xhtml:td>-3</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+    </xhtml:tr>
+    <xhtml:tr>
+        <xhtml:td>Estimated Outlays</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-2</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>-1</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>*</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+        <xhtml:td>-5</xhtml:td>
+    </xhtml:tr>
+        </xhtml:tbody>
+</xhtml:table>
+                <p class="inline">CBO estimates that the cost of the salary, benefits, and travel expenses for one employee of
+                    the FDIC to participate in the task force would be less than $500,000 over the 2026-2036
+                    period. </p>
+                    <p> The CFPB is permanently authorized to spend amounts transferred from the combined
+                        earnings of the Federal Reserve to carry out its responsibilities, subject to a statutory cap that
+                        was most recently lowered by the 2025 reconciliation act. CBO expects that the CFPB will
+                        spend all the transferred funds up to its cap in each year over the 2026‑2036 period for its
+                        current activities, so CBO does not attribute any increase in direct spending for the CFPB to
+                        legislation that increases its responsibilities. Any spending by the CFPB to implement the
+                        bill would necessitate a decrease in spending for other activities of the agency. (Costs
+                        associated with other agencies’ participation in the task force are discussed under “<ref idref="spendingSubjectToAppropriation">Spending Subject to Appropriation</ref>.”) 
+                    </p></textLevel>
+                <textLevel>   <!-- level 3 -->
+                    <heading class="inline">States’ Administrative Costs.</heading>
+                    <p class="inline"> CBO expects that extending the statute of limitations would
+                        lead states to continue to refer cases of suspected fraud to DOL and to provide information
+                        about those cases to the department’s Office of Inspector General and federal law
+                        enforcement agencies. CBO also expects that DOL would reimburse states for any related expenses they incur. Under current law, DOL has permanent authority to provide any
+                        amounts necessary for those activities for pandemic‑related programs. Using information
+                        from DOL, CBO estimates that under the bill the department would provide $5 million in
+                        additional funding to states, increasing direct spending by the same amount over the 2026-
+                        2036 period </p>
+                </textLevel>
+            <textLevel> <!-- level 3 --> 
+                <heading class="inline">Increased Recoveries.</heading>
+                <p class="inline">By extending the period for which DOJ could pursue prosecutions,
+                    CBO expects that enacting H.R. 8873 would increase the amount of fraudulent benefit
+                    payments recovered. Those recoveries are recorded in the federal budget as reductions in
+                    direct spending. On the basis of discussions with DOL and DOJ and an analysis of fraud
+                    recoveries under current law, CBO estimates that extending the statute of limitations would
+                    allow the federal government to recover an additional $10 million over the 2026-2036
+                    period.</p>
+            </textLevel>
+        </directSpending>
+            <revenues><!-- level 2 -->
+                <heading>Revenues</heading>
+                <p>CBO expects that extending the statute of limitations also would increase collections of
+                    criminal and civil penalties, which are recorded in the budget as revenues. Criminal penalties
+                    are deposited into the Crime Victims Fund and spent without further appropriation. Using
+                    information from the Sentencing Commission about collections for similar offenses, CBO
+                    estimates that the increase in penalty collections and associated direct spending under
+                    H.R. 8873 would be less than $500,000 over the 2026-2036 period. </p></revenues>    
+        <spendingSubjectToAppropriation id="spendingSubjectToAppropriation">  <!-- level 2 -->  
+            <heading>Spending Subject to Appropriation</heading>
+            <p>CBO estimates that creating the task force and extending the statute of limitations as required
+                by H.R. 8873 would increase spending subject to appropriation by $6 million over the
+                2026‑2031 period. Such spending would be subject to the appropriation of the estimated
+                amounts (see Table 3).</p> 
+            <p><b>Note:</b> Table 3 is omitted from this sample.</p>
+            <textLevel>   <!-- level 3 -->
+                <heading class="inline">Task Force to Recover Pandemic Unemployment Compensation. </heading>
+                <p class="inline">The costs for representatives from DOL, DOJ, and the Treasury Department to participate in the task force established by H.R. 8873 would be subject to the availability of appropriated amounts. CBO estimates that the salaries, benefits, and travel expenses for those representatives would cost $1 million over the 2026-2031 period; most of that spending would occur in 2027.</p>
+            </textLevel>
+            <textLevel> <!-- level 3 -->
+                <heading class="inline">Office of Inspector General’s Administrative Costs. </heading>
+                <p class="inline">CBO estimates that extending the
+                    statute of limitations would result in more potential fraud cases being referred to the Office
+                    of Inspector General of DOL and that the office would continue to investigate cases it might
+                    otherwise have dropped. Using information from DOL, CBO estimates that the additional
+                    workload would cost $5 million over the 2026-2031 period. </p></textLevel>
+        </spendingSubjectToAppropriation>
+        <textLevel role="uncertainty">    <!-- level 2 -->
+    <heading class="leftAlign">Uncertainty</heading>
+            <p>CBO’s estimates of the budgetary effects of extending the statute of limitations are subject to
+                uncertainty. The amount of recoveries that would be collected under the bill depends on
+                actions related to cases for fraud identified in pandemic-related unemployment programs.
+                The number of cases that will be prosecuted under current law or under the bill is uncertain,
+                as is the amount of fraud established and the share of that fraud that the government will
+                ultimately collect. This estimate reflects the middle of the distribution of possible outcomes
+                in CBO’s judgment.   </p>
+</textLevel>
+    </basisOfEstimate>
+    <payGoConsiderations><!-- level 1 -->
+    <heading>Pay-As-You-Go Considerations</heading><!-- always there -->
+        <p> The Statutory Pay-As-You-Go Act of 2010 establishes budget-reporting and enforcement
+            procedures for legislation affecting direct spending or revenues. The net changes in outlays
+            that are subject to those pay-as-you-go procedures are shown in Table 4. </p>
+        <p><b>Note:</b> Table 4 is omitted from this sample.</p>
+    </payGoConsiderations>
+    <textLevel><!-- level 1 -->
+    <heading> Increase in Long-Term Net Direct Spending and Deficits</heading>
+        <p>CBO estimates that enacting H.R. 8873 would not increase net direct spending or on-budget
+            deficits in any of the four consecutive 10-year periods beginning in 2037.</p>
+    </textLevel>
+    <mandates><!-- level 1 -->
+    <heading>Mandates</heading><!-- always there -->
+        <p>The bill contains no intergovernmental or private-sector mandates as defined in the
+            Unfunded Mandates Reform Act.</p>
+    </mandates>
+    <textLevel><!-- level 1 -->
+    <heading>Previous CBO Estimate</heading>
+        <p>On February 24, 2025, CBO transmitted a<ref href="https://www.cbo.gov/publication/61219">cost estimate for H.R. 1156</ref>, the Pandemic
+            Unemployment Fraud Enforcement Act, as ordered reported by the House Committee on
+            Ways and Means on February 12, 2025. Section 3 of H.R. 8873 is similar to section 2 of
+            H.R. 1156: Both sections would extend the statute of limitations for fraud related to
+            pandemic unemployment compensation. CBO’s estimate of recoveries under H.R. 8873 is
+            greater because it accounts for the amount of pandemic unemployment fraud established and
+            collected since last February, which is larger than CBO anticipated. H.R. 8873 would
+            establish a task force to review funds issued on prepaid debit cards that are frozen in banks
+            and state accounts because of suspected fraud; H.R. 1156 would not. H.R. 1156 would
+            rescind funding for program integrity activities; H.R. 8873 includes no such provision.</p>
+    </textLevel>
+    <textLevel><!-- level 1 -->
+    <heading>Estimate Prepared By</heading>
+        <p>Federal Costs: </p>
+        <p><analyst>Jeremy Crimm</analyst> (for the Department of Justice) </p>
+        <p><analyst>Justin Latus</analyst> (for the Department of Labor) </p>
+        <p>Mandates: <analyst>Andrew Laughlin</analyst></p>
+    </textLevel>
+    <textLevel><!-- level 1 -->
+    <heading>Estimate Reviewed By</heading>
+        <p>Elizabeth Cove Delisle</p> <p>Chief, Income Security Cost Estimates Unit</p>
+        <p>Justin Humphrey</p> <p>Chief, Finance, Housing, and Education Cost Estimates Unit</p>
+        <p>Kathleen FitzGerald</p> <p>Chief, Income Security Cost Estimates Unit</p>
+        <p>Christina Hawley Anthony</p> <p>Deputy Director of Budget Analysis</p>
+    </textLevel>
+    <signature><!-- level 1 --> 
+        <notation>Estimate Approved By</notation>
+        <autograph><!-- wet signature scan --></autograph>
+        <name>Phillip L. Swagel</name>
+        <role>Director, </role><affiliation>Congressional Budget Office</affiliation>
+    </signature>
+</cboCostEstimate>
+</cboReport>

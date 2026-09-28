@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<cboReport xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for CBO Cost Estimates. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <cboMeta>
+        <date>2026-06-26</date><!-- This is the publication date of the CBO cost estimate -->
+        <dc:type>CBO Cost Estimate</dc:type>
+        <docNumber>62540</docNumber>
+        <dc:title>CBO Cost Estimate 62540: H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027 as reported by the House Committee on Armed Services on June 15, 2026</dc:title>        
+        <citableAs>CBO Cost Estimate 62540</citableAs>
+        <about>H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027 as reported by the House Committee on Armed Services on June 15, 2026</about>
+        <about>119hr8800</about>
+        <cboBillStatus>as reported</cboBillStatus>
+        <cboEstimateForm>long</cboEstimateForm>
+        <congress>119</congress>
+        <relatedDocument href="https://www.cbo.gov/publication/62461">CBO Cost Estimate 62461</relatedDocument>
+        <session>1</session>
+        <committee>House Committee on Armed Services</committee>
+        <currentChamber>House</currentChamber>
+        <longTermDirectSpending>between -$500,000 and $500,000</longTermDirectSpending>
+        <longTermDeficit>between -$500,000 and $500,000</longTermDeficit>
+        <intergovernmentalMandate>Yes, Under Threshold</intergovernmentalMandate>
+        <privateSectorMandate>Yes, Cannot Determine Costs</privateSectorMandate>
+        <payGo>Yes</payGo>
+        <dc:format>text/xml</dc:format>
+       <dc:language>EN</dc:language>
+        <dc:rights>The information and documents on CBO’s website are not copyrighted. CBO’s products are created by our employees in the course of their employment at CBO and are therefore works of the government. Government documents are in the public domain and are not protected by copyright law.</dc:rights>
+        <dc:creator>Congressional Budget Office</dc:creator>
+        <dc:publisher>Congressional Budget Office</dc:publisher>
+    </cboMeta>
+    <cboPreface>
+        <date date="2026-06-15">June 26, 2026</date>
+        <heading>Congressional Budget Office</heading>
+        <subheading>Cost Estimate</subheading>
+    </cboPreface>
+<cboCostEstimate>
+    <cboAtAGlance>
+        <block class="cboHeader">
+            <heading>At a Glance</heading>
+            <about><dc:type>H.R. </dc:type> <docNumber>8800</docNumber>, <officialTitle>National Defense Authorization Act for Fiscal Year 2027 </officialTitle>
+                <br/><cboBillStatus>As reported</cboBillStatus> by the <committee>House Committee on Armed Services</committee> on <date date="2026-06-15">June 15, 2026</date></about>
+        </block>
+        <xhtml:table  style="border-collapse:collapse;" class="fullWidth">
+            <xhtml:colgroup>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+            </xhtml:colgroup>
+            <xhtml:tfoot style="border-bottom: 1px solid black;border-top: 1px solid black;background-color:#D9D9D9;">
+                <xhtml:tr><xhtml:td colspan="4" class="leftAlign">* = between -$500,000 and $500,000.</xhtml:td></xhtml:tr>
+            </xhtml:tfoot>
+            <xhtml:tbody><xhtml:tr style="border-top: 1px solid black;"><xhtml:th>By Fiscal Year, Millions of Dollars</xhtml:th>
+                <xhtml:td class="rightAlign">2026</xhtml:td><xhtml:td class="rightAlign">2026-2031</xhtml:td><xhtml:td class="rightAlign">2026-2036</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Direct Spending (Outlays)</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Revenues</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Increase or Decrease (-) in the Deficit</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Spending Subject to Appropriation (Outlays)</xhtml:th>
+                    <xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">1,098,375</xhtml:td><xhtml:td class="rightAlign">1,125,353</xhtml:td></xhtml:tr>
+                <xhtml:tr style="border-top: 1px solid black;background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>net direct spending</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDirectSpending>*</uslm:longTermDirectSpending></xhtml:td><xhtml:td class="leftAlign"  style="border-bottom: 1px solid black;">Statutory pay-as-you-go procedures apply?</xhtml:td><xhtml:td class="centered" style="border-bottom: 1px solid black;"><uslm:payGo class="bold">Yes</uslm:payGo></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td colspan="2" class="centered bold">Mandate Effects</xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>on-budget deficits</uslm:i> in any of the four consecutive 10-year periods beginning in 2037?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDeficit>*</uslm:longTermDeficit></xhtml:td><xhtml:td class="leftAlign">Contains intergovernmental mandate?</xhtml:td><xhtml:td class="centered"><uslm:intergovernmentalMandate class="bold">Yes, Under Threshold</uslm:intergovernmentalMandate></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td class="leftAlign">Contains private-sector mandate?</xhtml:td>
+                    <xhtml:td class="centered"><uslm:privateSectorMandate class="bold">Yes, Cannot Determine Costs</uslm:privateSectorMandate></xhtml:td></xhtml:tr></xhtml:tbody>
+        </xhtml:table>
+        <list><listHeading class="bold leftAlign">The bill would</listHeading>
+            <listItem><num>• </num><listContent>Authorize appropriations totaling $1.1 trillion for 2027, almost all of which would be for military functions of the
+                    Department of Defense (DoD) and for the atomic energy defense activities of the Department of Energy, and
+                    $2.4 billion for nondefense activities</listContent></listItem>
+            <listItem><num>• </num><listContent>Prescribe personnel levels for active-duty and selected-reserve components of the U.S. Armed Forces
+            </listContent></listItem>
+            <listItem><num>• </num><listContent>Extend DoD’s authority to pay various bonuses and allowances to military personnel</listContent></listItem>
+            <listItem><num>• </num><listContent>Change compensation and health care benefits for military personnel and their families</listContent></listItem>
+            <listItem><num>• </num><listContent>Authorize DoD to enter into multiyear procurement contracts</listContent></listItem>
+            <listItem><num>• </num><listContent>Impose intergovernmental and private-sector mandates as defined in the Unfunded Mandates Reform Act
+                    mandates</listContent></listItem></list>
+       <list><listHeading class="bold leftAlign">Areas of significant uncertainty include</listHeading>
+           <listItem><num>• </num><listContent>Estimating the number of TRICARE beneficiaries who would use assisted reproductive technology</listContent></listItem>
+           <listItem><num>• </num><listContent>Anticipating how many military treatment facilities would require on-call obstetrician-gynecologists or
+                   midwives and the services that they would provide</listContent></listItem>
+           <listItem><num>• </num><listContent>Predicting the number and types of contracts that would be used to improve athletic facilities at the Merchant
+                   Marine Academy</listContent></listItem></list>
+        </cboAtAGlance>
+    <cboBillSummary> <!-- level 1 -->   
+    <heading>Bill Summary</heading>
+        <p>H.R. 8800 would specify authorizations of appropriations totaling $1.1 trillion for 2027.
+            The bill also includes provisions that would affect the costs of defense programs that would
+            be funded with discretionary appropriations in 2027 and future years. Those provisions
+            mainly would affect force structure, compensation and benefits, and multiyear procurement
+            of weapons systems. For 2027, those costs are included in the authorizations specified in the
+            bill for that year. CBO expects that some costs after 2027 will be covered by specified
+            authorizations in future National Defense Authorization Acts.</p>
+</cboBillSummary>
+    <estimatedFederalCost> <!-- level 1 -->
+    <heading> Estimated Federal Cost</heading>
+        <p>The estimated budgetary effects of H.R. 8800 are shown in Table 1. Of the $1.1 trillion
+            authorized for 2027, nearly all would be for activities within budget function 050 (national
+            defense). About $2.4 billion would fall within budget functions 270 (energy), 400
+            (transportation), and 700 (veterans benefits and services).</p></estimatedFederalCost>
+    <basisOfEstimate> <!-- level 1 -->
+    <heading>Basis of Estimate</heading>
+        <p>For this estimate, CBO assumes that H.R. 8800 will be enacted near the start of fiscal year 2027 and that the authorized amounts will be appropriated in 2027. CBO estimates that appropriation of the specified amounts would increase outlays by $1.1 trillion over the 2027‑2036 period; those outlays were estimated using historical spending patterns for similar programs. </p>
+        <spendingSubjectToAppropriation><heading>Spending Subject to Appropriation</heading>
+            <p>H.R. 8800 would specifically authorize appropriations of $1.1 trillion for 2027. Almost all of that amount would be for defense programs; about $2.4 billion would be for nondefense programs (see Table 2).</p>
+            <p>The amount authorized for defense programs in 2027 would be $252.4 billion (or 28 percent) more than the $891.4 billion in discretionary funding that was appropriated for defense in 2026. H.R. 8800 would increase authorizations for all major categories of defense spending. Authorizations would increase for the following categories:</p>
+            <list><listItem><num>• </num><listContent>military personnel by $11.1 billion (or 6 percent),</listContent></listItem>
+            <listItem> <num>• </num><listContent>operation and maintenance and revolving funds by $54.8 billion (or 16 percent),</listContent></listItem>
+                <listItem>  <num>• </num><listContent>procurement by $95.0 billion (or 58 percent),</listContent></listItem>
+                <listItem><num>• </num><listContent>research and development by $75.5 billion (or 52 percent),</listContent></listItem>
+                <listItem><num>• </num><listContent>military construction and family housing by $8.8 billion (or 45 percent), and</listContent></listItem>
+                <listItem> <num>• </num><listContent>atomic energy activities by $7.2 billion (or 21 percent).</listContent></listItem></list>
+            <p>For nondefense programs, the bill would specifically authorize $2.4 billion in 2027. That amount includes $2.1 billion for the Maritime Administration, $174 million for a Department of Veterans Affairs medical-facility demonstration fund, $77 million for the Armed Forces Retirement Home, and $13 million for the Naval Petroleum Reserves.</p>
+            </spendingSubjectToAppropriation>
+        <textLevel>
+            <heading>Estimated Costs for Selected Provisions for 2027 through 2031</heading>
+        <p>H.R. 8800 includes provisions that would affect the costs of various defense programs in future years. The estimated effects of some of those provisions are shown in Table 3 and described below. Spending for affected programs and activities would be subject to the appropriation of the estimated amounts. The net costs of those defense-related provisions are not added to the total specified authorizations described above because CBO expects those activities would be funded from the amounts specifically authorized in this bill for 2027 and that, over the 2028–2031 period, the costs associated with those activities would be specifically authorized in future defense authorization acts.</p>
+            <textLevel><heading class="inline">Military End Strength.</heading>
+        <p class="inline"> Under section 2, at least annually for every
+            plan year beginning at least 30 months after enactment, PBMs would be required to disclose
+            certain types of information about pharmacy benefits to the sponsors of group health plans. </p>
+            <p>For 2027, title IV would authorize end-strength levels for active-duty personnel and personnel in the selected reserve of 1,342,900 and 777,800, respectively. Of those reservists, 92,285 would serve full time on active duty in support of the reserves. In total, when compared with levels authorized under current law for 2026, active-duty end strength would increase by 40,100, and the selected-reserve end strength would increase by 4,400. The number of selected reservists who would serve in full-time support positions would decrease by 80. The specified end-strength levels for each component of the armed forces are detailed below, along with CBO’s estimate of how those changes would affect the costs of the Department of Defense (DoD). Those costs for personnel include components of military compensation such as basic pay, allowances, bonuses, and health care, as well as operating costs for training and maintenance.</p>
+            <p><uslm:i>Active Duty</uslm:i>. Section 401 would increase the authorized number of active-duty personnel by 40,100. End strength would increase by 15,000 for the Army, by 12,000 for the Navy, by 8,900 for the Air Force, by 2,800 for the Space Force, and by 1,400 for the Marine Corps. CBO estimates that the increase in active-duty personnel would increase costs to DoD by $35.5 billion over the 2027-2031 period.</p>
+            <p><uslm:i>Selected Reserve</uslm:i>. Under section 411, the authorized end strengths for the six reserve components in DoD would increase by a net of 4,400. Authorized end strength would increase by 3,300 for the Army National Guard, by 1,100 for the Air National Guard, and by 1,100 for the Marine Corps Reserve. End strength would decrease for the Navy Reserve by 1,000 and for the Air Force Reserve by 100. End strength would remain the same for the Army Reserve. CBO estimates that the net increase in reservists would increase DoD’s costs by $1.0 billion over the 2027‑2031 period.</p>
+            <p><uslm:i>Full Time Selected Reserve</uslm:i>. Section 412 would reduce by 80 the number of reservists who serve full time on active duty in support of the reserves in 2027, compared with the currently authorized end-strength levels for 2026. That decline in full-time reservists would decrease DoD’s costs by $0.05 billion over the 2027-2031 period, CBO estimates.</p>
+            </textLevel>
+            <textLevel><heading class="inline">Defense Compensation and Benefits.</heading>
+                <p class="inline"> H.R 8800 would affect compensation and benefits for uniformed personnel and civilian employees of DoD. That compensation includes bonuses and certain allowances.</p>
+                <p><uslm:i>Expiring Bonuses and Allowances</uslm:i>. Section 601 would extend for one year DoD’s authority to enter into agreements to pay certain bonuses and allowances to military personnel. The authority to enter into such agreements currently expires after December 31, 2026. Some bonuses are paid in lump sums; others are paid in annual or monthly installments over several years of military service. Using information from DoD’s budget request for fiscal year 2027, CBO estimates that extending that authority through December 31, 2027, would cost $13.6 billion over the 2027‑2031 period.</p> 
+                <p><uslm:i>Basic Needs Allowance</uslm:i>. Section 611 would require DoD to exclude the basic allowance for housing from the calculation of gross household income used to determine eligibility for and the amount of the basic needs allowance, a monthly payment to service members whose gross incomes are less than 200 percent of the federal poverty guidelines. The amount of the basic needs allowance is the difference between a service member’s monthly gross income and the monthly income level at 200 percent of poverty guidelines for the location in the United States where the member lives and the size of the member’s household.</p>
+                <p>On the basis of information from the department, CBO estimates that under current law, DoD will spend roughly $10 million in 2027 on the basic needs allowance, paying about $2,000 a month, on average, to almost 500 families whose gross incomes—including the housing allowance—are less than the 200 percent threshold. If the housing allowance were excluded from the calculation of gross income, about 43,400 families would receive an average of $970 each month, CBO estimates. Accounting for the time needed to implement the new policy, CBO anticipates that DoD would begin making payments using calculations required by the bill in April 2027 (halfway through the fiscal year). The authority to pay the basic needs allowance expires after December 31, 2027.</p>
+                <p>Thus, implementing section 611 would increase costs for the basic needs allowance by $250 million in 2027 and $375 million over the 2027-2031 period, CBO estimates.</p>
+                <p><uslm:i>Death Gratuity</uslm:i>. Section 632 would increase the death gratuity paid to survivors of service members who die on duty from $100,000 to $165,000 and adjust that amount for inflation in subsequent years. The higher gratuity would apply to deaths that occur after the date of enactment. On the basis of information from DoD, CBO estimates that about 1,000 death gratuity payments are made each year. The initial increase in the death gratuity and subsequent annual adjustments would cost $385 million over the 2027-2031 period, CBO estimates.</p>
+        </textLevel>
+         <textLevel><heading class="inline">Military Health System.</heading>
+             <p class="inline">  Title 7 would increase costs paid from discretionary appropriations for the Military Health System by requiring DoD to cover costs associated with providing assisted reproductive technology (ART), eliminating out-of-pocket costs for reserve members enrolled in the TRICARE dental program, and requiring all military treatment facilities to have an obstetrician-gynecologist or midwife on-call 24 hours a day.</p>
+             <textLevel><heading class="inline"><i>Assisted Reproductive Technology.</i></heading><p class="inline">Section 703 would require DoD to provide assisted reproductive technology to active-duty service members, members of the selected reserve, and their dependents as part of the regular TRICARE health benefit, beginning in fiscal year 2029. CBO anticipates that DoD would offer three services under the provision: in vitro fertilization (IVF), intrauterine insemination (IUI), and gamete retrieval and storage. CBO estimates that implementing section 703 would cost about $1.8 billion over the 2029-2031 period. Those costs include the cost of births that would result from IVF and IUI procedures. Costs would be less in the first year because births will lag the implementation of the policy. The total estimated costs were reduced to account for the approximately $50 million that DoD currently spends each year on limited ART services offered to TRICARE beneficiaries as part of its medical training programs. The total estimated cost includes the following components:</p>
+             <list><listItem><num>• </num><listContent>CBO estimates that IVF procedures would cost about $350 million per year. To estimate the cost of covering IVF, CBO used data from Massachusetts, which requires private health insurance to cover those procedures, to project usage rates for the approximately 900,000 married service members and unmarried female members.Based on that information and on pricing made publicly available by various private clinics, CBO estimates that DoD would cover about 25,000 IVF cycles per year at a cost of $12,000 per cycle.</listContent></listItem>
+                 <listItem> <num>• </num><listContent>CBO estimates that IUI services would cost about $30 million per year. Using publicly available data from various private clinics and literature on IUI prevalence, CBO estimates that DoD would cover about 50,000 IUI procedures per year at an average price of $600 per procedure. That estimate incorporates CBO’s expectation that, if both IUI and IVF were made available with low out-of-pocket costs, TRICARE beneficiaries would use IUI at twice the rate of IVF as the general population. (When ART is not covered by health insurance, the less expensive and less invasive IUI procedures are four times more common than IVF.) The estimate also includes the likelihood that some people will undergo IUI before attempting IVF.</listContent></listItem>   
+                 <listItem> <num>• </num><listContent>CBO estimates that additional childbirths associated with covering ART would cost about $250 million per year. On the basis of a literature review, information from DoD, and data from Massachusetts compiled by the Centers for Disease Control and Prevention, CBO estimates that about a third of IVF cycles and about a tenth of IUI cycles would result in a successful childbirth, or about 15,000 births per year. About half of those births will occur under current law, in CBO’s estimation, either because beneficiaries will pay for ART services themselves or will eventually have a child without ART. Because pregnancies involving IVF and IUI have a higher probability of preterm deliveries and multiple births, CBO estimates that the average cost of each birth would be about $30,000—roughly double the cost of a typical childbirth.</listContent></listItem>   
+                 <listItem> <num>• </num><listContent>CBO estimates that gamete retrieval and storage would cost about $70 million per year. Under H.R. 8800, DoD may cover gamete retrieval and storage, even in the absence of conditions that cause infertility, for TRICARE beneficiaries who wish to delay or preserve their ability to start a family because of the demands and hazards of military service. There is significant uncertainty about whether DoD would provide that benefit and how many people would use it. Using information on gamete preservation in cancer patients, with adjustments to account for the likelihood that TRICARE beneficiaries would probably use the service at a much lower rate, CBO estimates that about 10,000 men and 3,000 women would undergo gamete retrieval each year. Using publicly available information on pricing for those procedures, CBO estimates that services for men would cost about $550 for retrieval and $150 annually for storage; the cost for women would be about $15,000 for retrieval (multiple cycles are often needed) and about $550 annually for storage.</listContent></listItem></list>
+                 <p>The estimated costs associated with section 703 are subject to considerable uncertainty. It is difficult to anticipate the rules DoD would set for the use of ART services, and to predict the number of beneficiaries that would ultimately use those services. As a result, the costs of section 703 could be significantly more or less than CBO estimated.</p>   
+             </textLevel>
+             <textLevel><heading class="inline italic">On-Call OB-GYNs.</heading><p class="inline">Section 740 would require DoD to have an obstetrician-gynecologist (OB-GYN) or midwife on call at all military treatment facilities (MTFs) 24 hours a day. There is significant uncertainty about how many facilities would be subject to the requirements and which services DoD would provide. The definition of MTF can include everything from large hospitals to small occupational health clinics, which makes it difficult to know the number of facilities that would be covered by the requirement. The cost would also depend on whether the OB-GYNs and midwives would be required to provide only exams and consultations or comprehensive emergency-birthing services.</p>
+             <p>For this estimate, CBO assumes some facilities would be excluded from the requirement because they are very small or close to other DoD facilities. CBO estimates that DoD would establish 24-hour OB-GYN and midwife services at 300 MTFs—about half of the facilities that could meet the definition. At each of those facilities, DoD would set up and operate a small exam and birthing room. On the basis of a review of available literature, CBO estimates the one-time cost to set up and equip each of those exam and birthing rooms would be about $1.5 million, and that it would cost about $700,000 annually to operate each of those additional facilities, including the cost of contracting with on-call OB-GYNs and midwives, and paying additional support personnel. CBO estimates it would take several years to meet the requirements of section 740, and that implementing it would cost $1.1 billion over the 2028-2031 period. That cost is subject to uncertainty and could be significantly more or less depending on how DoD interprets and carries out the requirements.</p></textLevel>
+             <textLevel><heading class="inline italic">Dental Benefits for Selected Reserve.</heading><p class="inline">Section 701 would eliminate all out-of-pocket costs for members of the selected reserve in grades E-1 through E-4 who choose to participate in the TRICARE dental program. CBO estimates that implementing that section would cost about $0.5 billion over the 2027‑2031 period. Under current law, reserve members who participate in the dental program must pay a portion of the insurance premium, as well as any copayments or coinsurance. Using information on take-up rates for other reserve health benefits and national statistics on dental care, CBO estimates that those changes would increase participation in the TRICARE dental program among junior enlisted members from less than 50,000 currently to about 175,000 members, and that each enrollee would cost DoD about $625 per year. (Currently, DoD’s share of dental benefits averages about $225 per enrolled member.)</p></textLevel>
+         </textLevel>
+            <textLevel><heading class="inline">Multiyear Procurement and Block Buy Contracts.</heading>
+                <p class="inline"> H.R. 8800 would authorize DoD to enter into multiyear procurement contracts and block buy contracts to purchase various ships, aircraft, munitions, and other platforms. Multiyear procurement is a special contracting method that permits the government to enter into contracts covering acquisitions for more than one year, even though the total funds required for all years are not appropriated at the time the contracts are awarded. Contracts that would cost more than $500 million must be specifically authorized in both an authorization act and an appropriation act. Lawmakers sometimes authorize contracts that would cost less than that threshold. Block buy contracts are also used to procure items over a period of more than one year but are not subject to the same statutory restrictions as multiyear procurement contracts and do not require authorization in an appropriation act. CBO used information about procurement plans and unit prices from the military services to estimate the costs of the contracts that would be authorized by the bill.</p>
+                <textLevel><heading class="italic inline">Arleigh Burke-Class Destroyers. </heading><p class="inline">Section 123 would authorize the Navy to enter multiyear contracts beginning in fiscal year 2027 to procure up to 15 Arleigh Burke-class destroyers. Arleigh Burke-class guided missile destroyers can operate as part of a carrier strike group or independently. CBO estimates that under such contracts, the service would procure six destroyers over the 2028‑2031 period at a cost of $22.9 billion.</p></textLevel>
+                <textLevel><heading class="italic inline">John Lewis-Class Oilers. </heading><p class="inline">Section 124 would authorize the Navy to enter multiyear contracts beginning in fiscal year 2027 to procure John Lewis-class fleet replenishment oilers. The John Lewis-class oiler provides naval and aviation fuel to Navy ships at sea.CBO estimates that under such contracts, the service would procure seven oilers over the 2027‑2031 period at a cost of $7.5 billion. </p></textLevel>
+                <textLevel><heading class="italic inline">Amphibious Ships. </heading><p class="inline">Section 125 would authorize the Navy to enter into block buy contracts through September 30, 2030, to procure LPD-17 San Antonio class or LHA-6 America class ships. The LPD-17 is a midsize amphibious transport ship, and the LHA-6 is a large amphibious assault ship. CBO estimates that under such a contract, the service would procure three LPD-17s and one LHA-6 over the 2027‑2031 period at a cost of $14 billion.</p></textLevel>
+                <textLevel><heading class="italic inline">Submarine Tenders. </heading><p class="inline">Section 126 would authorize the Navy to enter into block buy contracts for up to two submarine tenders. Those submarine tenders would support current and future generation submarines with resupply, depot, and repair operations. The Navy currently plans to procure two submarine tenders in fiscal year 2027 at a cost of $4.4 billion. </p></textLevel>
+                <textLevel><heading class="italic inline">E-2D Advanced Hawkeye Aircraft. </heading><p class="inline">Section 127 would authorize the Navy to enter into multiyear contracts beginning in fiscal year 2027 to procure 12 E-2D Advanced Hawkeye aircraft. The E-2D provides surveillance radar coverage for naval vessels and aircraft and can operate from aircraft carriers. CBO estimates that under such contracts, the Navy would procure 12 E-2D aircraft over the 2027‑2029 period at a cost of $4.2 billion.</p></textLevel>
+                <textLevel><heading class="italic inline">F‑15EX Aircraft. </heading><p class="inline">Section 161 would authorize DoD to enter into multiyear contracts beginning in fiscal year 2027 to procure F‑15EX aircraft. The F‑15EX is a multirole fighter aircraft with long range and extra capacity for bombs and fuel. CBO estimates that under such contracts, the department would procure 148 F‑15EX over the 2027‑2031 period at a cost of $18.1 billion.</p></textLevel>
+                <textLevel><heading class="italic inline">F‑35 Aircraft. </heading><p class="inline">Section 162 would authorize DoD to enter into multiyear contracts beginning in fiscal year 2027 to procure F‑35 aircraft. The F‑35 is a multi-mission fighter operated by the Air Force, the Marine Corps, and the Navy. The department currently plans to procure 425 F‑35 aircraft over the 2027‑2031 period at a total cost of $61.4 billion.</p></textLevel>
+                <textLevel><heading class="italic inline">Various Programs and Platforms. </heading><p class="inline">Sections 1631, 1839, and 1840 would authorize DoD to enter into multiyear contracts for more than thirty programs, platforms, and system components. Because of the number of contracts authorized and the uncertainty on how the department would structure such contracts, CBO cannot estimate the costs of those contracts.</p></textLevel>
+            </textLevel>
+        </textLevel>
+        <directSpendingAndRevenues><!-- level 2 -->
+            <heading>Direct Spending and Revenues</heading>
+            <p>Several provisions in H.R. 8800, described below, would affect direct spending and revenues. CBO estimates the effects of those provisions would not be significant over the 2027-2036 period because they would affect very few people, would have offsetting effects, or would involve transactions of very small amounts. </p>
+            <list><listItem> <num>• </num><listContent>Section 150 would authorize the demilitarization and donation of three F-14 aircraft. CBO estimates those aircraft are unlikely to be sold under current law.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Sections 227, 326, 352, 822, 833, 872, 1205, 1215, 1221, 1231, 1603, 1612, 1871, 1891, 3113, and 3610 would affect the ability of agencies to accept and spend, without further appropriation, amounts received from nonfederal entities for various purposes. The collections are classified as offsetting receipts (or reductions in direct spending); the spending of those receipts is direct spending.</listContent></listItem>    
+                <listItem> <num>• </num><listContent>Sections 322, 324, 325, and 1864 would affect DoD’s authority to use working capital funds for capital investment and minor construction projects at military depots. Through working capital funds, DoD is authorized to incur obligations in advance of appropriations. That type of authority, called contract authority, is classified as direct spending.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Sections 585 and 586 would authorize posthumous awards of the Medal of Honor that would not occur under current law. Surviving spouses of deceased recipients could receive increased survivor benefits and health benefits, some of which are paid from mandatory appropriations.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Under section 631, a new retiree who elects to participate in the Survivor Benefit Plan (SBP) would receive a $1,000 payment if the retiree’s spouse dies first. New retirees would be assessed an additional premium for the new benefit, and CBO expects that those premiums (which are classified as reductions in direct spending) would approximately offset the $1,000 payments over the 2027-2036 period.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Section 641 would allow more people to use commissary stores on military bases. Newly eligible patrons using credit or debit cards would be required to pay a fee to offset the card transaction costs paid by the Department of the Treasury from mandatory appropriations.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Sections 736, 755, 758, 760, and 762 would change the cost of providing health benefits to service members, military retirees, and their dependents. Health benefits for military retirees who are eligible for Medicare or who are from the other uniformed services (the Coast Guard, National Oceanic and Atmospheric Administration, and Public Health Service) are paid from mandatory appropriations.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Section 752 would provide supplemental health benefits to DoD civilian employees located overseas, which could increase the cost of plans under the Federal Employees Health Benefits Program, including those with premiums paid from mandatory accounts.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Section 1413 would require the National Defense Stockpile to evaluate digital systems to track the original source and supply chains of certain critical materials owned by DoD. The costs of the evaluation would be paid from the National Defense Stockpile Transaction Fund, a mandatory account.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Sections 1507 and 1804 would revise federal acquisition regulations, which could affect direct spending by some federal agencies that are allowed to use fees, receipts from the sale of goods, and other collections to cover operating costs.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Section 3513 would authorize the Department of Transportation (DOT) to establish a nonprofit corporation to support the athletic programs of the Merchant Marine Academy, and CBO expects that funds collected by the corporation could be used to enter into contracts to obtain financing for improvements to the academy’s athletic facilities. Because CBO expects that the corporation would be used for governmental purposes, the financial activities of the corporation would be classified as direct spending.[1] After accounting for the probability that the authority would be used for capital improvements, and evaluating the cash flows associated with the financing, CBO estimates that the net increase in direct spending would be less than $500,000.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Section 3524 would increase outlays from currently available balances for grant programs at the Department of Transportation. Changes in outlays from appropriations that are available under current law are classified as direct spending. CBO anticipates that any increase in the costs of such grants would be less than $500,000.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Sections 2832 and 2833 would authorize the Army to convey several parcels of land to nonfederal entities. The Army could be reimbursed for administrative costs related to the conveyance, and those collections could be spent without further appropriation.</listContent></listItem>
+                <listItem> <num>• </num><listContent>Sections 517, 545, 548, 549A, 1060, 1706, 3521, and 3609 would affect the number of people who would be subject to civil or criminal penalties for prohibited conduct (including under the Uniform Code of Military Justice) or change the amount of those penalties. Such penalties are recorded as revenues, and a portion of those penalties can be spent without further appropriation.</listContent></listItem>
+            </list>
+            </directSpendingAndRevenues>
+        <textLevel>
+            <heading>Uncertainty</heading>
+            <p>Most estimates for provisions of H.R. 8800 are affected by some level of uncertainty, but several provisions in particular are difficult to estimate.</p>
+            <list><listItem><num>• </num><listContent>The costs associated with providing assisted reproductive technology under section 703 could be significantly more or less than CBO estimated. The costs would depend on the number of people who use the services and the prices that DoD pays.</listContent></listItem>
+            <listItem><num>• </num><listContent>The cost of section 740, which would require 24-hour on-call OB-GYNs and midwives at military treatment facilities, would depend on DoD’s interpretation of the number of facilities covered by the requirement and the types of services that would be provided.</listContent></listItem>
+            <listItem><num>• </num><listContent>Costs for section 3513 could be higher or lower than CBO estimates, depending on the number and type of contracts used to improve athletic facilities at the Merchant Marine Academy.</listContent></listItem></list>
+        </textLevel>
+    </basisOfEstimate>
+    <payGoConsiderations><!-- level 1 -->
+        <heading>Pay-As-You-Go Considerations</heading>
+        <p> The Statutory Pay-As-You-Go Act of 2010 establishes budget-reporting and enforcement procedures for legislation affecting direct spending or revenues. CBO estimates that enacting the bill would change direct spending and revenues by between -$500,000 and $500,000 over the 2026-2036 period.</p>
+    </payGoConsiderations>
+    <textLevel><!-- level 1 -->
+        <heading> Increase in Long-Term Net Direct Spending and Deficits</heading>
+        <p><longTermDirectSpending>CBO estimates that enacting H.R. 8800 would not increase net direct spending by more than $2.5 billion in any of the four consecutive 10-year periods beginning in 2037.</longTermDirectSpending></p>
+        <p><longTermDeficit>CBO estimates that enacting H.R. 8800 would not increase on‑budget deficits by more than $5 billion in any of the four consecutive 10-year periods beginning in 2037.</longTermDeficit></p>
+    </textLevel>
+    <mandates><!-- level 1 -->
+        <heading>Mandates</heading>
+        <p>H.R. 8800 would impose intergovernmental and private-sector mandates as defined in the Unfunded Mandates Reform Act (UMRA). CBO estimates that the cost of the mandates on public entities would fall below the annual threshold established in UMRA for intergovernmental mandates ($107 million in 2026, adjusted annually for inflation). CBO cannot determine whether the cost of the mandates on private entities would exceed the annual threshold established in UMRA for private-sector mandates ($214 million in 2026, adjusted annually for inflation).</p>
+<textLevel><heading class="inline">Military End Strength.</heading>
+        <p class="inline">Title IV would increase the costs of complying with existing intergovernmental and private-sector mandates under the Servicemembers Civil Relief Act (SCRA) by increasing the number of active-duty service members relative to current law. The SCRA requires public and private entities to grant service members and some reservists while on active duty with various protections for business and tax transactions, consumer contracts, and court procedures. </p>
+        <p>SCRA imposes private-sector mandates by requiring creditors to charge no more than 6 percent interest on a service member's debt obligations incurred before the service member began active duty, provided that the service member notified the creditor. SCRA also allows courts to temporarily stay certain civil proceedings, such as evictions, foreclosures, and repossessions. SCRA prohibits lenders from using a service member’s personal assets to satisfy a trade or business liability during a period of military service. It also allows service members to terminate residential and auto leases and some consumer contracts under certain conditions.</p>
+        <p>Under the bill, the number of active-duty service members covered by SCRA would increase by 40,100, about 3 percent more than current authorization levels. The cost of the mandate would depend on various factors like how many service members use the SCRA, the frequency and duration of their deployment, and the market rates for car loans, personal loans, mortgages, and credit cards. CBO estimates that the incremental cost of compliance for private entities would amount to several million dollars in lost interest revenue each year, as well as about $10 million to $15 million in costs associated with terminated leases and service contracts.</p>
+        <p>The SCRA imposes intergovernmental mandates by allowing service members to maintain a single state of residence for paying state and local personal income taxes rather than the state in which they are stationed. Service members may also request deferrals of certain state and local fees. CBO estimates that the incremental cost to state and local governments would be several million dollars in lost revenue each year.</p></textLevel>  
+        <textLevel>
+        <heading class="inline">Cybersecurity Act Extension.</heading>
+        <p class="inline">Section 1706 would extend existing intergovernmental and private-sector mandates by extending the Cybersecurity Act of 2015. The bill would extend through 2035 a requirement for the federal government to share technical information on cyber threats with nonfederal entities. The Act expired September 30, 2025. In addition, the bill would authorize the government to accept information on cyber threats identified by artificial intelligence systems and extend protections from civil and criminal liability for cybersecurity providers that monitor, share, or use cyber threat information. Those liability protections constitute a mandate because they would prevent public and private entities from seeking compensation for damages. </p>
+        <p>Because of the lack of data available about the number of cases that would be affected and the amount of any forgone compensation that might otherwise be awarded to private-sector entities, CBO does not have a basis to determine whether the costs of extending the liability protections in the Act would exceed the annual threshold established in UMRA for private-sector mandates.</p>          
+        <p>Section 1706 alsowould extend a preemption of state and local laws on disclosure, liability, and restrictions on cybersecurity monitoring, sharing, and countermeasure activities. Because the amount of information on cybersecurity threats shared by state, local, and tribal governments is much smaller than is shared by the private sector, and the nature of those public-sector cases would not involve the type of market activities that make private-sector cases so costly, CBO estimates that the aggregate costs of extending the mandates on public entities would fall below the threshold for intergovernmental mandates.</p>
+        </textLevel>
+        <textLevel>
+        <heading class="inline">Other Mandates. </heading>
+            <p class="inline">The bill would impose other intergovernmental and private-sector mandates with small costs. Section 355 would prohibit public and private entities from placing any lien, hold, or impoundment on, or otherwise interfering with, the transportation of cargo belonging to DoD. CBO estimates that the cost would be small because affected entities could continue to pursue payment through other legal and contractual mechanisms. Section 1651 would prohibit entities from using the name "Missile Defense Agency" or the agency's seal in commercial activities without authorization. CBO estimates the cost would be small because few entities would be affected. </p></textLevel>
+        <textLevel>
+        <heading class="inline">Preemptions.</heading>
+        <p class="inline"> The bill would preempt state and local laws by allowing licensed National Guard judge advocate generals to practice in any jurisdiction, prohibiting additional requirements on military families who are participating in a program for in-home childcare, and implementing a program that provides supplemental cancer coverage for certain members of the armed forces. Although those preemptions would limit the application of state laws, CBO estimates that they would impose no duty on state, local, or tribal governments that would result in additional spending or a loss of revenues.</p>
+        </textLevel>
+    </mandates>
+    <textLevel>
+        <heading>Previous CBO Estimate</heading>
+        <p>On May 21, 2026, CBO transmitted a <ref href="https://www.cbo.gov/publication/62461">cost estimate for S. 3266</ref>, the USMMA Athletics Act of 2026, as ordered reported by the Senate Committee on Commerce, Science, and Transportation on February 12, 2026. Section 3513 of H.R. 8800 is similar to S. 3266, which would authorize the Department of Transportation to establish a nonprofit corporation to support the athletic programs of the Merchant Marine Academy, and CBO’s estimates of their budgetary effects are similar.</p>
+    </textLevel>
+    <textLevel><!-- level 1 -->
+        <heading>Estimate Prepared By</heading>
+        <p>Federal Costs: </p>
+        <p><analyst>Caroline Dorminey</analyst>: Procurement and Security Assistance</p>
+        <p><analyst>Aaron Krupkin</analyst>: Coast Guard, Maritime Administration, Merchant Marine Academy</p>
+        <p><analyst>William Ma</analyst>: Operations and Maintenance, Military Justice</p>
+        <p><analyst>Christopher Mann</analyst>: Military Construction and Family Housing</p>
+        <p><analyst>Aldo Prosperi</analyst>: Research and Development, Maritime Administration</p>
+        <p><analyst>David Rafferty</analyst>: Military Retirement</p>
+        <p><analyst>Dawn Sauter Regan</analyst>: Military and Civilian Personnel</p>
+        <p><analyst>Matt Schmit</analyst>: Specified Authorizations and Military Health Care</p>
+        <p>Mandates: <analyst>Lucy Marret</analyst> and <analyst>Brandon Lever</analyst></p>
+    </textLevel>
+    <textLevel><!-- level 1 -->
+        <heading>Estimate Reviewed By</heading>
+        <p>David Newman</p> <p>Chief, Defense, International Affairs, and Veterans’ Affairs Cost Estimates Unit</p>
+        <p>Kathleen FitzGerald</p> <p>Chief, Public and Private Mandates Uni</p>
+        <p>Christina Hawley Anthony </p> <p>Deputy Director of Budget Analysis</p>
+        
+    </textLevel>
+    <signature><!-- level 1 --> 
+        <notation>Estimate Approved By</notation>
+        <autograph><!-- wet signature scan --></autograph>
+        <name>Phillip L. Swagel</name>
+        <role>Director, </role><affiliation>Congressional Budget Office</affiliation>
+    </signature>
+    <textLevel><p><b>Note: </b>The tables at the end of the Cost Estimate are not included in this sample file.</p></textLevel>
+</cboCostEstimate>
+</cboReport>
+    
+        
+                
+                
+      
+    
+    
+   

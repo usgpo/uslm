@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<cboReport xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for CBO Cost Estimates. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <cboMeta>
+        <date>2019-11-19</date><!-- This is the publication date of the CBO cost estimate -->
+        <dc:type>CBO Cost Estimate</dc:type>
+        <docNumber>55877</docNumber>
+        <dc:title>CBO Cost Estimate 55877: S. 2299, PIPES Act of 2019 as ordered reported by the Senate Committee on Commerce, Science, and Transportation on July 31, 2019</dc:title>        
+        <citableAs>CBO Cost Estimate 55877</citableAs>
+        <about>S. 2299, PIPES Act of 2019 as ordered reported by the Senate Committee on Commerce, Science, and Transportation on July 31, 2019</about>
+        <about>116s2299</about>
+        <cboBillStatus>as ordered reported</cboBillStatus>
+        <cboEstimateForm>long</cboEstimateForm>
+        <congress>116</congress>
+        <session>2</session>
+        <committee>Senate Committee on Commerce, Science, and Transportation</committee>
+        <currentChamber>Senate</currentChamber>
+        <longTermDeficit>No</longTermDeficit>
+        <intergovernmentalMandate>Yes, Under Threshold</intergovernmentalMandate>
+        <privateSectorMandate>Yes, Under Threshold</privateSectorMandate>
+        <payGo>Yes</payGo>
+        <dc:format>text/xml</dc:format>
+       <dc:language>EN</dc:language>
+        <dc:rights>The information and documents on CBO’s website are not copyrighted. CBO’s products are created by our employees in the course of their employment at CBO and are therefore works of the government. Government documents are in the public domain and are not protected by copyright law.</dc:rights>
+        <dc:creator>Congressional Budget Office</dc:creator>
+        <dc:publisher>Congressional Budget Office</dc:publisher>
+    </cboMeta>
+    <cboPreface>
+        <img src="..."/>
+        <date date="2019-11-19">November 19, 2019</date>
+        <heading>Congressional Budget Office</heading>
+        <subheading>Cost Estimate</subheading>
+    </cboPreface>
+<cboCostEstimate>
+    <cboAtAGlance>
+        <block class="cboHeader">
+            <heading>At a Glance</heading>
+            <about><dc:type>S.</dc:type> <docNumber>2299</docNumber>, <shortTitle>PIPES Act of 2019</shortTitle>
+                <br/><cboBillStatus>As ordered reported</cboBillStatus> by the <committee>Senate Committee on Commerce, Science, and Transportation</committee> on <date date="2025-09-17">July 31, 2019</date></about>
+        </block>
+        <xhtml:table  style="border-collapse:collapse;" class="fullWidth">
+            <xhtml:colgroup>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+            </xhtml:colgroup>
+            <xhtml:tfoot style="border-bottom: 1px solid black;border-top: 1px solid black;background-color:#D9D9D9;">
+                <xhtml:tr><xhtml:td colspan="4" class="leftAlign">* = between -$500,000 and $500,000.</xhtml:td></xhtml:tr>
+            </xhtml:tfoot>
+            <xhtml:tbody><xhtml:tr style="border-top: 1px solid black;"><xhtml:th>By Fiscal Year, Millions of Dollars</xhtml:th>
+                <xhtml:td class="rightAlign">2020</xhtml:td><xhtml:td class="rightAlign">2020-2024</xhtml:td><xhtml:td class="rightAlign">2020-2029</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Direct Spending (Outlays)</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Revenues</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">0</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Increase or Decrease (-) in the Deficit</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Spending Subject to Appropriation (Outlays)</xhtml:th>
+                <xhtml:td class="rightAlign">-4</xhtml:td><xhtml:td class="rightAlign">131</xhtml:td><xhtml:td class="rightAlign">167</xhtml:td></xhtml:tr>
+                <xhtml:tr style="border-top: 1px solid black;background-color:#D9D9D9;">
+                    <xhtml:td class="leftAlign">Statutory pay-as-you-go procedures apply?</xhtml:td>
+                    <xhtml:td class="centered" style="border-right: 1px solid black;"><uslm:payGo>Yes</uslm:payGo></xhtml:td>
+                    <xhtml:td colspan="2" class="centered bold">Mandate Effects</xhtml:td>
+</xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>on-budget deficits</uslm:i> in any of the four consecutive 10-year periods beginning in 2030?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDeficit>No</uslm:longTermDeficit></xhtml:td>
+<xhtml:td class="leftAlign">Contains intergovernmental mandate?</xhtml:td><xhtml:td class="centered"><uslm:intergovernmentalMandate>Yes, Under Threshold</uslm:intergovernmentalMandate></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td class="leftAlign">Contains private-sector mandate?</xhtml:td>
+                <xhtml:td class="centered"><uslm:privateSectorMandate>Yes, Under Threshold</uslm:privateSectorMandate></xhtml:td></xhtml:tr></xhtml:tbody>
+        </xhtml:table>
+        <list><listHeading class="bold leftAlign">The bill would</listHeading>
+            <listItem><num>• </num><listContent>Reauthorize programs managed by the Pipeline and Hazardous Materials Safety Administration (PHMSA) 
+                    through fiscal year 2023 </listContent></listItem>
+            <listItem><num>• </num><listContent>Require PHMSA to pursue a variety of regulatory, administrative, and inspection activities </listContent></listItem>
+            <listItem><num>• </num><listContent>Authorize PHMSA to collect higher fees from operators of certain natural gas underground storage facilities</listContent></listItem>
+            <listItem><num>• </num><listContent>Impose intergovernmental and private-sector mandates by imposing a new user fee on liquid natural gas 
+                    facility applications and new safety standards on gas pipeline and facility operators</listContent></listItem></list>
+        <list><listHeading class="bold leftAlign">Estimated budgetary effects would mainly stem from</listHeading>
+            <listItem><num>• </num><listContent>Authorizing appropriations for PHMSA programs through fiscal year 2023</listContent></listItem>
+            <listItem><num>• </num><listContent>Authorizing PHMSA to collect pipeline safety and natural gas storage facility fees</listContent></listItem>
+        </list>
+    </cboAtAGlance>
+    <cboBillSummary> <!-- level 1 -->   
+    <heading>Bill Summary</heading>
+        <p>S. 2299 would require the Pipeline and Hazardous Materials Safety Administration 
+            (PHMSA) to pursue a variety of regulatory, administrative, and inspection activities and 
+            would authorize appropriations for those purposes through fiscal year 2023. PHMSA 
+            oversees the safety of pipelines that transport natural gas or hazardous liquids and 
+            provides grants to states for programs to ensure pipeline safety. The bill also would 
+            authorize PHMSA to collect higher fees from operators of certain natural gas 
+            underground storage facilities, require the Department of Transportation (DOT) to 
+            establish a National Center of Excellence for Liquefied Natural Gas (LNG) Safety and 
+            Training, and require DOT and the Government Accountability Office to evaluate 
+            various pipeline safety programs.</p>
+    </cboBillSummary>
+    <estimatedFederalCost> <!-- level 1 -->
+    <heading> Estimated Federal Cost</heading><!-- this is always there -->
+        <p>The estimated budgetary effect of S. 2299 is shown in Table 1. The costs of the legislation 
+            fall within budget function 400 (transportation).</p>
+    </estimatedFederalCost>
+    <basisOfEstimate> <!-- level 1 -->
+    <heading>Basis of Estimate</heading>
+        <p>For this estimate, CBO assumes that S. 2299 will be enacted near the end of 2019. Assuming 
+            appropriation of the specified and estimated amounts CBO estimates that implementing the 
+            bill would cost $131 million over the 2020-2024 period and $40 million after 2024. 
+            Estimated outlays are based on historical spending patterns. </p>
+        <p>S. 2299 would authorize the gross appropriation of $204 million and the collection of fees, 
+            which are treated as offsets to discretionary appropriations, for 2020. In 2019, CBO 
+            estimates that those programs received appropriations totaling $189 million and that PHMSA 
+            collected fees for those activities totaling $142 million. Because CBO scores continuing 
+            resolutions on an annualized basis, CBO estimates that under the current continuing 
+            resolution (Public Law 116-59), which provides funds and the authority to collect fees 
+            through November 21, 2019, those same amounts are available in 2020. Thus, the estimated 
+            gross authorization from this bill for 2020 is equal to the specified amounts minus the 
+            annualized amount from the continuing resolution ($13 million).</p>
+        <p>Table 1 elided</p>
+        <textLevel><heading>Fee-Financed Safety Programs</heading>
+            <p>S. 2299 would authorize gross appropriations totaling $644 million over the 2020-2024 
+                period for safety programs operated by PHMSA for pipelines and natural gas storage 
+                facilities. Because $142 million of that amount has been provided by the continuing 
+                resolution in 2020 the estimated gross appropriation from S. 2299 totals $502 million. The 
+                bill also would authorize PHMSA to collect up to 105 percent of that amount from fees paid 
+                by pipeline operators and owners of underground natural gas storage facilities. For this 
+                estimate, CBO assumes that PHMSA would collect fees, which are treated as offsets to discretionary spending, equal to 100 percent of the authorized amount totaling $644 million 
+                in collections over the 2020-2024 period, of which $142 million has been authorized by the 
+                continuing resolution. Thus, the estimated collections credited total $502 million and outlays 
+                sum to $472 million over the 2020-2024 period.  </p>
+        </textLevel>
+        <textLevel><heading>Trust Fund-Financed Safety Programs</heading>
+            <p>The bill also would authorize appropriations totaling $106 million over the 2020-2024 period 
+                from the Oil Spill Liability Trust Fund. $23 million of that amount has been provided by the 
+                continuing resolution in 2020, so this bill’s effective authorization over the five year period 
+                is $83 million and CBO estimates outlays would total $78 million.  </p>
+        </textLevel>
+        <textLevel><heading>PHMSA Operational Expenses</heading>
+            <p>The bill also would authorize appropriations totaling $106 million over the 2020-2024 period 
+                from the Oil Spill Liability Trust Fund. $23 million of that amount has been provided by the 
+                continuing resolution in 2020, so this bill’s effective authorization over the five year period 
+                is $83 million and CBO estimates outlays would total $78 million.  </p>
+        </textLevel>
+        <textLevel><heading>Other</heading>
+            <p>S. 2299 would authorize the appropriation of $6 million over the 2020-2024 period for 
+                damage prevention programs, and CBO estimates that $4 million would be needed to 
+                conduct studies, to issue regulations, and to establish a National Center of Excellence for 
+                LNG Safety and Training as required under the bill. CBO estimates those provisions would 
+                cost $10 million over the 2020-2024 period. </p>
+        </textLevel>
+    </basisOfEstimate>
+    <payGoConsiderations><!-- level 1 -->
+    <heading>Pay-As-You-Go Considerations</heading><!-- always there -->
+        <p>The Statutory Pay-As-You-Go Act of 2010 establishes budget-reporting and enforcement 
+            procedures for legislation affecting direct spending or revenues. <payGo>S. 2299 would impose a new 
+            fee</payGo> on owners of certain LNG facilities and authorize spending of those receipts without 
+            future appropriation, CBO estimates that the net effect on direct spending, would not be 
+            significant in any year and over the 2020-2029 period.</p>
+    </payGoConsiderations>
+    <textLevel><!-- level 1 -->
+    <heading> Increase in Long-Term Deficits:</heading>
+    <p><longTermDeficit>None.</longTermDeficit></p>
+    </textLevel>
+    <mandates><!-- level 1 -->
+    <heading>Mandates</heading><!-- always there -->
+        <p>S. 2299 would impose private-sector mandates as defined in the Unfunded Mandates Reform 
+            Act (UMRA) by establishing new user fees and new safety standards for gas pipelines and 
+            facilities and liquefied natural gas facilities. Using information from PHMSA, CBO 
+            estimates <privateSectorMandate>the aggregate cost of the mandates on private entities would fall below the annual 
+            threshold</privateSectorMandate> established in UMRA for private-sector mandates ($164 million in 2019, adjusted 
+            annually for inflation). </p>
+        <p>The bill also would preempt state regulations that are inconsistent with a new program to test 
+            pipeline safety. CBO estimates that <intergovernmentalMandate>the aggregate cost of the mandates on public entities 
+            would fall below the annual threshold established in UMRA for intergovernmental mandates</intergovernmentalMandate> 
+            ($82 million in 2019, adjusted annually for inflation). </p>
+        <textLevel>
+            <heading>Mandate on Private Entities</heading>
+            <p>The bill would impose mandates on private pipeline operators by imposing new liquid natural gas (LNG) facility fees. S. 2299 would impose a new LNG facility fee on applications for liquid natural gas facilities whose design and construction costs exceed $2.5 billion. The fee would cover the Department’s cost to review applications, and once fully implemented, the fee would impose a cost of about $1 million each year on new LNG facilities.</p>
+            <p>The bill would impose new safety standards on distribution systems and facilities. These standards would require operators to:</p>
+            <list>
+                <listItem><num>●</num><listContent>Assess the factors that would make operating a low-pressure system connected to low-pressure burning equipment unsafe,</listContent></listItem>
+                <listItem><num>●</num><listContent>Develop written emergency response plans to communicate rapidly with customers during emergencies, and</listContent></listItem>
+                <listItem><num>●</num><listContent>Have a qualified individual monitor gas pressure during construction projects and shutoff the flow of gas if necessary.</listContent></listItem>
+            </list>
+            <p>Because those new safety standards extend standards already in place under current law, CBO estimates that the aggregate cost of complying with the new requirements would be small.</p>
+            <p>The bill also would require operators of large-scale LNG facilities to meet new minimum operating and maintenance standards as directed under the bill. Because the standards have not yet been established by PHMSA, CBO cannot estimate the cost of the mandate.</p>
+            <p>Finally, the bill would require the proposed rules published in the Federal Register on April 8, 2016, entitled “Pipeline Safety: Safety of Gas Transmission and Gathering Pipelines,” to be completed and published. Using information from PHMSA, CBO estimates the cost for operators to comply with these rules would be roughly $45 million each year.</p>
+        </textLevel>
+        <textLevel>
+            <heading>Mandate on Public Entities</heading>
+            <p>The bill would preempt state regulations that are inconsistent with a program that would 
+                permit the Secretary of Transportation to carry out a limited number of testing programs to 
+                improve the safety of natural gas and hazardous liquid gas pipeline facilities. Before the 
+                department establishes a testing program, a state could request an exemption from the 
+                Secretary, which must be granted under the bill. Under UMRA, preempting state laws or requiring an entity to take affirmative action to avoid a new duty imposes a mandate on the 
+                entity. CBO estimates the cost to comply with the mandate would be very small because of 
+                the limited scope of the program. </p>
+        </textLevel>    
+    </mandates>
+    <textLevel><heading>Other Effects</heading>
+        <p>The federal pipeline safety program is administered by PHMSA unless a state has requested 
+            and been granted the authority to administer the program within its boundaries. Only Alaska 
+            and Hawaii rely on PHMSA to regulate pipeline safety. </p>
+        <p>State regulatory agencies in the remaining 48 states conduct pipeline inspections and enforce 
+            federal safety rules; provisions in the bill would increase the regulatory burden on those 
+            states by adding to their oversight and review activities. Under current law, PHMSA 
+            provides grants to states to reimburse up to 80 percent of the total cost of conducting their 
+            regulatory activities during a calendar year. Increasing the regulatory burden would increase 
+            the financial burden on states, however, states incur those costs as a condition of voluntarily 
+            overseeing the pipeline safety and underground storage program.</p></textLevel>
+    <textLevel><!-- level 1 -->
+    <heading>Estimate Prepared By</heading>
+    <p>Federal Costs: <analyst>Aaron Krupkin</analyst></p>
+    <p>Mandates: <analyst>Brandon Lever</analyst></p>
+    </textLevel>
+    <textLevel><!-- level 1 -->
+    <heading>Estimate Reviewed By</heading>
+        <p>Kim P. Cawley</p> <p>Chief, Natural and Physical Resources Cost Estimates Unit</p>
+        <p>Susan Willie</p> <p>Chief, Mandates Unit</p>
+        <p>H. Samuel Papenfuss</p> <p>Deputy Assistant Director for Budget Analysis  </p>
+    </textLevel>
+</cboCostEstimate>
+</cboReport>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<legislativeReport  xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:uslm="http://schemas.gpo.gov/xml/uslm"
+    xsi:schemaLocation="http://schemas.gpo.gov/xml/uslm https://www.govinfo.gov/schemas/xml/uslm/uslm-2.1.2.xsd" xml:lang="en">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for legislative reports. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <reportMeta>
+        <dc:title>S. Rept. 119-74: NATIONAL EARTHQUAKE HAZARDS REDUCTION PROGRAM REAUTHORIZATION ACT OF 2025</dc:title>
+        <dc:date>2024-10-14</dc:date>
+        <dc:type>Senate Legislative Report</dc:type>
+        <docNumber>74</docNumber>
+        <congress>119</congress>
+        <session>1</session>
+        <citableAs>S. Rept. 119-74</citableAs>
+        <citableAs>Senate Report 119-74</citableAs>
+        <citableAs>CRPT-119srpt74</citableAs>
+        <committee>Committee on Commerce, Science, and Transportation</committee>
+        <currentChamber>Senate</currentChamber>
+        <genre>legislative</genre>
+        <cboCostEstimateLine>Y</cboCostEstimateLine>
+        <cboMeta>
+            <date>2026-02-06</date><!-- This is the publication date of the CBO cost estimate -->
+            <dc:type>CBO Cost Estimate</dc:type>
+            <docNumber>62098</docNumber>
+            <dc:title>CBO Cost Estimate 62098: H.R. 5301, PIPES Act of 2025 as ordered reported by the House Committee on Transportation and Infrastructure on September 17, 2025</dc:title>        
+            <citableAs>CBO Cost Estimate 62098</citableAs>
+            <citableAs>https://www.cbo.gov/publication/62098</citableAs>
+            <about>H.R. 5301, PIPES Act of 2025 as ordered reported by the House Committee on Transportation and Infrastructure on September 17, 2025</about>
+            <about>119hr5301</about>
+            <about>119hr5301RH</about>
+            <cboBillStatus>as ordered reported</cboBillStatus>
+            <cboEstimateForm>long</cboEstimateForm>
+            <congress>119</congress>
+            <session>1</session>
+            <committee>House Committee on Transportation and Infrastructure</committee>
+            <currentChamber>House</currentChamber>
+            <relatedDocument href="https://www.cbo.gov/publication/62027">CBO Cost Estimate 62027: S. 2975, the PIPELINE Safety Act of 2025, as ordered reported by the Senate Committee on Commerce, Science, and Transportation on October 21, 2025.</relatedDocument>
+            <longTermDirectSpending>between -$500,000 and $500,000</longTermDirectSpending>
+            <longTermDeficit>No</longTermDeficit>
+            <intergovernmentalMandate>No</intergovernmentalMandate>
+            <privateSectorMandate>Yes, Over Threshold</privateSectorMandate>
+            <payGo>Yes</payGo>
+            <dc:format>text/xml</dc:format>
+            <dc:language>EN</dc:language>
+            <dc:rights>The information and documents on CBO’s website are not copyrighted. CBO’s products are created by our employees in the course of their employment at CBO and are therefore works of the government. Government documents are in the public domain and are not protected by copyright law.</dc:rights>
+            <dc:creator>Congressional Budget Office</dc:creator>
+            <dc:publisher>Congressional Budget Office</dc:publisher>
+        </cboMeta>
+        <accompanies>119s320</accompanies>
+        <relatedDocument href="https://www.cbo.gov/publication/62098">CBO Cost Estimate 62098: H.R. 5301, PIPES Act of 2025 as ordered reported by the House Committee on Transportation and Infrastructure on September 17, 2025</relatedDocument>
+        <dc:language>EN</dc:language>
+        <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+        <dc:creator>Senate Committee on Commerce, Science, and Transportation</dc:creator>
+        <dc:publisher>Government Publishing Office</dc:publisher>
+    </reportMeta>
+    <reportPreface> 
+        <layout class="reportHeader">
+            <row><column class="topLeft"><congress>119th Congress</congress></column><column rowspan="2" class="leftBracket">}</column>
+                <column rowspan="2" class="middle"><currentChamber>SENATE</currentChamber></column>
+                <column rowspan="2" class="rightBracket">{</column><column class="topRight smallCaps"><dc:type>Report</dc:type></column></row>
+            <row><column class="bottomLeft italic"><session>1st Session</session></column><column class="bottomRight"><docNumber>119–74</docNumber></column></row>
+        </layout>
+        <reportTitle>NATIONAL EARTHQUAKE HAZARDS REDUCTION PROGRAM REAUTHORIZATION ACT OF 2025</reportTitle>
+        <action><date date="2025-10-14">October 14, 2025.—</date><actionDescription class="inline">Ordered to be printed</actionDescription></action>
+        <action><actionDescription><sponsor bioGuideId="YYY">Mr. Cruz</sponsor>, from the <committee>Committee on Commerce, Science, and Transportation</committee>, submitted the following
+<longTitle><docTitle>R E P O R T</docTitle>
+<accompanies>[To accompany <affected><dc:type>S.</dc:type> <docNumber>320</docNumber></affected>]</accompanies>
+<cboCostEstimateLine value="Y">[Including cost estimate of the Congressional Budget Office]</cboCostEstimateLine></longTitle>
+</actionDescription></action>
+</reportPreface>
+    <reportMain> 
+        <recommendation>The Committee on Commerce, Science, and Transportation, to 
+            which was referred the bill (S. 320) to reauthorize the Earthquake 
+            Hazards Reduction Act of 1977, and for other purposes, having considered the same, reports favorably thereon with an amendment in 
+            the nature of a substitute and recommends that the bill, as amended, do pass. </recommendation>
+        <segment role="purpose">
+            <heading class="smallCaps">Purpose of the Bill</heading>
+            <p> The purpose of S. 320 is to reauthorize the Earthquake Hazards 
+                Reduction Act and to expand the responsibilities of the U.S. Geological Survey (USGS) to improve earthquake monitoring and early 
+                warning capabilities.</p>
+        </segment>
+        <segment>
+            <heading class="smallCaps">Background and Needs</heading>
+            <p> The National Earthquake Hazards Reduction Program (NEHRP or Program) is a multi-disciplinary and interagency program created under the Earthquake Hazards Reduction Act of 1977 
+                (EHRA). It was created to facilitate Federal, State, local, and private research, planning, decision-making, and mitigation efforts related to seismic activity. </p>
+            <p> Four agencies contribute to the NEHRP, each with distinct responsibilities: the National Institute of Standards and Technology (NIST) leads the Program and manages NEHRP planning and coordination; the Federal Emergency Management Agency (FEMA) 
+                promotes the implementation of research findings, best practices, 
+                and earthquake preparedness, response, and public awareness efforts; the National Science Foundation (NSF) funds seismology and 
+                geological research; and the USGS delivers earthquake monitoring 
+                and notification services, conducts post-earthquake investigations, 
+                and performs related research.  </p>
+            <p> A FEMA/USGS report published in 2023 estimated the total economic exposure to earthquake losses at $107.8 trillion annually.</p>
+        </segment>
+        <segment>
+            <heading class="smallCaps">Summary of Provisions</heading>
+            <p> S. 320 would do the following:</p>
+            <list>
+                <listItem><num>• </num><listContent>Expand the scope of earthquake-related hazards to include 
+                tsunamis caused by earthquakes</listContent></listItem>
+                <listItem><num>• </num><listContent>Direct the Program to coordinate with the National Oceanic 
+                and Atmospheric Administration (NOAA) and FEMA to support timely responses, and consult with the Federal Communications Commission (FCC) to improve alerting systems.</listContent></listItem>
+                <listItem><num>• </num><listContent>Direct State and local entities to inventory high-risk buildings 
+                and structures. </listContent></listItem>
+                <listItem><num>• </num><listContent>Authorize appropriations for FEMA, USGS, NSF, and NIST.  </listContent></listItem>
+            </list>
+        </segment>
+        <segment role="legislativeHistory">
+            <heading class="smallCaps">Legislative History</heading>
+            <p>S. 320, the National Earthquake Hazards Reduction Program Reauthorization
+            Act of 2025, was introduced on January 29, 2025, by
+            Senator Padilla (for himself and Senator Murkowski) and was referred
+            to the Committee on Commerce, Science, and Transportation
+            of the Senate. On April 30, 2025, the Committee met in open Executive
+            Session and, by voice vote, ordered S. 320 reported favorably
+            with an amendment (in the nature of a substitute).</p>
+        </segment>
+        <segment><p><elided>* * * * * </elided></p></segment>
+        <estimatedCosts>
+            <heading class="smallCaps">Estimated Costs</heading>
+            <p> In accordance with paragraph 11(a) of rule XXVI of the Standing 
+                Rules of the Senate and section 403 of the Congressional Budget 
+                Act of 1974, the Committee provides the following cost estimate, 
+                prepared by the Congressional Budget Office:</p>
+            <cboCostEstimate><cboAtAGlance>
+                    <block class="cboHeader">
+                        <heading>At a Glance</heading>
+                        <about><dc:type>H.R. </dc:type> <docNumber>5301</docNumber>, <shortTitle>PIPES Act of 2025</shortTitle>
+                            <br/><cboBillStatus>As ordered reported</cboBillStatus> by the <committee>House Committee on Transportation and Infrastructure</committee> on <date date="2025-09-17">September 17, 2025</date></about>
+                    </block>
+                    <xhtml:table  style="border-collapse:collapse;" class="fullWidth">
+                        <xhtml:colgroup>
+                            <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                        </xhtml:colgroup>
+                        <xhtml:tfoot style="border-bottom: 1px solid black;border-top: 1px solid black;background-color:#D9D9D9;">
+                            <xhtml:tr><xhtml:td colspan="4" class="leftAlign">* = between -$500,000 and $500,000.</xhtml:td></xhtml:tr>
+                        </xhtml:tfoot>
+                        <xhtml:tbody><xhtml:tr style="border-top: 1px solid black;"><xhtml:th>By Fiscal Year, Millions of Dollars</xhtml:th>
+                                <xhtml:td class="rightAlign">2026</xhtml:td><xhtml:td class="rightAlign">2026-2030</xhtml:td><xhtml:td class="rightAlign">2026-2035</xhtml:td></xhtml:tr>
+                            <xhtml:tr><xhtml:th>Direct Spending (Outlays)</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td></xhtml:tr>
+                            <xhtml:tr><xhtml:th>Revenues</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">1</xhtml:td></xhtml:tr>
+                            <xhtml:tr><xhtml:th>Increase or Decrease (-) in the Deficit</xhtml:th><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">*</xhtml:td><xhtml:td class="rightAlign">-1</xhtml:td></xhtml:tr>
+                            <xhtml:tr><xhtml:th>Spending Subject to Appropriation (Outlays)</xhtml:th>
+                                <xhtml:td class="rightAlign">-76</xhtml:td><xhtml:td class="rightAlign">323</xhtml:td><xhtml:td class="rightAlign">not estimated</xhtml:td></xhtml:tr>
+                            <xhtml:tr style="border-top: 1px solid black;background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>net direct spending</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDirectSpending>*</uslm:longTermDirectSpending></xhtml:td><xhtml:td class="leftAlign"  style="border-bottom: 1px solid black;">Statutory pay-as-you-go procedures apply?</xhtml:td><xhtml:td class="centered" style="border-bottom: 1px solid black;"><uslm:payGo>Yes</uslm:payGo></xhtml:td></xhtml:tr>
+                            <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td colspan="2" class="centered bold">Mandate Effects</xhtml:td></xhtml:tr>
+                            <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>on-budget deficits</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDeficit>No</uslm:longTermDeficit></xhtml:td><xhtml:td class="leftAlign">Contains intergovernmental mandate?</xhtml:td><xhtml:td class="centered"><uslm:intergovernmentalMandate>No</uslm:intergovernmentalMandate></xhtml:td></xhtml:tr>
+                            <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td class="leftAlign">Contains private-sector mandate?</xhtml:td>
+                                <xhtml:td class="centered"><uslm:privateSectorMandate>Yes, Over Threshold</uslm:privateSectorMandate></xhtml:td></xhtml:tr></xhtml:tbody>
+                    </xhtml:table>
+                    <list><listHeading class="bold leftAlign">The bill would</listHeading>
+                        <listItem><num>• </num><listContent>Reauthorize programs managed by the Pipeline and Hazardous Materials Safety Administration (PHMSA) through 2029</listContent></listItem>
+                        <listItem><num>• </num><listContent>Require PHMSA to conduct regulatory and inspection activities and make grants</listContent></listItem>
+                        <listItem><num>• </num><listContent>Increase the maximum civil penalty for violating certain requirements related to pipeline safety</listContent></listItem>
+                        <listItem><num>• </num><listContent>Impose private-sector mandates by reauthorizing user fees and authorizing new or revised safety regulations</listContent></listItem></list>
+                    
+                    <list><listHeading class="bold leftAlign">Estimated budgetary effects would mainly stem from</listHeading>
+                        <listItem><num>• </num><listContent>Authorizing appropriations for PHMSA programs through 2029</listContent></listItem>
+                        <listItem><num>• </num><listContent>Authorizing PHMSA to collect pipeline safety and natural gas storage facility fees</listContent></listItem>
+                        <listItem><num>• </num><listContent>Increasing collections of civil and criminal penalties</listContent></listItem></list>
+                    <list><listHeading class="bold leftAlign">Areas of significant uncertainty include</listHeading>
+                        <listItem><num>• </num><listContent>Projecting the frequency and severity of pipeline violations</listContent></listItem>
+                        <listItem><num>• </num><listContent>Predicting the deterrent effect of larger civil and criminal penalties</listContent></listItem></list>
+            </cboAtAGlance>
+                <p> S. 320 would amend the Earthquake Hazards Reduction Act of 
+                    1977 to make changes to the National Earthquake Hazards Reduction Program, an interagency program focused on reducing earthquake-related risks to life and property. S. 320 also would authorize appropriations of $161 million annually for fiscal years 2025 
+                    through 2028 for the U.S. Geological Survey, the Federal Emergency Management Agency, the National Science Foundation, and 
+                    the National Institute of Standards and Technology to implement 
+                    the program.</p>
+                <p> Additionally, the bill would require the agencies to develop best 
+                    practices to assist state, local, and tribal governments with creating 
+                    inventories of critical buildings and structures, and with developing 
+                    evacuation plans and expanding early warning systems. The agencies also would be required to report to the Congress every two 
+                    years about activities related to the program.</p>
+                <p> CBO assumes that the bill will be enacted near the end of fiscal 
+                    year 2025 and that the authorized amounts will be provided for 
+                    each year beginning in 2025. In 2024, the agencies allocated $164 
+                    million for the program from funds provided in the appropriation 
+                    acts for that year. Based on historical spending patterns, CBO estimates that reauthorizing the program would cost $596 million over 
+                    the 2025–2030 period and $29 million after 2030, assuming appropriation of the authorized amounts. </p>
+                <p> The costs of the legislation, detailed in Table 1, fall within budget functions 250 (general science, space, and technology), 300 (natural resources and environment), 370 (commerce and housing credit), and 450 (community and regional development). </p>
+                <figure><xhtml:img alt="scan of results" src="s320-cbo-table1.png" width="900"/></figure>
+                <p>The CBO staff contacts for this estimate are David Hughes 
+                    (for federal costs) and Rachel Austin (for mandates). The 
+                    estimate was reviewed by H. Samuel Papenfuss, Deputy Director 
+                    of Budget Analysis.</p>
+                <signature>
+                    <name class="smallCaps">Phillip L. Swagel,</name>
+                    <role class="italic">Director, </role><affiliation class="italic">Congressional Budget Office.</affiliation>
+                </signature>
+</cboCostEstimate>
+        </estimatedCosts>
+        <segment><heading>REGULATORY IMPACT STATEMENT</heading>
+            <p>In accordance with paragraph 11(b) of rule XXVI of the Standing
+            Rules of the Senate, the Committee provides the following evaluation
+            of the regulatory impact of the legislation, as reported:</p>
+            
+            </segment>
+        <segment><p><elided>* * * * * </elided></p></segment>
+    </reportMain>
+    <endMarker>○</endMarker>
+</legislativeReport>

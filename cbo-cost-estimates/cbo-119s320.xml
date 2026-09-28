@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="legislativeReport.css"?>
+<cboReport xmlns="http://schemas.gpo.gov/xml/uslm" xmlns:uslm="http://schemas.gpo.gov/xml/uslm" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <!-- This is sample content for the purposes of illustrating the elements used in USLM for CBO Cost Estimates. This file should not be used
+            for any other purposes as it is incomplete and may not be accurate. -->
+    <cboMeta>
+        <date>2025-06-24</date><!-- This is the publication date of the CBO cost estimate -->
+        <docNumber>61513</docNumber>
+        <congress>119</congress>
+        <committee>Senate Committee on Commerce, Science, and Transportation</committee>
+        <dc:type>CBO Cost Estimate</dc:type>
+        <dc:title>CBO Cost Estimate 61513: S. 320, National Earthquake Hazard Reduction Program Reauthorization Act of 2025 as ordered reported by the Senate Committee on Commerce, Science, and Transportation on April 30, 2025</dc:title>
+        <citableAs>CBO Cost Estimate 61513</citableAs>
+        <citableAs>https://www.cbo.gov/publication/61513</citableAs>
+        <about>S. 320, National Earthquake Hazard Reduction Program Reauthorization Act of 2025 as ordered reported by the Senate Committee on Commerce, Science, and Transportation on April 30, 2025</about>
+        <about>119s320</about>
+        <cboBillStatus>as ordered reported</cboBillStatus>
+        <cboEstimateForm>short</cboEstimateForm>
+        <session>1</session>
+        <currentChamber>Senate</currentChamber>
+        <longTermDirectSpending>No</longTermDirectSpending>
+        <longTermDeficit>No</longTermDeficit>
+        <intergovernmentalMandate>No</intergovernmentalMandate>
+        <privateSectorMandate>No</privateSectorMandate>
+        <payGo>No</payGo>
+        <dc:format>text/xml</dc:format>
+        <dc:language>EN</dc:language>
+        <dc:rights>The information and documents on CBO’s website are not copyrighted. CBO’s products are created by our employees in the course of their employment at CBO and are therefore works of the government. Government documents are in the public domain and are not protected by copyright law.</dc:rights>
+        <dc:creator>Congressional Budget Office</dc:creator>
+        <dc:publisher>Congressional Budget Office</dc:publisher>
+    </cboMeta>
+    <cboPreface>
+        <date date="2025-06-24">June 24, 2025</date>
+        <heading>Congressional Budget Office</heading>
+        <subheading>Cost Estimate</subheading>
+    </cboPreface>
+<cboCostEstimate>
+    <cboAtAGlance>
+        <block class="cboHeader">
+            <about><dc:type>S. </dc:type> <docNumber>320</docNumber>, <officialTitle>National Earthquake Hazard Reduction Program Reauthorization Act of 2025</officialTitle><br/>
+                <cboBillStatus>As ordered reported</cboBillStatus> by the <committee>Senate Committee on Commerce, Science, and Transportation</committee> on <date date="2025-04-30">April 30, 2025</date></about>
+            </block>
+        <xhtml:table  style="border-collapse:collapse;" class="fullWidth">
+            <xhtml:colgroup>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+            </xhtml:colgroup>
+            <xhtml:tbody><xhtml:tr style="border-top: 1px solid black;"><xhtml:th>By Fiscal Year, Millions of Dollars</xhtml:th>
+                    <xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">2025</xhtml:td><xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">2025-2030</xhtml:td><xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">2025-2035</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Direct Spending (Outlays)</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">0</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Revenues</xhtml:th><xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">0</xhtml:td>
+                    <xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">0</xhtml:td><xhtml:td class="rightAlign" style="border-bottom: 1px solid black;">0</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Increase or Decrease (-) in the Deficit</xhtml:th><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">0</xhtml:td><xhtml:td class="rightAlign">0</xhtml:td></xhtml:tr>
+                <xhtml:tr><xhtml:th>Spending Subject to Appropriation (Outlays)</xhtml:th>
+                <xhtml:td class="rightAlign">20</xhtml:td><xhtml:td class="rightAlign">596</xhtml:td><xhtml:td class="rightAlign">625</xhtml:td></xhtml:tr>
+                <xhtml:tr style="border-top: 1px solid black;background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>net direct spending</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDirectSpending>No</uslm:longTermDirectSpending></xhtml:td><xhtml:td class="leftAlign"  style="border-bottom: 1px solid black; border-right: 1px solid black;">Statutory pay-as-you-go procedures apply?</xhtml:td><xhtml:td class="centered" style="border-bottom: 1px solid black;"><uslm:payGo>No</uslm:payGo></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td colspan="2" class="centered bold">Mandate Effects</xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td rowspan="2" class="leftAlign">Increases <uslm:i>on-budget deficits</uslm:i> in any of the four consecutive 10-year periods beginning in 2036?</xhtml:td><xhtml:td rowspan="2" class="centered" style="border-right: 1px solid black;"><uslm:longTermDeficit>No</uslm:longTermDeficit></xhtml:td><xhtml:td class="leftAlign">Contains intergovernmental mandate?</xhtml:td><xhtml:td class="centered"><uslm:intergovernmentalMandate>No</uslm:intergovernmentalMandate></xhtml:td></xhtml:tr>
+                <xhtml:tr style="background-color:#D9D9D9;"><xhtml:td class="leftAlign">Contains private-sector mandate?</xhtml:td>
+                <xhtml:td class="centered"><uslm:privateSectorMandate>No</uslm:privateSectorMandate></xhtml:td></xhtml:tr></xhtml:tbody>
+        </xhtml:table>
+    </cboAtAGlance>
+    <cboBillSummary>
+        <p>S. 320 would amend the Earthquake Hazards Reduction Act of 1977 to make changes to the National Earthquake Hazards Reduction Program, an interagency program focused on reducing earthquake-related risks to life and property. S. 320 also would authorize appropriations of $161 million annually for fiscal years 2025 through 2028 for the U.S. Geological Survey, the Federal Emergency Management Agency, the National Science Foundation, and the National Institute of Standards and Technology to implement the program.</p>
+    <p>Additionally, the bill would require the agencies to develop best practices to assist state, local, and tribal governments with creating inventories of critical buildings and structures, and with developing evacuation plans and expanding early warning systems. The agencies also would be required to report to the Congress every two years about activities related to the program.</p>
+    </cboBillSummary>
+    <basisOfEstimate>
+    <p>CBO assumes that the bill will be enacted near the end of fiscal year 2025 and that the authorized amounts will be provided for each year beginning in 2025. In 2024, the agencies allocated $164 million for the program from funds provided in the appropriation acts for that year. Based on historical spending patterns, CBO estimates that reauthorizing the program would cost $596 million over the 2025-2030 period and $29 million after 2030, assuming appropriation of the authorized amounts.</p>
+    </basisOfEstimate>
+    <estimatedFederalCost>
+        <p>The costs of the legislation, detailed in <ref idref="table-1-0">Table 1</ref>, fall within budget functions 250 (general science, space, and technology), 300 (natural resources and environment), 370 (commerce and housing credit), and 450 (community and regional development).</p>
+        <table id="table-1-0" class="fullWidth" style="border-collapse:collapse;border-bottom:1px solid black;" xmlns="http://www.w3.org/1999/xhtml">
+            <caption class="bold" style="background-color: #DEEAF6;border-top:1px solid black;"><uslm:p>Table 1.</uslm:p>
+                <uslm:p>Estimated Increases in Spending Subject to Appropriation Under S. 320</uslm:p></caption>
+            <xhtml:colgroup>
+                <xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/><xhtml:col/>
+                <xhtml:col/><xhtml:col/><xhtml:col  style="background-color:#D9D9D9;"/>
+            </xhtml:colgroup>
+            <thead>
+                <tr><td valign="bottom">&#xa0;</td><td colspan="6" valign="bottom" class="bold centered">By Fiscal Year, Millions of Dollars</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom">&#xa0;</td><td valign="bottom" style="border-bottom: 1px solid black;">2025</td><td valign="bottom" style="border-bottom: 1px solid black;">2026</td><td valign="bottom" style="border-bottom: 1px solid black;">2027</td><td valign="bottom" style="border-bottom: 1px solid black;">2028</td><td valign="bottom" style="border-bottom: 1px solid black;">2029</td><td valign="bottom" style="border-bottom: 1px solid black;">2030</td><td valign="bottom" style="border-bottom: 1px solid black;">2025-2030</td></tr>
+            </thead>
+            <tbody>
+                <tr><td valign="bottom" class="bold">U.S. Geological Survey</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom">Authorization</td><td valign="bottom">92</td><td valign="bottom">92</td><td valign="bottom">92</td><td valign="bottom">92</td><td valign="bottom">0</td><td valign="bottom">0</td><td valign="bottom">368</td></tr>
+                <tr><td valign="bottom">Estimated Outlays</td><td valign="bottom">17</td><td valign="bottom">137</td><td valign="bottom">90</td><td valign="bottom">89</td><td valign="bottom">23</td><td valign="bottom">3</td><td valign="bottom">359</td></tr>
+                <tr><td valign="bottom"></td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom" class="bold">National Science Foundation</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom">Authorization</td><td valign="bottom">54</td><td valign="bottom">54</td><td valign="bottom">54</td><td valign="bottom">54</td><td valign="bottom">0</td><td valign="bottom">0</td><td valign="bottom">216</td></tr>
+                <tr><td valign="bottom">Estimated Outlays</td><td valign="bottom">2</td><td valign="bottom">30</td><td valign="bottom">39</td><td valign="bottom">46</td><td valign="bottom">43</td><td valign="bottom">26</td><td valign="bottom">186</td></tr>
+                <tr><td valign="bottom"></td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom"><uslm:b>Federal Emergency Management Agency</uslm:b></td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom">Authorization</td><td valign="bottom">9</td><td valign="bottom">9</td><td valign="bottom">9</td><td valign="bottom">9</td><td valign="bottom">0</td><td valign="bottom">0</td><td valign="bottom">36</td></tr>
+                <tr><td valign="bottom">Estimated Outlays</td><td valign="bottom">*</td><td valign="bottom">4</td><td valign="bottom">5</td><td valign="bottom">7</td><td valign="bottom">7</td><td valign="bottom">5</td><td valign="bottom">28</td></tr>
+                <tr><td valign="bottom"></td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom"><uslm:b>National Institute of Standards and Technology</uslm:b></td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom">Authorization</td><td valign="bottom">6</td><td valign="bottom">6</td><td valign="bottom">6</td><td valign="bottom">6</td><td valign="bottom">0</td><td valign="bottom">0</td><td valign="bottom">24</td></tr>
+                <tr><td valign="bottom">Estimated Outlays</td><td valign="bottom">1</td><td valign="bottom">9</td><td valign="bottom">6</td><td valign="bottom">6</td><td valign="bottom">1</td><td valign="bottom">0</td><td valign="bottom">23</td></tr>
+                <tr><td valign="bottom"></td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom" class="bold">Total Changes</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td><td valign="bottom">&#xa0;</td></tr>
+                <tr><td valign="bottom">Authorization</td><td valign="bottom">161</td><td valign="bottom">161</td><td valign="bottom">161</td><td valign="bottom">161</td><td valign="bottom">0</td><td valign="bottom">0</td><td valign="bottom">644</td></tr>
+                <tr><td valign="bottom">Estimated Outlays</td><td valign="bottom">20</td><td valign="bottom">180</td><td valign="bottom">140</td><td valign="bottom">148</td><td valign="bottom">74</td><td valign="bottom">34</td><td valign="bottom">596</td></tr>
+                <tr><td colspan="8" valign="top">* = between zero and $500,000.</td></tr></tbody></table>
+    </estimatedFederalCost>
+    <textLevel>
+        <p>The CBO staff contact for this estimate is Kelly Durand. The estimate was reviewed by H. Samuel Papenfuss, Deputy Director of Budget Analysis.</p>
+    </textLevel>
+    <signature>
+        <autograph><!-- wet signature scan --></autograph>
+        <name>Phillip L. Swagel</name>
+        <role>Director, </role><affiliation>Congressional Budget Office</affiliation>
+    </signature>
+</cboCostEstimate>
+</cboReport>

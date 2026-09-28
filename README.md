@@ -1,3 +1,5 @@
+>Version 2.1.2 of the schema, the schema review guide, updated CSS, and sample files for CBO cost estimates (within committee legislative reports and standalone) are available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed/cbo-estimates). Please refer to [CHANGELOG.md](CHANGELOG.md) for a summary of proposed changes.  
+>
 >Version 2.1.1 of the schema, the schema review guide, updated CSS, and sample files for committee legislative reports and conference reports are available in the [proposed branch](https://github.com/usgpo/uslm/tree/proposed/legislative-and-conference-reports). Please refer to [CHANGELOG.md](CHANGELOG.md) for a summary of proposed changes.  
 >
 >Versions 2.0.14, 2.0.15, 2.0.16, 2.0.17, and 2.1.0 of the schema are available in the [main branch](https://github.com/usgpo/uslm/tree/main). 
