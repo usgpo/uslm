@@ -782,7 +782,7 @@ Examples:
 
 - /us/usc/t5/s1/a.htm - the current version of subsection (a) of section 1 of title 5, rendered as HTML.
 
-- https://uscode.house.gov/download/us/usc/t5/main/s1/a.htm the current version of subsection (a) of section 1 of title 5, rendered as HTML and delivered from http://uscode.house.gov/download.
+- https://uscode.house.gov/download/us/usc/t5/main/s1/a.htm the current version of subsection (a) of section 1 of title 5, rendered as HTML and delivered from https://uscode.house.gov.
 
 Notes:
 
@@ -959,11 +959,11 @@ The United States Code is prepared and published by the Office of the Law Revisi
 
 The Office of the Law Revision Counsel also produces an online HTML version of the United States Code for searching and browsing (https://uscode.house.gov/). The online HTML version of the United States Code is updated continuously as new laws are enacted.
 
-The Office of the Law Revision Counsel also produces (beginning July 30, 2013) an XML version of the United States Code for download (https://uscode.house.gov/download/download.shtml). The XML version is updated continuously as new laws are enacted.
+The Office of the Law Revision Counsel also produces (beginning July 30, 2013) an XML version of the United States Code for download (https://uscode.house.gov/download.html). The XML version is updated continuously as new laws are enacted.
 
 ## 16.2 Bulk Data Downloads of XML Files
 ### 16.2.1 Directory Structure
-The download directory (https://uscode.house.gov/download/download.shtml) contains one XML file for each title of the United States Code and a zip file for the entire Code. The directory also includes the XML schema files required for XML validation. A CSS stylesheet is provided for convenience. The CSS stylesheet is informational only and is not part of the United States Code.
+The download directory (https://uscode.house.gov/download.html) contains one XML file for each title of the United States Code and a zip file for the entire Code. The directory also includes the XML schema files required for XML validation. A CSS stylesheet is provided for convenience. The CSS stylesheet is informational only and is not part of the United States Code.
 
 ### 16.2.2 Download Protocols
 Bulk download is supported via HTTP protocols.
