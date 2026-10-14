@@ -108,7 +108,7 @@ The USLM schema was first developed in 2013 by the Office of the Law
 Revision Counsel of the U.S. House of Representatives (OLRC) in order to
 produce the United States Code in XML. Since 2013, the OLRC regularly
 produces a USLM version of the United States Code for download at
-<http://uscode.house.gov/download/download.shtml>. The USLM version of
+<https://uscode.house.gov/download.html>. The USLM version of
 the U.S. Code is updated continuously as new laws are enacted.
 
 The original goals of the USLM schema included:
@@ -149,7 +149,7 @@ User documentation for the 1.0 version of the schema can be found at
 <https://github.com/usgpo/uslm/blob/master/USLM-User-Guide.md>.
 
 The XSD schema and CSS stylesheets for online viewing can be downloaded
-at: <http://uscode.house.gov/download/resources/schemaandcss.zip> and
+at: <https://uscode.house.gov/download/resources/schemaandcss.zip> and
 <https://github.com/usgpo/uslm>. Note that the CSS stylesheet is
 informational only. It produces a draft view of the documents.
 
